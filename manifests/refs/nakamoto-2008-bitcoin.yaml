@@ -1,0 +1,76 @@
+paper: nakamoto-2008-bitcoin
+style: bracket
+entries:
+    - key: "1"
+      raw: W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.
+      authors:
+        - W. Dai
+      title: b-money
+      year: 1998
+      url: http://www.weidai.com/bmoney.txt
+      resolves_to: ""
+    - key: "2"
+      raw: H. Massias, X.S. Avila, and J.-J. Quisquater, "Design of a secure timestamping service with minimal trust requirements," In 20th Symposium on Information Theory in the Benelux, May 1999.
+      authors:
+        - H. Massias
+        - X.S. Avila
+        - J.-J. Quisquater
+      title: Design of a secure timestamping service with minimal trust requirements
+      venue: In 20th Symposium on Information Theory in the Benelux
+      year: 1999
+      resolves_to: ""
+    - key: "3"
+      raw: S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no 2, pages 99-111, 1991.
+      authors:
+        - S. Haber
+        - W.S. Stornetta
+      title: How to time-stamp a digital document
+      venue: In Journal of Cryptology, vol 3, no 2, pages 99-111
+      year: 1991
+      pages: 99-111
+      resolves_to: ""
+    - key: "4"
+      raw: 'D. Bayer, S. Haber, W.S. Stornetta, "Improving the efficiency and reliability of digital time-stamping," In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.'
+      authors:
+        - D. Bayer
+        - S. Haber
+        - W.S. Stornetta
+      title: Improving the efficiency and reliability of digital time-stamping
+      venue: 'In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334'
+      year: 1993
+      pages: 329-334
+      resolves_to: ""
+    - key: "5"
+      raw: S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference on Computer and Communications Security, pages 28-35, April 1997.
+      authors:
+        - S. Haber
+        - W.S. Stornetta
+      title: Secure names for bit-strings
+      venue: In Proceedings of the 4th ACM Conference on Computer and Communications Security, pages 28-35
+      year: 1997
+      pages: 28-35
+      resolves_to: ""
+    - key: "6"
+      raw: A. Back, "Hashcash - a denial of service counter-measure," http://www.hashcash.org/papers/hashcash.pdf, 2002.
+      authors:
+        - A. Back
+      title: Hashcash - a denial of service counter-measure
+      year: 2002
+      url: http://www.hashcash.org/papers/hashcash.pdf
+      resolves_to: ""
+    - key: "7"
+      raw: R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
+      authors:
+        - R.C. Merkle
+      title: Protocols for public key cryptosystems
+      venue: In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133
+      year: 1980
+      pages: 122-133
+      resolves_to: ""
+    - key: "8"
+      raw: W. Feller, "An introduction to probability theory and its applications," 1957.
+      authors:
+        - W. Feller
+      title: An introduction to probability theory and its applications
+      year: 1957
+      resolves_to: ""

@@ -1,10 +1,10 @@
 # Resolve
 
-100 papers, 100 resolved, 0 not.
+101 papers, 100 resolved, 1 not.
 
 ## What may be published
 
-11 of these may have their text published, 89 get front matter and a short abstract only, and 0 publish nothing at all.
+11 of these may have their text published, 89 get front matter and a short abstract only, and 1 publish nothing at all.
 The count that the licence work is measured by, public domain plus open, is 3.
 
 | access | papers | what it publishes |
@@ -14,6 +14,24 @@ The count that the licence work is measured by, public domain plus open, is 3.
 | permissive | 8 | the full text, the mathematics and the figures |
 | restricted | 89 | title, authors, year, links and an abstract under 250 words |
 | unknown | 0 | nothing |
+
+## Not resolved
+
+Each of these needs somebody to find the paper and put a url, doi or arxiv line in `manifests/papers.yaml`.
+The near misses are what the services offered and why it was refused.
+
+### hochreiter-1997-lstm
+
+- arxiv offered "Long Short-term Memory RNN" (2021), title 0.969, year +24, authors false: the years are more than a year apart
+- arxiv offered "Long Short-Term Memory Neuron Equalizer" (2020), title 0.913, year +23, authors false: the titles are too different
+- arxiv offered "Long Short-Term Memory Over Tree Structures" (2015), title 0.902, year +18, authors false: the titles are too different
+- arxiv offered "Grid Long Short-Term Memory" (2015), title 0.794, year +18, authors false: the titles are too different
+- arxiv offered "Quantum Long Short-Term Memory" (2020), title 0.775, year +23, authors false: the titles are too different
+- arxiv offered "Fast Weight Long Short-Term Memory" (2018), title 0.761, year +21, authors false: the titles are too different
+- arxiv offered "Lipreading with Long Short-Term Memory" (2016), title 0.758, year +19, authors true: the titles are too different
+- arxiv offered "Associative Long Short-Term Memory" (2016), title 0.754, year +19, authors false: the titles are too different
+- arxiv offered "xLSTM: Extended Long Short-Term Memory" (2024), title 0.744, year +27, authors true: the titles are too different
+- arxiv offered "Parallelizable Stack Long Short-Term Memory" (2019), title 0.533, year +22, authors false: the titles are too different
 
 ## Resolved
 
@@ -31,7 +49,7 @@ The count that the licence work is measured by, public domain plus open, is 3.
 | razborov-1997-naturalproofs | recorded earlier | restricted | none recorded |
 | ford-1956-maxflow | recorded earlier | restricted | none recorded |
 | dijkstra-1959-shortestpath | recorded earlier | restricted | none recorded |
-| hoare-1962-quicksort | pin | restricted | none recorded |
+| hoare-1962-quicksort | recorded earlier | restricted | none recorded |
 | floyd-1962-shortestpath | recorded earlier | restricted | none recorded |
 | cooley-1965-fft | recorded earlier | restricted | none recorded |
 | bloom-1970-filter | recorded earlier | restricted | none recorded |
@@ -119,8 +137,4 @@ The count that the licence work is measured by, public domain plus open, is 3.
 | parnas-1972-modules | recorded earlier | restricted | none recorded |
 | mccabe-1976-complexity | recorded earlier | restricted | none recorded |
 | brooks-1987-nosilverbullet | recorded earlier | restricted | none recorded |
-
-## Resolved, with something to look at
-
-- hoare-1962-quicksort: no licence is recorded anywhere, so it is treated as all rights reserved and publishes front matter and a short abstract only
 
