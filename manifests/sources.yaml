@@ -1,18 +1,474 @@
-# Where each PDF was found, and under what licence.
+# Where each paper was found and what may be published from it.
 #
-# This file is written by `papers resolve` and `papers fetch`, not by hand, with one exception: a `url` and an `access` typed in by a person beats anything an API says, because a person who has looked knows more than a search index.
-#
-# `access` decides what the corpus is allowed to publish for a paper:
-#
-#   public-domain   full text, figures
-#   open            full text, figures
-#   permissive      full text, figures, with attribution
-#   restricted      the bibliographic record and a short abstract, no body text, no figures
-#   unknown         nothing at all
-#
-# A paper missing from this file has no access class, which counts as `unknown`.
-# Audit rule S01 fails the build if any content exists for such a paper, so not having looked publishes nothing.
-#
-# No PDF is committed under any access class.
+# Written by `papers resolve` and `papers fetch`. Hand edits survive a re-run, so a record corrected by a person stays corrected.
+# A paper with no entry here, or with access: unknown, publishes nothing at all.
 
-sources: []
+sources:
+    - id: aho-1975-corasick
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/360825.360855
+      landing: https://dl.acm.org/doi/pdf/10.1145/360825.360855
+    - id: amdahl-1967-law
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/1465482.1465560
+      landing: https://doi.org/10.1145/1465482.1465560
+    - id: astrahan-1976-systemr
+      access: restricted
+      url: https://www.cs.princeton.edu/courses/archive/fall11/cos518/papers/system-R.pdf
+      landing: https://www.cs.princeton.edu/courses/archive/fall11/cos518/papers/system-R.pdf
+    - id: backus-1978-vonneumann
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/359576.359579
+      landing: https://dl.acm.org/doi/pdf/10.1145/359576.359579
+    - id: barham-2003-xen
+      access: restricted
+      url: https://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf
+      landing: https://doi.org/10.1145/945445.945462
+    - id: bayer-1972-btree
+      access: restricted
+      url: https://link.springer.com/content/pdf/10.1007/BF00288683.pdf
+      landing: https://doi.org/10.1007/978-3-642-48354-7_3
+    - id: birrell-1984-rpc
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/2080.357392
+      landing: https://doi.org/10.1145/800217.806609
+    - id: bloom-1970-filter
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/362686.362692
+      landing: https://doi.org/10.1145/362686.362692
+    - id: boncz-2005-x100
+      access: restricted
+      licence: other-oa
+      url: https://ir.cwi.nl/pub/16497
+      landing: https://ir.cwi.nl/pub/16497
+    - id: bosshart-2014-p4
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1312.1719v3
+      landing: https://arxiv.org/abs/1312.1719
+      fetched: "2026-09-11"
+      sha256: 2bb0ccb7b5410868efdecc9ef5208d235c6f3aa75dee84aa992751aed117a42f
+      pages: 8
+      text_layer: digital
+    - id: brin-1998-pagerank
+      access: restricted
+      url: https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
+      landing: https://doi.org/10.1016/s0169-7552(98)00110-x
+    - id: brooks-1987-nosilverbullet
+      access: restricted
+      url: https://www.cs.unc.edu/techreports/86-020.pdf
+      landing: https://www.cs.unc.edu/techreports/86-020.pdf
+    - id: brown-2020-gpt3
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/2005.14165v4
+      landing: https://arxiv.org/abs/2005.14165
+      fetched: "2026-09-11"
+      sha256: 97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83
+      pages: 75
+      text_layer: digital
+    - id: castro-1999-pbft
+      access: permissive
+      licence: CC BY-NC 4.0
+      url: https://dspace.mit.edu/bitstream/1721.1/149920/1/MIT-LCS-TR-817.pdf
+      landing: http://courses.cs.vt.edu/%7Ecs5204/fall05-gback/papers/castro-osdi99.pdf
+    - id: cerf-1974-tcpip
+      access: restricted
+      licence: all rights reserved
+      url: https://www.eecs.umich.edu/courses/eecs589/papers/CerfKahn74.pdf
+      landing: https://doi.org/10.21236/ada634240
+    - id: chang-2006-bigtable
+      access: restricted
+      url: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
+      landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.101.9822
+    - id: chiu-1989-aimd
+      access: restricted
+      url: https://www.cse.wustl.edu/~jain/papers/ftp/aimd.pdf
+      landing: https://doi.org/10.1016/0169-7552(89)90019-6
+    - id: codd-1970-relational
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/362384.362685
+      landing: https://doi.org/10.1145/362384.362685
+    - id: cook-1971-np
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/800157.805047
+      landing: https://doi.org/10.1145/800157.805047
+    - id: cooley-1965-fft
+      access: restricted
+      url: https://web.stanford.edu/class/cme324/classics/cooley-tukey.pdf
+      landing: https://doi.org/10.1090/s0025-5718-1965-0178586-1
+    - id: corbett-2012-spanner
+      access: open
+      licence: USENIX open access
+      url: https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf
+      landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.258.9924
+      fetched: "2026-09-11"
+      sha256: 61875779e75f603d21aefba6d9bd9816d4dd0c18cf41089f43707249e24bbf88
+      pages: 14
+      text_layer: digital
+    - id: cortes-1995-svm
+      access: restricted
+      url: https://link.springer.com/content/pdf/10.1023/A:1022627411411.pdf
+      landing: https://doi.org/10.1023/a:1022627411411
+    - id: cytron-1991-ssa
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/115372.115320
+      landing: https://doi.org/10.1145/115372.115320
+    - id: dageville-2016-snowflake
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/2882903.2903741
+      landing: https://doi.org/10.1145/2882903.2903741
+    - id: dean-2004-mapreduce
+      access: open
+      licence: USENIX open access
+      url: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
+      landing: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
+      fetched: "2026-09-11"
+      sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
+      pages: 13
+      text_layer: digital
+    - id: decandia-2007-dynamo
+      access: restricted
+      url: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+      landing: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+    - id: dennard-1974-scaling
+      access: restricted
+      licence: all rights reserved
+      url: https://www.cs.sfu.ca/~ashriram/Courses/CS7ARCH/papers/dennard-1967.pdf
+      landing: https://doi.org/10.1109/jssc.1974.1050511
+    - id: denning-1968-workingset
+      access: restricted
+      url: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
+      landing: https://doi.org/10.1145/800001.811670
+    - id: deutsch-1984-smalltalk
+      access: restricted
+      url: https://www.cs.tufts.edu/comp/150FP/archive/peter-deutsch/efficient-smalltalk.pdf
+      landing: https://doi.org/10.1145/800017.800542
+    - id: devlin-2018-bert
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1810.04805v2
+      landing: https://arxiv.org/abs/1810.04805
+      fetched: "2026-09-11"
+      sha256: 5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e
+      pages: 16
+      text_layer: digital
+    - id: dewitt-1990-gamma
+      access: restricted
+      licence: all rights reserved
+      url: https://minds.wisconsin.edu/handle/1793/11036
+      landing: https://doi.org/10.1109/69.50905
+    - id: diffie-1976-newdirections
+      access: restricted
+      licence: all rights reserved
+      url: https://ee.stanford.edu/~hellman/publications/24.pdf
+      landing: https://doi.org/10.1109/tit.1976.1055638
+    - id: dijkstra-1959-shortestpath
+      access: restricted
+      url: https://link.springer.com/content/pdf/10.1007/BF01386390.pdf
+      landing: https://doi.org/10.1007/bf01386390
+    - id: dijkstra-1968-the
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/363095.363143
+      landing: https://doi.org/10.1007/978-1-4757-3472-0_3
+    - id: engelbart-1968-augmenting
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/1476589.1476645
+      landing: https://doi.org/10.1145/1476589.1476645
+    - id: floyd-1962-shortestpath
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/367766.368168
+      landing: https://doi.org/10.1145/367766.368168
+    - id: ford-1956-maxflow
+      access: restricted
+      url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5D6E55D3B06C4F7B1043BC1D82D40764/S0008414X00036890a.pdf/div-class-title-maximal-flow-through-a-network-div.pdf
+      landing: https://doi.org/10.4153/cjm-1956-045-5
+    - id: freund-1997-adaboost
+      access: restricted
+      url: https://www.face-rec.org/algorithms/Boosting-Ensemble/decision-theoretic_generalization.pdf
+      landing: https://doi.org/10.1006/jcss.1997.1504
+    - id: gal-2009-tracejit
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/1542476.1542528
+      landing: https://doi.org/10.1145/1543135.1542528
+    - id: ghemawat-2003-gfs
+      access: restricted
+      url: https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+      landing: https://doi.org/10.1145/945445.945450
+    - id: goldwasser-1984-probabilistic
+      access: restricted
+      url: https://www.sciencedirect.com/science/article/pii/0022000084900709
+      landing: https://doi.org/10.1016/0022-0000(84)90070-9
+    - id: goldwasser-1985-zk
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/22145.22178
+      landing: https://doi.org/10.1145/22145.22178
+    - id: goodfellow-2014-gan
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1406.2661v1
+      landing: https://arxiv.org/abs/1406.2661
+      fetched: "2026-09-11"
+      sha256: ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63
+      pages: 9
+      text_layer: digital
+    - id: graefe-1994-volcano
+      access: restricted
+      licence: all rights reserved
+      url: https://people.eecs.berkeley.edu/~prabal/teaching/resources/eecs582/graefe94volcano.pdf
+      landing: https://doi.org/10.1109/69.273032
+    - id: hamming-1950-codes
+      access: restricted
+      url: https://calhoun.nps.edu/bitstreams/0d21de63-5f08-4f42-899d-7ccb9b07980f/download
+      landing: https://doi.org/10.1002/j.1538-7305.1950.tb00463.x
+    - id: he-2016-resnet
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1512.03385v1
+      landing: https://arxiv.org/abs/1512.03385
+      fetched: "2026-09-11"
+      sha256: 1e0651b6810ecba34a3dbc5b5b0209226f889004607c1f203540a48d64e5a93a
+      pages: 12
+      text_layer: digital
+    - id: hoare-1962-quicksort
+      access: restricted
+      url: https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/050010.pdf
+      landing: https://doi.org/10.1093/comjnl/5.1.10
+    - id: hoare-1969-axiomatic
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/363235.363259
+      landing: https://doi.org/10.1145/363235.363259
+    - id: jacobson-1988-congestion
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/52324.52356
+      landing: https://doi.org/10.1145/52324.52356
+    - id: jouppi-1990-victimcache
+      access: restricted
+      url: https://www.cs.cmu.edu/afs/cs/academic/class/15740-s18/www/papers/jouppi90.pdf
+      landing: https://doi.org/10.1145/325164.325162
+    - id: jouppi-2017-tpu
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1704.04760v1
+      landing: https://arxiv.org/abs/1704.04760
+      fetched: "2026-09-11"
+      sha256: 19793e4ae1486630ac45a12facabc0e80609dd679db8ca7a3a040f8bf0d8e0be
+      pages: 17
+      text_layer: digital
+    - id: karp-1972-reducibility
+      access: restricted
+      url: https://www.cs.umd.edu/~gasarch/BLOGPAPERS/Karp.pdf
+      landing: https://doi.org/10.1007/978-1-4684-2001-2_9
+    - id: knuth-1977-kmp
+      access: restricted
+      url: https://epubs.siam.org/doi/pdf/10.1137/0206024
+      landing: https://doi.org/10.1137/0206024
+    - id: krizhevsky-2012-imagenet
+      access: restricted
+      url: https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+      landing: https://ci.nii.ac.jp/naid/20001617881
+    - id: lamport-1978-clocks
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/359545.359563
+      landing: https://doi.org/10.1145/359545.359563
+    - id: lamport-1998-paxos
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/279227.279229
+      landing: https://doi.org/10.1145/279227.279229
+    - id: lattner-2004-llvm
+      access: restricted
+      url: https://llvm.org/pubs/2004-01-30-CGO-LLVM.pdf
+      landing: https://doi.org/10.1109/cgo.2004.1281665
+    - id: lecun-1998-lenet
+      access: restricted
+      licence: all rights reserved
+      url: https://hal.science/hal-03926082/document
+      landing: https://doi.org/10.1109/5.726791
+    - id: mccabe-1976-complexity
+      access: restricted
+      licence: all rights reserved
+      url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1702388
+      landing: https://doi.org/10.1109/tse.1976.233837
+    - id: mccarthy-1960-lisp
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/367177.367199
+      landing: https://doi.org/10.1145/367177.367199
+    - id: mckeown-2008-openflow
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
+      landing: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
+    - id: metcalfe-1976-ethernet
+      access: restricted
+      url: https://www.cl.cam.ac.uk/teaching/0809/DigiCommI/metcalfe1976ethernet.pdf
+      landing: https://www.cl.cam.ac.uk/teaching/0809/DigiCommI/metcalfe1976ethernet.pdf
+    - id: milner-1978-polymorphism
+      access: restricted
+      licence: publisher-specific-oa
+      url: https://www.pure.ed.ac.uk/ws/files/15143545/1_s2.0_0022000078900144_main.pdf
+      landing: https://doi.org/10.1016/0022-0000(78)90014-4
+    - id: mohan-1992-aries
+      access: restricted
+      url: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf
+      landing: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf
+    - id: nagle-1984-congestion
+      access: restricted
+      url: https://mirror.math.princeton.edu/pub/RFCs/rfc896.txt.pdf
+      landing: https://doi.org/10.17487/rfc896
+    - id: nakamoto-2008-bitcoin
+      access: open
+      licence: MIT
+      url: https://bitcoin.org/bitcoin.pdf
+      landing: https://bitcoin.org/bitcoin.pdf
+      fetched: "2026-09-11"
+      sha256: b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553
+      pages: 9
+      text_layer: native
+    - id: needham-1978-authentication
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/359657.359659
+      landing: https://doi.org/10.1145/359657.359659
+    - id: ongaro-2014-raft
+      access: restricted
+      url: https://raft.github.io/raft.pdf
+      landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.998.3935
+    - id: parnas-1972-modules
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/361598.361623
+      landing: https://doi.org/10.21236/ad0773837
+    - id: patterson-1981-risc
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/285930.285981
+      landing: https://dl.acm.org/doi/pdf/10.1145/285930.285981
+    - id: phong-1975-illumination
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/360825.360839
+      landing: https://doi.org/10.1145/360825.360839
+    - id: rabin-1959-automata
+      access: restricted
+      url: https://www.cs.miami.edu/~burt/learning/csc427.222/docs/rabin-scott.pdf
+      landing: https://doi.org/10.1147/rd.32.0114
+    - id: razborov-1997-naturalproofs
+      access: restricted
+      url: https://www1.karlin.mff.cuni.cz/~krajicek/rr.pdf
+      landing: https://doi.org/10.1006/jcss.1997.1494
+    - id: ritchie-1974-unix
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/800009.808045
+      landing: https://doi.org/10.1145/800009.808045
+    - id: rivest-1978-rsa
+      access: restricted
+      url: https://people.csail.mit.edu/rivest/Rsapaper.pdf
+      landing: https://doi.org/10.21236/ada606588
+    - id: rosenblatt-1958-perceptron
+      access: restricted
+      url: https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf
+      landing: https://doi.org/10.1037/h0042519
+    - id: royce-1970-lifecycle
+      access: restricted
+      url: https://innov2e.it/wp-content/uploads/2023/11/1970-Winston-W.-Royce-Managing-the-development-of-large-SOFTWARE-SYSTEMS-Dr.-Winston-W.-Royce-41765.41801.pdf
+      landing: http://ci.nii.ac.jp/naid/10016683170/
+    - id: rumelhart-1986-backprop
+      access: restricted
+      url: http://www.nature.com/articles/323533a0.pdf
+      landing: https://doi.org/10.1038/323533a0
+    - id: saltzer-1975-protection
+      access: restricted
+      licence: all rights reserved
+      url: https://www.mit.edu/~Saltzer/publications/protection/index.html
+      landing: https://doi.org/10.1109/proc.1975.9939
+    - id: saltzer-1984-endtoend
+      access: restricted
+      url: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
+      landing: https://doi.org/10.1145/357401.357402
+    - id: savitch-1970-tape
+      access: restricted
+      url: https://www.sciencedirect.com/science/article/pii/S002200007080006X/pdf
+      landing: https://doi.org/10.1016/s0022-0000(70)80006-x
+    - id: selinger-1979-accesspath
+      access: restricted
+      url: https://web.eecs.umich.edu/~michjc/eecs584/Papers/selinger_1979.pdf
+      landing: https://doi.org/10.1145/582095.582099
+    - id: shamir-1992-ippspace
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/146585.146609
+      landing: https://doi.org/10.1145/146585.146609
+    - id: shannon-1948-communication
+      access: restricted
+      licence: other-oa
+      url: http://hdl.handle.net/11858/00-001M-0000-002C-4314-2
+      landing: https://doi.org/10.1002/j.1538-7305.1948.tb00917.x
+    - id: shneiderman-1983-directmanipulation
+      access: restricted
+      licence: all rights reserved
+      url: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
+      landing: https://doi.org/10.1109/mc.1983.1654471
+    - id: silver-2016-alphago
+      access: restricted
+      url: http://www.nature.com/articles/nature16961.pdf
+      landing: https://doi.org/10.1038/nature16961
+    - id: steiner-1988-kerberos
+      access: restricted
+      url: https://css.csail.mit.edu/6.858/2012/readings/kerberos.pdf
+      landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.112.9002
+    - id: stoica-2001-chord
+      access: restricted
+      url: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+      landing: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+    - id: stonebraker-2005-cstore
+      access: restricted
+      url: https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
+      landing: https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
+    - id: sussman-1975-scheme
+      access: restricted
+      url: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
+      landing: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
+    - id: sutherland-1963-sketchpad
+      access: restricted
+      url: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
+      landing: https://doi.org/10.1177/003754976400200514
+    - id: sutskever-2014-seq2seq
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1409.3215v3
+      landing: https://arxiv.org/abs/1409.3215
+      fetched: "2026-09-11"
+      sha256: 5c74e1db863e2d61b869c9b0603494b34c41fb05db1a4fa7f9a83d5a42b7350f
+      pages: 9
+      text_layer: digital
+    - id: tarjan-1972-dfs
+      access: restricted
+      url: https://epubs.siam.org/doi/pdf/10.1137/0201010
+      landing: https://doi.org/10.1109/swat.1971.10
+    - id: tomasulo-1967-algorithm
+      access: restricted
+      url: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-S07/handouts/papers/tomasulo.pdf
+      landing: https://doi.org/10.1147/rd.111.0025
+    - id: turing-1936-computable
+      access: restricted
+      url: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+      landing: https://doi.org/10.1112/plms/s2-42.1.230
+    - id: turing-1950-intelligence
+      access: restricted
+      url: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
+      landing: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
+    - id: vaswani-2017-attention
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1706.03762v7
+      landing: https://arxiv.org/abs/1706.03762
+      fetched: "2026-09-11"
+      sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
+      pages: 15
+      text_layer: digital
+    - id: verma-2015-borg
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/2741948.2741964?download=true
+      landing: https://doi.org/10.1145/2741948.2741964
+    - id: wegman-1991-sccp
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/103135.103136
+      landing: https://doi.org/10.1145/103135.103136
+    - id: yeh-1991-branchprediction
+      access: restricted
+      url: https://dl.acm.org/doi/pdf/10.1145/123465.123475
+      landing: https://doi.org/10.1145/123465.123475
