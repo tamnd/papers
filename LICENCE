@@ -1,0 +1,27 @@
+Licence
+=======
+
+This repository contains two kinds of material and they are covered separately.
+
+1. Our own work
+---------------
+
+The manifests, the tag register, the corpus structure, the reports, the glossary and the Vietnamese, Chinese and Japanese translations are copyright (c) 2026 tamnd and are released under the Creative Commons Attribution 4.0 International licence.
+
+    https://creativecommons.org/licenses/by/4.0/
+
+2. The papers
+-------------
+
+The text and figures transcribed from each paper remain under the licence of that paper, which is recorded per paper in manifests/sources.yaml together with the source URL and the SHA-256 of the PDF it was read from.
+
+Nothing is transcribed unless that record says it may be. A paper marked restricted gets a bibliographic record and a short abstract quoted under fair dealing, with no body text and no figures. A paper with no access class recorded gets nothing at all.
+
+Figures are cropped diagrams, never whole pages, and are capped in size and in the fraction of the source page they may cover.
+
+No PDF is committed to this repository under any licence.
+
+Takedown
+--------
+
+If you hold rights in one of these papers and want an entry changed or removed, open an issue at https://github.com/tamnd/papers/issues. It will be removed first and discussed after.

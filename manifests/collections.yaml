@@ -1,0 +1,43 @@
+# Named reading lists over the corpus.
+#
+# `members` is either a list of paper ids, or `all`, or `all-with-number`.
+# `order` is `number`, `manual`, `year` or `topological`.
+# A topological order sorts by the `prerequisites` field in papers.yaml and fails the build if those prerequisites contain a cycle.
+
+collections:
+  - id: canon-100
+    title: The hundred
+    description: The seed list, in its own numbering.
+    order: number
+    members: all-with-number
+
+  - id: llm-path
+    title: The path to large language models
+    description: Perceptron to GPT-3, in the order each one made the next one possible.
+    order: manual
+    members: [rosenblatt-1958-perceptron, rumelhart-1986-backprop, lecun-1998-lenet,
+              krizhevsky-2012-imagenet, sutskever-2014-seq2seq, he-2016-resnet,
+              vaswani-2017-attention, devlin-2018-bert, brown-2020-gpt3]
+
+  - id: infra
+    title: Nearly mandatory for infrastructure engineering
+    description: The papers that turn up in the design review of every distributed system.
+    order: manual
+    members: [lamport-1978-clocks, lamport-1998-paxos, ghemawat-2003-gfs,
+              dean-2004-mapreduce, decandia-2007-dynamo, ongaro-2014-raft,
+              verma-2015-borg]
+
+  - id: db-internals
+    title: Database internals, in reading order
+    description: The relational model through to the cloud warehouse.
+    order: manual
+    members: [codd-1970-relational, bayer-1972-btree, astrahan-1976-systemr,
+              selinger-1979-accesspath, mohan-1992-aries, graefe-1994-volcano,
+              stonebraker-2005-cstore, boncz-2005-x100, chang-2006-bigtable,
+              corbett-2012-spanner, dageville-2016-snowflake]
+
+  - id: prereq
+    title: Every paper, in dependency order
+    description: The whole corpus sorted so nothing is read before the paper it depends on.
+    order: topological
+    members: all

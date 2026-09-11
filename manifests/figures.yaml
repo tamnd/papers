@@ -1,0 +1,10 @@
+# Every committed figure, and where it was cut from.
+#
+# Written by `papers figures`, one entry per file under figures/.
+#
+# `page_fraction` is the area of the bounding box divided by the area of the page.
+# Audit rule F06 refuses anything above 0.75, because a cropped diagram is a figure and a whole page is a scan of somebody else's paper, and to git those two look the same.
+#
+# `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
+
+figures: []

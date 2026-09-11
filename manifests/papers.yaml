@@ -1,0 +1,1323 @@
+# The corpus manifest: one entry per paper.
+#
+# Entries 1 to 100 are the seed canon and keep their number for ever, so a reader who arrives from the numbered list can find entry 63.
+# Papers added afterwards by `papers add` have no number, so the hundred stay a hundred while the corpus grows.
+#
+# `expect` is a guess at the access class, made before any resolution has run.
+# It is not a fact and nothing is fetched on the strength of it.
+# The fact lives in manifests/sources.yaml and is written by `papers resolve`, which either confirms the guess or leaves the paper unresolved.
+#
+# `authors_partial: true` marks a seed entry whose author list is cut short because the paper has more authors than are worth typing by hand.
+# The resolver replaces the list with the published one.
+#
+# `status` is one of: listed, fetched, extracted, translated, done.
+
+papers:
+  # theory
+  - id: turing-1936-computable
+    title: On Computable Numbers, with an Application to the Entscheidungsproblem
+    authors: [A. M. Turing]
+    year: 1936
+    venue: Proceedings of the London Mathematical Society
+    field: theory
+    number: 1
+    aka: [Turing machines]
+    expect: public-domain
+    difficulty: 5
+    core_idea: the universal machine and the undecidability of the halting problem
+    status: listed
+
+  - id: shannon-1948-communication
+    title: A Mathematical Theory of Communication
+    authors: [Claude E. Shannon]
+    year: 1948
+    venue: Bell System Technical Journal
+    field: theory
+    number: 2
+    expect: open
+    difficulty: 4
+    core_idea: entropy, channel capacity, and the separation of source and channel coding
+    status: listed
+
+  - id: hamming-1950-codes
+    title: Error Detecting and Error Correcting Codes
+    authors: [Richard W. Hamming]
+    year: 1950
+    venue: Bell System Technical Journal
+    field: theory
+    number: 3
+    prerequisites: [shannon-1948-communication]
+    expect: open
+    difficulty: 3
+    core_idea: minimum distance, and codes that repair what they detect
+    status: listed
+
+  - id: rabin-1959-automata
+    title: Finite Automata and Their Decision Problems
+    authors: [Michael O. Rabin, Dana Scott]
+    year: 1959
+    venue: IBM Journal of Research and Development
+    field: theory
+    number: 4
+    expect: open
+    difficulty: 4
+    core_idea: nondeterministic automata, and the subset construction that removes it
+    status: listed
+
+  - id: savitch-1970-tape
+    title: Relationships Between Nondeterministic and Deterministic Tape Complexities
+    authors: [Walter J. Savitch]
+    year: 1970
+    venue: Journal of Computer and System Sciences
+    field: theory
+    number: 5
+    expect: open
+    difficulty: 4
+    core_idea: "Savitch's theorem: NSPACE(f) is in DSPACE(f squared)"
+    status: listed
+
+  - id: cook-1971-np
+    title: The Complexity of Theorem-Proving Procedures
+    authors: [Stephen A. Cook]
+    year: 1971
+    venue: STOC
+    field: theory
+    number: 6
+    expect: open
+    difficulty: 4
+    core_idea: NP-completeness, and SAT as the first complete problem
+    status: listed
+
+  - id: karp-1972-reducibility
+    title: Reducibility Among Combinatorial Problems
+    authors: [Richard M. Karp]
+    year: 1972
+    venue: Complexity of Computer Computations
+    field: theory
+    number: 7
+    prerequisites: [cook-1971-np]
+    expect: restricted
+    difficulty: 4
+    core_idea: twenty-one problems reduced to one another, making NP-completeness a tool
+    status: listed
+
+  - id: goldwasser-1985-zk
+    title: The Knowledge Complexity of Interactive Proof-Systems
+    authors: [Shafi Goldwasser, Silvio Micali, Charles Rackoff]
+    year: 1985
+    venue: STOC
+    field: theory
+    number: 8
+    expect: open
+    difficulty: 5
+    core_idea: interactive proofs, and proving a statement while revealing nothing else
+    status: listed
+
+  - id: shamir-1992-ippspace
+    title: IP = PSPACE
+    authors: [Adi Shamir]
+    year: 1992
+    venue: Journal of the ACM
+    field: theory
+    number: 9
+    prerequisites: [goldwasser-1985-zk]
+    expect: open
+    difficulty: 5
+    core_idea: interaction with randomness buys exactly polynomial space
+    status: listed
+
+  - id: razborov-1997-naturalproofs
+    title: Natural Proofs
+    authors: [Alexander A. Razborov, Steven Rudich]
+    year: 1997
+    venue: Journal of Computer and System Sciences
+    field: theory
+    number: 10
+    expect: open
+    difficulty: 5
+    core_idea: why the circuit lower-bound techniques that existed could not settle P vs NP
+    status: listed
+
+  # algorithms
+  - id: ford-1956-maxflow
+    title: Maximal Flow Through a Network
+    authors: [L. R. Ford Jr., D. R. Fulkerson]
+    year: 1956
+    venue: Canadian Journal of Mathematics
+    field: algorithms
+    number: 11
+    expect: open
+    difficulty: 3
+    core_idea: max-flow min-cut
+    status: listed
+
+  - id: dijkstra-1959-shortestpath
+    title: A Note on Two Problems in Connexion with Graphs
+    authors: [Edsger W. Dijkstra]
+    year: 1959
+    venue: Numerische Mathematik
+    field: algorithms
+    number: 12
+    aka: ["Dijkstra's algorithm"]
+    expect: restricted
+    difficulty: 2
+    core_idea: single-source shortest paths, and a minimum spanning tree, in three pages
+    status: listed
+
+  - id: hoare-1962-quicksort
+    title: Quicksort
+    authors: [C. A. R. Hoare]
+    year: 1962
+    venue: The Computer Journal
+    field: algorithms
+    number: 13
+    expect: restricted
+    difficulty: 2
+    core_idea: partition in place, recurse on the parts
+    status: listed
+
+  - id: floyd-1962-shortestpath
+    title: "Algorithm 97: Shortest Path"
+    authors: [Robert W. Floyd]
+    year: 1962
+    venue: Communications of the ACM
+    field: algorithms
+    number: 14
+    aka: [Floyd-Warshall]
+    expect: open
+    difficulty: 1
+    core_idea: all-pairs shortest paths as a triple loop
+    status: listed
+
+  - id: cooley-1965-fft
+    title: An Algorithm for the Machine Calculation of Complex Fourier Series
+    authors: [James W. Cooley, John W. Tukey]
+    year: 1965
+    venue: Mathematics of Computation
+    field: algorithms
+    number: 15
+    aka: [FFT]
+    expect: open
+    difficulty: 3
+    core_idea: the discrete Fourier transform in n log n
+    status: listed
+
+  - id: bloom-1970-filter
+    title: Space/Time Trade-offs in Hash Coding with Allowable Errors
+    authors: [Burton H. Bloom]
+    year: 1970
+    venue: Communications of the ACM
+    field: algorithms
+    number: 16
+    aka: [Bloom filter]
+    expect: open
+    difficulty: 2
+    core_idea: a set membership test that is wrong only in one direction
+    status: listed
+
+  - id: tarjan-1972-dfs
+    title: Depth-First Search and Linear Graph Algorithms
+    authors: [Robert Tarjan]
+    year: 1972
+    venue: SIAM Journal on Computing
+    field: algorithms
+    number: 17
+    expect: restricted
+    difficulty: 3
+    core_idea: strongly connected components in one pass
+    status: listed
+
+  - id: aho-1975-corasick
+    title: "Efficient String Matching: An Aid to Bibliographic Search"
+    authors: [Alfred V. Aho, Margaret J. Corasick]
+    year: 1975
+    venue: Communications of the ACM
+    field: algorithms
+    number: 18
+    aka: [Aho-Corasick]
+    expect: open
+    difficulty: 3
+    core_idea: many patterns at once, with failure links over a trie
+    status: listed
+
+  - id: knuth-1977-kmp
+    title: Fast Pattern Matching in Strings
+    authors: [Donald E. Knuth, James H. Morris Jr., Vaughan R. Pratt]
+    year: 1977
+    venue: SIAM Journal on Computing
+    field: algorithms
+    number: 19
+    aka: [KMP]
+    expect: restricted
+    difficulty: 3
+    core_idea: never move the text pointer backwards
+    status: listed
+
+  - id: brin-1998-pagerank
+    title: The Anatomy of a Large-Scale Hypertextual Web Search Engine
+    authors: [Sergey Brin, Lawrence Page]
+    year: 1998
+    venue: Computer Networks and ISDN Systems
+    field: algorithms
+    number: 20
+    aka: [PageRank, Google]
+    expect: open
+    difficulty: 2
+    core_idea: rank a page by the ranks of the pages that link to it
+    status: listed
+
+  # languages
+  - id: mccarthy-1960-lisp
+    title: Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I
+    authors: [John McCarthy]
+    year: 1960
+    venue: Communications of the ACM
+    field: languages
+    number: 21
+    aka: [Lisp]
+    expect: open
+    difficulty: 4
+    core_idea: programs as data, and eval written in itself
+    status: listed
+
+  - id: hoare-1969-axiomatic
+    title: An Axiomatic Basis for Computer Programming
+    authors: [C. A. R. Hoare]
+    year: 1969
+    venue: Communications of the ACM
+    field: languages
+    number: 22
+    aka: [Hoare logic]
+    expect: open
+    difficulty: 3
+    core_idea: preconditions, postconditions, and a proof rule per statement
+    status: listed
+
+  - id: sussman-1975-scheme
+    title: "Scheme: An Interpreter for Extended Lambda Calculus"
+    authors: [Gerald Jay Sussman, Guy L. Steele Jr.]
+    year: 1975
+    venue: MIT AI Memo 349
+    field: languages
+    number: 23
+    prerequisites: [mccarthy-1960-lisp]
+    expect: open
+    difficulty: 4
+    core_idea: lexical scope, first-class procedures, and tail calls
+    status: listed
+
+  - id: milner-1978-polymorphism
+    title: A Theory of Type Polymorphism in Programming
+    authors: [Robin Milner]
+    year: 1978
+    venue: Journal of Computer and System Sciences
+    field: languages
+    number: 24
+    aka: [Hindley-Milner]
+    expect: open
+    difficulty: 4
+    core_idea: principal types, inferred without annotation
+    status: listed
+
+  - id: backus-1978-vonneumann
+    title: Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs
+    authors: [John Backus]
+    year: 1978
+    venue: Communications of the ACM (Turing Award lecture)
+    field: languages
+    number: 25
+    expect: open
+    difficulty: 3
+    core_idea: the assignment statement as the bottleneck, and programs combined algebraically
+    status: listed
+
+  - id: deutsch-1984-smalltalk
+    title: Efficient Implementation of the Smalltalk-80 System
+    authors: [L. Peter Deutsch, Allan M. Schiffman]
+    year: 1984
+    venue: POPL
+    field: languages
+    number: 26
+    expect: open
+    difficulty: 3
+    core_idea: dynamic translation and inline caches, the ancestor of every JIT
+    status: listed
+
+  - id: cytron-1991-ssa
+    title: Efficiently Computing Static Single Assignment Form and the Control Dependence Graph
+    authors: [Ron Cytron, Jeanne Ferrante, Barry K. Rosen, Mark N. Wegman, F. Kenneth Zadeck]
+    year: 1991
+    venue: ACM TOPLAS
+    field: languages
+    number: 27
+    aka: [SSA]
+    expect: open
+    difficulty: 4
+    core_idea: dominance frontiers, and one definition per name
+    status: listed
+
+  - id: wegman-1991-sccp
+    title: Constant Propagation with Conditional Branches
+    authors: [Mark N. Wegman, F. Kenneth Zadeck]
+    year: 1991
+    venue: ACM TOPLAS
+    field: languages
+    number: 28
+    prerequisites: [cytron-1991-ssa]
+    aka: [SCCP]
+    expect: open
+    difficulty: 3
+    core_idea: constants and unreachable branches found in one lattice walk
+    status: listed
+
+  - id: lattner-2004-llvm
+    title: "LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation"
+    authors: [Chris Lattner, Vikram Adve]
+    year: 2004
+    venue: CGO
+    field: languages
+    number: 29
+    prerequisites: [cytron-1991-ssa]
+    expect: open
+    difficulty: 3
+    core_idea: a typed SSA intermediate representation as a durable artefact
+    status: listed
+
+  - id: gal-2009-tracejit
+    title: Trace-based Just-in-Time Type Specialization for Dynamic Languages
+    authors: [Andreas Gal, Brendan Eich, Mike Shaver, David Anderson, David Mandelin]
+    authors_partial: true
+    year: 2009
+    venue: PLDI
+    field: languages
+    number: 30
+    prerequisites: [deutsch-1984-smalltalk]
+    expect: open
+    difficulty: 3
+    core_idea: compile hot loop traces, not methods
+    status: listed
+
+  # systems
+  - id: dijkstra-1968-the
+    title: The Structure of the "THE"-Multiprogramming System
+    authors: [Edsger W. Dijkstra]
+    year: 1968
+    venue: Communications of the ACM
+    field: systems
+    number: 31
+    expect: open
+    difficulty: 2
+    core_idea: layers, each provable against the one below it
+    status: listed
+
+  - id: denning-1968-workingset
+    title: The Working Set Model for Program Behavior
+    authors: [Peter J. Denning]
+    year: 1968
+    venue: Communications of the ACM
+    field: systems
+    number: 32
+    expect: open
+    difficulty: 3
+    core_idea: locality made measurable, and thrashing explained
+    status: listed
+
+  - id: ritchie-1974-unix
+    title: The UNIX Time-Sharing System
+    authors: [Dennis M. Ritchie, Ken Thompson]
+    year: 1974
+    venue: Communications of the ACM
+    field: systems
+    number: 33
+    expect: open
+    difficulty: 2
+    core_idea: everything is a file, and the system is small enough to describe
+    status: listed
+
+  - id: lamport-1978-clocks
+    title: Time, Clocks, and the Ordering of Events in a Distributed System
+    authors: [Leslie Lamport]
+    year: 1978
+    venue: Communications of the ACM
+    field: systems
+    number: 34
+    expect: open
+    difficulty: 3
+    core_idea: happens-before, logical clocks, and state machine replication
+    status: listed
+
+  - id: saltzer-1984-endtoend
+    title: End-To-End Arguments in System Design
+    authors: [J. H. Saltzer, D. P. Reed, D. D. Clark]
+    year: 1984
+    venue: ACM TOCS
+    field: systems
+    number: 35
+    expect: open
+    difficulty: 2
+    core_idea: a function belongs at the endpoints unless the network can finish the job
+    status: listed
+
+  - id: birrell-1984-rpc
+    title: Implementing Remote Procedure Calls
+    authors: [Andrew D. Birrell, Bruce Jay Nelson]
+    year: 1984
+    venue: ACM TOCS
+    field: systems
+    number: 36
+    expect: open
+    difficulty: 2
+    core_idea: a call that crosses a machine, and everything that makes it not a call
+    status: listed
+
+  - id: lamport-1998-paxos
+    title: The Part-Time Parliament
+    authors: [Leslie Lamport]
+    year: 1998
+    venue: ACM TOCS
+    field: systems
+    number: 37
+    aka: [Paxos]
+    prerequisites: [lamport-1978-clocks]
+    expect: open
+    difficulty: 5
+    core_idea: consensus that survives any minority failing, told as an archaeology paper
+    status: listed
+
+  - id: barham-2003-xen
+    title: Xen and the Art of Virtualization
+    authors: [Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho,
+              Rolf Neugebauer, Ian Pratt, Andrew Warfield]
+    year: 2003
+    venue: SOSP
+    field: systems
+    number: 38
+    expect: open
+    difficulty: 3
+    core_idea: paravirtualization, trading a modified guest for near-native speed
+    status: listed
+
+  - id: ghemawat-2003-gfs
+    title: The Google File System
+    authors: [Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung]
+    year: 2003
+    venue: SOSP
+    field: systems
+    number: 39
+    expect: open
+    difficulty: 2
+    core_idea: a single master, huge chunks, and failure as the normal case
+    status: listed
+
+  - id: dean-2004-mapreduce
+    title: "MapReduce: Simplified Data Processing on Large Clusters"
+    authors: [Jeffrey Dean, Sanjay Ghemawat]
+    year: 2004
+    venue: OSDI
+    field: systems
+    number: 40
+    prerequisites: [ghemawat-2003-gfs]
+    expect: open
+    difficulty: 2
+    core_idea: two functions, and the framework handles the thousand machines
+    status: listed
+
+  - id: decandia-2007-dynamo
+    title: "Dynamo: Amazon's Highly Available Key-value Store"
+    authors: [Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati,
+              Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall,
+              Werner Vogels]
+    year: 2007
+    venue: SOSP
+    field: systems
+    number: 41
+    expect: open
+    difficulty: 3
+    core_idea: always writable, reconciled later, with consistent hashing and vector clocks
+    status: listed
+
+  - id: ongaro-2014-raft
+    title: In Search of an Understandable Consensus Algorithm
+    authors: [Diego Ongaro, John Ousterhout]
+    year: 2014
+    venue: USENIX ATC
+    field: systems
+    number: 42
+    aka: [Raft]
+    prerequisites: [lamport-1998-paxos]
+    expect: open
+    difficulty: 3
+    core_idea: consensus decomposed into leader election, log replication and safety
+    status: listed
+
+  - id: verma-2015-borg
+    title: Large-scale cluster management at Google with Borg
+    authors: [Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer,
+              Eric Tune, John Wilkes]
+    year: 2015
+    venue: EuroSys
+    field: systems
+    number: 43
+    expect: open
+    difficulty: 3
+    core_idea: one scheduler for batch and serving, and the ancestor of Kubernetes
+    status: listed
+
+  # networks
+  - id: cerf-1974-tcpip
+    title: A Protocol for Packet Network Intercommunication
+    authors: [Vinton G. Cerf, Robert E. Kahn]
+    year: 1974
+    venue: IEEE Transactions on Communications
+    field: networks
+    number: 44
+    aka: [TCP/IP]
+    expect: restricted
+    difficulty: 3
+    core_idea: gateways between heterogeneous networks, and a common datagram
+    status: listed
+
+  - id: metcalfe-1976-ethernet
+    title: "Ethernet: Distributed Packet Switching for Local Computer Networks"
+    authors: [Robert M. Metcalfe, David R. Boggs]
+    year: 1976
+    venue: Communications of the ACM
+    field: networks
+    number: 45
+    expect: open
+    difficulty: 2
+    core_idea: carrier sense, collision detection, and exponential backoff on a shared wire
+    status: listed
+
+  - id: nagle-1984-congestion
+    title: Congestion Control in IP/TCP Internetworks
+    authors: [John Nagle]
+    year: 1984
+    venue: RFC 896
+    field: networks
+    number: 46
+    expect: public-domain
+    difficulty: 2
+    core_idea: small packets coalesced, and congestion collapse named
+    status: listed
+
+  - id: jacobson-1988-congestion
+    title: Congestion Avoidance and Control
+    authors: [Van Jacobson]
+    year: 1988
+    venue: SIGCOMM
+    field: networks
+    number: 47
+    prerequisites: [nagle-1984-congestion]
+    expect: open
+    difficulty: 3
+    core_idea: slow start, congestion avoidance, and the conservation of packets
+    status: listed
+
+  - id: chiu-1989-aimd
+    title: Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks
+    authors: [Dah-Ming Chiu, Raj Jain]
+    year: 1989
+    venue: Computer Networks and ISDN Systems
+    field: networks
+    number: 48
+    prerequisites: [jacobson-1988-congestion]
+    expect: open
+    difficulty: 3
+    core_idea: why additive increase and multiplicative decrease converges to fairness
+    status: listed
+
+  - id: stoica-2001-chord
+    title: "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
+    authors: [Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, Hari Balakrishnan]
+    year: 2001
+    venue: SIGCOMM
+    field: networks
+    number: 49
+    expect: open
+    difficulty: 3
+    core_idea: consistent hashing on a ring, with a finger table for log n hops
+    status: listed
+
+  - id: mckeown-2008-openflow
+    title: "OpenFlow: Enabling Innovation in Campus Networks"
+    authors: [Nick McKeown, Tom Anderson, Hari Balakrishnan, Guru Parulkar, Larry Peterson,
+              Jennifer Rexford, Scott Shenker, Jonathan Turner]
+    year: 2008
+    venue: ACM SIGCOMM Computer Communication Review
+    field: networks
+    number: 50
+    expect: open
+    difficulty: 2
+    core_idea: separate the control plane from the switch
+    status: listed
+
+  - id: bosshart-2014-p4
+    title: "P4: Programming Protocol-Independent Packet Processors"
+    authors: [Pat Bosshart, Dan Daly, Glen Gibb, Martin Izzard, Nick McKeown,
+              Jennifer Rexford, Cole Schlesinger, Dan Talayco, Amin Vahdat,
+              George Varghese, David Walker]
+    year: 2014
+    venue: ACM SIGCOMM Computer Communication Review
+    field: networks
+    number: 51
+    prerequisites: [mckeown-2008-openflow]
+    arxiv: 1312.1719
+    expect: open
+    difficulty: 3
+    core_idea: the data plane described by a program rather than fixed in silicon
+    status: listed
+
+  # databases
+  - id: codd-1970-relational
+    title: A Relational Model of Data for Large Shared Data Banks
+    authors: [E. F. Codd]
+    year: 1970
+    venue: Communications of the ACM
+    field: databases
+    number: 52
+    expect: open
+    difficulty: 3
+    core_idea: data as relations, independent of how it is stored
+    status: listed
+
+  - id: bayer-1972-btree
+    title: Organization and Maintenance of Large Ordered Indices
+    authors: [Rudolf Bayer, Edward M. McCreight]
+    year: 1972
+    venue: Acta Informatica
+    field: databases
+    number: 53
+    aka: [B-tree]
+    expect: restricted
+    difficulty: 3
+    core_idea: a balanced tree with a page-sized node
+    status: listed
+
+  - id: astrahan-1976-systemr
+    title: "System R: Relational Approach to Database Management"
+    authors: [M. M. Astrahan, M. W. Blasgen, D. D. Chamberlin, K. P. Eswaran, J. N. Gray,
+              P. P. Griffiths, W. F. King, R. A. Lorie, P. R. McJones, J. W. Mehl,
+              G. R. Putzolu, I. L. Traiger, B. W. Wade, V. Watson]
+    year: 1976
+    venue: ACM TODS
+    field: databases
+    number: 54
+    prerequisites: [codd-1970-relational]
+    expect: open
+    difficulty: 3
+    core_idea: the first relational system that worked, and SQL with it
+    status: listed
+
+  - id: selinger-1979-accesspath
+    title: Access Path Selection in a Relational Database Management System
+    authors: [P. Griffiths Selinger, M. M. Astrahan, D. D. Chamberlin, R. A. Lorie, T. G. Price]
+    year: 1979
+    venue: SIGMOD
+    field: databases
+    number: 55
+    prerequisites: [astrahan-1976-systemr]
+    expect: open
+    difficulty: 4
+    core_idea: cost-based optimisation, and dynamic programming over join orders
+    status: listed
+
+  - id: dewitt-1990-gamma
+    title: The Gamma Database Machine Project
+    authors: [David J. DeWitt, Shahram Ghandeharizadeh, Donovan A. Schneider, Allan Bricker,
+              Hui-I Hsiao, Rick Rasmussen]
+    year: 1990
+    venue: IEEE Transactions on Knowledge and Data Engineering
+    field: databases
+    number: 56
+    expect: restricted
+    difficulty: 3
+    core_idea: shared-nothing parallelism, and hash partitioning that scales linearly
+    status: listed
+
+  - id: mohan-1992-aries
+    title: "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging"
+    authors: [C. Mohan, Don Haderle, Bruce Lindsay, Hamid Pirahesh, Peter Schwarz]
+    year: 1992
+    venue: ACM TODS
+    field: databases
+    number: 57
+    expect: open
+    difficulty: 5
+    core_idea: analysis, redo, undo, and repeating history before undoing it
+    status: listed
+
+  - id: graefe-1994-volcano
+    title: Volcano - An Extensible and Parallel Query Evaluation System
+    authors: [Goetz Graefe]
+    year: 1994
+    venue: IEEE Transactions on Knowledge and Data Engineering
+    field: databases
+    number: 58
+    expect: restricted
+    difficulty: 3
+    core_idea: the iterator model, and parallelism as one more operator
+    status: listed
+
+  - id: stonebraker-2005-cstore
+    title: "C-Store: A Column-oriented DBMS"
+    authors: [Mike Stonebraker, Daniel J. Abadi, Adam Batkin, Xuedong Chen, Mitch Cherniack,
+              Miguel Ferreira, Edmond Lau, Amerson Lin, Sam Madden, Elizabeth O'Neil,
+              Pat O'Neil, Alex Rasin, Nga Tran, Stan Zdonik]
+    year: 2005
+    venue: VLDB
+    field: databases
+    number: 59
+    expect: open
+    difficulty: 3
+    core_idea: store columns, compress them, and read only what the query touches
+    status: listed
+
+  - id: boncz-2005-x100
+    title: "MonetDB/X100: Hyper-Pipelining Query Execution"
+    authors: [Peter Boncz, Marcin Zukowski, Niels Nes]
+    year: 2005
+    venue: CIDR
+    field: databases
+    number: 60
+    prerequisites: [graefe-1994-volcano]
+    expect: open
+    difficulty: 3
+    core_idea: vectors of tuples per call, so the CPU pipeline stays full
+    status: listed
+
+  - id: chang-2006-bigtable
+    title: "Bigtable: A Distributed Storage System for Structured Data"
+    authors: [Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach,
+              Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber]
+    year: 2006
+    venue: OSDI
+    field: databases
+    number: 61
+    prerequisites: [ghemawat-2003-gfs]
+    expect: open
+    difficulty: 3
+    core_idea: a sparse, sorted, multidimensional map over a distributed file system
+    status: listed
+
+  - id: corbett-2012-spanner
+    title: "Spanner: Google's Globally-Distributed Database"
+    authors: [James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost,
+              J. J. Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild]
+    authors_partial: true
+    year: 2012
+    venue: OSDI
+    field: databases
+    number: 62
+    prerequisites: [chang-2006-bigtable, lamport-1998-paxos]
+    expect: open
+    difficulty: 4
+    core_idea: TrueTime, and externally consistent transactions across continents
+    status: listed
+
+  - id: dageville-2016-snowflake
+    title: The Snowflake Elastic Data Warehouse
+    authors: [Benoit Dageville, Thierry Cruanes, Marcin Zukowski, Vadim Antonov, Artin Avanes,
+              Jon Bock, Jonathan Claybaugh, Daniel Engovatov, Martin Hentschel, Jiansheng Huang,
+              Allison W. Lee, Ashish Motivala, Abdul Q. Munir, Steven Pelley, Peter Povinec,
+              Greg Rahn, Spyridon Triantafyllis, Philipp Unterbrunner]
+    year: 2016
+    venue: SIGMOD
+    field: databases
+    number: 63
+    prerequisites: [stonebraker-2005-cstore]
+    expect: open
+    difficulty: 2
+    core_idea: storage and compute separated, and elasticity as a product
+    status: listed
+
+  # architecture
+  - id: amdahl-1967-law
+    title: Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities
+    authors: [Gene M. Amdahl]
+    year: 1967
+    venue: AFIPS Spring Joint Computer Conference
+    field: architecture
+    number: 64
+    aka: ["Amdahl's law"]
+    expect: open
+    difficulty: 1
+    core_idea: the serial fraction bounds every speedup
+    status: listed
+
+  - id: tomasulo-1967-algorithm
+    title: An Efficient Algorithm for Exploiting Multiple Arithmetic Units
+    authors: [R. M. Tomasulo]
+    year: 1967
+    venue: IBM Journal of Research and Development
+    field: architecture
+    number: 65
+    expect: open
+    difficulty: 4
+    core_idea: register renaming and the common data bus, i.e. out-of-order execution
+    status: listed
+
+  - id: dennard-1974-scaling
+    title: Design of Ion-Implanted MOSFET's with Very Small Physical Dimensions
+    authors: [Robert H. Dennard, Fritz H. Gaensslen, Hwa-Nien Yu, V. Leo Rideout,
+              Ernest Bassous, Andre R. LeBlanc]
+    year: 1974
+    venue: IEEE Journal of Solid-State Circuits
+    field: architecture
+    number: 66
+    aka: [Dennard scaling]
+    expect: restricted
+    difficulty: 4
+    core_idea: shrink every dimension and the power density stays put, until it did not
+    status: listed
+
+  - id: patterson-1981-risc
+    title: "RISC I: A Reduced Instruction Set VLSI Computer"
+    authors: [David A. Patterson, Carlo H. Sequin]
+    year: 1981
+    venue: ISCA
+    field: architecture
+    number: 67
+    expect: open
+    difficulty: 2
+    core_idea: fewer instructions, executed faster, with the compiler taking the slack
+    status: listed
+
+  - id: jouppi-1990-victimcache
+    title: Improving Direct-Mapped Cache Performance by the Addition of a Small Fully-Associative Cache and Prefetch Buffers
+    authors: [Norman P. Jouppi]
+    year: 1990
+    venue: ISCA
+    field: architecture
+    number: 68
+    expect: open
+    difficulty: 3
+    core_idea: a tiny victim cache removes most conflict misses
+    status: listed
+
+  - id: yeh-1991-branchprediction
+    title: Two-Level Adaptive Training Branch Prediction
+    authors: [Tse-Yu Yeh, Yale N. Patt]
+    year: 1991
+    venue: MICRO
+    field: architecture
+    number: 69
+    expect: restricted
+    difficulty: 3
+    core_idea: a history register indexing a pattern table
+    status: listed
+
+  - id: jouppi-2017-tpu
+    title: In-Datacenter Performance Analysis of a Tensor Processing Unit
+    authors: [Norman P. Jouppi, Cliff Young, Nishant Patil, David Patterson, Gaurav Agrawal,
+              Raminder Bajwa, Sarah Bates, Suresh Bhatia, Nan Boden, Al Borchers]
+    authors_partial: true
+    year: 2017
+    venue: ISCA
+    field: architecture
+    number: 70
+    arxiv: 1704.04760
+    expect: open
+    difficulty: 2
+    core_idea: a systolic matrix unit, and the roofline that explains it
+    status: listed
+
+  # security
+  - id: saltzer-1975-protection
+    title: The Protection of Information in Computer Systems
+    authors: [Jerome H. Saltzer, Michael D. Schroeder]
+    year: 1975
+    venue: Proceedings of the IEEE
+    field: security
+    number: 71
+    expect: open
+    difficulty: 3
+    core_idea: eight design principles, least privilege among them
+    status: listed
+
+  - id: diffie-1976-newdirections
+    title: New Directions in Cryptography
+    authors: [Whitfield Diffie, Martin E. Hellman]
+    year: 1976
+    venue: IEEE Transactions on Information Theory
+    field: security
+    number: 72
+    expect: restricted
+    difficulty: 4
+    core_idea: a shared secret agreed in public, and the idea of a public key
+    status: listed
+
+  - id: needham-1978-authentication
+    title: Using Encryption for Authentication in Large Networks of Computers
+    authors: [Roger M. Needham, Michael D. Schroeder]
+    year: 1978
+    venue: Communications of the ACM
+    field: security
+    number: 73
+    expect: open
+    difficulty: 3
+    core_idea: nonces, a trusted third party, and the protocol that taught the field to look for flaws
+    status: listed
+
+  - id: rivest-1978-rsa
+    title: A Method for Obtaining Digital Signatures and Public-Key Cryptosystems
+    authors: [R. L. Rivest, A. Shamir, L. Adleman]
+    year: 1978
+    venue: Communications of the ACM
+    field: security
+    number: 74
+    aka: [RSA]
+    prerequisites: [diffie-1976-newdirections]
+    expect: open
+    difficulty: 3
+    core_idea: trapdoor one-way functions from the difficulty of factoring
+    status: listed
+
+  - id: goldwasser-1984-probabilistic
+    title: Probabilistic Encryption
+    authors: [Shafi Goldwasser, Silvio Micali]
+    year: 1984
+    venue: Journal of Computer and System Sciences
+    field: security
+    number: 75
+    prerequisites: [rivest-1978-rsa]
+    expect: open
+    difficulty: 5
+    core_idea: semantic security, and why deterministic encryption cannot have it
+    status: listed
+
+  - id: steiner-1988-kerberos
+    title: "Kerberos: An Authentication Service for Open Network Systems"
+    authors: [Jennifer G. Steiner, Clifford Neuman, Jeffrey I. Schiller]
+    year: 1988
+    venue: USENIX Winter Conference
+    field: security
+    number: 76
+    prerequisites: [needham-1978-authentication]
+    expect: open
+    difficulty: 3
+    core_idea: tickets from a key distribution centre, deployed for real
+    status: listed
+
+  - id: castro-1999-pbft
+    title: Practical Byzantine Fault Tolerance
+    authors: [Miguel Castro, Barbara Liskov]
+    year: 1999
+    venue: OSDI
+    field: security
+    number: 77
+    prerequisites: [lamport-1998-paxos]
+    expect: open
+    difficulty: 5
+    core_idea: agreement with a third of the replicas lying, at a usable cost
+    status: listed
+
+  - id: nakamoto-2008-bitcoin
+    title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+    authors: [Satoshi Nakamoto]
+    year: 2008
+    venue: bitcoin.org
+    field: security
+    number: 78
+    expect: open
+    difficulty: 2
+    core_idea: proof of work as Sybil resistance, and the longest chain as the truth
+    status: listed
+
+  # ai-ml
+  - id: turing-1950-intelligence
+    title: Computing Machinery and Intelligence
+    authors: [A. M. Turing]
+    year: 1950
+    venue: Mind
+    field: ai-ml
+    number: 79
+    aka: [the Turing test]
+    expect: public-domain
+    difficulty: 1
+    core_idea: the imitation game, and nine objections answered
+    status: listed
+
+  - id: rosenblatt-1958-perceptron
+    title: "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain"
+    authors: [F. Rosenblatt]
+    year: 1958
+    venue: Psychological Review
+    field: ai-ml
+    number: 80
+    expect: restricted
+    difficulty: 3
+    core_idea: a learning rule for a linear threshold unit
+    status: listed
+
+  - id: rumelhart-1986-backprop
+    title: Learning Representations by Back-propagating Errors
+    authors: [David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams]
+    year: 1986
+    venue: Nature
+    field: ai-ml
+    number: 81
+    prerequisites: [rosenblatt-1958-perceptron]
+    expect: restricted
+    difficulty: 3
+    core_idea: the chain rule applied to a layered network
+    status: listed
+
+  - id: cortes-1995-svm
+    title: Support-Vector Networks
+    authors: [Corinna Cortes, Vladimir Vapnik]
+    year: 1995
+    venue: Machine Learning
+    field: ai-ml
+    number: 82
+    expect: open
+    difficulty: 4
+    core_idea: the maximum margin hyperplane, and the kernel trick
+    status: listed
+
+  - id: freund-1997-adaboost
+    title: A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting
+    authors: [Yoav Freund, Robert E. Schapire]
+    year: 1997
+    venue: Journal of Computer and System Sciences
+    field: ai-ml
+    number: 83
+    aka: [AdaBoost]
+    expect: open
+    difficulty: 4
+    core_idea: many weak learners, reweighted, add up to a strong one
+    status: listed
+
+  - id: lecun-1998-lenet
+    title: Gradient-Based Learning Applied to Document Recognition
+    authors: [Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner]
+    year: 1998
+    venue: Proceedings of the IEEE
+    field: ai-ml
+    number: 84
+    aka: [LeNet-5]
+    prerequisites: [rumelhart-1986-backprop]
+    expect: open
+    difficulty: 3
+    core_idea: convolution, weight sharing and pooling, trained end to end
+    status: listed
+
+  - id: krizhevsky-2012-imagenet
+    title: ImageNet Classification with Deep Convolutional Neural Networks
+    authors: [Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton]
+    year: 2012
+    venue: NIPS
+    field: ai-ml
+    number: 85
+    aka: [AlexNet]
+    prerequisites: [lecun-1998-lenet]
+    expect: open
+    difficulty: 2
+    core_idea: depth, ReLU, dropout and two GPUs
+    status: listed
+
+  - id: goodfellow-2014-gan
+    title: Generative Adversarial Nets
+    authors: [Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+              Sherjil Ozair, Aaron Courville, Yoshua Bengio]
+    year: 2014
+    venue: NIPS
+    field: ai-ml
+    number: 86
+    arxiv: 1406.2661
+    expect: open
+    difficulty: 4
+    core_idea: a generator and a discriminator playing a minimax game
+    status: listed
+
+  - id: sutskever-2014-seq2seq
+    title: Sequence to Sequence Learning with Neural Networks
+    authors: [Ilya Sutskever, Oriol Vinyals, Quoc V. Le]
+    year: 2014
+    venue: NIPS
+    field: ai-ml
+    number: 87
+    arxiv: 1409.3215
+    expect: open
+    difficulty: 3
+    core_idea: an encoder LSTM into a decoder LSTM, with no alignment model
+    status: listed
+
+  - id: he-2016-resnet
+    title: Deep Residual Learning for Image Recognition
+    authors: [Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun]
+    year: 2016
+    venue: CVPR
+    field: ai-ml
+    number: 88
+    aka: [ResNet]
+    prerequisites: [krizhevsky-2012-imagenet]
+    arxiv: 1512.03385
+    expect: open
+    difficulty: 2
+    core_idea: learn the residual, and a hundred layers become trainable
+    status: listed
+
+  - id: silver-2016-alphago
+    title: Mastering the game of Go with deep neural networks and tree search
+    authors: [David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre,
+              George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou,
+              Veda Panneershelvam, Marc Lanctot]
+    authors_partial: true
+    year: 2016
+    venue: Nature
+    field: ai-ml
+    number: 89
+    expect: restricted
+    difficulty: 3
+    core_idea: policy and value networks guiding Monte Carlo tree search
+    status: listed
+
+  - id: vaswani-2017-attention
+    title: Attention Is All You Need
+    authors: [Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+              Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin]
+    year: 2017
+    venue: NIPS
+    field: ai-ml
+    number: 90
+    aka: [Transformer]
+    prerequisites: [sutskever-2014-seq2seq]
+    arxiv: 1706.03762
+    expect: open
+    difficulty: 3
+    core_idea: self-attention alone, with no recurrence and no convolution
+    status: listed
+
+  - id: devlin-2018-bert
+    title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    authors: [Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova]
+    year: 2018
+    venue: NAACL
+    field: ai-ml
+    number: 91
+    prerequisites: [vaswani-2017-attention]
+    arxiv: 1810.04805
+    expect: open
+    difficulty: 3
+    core_idea: masked language modelling, then fine-tuning
+    status: listed
+
+  - id: brown-2020-gpt3
+    title: Language Models are Few-Shot Learners
+    authors: [Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan,
+              Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell]
+    authors_partial: true
+    year: 2020
+    venue: NeurIPS
+    field: ai-ml
+    number: 92
+    aka: [GPT-3]
+    prerequisites: [vaswani-2017-attention]
+    arxiv: 2005.14165
+    expect: open
+    difficulty: 3
+    core_idea: scale, and a task specified in the prompt rather than the weights
+    status: listed
+
+  # graphics, hci, software
+  - id: sutherland-1963-sketchpad
+    title: "Sketchpad: A Man-Machine Graphical Communication System"
+    authors: [Ivan E. Sutherland]
+    year: 1963
+    venue: MIT PhD thesis / AFIPS Spring Joint Computer Conference
+    field: graphics
+    number: 93
+    expect: open
+    difficulty: 3
+    core_idea: drawing with constraints, and the first interactive graphics system
+    status: listed
+
+  - id: engelbart-1968-augmenting
+    title: A Research Center for Augmenting Human Intellect
+    authors: [Douglas C. Engelbart, William K. English]
+    year: 1968
+    venue: AFIPS Fall Joint Computer Conference
+    field: hci
+    number: 94
+    aka: ["The Mother of All Demos", NLS]
+    expect: open
+    difficulty: 2
+    core_idea: the mouse, hypertext, and screen editing, shown working
+    status: listed
+
+  - id: phong-1975-illumination
+    title: Illumination for Computer Generated Pictures
+    authors: [Bui Tuong Phong]
+    year: 1975
+    venue: Communications of the ACM
+    field: graphics
+    number: 95
+    aka: [Phong shading]
+    expect: open
+    difficulty: 2
+    core_idea: interpolate the normal, not the intensity, and add a specular term
+    status: listed
+
+  - id: shneiderman-1983-directmanipulation
+    title: "Direct Manipulation: A Step Beyond Programming Languages"
+    authors: [Ben Shneiderman]
+    year: 1983
+    venue: IEEE Computer
+    field: hci
+    number: 96
+    prerequisites: [engelbart-1968-augmenting]
+    expect: restricted
+    difficulty: 1
+    core_idea: continuous representation, physical action, and reversible operations
+    status: listed
+
+  - id: royce-1970-lifecycle
+    title: Managing the Development of Large Software Systems
+    authors: [Winston W. Royce]
+    year: 1970
+    venue: IEEE WESCON
+    field: software
+    number: 97
+    aka: [the waterfall paper]
+    expect: open
+    difficulty: 1
+    core_idea: the diagram everyone quotes, and the page after it saying it does not work
+    status: listed
+
+  - id: parnas-1972-modules
+    title: On the Criteria To Be Used in Decomposing Systems into Modules
+    authors: [D. L. Parnas]
+    year: 1972
+    venue: Communications of the ACM
+    field: software
+    number: 98
+    expect: open
+    difficulty: 2
+    core_idea: modules hide decisions, not steps
+    status: listed
+
+  - id: mccabe-1976-complexity
+    title: A Complexity Measure
+    authors: [Thomas J. McCabe]
+    year: 1976
+    venue: IEEE Transactions on Software Engineering
+    field: software
+    number: 99
+    aka: [cyclomatic complexity]
+    expect: restricted
+    difficulty: 2
+    core_idea: count the independent paths through the control flow graph
+    status: listed
+
+  - id: brooks-1987-nosilverbullet
+    title: No Silver Bullet - Essence and Accidents of Software Engineering
+    authors: [Frederick P. Brooks Jr.]
+    year: 1987
+    venue: IEEE Computer
+    field: software
+    number: 100
+    expect: open
+    difficulty: 1
+    core_idea: essential complexity is irreducible, so no single advance gives an order of magnitude
+    status: listed

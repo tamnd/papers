@@ -1,0 +1,12 @@
+# The controlled vocabulary: one English term, one rendering per language.
+#
+# The glossary is what keeps four hundred separately translated files reading as one corpus.
+# It is built by `papers glossary extract` over the finished English, reviewed by a person, and then translated by `papers glossary translate`.
+#
+# `version` goes up by one every time a term is added or a rendering changes.
+# Every translated file records the version it was made under, so a change to this file makes the affected files detectably stale rather than quietly inconsistent.
+#
+# `keep: true` means the English term is used as is in that language, which is the honest answer for a name like Transformer or MapReduce.
+
+version: 0
+terms: []

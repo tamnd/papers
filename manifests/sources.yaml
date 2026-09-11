@@ -1,0 +1,18 @@
+# Where each PDF was found, and under what licence.
+#
+# This file is written by `papers resolve` and `papers fetch`, not by hand, with one exception: a `url` and an `access` typed in by a person beats anything an API says, because a person who has looked knows more than a search index.
+#
+# `access` decides what the corpus is allowed to publish for a paper:
+#
+#   public-domain   full text, figures
+#   open            full text, figures
+#   permissive      full text, figures, with attribution
+#   restricted      the bibliographic record and a short abstract, no body text, no figures
+#   unknown         nothing at all
+#
+# A paper missing from this file has no access class, which counts as `unknown`.
+# Audit rule S01 fails the build if any content exists for such a paper, so not having looked publishes nothing.
+#
+# No PDF is committed under any access class.
+
+sources: []

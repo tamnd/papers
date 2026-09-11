@@ -1,0 +1,45 @@
+name: publish
+
+# The corpus is the input to the reading app and the app lives in another
+# repository, so a push here asks that repository to rebuild and deploy. The
+# site is therefore always a build of committed content and never of somebody's
+# working tree.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'figures/**'
+      - 'manifests/**'
+      - 'tags/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  dispatch:
+    name: ask papers-reader to rebuild
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # PAPERS_READER_TOKEN is a fine grained token with Actions write on
+      # tamnd/papers-reader and nothing else. Without it this is a no-op, so a
+      # fork does not fail every push.
+      - name: repository_dispatch
+        env:
+          GH_TOKEN: ${{ secrets.PAPERS_READER_TOKEN }}
+          SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "PAPERS_READER_TOKEN is not set, nothing to do"
+            exit 0
+          fi
+          gh api repos/tamnd/papers-reader/dispatches \
+            --field event_type=corpus-updated \
+            --field "client_payload[sha]=$SHA"
