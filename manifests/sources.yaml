@@ -1,46 +1,71 @@
 # Where each paper was found and what may be published from it.
 #
-# Written by `papers resolve` and `papers fetch`. Hand edits survive a re-run, so a record corrected by a person stays corrected.
+# Written by `papers resolve`, `papers fetch` and `papers classify`.
 # A paper with no entry here, or with access: unknown, publishes nothing at all.
+#
+# The `by:` field says how much of a record came from a person. `pin` is a location somebody put in
+# papers.yaml, `seed` is the link the reading list arrived with, and no field at all means one of the
+# APIs found the paper on its own.
+#
+# To correct a record by hand, edit it and add a `by: hand` line. The resolver then leaves that paper
+# alone for good, including under --again, because somebody who read the publisher's own terms knows
+# more than the ladder does. Say in `note:` where you read them, so the next person does not repeat it.
 
 sources:
     - id: aho-1975-corasick
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/360825.360855
-      landing: https://dl.acm.org/doi/pdf/10.1145/360825.360855
+      url: https://cr.yp.to/bib/1975/aho.pdf
+      landing: https://cr.yp.to/bib/1975/aho.pdf
+      fetched: "2026-09-11"
+      sha256: f04940c07d2a12726bce4147fd4217e876cd969ddf44094ad90c866893deed34
     - id: amdahl-1967-law
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/1465482.1465560
-      landing: https://doi.org/10.1145/1465482.1465560
+      url: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl-1967.pdf
+      landing: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl-1967.pdf
+      fetched: "2026-09-11"
+      sha256: 81a363deb884ca23e495280eb9229df1064b4b3f79d662f270be35b50bea5318
     - id: astrahan-1976-systemr
       access: restricted
       url: https://www.cs.princeton.edu/courses/archive/fall11/cos518/papers/system-R.pdf
       landing: https://www.cs.princeton.edu/courses/archive/fall11/cos518/papers/system-R.pdf
+      fetched: "2026-09-11"
+      sha256: e66b9412f77f7dc2599908c627e49e92e2949832e64a94f12652ab0915a8a1b5
     - id: backus-1978-vonneumann
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/359576.359579
-      landing: https://dl.acm.org/doi/pdf/10.1145/359576.359579
+      url: https://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf
+      landing: https://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf
+      fetched: "2026-09-11"
+      sha256: 2e412a7986c7fd1bdd060d90d035faa9ecc8a29675f99206c243da90954ca423
     - id: barham-2003-xen
       access: restricted
       url: https://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf
       landing: https://doi.org/10.1145/945445.945462
+      fetched: "2026-09-11"
+      sha256: 7763a4c6cca63c17c92107b4d296fe2b7600ae8f419eef9ff36ac6c58a7a2a4d
     - id: bayer-1972-btree
       access: restricted
-      url: https://link.springer.com/content/pdf/10.1007/BF00288683.pdf
-      landing: https://doi.org/10.1007/978-3-642-48354-7_3
+      url: https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf
+      landing: https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf
+      fetched: "2026-09-11"
+      sha256: 69826c036d7948fe5b02f7498620c90cc6a8de2504251a57994d13dc7b14e470
     - id: birrell-1984-rpc
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/2080.357392
-      landing: https://doi.org/10.1145/800217.806609
+      url: https://www.cs.cmu.edu/~dga/15-712/F07/papers/birrell842.pdf
+      landing: https://www.cs.cmu.edu/~dga/15-712/F07/papers/birrell842.pdf
+      fetched: "2026-09-11"
+      sha256: 0c5058383786e2b3e8fa9894872358e362a6f6ffc58c06f29dc08b836318f432
     - id: bloom-1970-filter
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/362686.362692
-      landing: https://doi.org/10.1145/362686.362692
+      url: http://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf
+      landing: http://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf
+      fetched: "2026-09-11"
+      sha256: def80c7d042c39d5aab15e6ae1c2b55262ee1123ffcdf53143895089ab5c1728
     - id: boncz-2005-x100
       access: restricted
-      licence: other-oa
-      url: https://ir.cwi.nl/pub/16497
-      landing: https://ir.cwi.nl/pub/16497
+      url: https://www.cidrdb.org/cidr2005/papers/P19.pdf
+      landing: https://www.cidrdb.org/cidr2005/papers/P19.pdf
+      fetched: "2026-09-11"
+      sha256: c509153c876aee8706e298d43e2fa93ade2696cc3102643b439af0f508bb52fc
     - id: bosshart-2014-p4
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -54,10 +79,14 @@ sources:
       access: restricted
       url: https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
       landing: https://doi.org/10.1016/s0169-7552(98)00110-x
+      fetched: "2026-09-11"
+      sha256: 3a155ade395c7789876a0bc08a1842f909486438c1b1739ae531fa5c797d93f0
     - id: brooks-1987-nosilverbullet
       access: restricted
       url: https://www.cs.unc.edu/techreports/86-020.pdf
       landing: https://www.cs.unc.edu/techreports/86-020.pdf
+      fetched: "2026-09-11"
+      sha256: a4a11dcb6ff7dcdfcc680e27760126d86c568cbb99a53a2bf58dc9041fbb190e
     - id: brown-2020-gpt3
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -68,35 +97,48 @@ sources:
       pages: 75
       text_layer: digital
     - id: castro-1999-pbft
-      access: permissive
-      licence: CC BY-NC 4.0
-      url: https://dspace.mit.edu/bitstream/1721.1/149920/1/MIT-LCS-TR-817.pdf
-      landing: http://courses.cs.vt.edu/%7Ecs5204/fall05-gback/papers/castro-osdi99.pdf
+      access: restricted
+      url: https://www.scs.stanford.edu/nyu/03sp/sched/bfs.pdf
+      landing: https://www.scs.stanford.edu/nyu/03sp/sched/bfs.pdf
+      fetched: "2026-09-11"
+      sha256: 9b8d5842c967894eaa2d6aa71d4354d26c4f76880f859a117d96042b4a37efc1
     - id: cerf-1974-tcpip
       access: restricted
       licence: all rights reserved
       url: https://www.eecs.umich.edu/courses/eecs589/papers/CerfKahn74.pdf
       landing: https://doi.org/10.21236/ada634240
+      fetched: "2026-09-11"
+      sha256: f7c614a116516e0efec906885fa3ffd9261c5101900d117b72d26d92de96d2f1
     - id: chang-2006-bigtable
       access: restricted
       url: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
       landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.101.9822
+      fetched: "2026-09-11"
+      sha256: 9126cf3b930fd7be2de6248f82565c9b970482eb063bdc30be8c1b29c86b2167
     - id: chiu-1989-aimd
       access: restricted
-      url: https://www.cse.wustl.edu/~jain/papers/ftp/aimd.pdf
-      landing: https://doi.org/10.1016/0169-7552(89)90019-6
+      url: https://pdfs.semanticscholar.org/805d/0da469da6ba7571ee75732ab66202aaea9e0.pdf
+      landing: https://pdfs.semanticscholar.org/805d/0da469da6ba7571ee75732ab66202aaea9e0.pdf
+      fetched: "2026-09-11"
+      sha256: 321423cab89f7f0665b72b30a0365ab2d8012788ddd3170228ec619f10acb530
     - id: codd-1970-relational
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/362384.362685
-      landing: https://doi.org/10.1145/362384.362685
+      url: https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
+      landing: https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
+      fetched: "2026-09-11"
+      sha256: fa2579f427a4da68466ef159a3ae0c3c1fe4eafec60f73c9f2f40378a65d8ef9
     - id: cook-1971-np
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/800157.805047
-      landing: https://doi.org/10.1145/800157.805047
+      url: https://www.cs.toronto.edu/~sacook/homepage/1971.pdf
+      landing: https://www.cs.toronto.edu/~sacook/homepage/1971.pdf
+      fetched: "2026-09-11"
+      sha256: aacaca0dd6db8b409317a2de282734539c3186a72cff1cb4dd601c76a4ddfb75
     - id: cooley-1965-fft
       access: restricted
       url: https://web.stanford.edu/class/cme324/classics/cooley-tukey.pdf
       landing: https://doi.org/10.1090/s0025-5718-1965-0178586-1
+      fetched: "2026-09-11"
+      sha256: b4fa04410bcbf324eca035ab9d94818f075cee2f2ae38e99ebb0e2348e64654a
     - id: corbett-2012-spanner
       access: open
       licence: USENIX open access
@@ -110,14 +152,20 @@ sources:
       access: restricted
       url: https://link.springer.com/content/pdf/10.1023/A:1022627411411.pdf
       landing: https://doi.org/10.1023/a:1022627411411
+      fetched: "2026-09-11"
+      sha256: 561361e49eb22df6f5e14f8c19d681c6b596891f07057fc43703394383233002
     - id: cytron-1991-ssa
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/115372.115320
-      landing: https://doi.org/10.1145/115372.115320
+      url: https://www.cs.utexas.edu/~pingali/CS380C/2010/papers/ssaCytron.pdf
+      landing: https://www.cs.utexas.edu/~pingali/CS380C/2010/papers/ssaCytron.pdf
+      fetched: "2026-09-11"
+      sha256: 307512bb537628c2b326b23aa02109e7562bfc619509e942e015054ab58eb9ab
     - id: dageville-2016-snowflake
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/2882903.2903741
-      landing: https://doi.org/10.1145/2882903.2903741
+      url: https://info.snowflake.net/rs/252-RFO-227/images/Snowflake_SIGMOD.pdf
+      landing: https://info.snowflake.net/rs/252-RFO-227/images/Snowflake_SIGMOD.pdf
+      fetched: "2026-09-11"
+      sha256: b635081104c3647561a476ab5947f5782b2a5c4be5af43b48cea90dba1b9e332
     - id: dean-2004-mapreduce
       access: open
       licence: USENIX open access
@@ -131,19 +179,27 @@ sources:
       access: restricted
       url: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
       landing: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+      fetched: "2026-09-11"
+      sha256: 5cacd624cd7bfd37e3d22e04d8c2e347a49579d2927dbb06f40a89c0bcd40bd4
     - id: dennard-1974-scaling
       access: restricted
       licence: all rights reserved
       url: https://www.cs.sfu.ca/~ashriram/Courses/CS7ARCH/papers/dennard-1967.pdf
       landing: https://doi.org/10.1109/jssc.1974.1050511
+      fetched: "2026-09-11"
+      sha256: fe83e914e79d8bf4271ea55de8f78a47a254fd7093a7ab073b80f956089d5690
     - id: denning-1968-workingset
       access: restricted
       url: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
       landing: https://doi.org/10.1145/800001.811670
+      fetched: "2026-09-11"
+      sha256: 3585991156b07c7e878ea9dff16ef7721401adff09ee328f5ee247b016289e0f
     - id: deutsch-1984-smalltalk
       access: restricted
       url: https://www.cs.tufts.edu/comp/150FP/archive/peter-deutsch/efficient-smalltalk.pdf
       landing: https://doi.org/10.1145/800017.800542
+      fetched: "2026-09-11"
+      sha256: 300584e302ee0fa5a006ee363d9e3f1b0df043c3259580e32dcd409e9a09871d
     - id: devlin-2018-bert
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -155,54 +211,79 @@ sources:
       text_layer: digital
     - id: dewitt-1990-gamma
       access: restricted
-      licence: all rights reserved
-      url: https://minds.wisconsin.edu/handle/1793/11036
-      landing: https://doi.org/10.1109/69.50905
+      url: http://db.cs.berkeley.edu/cs286/papers/gamma-tkde1990.pdf
+      landing: http://db.cs.berkeley.edu/cs286/papers/gamma-tkde1990.pdf
+      fetched: "2026-09-11"
+      sha256: 420d33f44b8e050f33517cdff1299a58838b4ad826d80a6617200332ea02be5e
+      by: pin
     - id: diffie-1976-newdirections
       access: restricted
       licence: all rights reserved
       url: https://ee.stanford.edu/~hellman/publications/24.pdf
       landing: https://doi.org/10.1109/tit.1976.1055638
+      fetched: "2026-09-11"
+      sha256: 03fa2f493a1448a309586b9cf9e5c3a4dfd14735e0786cc94674519570b890ff
     - id: dijkstra-1959-shortestpath
       access: restricted
-      url: https://link.springer.com/content/pdf/10.1007/BF01386390.pdf
-      landing: https://doi.org/10.1007/bf01386390
+      url: https://ir.cwi.nl/pub/9256/9256D.pdf
+      landing: https://ir.cwi.nl/pub/9256/9256D.pdf
+      fetched: "2026-09-11"
+      sha256: ee0938a64a327cf6d60c25115ae98990417224408d9c062f09907a044e045ac0
     - id: dijkstra-1968-the
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/363095.363143
-      landing: https://doi.org/10.1007/978-1-4757-3472-0_3
+      url: https://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF
+      landing: https://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF
+      fetched: "2026-09-11"
+      sha256: 05061e836d9d7834f57f85cb06ed5fbea6c5726b0fd4ed2c4ca38d78ac1802d0
     - id: engelbart-1968-augmenting
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/1476589.1476645
-      landing: https://doi.org/10.1145/1476589.1476645
+      url: http://www.computer-timeline.com/wp-content/uploads/2022/11/AHI.pdf
+      landing: http://www.computer-timeline.com/wp-content/uploads/2022/11/AHI.pdf
+      fetched: "2026-09-11"
+      sha256: e6c337e5b7bf3a156941ab59a53c5d6d688c564ec7cb9c3bf7df5fa22e5c54fa
     - id: floyd-1962-shortestpath
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/367766.368168
-      landing: https://doi.org/10.1145/367766.368168
+      url: https://web.archive.org/web/20200531072111id_/https://dl.acm.org/doi/pdf/10.1145/367766.368168?download=true
+      landing: https://web.archive.org/web/20200531072111id_/https://dl.acm.org/doi/pdf/10.1145/367766.368168?download=true
+      fetched: "2026-09-11"
+      sha256: fd7424d2a47593223e2b490e841613bd900bc140944cb4eb590cff0e529886a2
+      by: pin
     - id: ford-1956-maxflow
       access: restricted
-      url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5D6E55D3B06C4F7B1043BC1D82D40764/S0008414X00036890a.pdf/div-class-title-maximal-flow-through-a-network-div.pdf
-      landing: https://doi.org/10.4153/cjm-1956-045-5
+      url: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf
+      landing: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf
+      fetched: "2026-09-11"
+      sha256: ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1
     - id: freund-1997-adaboost
       access: restricted
       url: https://www.face-rec.org/algorithms/Boosting-Ensemble/decision-theoretic_generalization.pdf
       landing: https://doi.org/10.1006/jcss.1997.1504
+      fetched: "2026-09-11"
+      sha256: 01f49de027c4c2c146869da85f8e8482d6b723344cb80ce957d11e93c615e7cc
     - id: gal-2009-tracejit
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/1542476.1542528
-      landing: https://doi.org/10.1145/1543135.1542528
+      url: https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf
+      landing: https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf
+      fetched: "2026-09-11"
+      sha256: 3662ff519e485810520552bf301d8c3b2b917fd2f83303f4965d7abed367e113
     - id: ghemawat-2003-gfs
       access: restricted
       url: https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
       landing: https://doi.org/10.1145/945445.945450
+      fetched: "2026-09-11"
+      sha256: 108ced8f084131ae6241b2c43c0b8f8bee01a8427c2527cbc204c87f1fdfce33
     - id: goldwasser-1984-probabilistic
       access: restricted
-      url: https://www.sciencedirect.com/science/article/pii/0022000084900709
-      landing: https://doi.org/10.1016/0022-0000(84)90070-9
+      url: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Encryption/Probabilistic_Encryption.pdf
+      landing: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Encryption/Probabilistic_Encryption.pdf
+      fetched: "2026-09-11"
+      sha256: b3d2f75d09da80c0bc3b39e3001ea3dd782b42af46df9c5bde0741f2dab7aa4a
     - id: goldwasser-1985-zk
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/22145.22178
-      landing: https://doi.org/10.1145/22145.22178
+      url: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf
+      landing: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf
+      fetched: "2026-09-11"
+      sha256: 17b24f25b180ba64559a089efb443337c61c916078f73be4c496bf8d27410222
     - id: goodfellow-2014-gan
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -214,13 +295,16 @@ sources:
       text_layer: digital
     - id: graefe-1994-volcano
       access: restricted
-      licence: all rights reserved
-      url: https://people.eecs.berkeley.edu/~prabal/teaching/resources/eecs582/graefe94volcano.pdf
-      landing: https://doi.org/10.1109/69.273032
+      url: http://daslab.seas.harvard.edu/reading-group/papers/volcano.pdf
+      landing: http://daslab.seas.harvard.edu/reading-group/papers/volcano.pdf
+      fetched: "2026-09-11"
+      sha256: 61e9ce81f84d66797c95db711fb593adcf1dbbf95fea53eba44a9b9e2239d6ca
     - id: hamming-1950-codes
       access: restricted
-      url: https://calhoun.nps.edu/bitstreams/0d21de63-5f08-4f42-899d-7ccb9b07980f/download
-      landing: https://doi.org/10.1002/j.1538-7305.1950.tb00463.x
+      url: https://archive.org/download/bstj29-2-147/bstj29-2-147.pdf
+      landing: https://archive.org/download/bstj29-2-147/bstj29-2-147.pdf
+      fetched: "2026-09-11"
+      sha256: 32f13768d0e37bcc482517d3e1f50f9309d6db65e145edc476622c435829bdad
     - id: he-2016-resnet
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -232,20 +316,29 @@ sources:
       text_layer: digital
     - id: hoare-1962-quicksort
       access: restricted
-      url: https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/050010.pdf
-      landing: https://doi.org/10.1093/comjnl/5.1.10
+      url: https://www.cs.ox.ac.uk/files/6226/H2006%20-%20Historic%20Quicksort.pdf
+      landing: https://www.cs.ox.ac.uk/files/6226/H2006%20-%20Historic%20Quicksort.pdf
+      fetched: "2026-09-11"
+      sha256: 1b54e36fac02a0c19213e2858090fa1dca70688f5f99a2748357fd8329918bab
+      by: pin
     - id: hoare-1969-axiomatic
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/363235.363259
-      landing: https://doi.org/10.1145/363235.363259
+      url: https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf
+      landing: https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf
+      fetched: "2026-09-11"
+      sha256: f9b85de3537c0f1239cbe767cfd26ad49f2be07f0cc9021a6e46adfffb81dc12
     - id: jacobson-1988-congestion
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/52324.52356
-      landing: https://doi.org/10.1145/52324.52356
+      url: https://ee.lbl.gov/papers/congavoid.pdf
+      landing: https://ee.lbl.gov/papers/congavoid.pdf
+      fetched: "2026-09-11"
+      sha256: 9ca88dfa60f98d5cf736c3917df45420eb91861dd1de453a3dedf3d91c1836eb
     - id: jouppi-1990-victimcache
       access: restricted
       url: https://www.cs.cmu.edu/afs/cs/academic/class/15740-s18/www/papers/jouppi90.pdf
       landing: https://doi.org/10.1145/325164.325162
+      fetched: "2026-09-11"
+      sha256: 0077ca65ae80ad9d11024aea044515225281980a2dd542f6c04cdece03ed3f86
     - id: jouppi-2017-tpu
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -259,61 +352,88 @@ sources:
       access: restricted
       url: https://www.cs.umd.edu/~gasarch/BLOGPAPERS/Karp.pdf
       landing: https://doi.org/10.1007/978-1-4684-2001-2_9
+      fetched: "2026-09-11"
+      sha256: ae57cf641ae4f1924bdc4d7ef865edb2411c44e3040e8e546d01f1545e288e89
     - id: knuth-1977-kmp
       access: restricted
-      url: https://epubs.siam.org/doi/pdf/10.1137/0206024
-      landing: https://doi.org/10.1137/0206024
+      url: https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Knuth77.pdf
+      landing: https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Knuth77.pdf
+      fetched: "2026-09-11"
+      sha256: cf3391d85e2456f8242a3dc4a88e7cdead9a419b52890bb4b8a31433e9659dcb
     - id: krizhevsky-2012-imagenet
       access: restricted
       url: https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
       landing: https://ci.nii.ac.jp/naid/20001617881
+      fetched: "2026-09-11"
+      sha256: 90137160c57217953d5f61857e64ca58e85f06e1b13b4f475c918b1b582b9771
     - id: lamport-1978-clocks
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/359545.359563
-      landing: https://doi.org/10.1145/359545.359563
+      url: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
+      landing: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
+      fetched: "2026-09-11"
+      sha256: c55e7cab4230aa3d7126748a149b2db6f0d7a67296d5eccfdd50a210299a96b2
     - id: lamport-1998-paxos
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/279227.279229
-      landing: https://doi.org/10.1145/279227.279229
+      url: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
+      landing: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
+      fetched: "2026-09-11"
+      sha256: cd9544e9615bcd417a2c10063671cecca0b28ad4bc5db3f64467a83ecc7028d3
     - id: lattner-2004-llvm
       access: restricted
       url: https://llvm.org/pubs/2004-01-30-CGO-LLVM.pdf
       landing: https://doi.org/10.1109/cgo.2004.1281665
+      fetched: "2026-09-11"
+      sha256: 0352543b42fca1c88c3a74b3223a9da68f686435a64d3321450bda4655e4965c
     - id: lecun-1998-lenet
       access: restricted
       licence: all rights reserved
       url: https://hal.science/hal-03926082/document
       landing: https://doi.org/10.1109/5.726791
+      fetched: "2026-09-11"
+      sha256: 346d2a5b49eb759da050572c187b93e35b68bd6a3b9c5d68c88e6ed96da386b7
     - id: mccabe-1976-complexity
       access: restricted
-      licence: all rights reserved
-      url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1702388
-      landing: https://doi.org/10.1109/tse.1976.233837
+      url: http://www.literateprogramming.com/mccabe.pdf
+      landing: http://www.literateprogramming.com/mccabe.pdf
+      fetched: "2026-09-11"
+      sha256: be2ac1035940dfc7fa231e23b33bfa3c2f3e3d8ef3112e20cf92a35a7af537f6
     - id: mccarthy-1960-lisp
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/367177.367199
-      landing: https://doi.org/10.1145/367177.367199
+      url: http://www-formal.stanford.edu/jmc/recursive.pdf
+      landing: http://www-formal.stanford.edu/jmc/recursive.pdf
+      fetched: "2026-09-11"
+      sha256: 3d981849e59505eff3f14397a177b409f5d978d43d114bdd67c956e74320fc92
     - id: mckeown-2008-openflow
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
-      landing: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
+      url: http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf
+      landing: http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf
+      fetched: "2026-09-11"
+      sha256: f71746e44666eec5baf625764a347cb142fb21e60dd4b647eefe73ac262aeb60
     - id: metcalfe-1976-ethernet
       access: restricted
       url: https://www.cl.cam.ac.uk/teaching/0809/DigiCommI/metcalfe1976ethernet.pdf
       landing: https://www.cl.cam.ac.uk/teaching/0809/DigiCommI/metcalfe1976ethernet.pdf
+      fetched: "2026-09-11"
+      sha256: e1e9d67146a1d0955a39b4fbb8e2951d6cefb4f7231a01acb9c78852280da227
     - id: milner-1978-polymorphism
       access: restricted
       licence: publisher-specific-oa
       url: https://www.pure.ed.ac.uk/ws/files/15143545/1_s2.0_0022000078900144_main.pdf
       landing: https://doi.org/10.1016/0022-0000(78)90014-4
+      fetched: "2026-09-11"
+      sha256: a55f1fb81848085165c55a73c33f28b5d25f3b7bdcfa782c462af7997faad6bc
     - id: mohan-1992-aries
       access: restricted
       url: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf
       landing: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf
+      fetched: "2026-09-11"
+      sha256: 1007fcedb6b8b465f97ee1c4e4d88420450b50b18ff5ad400a130b21e4961817
     - id: nagle-1984-congestion
       access: restricted
-      url: https://mirror.math.princeton.edu/pub/RFCs/rfc896.txt.pdf
-      landing: https://doi.org/10.17487/rfc896
+      url: https://archive.org/download/rfc896/rfc896.txt.pdf
+      landing: https://archive.org/download/rfc896/rfc896.txt.pdf
+      fetched: "2026-09-11"
+      sha256: facf3ded36efc4a59db4b1ed5e3e635462b43803e77db1a7546c2d9934668f1f
     - id: nakamoto-2008-bitcoin
       access: open
       licence: MIT
@@ -325,107 +445,157 @@ sources:
       text_layer: native
     - id: needham-1978-authentication
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/359657.359659
-      landing: https://doi.org/10.1145/359657.359659
+      url: https://web.archive.org/web/20250531153030id_/https://dl.acm.org/doi/pdf/10.1145/359657.359659
+      landing: https://web.archive.org/web/20250531153030id_/https://dl.acm.org/doi/pdf/10.1145/359657.359659
+      fetched: "2026-09-11"
+      sha256: 6fec623eab036ce7683fc0d35286988cb721593962c842b1360d981fff49d11e
+      by: pin
     - id: ongaro-2014-raft
       access: restricted
       url: https://raft.github.io/raft.pdf
       landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.998.3935
+      fetched: "2026-09-11"
+      sha256: 5a5c679b6a7c88007faeff8c3eef19a77e9e5caa8bd7390922584fe8ecf0ce1f
     - id: parnas-1972-modules
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/361598.361623
-      landing: https://doi.org/10.21236/ad0773837
+      url: https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
+      landing: https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
+      fetched: "2026-09-11"
+      sha256: 7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4
     - id: patterson-1981-risc
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/285930.285981
-      landing: https://dl.acm.org/doi/pdf/10.1145/285930.285981
+      url: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-F00/handouts/papers/p216-patterson.pdf
+      landing: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-F00/handouts/papers/p216-patterson.pdf
+      fetched: "2026-09-11"
+      sha256: d49afdf3db5a8374fbc757059fab0562b9a517b3ff7abec17c2e6b88c48f03e1
     - id: phong-1975-illumination
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/360825.360839
-      landing: https://doi.org/10.1145/360825.360839
+      url: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf
+      landing: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf
+      fetched: "2026-09-11"
+      sha256: 3c1d54dabfe90b9f8fe2ceda797e2ef5898b93905cfc055c3b4d091a643935a5
     - id: rabin-1959-automata
       access: restricted
       url: https://www.cs.miami.edu/~burt/learning/csc427.222/docs/rabin-scott.pdf
       landing: https://doi.org/10.1147/rd.32.0114
+      fetched: "2026-09-11"
+      sha256: 508c4c091d32b809ff5a75d91f4f313aa7f88b02e533dceb2146f34b196fdc03
     - id: razborov-1997-naturalproofs
       access: restricted
       url: https://www1.karlin.mff.cuni.cz/~krajicek/rr.pdf
       landing: https://doi.org/10.1006/jcss.1997.1494
+      fetched: "2026-09-11"
+      sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
     - id: ritchie-1974-unix
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/800009.808045
-      landing: https://doi.org/10.1145/800009.808045
+      url: https://dsf.berkeley.edu/cs262/unix.pdf
+      landing: https://dsf.berkeley.edu/cs262/unix.pdf
+      fetched: "2026-09-11"
+      sha256: 96bc5caa11cc13925165b6d36b78c55cc61a61e65a628c375511683a97442b51
     - id: rivest-1978-rsa
       access: restricted
       url: https://people.csail.mit.edu/rivest/Rsapaper.pdf
       landing: https://doi.org/10.21236/ada606588
+      fetched: "2026-09-11"
+      sha256: f7b1f78d9a7cbeb85e32b8c563a6db60771a5cc4bdc55580645f7cb778a4966b
     - id: rosenblatt-1958-perceptron
       access: restricted
-      url: https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf
-      landing: https://doi.org/10.1037/h0042519
+      url: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f237108.pdf
+      landing: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f237108.pdf
+      fetched: "2026-09-11"
+      sha256: ac4cca5f3cc14504ca4d75da225fdd8542e4148454841ecd5855c983aaaebc3f
     - id: royce-1970-lifecycle
       access: restricted
-      url: https://innov2e.it/wp-content/uploads/2023/11/1970-Winston-W.-Royce-Managing-the-development-of-large-SOFTWARE-SYSTEMS-Dr.-Winston-W.-Royce-41765.41801.pdf
-      landing: http://ci.nii.ac.jp/naid/10016683170/
+      url: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
+      landing: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
+      fetched: "2026-09-11"
+      sha256: f93bde97ee32e9a66814166cb6025c0504f628d963cfbead7d36a224c56435ae
     - id: rumelhart-1986-backprop
       access: restricted
-      url: http://www.nature.com/articles/323533a0.pdf
-      landing: https://doi.org/10.1038/323533a0
+      url: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
+      landing: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
+      fetched: "2026-09-11"
+      sha256: 2c011a4ffae95e49e1ad0f09a966b386f47db75eab718384bc48c87e90aeffdd
     - id: saltzer-1975-protection
       access: restricted
-      licence: all rights reserved
-      url: https://www.mit.edu/~Saltzer/publications/protection/index.html
-      landing: https://doi.org/10.1109/proc.1975.9939
+      url: https://cgi.cse.unsw.edu.au/~cs9242/24/papers/Saltzer_Schroeder_75.pdf
+      landing: https://cgi.cse.unsw.edu.au/~cs9242/24/papers/Saltzer_Schroeder_75.pdf
+      fetched: "2026-09-11"
+      sha256: d33039c90c05dc2db4a1ea8f27bd710353bed271224e41bc76c2a42e89539dc1
     - id: saltzer-1984-endtoend
       access: restricted
       url: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
       landing: https://doi.org/10.1145/357401.357402
+      fetched: "2026-09-11"
+      sha256: 3204a1a562d9d3b72ba112f20caddfd34991d6e1e39939ace6a3e7c016519768
     - id: savitch-1970-tape
       access: restricted
-      url: https://www.sciencedirect.com/science/article/pii/S002200007080006X/pdf
-      landing: https://doi.org/10.1016/s0022-0000(70)80006-x
+      url: https://web.archive.org/web/20240712003717id_/https://core.ac.uk/download/pdf/82306488.pdf
+      landing: https://web.archive.org/web/20240712003717id_/https://core.ac.uk/download/pdf/82306488.pdf
+      fetched: "2026-09-11"
+      sha256: 18c874bdb0c9b7908ab97bdeea66e0d5397ed5b715eb43402020454179f281d1
+      by: pin
     - id: selinger-1979-accesspath
       access: restricted
       url: https://web.eecs.umich.edu/~michjc/eecs584/Papers/selinger_1979.pdf
       landing: https://doi.org/10.1145/582095.582099
+      fetched: "2026-09-11"
+      sha256: d8c02d475b49fc90b9ee2b9e15a686a320b4b537272b8a5a661642db6c800d13
     - id: shamir-1992-ippspace
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/146585.146609
-      landing: https://doi.org/10.1145/146585.146609
+      url: https://pdfs.semanticscholar.org/9b90/c0d10910b4f510fd1e1fb41e80b6896c44e9.pdf
+      landing: https://pdfs.semanticscholar.org/9b90/c0d10910b4f510fd1e1fb41e80b6896c44e9.pdf
+      fetched: "2026-09-11"
+      sha256: d9b02b50e35e223f4ceca3526c1148e655d762b7b2f615deddd61acdc89b994d
     - id: shannon-1948-communication
       access: restricted
-      licence: other-oa
-      url: http://hdl.handle.net/11858/00-001M-0000-002C-4314-2
-      landing: https://doi.org/10.1002/j.1538-7305.1948.tb00917.x
+      url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+      landing: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+      fetched: "2026-09-11"
+      sha256: 6e4e3411984f3edf99dbfe8b941cb5e8a321379ff0cae6ae5c1f592ad8882ca8
     - id: shneiderman-1983-directmanipulation
       access: restricted
-      licence: all rights reserved
       url: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
-      landing: https://doi.org/10.1109/mc.1983.1654471
+      landing: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
+      fetched: "2026-09-11"
+      sha256: 4dc29926c05033d1cdb702444158bf8d154d8a152cad1b4a430ffd0403d3af33
     - id: silver-2016-alphago
       access: restricted
-      url: http://www.nature.com/articles/nature16961.pdf
-      landing: https://doi.org/10.1038/nature16961
+      url: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
+      landing: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
+      fetched: "2026-09-11"
+      sha256: 9c9184385a3d37b4f4e9d9715270986c43172747b1d08f29093128c1ef878b60
     - id: steiner-1988-kerberos
       access: restricted
       url: https://css.csail.mit.edu/6.858/2012/readings/kerberos.pdf
       landing: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.112.9002
+      fetched: "2026-09-11"
+      sha256: 2dd6604c96afde95681d25fe32df9834aad32274d1bdbb44dd5f69d6b9660f59
     - id: stoica-2001-chord
       access: restricted
       url: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
       landing: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+      fetched: "2026-09-11"
+      sha256: cca4ae7873ac128b7b9034b2c3fbf32f7d84541a88b5e70d0c7c1ce1d6381fe8
     - id: stonebraker-2005-cstore
       access: restricted
       url: https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
       landing: https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
+      fetched: "2026-09-11"
+      sha256: c619eacc696c847e0d7697edb9193a2c35f242b12ac2835f486970a07129eecb
     - id: sussman-1975-scheme
       access: restricted
-      url: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
-      landing: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
+      url: https://dspace.mit.edu/server/api/core/bitstreams/70ab0fe6-0e7a-41ef-99fb-ac2c9481a05e/content
+      landing: https://dspace.mit.edu/server/api/core/bitstreams/70ab0fe6-0e7a-41ef-99fb-ac2c9481a05e/content
+      fetched: "2026-09-11"
+      sha256: c2961e078943a26ae1f752b202290f561578b7ecf8b24b8929e3c1f99e6b2c52
+      by: pin
     - id: sutherland-1963-sketchpad
       access: restricted
       url: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
-      landing: https://doi.org/10.1177/003754976400200514
+      landing: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
+      fetched: "2026-09-11"
+      sha256: e052281b553622badc8dd308003c127617aa5723e4ec3dbfa79b781d8e712742
     - id: sutskever-2014-seq2seq
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -437,20 +607,28 @@ sources:
       text_layer: digital
     - id: tarjan-1972-dfs
       access: restricted
-      url: https://epubs.siam.org/doi/pdf/10.1137/0201010
-      landing: https://doi.org/10.1109/swat.1971.10
+      url: https://sites.cs.ucsb.edu/~gilbert/cs240a/old/cs240aSpr2011/slides/TarjanDFS.pdf
+      landing: https://sites.cs.ucsb.edu/~gilbert/cs240a/old/cs240aSpr2011/slides/TarjanDFS.pdf
+      fetched: "2026-09-11"
+      sha256: d0ee53bb4bf82602cb5dd7bd08f39927f6d0253cb30c79aaa84378ac6b94f064
     - id: tomasulo-1967-algorithm
       access: restricted
       url: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-S07/handouts/papers/tomasulo.pdf
       landing: https://doi.org/10.1147/rd.111.0025
+      fetched: "2026-09-11"
+      sha256: b62a6bc6a0b22d9acf08415f9f95f89d6a0b5c9ce46ee9a42563eb9228695be7
     - id: turing-1936-computable
       access: restricted
       url: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
       landing: https://doi.org/10.1112/plms/s2-42.1.230
+      fetched: "2026-09-11"
+      sha256: a126650c315e998ba96ea8248a60bde0afe60fec3e810acfc2b6c70d3b0e9f36
     - id: turing-1950-intelligence
       access: restricted
-      url: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
-      landing: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
+      url: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
+      landing: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
+      fetched: "2026-09-11"
+      sha256: 3cd7c57944b7b53f18fb2a7c014fe2367f3576696a1d024c840151459da2f24e
     - id: vaswani-2017-attention
       access: permissive
       licence: arXiv non-exclusive licence to distribute
@@ -462,13 +640,19 @@ sources:
       text_layer: digital
     - id: verma-2015-borg
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/2741948.2741964?download=true
-      landing: https://doi.org/10.1145/2741948.2741964
+      url: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf
+      landing: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf
+      fetched: "2026-09-11"
+      sha256: 2fdacd3b69f8af91477412fc91d1d858a43e764929a4edb646bd517ededdad94
     - id: wegman-1991-sccp
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/103135.103136
-      landing: https://doi.org/10.1145/103135.103136
+      url: https://www.cs.utexas.edu/users/lin/cs380c/wegman.pdf
+      landing: https://www.cs.utexas.edu/users/lin/cs380c/wegman.pdf
+      fetched: "2026-09-11"
+      sha256: 40929436cdf1c477f2318221df5d0aa71488db4a01cc448b184e0aba8bf95ddb
     - id: yeh-1991-branchprediction
       access: restricted
-      url: https://dl.acm.org/doi/pdf/10.1145/123465.123475
-      landing: https://doi.org/10.1145/123465.123475
+      url: http://classweb.ece.umd.edu/enee646/yeh+patt-adaptive-training-1991.pdf
+      landing: http://classweb.ece.umd.edu/enee646/yeh+patt-adaptive-training-1991.pdf
+      fetched: "2026-09-11"
+      sha256: 31a1e6a4b5f27f0523a80a4f004afe037d8e698a56335242059eb2b3868d5669
