@@ -1223,6 +1223,20 @@ papers:
     core_idea: many weak learners, reweighted, add up to a strong one
     status: listed
 
+  - id: hochreiter-1997-lstm
+    title: Long Short-Term Memory
+    authors: [Sepp Hochreiter, Jurgen Schmidhuber]
+    year: 1997
+    venue: Neural Computation
+    field: ai-ml
+    aka: [LSTM]
+    prerequisites: [rumelhart-1986-backprop]
+    doi: 10.1162/neco.1997.9.8.1735
+    expect: restricted
+    difficulty: 4
+    core_idea: a gated cell that carries the gradient across long gaps
+    status: listed
+
   - id: lecun-1998-lenet
     title: Gradient-Based Learning Applied to Document Recognition
     authors: [Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner]

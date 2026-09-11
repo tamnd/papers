@@ -1,0 +1,456 @@
+paper: vaswani-2017-attention
+style: bracket
+entries:
+    - key: "1"
+      raw: Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.
+      authors:
+        - Jimmy Lei Ba
+        - Jamie Ryan Kiros
+        - Geoffrey E Hinton
+      title: Layer normalization
+      venue: arXiv preprint arXiv:1607.06450
+      year: 2016
+      arxiv: "1607.06450"
+      resolves_to: ""
+    - key: "2"
+      raw: Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014.
+      authors:
+        - Dzmitry Bahdanau
+        - Kyunghyun Cho
+        - Yoshua Bengio
+      title: Neural machine translation by jointly learning to align and translate
+      venue: CoRR, abs/1409.0473
+      year: 2014
+      arxiv: "1409.0473"
+      resolves_to: ""
+    - key: "3"
+      raw: Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V. Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906, 2017.
+      authors:
+        - Denny Britz
+        - Anna Goldie
+        - Minh-Thang Luong
+        - Quoc V. Le
+      title: Massive exploration of neural machine translation architectures
+      venue: CoRR, abs/1703.03906
+      year: 2017
+      arxiv: "1703.03906"
+      resolves_to: ""
+    - key: "4"
+      raw: Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv:1601.06733, 2016.
+      authors:
+        - Jianpeng Cheng
+        - Li Dong
+        - Mirella Lapata
+      title: Long short-term memory-networks for machine reading
+      venue: arXiv preprint arXiv:1601.06733
+      year: 2016
+      arxiv: "1601.06733"
+      resolves_to: ""
+    - key: "5"
+      raw: Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014.
+      authors:
+        - Kyunghyun Cho
+        - Bart van Merrienboer
+        - Caglar Gulcehre
+        - Fethi Bougares
+        - Holger Schwenk
+        - Yoshua Bengio
+      title: Learning phrase representations using rnn encoder-decoder for statistical machine translation
+      venue: CoRR, abs/1406.1078
+      year: 2014
+      arxiv: "1406.1078"
+      resolves_to: ""
+    - key: "6"
+      raw: 'Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357, 2016.'
+      authors:
+        - Francois Chollet
+      title: 'Xception: Deep learning with depthwise separable convolutions'
+      venue: arXiv preprint arXiv:1610.02357
+      year: 2016
+      arxiv: "1610.02357"
+      resolves_to: ""
+    - key: "7"
+      raw: Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.
+      authors:
+        - Junyoung Chung
+        - Çaglar Gülçehre
+        - Kyunghyun Cho
+        - Yoshua Bengio
+      title: Empirical evaluation of gated recurrent neural networks on sequence modeling
+      venue: CoRR, abs/1412.3555
+      year: 2014
+      arxiv: "1412.3555"
+      resolves_to: ""
+    - key: "8"
+      raw: Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, and Noah A. Smith. Recurrent neural network grammars. In Proc. of NAACL, 2016.
+      authors:
+        - Chris Dyer
+        - Adhiguna Kuncoro
+        - Miguel Ballesteros
+        - Noah A. Smith
+      title: Recurrent neural network grammars
+      venue: In Proc. of NAACL
+      year: 2016
+      resolves_to: ""
+    - key: "9"
+      raw: Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.
+      authors:
+        - Jonas Gehring
+        - Michael Auli
+        - David Grangier
+        - Denis Yarats
+        - Yann N. Dauphin
+      title: Convolutional sequence to sequence learning
+      venue: arXiv preprint arXiv:1705.03122v2
+      year: 2017
+      arxiv: 1705.03122v2
+      resolves_to: ""
+    - key: "10"
+      raw: Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013.
+      authors:
+        - Alex Graves
+      title: Generating sequences with recurrent neural networks
+      venue: arXiv preprint arXiv:1308.0850
+      year: 2013
+      arxiv: "1308.0850"
+      resolves_to: ""
+    - key: "11"
+      raw: Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016.
+      authors:
+        - Kaiming He
+        - Xiangyu Zhang
+        - Shaoqing Ren
+        - Jian Sun
+      title: Deep residual learning for image recognition
+      venue: In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778
+      year: 2016
+      pages: 770-778
+      resolves_to: he-2016-resnet
+    - key: "12"
+      raw: 'Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.'
+      authors:
+        - Sepp Hochreiter
+        - Yoshua Bengio
+        - Paolo Frasconi
+        - Jürgen Schmidhuber
+      title: 'Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001'
+      year: 2001
+      resolves_to: ""
+    - key: "13"
+      raw: Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.
+      authors:
+        - Sepp Hochreiter
+        - Jürgen Schmidhuber
+      title: Long short-term memory
+      venue: Neural computation, 9(8):1735–1780
+      year: 1997
+      resolves_to: hochreiter-1997-lstm
+    - key: "14"
+      raw: Zhongqiang Huang and Mary Harper. Self-training PCFG grammars with latent annotations across languages. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 832–841. ACL, August 2009.
+      authors:
+        - Zhongqiang Huang
+        - Mary Harper
+      title: Self-training PCFG grammars with latent annotations across languages
+      venue: In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 832–841. ACL
+      year: 2009
+      pages: 832-841
+      resolves_to: ""
+    - key: "15"
+      raw: Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.
+      authors:
+        - Rafal Jozefowicz
+        - Oriol Vinyals
+        - Mike Schuster
+        - Noam Shazeer
+        - Yonghui Wu
+      title: Exploring the limits of language modeling
+      venue: arXiv preprint arXiv:1602.02410
+      year: 2016
+      arxiv: "1602.02410"
+      resolves_to: ""
+    - key: "16"
+      raw: Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016.
+      authors:
+        - Łukasz Kaiser
+        - Samy Bengio
+      title: Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016
+      year: 2016
+      resolves_to: ""
+    - key: "17"
+      raw: Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR), 2016.
+      authors:
+        - Łukasz Kaiser
+        - Ilya Sutskever
+      title: Neural GPUs learn algorithms
+      venue: In International Conference on Learning Representations (ICLR)
+      year: 2016
+      resolves_to: ""
+    - key: "18"
+      raw: Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017.
+      authors:
+        - Nal Kalchbrenner
+        - Lasse Espeholt
+        - Karen Simonyan
+        - Aaron van den Oord
+        - Alex Graves
+        - Koray Kavukcuoglu
+      title: Neural machine translation in linear time
+      venue: arXiv preprint arXiv:1610.10099v2
+      year: 2017
+      arxiv: 1610.10099v2
+      resolves_to: ""
+    - key: "19"
+      raw: Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017.
+      authors:
+        - Yoon Kim
+        - Carl Denton
+        - Luong Hoang
+        - Alexander M. Rush
+      title: Structured attention networks
+      venue: In International Conference on Learning Representations
+      year: 2017
+      resolves_to: ""
+    - key: "20"
+      raw: 'Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.'
+      authors:
+        - Diederik Kingma
+        - Jimmy Ba
+      title: 'Adam: A method for stochastic optimization'
+      venue: In ICLR
+      year: 2015
+      resolves_to: ""
+    - key: "21"
+      raw: Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv:1703.10722, 2017.
+      authors:
+        - Oleksii Kuchaiev
+        - Boris Ginsburg
+      title: Factorization tricks for LSTM networks
+      venue: arXiv preprint arXiv:1703.10722
+      year: 2017
+      arxiv: "1703.10722"
+      resolves_to: ""
+    - key: "22"
+      raw: Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017.
+      authors:
+        - Zhouhan Lin
+        - Minwei Feng
+        - Cicero Nogueira dos Santos
+        - Mo Yu
+        - Bing Xiang
+        - Bowen Zhou
+        - Yoshua Bengio
+      title: A structured self-attentive sentence embedding
+      venue: arXiv preprint arXiv:1703.03130
+      year: 2017
+      arxiv: "1703.03130"
+      resolves_to: ""
+    - key: "23"
+      raw: Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. Multi-task sequence to sequence learning. arXiv preprint arXiv:1511.06114, 2015.
+      authors:
+        - Minh-Thang Luong
+        - Quoc V. Le
+        - Ilya Sutskever
+        - Oriol Vinyals
+        - Lukasz Kaiser
+      title: Multi-task sequence to sequence learning
+      venue: arXiv preprint arXiv:1511.06114
+      year: 2015
+      arxiv: "1511.06114"
+      resolves_to: ""
+    - key: "24"
+      raw: Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.
+      authors:
+        - Minh-Thang Luong
+        - Hieu Pham
+        - Christopher D Manning
+      title: Effective approaches to attentionbased neural machine translation
+      venue: arXiv preprint arXiv:1508.04025
+      year: 2015
+      arxiv: "1508.04025"
+      resolves_to: ""
+    - key: "25"
+      raw: 'Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. Building a large annotated corpus of english: The penn treebank. Computational linguistics, 19(2):313–330, 1993.'
+      authors:
+        - Mitchell P Marcus
+        - Mary Ann Marcinkiewicz
+        - Beatrice Santorini
+      title: 'Building a large annotated corpus of english: The penn treebank'
+      venue: Computational linguistics, 19(2):313–330
+      year: 1993
+      resolves_to: ""
+    - key: "26"
+      raw: David McClosky, Eugene Charniak, and Mark Johnson. Effective self-training for parsing. In Proceedings of the Human Language Technology Conference of the NAACL, Main Conference, pages 152–159. ACL, June 2006.
+      authors:
+        - David McClosky
+        - Eugene Charniak
+        - Mark Johnson
+      title: Effective self-training for parsing
+      venue: In Proceedings of the Human Language Technology Conference of the NAACL, Main Conference, pages 152–159. ACL
+      year: 2006
+      pages: 152-159
+      resolves_to: ""
+    - key: "27"
+      raw: Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016.
+      authors:
+        - Ankur Parikh
+        - Oscar Täckström
+        - Dipanjan Das
+        - Jakob Uszkoreit
+      title: A decomposable attention model
+      venue: In Empirical Methods in Natural Language Processing
+      year: 2016
+      resolves_to: ""
+    - key: "28"
+      raw: Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv:1705.04304, 2017.
+      authors:
+        - Romain Paulus
+        - Caiming Xiong
+        - Richard Socher
+      title: A deep reinforced model for abstractive summarization
+      venue: arXiv preprint arXiv:1705.04304
+      year: 2017
+      arxiv: "1705.04304"
+      resolves_to: ""
+    - key: "29"
+      raw: Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein. Learning accurate, compact, and interpretable tree annotation. In Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the ACL, pages 433–440. ACL, July 2006.
+      authors:
+        - Slav Petrov
+        - Leon Barrett
+        - Romain Thibaux
+        - Dan Klein
+      title: Learning accurate, compact, and interpretable tree annotation
+      venue: In Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the ACL, pages 433–440. ACL
+      year: 2006
+      pages: 433-440
+      resolves_to: ""
+    - key: "30"
+      raw: Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv:1608.05859, 2016.
+      authors:
+        - Ofir Press
+        - Lior Wolf
+      title: Using the output embedding to improve language models
+      venue: arXiv preprint arXiv:1608.05859
+      year: 2016
+      arxiv: "1608.05859"
+      resolves_to: ""
+    - key: "31"
+      raw: Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015.
+      authors:
+        - Rico Sennrich
+        - Barry Haddow
+        - Alexandra Birch
+      title: Neural machine translation of rare words with subword units
+      venue: arXiv preprint arXiv:1508.07909
+      year: 2015
+      arxiv: "1508.07909"
+      resolves_to: ""
+    - key: "32"
+      raw: 'Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.'
+      authors:
+        - Noam Shazeer
+        - Azalia Mirhoseini
+        - Krzysztof Maziarz
+        - Andy Davis
+        - Quoc Le
+        - Geoffrey Hinton
+        - Jeff Dean
+      title: 'Outrageously large neural networks: The sparsely-gated mixture-of-experts layer'
+      venue: arXiv preprint arXiv:1701.06538
+      year: 2017
+      arxiv: "1701.06538"
+      resolves_to: ""
+    - key: "33"
+      raw: 'Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014.'
+      authors:
+        - Nitish Srivastava
+        - Geoffrey E Hinton
+        - Alex Krizhevsky
+        - Ilya Sutskever
+        - Ruslan Salakhutdinov
+      title: 'Dropout: a simple way to prevent neural networks from overfitting'
+      venue: Journal of Machine Learning Research, 15(1):1929–1958
+      year: 2014
+      resolves_to: ""
+    - key: "34"
+      raw: Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015.
+      authors:
+        - Sainbayar Sukhbaatar
+        - Arthur Szlam
+        - Jason Weston
+        - Rob Fergus
+      title: End-to-end memory networks
+      year: 2015
+      pages: 2440-2448
+      resolves_to: ""
+    - key: "35"
+      raw: Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.
+      authors:
+        - Ilya Sutskever
+        - Oriol Vinyals
+        - Quoc VV Le
+      title: Sequence to sequence learning with neural networks
+      venue: In Advances in Neural Information Processing Systems, pages 3104–3112
+      year: 2014
+      pages: 3104-3112
+      resolves_to: sutskever-2014-seq2seq
+    - key: "36"
+      raw: Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.
+      authors:
+        - Christian Szegedy
+        - Vincent Vanhoucke
+        - Sergey Ioffe
+        - Jonathon Shlens
+        - Zbigniew Wojna
+      title: Rethinking the inception architecture for computer vision
+      venue: CoRR, abs/1512.00567
+      year: 2015
+      arxiv: "1512.00567"
+      resolves_to: ""
+    - key: "37"
+      raw: Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In Advances in Neural Information Processing Systems, 2015.
+      authors:
+        - Vinyals
+        - Kaiser
+        - Koo
+        - Petrov
+        - Sutskever
+        - Hinton
+      title: Grammar as a foreign language
+      venue: In Advances in Neural Information Processing Systems
+      year: 2015
+      resolves_to: ""
+    - key: "38"
+      raw: 'Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016.'
+      title: 'Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation'
+      venue: arXiv preprint arXiv:1609.08144
+      year: 2016
+      arxiv: "1609.08144"
+      resolves_to: ""
+    - key: "39"
+      raw: Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.
+      authors:
+        - Jie Zhou
+        - Ying Cao
+        - Xuguang Wang
+        - Peng Li
+        - Wei Xu
+      title: Deep recurrent models with fast-forward connections for neural machine translation
+      venue: CoRR, abs/1606.04199
+      year: 2016
+      arxiv: "1606.04199"
+      resolves_to: ""
+    - key: "40"
+      raw: 'Muhua Zhu, Yue Zhang, Wenliang Chen, Min Zhang, and Jingbo Zhu. Fast and accurate shift-reduce constituent parsing. In Proceedings of the 51st Annual Meeting of the ACL (Volume 1: Long Papers), pages 434–443. ACL, August 2013. Input-Input Attention Visualizations Layer5 It is in this spirit that a of have passed new laws since 2009 making the or voting more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> It . passed making difficult <EOS> <pad> <pad> <pad> <pad> <pad> <pad> this spirit that have new laws since 2009 the voting more is in a of or Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color. Input-Input Layer5 The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> Input-Input The Law never Layer5 just this what are <pad> , - , . perfect should opinion <EOS> will be but its be is we in my The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad> Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word. Input-Input Layer5 The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . Input-Input perfect Layer5 should opinion <EOS> will be but its be is we in my The Law never just this what are <pad> The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad> Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.'
+      authors:
+        - Muhua Zhu
+        - Yue Zhang
+        - Wenliang Chen
+        - Min Zhang
+        - Jingbo Zhu. Fast
+        - 'accurate shift-reduce constituent parsing. In Proceedings of the 51st Annual Meeting of the ACL (Volume 1: Long Papers)'
+        - pages 434–443. ACL
+        - 'August 2013. Input-Input Attention Visualizations Layer5 It is in this spirit that a of have passed new laws since 2009 making the or voting more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> It . passed making difficult <EOS> <pad> <pad> <pad> <pad> <pad> <pad> this spirit that have new laws since 2009 the voting more is in a of or Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb'
+      title: making
+      year: 2009
+      pages: 434-443
+      resolves_to: ""
