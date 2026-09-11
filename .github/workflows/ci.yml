@@ -50,8 +50,12 @@ jobs:
       # The audit is the contract this corpus is held to and it lives in the
       # toolchain repository, so CI installs the toolchain rather than keeping
       # a second copy of the rules here.
+      # Pinned to a release rather than to a branch. A branch would mean this
+      # corpus starts failing the moment somebody pushes to the toolchain,
+      # which is a change to a different repository breaking this one with no
+      # commit here to point at.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@main
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.1.0
 
       - name: papers audit --hard
         env:
