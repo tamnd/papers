@@ -7,6 +7,11 @@
 # It is not a fact and nothing is fetched on the strength of it.
 # The fact lives in manifests/sources.yaml and is written by `papers resolve`, which either confirms the guess or leaves the paper unresolved.
 #
+# `seed` is where the reading list the hundred came from said a copy of the PDF was.
+# It is a hint and not a pin, and the difference matters: a pin is somebody saying "this is the paper, use it", while a seed is a link off a reading list and most of these point at a course page or an author's own site rather than at the publisher.
+# That is fine for reading the paper and it is not permission to republish a translation of it, so `papers resolve` tries the seed only after every service has had a go, and a seed never carries a licence with it.
+# A paper whose only location is a seed stays unknown, and unknown publishes nothing.
+#
 # `authors_partial: true` marks a seed entry whose author list is cut short because the paper has more authors than are worth typing by hand.
 # The resolver replaces the list with the published one.
 #
@@ -22,6 +27,7 @@ papers:
     field: theory
     number: 1
     aka: [Turing machines]
+    seed: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
     expect: public-domain
     difficulty: 5
     core_idea: the universal machine and the undecidability of the halting problem
@@ -34,6 +40,7 @@ papers:
     venue: Bell System Technical Journal
     field: theory
     number: 2
+    seed: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
     expect: open
     difficulty: 4
     core_idea: entropy, channel capacity, and the separation of source and channel coding
@@ -47,6 +54,7 @@ papers:
     field: theory
     number: 3
     prerequisites: [shannon-1948-communication]
+    seed: https://bioinfo.uib.es/~joemiro/comptrans/HammingIntro.pdf
     expect: open
     difficulty: 3
     core_idea: minimum distance, and codes that repair what they detect
@@ -59,6 +67,7 @@ papers:
     venue: IBM Journal of Research and Development
     field: theory
     number: 4
+    seed: https://www.cs.miami.edu/~burt/learning/csc427.222/docs/rabin-scott.pdf
     expect: open
     difficulty: 4
     core_idea: nondeterministic automata, and the subset construction that removes it
@@ -71,6 +80,7 @@ papers:
     venue: Journal of Computer and System Sciences
     field: theory
     number: 5
+    seed: https://www.sciencedirect.com/science/article/pii/S002200007080006X
     expect: open
     difficulty: 4
     core_idea: "Savitch's theorem: NSPACE(f) is in DSPACE(f squared)"
@@ -83,6 +93,7 @@ papers:
     venue: STOC
     field: theory
     number: 6
+    seed: https://www.cs.cmu.edu/~15455/resources/Cook1971-complx-thm-proof.pdf
     expect: open
     difficulty: 4
     core_idea: NP-completeness, and SAT as the first complete problem
@@ -96,6 +107,7 @@ papers:
     field: theory
     number: 7
     prerequisites: [cook-1971-np]
+    seed: https://www.cs.umd.edu/~gasarch/BLOGPAPERS/Karp.pdf
     expect: restricted
     difficulty: 4
     core_idea: twenty-one problems reduced to one another, making NP-completeness a tool
@@ -108,6 +120,7 @@ papers:
     venue: STOC
     field: theory
     number: 8
+    seed: https://www.cs.miami.edu/home/burt/learning/csc609.221/goldwasser-micali-rackoff-knoweldge-complexity.pdf
     expect: open
     difficulty: 5
     core_idea: interactive proofs, and proving a statement while revealing nothing else
@@ -121,6 +134,7 @@ papers:
     field: theory
     number: 9
     prerequisites: [goldwasser-1985-zk]
+    seed: https://dl.acm.org/doi/pdf/10.1145/146585.146609
     expect: open
     difficulty: 5
     core_idea: interaction with randomness buys exactly polynomial space
@@ -133,6 +147,7 @@ papers:
     venue: Journal of Computer and System Sciences
     field: theory
     number: 10
+    seed: https://www1.karlin.mff.cuni.cz/~krajicek/rr.pdf
     expect: open
     difficulty: 5
     core_idea: why the circuit lower-bound techniques that existed could not settle P vs NP
@@ -146,6 +161,7 @@ papers:
     venue: Canadian Journal of Mathematics
     field: algorithms
     number: 11
+    seed: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf
     expect: open
     difficulty: 3
     core_idea: max-flow min-cut
@@ -159,6 +175,7 @@ papers:
     field: algorithms
     number: 12
     aka: ["Dijkstra's algorithm"]
+    seed: https://link.springer.com/content/pdf/10.1007/BF01386390.pdf
     expect: restricted
     difficulty: 2
     core_idea: single-source shortest paths, and a minimum spanning tree, in three pages
@@ -171,6 +188,7 @@ papers:
     venue: The Computer Journal
     field: algorithms
     number: 13
+    seed: https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/5-1-10.pdf
     expect: restricted
     difficulty: 2
     core_idea: partition in place, recurse on the parts
@@ -184,6 +202,7 @@ papers:
     field: algorithms
     number: 14
     aka: [Floyd-Warshall]
+    seed: https://dl.acm.org/doi/pdf/10.1145/367766.368168
     expect: open
     difficulty: 1
     core_idea: all-pairs shortest paths as a triple loop
@@ -197,6 +216,7 @@ papers:
     field: algorithms
     number: 15
     aka: [FFT]
+    seed: https://web.stanford.edu/class/cme324/classics/cooley-tukey.pdf
     expect: open
     difficulty: 3
     core_idea: the discrete Fourier transform in n log n
@@ -210,6 +230,7 @@ papers:
     field: algorithms
     number: 16
     aka: [Bloom filter]
+    seed: https://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf
     expect: open
     difficulty: 2
     core_idea: a set membership test that is wrong only in one direction
@@ -222,6 +243,7 @@ papers:
     venue: SIAM Journal on Computing
     field: algorithms
     number: 17
+    seed: https://epubs.siam.org/doi/pdf/10.1137/0201010
     expect: restricted
     difficulty: 3
     core_idea: strongly connected components in one pass
@@ -235,6 +257,7 @@ papers:
     field: algorithms
     number: 18
     aka: [Aho-Corasick]
+    seed: https://dl.acm.org/doi/pdf/10.1145/360825.360855
     expect: open
     difficulty: 3
     core_idea: many patterns at once, with failure links over a trie
@@ -248,6 +271,7 @@ papers:
     field: algorithms
     number: 19
     aka: [KMP]
+    seed: https://epubs.siam.org/doi/pdf/10.1137/0206024
     expect: restricted
     difficulty: 3
     core_idea: never move the text pointer backwards
@@ -261,6 +285,7 @@ papers:
     field: algorithms
     number: 20
     aka: [PageRank, Google]
+    seed: https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
     expect: open
     difficulty: 2
     core_idea: rank a page by the ranks of the pages that link to it
@@ -275,6 +300,7 @@ papers:
     field: languages
     number: 21
     aka: [Lisp]
+    seed: https://www-formal.stanford.edu/jmc/recursive.pdf
     expect: open
     difficulty: 4
     core_idea: programs as data, and eval written in itself
@@ -288,6 +314,7 @@ papers:
     field: languages
     number: 22
     aka: [Hoare logic]
+    seed: https://dl.acm.org/doi/pdf/10.1145/363235.363259
     expect: open
     difficulty: 3
     core_idea: preconditions, postconditions, and a proof rule per statement
@@ -301,6 +328,7 @@ papers:
     field: languages
     number: 23
     prerequisites: [mccarthy-1960-lisp]
+    seed: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
     expect: open
     difficulty: 4
     core_idea: lexical scope, first-class procedures, and tail calls
@@ -314,6 +342,7 @@ papers:
     field: languages
     number: 24
     aka: [Hindley-Milner]
+    seed: https://www.pure.ed.ac.uk/ws/files/15143545/1_s2.0_0022000078900144_main.pdf
     expect: open
     difficulty: 4
     core_idea: principal types, inferred without annotation
@@ -326,6 +355,7 @@ papers:
     venue: Communications of the ACM (Turing Award lecture)
     field: languages
     number: 25
+    seed: https://dl.acm.org/doi/pdf/10.1145/359576.359579
     expect: open
     difficulty: 3
     core_idea: the assignment statement as the bottleneck, and programs combined algebraically
@@ -338,6 +368,7 @@ papers:
     venue: POPL
     field: languages
     number: 26
+    seed: https://www.cs.tufts.edu/comp/150FP/archive/peter-deutsch/efficient-smalltalk.pdf
     expect: open
     difficulty: 3
     core_idea: dynamic translation and inline caches, the ancestor of every JIT
@@ -351,6 +382,7 @@ papers:
     field: languages
     number: 27
     aka: [SSA]
+    seed: https://cs.brown.edu/research/pubs/techreports/reports/CS-91-21.pdf
     expect: open
     difficulty: 4
     core_idea: dominance frontiers, and one definition per name
@@ -365,6 +397,7 @@ papers:
     number: 28
     prerequisites: [cytron-1991-ssa]
     aka: [SCCP]
+    seed: https://dl.acm.org/doi/pdf/10.1145/318593.318659
     expect: open
     difficulty: 3
     core_idea: constants and unreachable branches found in one lattice walk
@@ -378,6 +411,7 @@ papers:
     field: languages
     number: 29
     prerequisites: [cytron-1991-ssa]
+    seed: https://llvm.org/pubs/2004-01-30-CGO-LLVM.pdf
     expect: open
     difficulty: 3
     core_idea: a typed SSA intermediate representation as a durable artefact
@@ -392,6 +426,7 @@ papers:
     field: languages
     number: 30
     prerequisites: [deutsch-1984-smalltalk]
+    seed: https://dl.acm.org/doi/pdf/10.1145/1542476.1542528
     expect: open
     difficulty: 3
     core_idea: compile hot loop traces, not methods
@@ -405,6 +440,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 31
+    seed: https://dl.acm.org/doi/pdf/10.1145/363095.363143
     expect: open
     difficulty: 2
     core_idea: layers, each provable against the one below it
@@ -417,6 +453,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 32
+    seed: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
     expect: open
     difficulty: 3
     core_idea: locality made measurable, and thrashing explained
@@ -429,6 +466,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 33
+    seed: https://dl.acm.org/doi/pdf/10.1145/361011.361061
     expect: open
     difficulty: 2
     core_idea: everything is a file, and the system is small enough to describe
@@ -441,6 +479,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 34
+    seed: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
     expect: open
     difficulty: 3
     core_idea: happens-before, logical clocks, and state machine replication
@@ -453,6 +492,7 @@ papers:
     venue: ACM TOCS
     field: systems
     number: 35
+    seed: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
     expect: open
     difficulty: 2
     core_idea: a function belongs at the endpoints unless the network can finish the job
@@ -465,6 +505,7 @@ papers:
     venue: ACM TOCS
     field: systems
     number: 36
+    seed: https://dl.acm.org/doi/pdf/10.1145/2080.357392
     expect: open
     difficulty: 2
     core_idea: a call that crosses a machine, and everything that makes it not a call
@@ -479,6 +520,7 @@ papers:
     number: 37
     aka: [Paxos]
     prerequisites: [lamport-1978-clocks]
+    seed: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
     expect: open
     difficulty: 5
     core_idea: consensus that survives any minority failing, told as an archaeology paper
@@ -492,6 +534,7 @@ papers:
     venue: SOSP
     field: systems
     number: 38
+    seed: https://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf
     expect: open
     difficulty: 3
     core_idea: paravirtualization, trading a modified guest for near-native speed
@@ -504,6 +547,7 @@ papers:
     venue: SOSP
     field: systems
     number: 39
+    seed: https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
     expect: open
     difficulty: 2
     core_idea: a single master, huge chunks, and failure as the normal case
@@ -517,6 +561,7 @@ papers:
     field: systems
     number: 40
     prerequisites: [ghemawat-2003-gfs]
+    seed: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
     expect: open
     difficulty: 2
     core_idea: two functions, and the framework handles the thousand machines
@@ -531,6 +576,7 @@ papers:
     venue: SOSP
     field: systems
     number: 41
+    seed: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
     expect: open
     difficulty: 3
     core_idea: always writable, reconciled later, with consistent hashing and vector clocks
@@ -545,6 +591,7 @@ papers:
     number: 42
     aka: [Raft]
     prerequisites: [lamport-1998-paxos]
+    seed: https://raft.github.io/raft.pdf
     expect: open
     difficulty: 3
     core_idea: consensus decomposed into leader election, log replication and safety
@@ -558,6 +605,7 @@ papers:
     venue: EuroSys
     field: systems
     number: 43
+    seed: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf
     expect: open
     difficulty: 3
     core_idea: one scheduler for batch and serving, and the ancestor of Kubernetes
@@ -572,6 +620,7 @@ papers:
     field: networks
     number: 44
     aka: [TCP/IP]
+    seed: https://www.eecs.umich.edu/courses/eecs589/papers/CerfKahn74.pdf
     expect: restricted
     difficulty: 3
     core_idea: gateways between heterogeneous networks, and a common datagram
@@ -584,6 +633,7 @@ papers:
     venue: Communications of the ACM
     field: networks
     number: 45
+    seed: https://www.cl.cam.ac.uk/teaching/0809/DigiCommI/metcalfe1976ethernet.pdf
     expect: open
     difficulty: 2
     core_idea: carrier sense, collision detection, and exponential backoff on a shared wire
@@ -596,6 +646,7 @@ papers:
     venue: RFC 896
     field: networks
     number: 46
+    seed: https://mirror.math.princeton.edu/pub/RFCs/rfc896.txt.pdf
     expect: public-domain
     difficulty: 2
     core_idea: small packets coalesced, and congestion collapse named
@@ -609,6 +660,7 @@ papers:
     field: networks
     number: 47
     prerequisites: [nagle-1984-congestion]
+    seed: https://dl.acm.org/doi/pdf/10.1145/52325.52356
     expect: open
     difficulty: 3
     core_idea: slow start, congestion avoidance, and the conservation of packets
@@ -622,6 +674,7 @@ papers:
     field: networks
     number: 48
     prerequisites: [jacobson-1988-congestion]
+    seed: https://www.cse.wustl.edu/~jain/papers/ftp/aimd.pdf
     expect: open
     difficulty: 3
     core_idea: why additive increase and multiplicative decrease converges to fairness
@@ -634,6 +687,7 @@ papers:
     venue: SIGCOMM
     field: networks
     number: 49
+    seed: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
     expect: open
     difficulty: 3
     core_idea: consistent hashing on a ring, with a finger table for log n hops
@@ -647,6 +701,7 @@ papers:
     venue: ACM SIGCOMM Computer Communication Review
     field: networks
     number: 50
+    seed: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
     expect: open
     difficulty: 2
     core_idea: separate the control plane from the switch
@@ -663,6 +718,7 @@ papers:
     number: 51
     prerequisites: [mckeown-2008-openflow]
     arxiv: 1312.1719
+    seed: https://www.cs.princeton.edu/~jrex/papers/P4-ccr14.pdf
     expect: open
     difficulty: 3
     core_idea: the data plane described by a program rather than fixed in silicon
@@ -676,6 +732,7 @@ papers:
     venue: Communications of the ACM
     field: databases
     number: 52
+    seed: https://dl.acm.org/doi/pdf/10.1145/362384.362685
     expect: open
     difficulty: 3
     core_idea: data as relations, independent of how it is stored
@@ -689,6 +746,7 @@ papers:
     field: databases
     number: 53
     aka: [B-tree]
+    seed: https://link.springer.com/content/pdf/10.1007/BF00288683.pdf
     expect: restricted
     difficulty: 3
     core_idea: a balanced tree with a page-sized node
@@ -704,6 +762,7 @@ papers:
     field: databases
     number: 54
     prerequisites: [codd-1970-relational]
+    seed: https://www.cs.princeton.edu/courses/archive/fall11/cos518/papers/system-R.pdf
     expect: open
     difficulty: 3
     core_idea: the first relational system that worked, and SQL with it
@@ -717,6 +776,7 @@ papers:
     field: databases
     number: 55
     prerequisites: [astrahan-1976-systemr]
+    seed: https://web.eecs.umich.edu/~michjc/eecs584/Papers/selinger_1979.pdf
     expect: open
     difficulty: 4
     core_idea: cost-based optimisation, and dynamic programming over join orders
@@ -730,6 +790,7 @@ papers:
     venue: IEEE Transactions on Knowledge and Data Engineering
     field: databases
     number: 56
+    seed: https://minds.wisconsin.edu/handle/1793/11036
     expect: restricted
     difficulty: 3
     core_idea: shared-nothing parallelism, and hash partitioning that scales linearly
@@ -742,6 +803,7 @@ papers:
     venue: ACM TODS
     field: databases
     number: 57
+    seed: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf
     expect: open
     difficulty: 5
     core_idea: analysis, redo, undo, and repeating history before undoing it
@@ -754,6 +816,7 @@ papers:
     venue: IEEE Transactions on Knowledge and Data Engineering
     field: databases
     number: 58
+    seed: https://people.eecs.berkeley.edu/~prabal/teaching/resources/eecs582/graefe94volcano.pdf
     expect: restricted
     difficulty: 3
     core_idea: the iterator model, and parallelism as one more operator
@@ -768,6 +831,7 @@ papers:
     venue: VLDB
     field: databases
     number: 59
+    seed: https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
     expect: open
     difficulty: 3
     core_idea: store columns, compress them, and read only what the query touches
@@ -781,6 +845,7 @@ papers:
     field: databases
     number: 60
     prerequisites: [graefe-1994-volcano]
+    seed: https://www.cidrdb.org/cidr2005/papers/P19.pdf
     expect: open
     difficulty: 3
     core_idea: vectors of tuples per call, so the CPU pipeline stays full
@@ -795,6 +860,7 @@ papers:
     field: databases
     number: 61
     prerequisites: [ghemawat-2003-gfs]
+    seed: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
     expect: open
     difficulty: 3
     core_idea: a sparse, sorted, multidimensional map over a distributed file system
@@ -810,6 +876,7 @@ papers:
     field: databases
     number: 62
     prerequisites: [chang-2006-bigtable, lamport-1998-paxos]
+    seed: https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf
     expect: open
     difficulty: 4
     core_idea: TrueTime, and externally consistent transactions across continents
@@ -826,6 +893,7 @@ papers:
     field: databases
     number: 63
     prerequisites: [stonebraker-2005-cstore]
+    seed: https://dl.acm.org/doi/pdf/10.1145/2882903.2903741
     expect: open
     difficulty: 2
     core_idea: storage and compute separated, and elasticity as a product
@@ -840,6 +908,7 @@ papers:
     field: architecture
     number: 64
     aka: ["Amdahl's law"]
+    seed: https://dl.acm.org/doi/pdf/10.1145/1465482.1465560
     expect: open
     difficulty: 1
     core_idea: the serial fraction bounds every speedup
@@ -852,6 +921,7 @@ papers:
     venue: IBM Journal of Research and Development
     field: architecture
     number: 65
+    seed: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-S07/handouts/papers/tomasulo.pdf
     expect: open
     difficulty: 4
     core_idea: register renaming and the common data bus, i.e. out-of-order execution
@@ -866,6 +936,7 @@ papers:
     field: architecture
     number: 66
     aka: [Dennard scaling]
+    seed: https://www.cs.sfu.ca/~ashriram/Courses/CS7ARCH/papers/dennard-1967.pdf
     expect: restricted
     difficulty: 4
     core_idea: shrink every dimension and the power density stays put, until it did not
@@ -878,6 +949,7 @@ papers:
     venue: ISCA
     field: architecture
     number: 67
+    seed: https://dl.acm.org/doi/pdf/10.1145/285930.285981
     expect: open
     difficulty: 2
     core_idea: fewer instructions, executed faster, with the compiler taking the slack
@@ -890,6 +962,7 @@ papers:
     venue: ISCA
     field: architecture
     number: 68
+    seed: https://www.cs.cmu.edu/afs/cs/academic/class/15740-s18/www/papers/jouppi90.pdf
     expect: open
     difficulty: 3
     core_idea: a tiny victim cache removes most conflict misses
@@ -902,6 +975,7 @@ papers:
     venue: MICRO
     field: architecture
     number: 69
+    seed: https://users.cs.duke.edu/~lkw34/papers/yeh-2level_brpred-micro1991.pdf
     expect: restricted
     difficulty: 3
     core_idea: a history register indexing a pattern table
@@ -917,6 +991,7 @@ papers:
     field: architecture
     number: 70
     arxiv: 1704.04760
+    seed: https://arxiv.org/pdf/1704.04760
     expect: open
     difficulty: 2
     core_idea: a systolic matrix unit, and the roofline that explains it
@@ -930,6 +1005,7 @@ papers:
     venue: Proceedings of the IEEE
     field: security
     number: 71
+    seed: https://www.mit.edu/~Saltzer/publications/protection/index.html
     expect: open
     difficulty: 3
     core_idea: eight design principles, least privilege among them
@@ -942,6 +1018,7 @@ papers:
     venue: IEEE Transactions on Information Theory
     field: security
     number: 72
+    seed: https://ee.stanford.edu/~hellman/publications/24.pdf
     expect: restricted
     difficulty: 4
     core_idea: a shared secret agreed in public, and the idea of a public key
@@ -954,6 +1031,7 @@ papers:
     venue: Communications of the ACM
     field: security
     number: 73
+    seed: https://dl.acm.org/doi/pdf/10.1145/359657.359659
     expect: open
     difficulty: 3
     core_idea: nonces, a trusted third party, and the protocol that taught the field to look for flaws
@@ -968,6 +1046,7 @@ papers:
     number: 74
     aka: [RSA]
     prerequisites: [diffie-1976-newdirections]
+    seed: https://people.csail.mit.edu/rivest/Rsapaper.pdf
     expect: open
     difficulty: 3
     core_idea: trapdoor one-way functions from the difficulty of factoring
@@ -981,6 +1060,7 @@ papers:
     field: security
     number: 75
     prerequisites: [rivest-1978-rsa]
+    seed: https://www.sciencedirect.com/science/article/pii/0022000084900709
     expect: open
     difficulty: 5
     core_idea: semantic security, and why deterministic encryption cannot have it
@@ -994,6 +1074,7 @@ papers:
     field: security
     number: 76
     prerequisites: [needham-1978-authentication]
+    seed: https://css.csail.mit.edu/6.858/2012/readings/kerberos.pdf
     expect: open
     difficulty: 3
     core_idea: tickets from a key distribution centre, deployed for real
@@ -1007,6 +1088,7 @@ papers:
     field: security
     number: 77
     prerequisites: [lamport-1998-paxos]
+    seed: https://www.usenix.org/conference/osdi-99/practical-byzantine-fault-tolerance
     expect: open
     difficulty: 5
     core_idea: agreement with a third of the replicas lying, at a usable cost
@@ -1019,6 +1101,7 @@ papers:
     venue: bitcoin.org
     field: security
     number: 78
+    seed: https://bitcoin.org/bitcoin.pdf
     expect: open
     difficulty: 2
     core_idea: proof of work as Sybil resistance, and the longest chain as the truth
@@ -1033,6 +1116,7 @@ papers:
     field: ai-ml
     number: 79
     aka: [the Turing test]
+    seed: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
     expect: public-domain
     difficulty: 1
     core_idea: the imitation game, and nine objections answered
@@ -1045,6 +1129,7 @@ papers:
     venue: Psychological Review
     field: ai-ml
     number: 80
+    seed: https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf
     expect: restricted
     difficulty: 3
     core_idea: a learning rule for a linear threshold unit
@@ -1058,6 +1143,7 @@ papers:
     field: ai-ml
     number: 81
     prerequisites: [rosenblatt-1958-perceptron]
+    seed: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
     expect: restricted
     difficulty: 3
     core_idea: the chain rule applied to a layered network
@@ -1070,6 +1156,7 @@ papers:
     venue: Machine Learning
     field: ai-ml
     number: 82
+    seed: https://homepages.math.uic.edu/~lreyzin/papers/cortes95.pdf
     expect: open
     difficulty: 4
     core_idea: the maximum margin hyperplane, and the kernel trick
@@ -1083,6 +1170,7 @@ papers:
     field: ai-ml
     number: 83
     aka: [AdaBoost]
+    seed: https://www.face-rec.org/algorithms/Boosting-Ensemble/decision-theoretic_generalization.pdf
     expect: open
     difficulty: 4
     core_idea: many weak learners, reweighted, add up to a strong one
@@ -1097,6 +1185,7 @@ papers:
     number: 84
     aka: [LeNet-5]
     prerequisites: [rumelhart-1986-backprop]
+    seed: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
     expect: open
     difficulty: 3
     core_idea: convolution, weight sharing and pooling, trained end to end
@@ -1111,6 +1200,7 @@ papers:
     number: 85
     aka: [AlexNet]
     prerequisites: [lecun-1998-lenet]
+    seed: https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
     expect: open
     difficulty: 2
     core_idea: depth, ReLU, dropout and two GPUs
@@ -1125,6 +1215,7 @@ papers:
     field: ai-ml
     number: 86
     arxiv: 1406.2661
+    seed: https://proceedings.neurips.cc/paper_files/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf
     expect: open
     difficulty: 4
     core_idea: a generator and a discriminator playing a minimax game
@@ -1138,6 +1229,7 @@ papers:
     field: ai-ml
     number: 87
     arxiv: 1409.3215
+    seed: https://proceedings.neurips.cc/paper_files/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
     expect: open
     difficulty: 3
     core_idea: an encoder LSTM into a decoder LSTM, with no alignment model
@@ -1153,6 +1245,7 @@ papers:
     aka: [ResNet]
     prerequisites: [krizhevsky-2012-imagenet]
     arxiv: 1512.03385
+    seed: https://arxiv.org/pdf/1512.03385
     expect: open
     difficulty: 2
     core_idea: learn the residual, and a hundred layers become trainable
@@ -1168,6 +1261,7 @@ papers:
     venue: Nature
     field: ai-ml
     number: 89
+    seed: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
     expect: restricted
     difficulty: 3
     core_idea: policy and value networks guiding Monte Carlo tree search
@@ -1184,6 +1278,7 @@ papers:
     aka: [Transformer]
     prerequisites: [sutskever-2014-seq2seq]
     arxiv: 1706.03762
+    seed: https://arxiv.org/pdf/1706.03762
     expect: open
     difficulty: 3
     core_idea: self-attention alone, with no recurrence and no convolution
@@ -1198,6 +1293,7 @@ papers:
     number: 91
     prerequisites: [vaswani-2017-attention]
     arxiv: 1810.04805
+    seed: https://arxiv.org/pdf/1810.04805
     expect: open
     difficulty: 3
     core_idea: masked language modelling, then fine-tuning
@@ -1215,6 +1311,7 @@ papers:
     aka: [GPT-3]
     prerequisites: [vaswani-2017-attention]
     arxiv: 2005.14165
+    seed: https://arxiv.org/pdf/2005.14165
     expect: open
     difficulty: 3
     core_idea: scale, and a task specified in the prompt rather than the weights
@@ -1228,6 +1325,7 @@ papers:
     venue: MIT PhD thesis / AFIPS Spring Joint Computer Conference
     field: graphics
     number: 93
+    seed: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
     expect: open
     difficulty: 3
     core_idea: drawing with constraints, and the first interactive graphics system
@@ -1241,6 +1339,7 @@ papers:
     field: hci
     number: 94
     aka: ["The Mother of All Demos", NLS]
+    seed: https://dougengelbart.org/pubs/papers/scanned-original/1968-augment-3954-A-Research-Center-for-Augmenting-Human-Intellect.pdf
     expect: open
     difficulty: 2
     core_idea: the mouse, hypertext, and screen editing, shown working
@@ -1254,6 +1353,7 @@ papers:
     field: graphics
     number: 95
     aka: [Phong shading]
+    seed: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf
     expect: open
     difficulty: 2
     core_idea: interpolate the normal, not the intensity, and add a specular term
@@ -1267,6 +1367,7 @@ papers:
     field: hci
     number: 96
     prerequisites: [engelbart-1968-augmenting]
+    seed: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
     expect: restricted
     difficulty: 1
     core_idea: continuous representation, physical action, and reversible operations
@@ -1280,6 +1381,7 @@ papers:
     field: software
     number: 97
     aka: [the waterfall paper]
+    seed: https://innov2e.it/wp-content/uploads/2023/11/1970-Winston-W.-Royce-Managing-the-development-of-large-SOFTWARE-SYSTEMS-Dr.-Winston-W.-Royce-41765.41801.pdf
     expect: open
     difficulty: 1
     core_idea: the diagram everyone quotes, and the page after it saying it does not work
@@ -1292,6 +1394,7 @@ papers:
     venue: Communications of the ACM
     field: software
     number: 98
+    seed: https://dl.acm.org/doi/pdf/10.1145/361598.361623
     expect: open
     difficulty: 2
     core_idea: modules hide decisions, not steps
@@ -1305,6 +1408,7 @@ papers:
     field: software
     number: 99
     aka: [cyclomatic complexity]
+    seed: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1702388
     expect: restricted
     difficulty: 2
     core_idea: count the independent paths through the control flow graph
@@ -1317,6 +1421,7 @@ papers:
     venue: IEEE Computer
     field: software
     number: 100
+    seed: https://www.cs.unc.edu/techreports/86-020.pdf
     expect: open
     difficulty: 1
     core_idea: essential complexity is irreducible, so no single advance gives an order of magnitude
