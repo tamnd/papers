@@ -40,6 +40,7 @@ papers:
     venue: Bell System Technical Journal
     field: theory
     number: 2
+    url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
     seed: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
     expect: open
     difficulty: 4
@@ -54,6 +55,7 @@ papers:
     field: theory
     number: 3
     prerequisites: [shannon-1948-communication]
+    url: https://archive.org/download/bstj29-2-147/bstj29-2-147.pdf
     seed: https://bioinfo.uib.es/~joemiro/comptrans/HammingIntro.pdf
     expect: open
     difficulty: 3
@@ -81,6 +83,7 @@ papers:
     field: theory
     number: 5
     seed: https://www.sciencedirect.com/science/article/pii/S002200007080006X
+    url: https://web.archive.org/web/20240712003717id_/https://core.ac.uk/download/pdf/82306488.pdf
     expect: open
     difficulty: 4
     core_idea: "Savitch's theorem: NSPACE(f) is in DSPACE(f squared)"
@@ -93,6 +96,7 @@ papers:
     venue: STOC
     field: theory
     number: 6
+    url: https://www.cs.toronto.edu/~sacook/homepage/1971.pdf
     seed: https://www.cs.cmu.edu/~15455/resources/Cook1971-complx-thm-proof.pdf
     expect: open
     difficulty: 4
@@ -120,6 +124,7 @@ papers:
     venue: STOC
     field: theory
     number: 8
+    url: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf
     seed: https://www.cs.miami.edu/home/burt/learning/csc609.221/goldwasser-micali-rackoff-knoweldge-complexity.pdf
     expect: open
     difficulty: 5
@@ -134,6 +139,7 @@ papers:
     field: theory
     number: 9
     prerequisites: [goldwasser-1985-zk]
+    url: https://pdfs.semanticscholar.org/9b90/c0d10910b4f510fd1e1fb41e80b6896c44e9.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/146585.146609
     expect: open
     difficulty: 5
@@ -161,6 +167,7 @@ papers:
     venue: Canadian Journal of Mathematics
     field: algorithms
     number: 11
+    url: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf
     seed: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf
     expect: open
     difficulty: 3
@@ -175,6 +182,7 @@ papers:
     field: algorithms
     number: 12
     aka: ["Dijkstra's algorithm"]
+    url: https://ir.cwi.nl/pub/9256/9256D.pdf
     seed: https://link.springer.com/content/pdf/10.1007/BF01386390.pdf
     expect: restricted
     difficulty: 2
@@ -189,6 +197,7 @@ papers:
     field: algorithms
     number: 13
     seed: https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/5-1-10.pdf
+    url: https://www.cs.ox.ac.uk/files/6226/H2006%20-%20Historic%20Quicksort.pdf
     expect: restricted
     difficulty: 2
     core_idea: partition in place, recurse on the parts
@@ -203,6 +212,7 @@ papers:
     number: 14
     aka: [Floyd-Warshall]
     seed: https://dl.acm.org/doi/pdf/10.1145/367766.368168
+    url: https://web.archive.org/web/20200531072111id_/https://dl.acm.org/doi/pdf/10.1145/367766.368168?download=true
     expect: open
     difficulty: 1
     core_idea: all-pairs shortest paths as a triple loop
@@ -230,6 +240,7 @@ papers:
     field: algorithms
     number: 16
     aka: [Bloom filter]
+    url: http://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf
     seed: https://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf
     expect: open
     difficulty: 2
@@ -243,6 +254,7 @@ papers:
     venue: SIAM Journal on Computing
     field: algorithms
     number: 17
+    url: https://sites.cs.ucsb.edu/~gilbert/cs240a/old/cs240aSpr2011/slides/TarjanDFS.pdf
     seed: https://epubs.siam.org/doi/pdf/10.1137/0201010
     expect: restricted
     difficulty: 3
@@ -257,6 +269,7 @@ papers:
     field: algorithms
     number: 18
     aka: [Aho-Corasick]
+    url: https://cr.yp.to/bib/1975/aho.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/360825.360855
     expect: open
     difficulty: 3
@@ -271,6 +284,7 @@ papers:
     field: algorithms
     number: 19
     aka: [KMP]
+    url: https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Knuth77.pdf
     seed: https://epubs.siam.org/doi/pdf/10.1137/0206024
     expect: restricted
     difficulty: 3
@@ -300,6 +314,7 @@ papers:
     field: languages
     number: 21
     aka: [Lisp]
+    url: http://www-formal.stanford.edu/jmc/recursive.pdf
     seed: https://www-formal.stanford.edu/jmc/recursive.pdf
     expect: open
     difficulty: 4
@@ -314,6 +329,7 @@ papers:
     field: languages
     number: 22
     aka: [Hoare logic]
+    url: https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/363235.363259
     expect: open
     difficulty: 3
@@ -328,6 +344,7 @@ papers:
     field: languages
     number: 23
     prerequisites: [mccarthy-1960-lisp]
+    url: https://dspace.mit.edu/server/api/core/bitstreams/70ab0fe6-0e7a-41ef-99fb-ac2c9481a05e/content
     seed: https://dspace.mit.edu/bitstream/handle/1721.1/5794/AIM-349.pdf
     expect: open
     difficulty: 4
@@ -355,6 +372,7 @@ papers:
     venue: Communications of the ACM (Turing Award lecture)
     field: languages
     number: 25
+    url: https://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/359576.359579
     expect: open
     difficulty: 3
@@ -382,6 +400,7 @@ papers:
     field: languages
     number: 27
     aka: [SSA]
+    url: https://www.cs.utexas.edu/~pingali/CS380C/2010/papers/ssaCytron.pdf
     seed: https://cs.brown.edu/research/pubs/techreports/reports/CS-91-21.pdf
     expect: open
     difficulty: 4
@@ -397,6 +416,7 @@ papers:
     number: 28
     prerequisites: [cytron-1991-ssa]
     aka: [SCCP]
+    url: https://www.cs.utexas.edu/users/lin/cs380c/wegman.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/318593.318659
     expect: open
     difficulty: 3
@@ -426,6 +446,7 @@ papers:
     field: languages
     number: 30
     prerequisites: [deutsch-1984-smalltalk]
+    url: https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/1542476.1542528
     expect: open
     difficulty: 3
@@ -440,6 +461,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 31
+    url: https://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF
     seed: https://dl.acm.org/doi/pdf/10.1145/363095.363143
     expect: open
     difficulty: 2
@@ -466,6 +488,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 33
+    url: https://dsf.berkeley.edu/cs262/unix.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/361011.361061
     expect: open
     difficulty: 2
@@ -479,6 +502,7 @@ papers:
     venue: Communications of the ACM
     field: systems
     number: 34
+    url: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
     seed: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
     expect: open
     difficulty: 3
@@ -505,6 +529,7 @@ papers:
     venue: ACM TOCS
     field: systems
     number: 36
+    url: https://www.cs.cmu.edu/~dga/15-712/F07/papers/birrell842.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/2080.357392
     expect: open
     difficulty: 2
@@ -520,6 +545,7 @@ papers:
     number: 37
     aka: [Paxos]
     prerequisites: [lamport-1978-clocks]
+    url: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
     seed: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
     expect: open
     difficulty: 5
@@ -605,6 +631,7 @@ papers:
     venue: EuroSys
     field: systems
     number: 43
+    url: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf
     seed: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf
     expect: open
     difficulty: 3
@@ -646,6 +673,7 @@ papers:
     venue: RFC 896
     field: networks
     number: 46
+    url: https://archive.org/download/rfc896/rfc896.txt.pdf
     seed: https://mirror.math.princeton.edu/pub/RFCs/rfc896.txt.pdf
     expect: public-domain
     difficulty: 2
@@ -660,6 +688,7 @@ papers:
     field: networks
     number: 47
     prerequisites: [nagle-1984-congestion]
+    url: https://ee.lbl.gov/papers/congavoid.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/52325.52356
     expect: open
     difficulty: 3
@@ -674,6 +703,7 @@ papers:
     field: networks
     number: 48
     prerequisites: [jacobson-1988-congestion]
+    url: https://pdfs.semanticscholar.org/805d/0da469da6ba7571ee75732ab66202aaea9e0.pdf
     seed: https://www.cse.wustl.edu/~jain/papers/ftp/aimd.pdf
     expect: open
     difficulty: 3
@@ -701,6 +731,7 @@ papers:
     venue: ACM SIGCOMM Computer Communication Review
     field: networks
     number: 50
+    url: http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/1355734.1355746
     expect: open
     difficulty: 2
@@ -732,6 +763,7 @@ papers:
     venue: Communications of the ACM
     field: databases
     number: 52
+    url: https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/362384.362685
     expect: open
     difficulty: 3
@@ -746,6 +778,7 @@ papers:
     field: databases
     number: 53
     aka: [B-tree]
+    url: https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf
     seed: https://link.springer.com/content/pdf/10.1007/BF00288683.pdf
     expect: restricted
     difficulty: 3
@@ -790,6 +823,7 @@ papers:
     venue: IEEE Transactions on Knowledge and Data Engineering
     field: databases
     number: 56
+    url: http://db.cs.berkeley.edu/cs286/papers/gamma-tkde1990.pdf
     seed: https://minds.wisconsin.edu/handle/1793/11036
     expect: restricted
     difficulty: 3
@@ -816,6 +850,7 @@ papers:
     venue: IEEE Transactions on Knowledge and Data Engineering
     field: databases
     number: 58
+    url: http://daslab.seas.harvard.edu/reading-group/papers/volcano.pdf
     seed: https://people.eecs.berkeley.edu/~prabal/teaching/resources/eecs582/graefe94volcano.pdf
     expect: restricted
     difficulty: 3
@@ -845,6 +880,7 @@ papers:
     field: databases
     number: 60
     prerequisites: [graefe-1994-volcano]
+    url: https://www.cidrdb.org/cidr2005/papers/P19.pdf
     seed: https://www.cidrdb.org/cidr2005/papers/P19.pdf
     expect: open
     difficulty: 3
@@ -893,6 +929,7 @@ papers:
     field: databases
     number: 63
     prerequisites: [stonebraker-2005-cstore]
+    url: https://info.snowflake.net/rs/252-RFO-227/images/Snowflake_SIGMOD.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/2882903.2903741
     expect: open
     difficulty: 2
@@ -908,6 +945,7 @@ papers:
     field: architecture
     number: 64
     aka: ["Amdahl's law"]
+    url: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl-1967.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/1465482.1465560
     expect: open
     difficulty: 1
@@ -949,6 +987,7 @@ papers:
     venue: ISCA
     field: architecture
     number: 67
+    url: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-F00/handouts/papers/p216-patterson.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/285930.285981
     expect: open
     difficulty: 2
@@ -975,6 +1014,7 @@ papers:
     venue: MICRO
     field: architecture
     number: 69
+    url: http://classweb.ece.umd.edu/enee646/yeh+patt-adaptive-training-1991.pdf
     seed: https://users.cs.duke.edu/~lkw34/papers/yeh-2level_brpred-micro1991.pdf
     expect: restricted
     difficulty: 3
@@ -1005,6 +1045,7 @@ papers:
     venue: Proceedings of the IEEE
     field: security
     number: 71
+    url: https://cgi.cse.unsw.edu.au/~cs9242/24/papers/Saltzer_Schroeder_75.pdf
     seed: https://www.mit.edu/~Saltzer/publications/protection/index.html
     expect: open
     difficulty: 3
@@ -1032,6 +1073,7 @@ papers:
     field: security
     number: 73
     seed: https://dl.acm.org/doi/pdf/10.1145/359657.359659
+    url: https://web.archive.org/web/20250531153030id_/https://dl.acm.org/doi/pdf/10.1145/359657.359659
     expect: open
     difficulty: 3
     core_idea: nonces, a trusted third party, and the protocol that taught the field to look for flaws
@@ -1060,6 +1102,7 @@ papers:
     field: security
     number: 75
     prerequisites: [rivest-1978-rsa]
+    url: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Encryption/Probabilistic_Encryption.pdf
     seed: https://www.sciencedirect.com/science/article/pii/0022000084900709
     expect: open
     difficulty: 5
@@ -1088,6 +1131,7 @@ papers:
     field: security
     number: 77
     prerequisites: [lamport-1998-paxos]
+    url: https://www.scs.stanford.edu/nyu/03sp/sched/bfs.pdf
     seed: https://www.usenix.org/conference/osdi-99/practical-byzantine-fault-tolerance
     expect: open
     difficulty: 5
@@ -1116,6 +1160,7 @@ papers:
     field: ai-ml
     number: 79
     aka: [the Turing test]
+    url: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
     seed: https://academic.oup.com/mind/article-pdf/LIX/236/433/9866119/433.pdf
     expect: public-domain
     difficulty: 1
@@ -1129,6 +1174,7 @@ papers:
     venue: Psychological Review
     field: ai-ml
     number: 80
+    url: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f237108.pdf
     seed: https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf
     expect: restricted
     difficulty: 3
@@ -1143,6 +1189,7 @@ papers:
     field: ai-ml
     number: 81
     prerequisites: [rosenblatt-1958-perceptron]
+    url: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
     seed: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
     expect: restricted
     difficulty: 3
@@ -1261,6 +1308,7 @@ papers:
     venue: Nature
     field: ai-ml
     number: 89
+    url: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
     seed: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
     expect: restricted
     difficulty: 3
@@ -1325,6 +1373,7 @@ papers:
     venue: MIT PhD thesis / AFIPS Spring Joint Computer Conference
     field: graphics
     number: 93
+    url: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
     seed: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
     expect: open
     difficulty: 3
@@ -1339,6 +1388,7 @@ papers:
     field: hci
     number: 94
     aka: ["The Mother of All Demos", NLS]
+    url: http://www.computer-timeline.com/wp-content/uploads/2022/11/AHI.pdf
     seed: https://dougengelbart.org/pubs/papers/scanned-original/1968-augment-3954-A-Research-Center-for-Augmenting-Human-Intellect.pdf
     expect: open
     difficulty: 2
@@ -1353,6 +1403,7 @@ papers:
     field: graphics
     number: 95
     aka: [Phong shading]
+    url: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf
     seed: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf
     expect: open
     difficulty: 2
@@ -1367,6 +1418,7 @@ papers:
     field: hci
     number: 96
     prerequisites: [engelbart-1968-augmenting]
+    url: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
     seed: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf
     expect: restricted
     difficulty: 1
@@ -1381,6 +1433,7 @@ papers:
     field: software
     number: 97
     aka: [the waterfall paper]
+    url: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
     seed: https://innov2e.it/wp-content/uploads/2023/11/1970-Winston-W.-Royce-Managing-the-development-of-large-SOFTWARE-SYSTEMS-Dr.-Winston-W.-Royce-41765.41801.pdf
     expect: open
     difficulty: 1
@@ -1394,6 +1447,7 @@ papers:
     venue: Communications of the ACM
     field: software
     number: 98
+    url: https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
     seed: https://dl.acm.org/doi/pdf/10.1145/361598.361623
     expect: open
     difficulty: 2
@@ -1408,6 +1462,7 @@ papers:
     field: software
     number: 99
     aka: [cyclomatic complexity]
+    url: http://www.literateprogramming.com/mccabe.pdf
     seed: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1702388
     expect: restricted
     difficulty: 2
