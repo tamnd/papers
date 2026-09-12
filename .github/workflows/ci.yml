@@ -57,10 +57,10 @@ jobs:
       # The pin has to be moved when the toolchain releases, and moving it is
       # part of the work of a release rather than an afterthought. Left alone
       # it quietly does the opposite of its job: this pin sat at v0.1.0 while
-      # the audit grew from eight rules to fifty five, so every green tick
+      # the audit grew from eight rules to fifty six, so every green tick
       # here for three releases meant eight rules passed.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.3.2
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.3.3
 
       - name: papers audit --hard
         env:

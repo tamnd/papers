@@ -1,6 +1,6 @@
 # Audit
 
-55 rules: 48 passed, 0 failed, 7 not run
+56 rules: 48 passed, 1 failed, 7 not run
 
 ## S Sources and licensing
 
@@ -71,6 +71,11 @@
 **M12** (soft, not run) an inline formula is written tight against its dollars.
 
 **M13** (hard, pass) no $ inside a fenced code block opened a span.
+
+**M14** (hard, 2 found) a paper with mathematics in its prose has mathematics in its markup.
+
+- `content/en/nakamoto-2008-bitcoin/11_calculations.md:11` nakamoto-2008-bitcoin in en carries 5 mathematical characters and not one math span, so its formulas were flattened into the prose and the paper needs reading again
+- `content/en/vaswani-2017-attention/03_model_architecture.md:25` vaswani-2017-attention in en carries 11 mathematical characters and not one math span, so its formulas were flattened into the prose and the paper needs reading again
 
 ## F Figures
 
