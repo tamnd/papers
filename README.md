@@ -19,6 +19,7 @@ manifests/
   sources.yaml           where each PDF was found, and under what licence
   glossary.yaml          the controlled vocabulary, English to vi, zh and ja
   figures.yaml           every figure: page, bounding box, caption, hash
+  prices.json            what each model costs per million tokens
   refs/<id>.yaml         the parsed bibliography of one paper
   pages/<id>.yaml        which page of the file is which page of the paper
 content/en/<id>/
