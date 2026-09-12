@@ -1,12 +1,627 @@
-# The controlled vocabulary: one English term, one rendering per language.
+# The controlled vocabulary: one rendering per term per language, chosen once
+# and used everywhere.
 #
-# The glossary is what keeps four hundred separately translated files reading as one corpus.
-# It is built by `papers glossary extract` over the finished English, reviewed by a person, and then translated by `papers glossary translate`.
+# Reviewed by hand out of glossary-candidates.yaml, which is machine written
+# and is a proposal rather than a decision. About a third of the 300 proposed
+# terms survived. What was dropped was ordinary English that happened to be
+# frequent in a corpus of papers ("achieve", "additional", "useful"), words
+# that are only ever part of a longer term here ("hidden", "neural"), and
+# words with no translation problem in them at all.
 #
-# `version` goes up by one every time a term is added or a rendering changes.
-# Every translated file records the version it was made under, so a change to this file makes the affected files detectably stale rather than quietly inconsistent.
+# A term with no field is offered to every paper. A term with a field is
+# offered to that field only, because a rendering offered to the wrong paper
+# is worse than none: the translator will take it.
 #
-# `keep: true` means the English term is used as is in that language, which is the honest answer for a name like Transformer or MapReduce.
-
-version: 0
-terms: []
+# A term with keep set stands in English in all three languages, and that is a
+# decision somebody made rather than a gap in the table.
+#
+# Renderings are filled in by `papers glossary translate` and checked by hand.
+# Bump version whenever a term is added or a rendering changes: every
+# translated file records the version it was made under, so a change here
+# makes the files it affects detectably stale.
+version: 4
+terms:
+  - en: abstraction
+    vi: trừu tượng hóa
+    zh: 抽象
+    ja: 抽象化
+  - en: accuracy
+    vi: độ chính xác
+    zh: 准确率
+    ja: 精度
+  - en: algorithm
+    vi: thuật toán
+    zh: 算法
+    ja: アルゴリズム
+  - en: architecture
+    vi: kiến trúc
+    zh: 架构
+    ja: アーキテクチャ
+    note: the design of a machine or of a model, not a building
+  - en: attention
+    vi: cơ chế attention
+    zh: 注意力机制
+    ja: 注意機構
+    field: ai-ml
+    note: the mechanism, not the ordinary word
+  - en: baseline
+    vi: đường cơ sở
+    zh: 基线
+    ja: ベースライン
+  - en: batch
+    vi: lô
+    zh: 批次
+    ja: バッチ
+  - en: benchmark
+    vi: phép đo chuẩn
+    zh: 基准
+    ja: ベンチマーク
+  - en: bound
+    vi: cận
+    zh: 界
+    ja: 上界・下界
+    note: an upper or lower limit on a quantity, as in a complexity bound
+  - en: branch
+    vi: nhánh
+    zh: 分支
+    ja: 分岐
+    note: in architecture a conditional jump, in software a line of development
+  - en: buffer
+    vi: bộ đệm
+    zh: 缓冲区
+    ja: バッファ
+  - en: cache
+    vi: cache
+    zh: 缓存
+    ja: キャッシュ
+  - en: chain
+    vi: chuỗi
+    zh: 链
+    ja: チェーン
+  - en: checkpoint
+    vi: điểm kiểm tra
+    zh: 检查点
+    ja: チェックポイント
+  - en: class
+    vi: lớp
+    zh: 类
+    ja: クラス
+    note: in languages a type, in machine learning a label
+  - en: classification
+    vi: phân loại
+    zh: 分类
+    ja: 分類
+  - en: client
+    vi: máy khách
+    zh: 客户端
+    ja: クライアント
+  - en: cluster
+    vi: cụm
+    zh: 集群
+    ja: クラスター
+  - en: commit
+    vi: xác nhận
+    zh: 提交
+    ja: コミット
+    field: databases
+    note: the end of a transaction, not a revision
+  - en: compiler
+    vi: trình biên dịch
+    zh: 编译器
+    ja: コンパイラ
+  - en: complexity
+    vi: độ phức tạp
+    zh: 复杂度
+    ja: 計算量
+  - en: computation
+    vi: tính toán
+    zh: 计算
+    ja: 計算
+  - en: concurrency
+    vi: đồng thời
+    zh: 并发
+    ja: 並行性
+  - en: configuration
+    vi: cấu hình
+    zh: 配置
+    ja: 構成
+  - en: consistency
+    vi: tính nhất quán
+    zh: 一致性
+    ja: 一貫性
+  - en: control flow
+    vi: luồng điều khiển
+    zh: 控制流
+    ja: 制御フロー
+  - en: convolution
+    vi: tích chập
+    zh: 卷积
+    ja: 畳み込み
+  - en: data structure
+    vi: cấu trúc dữ liệu
+    zh: 数据结构
+    ja: データ構造
+  - en: dataset
+    vi: tập dữ liệu
+    zh: 数据集
+    ja: データセット
+  - en: deadlock
+    vi: bế tắc
+    zh: 死锁
+    ja: デッドロック
+  - en: decoder
+    vi: bộ giải mã
+    zh: 解码器
+    ja: デコーダ
+  - en: dependency
+    vi: phụ thuộc
+    zh: 依赖
+    ja: 依存関係
+  - en: distributed system
+    vi: hệ thống phân tán
+    zh: 分布式系统
+    ja: 分散システム
+  - en: dropout
+    vi: dropout
+    zh: Dropout
+    ja: ドロップアウト
+    field: ai-ml
+  - en: embedding
+    vi: embedding
+    zh: 嵌入
+    ja: 埋め込み
+    field: ai-ml
+  - en: encoder
+    vi: bộ mã hóa
+    zh: 编码器
+    ja: エンコーダ
+  - en: encryption
+    vi: mã hóa
+    zh: 加密
+    ja: 暗号化
+  - en: ensemble
+    vi: tổ hợp
+    zh: 集成
+    ja: アンサンブル
+  - en: entry
+    vi: mục nhập
+    zh: 表项
+    ja: エントリ
+    note: one row of a table, as in a page table entry
+  - en: execution
+    vi: thực thi
+    zh: 执行
+    ja: 実行
+  - en: failure
+    vi: sự cố
+    zh: 故障
+    ja: 障害
+  - en: feature
+    vi: đặc trưng
+    zh: 特征
+    ja: 特徴量
+    note: in machine learning an input variable, in software a capability
+  - en: framework
+    vi: khung
+    zh: 框架
+    ja: フレームワーク
+  - en: function
+    vi: hàm
+    zh: 函数
+    ja: 関数
+  - en: gradient
+    vi: gradient
+    zh: 梯度
+    ja: 勾配
+  - en: graph
+    vi: đồ thị
+    zh: 图
+    ja: グラフ
+  - en: hardware
+    vi: phần cứng
+    zh: 硬件
+    ja: ハードウェア
+  - en: hash
+    vi: băm
+    zh: 哈希
+    ja: ハッシュ
+  - en: header
+    vi: phần đầu
+    zh: 头部
+    ja: ヘッダー
+  - en: heuristic
+    vi: heuristic
+    zh: 启发式
+    ja: ヒューリスティック
+  - en: hidden state
+    vi: trạng thái ẩn
+    zh: 隐状态
+    ja: 隠れ状態
+    field: ai-ml
+  - en: identity
+    vi: ánh xạ đồng nhất
+    zh: 恒等映射
+    ja: 恒等写像
+    field: ai-ml
+    note: the identity mapping of a residual connection
+  - en: inference
+    vi: suy luận
+    zh: 推理
+    ja: 推論
+    note: in machine learning running a trained model, in theory deriving a conclusion
+  - en: input
+    vi: đầu vào
+    zh: 输入
+    ja: 入力
+  - en: input sequence
+    vi: chuỗi đầu vào
+    zh: 输入序列
+    ja: 入力系列
+    field: ai-ml
+  - en: instruction
+    vi: lệnh
+    zh: 指令
+    ja: 命令
+  - en: interface
+    vi: giao diện
+    zh: 接口
+    ja: インターフェース
+  - en: invariant
+    vi: bất biến
+    zh: 不变量
+    ja: 不変量
+  - en: kernel
+    vi: nhân
+    zh: 内核
+    ja: カーネル
+    note: 'in systems the core of an operating system, in machine learning a filter; zh: machine learning中的filter通常译为“卷积核”'
+  - en: key
+    vi: khóa
+    zh: 键
+    ja: キー
+    note: 'in a store what a value is found by, in cryptography a secret; zh: cryptography中通常译为“密钥”，但此处首义是存储系统中的键'
+  - en: language model
+    vi: mô hình ngôn ngữ
+    zh: 语言模型
+    ja: 言語モデル
+    field: ai-ml
+  - en: latency
+    vi: độ trễ
+    zh: 延迟
+    ja: レイテンシ
+  - en: layer
+    vi: lớp
+    zh: 层
+    ja: レイヤー
+    note: in networks a level of the stack, in machine learning a bank of units
+  - en: learning rate
+    vi: tốc độ học
+    zh: 学习率
+    ja: 学習率
+    field: ai-ml
+  - en: library
+    vi: thư viện
+    zh: 库
+    ja: ライブラリ
+  - en: load balancing
+    vi: cân bằng tải
+    zh: 负载均衡
+    ja: 負荷分散
+  - en: lock
+    vi: khóa
+    zh: 锁
+    ja: ロック
+  - en: log
+    vi: nhật ký
+    zh: 日志
+    ja: ログ
+    note: the append only record, not the logarithm
+  - en: machine translation
+    vi: dịch máy
+    zh: 机器翻译
+    ja: 機械翻訳
+    field: ai-ml
+  - en: mapping
+    vi: ánh xạ
+    zh: 映射
+    ja: 写像
+  - en: memory
+    vi: bộ nhớ
+    zh: 内存
+    ja: メモリ
+  - en: model
+    vi: mô hình
+    zh: 模型
+    ja: モデル
+    note: in machine learning the trained thing, in databases and theory the description of a system
+  - en: module
+    vi: mô-đun
+    zh: 模块
+    ja: モジュール
+  - en: network
+    vi: mạng
+    zh: 网络
+    ja: ネットワーク
+    note: in networks the interconnection, in machine learning the model
+  - en: neural network
+    vi: mạng nơ-ron
+    zh: 神经网络
+    ja: ニューラルネットワーク
+    field: ai-ml
+  - en: node
+    vi: nút
+    zh: 节点
+    ja: ノード
+  - en: objective
+    vi: hàm mục tiêu
+    zh: 目标函数
+    ja: 目的関数
+    field: ai-ml
+    note: the function being optimised
+  - en: operator
+    vi: toán tử
+    zh: 算子
+    ja: 演算子
+  - en: optimization
+    vi: tối ưu hóa
+    zh: 优化
+    ja: 最適化
+  - en: output
+    vi: đầu ra
+    zh: 输出
+    ja: 出力
+  - en: overhead
+    vi: chi phí phụ trội
+    zh: 开销
+    ja: オーバーヘッド
+  - en: packet
+    vi: gói tin
+    zh: 数据包
+    ja: パケット
+    field: networks
+  - en: parameter
+    vi: tham số
+    zh: 参数
+    ja: パラメータ
+  - en: parser
+    vi: bộ phân tích cú pháp
+    zh: 解析器
+    ja: パーサー
+  - en: partition
+    vi: phân vùng
+    zh: 分区
+    ja: パーティション
+  - en: performance
+    vi: hiệu năng
+    zh: 性能
+    ja: 性能
+  - en: pipeline
+    vi: đường ống
+    zh: 流水线
+    ja: パイプライン
+  - en: pointer
+    vi: con trỏ
+    zh: 指针
+    ja: ポインタ
+  - en: prediction
+    vi: dự đoán
+    zh: 预测
+    ja: 予測
+  - en: probability
+    vi: xác suất
+    zh: 概率
+    ja: 確率
+  - en: procedure
+    vi: thủ tục
+    zh: 过程
+    ja: 手続き
+  - en: process
+    vi: tiến trình
+    zh: 进程
+    ja: プロセス
+    note: the operating system's unit of execution, not a general procedure
+  - en: processor
+    vi: bộ xử lý
+    zh: 处理器
+    ja: プロセッサ
+  - en: program
+    vi: chương trình
+    zh: 程序
+    ja: プログラム
+  - en: programming language
+    vi: ngôn ngữ lập trình
+    zh: 编程语言
+    ja: プログラミング言語
+  - en: protocol
+    vi: giao thức
+    zh: 协议
+    ja: プロトコル
+  - en: query
+    vi: truy vấn
+    zh: 查询
+    ja: クエリ
+  - en: question answering
+    vi: hỏi đáp
+    zh: 问答
+    ja: 質問応答
+    field: ai-ml
+  - en: queue
+    vi: hàng đợi
+    zh: 队列
+    ja: 待ち行列
+  - en: recursion
+    vi: đệ quy
+    zh: 递归
+    ja: 再帰
+  - en: register
+    vi: thanh ghi
+    zh: 寄存器
+    ja: レジスタ
+    field: architecture
+  - en: replication
+    vi: sao chép
+    zh: 复制
+    ja: レプリケーション
+  - en: representation
+    vi: biểu diễn
+    zh: 表示
+    ja: 表現
+  - en: resource
+    vi: tài nguyên
+    zh: 资源
+    ja: リソース
+  - en: rollback
+    vi: quay lui
+    zh: 回滚
+    ja: ロールバック
+    field: databases
+  - en: router
+    vi: bộ định tuyến
+    zh: 路由器
+    ja: ルーター
+    field: networks
+  - en: runtime
+    vi: thời gian chạy
+    zh: 运行时
+    ja: ランタイム
+  - en: sample
+    vi: mẫu
+    zh: 样本
+    ja: サンプル
+  - en: scalability
+    vi: khả năng mở rộng
+    zh: 可扩展性
+    ja: スケーラビリティ
+  - en: scheduler
+    vi: bộ lập lịch
+    zh: 调度器
+    ja: スケジューラ
+  - en: schema
+    vi: lược đồ
+    zh: 模式
+    ja: スキーマ
+    field: databases
+  - en: score
+    vi: điểm số
+    zh: 分数
+    ja: スコア
+  - en: semantics
+    vi: ngữ nghĩa
+    zh: 语义
+    ja: 意味論
+  - en: sequence
+    vi: chuỗi
+    zh: 序列
+    ja: シーケンス
+  - en: sequence length
+    vi: độ dài chuỗi
+    zh: 序列长度
+    ja: シーケンス長
+    field: ai-ml
+  - en: serializability
+    vi: tính khả tuần tự
+    zh: 可串行化
+    ja: 直列化可能性
+    field: databases
+  - en: server
+    vi: server
+    zh: 服务器
+    ja: サーバー
+  - en: sharding
+    vi: phân mảnh
+    zh: 分片
+    ja: シャーディング
+  - en: signature
+    vi: chữ ký
+    zh: 签名
+    ja: 署名
+    note: 'in security a cryptographic signature, in languages the shape of a function; vi: trong ngôn ngữ lập trình, "chữ ký hàm" cũng chỉ dạng của hàm; zh: also "函数签名" in programming languages, but "签名" covers both cryptographic and function senses; ja: also「シグネチャ」in programming languages, but 署名 is the standard security term and the security sense is primary'
+  - en: source code
+    vi: mã nguồn
+    zh: 源代码
+    ja: ソースコード
+  - en: specification
+    vi: đặc tả
+    zh: 规范
+    ja: 仕様
+  - en: stack
+    vi: ngăn xếp
+    zh: 栈
+    ja: スタック
+    note: the data structure and the call stack, not a pile of layers
+  - en: state
+    vi: trạng thái
+    zh: 状态
+    ja: 状態
+  - en: state machine
+    vi: máy trạng thái
+    zh: 状态机
+    ja: 状態機械
+  - en: string
+    vi: chuỗi
+    zh: 字符串
+    ja: 文字列
+    note: the sequence of characters, not a piece of cord
+  - en: switch
+    vi: chuyển mạch
+    zh: 开关
+    ja: スイッチ
+    field: networks
+  - en: syntax
+    vi: cú pháp
+    zh: 语法
+    ja: 構文
+  - en: test set
+    vi: tập kiểm thử
+    zh: 测试集
+    ja: テストセット
+    field: ai-ml
+  - en: thread
+    vi: luồng
+    zh: 线程
+    ja: スレッド
+  - en: throughput
+    vi: thông lượng
+    zh: 吞吐量
+    ja: スループット
+  - en: timestamp
+    vi: dấu thời gian
+    zh: 时间戳
+    ja: タイムスタンプ
+  - en: token
+    vi: token
+    zh: 标记
+    ja: トークン
+    note: in languages what a lexer produces, in machine learning a unit of text
+  - en: training
+    vi: huấn luyện
+    zh: 训练
+    ja: 学習
+    field: ai-ml
+  - en: training data
+    vi: dữ liệu huấn luyện
+    zh: 训练数据
+    ja: 学習データ
+    field: ai-ml
+  - en: transaction
+    vi: giao dịch
+    zh: 事务
+    ja: トランザクション
+    field: databases
+  - en: type
+    vi: kiểu
+    zh: 类型
+    ja: 型
+    note: the property of an expression, not a kind of thing
+  - en: vector
+    vi: vectơ
+    zh: 向量
+    ja: ベクトル
+  - en: virtual machine
+    vi: máy ảo
+    zh: 虚拟机
+    ja: 仮想マシン
+  - en: workload
+    vi: tải công việc
+    zh: 工作负载
+    ja: ワークロード
