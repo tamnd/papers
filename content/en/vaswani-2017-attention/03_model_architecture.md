@@ -23,7 +23,7 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 2-6
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: f2588617c1fefce1f798770e43108895a2a105ef9031e119e50b544560908ee9
+content_sha256: 0efc47e427b9e377b3967055cbb1f4cb42b4c19c6a19d9368cca9aac9c0d9429
 ---
 
 Most competitive neural sequence transduction models have an encoder-decoder structure [5], [2], [[sutskever-2014-seq2seq]]. Here, the encoder maps an input sequence of symbol representations (x 1 , ..., x n ) to a sequence of continuous representations z = (z 1 , ..., z n ). Given z, the decoder then generates an output sequence (y 1 , ..., y m ) of symbols one element at a time. At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.
@@ -120,11 +120,12 @@ Similarly to other sequence transduction models, we use learned embeddings to co
 
 Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention. {#vaswani-2017-attention-tab-1 .table tag=001F}
 
-Layer Type Complexity per Layer Sequential Maximum Path Length
-
-Operations Self-Attention O(n 2 · d) O(1) O(1) Recurrent O(n · d 2 ) O(n) O(n) Convolutional O(k · n · d 2 ) O(1) O(log (n))
-
-k Self-Attention (restricted) O(r · n · d) O(1) O(n/r)
+| Layer Type | Complexity per Layer | Sequential Operations | Maximum Path Length |
+| --- | --- | --- | --- |
+| Self-Attention | O(n 2 · d) | O(1) | O(1) |
+| Recurrent | O(n · d 2 ) | O(n) | O(n) |
+| Convolutional | O(k · n · d 2 ) | O(1) | O(log k (n)) |
+| Self-Attention (restricted) | O(r · n · d) | O(1) | O(n/r) |
 
 ### 3.5 Positional Encoding {#vaswani-2017-attention-s3-5 .section tag=0020}
 

@@ -23,7 +23,7 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 8-10
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 7c6f3fa11b2f79f8068ae588a76a8771f84de9e8aaada5757aee898a96c75981
+content_sha256: 3e5010de9abaee85ed925ef833d20a52e974145d691b89714e5c3a1419997284
 ---
 
 ### 6.1 Machine Translation {#vaswani-2017-attention-s6-1 .section tag=0029}
@@ -44,25 +44,33 @@ We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respe
 
 Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities. {#vaswani-2017-attention-tab-3 .table tag=002B}
 
-train PPL BLEU params N d model d ff h d k d v P drop ϵ ls 6
-
-steps (dev) (dev) ×10 base 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8 65
-
-1 512 512 5.29 24.9 4 128 128 5.00 25.5 (A)
-
-16 32 32 4.91 25.8 32 16 16 5.01 25.4
-
-16 5.16 25.1 58 (B)
-
-32 5.01 25.4 60 2 6.11 23.7 36 4 5.19 25.3 50 8 4.88 25.5 80 (C) 256 32 32 5.75 24.5 28
-
-1024 128 128 4.66 26.0 168
-
-1024 5.12 25.4 53 4096 4.75 26.2 90
-
-0.0 5.77 24.6 0.2 4.95 25.5 (D)
-
-0.0 4.67 25.3 0.2 5.47 25.7 (E) positional embedding instead of sinusoids 4.92 25.7 big 6 1024 4096 16 0.3 300K 4.33 26.4 213
+```text
+                                                          train   PPL    BLEU     params
+       N    d model  d ff  h     d k   d v  P drop   ϵ ls steps   (dev)   (dev)    ×10 6
+base   6     512    2048    8    64    64     0.1   0.1   100K    4.92    25.8      65
+                            1   512   512                         5.29    24.9
+                            4   128   128                         5.00    25.5
+(A)
+                           16    32    32                         4.91    25.8
+                           32    16    16                         5.01    25.4
+                                 16                               5.16    25.1      58
+ (B)
+                                 32                               5.01    25.4      60
+       2                                                          6.11    23.7      36
+       4                                                          5.19    25.3      50
+       8                                                          4.88    25.5      80
+ (C)         256                 32    32                         5.75    24.5      28
+            1024                128   128                         4.66    26.0      168
+                    1024                                          5.12    25.4      53
+                    4096                                          4.75    26.2      90
+                                              0.0                 5.77    24.6
+                                              0.2                 4.95    25.5
+(D)
+                                                    0.0           4.67    25.3
+                                                    0.2           5.47    25.7
+ (E)          positional embedding instead of sinusoids           4.92    25.7
+ big   6    1024    4096   16                 0.3         300K    4.33    26.4      213
+```
 
 development set, newstest2013. We used beam search as described in the previous section, but no checkpoint averaging. We present these results in Table 3.
 
@@ -80,15 +88,20 @@ We performed only a small number of experiments to select the dropout, both atte
 
 Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ) {#vaswani-2017-attention-tab-4 .table tag=002D}
 
-Parser Training WSJ 23 F1 Vinyals & Kaiser el al. (2014) [37] WSJ only, discriminative 88.3
-
-Petrov et al. (2006) [29] WSJ only, discriminative 90.4
-
-Zhu et al. (2013) [40] WSJ only, discriminative 90.4 Dyer et al. (2016) [8] WSJ only, discriminative 91.7 Transformer (4 layers) WSJ only, discriminative 91.3 Zhu et al. (2013) [40] semi-supervised 91.3 Huang & Harper (2009) [14] semi-supervised 91.3 McClosky et al. (2006) [26] semi-supervised 92.1 Vinyals & Kaiser el al. (2014) [37] semi-supervised 92.1
-
-Transformer (4 layers) semi-supervised 92.7 Luong et al. (2015) [23] multi-task 93.0
-
-Dyer et al. (2016) [8] generative 93.3
+| Parser | Training | WSJ 23 F1 |
+| --- | --- | --- |
+| Vinyals & Kaiser el al. (2014) [37] | WSJ only, discriminative | 88.3 |
+| Petrov et al. (2006) [29] | WSJ only, discriminative | 90.4 |
+| Zhu et al. (2013) [40] | WSJ only, discriminative | 90.4 |
+| Dyer et al. (2016) [8] | WSJ only, discriminative | 91.7 |
+| Transformer (4 layers) | WSJ only, discriminative | 91.3 |
+| Zhu et al. (2013) [40] | semi-supervised | 91.3 |
+| Huang & Harper (2009) [14] | semi-supervised | 91.3 |
+| McClosky et al. (2006) [26] | semi-supervised | 92.1 |
+| Vinyals & Kaiser el al. (2014) [37] | semi-supervised | 92.1 |
+| Transformer (4 layers) | semi-supervised | 92.7 |
+| Luong et al. (2015) [23] | multi-task | 93.0 |
+| Dyer et al. (2016) [8] | generative | 93.3 |
 
 increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3 for both WSJ only and the semi-supervised setting.
 

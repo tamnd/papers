@@ -15,7 +15,7 @@ pdf_sha256: 81a363deb884ca23e495280eb9229df1064b4b3f79d662f270be35b50bea5318
 pdf_pages: "1"
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 1d56710605e0b218b6ee1d68ae65258c20f54ccda814ab8ac8729a076a03212b
+content_sha256: 7bd3eb6f14dec478b2dae3bfdd6d3934b5f48e638476f1e6eb87cdcc8adb9198
 ---
 
 TECHNICAL LITERATURE
@@ -34,6 +34,6 @@ This article was the first publication by Gene Amdahl on what became known as Am
 
 The Editors
 
-For over a decade prophets have voiced the contention that the organization of a single computer has reached its limits and that truly significant advances can be made only by interconnection of a multiplicity of computers in such a manner as to permit cooperative
+For over a decade prophets have voiced the contention that the organization of a single computer has reached its limits and that truly significant advances can be made only by interconnection of a multiplicity of computers in such a manner as to permit cooperative solution. Variously the proper direction has been pointed out as general purpose computers with a generalized interconnection of memories, or as specialized computers with geometrically related memory interconnections and controlled by one or more instruction streams.
 
-The first characteristic of interest is the fraction of the computational load which is associated with data management housekeeping. This fraction has been very nearly constant for about ten years, and accounts for 40% of the executed instructions in production runs. In an entirely dedicated special purpose environment this might be reduced by a factor of two, but it is highly improbably that it could be reduced by a factor of three.
+Demonstration is made of the continued validity of the single processor approach and of the weaknesses of the multiple processor approach in terms of application to real problems and their attendant irregularities.
