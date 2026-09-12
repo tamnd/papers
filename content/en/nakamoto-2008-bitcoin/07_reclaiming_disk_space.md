@@ -8,7 +8,6 @@ venue: bitcoin.org
 field: security
 section: "7"
 section_title: Reclaiming Disk Space
-tag: 000B
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

@@ -14,7 +14,6 @@ year: 2017
 venue: NIPS
 field: ai-ml
 section_title: Front Matter
-tag: "0012"
 kind: front
 lang: en
 source: arxiv:1706.03762

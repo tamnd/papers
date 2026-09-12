@@ -7,14 +7,16 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: royce-1970-lifecycle
-offset: null
+offset: 327
 pages:
     - pdf: 1
-      size: [720, 540]
+      size: [612, 792]
       columns: 1
     - pdf: 2
-      size: [720, 540]
+      printed: "329"
+      size: [612, 792]
       columns: 1
     - pdf: 3
-      size: [720, 540]
+      printed: "330"
+      size: [612, 792]
       columns: 1

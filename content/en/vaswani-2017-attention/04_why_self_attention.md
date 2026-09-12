@@ -15,7 +15,6 @@ venue: NIPS
 field: ai-ml
 section: "4"
 section_title: Why Self-Attention
-tag: "0021"
 kind: section
 lang: en
 source: arxiv:1706.03762

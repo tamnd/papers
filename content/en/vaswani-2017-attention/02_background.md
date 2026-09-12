@@ -15,7 +15,6 @@ venue: NIPS
 field: ai-ml
 section: "2"
 section_title: Background
-tag: "0014"
 kind: section
 lang: en
 source: arxiv:1706.03762

@@ -15,7 +15,6 @@ venue: NIPS
 field: ai-ml
 section: "1"
 section_title: Introduction
-tag: "0013"
 kind: section
 lang: en
 source: arxiv:1706.03762

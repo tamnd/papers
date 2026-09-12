@@ -8,7 +8,6 @@ year: 1997
 venue: Journal of Computer and System Sciences
 field: theory
 section_title: Front Matter
-tag: "0000"
 kind: front
 lang: en
 source: https://doi.org/10.1006/jcss.1997.1494

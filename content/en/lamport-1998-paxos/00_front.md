@@ -7,7 +7,6 @@ year: 1998
 venue: ACM TOCS
 field: systems
 section_title: Front Matter
-tag: "0002"
 kind: front
 lang: en
 source: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf

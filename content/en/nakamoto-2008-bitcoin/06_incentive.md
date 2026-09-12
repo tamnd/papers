@@ -8,7 +8,6 @@ venue: bitcoin.org
 field: security
 section: "6"
 section_title: Incentive
-tag: 000A
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

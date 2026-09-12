@@ -14,7 +14,6 @@ year: 2017
 venue: NIPS
 field: ai-ml
 section_title: References
-tag: 002F
 kind: references
 lang: en
 source: arxiv:1706.03762
@@ -22,7 +21,7 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 10-15
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 6bcbcb7b4c3545df8bb4a677e6729ddf457a33acfde846b28ce35316e229991c
+content_sha256: 61b83dc4c1218d1303f599035c648e1e33fc3932905ae4a8e59e201a4e6e4b77
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -114,7 +113,7 @@ It .
 
 passed making difficult <EOS> <pad> <pad> <pad> <pad> <pad> <pad> this spirit that have new laws since 2009 the voting more is in a of or
 
-Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color. {#vaswani-2017-attention-fig-3 .figure tag=0030}
+Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.
 
 Input-Input Layer5
 
@@ -128,7 +127,7 @@ The Law will never be perfect , but its should be just - this is what we are , i
 
 , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
 
-Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word. {#vaswani-2017-attention-fig-4 .figure tag=0031}
+Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.
 
 Input-Input Layer5
 
@@ -142,4 +141,4 @@ The Law will never be perfect , but its should be just - this is what we are , i
 
 , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
 
-Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks. {#vaswani-2017-attention-fig-5 .figure tag=0032}
+Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.

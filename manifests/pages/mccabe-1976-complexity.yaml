@@ -7,14 +7,17 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: mccabe-1976-complexity
-offset: null
+offset: 307
 pages:
     - pdf: 1
+      printed: "308"
       size: [604.8, 790.08]
       columns: 1
     - pdf: 2
+      printed: "309"
       size: [605.76, 791.04]
       columns: 1
     - pdf: 3
+      printed: "310"
       size: [613.19, 796.39]
       columns: 1

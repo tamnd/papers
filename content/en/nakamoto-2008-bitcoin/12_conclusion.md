@@ -8,7 +8,6 @@ venue: bitcoin.org
 field: security
 section: "12"
 section_title: Conclusion
-tag: "0010"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

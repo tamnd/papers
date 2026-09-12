@@ -1,6 +1,6 @@
 # Audit
 
-56 rules: 48 passed, 1 failed, 7 not run
+64 rules: 64 passed, 0 failed, 0 not run
 
 ## S Sources and licensing
 
@@ -44,38 +44,53 @@
 
 **T10** (hard, pass) no page furniture is left in the body: running heads, bare folios.
 
+**T11** (hard, pass) no raw HTML markup is left in a body.
+
 ## M Mathematics
 
 **M01** (hard, pass) every math span is closed.
 
-**M02** (hard, not run) the number sets are written with \mathbb, consistently.
+**M02** (hard, pass) the number sets are written with \mathbb, consistently.
 
 **M03** (hard, pass) no character is stranded out of its TeX.
 
-**M04** (hard, not run) every math span parses under KaTeX.
+**M04** (hard, pass) every math span parses under KaTeX.
 
 **M05** (hard, pass) no illegible marker is left in the corpus.
 
-**M06** (soft, not run) displays per page are within 3 sigma of the paper's mean.
+**M06** (soft, pass) displays per page are within 3 sigma of the paper's mean.
 
-**M07** (hard, not run) no bracket from the prose closes inside the mathematics.
+**M07** (hard, pass) no bracket from the prose closes inside the mathematics.
 
 **M08** (hard, pass) no matrix is left flattened into a pair of scripts.
 
-**M09** (soft, not run) no base carries two superscripts or two subscripts.
+**M09** (soft, pass) no base carries two superscripts or two subscripts.
 
-**M10** (hard, not run) no relation sign has lost the stroke that negates it.
+**M10** (hard, pass) no relation sign has lost the stroke that negates it.
 
 **M11** (hard, pass) the mathematics is written between dollars, never \( or \[.
 
-**M12** (soft, not run) an inline formula is written tight against its dollars.
+**M12** (soft, pass) an inline formula is written tight against its dollars.
 
 **M13** (hard, pass) no $ inside a fenced code block opened a span.
 
-**M14** (hard, 2 found) a paper with mathematics in its prose has mathematics in its markup.
+**M14** (hard, pass) a paper with mathematics in its prose has mathematics in its markup.
 
-- `content/en/nakamoto-2008-bitcoin/11_calculations.md:11` nakamoto-2008-bitcoin in en carries 5 mathematical characters and not one math span, so its formulas were flattened into the prose and the paper needs reading again
-- `content/en/vaswani-2017-attention/03_model_architecture.md:25` vaswani-2017-attention in en carries 11 mathematical characters and not one math span, so its formulas were flattened into the prose and the paper needs reading again
+## C Code
+
+**C01** (hard, pass) every fence is closed.
+
+**C02** (hard, pass) every fence carries a language tag from the known list.
+
+**C03** (hard, pass) no fence is nested inside another.
+
+**C04** (hard, pass) no fence opens inside a math span.
+
+**C05** (soft, pass) no listing runs past 120 lines.
+
+**C08** (soft, pass) no run of lines reads as program text outside a fence.
+
+**C09** (soft, pass) no run of lines is lined up with spaces Markdown will collapse.
 
 ## F Figures
 
