@@ -1,6 +1,6 @@
 # Audit
 
-14 rules: 11 passed, 0 failed, 3 not run
+23 rules: 20 passed, 0 failed, 3 not run
 
 ## S Sources and licensing
 
@@ -13,6 +13,26 @@
 **S04** (hard, pass) every paper in papers.yaml has an entry in sources.yaml.
 
 **S06** (hard, pass) every open and permissive paper names a licence, not just a URL.
+
+## F Figures
+
+**F01** (hard, pass) every figure a file references exists on disk.
+
+**F02** (hard, pass) no figure is under 100 by 100 pixels.
+
+**F03** (hard, pass) no figure is over 512 KB.
+
+**F04** (hard, pass) nothing under figures/ is untracked.
+
+**F05** (hard, pass) no paper has two figures with the same bytes.
+
+**F06** (hard, pass) no figure covers more than 0.75 of the page it came from.
+
+**F07** (hard, pass) every committed figure has an entry in manifests/figures.yaml with a caption.
+
+**F08** (hard, pass) no restricted paper has a figure.
+
+**F09** (soft, pass) every figure the paper numbers in its prose is present.
 
 ## R References
 
