@@ -25,7 +25,7 @@ pdf_sha256: 61875779e75f603d21aefba6d9bd9816d4dd0c18cf41089f43707249e24bbf88
 pdf_pages: 2-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 05b4c35f1ba323f27eeb2ce55419a9438787eb311ecf9bb9c1ef315b2830681c
+content_sha256: 5ff4ae7e221aaf6317af3035619f0de368016df5492474672c2d249bcb55149c
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -91,17 +91,8 @@ CREATE TABLE Albums {
 } PRIMARY KEY (uid, aid),
 INTERLEAVE IN PARENT Users ON DELETE CASCADE;
 
-<table>
-  <tr>
-    <th>Users(1)</th>
-    <th>Albums(1,1)</th>
-    <th>Albums(1,2)</th>
-    <th>Users(2)</th>
-    <th>Albums(2,1)</th>
-    <th>Albums(2,2)</th>
-    <th>Albums(2,3)</th>
-  </tr>
-</table>
+| Users(1) | Albums(1,1) | Albums(1,2) | Users(2) | Albums(2,1) | Albums(2,2) | Albums(2,3) |
+| --- | --- | --- | --- | --- | --- | --- |
 
 Directory 3665
 
