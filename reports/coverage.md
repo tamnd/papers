@@ -4,7 +4,7 @@ How much of each paper the corpus publishes.
 
 `full` is a paper whose body is here, section by section. `stub` is the front matter and a short abstract, which is the whole of what a restricted paper may ever have and is not a shortfall. `none` is a paper the corpus publishes nothing of yet.
 
-101 papers: 2 full, 4 stub, 95 none, which is 6% of what the licences allow.
+101 papers: 2 full, 5 stub, 94 none, which is 7% of what the licences allow.
 
 ## Per field
 
@@ -15,20 +15,20 @@ How much of each paper the corpus publishes.
 | languages | 10 | 0 | 1 | 9 | 10% |
 | systems | 13 | 0 | 1 | 12 | 8% |
 | networks | 8 | 0 | 0 | 8 | 0% |
-| databases | 12 | 0 | 0 | 12 | 0% |
+| databases | 12 | 0 | 1 | 11 | 8% |
 | architecture | 7 | 0 | 1 | 6 | 14% |
 | security | 8 | 1 | 0 | 7 | 13% |
 | ai-ml | 15 | 1 | 0 | 14 | 7% |
 | graphics | 2 | 0 | 0 | 2 | 0% |
 | hci | 2 | 0 | 0 | 2 | 0% |
 | software | 4 | 0 | 0 | 4 | 0% |
-| **all** | 101 | 2 | 4 | 95 | 6% |
+| **all** | 101 | 2 | 5 | 94 | 7% |
 
 ## What the rest is waiting on
 
 | waiting on | papers |
 | --- | --: |
-| waiting on a vision model | 56 |
+| waiting on a vision model | 55 |
 | waiting on a layout tool | 36 |
 | nothing is known about what may be published from it | 2 |
 | not fetched yet | 1 |
@@ -39,14 +39,14 @@ English is extracted and the other three are translated from it. `stale` is a tr
 
 | language | papers | files | stale |
 | --- | --: | --: | --: |
-| en | 6 | 27 | 0 |
+| en | 7 | 28 | 0 |
 | vi | 0 | 0 | 0 |
 | zh | 0 | 0 | 0 |
 | ja | 0 | 0 | 0 |
 
 ## What is left
 
-The 95 papers that are not yet as done as their licence allows, in id order.
+The 94 papers that are not yet as done as their licence allows, in id order.
 
 | paper | field | access | state | waiting on |
 | --- | --- | --- | --- | --- |
@@ -66,7 +66,6 @@ The 95 papers that are not yet as done as their licence allows, in id order.
 | cerf-1974-tcpip | networks | restricted | none | waiting on a vision model |
 | chang-2006-bigtable | databases | restricted | none | waiting on a layout tool |
 | chiu-1989-aimd | networks | restricted | none | waiting on a vision model |
-| codd-1970-relational | databases | restricted | none | waiting on a vision model |
 | cook-1971-np | theory | restricted | none | waiting on a vision model |
 | cooley-1965-fft | algorithms | restricted | none | waiting on a vision model |
 | corbett-2012-spanner | databases | open | none | waiting on a layout tool |

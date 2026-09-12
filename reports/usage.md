@@ -4,7 +4,7 @@ What the corpus cost in machine time, by stage.
 
 This is read from the ledger, which is one line per ask and lives at `~/.config/papers/ledger.jsonl` on the machine that did the work. The ledger is not in this repository and will not be: it names the hosts that were asked. Nothing below names a host.
 
-44 asks, 43 of them answered. 525,054 tokens in, 27,184 out, 24m 43s of waiting over 24 targets, from 2026-09-12 to 2026-09-12.
+52 asks, 50 of them answered. 564,131 tokens in, 31,553 out, 35m 43s of waiting over 27 targets, from 2026-09-12 to 2026-09-12.
 
 ## Pages read
 
@@ -13,7 +13,7 @@ Counted off the committed English content, one page counted once per paper howev
 | path | papers | pages | what read them |
 | --- | --: | --: | --- |
 | native | 4 | 8 | pdftotext version 26.09.0 |
-| vision | 2 | 24 | olmOCR-2-7B-1025-FP8 |
+| vision | 3 | 25 | olmOCR-2-7B-1025-FP8 |
 
 ## Per stage
 
@@ -21,21 +21,21 @@ A target is the thing one ask was about: a page for the extract stage, a section
 
 | stage | asks | answered | refused | targets | tokens in | tokens out | time | cost |
 | --- | --: | --: | --: | --: | --: | --: | --: | --: |
-| extract | 44 | 43 | 0 | 24 | 525,054 | 27,184 | 24m 43s | - |
+| extract | 52 | 50 | 0 | 27 | 564,131 | 31,553 | 35m 43s | - |
 | figures | 0 | 0 | 0 | 0 | 0 | 0 | 0s | - |
 | refs | 0 | 0 | 0 | 0 | 0 | 0 | 0s | - |
 | glossary | 0 | 0 | 0 | 0 | 0 | 0 | 0s | - |
 | translate | 0 | 0 | 0 | 0 | 0 | 0 | 0s | - |
 
-44 of the 44 asks went to a model with no price set, so the money column is a dash for them. Most of this corpus is built on a subscription and on free gateways, where an ask costs a turn rather than a sum of money, and writing zero dollars there would be claiming a measurement nobody made. A price table is a JSON file of dollars per million tokens by model, passed with `papers report usage -prices`.
+52 of the 52 asks went to a model with no price set, so the money column is a dash for them. Most of this corpus is built on a subscription and on free gateways, where an ask costs a turn rather than a sum of money, and writing zero dollars there would be claiming a measurement nobody made. A price table is a JSON file of dollars per million tokens by model, passed with `papers report usage -prices`.
 
 ## Per model
 
 | model | asks | tokens in | tokens out | cost |
 | --- | --: | --: | --: | --: |
-| not recorded | 1 | 0 | 0 | - |
-| gpt-5-6 | 2 | 2,502 | 533 | - |
-| reader-a | 41 | 522,552 | 26,651 | - |
+| not recorded | 2 | 0 | 0 | - |
+| gpt-5-6 | 6 | 7,506 | 719 | - |
+| reader-a | 44 | 556,625 | 30,834 | - |
 
 ## Per paper
 
@@ -43,11 +43,12 @@ In id order rather than in order of cost, so that two of these reports can be re
 
 | paper | stage | targets | tokens in | tokens out | time |
 | --- | --- | --: | --: | --: | --: |
-| nakamoto-2008-bitcoin | extract | 9 | 214,920 | 9,881 | 4m 41s |
+| codd-1970-relational | extract | 3 | 34,073 | 4,183 | 59.4s |
+| nakamoto-2008-bitcoin | extract | 9 | 219,924 | 10,067 | 14m 42s |
 | vaswani-2017-attention | extract | 15 | 310,134 | 17,303 | 20m 1s |
 
 ## What did not answer
 
 | stage | why | asks |
 | --- | --- | --: |
-| extract | unreachable | 1 |
+| extract | unreachable | 2 |
