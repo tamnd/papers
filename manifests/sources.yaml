@@ -637,13 +637,17 @@ sources:
       pages: 15
       text_layer: digital
     - id: rosenblatt-1958-perceptron
-      access: restricted
-      url: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f237108.pdf
-      landing: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f237108.pdf
-      fetched: "2026-09-11"
-      sha256: ac4cca5f3cc14504ca4d75da225fdd8542e4148454841ecd5855c983aaaebc3f
-      pages: 38
-      text_layer: native
+      access: unknown
+      by: hand
+      note: >-
+        The file the resolver found is not this paper. It is a 38 page slide
+        deck, "Presented by Manu Reddy, Sep 9 2015", about the paper. The
+        paper itself is Psychological Review 65(6) 386-408, doi
+        10.1037/h0042519, and it is closed: OpenAlex and Semantic Scholar both
+        report no open access copy, the seed link at ling.upenn.edu answers 403
+        and so does psycnet. Access is unknown rather than restricted so that
+        nothing at all is published until somebody finds a copy the corpus may
+        read.
     - id: royce-1970-lifecycle
       access: restricted
       url: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
@@ -694,13 +698,16 @@ sources:
       pages: 12
       text_layer: digital
     - id: shamir-1992-ippspace
-      access: restricted
-      url: https://pdfs.semanticscholar.org/9b90/c0d10910b4f510fd1e1fb41e80b6896c44e9.pdf
-      landing: https://pdfs.semanticscholar.org/9b90/c0d10910b4f510fd1e1fb41e80b6896c44e9.pdf
-      fetched: "2026-09-11"
-      sha256: d9b02b50e35e223f4ceca3526c1148e655d762b7b2f615deddd61acdc89b994d
-      pages: 12
-      text_layer: native
+      access: unknown
+      by: hand
+      note: >-
+        The file the resolver found is not this paper. It is a 12 page lecture
+        slide deck on the sumcheck protocol, with its formulas pasted in as
+        latexit images. The paper itself is JACM 39(4) 869-877, doi
+        10.1145/146585.146609, and the only copy OpenAlex knows is the ACM
+        one, which answers 403. Access is unknown rather than restricted so
+        that nothing at all is published until somebody finds a copy the
+        corpus may read.
     - id: shannon-1948-communication
       access: restricted
       url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
