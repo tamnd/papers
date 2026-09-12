@@ -1,0 +1,4089 @@
+# Proposed terms for the controlled vocabulary, counted off the English corpus.
+#
+# This is a proposal and not a glossary. Keep what is really vocabulary, scope what
+# means different things in different fields, and move those into glossary.yaml.
+# Written by `papers glossary extract`, and safe to delete and rebuild.
+
+candidates:
+    - en: model
+      papers: 20
+      uses: 351
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - hci
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - corbett-2012-spanner
+    - en: data
+      papers: 29
+      uses: 272
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - backus-1978-vonneumann
+        - bayer-1972-btree
+        - bloom-1970-filter
+    - en: task
+      papers: 12
+      uses: 251
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - hci
+        - networks
+        - software
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+    - en: system
+      papers: 30
+      uses: 190
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - hci
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - birrell-1984-rpc
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+    - en: transaction
+      papers: 6
+      uses: 184
+      fields:
+        - databases
+        - security
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - lamport-1998-paxos
+    - en: network
+      papers: 18
+      uses: 180
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - codd-1970-relational
+        - corbett-2012-spanner
+    - en: layer
+      papers: 7
+      uses: 167
+      fields:
+        - ai-ml
+        - databases
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: sentence
+      papers: 4
+      uses: 156
+      fields:
+        - ai-ml
+        - languages
+      where:
+        - devlin-2018-bert
+        - mccarthy-1960-lisp
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: machine
+      papers: 22
+      uses: 153
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - software
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+    - en: set
+      papers: 16
+      uses: 152
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - systems
+        - theory
+      where:
+        - bloom-1970-filter
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: function
+      papers: 19
+      uses: 151
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - cortes-1995-svm
+    - en: input
+      papers: 12
+      uses: 150
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: output
+      papers: 9
+      uses: 147
+      fields:
+        - ai-ml
+        - architecture
+        - security
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: training
+      papers: 7
+      uses: 143
+      fields:
+        - ai-ml
+        - architecture
+      where:
+        - cortes-1995-svm
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: time
+      papers: 25
+      uses: 134
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - hci
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - birrell-1984-rpc
+    - en: map
+      papers: 7
+      uses: 120
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+    - en: problem
+      papers: 31
+      uses: 118
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - bayer-1972-btree
+        - bloom-1970-filter
+        - brin-1998-pagerank
+    - en: key
+      papers: 22
+      uses: 114
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - bosshart-2014-p4
+        - codd-1970-relational
+    - en: result
+      papers: 17
+      uses: 113
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - systems
+        - theory
+      where:
+        - birrell-1984-rpc
+        - brin-1998-pagerank
+        - codd-1970-relational
+        - cooley-1965-fft
+    - en: sequence
+      papers: 9
+      uses: 108
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: word
+      papers: 18
+      uses: 106
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - codd-1970-relational
+        - cytron-1991-ssa
+    - en: reduce
+      papers: 5
+      uses: 104
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - bloom-1970-filter
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: language
+      papers: 18
+      uses: 102
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - hci
+        - languages
+        - networks
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+    - en: read
+      papers: 6
+      uses: 100
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: program
+      papers: 16
+      uses: 98
+      fields:
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - software
+        - systems
+      where:
+        - aho-1975-corasick
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - codd-1970-relational
+    - en: representation
+      papers: 12
+      uses: 95
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - codd-1970-relational
+        - dean-2004-mapreduce
+    - en: timestamp
+      papers: 3
+      uses: 88
+      fields:
+        - databases
+        - networks
+        - security
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - nakamoto-2008-bitcoin
+    - en: switch
+      papers: 3
+      uses: 84
+      fields:
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - nakamoto-2008-bitcoin
+    - en: control
+      papers: 14
+      uses: 81
+      fields:
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+    - en: implementation
+      papers: 16
+      uses: 80
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+    - en: learning
+      papers: 9
+      uses: 75
+      fields:
+        - ai-ml
+        - hci
+        - systems
+      where:
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: packet
+      papers: 4
+      uses: 75
+      fields:
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - dean-2004-mapreduce
+        - metcalfe-1976-ethernet
+    - en: state
+      papers: 15
+      uses: 73
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - aho-1975-corasick
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+    - en: block
+      papers: 7
+      uses: 72
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: size
+      papers: 13
+      uses: 71
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - bayer-1972-btree
+        - bloom-1970-filter
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+    - en: token
+      papers: 3
+      uses: 71
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: performance
+      papers: 19
+      uses: 68
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - hci
+        - languages
+        - networks
+        - systems
+      where:
+        - bayer-1972-btree
+        - bloom-1970-filter
+        - corbett-2012-spanner
+        - cortes-1995-svm
+    - en: computation
+      papers: 9
+      uses: 68
+      fields:
+        - ai-ml
+        - languages
+        - security
+        - systems
+        - theory
+      where:
+        - birrell-1984-rpc
+        - dean-2004-mapreduce
+        - diffie-1976-newdirections
+        - goodfellow-2014-gan
+    - en: pair
+      papers: 9
+      uses: 68
+      fields:
+        - ai-ml
+        - algorithms
+        - security
+        - systems
+        - theory
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - dijkstra-1959-shortestpath
+        - goodfellow-2014-gan
+    - en: write
+      papers: 3
+      uses: 67
+      fields:
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: algorithm
+      papers: 22
+      uses: 66
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - cooley-1965-fft
+    - en: operation
+      papers: 13
+      uses: 65
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - systems
+        - theory
+      where:
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - cooley-1965-fft
+    - en: approach
+      papers: 12
+      uses: 64
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - software
+        - systems
+      where:
+        - amdahl-1967-law
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+    - en: error
+      papers: 12
+      uses: 64
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - systems
+        - theory
+      where:
+        - bloom-1970-filter
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+    - en: user
+      papers: 7
+      uses: 63
+      fields:
+        - databases
+        - hci
+        - languages
+        - security
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: attention
+      papers: 6
+      uses: 63
+      fields:
+        - ai-ml
+        - algorithms
+        - networks
+        - theory
+      where:
+        - bosshart-2014-p4
+        - cooley-1965-fft
+        - devlin-2018-bert
+        - karp-1972-reducibility
+    - en: field
+      papers: 3
+      uses: 63
+      fields:
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - lamport-1998-paxos
+    - en: header
+      papers: 3
+      uses: 63
+      fields:
+        - ai-ml
+        - networks
+        - security
+      where:
+        - bosshart-2014-p4
+        - devlin-2018-bert
+        - nakamoto-2008-bitcoin
+    - en: file
+      papers: 5
+      uses: 62
+      fields:
+        - databases
+        - languages
+        - systems
+      where:
+        - bayer-1972-btree
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: method
+      papers: 18
+      uses: 61
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - graphics
+        - languages
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - bloom-1970-filter
+        - cook-1971-np
+        - cooley-1965-fft
+        - corbett-2012-spanner
+    - en: parameter
+      papers: 10
+      uses: 61
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+        - devlin-2018-bert
+    - en: architecture
+      papers: 9
+      uses: 60
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: neural network
+      papers: 5
+      uses: 29
+      fields:
+        - ai-ml
+      where:
+        - cortes-1995-svm
+        - he-2016-resnet
+        - rumelhart-1986-backprop
+        - sutskever-2014-seq2seq
+    - en: support
+      papers: 13
+      uses: 57
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: computer
+      papers: 31
+      uses: 56
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - graphics
+        - hci
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - backus-1978-vonneumann
+        - bloom-1970-filter
+        - brin-1998-pagerank
+    - en: deep
+      papers: 4
+      uses: 55
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: application
+      papers: 17
+      uses: 52
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - bloom-1970-filter
+        - bosshart-2014-p4
+        - codd-1970-relational
+    - en: execution
+      papers: 7
+      uses: 52
+      fields:
+        - architecture
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+    - en: rate
+      papers: 7
+      uses: 52
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: translation
+      papers: 3
+      uses: 52
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: node
+      papers: 5
+      uses: 51
+      fields:
+        - algorithms
+        - databases
+        - networks
+        - security
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dijkstra-1959-shortestpath
+        - metcalfe-1976-ethernet
+    - en: trained
+      papers: 5
+      uses: 51
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: order
+      papers: 14
+      uses: 50
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: google
+      papers: 8
+      uses: 49
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: commit
+      papers: 3
+      uses: 49
+      fields:
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - lamport-1998-paxos
+    - en: feature
+      papers: 15
+      uses: 47
+      fields:
+        - ai-ml
+        - databases
+        - hci
+        - languages
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - cytron-1991-ssa
+    - en: distribution
+      papers: 10
+      uses: 47
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: distributed
+      papers: 9
+      uses: 47
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - birrell-1984-rpc
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+    - en: test
+      papers: 7
+      uses: 47
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+      where:
+        - bloom-1970-filter
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: position
+      papers: 5
+      uses: 47
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - knuth-1977-kmp
+    - en: complexity
+      papers: 14
+      uses: 46
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - cook-1971-np
+    - en: programming
+      papers: 12
+      uses: 46
+      fields:
+        - hci
+        - languages
+        - networks
+        - software
+        - systems
+        - theory
+      where:
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - dean-2004-mapreduce
+    - en: vector
+      papers: 8
+      uses: 46
+      fields:
+        - ai-ml
+        - algorithms
+        - systems
+      where:
+        - cooley-1965-fft
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: fig
+      papers: 3
+      uses: 46
+      fields:
+        - ai-ml
+        - networks
+      where:
+        - bosshart-2014-p4
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: design
+      papers: 20
+      uses: 45
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+    - en: structure
+      papers: 18
+      uses: 44
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+    - en: mapping
+      papers: 7
+      uses: 44
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - software
+      where:
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: group
+      papers: 6
+      uses: 44
+      fields:
+        - databases
+        - languages
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+        - dijkstra-1968-the
+    - en: process
+      papers: 11
+      uses: 43
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: database
+      papers: 7
+      uses: 43
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: information
+      papers: 17
+      uses: 42
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - bayer-1972-btree
+        - bloom-1970-filter
+        - bosshart-2014-p4
+    - en: source
+      papers: 8
+      uses: 42
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - systems
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: length
+      papers: 10
+      uses: 41
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - networks
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dennard-1974-scaling
+    - en: chain
+      papers: 3
+      uses: 41
+      fields:
+        - ai-ml
+        - languages
+        - security
+      where:
+        - cytron-1991-ssa
+        - goodfellow-2014-gan
+        - nakamoto-2008-bitcoin
+    - en: standard
+      papers: 11
+      uses: 40
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: multiple
+      papers: 9
+      uses: 40
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: dataset
+      papers: 7
+      uses: 40
+      fields:
+        - ai-ml
+        - databases
+      where:
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - graefe-1994-volcano
+    - en: intermediate
+      papers: 5
+      uses: 40
+      fields:
+        - ai-ml
+        - algorithms
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - ford-1956-maxflow
+        - goodfellow-2014-gan
+    - en: score
+      papers: 5
+      uses: 40
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: embedding
+      papers: 4
+      uses: 40
+      fields:
+        - ai-ml
+        - languages
+      where:
+        - devlin-2018-bert
+        - sussman-1975-scheme
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: learning rate
+      papers: 4
+      uses: 20
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: language model
+      papers: 3
+      uses: 20
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: abstract
+      papers: 29
+      uses: 39
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - bayer-1972-btree
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+    - en: procedure
+      papers: 15
+      uses: 39
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - languages
+        - systems
+        - theory
+      where:
+        - backus-1978-vonneumann
+        - birrell-1984-rpc
+        - cook-1971-np
+        - cooley-1965-fft
+    - en: question
+      papers: 8
+      uses: 39
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+      where:
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - floyd-1962-shortestpath
+    - en: perform
+      papers: 12
+      uses: 38
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: type
+      papers: 9
+      uses: 38
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: sample
+      papers: 4
+      uses: 38
+      fields:
+        - ai-ml
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - sutskever-2014-seq2seq
+    - en: failure
+      papers: 6
+      uses: 37
+      fields:
+        - databases
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - hamming-1950-codes
+    - en: match
+      papers: 3
+      uses: 37
+      fields:
+        - ai-ml
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - he-2016-resnet
+    - en: mechanism
+      papers: 12
+      uses: 36
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: data structure
+      papers: 7
+      uses: 18
+      fields:
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - bosshart-2014-p4
+        - codd-1970-relational
+    - en: probability
+      papers: 6
+      uses: 36
+      fields:
+        - ai-ml
+        - security
+      where:
+        - devlin-2018-bert
+        - goldwasser-1984-probabilistic
+        - goodfellow-2014-gan
+        - nakamoto-2008-bitcoin
+    - en: research
+      papers: 21
+      uses: 35
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - backus-1978-vonneumann
+        - bayer-1972-btree
+        - bosshart-2014-p4
+    - en: neural
+      papers: 6
+      uses: 35
+      fields:
+        - ai-ml
+      where:
+        - cortes-1995-svm
+        - devlin-2018-bert
+        - he-2016-resnet
+        - rumelhart-1986-backprop
+    - en: query
+      papers: 6
+      uses: 35
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - brin-1998-pagerank
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: target
+      papers: 5
+      uses: 35
+      fields:
+        - ai-ml
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+    - en: experiment
+      papers: 11
+      uses: 34
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - systems
+      where:
+        - bayer-1972-btree
+        - birrell-1984-rpc
+        - cooley-1965-fft
+        - corbett-2012-spanner
+    - en: memory
+      papers: 11
+      uses: 34
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: processing
+      papers: 11
+      uses: 34
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - systems
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: dimension
+      papers: 5
+      uses: 34
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+      where:
+        - corbett-2012-spanner
+        - dennard-1974-scaling
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: identity
+      papers: 4
+      uses: 34
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - he-2016-resnet
+        - nakamoto-2008-bitcoin
+    - en: optimization
+      papers: 9
+      uses: 33
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - systems
+        - theory
+      where:
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+    - en: code
+      papers: 8
+      uses: 33
+      fields:
+        - ai-ml
+        - architecture
+        - languages
+        - security
+        - systems
+        - theory
+      where:
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: start
+      papers: 7
+      uses: 33
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: dependency
+      papers: 3
+      uses: 33
+      fields:
+        - ai-ml
+        - networks
+      where:
+        - bosshart-2014-p4
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: generative
+      papers: 3
+      uses: 33
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - vaswani-2017-attention
+    - en: term
+      papers: 13
+      uses: 32
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - software
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+    - en: graph
+      papers: 9
+      uses: 32
+      fields:
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - software
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - cook-1971-np
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+    - en: improvement
+      papers: 9
+      uses: 32
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - software
+      where:
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dennard-1974-scaling
+        - devlin-2018-bert
+    - en: software
+      papers: 7
+      uses: 32
+      fields:
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - deutsch-1984-smalltalk
+    - en: local
+      papers: 6
+      uses: 32
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - metcalfe-1976-ethernet
+    - en: prediction
+      papers: 4
+      uses: 32
+      fields:
+        - ai-ml
+        - architecture
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+        - yeh-1991-branchprediction
+    - en: record
+      papers: 8
+      uses: 31
+      fields:
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - lamport-1998-paxos
+    - en: hidden
+      papers: 6
+      uses: 31
+      fields:
+        - ai-ml
+        - graphics
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - phong-1975-illumination
+    - en: accuracy
+      papers: 5
+      uses: 31
+      fields:
+        - ai-ml
+        - architecture
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: form
+      papers: 13
+      uses: 30
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - hci
+        - languages
+        - networks
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - cooley-1965-fft
+    - en: achieve
+      papers: 11
+      uses: 30
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+        - devlin-2018-bert
+    - en: implement
+      papers: 10
+      uses: 30
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+    - en: training data
+      papers: 6
+      uses: 15
+      fields:
+        - ai-ml
+      where:
+        - cortes-1995-svm
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: branch
+      papers: 5
+      uses: 30
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - languages
+        - security
+      where:
+        - dijkstra-1959-shortestpath
+        - he-2016-resnet
+        - hoare-1969-axiomatic
+        - nakamoto-2008-bitcoin
+    - en: state machine
+      papers: 4
+      uses: 15
+      fields:
+        - algorithms
+        - databases
+        - networks
+        - systems
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - lamport-1998-paxos
+    - en: end
+      papers: 14
+      uses: 29
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: protocol
+      papers: 7
+      uses: 29
+      fields:
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+    - en: addition
+      papers: 11
+      uses: 28
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: detail
+      papers: 11
+      uses: 28
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: flow
+      papers: 11
+      uses: 28
+      fields:
+        - ai-ml
+        - algorithms
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+    - en: represent
+      papers: 10
+      uses: 28
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+        - deutsch-1984-smalltalk
+    - en: change
+      papers: 8
+      uses: 28
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: search
+      papers: 8
+      uses: 28
+      fields:
+        - ai-ml
+        - algorithms
+        - systems
+      where:
+        - aho-1975-corasick
+        - brin-1998-pagerank
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: random
+      papers: 7
+      uses: 28
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - systems
+      where:
+        - bayer-1972-btree
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: text
+      papers: 6
+      uses: 28
+      fields:
+        - ai-ml
+        - algorithms
+        - systems
+      where:
+        - aho-1975-corasick
+        - brin-1998-pagerank
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: test set
+      papers: 3
+      uses: 14
+      fields:
+        - ai-ml
+      where:
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: average
+      papers: 12
+      uses: 27
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - security
+        - systems
+      where:
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: due
+      papers: 10
+      uses: 27
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: mean
+      papers: 9
+      uses: 27
+      fields:
+        - ai-ml
+        - databases
+        - theory
+      where:
+        - cook-1971-np
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - devlin-2018-bert
+    - en: proof
+      papers: 8
+      uses: 27
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - security
+        - theory
+      where:
+        - cook-1971-np
+        - corbett-2012-spanner
+        - goldwasser-1984-probabilistic
+        - goldwasser-1985-zk
+    - en: natural
+      papers: 7
+      uses: 27
+      fields:
+        - ai-ml
+        - databases
+        - theory
+      where:
+        - bayer-1972-btree
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - devlin-2018-bert
+    - en: parallel
+      papers: 7
+      uses: 27
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - graefe-1994-volcano
+    - en: inference
+      papers: 5
+      uses: 27
+      fields:
+        - ai-ml
+        - databases
+        - languages
+      where:
+        - codd-1970-relational
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - hoare-1969-axiomatic
+    - en: library
+      papers: 4
+      uses: 27
+      fields:
+        - ai-ml
+        - algorithms
+        - systems
+      where:
+        - aho-1975-corasick
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: key word
+      papers: 13
+      uses: 13
+      fields:
+        - algorithms
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - codd-1970-relational
+        - cytron-1991-ssa
+    - en: increase
+      papers: 6
+      uses: 26
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - he-2016-resnet
+        - nakamoto-2008-bitcoin
+    - en: server
+      papers: 5
+      uses: 26
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: left
+      papers: 4
+      uses: 26
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: decoder
+      papers: 3
+      uses: 26
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: encoder
+      papers: 3
+      uses: 26
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: input sequence
+      papers: 3
+      uses: 13
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: question answering
+      papers: 3
+      uses: 13
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: implemented
+      papers: 12
+      uses: 25
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - cortes-1995-svm
+    - en: added
+      papers: 9
+      uses: 25
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: corresponding
+      papers: 9
+      uses: 25
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - graphics
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+        - devlin-2018-bert
+    - en: follow
+      papers: 8
+      uses: 25
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: list
+      papers: 8
+      uses: 25
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+    - en: classification
+      papers: 5
+      uses: 25
+      fields:
+        - ai-ml
+        - databases
+      where:
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: gradient
+      papers: 4
+      uses: 25
+      fields:
+        - ai-ml
+      where:
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: string
+      papers: 4
+      uses: 25
+      fields:
+        - algorithms
+        - databases
+        - systems
+      where:
+        - aho-1975-corasick
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - knuth-1977-kmp
+    - en: baseline
+      papers: 3
+      uses: 25
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: cluster
+      papers: 3
+      uses: 25
+      fields:
+        - ai-ml
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - sutskever-2014-seq2seq
+    - en: programmer
+      papers: 3
+      uses: 25
+      fields:
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: resource
+      papers: 10
+      uses: 24
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: effect
+      papers: 8
+      uses: 24
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - software
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+        - devlin-2018-bert
+    - en: increasing
+      papers: 8
+      uses: 24
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: add
+      papers: 7
+      uses: 24
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: together
+      papers: 6
+      uses: 24
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: train
+      papers: 5
+      uses: 24
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: control flow
+      papers: 3
+      uses: 12
+      fields:
+        - languages
+        - networks
+        - software
+      where:
+        - bosshart-2014-p4
+        - cytron-1991-ssa
+        - mccabe-1976-complexity
+    - en: space
+      papers: 12
+      uses: 23
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - software
+        - systems
+      where:
+        - bloom-1970-filter
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - cortes-1995-svm
+    - en: improve
+      papers: 10
+      uses: 23
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - systems
+      where:
+        - aho-1975-corasick
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: produce
+      papers: 9
+      uses: 23
+      fields:
+        - ai-ml
+        - algorithms
+        - systems
+        - theory
+      where:
+        - brin-1998-pagerank
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: difficulty
+      papers: 7
+      uses: 23
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - security
+        - theory
+      where:
+        - cook-1971-np
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+        - goodfellow-2014-gan
+    - en: learned
+      papers: 6
+      uses: 23
+      fields:
+        - ai-ml
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: ensemble
+      papers: 4
+      uses: 23
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: computational
+      papers: 12
+      uses: 22
+      fields:
+        - ai-ml
+        - algorithms
+        - security
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - bloom-1970-filter
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+    - en: additional
+      papers: 11
+      uses: 22
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+    - en: version
+      papers: 11
+      uses: 22
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: rule
+      papers: 8
+      uses: 22
+      fields:
+        - ai-ml
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: solution
+      papers: 8
+      uses: 22
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+        - theory
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - codd-1970-relational
+        - cortes-1995-svm
+    - en: bound
+      papers: 7
+      uses: 22
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - systems
+        - theory
+      where:
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+    - en: configuration
+      papers: 6
+      uses: 22
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: connection
+      papers: 6
+      uses: 22
+      fields:
+        - ai-ml
+        - networks
+        - security
+      where:
+        - cerf-1974-tcpip
+        - he-2016-resnet
+        - needham-1978-authentication
+        - rumelhart-1986-backprop
+    - en: image
+      papers: 6
+      uses: 22
+      fields:
+        - ai-ml
+        - databases
+        - graphics
+        - hci
+      where:
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - mohan-1992-aries
+        - phong-1975-illumination
+    - en: learn
+      papers: 5
+      uses: 22
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: produced
+      papers: 5
+      uses: 22
+      fields:
+        - ai-ml
+        - hci
+        - systems
+      where:
+        - birrell-1984-rpc
+        - dean-2004-mapreduce
+        - shneiderman-1983-directmanipulation
+        - sutskever-2014-seq2seq
+    - en: level
+      papers: 13
+      uses: 21
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+    - en: advantage
+      papers: 11
+      uses: 21
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - hci
+        - languages
+        - software
+        - systems
+      where:
+        - cooley-1965-fft
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: performed
+      papers: 11
+      uses: 21
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - theory
+      where:
+        - bayer-1972-btree
+        - bosshart-2014-p4
+        - cooley-1965-fft
+        - corbett-2012-spanner
+    - en: semantic
+      papers: 10
+      uses: 21
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+    - en: pattern
+      papers: 8
+      uses: 21
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - languages
+        - networks
+        - systems
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+    - en: cost
+      papers: 7
+      uses: 21
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - he-2016-resnet
+        - nakamoto-2008-bitcoin
+    - en: processor
+      papers: 7
+      uses: 21
+      fields:
+        - architecture
+        - languages
+        - networks
+        - systems
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+    - en: unit
+      papers: 5
+      uses: 21
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+      where:
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - rumelhart-1986-backprop
+    - en: answer
+      papers: 4
+      uses: 21
+      fields:
+        - ai-ml
+        - algorithms
+      where:
+        - brin-1998-pagerank
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - turing-1950-intelligence
+    - en: document
+      papers: 4
+      uses: 21
+      fields:
+        - ai-ml
+        - languages
+        - security
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - milner-1978-polymorphism
+        - needham-1978-authentication
+    - en: top
+      papers: 4
+      uses: 21
+      fields:
+        - ai-ml
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: become
+      papers: 12
+      uses: 20
+      fields:
+        - ai-ml
+        - databases
+        - hci
+        - languages
+        - security
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+    - en: hardware
+      papers: 10
+      uses: 20
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: linear
+      papers: 10
+      uses: 20
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - software
+      where:
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - cytron-1991-ssa
+        - devlin-2018-bert
+    - en: current
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: designed
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: generate
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - databases
+        - hci
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: issue
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - amdahl-1967-law
+        - cerf-1974-tcpip
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: scheme
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+      where:
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - mccarthy-1960-lisp
+    - en: special
+      papers: 9
+      uses: 20
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - systems
+      where:
+        - bayer-1972-btree
+        - cooley-1965-fft
+        - corbett-2012-spanner
+        - cortes-1995-svm
+    - en: scale
+      papers: 8
+      uses: 20
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - systems
+        - theory
+      where:
+        - amdahl-1967-law
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: written
+      papers: 8
+      uses: 20
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - diffie-1976-newdirections
+    - en: core
+      papers: 6
+      uses: 20
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - networks
+        - systems
+      where:
+        - bloom-1970-filter
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - denning-1968-workingset
+    - en: fixed
+      papers: 6
+      uses: 20
+      fields:
+        - ai-ml
+        - databases
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: batch
+      papers: 5
+      uses: 20
+      fields:
+        - ai-ml
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: distributed system
+      papers: 4
+      uses: 10
+      fields:
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - lamport-1978-clocks
+        - lamport-1998-paxos
+    - en: hash
+      papers: 3
+      uses: 20
+      fields:
+        - algorithms
+        - security
+        - systems
+      where:
+        - bloom-1970-filter
+        - dean-2004-mapreduce
+        - nakamoto-2008-bitcoin
+    - en: operator
+      papers: 3
+      uses: 20
+      fields:
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - graefe-1994-volcano
+    - en: communication
+      papers: 9
+      uses: 19
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - birrell-1984-rpc
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - diffie-1976-newdirections
+    - en: object
+      papers: 9
+      uses: 19
+      fields:
+        - ai-ml
+        - databases
+        - graphics
+        - hci
+        - languages
+        - security
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+        - graefe-1994-volcano
+        - he-2016-resnet
+    - en: useful
+      papers: 9
+      uses: 19
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - cooley-1965-fft
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+    - en: matching
+      papers: 7
+      uses: 19
+      fields:
+        - ai-ml
+        - algorithms
+        - languages
+        - networks
+        - theory
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: range
+      papers: 7
+      uses: 19
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: run
+      papers: 7
+      uses: 19
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - software
+        - systems
+      where:
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: running
+      papers: 7
+      uses: 19
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+        - devlin-2018-bert
+    - en: copy
+      papers: 6
+      uses: 19
+      fields:
+        - architecture
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - amdahl-1967-law
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - lamport-1998-paxos
+    - en: assigned
+      papers: 5
+      uses: 19
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dijkstra-1959-shortestpath
+        - ford-1956-maxflow
+    - en: execute
+      papers: 5
+      uses: 19
+      fields:
+        - architecture
+        - databases
+        - networks
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: final
+      papers: 5
+      uses: 19
+      fields:
+        - ai-ml
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: framework
+      papers: 5
+      uses: 19
+      fields:
+        - ai-ml
+        - security
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: underlying
+      papers: 5
+      uses: 19
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: technique
+      papers: 15
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - graphics
+        - languages
+        - systems
+        - theory
+      where:
+        - brin-1998-pagerank
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+    - en: university
+      papers: 15
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - graphics
+        - hci
+        - languages
+        - networks
+        - software
+        - theory
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+        - cook-1971-np
+    - en: recent
+      papers: 10
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: computer science
+      papers: 9
+      uses: 9
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - languages
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+        - goldwasser-1984-probabilistic
+        - lamport-1998-paxos
+    - en: original
+      papers: 9
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - languages
+        - security
+        - systems
+      where:
+        - amdahl-1967-law
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: choice
+      papers: 8
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - systems
+      where:
+        - birrell-1984-rpc
+        - cooley-1965-fft
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+    - en: connected
+      papers: 8
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - dijkstra-1959-shortestpath
+        - goodfellow-2014-gan
+    - en: constant
+      papers: 8
+      uses: 18
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - security
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+        - knuth-1977-kmp
+    - en: depend
+      papers: 7
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - graphics
+        - security
+        - software
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+        - mccabe-1976-complexity
+    - en: global
+      papers: 6
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: recognition
+      papers: 6
+      uses: 18
+      fields:
+        - ai-ml
+        - networks
+        - theory
+      where:
+        - cook-1971-np
+        - cortes-1995-svm
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: evaluate
+      papers: 5
+      uses: 18
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+    - en: interface
+      papers: 5
+      uses: 18
+      fields:
+        - databases
+        - networks
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: specify
+      papers: 5
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - nagle-1984-congestion
+    - en: log
+      papers: 4
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - mohan-1992-aries
+        - sutskever-2014-seq2seq
+    - en: stack
+      papers: 4
+      uses: 18
+      fields:
+        - ai-ml
+        - databases
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - he-2016-resnet
+        - vaswani-2017-attention
+    - en: machine translation
+      papers: 3
+      uses: 9
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: miss
+      papers: 3
+      uses: 18
+      fields:
+        - architecture
+        - networks
+      where:
+        - bosshart-2014-p4
+        - jouppi-1990-victimcache
+        - yeh-1991-branchprediction
+    - en: sentence pair
+      papers: 3
+      uses: 9
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: phrase
+      papers: 14
+      uses: 17
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - graphics
+        - languages
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - aho-1975-corasick
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - codd-1970-relational
+    - en: class
+      papers: 11
+      uses: 17
+      fields:
+        - ai-ml
+        - algorithms
+        - languages
+        - systems
+        - theory
+      where:
+        - cooley-1965-fft
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: zero
+      papers: 8
+      uses: 17
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - floyd-1962-shortestpath
+    - en: lead
+      papers: 7
+      uses: 17
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - networks
+        - security
+      where:
+        - bosshart-2014-p4
+        - devlin-2018-bert
+        - dijkstra-1959-shortestpath
+        - he-2016-resnet
+    - en: compute
+      papers: 6
+      uses: 17
+      fields:
+        - ai-ml
+        - languages
+        - systems
+      where:
+        - cytron-1991-ssa
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: goal
+      papers: 6
+      uses: 17
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - software
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - parnas-1972-modules
+    - en: strategy
+      papers: 6
+      uses: 17
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - software
+      where:
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - mccabe-1976-complexity
+    - en: entry
+      papers: 5
+      uses: 17
+      fields:
+        - ai-ml
+        - architecture
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - he-2016-resnet
+    - en: modeling
+      papers: 4
+      uses: 17
+      fields:
+        - ai-ml
+        - graphics
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - phong-1975-illumination
+        - vaswani-2017-attention
+    - en: outperform
+      papers: 4
+      uses: 17
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: predict
+      papers: 4
+      uses: 17
+      fields:
+        - ai-ml
+        - architecture
+        - systems
+      where:
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: degradation
+      papers: 3
+      uses: 17
+      fields:
+        - ai-ml
+        - architecture
+      where:
+        - he-2016-resnet
+        - sutskever-2014-seq2seq
+        - yeh-1991-branchprediction
+    - en: objective
+      papers: 3
+      uses: 17
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - sutskever-2014-seq2seq
+    - en: efficient
+      papers: 14
+      uses: 16
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - networks
+        - software
+        - systems
+        - theory
+      where:
+        - aho-1975-corasick
+        - bosshart-2014-p4
+        - cooley-1965-fft
+        - corbett-2012-spanner
+    - en: reduced
+      papers: 9
+      uses: 16
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - software
+        - systems
+        - theory
+      where:
+        - cook-1971-np
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+    - en: power
+      papers: 8
+      uses: 16
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - languages
+        - security
+      where:
+        - corbett-2012-spanner
+        - cytron-1991-ssa
+        - devlin-2018-bert
+        - floyd-1962-shortestpath
+    - en: total
+      papers: 8
+      uses: 16
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - dijkstra-1959-shortestpath
+    - en: fact
+      papers: 7
+      uses: 16
+      fields:
+        - ai-ml
+        - databases
+        - systems
+        - theory
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+        - goldwasser-1985-zk
+    - en: practice
+      papers: 7
+      uses: 16
+      fields:
+        - ai-ml
+        - networks
+        - systems
+      where:
+        - birrell-1984-rpc
+        - bosshart-2014-p4
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: programming language
+      papers: 7
+      uses: 8
+      fields:
+        - hci
+        - languages
+        - networks
+        - software
+      where:
+        - backus-1978-vonneumann
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - deutsch-1984-smalltalk
+    - en: location
+      papers: 5
+      uses: 16
+      fields:
+        - algorithms
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - cooley-1965-fft
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: testing
+      papers: 5
+      uses: 16
+      fields:
+        - ai-ml
+        - algorithms
+        - databases
+        - software
+        - systems
+      where:
+        - bloom-1970-filter
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - he-2016-resnet
+    - en: update
+      papers: 5
+      uses: 16
+      fields:
+        - ai-ml
+        - databases
+        - systems
+      where:
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+    - en: dropout
+      papers: 4
+      uses: 16
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+        - he-2016-resnet
+        - vaswani-2017-attention
+    - en: option
+      papers: 4
+      uses: 16
+      fields:
+        - ai-ml
+        - databases
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - goodfellow-2014-gan
+        - he-2016-resnet
+    - en: phase
+      papers: 4
+      uses: 16
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - sutskever-2014-seq2seq
+    - en: specification
+      papers: 4
+      uses: 16
+      fields:
+        - databases
+        - languages
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - sussman-1975-scheme
+    - en: store
+      papers: 4
+      uses: 16
+      fields:
+        - algorithms
+        - databases
+        - systems
+      where:
+        - bayer-1972-btree
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - hoare-1962-quicksort
+    - en: dev
+      papers: 3
+      uses: 16
+      fields:
+        - ai-ml
+        - databases
+      where:
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - vaswani-2017-attention
+    - en: hidden state
+      papers: 3
+      uses: 8
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: sequence length
+      papers: 3
+      uses: 8
+      fields:
+        - ai-ml
+      where:
+        - devlin-2018-bert
+        - sutskever-2014-seq2seq
+        - vaswani-2017-attention
+    - en: development
+      papers: 11
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - graphics
+        - languages
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+        - devlin-2018-bert
+    - en: science
+      papers: 11
+      uses: 15
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - languages
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - bayer-1972-btree
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+        - goldwasser-1984-probabilistic
+    - en: property
+      papers: 10
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - software
+        - systems
+      where:
+        - backus-1978-vonneumann
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - cytron-1991-ssa
+    - en: received
+      papers: 10
+      uses: 15
+      fields:
+        - architecture
+        - databases
+        - languages
+        - networks
+        - security
+        - systems
+        - theory
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - dennard-1974-scaling
+    - en: address
+      papers: 9
+      uses: 15
+      fields:
+        - ai-ml
+        - algorithms
+        - architecture
+        - databases
+        - networks
+        - software
+      where:
+        - bosshart-2014-p4
+        - brin-1998-pagerank
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+    - en: significant
+      papers: 9
+      uses: 15
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - languages
+        - systems
+      where:
+        - amdahl-1967-law
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - deutsch-1984-smalltalk
+    - en: decision
+      papers: 8
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - security
+        - software
+        - systems
+        - theory
+      where:
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: needed
+      papers: 8
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - security
+        - systems
+        - theory
+      where:
+        - codd-1970-relational
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+    - en: variable
+      papers: 8
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - languages
+        - systems
+        - theory
+      where:
+        - backus-1978-vonneumann
+        - dean-2004-mapreduce
+        - goodfellow-2014-gan
+        - graefe-1994-volcano
+    - en: behavior
+      papers: 7
+      uses: 15
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - denning-1968-workingset
+    - en: separate
+      papers: 7
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - systems
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: avoid
+      papers: 6
+      uses: 15
+      fields:
+        - ai-ml
+        - databases
+        - networks
+        - security
+        - software
+        - systems
+      where:
+        - bosshart-2014-p4
+        - brooks-1987-nosilverbullet
+        - corbett-2012-spanner
+        - dean-2004-mapreduce
+    - en: benchmark
+      papers: 6
+      uses: 15
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - systems
+      where:
+        - corbett-2012-spanner
+        - cortes-1995-svm
+        - dean-2004-mapreduce
+        - devlin-2018-bert
+    - en: demonstrate
+      papers: 6
+      uses: 15
+      fields:
+        - ai-ml
+        - architecture
+        - databases
+        - networks
+      where:
+        - bosshart-2014-p4
+        - corbett-2012-spanner
+        - devlin-2018-bert
+        - goodfellow-2014-gan
+    - en: index
+      papers: 6
+      uses: 15
+      fields:
+        - algorithms
+        - databases
+        - software
+        - systems
+      where:
+        - astrahan-1976-systemr
+        - bayer-1972-btree
+        - brin-1998-pagerank
+        - dean-2004-mapreduce
