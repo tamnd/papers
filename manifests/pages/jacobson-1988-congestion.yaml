@@ -1,0 +1,20 @@
+# Which page of the file is which page of the paper.
+#
+# Written by `papers pagemap`, one file per paper.
+#
+# `offset` is what to add to a page of the file to get the page the paper prints. It is null for a paper whose pages print no numbers, and zero for a preprint that starts at one.
+# `printed` is the folio the page itself printed, and is absent for a page that printed none.
+# `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
+
+paper: jacobson-1988-congestion
+offset: null
+pages:
+    - pdf: 1
+      size: [595, 842]
+      columns: 1
+    - pdf: 2
+      size: [595, 842]
+      columns: 1
+    - pdf: 3
+      size: [595, 842]
+      columns: 1

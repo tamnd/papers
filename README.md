@@ -20,6 +20,7 @@ manifests/
   glossary.yaml          the controlled vocabulary, English to vi, zh and ja
   figures.yaml           every figure: page, bounding box, caption, hash
   refs/<id>.yaml         the parsed bibliography of one paper
+  pages/<id>.yaml        which page of the file is which page of the paper
 content/en/<id>/
   00_front.md            title, authors, venue, abstract
   01_<slug>.md           one file per top level section
