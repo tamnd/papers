@@ -145,12 +145,14 @@ sources:
       text_layer: digital
     - id: chiu-1989-aimd
       access: restricted
-      url: https://pdfs.semanticscholar.org/805d/0da469da6ba7571ee75732ab66202aaea9e0.pdf
-      landing: https://pdfs.semanticscholar.org/805d/0da469da6ba7571ee75732ab66202aaea9e0.pdf
-      fetched: "2026-09-11"
-      sha256: 321423cab89f7f0665b72b30a0365ab2d8012788ddd3170228ec619f10acb530
-      pages: 33
+      url: https://www.cs.wustl.edu/~jain/papers/ftp/cong_av.pdf
+      landing: https://www.cse.wustl.edu/~jain/papers/cong_av.htm
+      fetched: "2026-09-12"
+      sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
+      pages: 14
       text_layer: none
+      by: hand
+      note: Raj Jain's own copy on his university page. No licence stated, so the record stays restricted.
     - id: codd-1970-relational
       access: restricted
       url: https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
@@ -392,12 +394,6 @@ sources:
       sha256: 1e0651b6810ecba34a3dbc5b5b0209226f889004607c1f203540a48d64e5a93a
       pages: 12
       text_layer: digital
-    - id: hochreiter-1997-lstm
-      access: restricted
-      licence: all rights reserved
-      landing: https://doi.org/10.1162/neco.1997.9.8.1735
-      by: hand
-      note: Neural Computation is MIT Press and Unpaywall reports no open location for this DOI, so nothing is fetched and only the front matter is published. The record exists because other papers in the corpus cite this one.
     - id: hoare-1962-quicksort
       access: restricted
       url: https://www.cs.ox.ac.uk/files/6226/H2006%20-%20Historic%20Quicksort.pdf
@@ -415,6 +411,12 @@ sources:
       sha256: f9b85de3537c0f1239cbe767cfd26ad49f2be07f0cc9021a6e46adfffb81dc12
       pages: 6
       text_layer: none
+    - id: hochreiter-1997-lstm
+      access: restricted
+      licence: all rights reserved
+      landing: https://doi.org/10.1162/neco.1997.9.8.1735
+      by: hand
+      note: Neural Computation is MIT Press and Unpaywall reports no open location for this DOI, so nothing is fetched and only the front matter is published. The record exists because other papers in the corpus cite this one.
     - id: jacobson-1988-congestion
       access: restricted
       url: https://ee.lbl.gov/papers/congavoid.pdf
@@ -639,23 +641,17 @@ sources:
     - id: rosenblatt-1958-perceptron
       access: unknown
       by: hand
-      note: >-
-        The file the resolver found is not this paper. It is a 38 page slide
-        deck, "Presented by Manu Reddy, Sep 9 2015", about the paper. The
-        paper itself is Psychological Review 65(6) 386-408, doi
-        10.1037/h0042519, and it is closed: OpenAlex and Semantic Scholar both
-        report no open access copy, the seed link at ling.upenn.edu answers 403
-        and so does psycnet. Access is unknown rather than restricted so that
-        nothing at all is published until somebody finds a copy the corpus may
-        read.
+      note: 'The file the resolver found is not this paper. It is a 38 page slide deck, "Presented by Manu Reddy, Sep 9 2015", about the paper. The paper itself is Psychological Review 65(6) 386-408, doi 10.1037/h0042519, and it is closed: OpenAlex and Semantic Scholar both report no open access copy, the seed link at ling.upenn.edu answers 403 and so does psycnet. Access is unknown rather than restricted so that nothing at all is published until somebody finds a copy the corpus may read.'
     - id: royce-1970-lifecycle
       access: restricted
-      url: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
-      landing: https://www.cs.huji.ac.il/w~feit/sem/se09/Waterfall.pdf
-      fetched: "2026-09-11"
-      sha256: f93bde97ee32e9a66814166cb6025c0504f628d963cfbead7d36a224c56435ae
-      pages: 18
-      text_layer: none
+      url: https://raw.githubusercontent.com/tpn/pdfs/master/Managing%20the%20Development%20of%20Large%20Software%20Systems%20-%201970%20(waterfall).pdf
+      landing: https://github.com/tpn/pdfs
+      fetched: "2026-09-12"
+      sha256: 9f7db065bd1c911a8d17590eec548478f944c8b05c408f101911cde57d815a78
+      pages: 11
+      text_layer: ocr
+      by: hand
+      note: 'The resolver had fetched an 18 page lecture deck about the paper from cs.huji.ac.il, not the paper. This is the real thing: the 11 page scan of the ICSE 1987 reprint, pages 328 to 338, of Proc. IEEE WESCON August 1970. Every copy on a university site is either gone or answers 403, so this comes from a third party mirror on GitHub. No licence is stated anywhere, and IEEE WESCON 1970 is not open, so the record stays restricted.'
     - id: rumelhart-1986-backprop
       access: restricted
       url: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf
@@ -700,14 +696,7 @@ sources:
     - id: shamir-1992-ippspace
       access: unknown
       by: hand
-      note: >-
-        The file the resolver found is not this paper. It is a 12 page lecture
-        slide deck on the sumcheck protocol, with its formulas pasted in as
-        latexit images. The paper itself is JACM 39(4) 869-877, doi
-        10.1145/146585.146609, and the only copy OpenAlex knows is the ACM
-        one, which answers 403. Access is unknown rather than restricted so
-        that nothing at all is published until somebody finds a copy the
-        corpus may read.
+      note: The file the resolver found is not this paper. It is a 12 page lecture slide deck on the sumcheck protocol, with its formulas pasted in as latexit images. The paper itself is JACM 39(4) 869-877, doi 10.1145/146585.146609, and the only copy OpenAlex knows is the ACM one, which answers 403. Access is unknown rather than restricted so that nothing at all is published until somebody finds a copy the corpus may read.
     - id: shannon-1948-communication
       access: restricted
       url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
