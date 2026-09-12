@@ -1,6 +1,6 @@
 # Audit
 
-23 rules: 20 passed, 0 failed, 3 not run
+52 rules: 42 passed, 0 failed, 10 not run
 
 ## S Sources and licensing
 
@@ -12,7 +12,65 @@
 
 **S04** (hard, pass) every paper in papers.yaml has an entry in sources.yaml.
 
+**S05** (hard, pass) every fetched PDF hashes to what sources.yaml records.
+
 **S06** (hard, pass) every open and permissive paper names a licence, not just a URL.
+
+**S07** (hard, pass) a restricted paper quotes under 250 words.
+
+**S08** (hard, pass) no content is longer than the PDF it claims to come from could hold.
+
+**S09** (hard, pass) the pages that were read carry as much text as a paper's pages do.
+
+## T Structure
+
+**T01** (hard, pass) every content file parses: front matter, then body.
+
+**T02** (hard, pass) every front matter field is known and typed.
+
+**T03** (hard, pass) content_sha256 matches the body as it stands.
+
+**T04** (hard, pass) section numbers within a paper are contiguous from 0.
+
+**T05** (hard, pass) the heading tree is well formed: no level skipped.
+
+**T06** (hard, pass) every paper has a 00_front.md with an abstract.
+
+**T07** (hard, pass) every paper with a reference section has it as the last file.
+
+**T08** (soft, pass) no section body is under 200 characters.
+
+**T09** (soft, pass) no section body is over 40,000 characters.
+
+**T10** (hard, pass) no page furniture is left in the body: running heads, bare folios.
+
+## M Mathematics
+
+**M01** (hard, pass) every math span is closed.
+
+**M02** (hard, not run) the number sets are written with \mathbb, consistently.
+
+**M03** (hard, pass) no character is stranded out of its TeX.
+
+**M04** (hard, not run) every math span parses under KaTeX.
+
+**M05** (hard, pass) no illegible marker is left in the corpus.
+
+**M06** (soft, not run) displays per page are within 3 sigma of the paper's mean.
+
+**M07** (hard, not run) no bracket from the prose closes inside the mathematics.
+
+**M08** (hard, pass) no matrix is left flattened into a pair of scripts.
+
+**M09** (soft, not run) no base carries two superscripts or two subscripts.
+
+**M10** (hard, not run) no relation sign has lost the stroke that negates it.
+
+**M11** (hard, pass) the mathematics is written between dollars, never \( or \[.
+
+**M12** (soft, not run) an inline formula is written tight against its dollars.
+
+**M13** (hard, pass) no $ inside a fenced code block opened a span.
 
 ## F Figures
 
@@ -45,6 +103,10 @@
 **R04** (soft, pass) every resolves_to passes the verified matcher again.
 
 **R05** (hard, pass) no resolves_to points at the citing paper itself.
+
+**R06** (soft, pass) the citation graph has no cycle among papers more than two years apart.
+
+**R07** (soft, pass) a paper three or more corpus papers cite is in the corpus.
 
 **R08** (hard, pass) a reference section renders the printed text and not only the parsed fields.
 
