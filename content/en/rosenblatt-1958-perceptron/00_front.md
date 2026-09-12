@@ -13,6 +13,7 @@ source: https://pdfs.semanticscholar.org/865f/b2cfe6fdb7af2c663ef346ea05889f2371
 pdf_sha256: ac4cca5f3cc14504ca4d75da225fdd8542e4148454841ecd5855c983aaaebc3f
 pdf_pages: "1"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 0e666ad974aee0f440c9bb03a0079cebc820e0ff1ec2d8534da00afc00f757dd
 ---
 

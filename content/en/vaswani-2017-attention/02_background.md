@@ -21,6 +21,7 @@ source: arxiv:1706.03762
 pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: "2"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 360ef7830875b958990f76915d6edbbb9d9782d987d96c9697aa4f794f3d4682
 ---
 

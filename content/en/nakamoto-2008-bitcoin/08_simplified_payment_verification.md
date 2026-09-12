@@ -14,6 +14,7 @@ source: https://bitcoin.org/bitcoin.pdf
 pdf_sha256: b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553
 pdf_pages: "5"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 419f16d25f8aafbef839fad23d8a52a38bed4311bac8b06cf78682e638e3fdb7
 ---
 

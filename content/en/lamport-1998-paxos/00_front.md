@@ -13,6 +13,7 @@ source: https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
 pdf_sha256: cd9544e9615bcd417a2c10063671cecca0b28ad4bc5db3f64467a83ecc7028d3
 pdf_pages: "1"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 6c6043944d494367543bb9d719df73a3f70a6d18c7851c4e06970cf9f0355840
 ---
 

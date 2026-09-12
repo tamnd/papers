@@ -13,6 +13,7 @@ source: http://www-formal.stanford.edu/jmc/recursive.pdf
 pdf_sha256: 3d981849e59505eff3f14397a177b409f5d978d43d114bdd67c956e74320fc92
 pdf_pages: "1"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 62b3e4e0735a93285eaeb8044c07696e96ae45b611e2a516d430370d3fd2adfb
 ---
 

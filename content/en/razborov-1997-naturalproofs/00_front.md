@@ -14,6 +14,7 @@ source: https://doi.org/10.1006/jcss.1997.1494
 pdf_sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
 pdf_pages: "1"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 24bb95322534e0bbb5d6860ca1a630c2e3da7ffb5415867fb762d38948ebd6dc
 ---
 
