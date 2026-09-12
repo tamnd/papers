@@ -11,6 +11,7 @@ year: 1992
 venue: ACM TODS
 field: databases
 section_title: Front Matter
+tag: "0057"
 kind: front
 lang: en
 source: https://people.eecs.berkeley.edu/~brewer/cs262/Aries2.pdf

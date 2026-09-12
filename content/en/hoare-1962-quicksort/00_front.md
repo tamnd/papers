@@ -7,6 +7,7 @@ year: 1962
 venue: The Computer Journal
 field: algorithms
 section_title: Front Matter
+tag: 003E
 kind: front
 lang: en
 source: https://www.cs.ox.ac.uk/files/6226/H2006%20-%20Historic%20Quicksort.pdf

@@ -7,6 +7,7 @@ year: 1978
 venue: Communications of the ACM
 field: systems
 section_title: Front Matter
+tag: 004F
 kind: front
 lang: en
 source: https://lamport.azurewebsites.net/pubs/time-clocks.pdf

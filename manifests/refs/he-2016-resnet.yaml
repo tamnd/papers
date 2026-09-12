@@ -1,0 +1,543 @@
+paper: he-2016-resnet
+style: bracket
+entries:
+    - key: "1"
+      raw: Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult. *IEEE Transactions on Neural Networks*, 5(2):157–166, 1994.
+      authors:
+        - Y. Bengio
+        - P. Simard
+        - P. Frasconi
+      title: Learning long-term dependencies with gradient descent is difficult
+      venue: '*IEEE Transactions on Neural Networks*, 5(2):157–166'
+      year: 1994
+      resolves_to: ""
+    - key: "2"
+      raw: C. M. Bishop. *Neural networks for pattern recognition*. Oxford university press, 1995.
+      authors:
+        - C. M. Bishop
+      title: '*Neural networks for pattern recognition*'
+      venue: Oxford university press
+      year: 1995
+      resolves_to: ""
+    - key: "3"
+      raw: W. L. Briggs, S. F. McCormick, et al. *A Multigrid Tutorial*. Siam, 2000.
+      authors:
+        - W. L. Briggs
+        - S. F. McCormick
+        - et al. *A Multigrid Tutorial*
+      title: Siam, 2000
+      year: 2000
+      resolves_to: ""
+    - key: "4"
+      raw: 'K. Chatfield, V. Lempitsky, A. Vedaldi, and A. Zisserman. The devil is in the details: an evaluation of recent feature encoding methods. In *BMVC*, 2011.'
+      authors:
+        - K. Chatfield
+        - V. Lempitsky
+        - A. Vedaldi
+        - A. Zisserman
+      title: 'The devil is in the details: an evaluation of recent feature encoding methods'
+      venue: In *BMVC*
+      year: 2011
+      resolves_to: ""
+    - key: "5"
+      raw: M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman. The Pascal Visual Object Classes (VOC) Challenge. *IJCV*, pages 303–338, 2010.
+      authors:
+        - M. Everingham
+        - L. Van Gool
+        - C. K. Williams
+        - J. Winn
+        - A. Zisserman
+      title: The Pascal Visual Object Classes (VOC) Challenge
+      venue: '*IJCV*, pages 303–338'
+      year: 2010
+      pages: 303-338
+      resolves_to: ""
+    - key: "6"
+      raw: S. Gidaris and N. Komodakis. Object detection via a multi-region & semantic segmentation-aware cnn model. In *ICCV*, 2015.
+      authors:
+        - S. Gidaris
+        - N. Komodakis
+      title: Object detection via a multi-region & semantic segmentation-aware cnn model
+      venue: In *ICCV*
+      year: 2015
+      resolves_to: ""
+    - key: "7"
+      raw: R. Girshick. Fast R-CNN. In *ICCV*, 2015.
+      authors:
+        - R. Girshick
+      title: Fast R-CNN
+      venue: In *ICCV*
+      year: 2015
+      resolves_to: ""
+    - key: "8"
+      raw: R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In *CVPR*, 2014.
+      authors:
+        - R. Girshick
+        - J. Donahue
+        - T. Darrell
+        - J. Malik
+      title: Rich feature hierarchies for accurate object detection and semantic segmentation
+      venue: In *CVPR*
+      year: 2014
+      resolves_to: ""
+    - key: "9"
+      raw: X. Glorot and Y. Bengio. Understanding the difficulty of training deep feedforward neural networks. In *AISTATS*, 2010.
+      authors:
+        - X. Glorot
+        - Y. Bengio
+      title: Understanding the difficulty of training deep feedforward neural networks
+      venue: In *AISTATS*
+      year: 2010
+      resolves_to: ""
+    - key: "10"
+      raw: I. J. Goodfellow, D. Warde-Farley, M. Mirza, A. Courville, and Y. Bengio. Maxout networks. *arXiv:1302.4389*, 2013.
+      authors:
+        - I. J. Goodfellow
+        - D. Warde-Farley
+        - M. Mirza
+        - A. Courville
+        - Y. Bengio
+      title: Maxout networks
+      venue: '*arXiv:1302.4389*'
+      year: 2013
+      arxiv: "1302.4389"
+      resolves_to: ""
+    - key: "11"
+      raw: K. He and J. Sun. Convolutional neural networks at constrained time cost. In *CVPR*, 2015.
+      authors:
+        - K. He
+        - J. Sun
+      title: Convolutional neural networks at constrained time cost
+      venue: In *CVPR*
+      year: 2015
+      resolves_to: ""
+    - key: "12"
+      raw: K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. In *ECCV*, 2014.
+      authors:
+        - K. He
+        - X. Zhang
+        - S. Ren
+        - J. Sun
+      title: Spatial pyramid pooling in deep convolutional networks for visual recognition
+      venue: In *ECCV*
+      year: 2014
+      resolves_to: ""
+    - key: "13"
+      raw: 'K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In *ICCV*, 2015.'
+      authors:
+        - K. He
+        - X. Zhang
+        - S. Ren
+        - J. Sun
+      title: 'Delving deep into rectifiers: Surpassing human-level performance on imagenet classification'
+      venue: In *ICCV*
+      year: 2015
+      resolves_to: ""
+    - key: "14"
+      raw: G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R. R. Salakhutdinov. Improving neural networks by preventing co-adaptation of feature detectors. *arXiv:1207.0580*, 2012.
+      authors:
+        - G. E. Hinton
+        - N. Srivastava
+        - A. Krizhevsky
+        - I. Sutskever
+        - R. R. Salakhutdinov
+      title: Improving neural networks by preventing co-adaptation of feature detectors
+      venue: '*arXiv:1207.0580*'
+      year: 2012
+      arxiv: "1207.0580"
+      resolves_to: ""
+    - key: "15"
+      raw: S. Hochreiter and J. Schmidhuber. Long short-term memory. *Neural computation*, 9(8):1735–1780, 1997.
+      authors:
+        - S. Hochreiter
+        - J. Schmidhuber
+      title: Long short-term memory
+      venue: '*Neural computation*, 9(8):1735–1780'
+      year: 1997
+      resolves_to: hochreiter-1997-lstm
+    - key: "16"
+      raw: 'S. Ioffe and C. Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In *ICML*, 2015.'
+      authors:
+        - S. Ioffe
+        - C. Szegedy
+      title: 'Batch normalization: Accelerating deep network training by reducing internal covariate shift'
+      venue: In *ICML*
+      year: 2015
+      resolves_to: ""
+    - key: "17"
+      raw: H. Jegou, M. Douze, and C. Schmid. Product quantization for nearest neighbor search. *TPAMI*, 33, 2011.
+      authors:
+        - H. Jegou
+        - M. Douze
+        - C. Schmid
+      title: Product quantization for nearest neighbor search
+      venue: '*TPAMI*, 33'
+      year: 2011
+      resolves_to: ""
+    - key: "18"
+      raw: H. Jegou, F. Perronnin, M. Douze, J. Sanchez, P. Perez, and C. Schmid. Aggregating local image descriptors into compact codes. *TPAMI*, 2012.
+      authors:
+        - H. Jegou
+        - F. Perronnin
+        - M. Douze
+        - J. Sanchez
+        - P. Perez
+        - C. Schmid
+      title: Aggregating local image descriptors into compact codes
+      venue: '*TPAMI*'
+      year: 2012
+      resolves_to: ""
+    - key: "19"
+      raw: 'Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. *arXiv:1408.5093*, 2014.'
+      authors:
+        - Y. Jia
+        - E. Shelhamer
+        - J. Donahue
+        - S. Karayev
+        - J. Long
+        - R. Girshick
+        - S. Guadarrama
+        - T. Darrell
+      title: 'Caffe: Convolutional architecture for fast feature embedding'
+      venue: '*arXiv:1408.5093*'
+      year: 2014
+      arxiv: "1408.5093"
+      resolves_to: ""
+    - key: "20"
+      raw: A. Krizhevsky. Learning multiple layers of features from tiny images. *Tech Report*, 2009.
+      authors:
+        - A. Krizhevsky
+      title: Learning multiple layers of features from tiny images
+      venue: '*Tech Report*'
+      year: 2009
+      resolves_to: ""
+    - key: "21"
+      raw: A. Krizhevsky, I. Sutskever, and G. Hinton. Imagenet classification with deep convolutional neural networks. In *NIPS*, 2012.
+      authors:
+        - A. Krizhevsky
+        - I. Sutskever
+        - G. Hinton
+      title: Imagenet classification with deep convolutional neural networks
+      venue: In *NIPS*
+      year: 2012
+      resolves_to: krizhevsky-2012-imagenet
+    - key: "22"
+      raw: Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel. Backpropagation applied to handwritten zip code recognition. *Neural computation*, 1989.
+      authors:
+        - Y. LeCun
+        - B. Boser
+        - J. S. Denker
+        - D. Henderson
+        - R. E. Howard
+        - W. Hubbard
+        - L. D. Jackel
+      title: Backpropagation applied to handwritten zip code recognition
+      venue: '*Neural computation*'
+      year: 1989
+      resolves_to: ""
+    - key: "23"
+      raw: 'Y. LeCun, L. Bottou, G. B. Orr, and K.-R. Müller. Efficient backprop. In *Neural Networks: Tricks of the Trade*, pages 9–50. Springer, 1998.'
+      authors:
+        - Y. LeCun
+        - L. Bottou
+        - G. B. Orr
+        - K.-R. Müller
+      title: Efficient backprop
+      venue: 'In *Neural Networks: Tricks of the Trade*, pages 9–50. Springer'
+      year: 1998
+      pages: 9-50
+      resolves_to: ""
+    - key: "24"
+      raw: C.-Y. Lee, S. Xie, P. Gallagher, Z. Zhang, and Z. Tu. Deeply-supervised nets. *arXiv:1409.5185*, 2014.
+      authors:
+        - C.-Y. Lee
+        - S. Xie
+        - P. Gallagher
+        - Z. Zhang
+        - Z. Tu
+      title: Deeply-supervised nets
+      venue: '*arXiv:1409.5185*'
+      year: 2014
+      arxiv: "1409.5185"
+      resolves_to: ""
+    - key: "25"
+      raw: M. Lin, Q. Chen, and S. Yan. Network in network. *arXiv:1312.4400*, 2013.
+      authors:
+        - M. Lin
+        - Q. Chen
+        - S. Yan
+      title: Network in network
+      venue: '*arXiv:1312.4400*'
+      year: 2013
+      arxiv: "1312.4400"
+      resolves_to: ""
+    - key: "26"
+      raw: 'T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick. Microsoft COCO: Common objects in context. In *ECCV*. 2014.'
+      authors:
+        - T.-Y. Lin
+        - M. Maire
+        - S. Belongie
+        - J. Hays
+        - P. Perona
+        - D. Ramanan
+        - P. Dollár
+        - C. L. Zitnick
+      title: 'Microsoft COCO: Common objects in context'
+      venue: In *ECCV*
+      year: 2014
+      resolves_to: ""
+    - key: "27"
+      raw: J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks for semantic segmentation. In *CVPR*, 2015.
+      authors:
+        - J. Long
+        - E. Shelhamer
+        - T. Darrell
+      title: Fully convolutional networks for semantic segmentation
+      venue: In *CVPR*
+      year: 2015
+      resolves_to: ""
+    - key: "28"
+      raw: G. Montúfar, R. Pascanu, K. Cho, and Y. Bengio. On the number of linear regions of deep neural networks. In *NIPS*, 2014.
+      authors:
+        - G. Montúfar
+        - R. Pascanu
+        - K. Cho
+        - Y. Bengio
+      title: On the number of linear regions of deep neural networks
+      venue: In *NIPS*
+      year: 2014
+      resolves_to: ""
+    - key: "29"
+      raw: V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann machines. In *ICML*, 2010.
+      authors:
+        - V. Nair
+        - G. E. Hinton
+      title: Rectified linear units improve restricted boltzmann machines
+      venue: In *ICML*
+      year: 2010
+      resolves_to: ""
+    - key: "30"
+      raw: F. Perronnin and C. Dance. Fisher kernels on visual vocabularies for image categorization. In *CVPR*, 2007.
+      authors:
+        - F. Perronnin
+        - C. Dance
+      title: Fisher kernels on visual vocabularies for image categorization
+      venue: In *CVPR*
+      year: 2007
+      resolves_to: ""
+    - key: "31"
+      raw: T. Raiko, H. Valpola, and Y. LeCun. Deep learning made easier by linear transformations in perceptrons. In *AISTATS*, 2012.
+      authors:
+        - T. Raiko
+        - H. Valpola
+        - Y. LeCun
+      title: Deep learning made easier by linear transformations in perceptrons
+      venue: In *AISTATS*
+      year: 2012
+      resolves_to: ""
+    - key: "32"
+      raw: 'S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region proposal networks. In *NIPS*, 2015.'
+      authors:
+        - S. Ren
+        - K. He
+        - R. Girshick
+        - J. Sun
+      title: 'Faster R-CNN: Towards real-time object detection with region proposal networks'
+      venue: In *NIPS*
+      year: 2015
+      resolves_to: ""
+    - key: "33"
+      raw: S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun. Object detection networks on convolutional feature maps. *arXiv:1504.06066*, 2015.
+      authors:
+        - S. Ren
+        - K. He
+        - R. Girshick
+        - X. Zhang
+        - J. Sun
+      title: Object detection networks on convolutional feature maps
+      venue: '*arXiv:1504.06066*'
+      year: 2015
+      arxiv: "1504.06066"
+      resolves_to: ""
+    - key: "34"
+      raw: B. D. Ripley. *Pattern recognition and neural networks*. Cambridge university press, 1996.
+      authors:
+        - B. D. Ripley
+      title: '*Pattern recognition and neural networks*'
+      venue: Cambridge university press
+      year: 1996
+      resolves_to: ""
+    - key: "35"
+      raw: 'A. Romero, N. Ballas, S. E. Kahou, A. Chassang, C. Gatta, and Y. Bengio. Fitnets: Hints for thin deep nets. In *ICLR*, 2015.'
+      authors:
+        - A. Romero
+        - N. Ballas
+        - S. E. Kahou
+        - A. Chassang
+        - C. Gatta
+        - Y. Bengio
+      title: 'Fitnets: Hints for thin deep nets'
+      venue: In *ICLR*
+      year: 2015
+      resolves_to: ""
+    - key: "36"
+      raw: O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, et al. Imagenet large scale visual recognition challenge. *arXiv:1409.0575*, 2014.
+      authors:
+        - O. Russakovsky
+        - J. Deng
+        - H. Su
+        - J. Krause
+        - S. Satheesh
+        - S. Ma
+        - Z. Huang
+        - A. Karpathy
+        - A. Khosla
+        - M. Bernstein
+        - et al. Imagenet large scale visual recognition challenge
+      title: '*arXiv:1409.0575*, 2014'
+      year: 2014
+      arxiv: "1409.0575"
+      resolves_to: ""
+    - key: "37"
+      raw: A. M. Saxe, J. L. McClelland, and S. Ganguli. Exact solutions to the nonlinear dynamics of learning in deep linear neural networks. *arXiv:1312.6120*, 2013.
+      authors:
+        - A. M. Saxe
+        - J. L. McClelland
+        - S. Ganguli
+      title: Exact solutions to the nonlinear dynamics of learning in deep linear neural networks
+      venue: '*arXiv:1312.6120*'
+      year: 2013
+      arxiv: "1312.6120"
+      resolves_to: ""
+    - key: "38"
+      raw: N. N. Schraudolph. Accelerated gradient descent by factor-centering decomposition. Technical report, 1998.
+      authors:
+        - N. N. Schraudolph
+      title: Accelerated gradient descent by factor-centering decomposition
+      venue: Technical report
+      year: 1998
+      resolves_to: ""
+    - key: "39"
+      raw: 'N. N. Schraudolph. Centering neural network gradient factors. In *Neural Networks: Tricks of the Trade*, pages 207–226. Springer, 1998.'
+      authors:
+        - N. N. Schraudolph
+      title: Centering neural network gradient factors
+      venue: 'In *Neural Networks: Tricks of the Trade*, pages 207–226. Springer'
+      year: 1998
+      pages: 207-226
+      resolves_to: ""
+    - key: "40"
+      raw: 'P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. In *ICLR*, 2014.'
+      authors:
+        - P. Sermanet
+        - D. Eigen
+        - X. Zhang
+        - M. Mathieu
+        - R. Fergus
+        - Y. LeCun
+      title: 'Overfeat: Integrated recognition, localization and detection using convolutional networks'
+      venue: In *ICLR*
+      year: 2014
+      resolves_to: ""
+    - key: "41"
+      raw: K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. In *ICLR*, 2015.
+      authors:
+        - K. Simonyan
+        - A. Zisserman
+      title: Very deep convolutional networks for large-scale image recognition
+      venue: In *ICLR*
+      year: 2015
+      resolves_to: ""
+    - key: "42"
+      raw: R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. *arXiv:1505.00387*, 2015.
+      authors:
+        - R. K. Srivastava
+        - K. Greff
+        - J. Schmidhuber
+      title: Highway networks
+      venue: '*arXiv:1505.00387*'
+      year: 2015
+      arxiv: "1505.00387"
+      resolves_to: ""
+    - key: "43"
+      raw: R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks. *1507.06228*, 2015.
+      authors:
+        - R. K. Srivastava
+        - K. Greff
+        - J. Schmidhuber
+      title: Training very deep networks
+      year: 2015
+      resolves_to: ""
+    - key: "44"
+      raw: C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In *CVPR*, 2015.
+      authors:
+        - C. Szegedy
+        - W. Liu
+        - Y. Jia
+        - P. Sermanet
+        - S. Reed
+        - D. Anguelov
+        - D. Erhan
+        - V. Vanhoucke
+        - A. Rabinovich
+      title: Going deeper with convolutions
+      venue: In *CVPR*
+      year: 2015
+      resolves_to: ""
+    - key: "45"
+      raw: R. Szeliski. Fast surface interpolation using hierarchical basis functions. *TPAMI*, 1990.
+      authors:
+        - R. Szeliski
+      title: Fast surface interpolation using hierarchical basis functions
+      venue: '*TPAMI*'
+      year: 1990
+      resolves_to: ""
+    - key: "46"
+      raw: R. Szeliski. Locally adapted hierarchical basis preconditioning. In *SIGGRAPH*, 2006.
+      authors:
+        - R. Szeliski
+      title: Locally adapted hierarchical basis preconditioning
+      venue: In *SIGGRAPH*
+      year: 2006
+      resolves_to: ""
+    - key: "47"
+      raw: T. Vatanen, T. Raiko, H. Valpola, and Y. LeCun. Pushing stochastic gradient towards second-order methods-backpropagation learning with transformations in nonlinearities. In *Neural Information Processing*, 2013.
+      authors:
+        - T. Vatanen
+        - T. Raiko
+        - H. Valpola
+        - Y. LeCun
+      title: Pushing stochastic gradient towards second-order methods-backpropagation learning with transformations in nonlinearities
+      venue: In *Neural Information Processing*
+      year: 2013
+      resolves_to: ""
+    - key: "48"
+      raw: 'A. Vedaldi and B. Fulkerson. VLFeat: An open and portable library of computer vision algorithms, 2008.'
+      authors:
+        - A. Vedaldi
+        - B. Fulkerson
+      title: 'VLFeat: An open and portable library of computer vision algorithms, 2008'
+      year: 2008
+      resolves_to: ""
+    - key: "49"
+      raw: W. Venables and B. Ripley. Modern applied statistics with s-plus. 1999.
+      authors:
+        - W. Venables
+        - B. Ripley
+      title: Modern applied statistics with s-plus
+      year: 1999
+      resolves_to: ""
+    - key: "50"
+      raw: 'M. D. Zeiler and R. Fergus. Visualizing and understanding convolutional neural networks. In *ECCV*, 2014. ## A. Object Detection Baselines In this section we introduce our detection method based on the baseline Faster R-CNN [32] system. The models are initialized by the ImageNet classification models, and then fine-tuned on the object detection data. We have experimented with ResNet-50/101 at the time of the ILSVRC & COCO 2015 detection competitions. Unlike VGG-16 used in [32], our ResNet has no hidden fc layers. We adopt the idea of “Networks on Conv feature maps” (NoC) [33] to address this issue. We compute the full-image shared conv feature maps using those layers whose strides on the image are no greater than 16 pixels (i.e., conv1, conv2_x, conv3_x, and conv4_x, totally 91 conv layers in ResNet-101; Table 1). We consider these layers as analogous to the 13 conv layers in VGG-16, and by doing so, both ResNet and VGG-16 have conv feature maps of the same total stride (16 pixels). These layers are shared by a region proposal network (RPN, generating 300 proposals) [32] and a Fast R-CNN detection network [7]. RoI pooling [7] is performed before conv5_1. On this RoI-pooled feature, all layers of conv5_x and up are adopted for each region, playing the roles of VGG-16’s fc layers. The final classification layer is replaced by two sibling layers (classification and box regression [7]). For the usage of BN layers, after pre-training, we compute the BN statistics (means and variances) for each layer on the ImageNet training set. Then the BN layers are fixed during fine-tuning for object detection. As such, the BN layers become linear activations with constant offsets and scales, and BN statistics are not updated by fine-tuning. We fix the BN layers mainly for reducing memory consumption in Faster R-CNN training. ### PASCAL VOC Following [7, 32], for the PASCAL VOC 2007 *test* set, we use the 5k *trainval* images in VOC 2007 and 16k *trainval* images in VOC 2012 for training (“07+12”). For the PASCAL VOC 2012 *test* set, we use the 10k *trainval+test* images in VOC 2007 and 16k *trainval* images in VOC 2012 for training (“07++12”). The hyper-parameters for training Faster R-CNN are the same as in [32]. Table 7 shows the results. ResNet-101 improves the mAP by >3% over VGG-16. This gain is solely because of the improved features learned by ResNet. ### MS COCO The MS COCO dataset [26] involves 80 object categories. We evaluate the PASCAL VOC metric (mAP @ IoU = 0.5) and the standard COCO metric (mAP @ IoU = .5:.05:.95). We use the 80k images on the train set for training and the 40k images on the val set for evaluation. Our detection system for COCO is similar to that for PASCAL VOC. We train the COCO models with an 8-GPU implementation, and thus the RPN step has a mini-batch size of 8 images (*i.e.*, 1 per GPU) and the Fast R-CNN step has a mini-batch size of 16 images. The RPN step and Fast R-CNN step are both trained for 240k iterations with a learning rate of 0.001 and then for 80k iterations with 0.0001. Table 8 shows the results on the MS COCO validation set. ResNet-101 has a 6% increase of mAP@[.5, .95] over VGG-16, which is a 28% relative improvement, solely contributed by the features learned by the better network. Remarkably, the mAP@I.5, .95]’s absolute increase (6.0%) is nearly as big as mAP@.5’s (6.9%). This suggests that a deeper network can improve both recognition and localization. ## B. Object Detection Improvements For completeness, we report the improvements made for the competitions. These improvements are based on deep features and thus should benefit from residual learning. ### MS COCO *Box refinement.* Our box refinement partially follows the iterative localization in [6]. In Faster R-CNN, the final output is a regressed box that is different from its proposal box. So for inference, we pool a new feature from the regressed box and obtain a new classification score and a new regressed box. We combine these 300 new predictions with the original 300 predictions. Non-maximum suppression (NMS) is applied on the union set of predicted boxes using an IoU threshold of 0.3 [8], followed by box voting [6]. Box refinement improves mAP by about 2 points (Table 9). *Global context.* We combine global context in the Fast R-CNN step. Given the full-image conv feature map, we pool a feature by global Spatial Pyramid Pooling [12] (with a “single-level” pyramid) which can be implemented as “RoI” pooling using the entire image’s bounding box as the RoI. This pooled feature is fed into the post-RoI layers to obtain a global context feature. This global feature is concatenated with the original per-region feature, followed by the sibling classification and box regression layers. This new structure is trained end-to-end. Global context improves mAP@.5 by about 1 point (Table 9). *Multi-scale testing.* In the above, all results are obtained by single-scale training/testing as in [32], where the image’s shorter side $s = 600$ pixels. Multi-scale training/testing has been developed in [12, 7] by selecting a scale from a feature pyramid, and in [33] by using maxout layers. In our current implementation, we have performed multi-scale *testing* following [33]; we have not performed multi-scale training because of limited time. In addition, we have performed multi-scale testing only for the Fast R-CNN step (but not yet for the RPN step). With a trained model, we compute conv feature maps on an image pyramid, where the image’s shorter sides are $s \in \{200, 400, 600, 800, 1000\}$. ```text training data COCO train COCO trainval test data COCO val COCO test-dev mAP @.5 @[.5, .95] @.5 @[.5, .95] baseline Faster R-CNN (VGG-16) 41.5 21.2 baseline Faster R-CNN (ResNet-101) 48.4 27.2 +box refinement 49.9 29.9 +context 51.1 30.0 53.3 32.2 +multi-scale testing 53.8 32.5 55.7 34.9 ensemble 59.0 37.4 ``` Table 9. Object detection improvements on MS COCO using Faster R-CNN and ResNet-101. ```text system net data mAP areo bike bird boat bottle bus car cat chair cow table dog horse mbike person plant sheep sofa train tv baseline VGG-16 07+12 73.2 76.5 79.0 70.9 65.5 52.1 83.1 84.7 86.4 52.0 81.9 65.7 84.8 84.6 77.5 76.7 38.8 73.6 73.9 83.0 72.6 baseline ResNet-101 07+12 76.4 79.8 80.7 76.2 68.3 55.9 85.1 85.3 89.8 56.7 87.8 69.4 88.3 88.9 80.9 78.4 41.7 78.6 79.8 85.3 72.0 baseline+++ ResNet-101 COCO+07+12 85.6 90.0 89.6 87.8 80.8 76.1 89.9 89.9 89.6 75.5 90.0 80.7 89.6 90.3 89.1 88.7 65.4 88.1 85.6 89.0 86.8 ``` Table 10. Detection results on the PASCAL VOC 2007 test set. The baseline is the Faster R-CNN system. The system “baseline+++” include box refinement, context, and multi-scale testing in Table 9. ```text system net data mAP areo bike bird boat bottle bus car cat chair cow table dog horse mbike person plant sheep sofa train tv baseline VGG-16 07++12 70.4 84.9 79.8 74.3 53.9 49.8 77.5 75.9 88.5 45.6 77.1 55.3 86.9 81.7 80.9 79.6 40.1 72.6 60.9 81.2 61.5 baseline ResNet-101 07++12 73.8 86.5 81.6 77.2 58.0 51.0 78.6 76.6 93.2 48.6 80.4 59.0 92.1 85.3 84.8 80.7 48.1 77.3 66.5 84.7 65.6 baseline+++ ResNet-101 COCO+07++12 83.8 92.1 88.4 84.8 75.9 71.4 86.3 87.8 94.2 66.8 89.4 69.2 93.9 91.9 90.9 89.6 67.9 88.2 76.8 90.3 80.0 ``` Table 11. Detection results on the PASCAL VOC 2012 test set (http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=4). The baseline is the Faster R-CNN system. The system “baseline+++” include box refinement, context, and multi-scale testing in Table 9. We select two adjacent scales from the pyramid following [33]. RoI pooling and subsequent layers are performed on the feature maps of these two scales [33], which are merged by maxout as in [33]. Multi-scale testing improves the mAP by over 2 points (Table 9). *Using validation data.* Next we use the 80k+40k trainval set for training and the 20k test-dev set for evaluation. The test-dev set has no publicly available ground truth and the result is reported by the evaluation server. Under this setting, the results are an mAP@.5 of 55.7% and an mAP@[.5, .95] of 34.9% (Table 9). This is our single-model result. *Ensemble.* In Faster R-CNN, the system is designed to learn region proposals and also object classifiers, so an ensemble can be used to boost both tasks. We use an ensemble for proposing regions, and the union set of proposals are processed by an ensemble of per-region classifiers. Table 9 shows our result based on an ensemble of 3 networks. The mAP is 59.0% and 37.4% on the test-dev set. *This result won the 1st place in the detection task in COCO 2015.* ## PASCAL VOC We revisit the PASCAL VOC dataset based on the above model. With the single model on the COCO dataset (55.7% mAP@.5 in Table 9), we fine-tune this model on the PASCAL VOC sets. The improvements of box refinement, context, and multi-scale testing are also adopted. By doing so ```text val2 test GoogLeNet [44] (ILSVRC’14) - 43.9 our single model (ILSVRC’15) 60.5 58.8 our ensemble (ILSVRC’15) 63.6 62.1 ``` Table 12. Our results (mAP, %) on the ImageNet detection dataset. Our detection system is Faster R-CNN [32] with the improvements in Table 9, using ResNet-101. we achieve 85.6% mAP on PASCAL VOC 2007 (Table 10) and 83.8% on PASCAL VOC 2012 (Table 11)[^1]. The result on PASCAL VOC 2012 is 10 points higher than the previous state-of-the-art result [6]. ## ImageNet Detection The ImageNet Detection (DET) task involves 200 object categories. The accuracy is evaluated by mAP@.5. Our object detection algorithm for ImageNet DET is the same as that for MS COCO in Table 9. The networks are pre-trained on the 1000-class ImageNet classification set, and are fine-tuned on the DET data. We split the validation set into two parts (val1/val2) following [8]. We fine-tune the detection models using the DET training set and the val1 set. The val2 set is used for validation. We do not use other ILSVRC 2015 data. Our single model with ResNet-101 has [^1]: http://host.robots.ox.ac.uk:8080/anonymous/3OJ4OJ.html, submitted on 2015-11-26. ```text LOC LOC testing LOC error classification top-5 LOC error method network on GT CLS network on predicted CLS VGG’s [41] VGG-16 1-crop 33.1 [41] RPN ResNet-101 1-crop 13.3 RPN ResNet-101 dense 11.7 RPN ResNet-101 dense ResNet-101 14.4 RPN+RCNN ResNet-101 dense ResNet-101 10.6 RPN+RCNN ensemble dense ensemble 8.9 ``` Table 13. Localization error (%) on the ImageNet validation. In the column of “LOC error on GT class” ([41]), the ground truth class is used. In the “testing” column, “1-crop” denotes testing on a center crop of 224×224 pixels, “dense” denotes dense (fully convolutional) and multi-scale testing. 58.8% mAP and our ensemble of 3 models has 62.1% mAP on the DET test set (Table 12). *This result won the 1st place in the ImageNet detection task in ILSVRC 2015*, surpassing the second place by 8.5 points (absolute). ## C. ImageNet Localization The ImageNet Localization (LOC) task [36] requires to classify and localize the objects. Following [40, 41], we assume that the image-level classifiers are first adopted for predicting the class labels of an image, and the localization algorithm only accounts for predicting bounding boxes based on the predicted classes. We adopt the “per-class regression” (PCR) strategy [40, 41], learning a bounding box regressor for each class. We pre-train the networks for ImageNet classification and then fine-tune them for localization. We train networks on the provided 1000-class ImageNet training set. Our localization algorithm is based on the RPN framework of [32] with a few modifications. Unlike the way in [32] that is category-agnostic, our RPN for localization is designed in a *per-class* form. This RPN ends with two sibling 1×1 convolutional layers for binary classification (*cls*) and box regression (*reg*), as in [32]. The *cls* and *reg* layers are both in a *per-class* from, in contrast to [32]. Specifically, the *cls* layer has a 1000-d output, and each dimension is *binary logistic regression* for predicting being or not being an object class; the *reg* layer has a 1000×4-d output consisting of box regressors for 1000 classes. As in [32], our bounding box regression is with reference to multiple translation-invariant “anchor” boxes at each position. As in our ImageNet classification training (Sec. 3.4), we randomly sample 224×224 crops for data augmentation. We use a mini-batch size of 256 images for fine-tuning. To avoid negative samples being dominate, 8 anchors are randomly sampled for each image, where the sampled positive and negative anchors have a ratio of 1:1 [32]. For testing, the network is applied on the image fully-convolutionally. Table 13 compares the localization results. Following [41], we first perform “oracle” testing using the ground truth class as the classification prediction. VGG’s paper [41] reports a center-crop error of 33.1% (Table 13) using ground truth classes. Under the same setting, our RPN method using ResNet-101 net significantly reduces the center-crop error to 13.3%. This comparison demonstrates the excellent performance of our framework. With dense (fully convolutional) and multi-scale testing, our ResNet-101 has an error of 11.7% using ground truth classes. Using ResNet-101 for predicting classes (4.6% top-5 classification error, Table 4), the top-5 localization error is 14.4%. ```text method top-5 localization err val test OverFeat [40] (ILSVRC’13) 30.0 29.9 GoogLeNet [44] (ILSVRC’14) - 26.7 VGG [41] (ILSVRC’14) 26.9 25.3 ours (ILSVRC’15) 8.9 9.0 ``` Table 14. Comparisons of localization error (%) on the ImageNet dataset with state-of-the-art methods. The above results are only based on the *proposal network* (RPN) in Faster R-CNN [32]. One may use the *detection network* (Fast R-CNN [7]) in Faster R-CNN to improve the results. But we notice that on this dataset, one image usually contains a single dominate object, and the proposal regions highly overlap with each other and thus have very similar RoI-pooled features. As a result, the image-centric training of Fast R-CNN [7] generates samples of small variations, which may not be desired for stochastic training. Motivated by this, in our current experiment we use the original R-CNN [8] that is RoI-centric, in place of Fast R-CNN. Our R-CNN implementation is as follows. We apply the per-class RPN trained as above on the training images to predict bounding boxes for the ground truth class. These predicted boxes play a role of class-dependent proposals. For each training image, the highest scored 200 proposals are extracted as training samples to train an R-CNN classifier. The image region is cropped from a proposal, warped to 224×224 pixels, and fed into the classification network as in R-CNN [8]. The outputs of this network consist of two sibling fc layers for *cls* and *reg*, also in a per-class form. This R-CNN network is fine-tuned on the training set using a mini-batch size of 256 in the RoI-centric fashion. For testing, the RPN generates the highest scored 200 proposals for each predicted class, and the R-CNN network is used to update these proposals’ scores and box positions. This method reduces the top-5 localization error to 10.6% (Table 13). This is our single-model result on the validation set. Using an ensemble of networks for both classification and localization, we achieve a top-5 localization error of 9.0% on the test set. This number significantly outperforms the ILSVRC 14 results (Table 14), showing a 64% relative reduction of error. *This result won the 1st place in the ImageNet localization task in ILSVRC 2015.*'
+      authors:
+        - M. D. Zeiler
+        - R. Fergus. Visualizing
+        - understanding convolutional neural networks. In *ECCV*
+        - '2014. ## A. Object Detection Baselines In this section we introduce our detection method based on the baseline Faster R-CNN [32] system. The models are initialized by the ImageNet classification models'
+        - then fine-tuned on the object detection data. We have experimented with ResNet-50/101 at the time of the ILSVRC
+        - COCO 2015 detection competitions. Unlike VGG-16 used in [32]
+        - our ResNet has no hidden fc layers. We adopt the idea of
+      title: Networks on Conv feature maps
+      year: 2015
+      url: http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=4
+      resolves_to: ""

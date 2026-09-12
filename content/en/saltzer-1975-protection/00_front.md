@@ -8,6 +8,7 @@ year: 1975
 venue: Proceedings of the IEEE
 field: security
 section_title: Front Matter
+tag: 005E
 kind: front
 lang: en
 source: https://cgi.cse.unsw.edu.au/~cs9242/24/papers/Saltzer_Schroeder_75.pdf

@@ -7,6 +7,7 @@ year: 1959
 venue: Numerische Mathematik
 field: algorithms
 section_title: Front Matter
+tag: 003D
 kind: front
 lang: en
 source: https://ir.cwi.nl/pub/9256/9256D.pdf

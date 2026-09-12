@@ -8,6 +8,7 @@ year: 1974
 venue: IEEE Transactions on Communications
 field: networks
 section_title: Front Matter
+tag: "0052"
 kind: front
 lang: en
 source: https://doi.org/10.21236/ada634240

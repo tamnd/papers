@@ -7,6 +7,7 @@ year: 1970
 venue: Journal of Computer and System Sciences
 field: theory
 section_title: Front Matter
+tag: "0038"
 kind: front
 lang: en
 source: https://web.archive.org/web/20240712003717id_/https://core.ac.uk/download/pdf/82306488.pdf

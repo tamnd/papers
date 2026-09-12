@@ -7,6 +7,7 @@ year: 1978
 venue: Journal of Computer and System Sciences
 field: languages
 section_title: Front Matter
+tag: "0048"
 kind: front
 lang: en
 source: https://doi.org/10.1016/0022-0000(78)90014-4

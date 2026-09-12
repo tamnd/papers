@@ -7,6 +7,7 @@ year: 1936
 venue: Proceedings of the London Mathematical Society
 field: theory
 section_title: Front Matter
+tag: "0035"
 kind: front
 lang: en
 source: https://doi.org/10.1112/plms/s2-42.1.230

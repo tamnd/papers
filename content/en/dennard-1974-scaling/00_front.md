@@ -12,6 +12,7 @@ year: 1974
 venue: IEEE Journal of Solid-State Circuits
 field: architecture
 section_title: Front Matter
+tag: 005A
 kind: front
 lang: en
 source: https://doi.org/10.1109/jssc.1974.1050511

@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "3"
 section_title: Timestamp Server
+tag: "0007"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

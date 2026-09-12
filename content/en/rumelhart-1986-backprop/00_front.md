@@ -9,6 +9,7 @@ year: 1986
 venue: Nature
 field: ai-ml
 section_title: Front Matter
+tag: "0063"
 kind: front
 lang: en
 source: https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf

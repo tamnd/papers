@@ -7,6 +7,7 @@ year: 1967
 venue: AFIPS Spring Joint Computer Conference
 field: architecture
 section_title: Front Matter
+tag: "0003"
 kind: front
 lang: en
 source: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl-1967.pdf

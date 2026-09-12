@@ -8,6 +8,247 @@
 # `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
 
 figures:
+    - paper: bosshart-2014-p4
+      figure: f01
+      number: "1"
+      page: 1
+      bbox: [75.12, 246.72, 527.28, 402.48]
+      caption: 'Figure 1: P4 is a language to configure switches.'
+      sha256: a00caf07419f638f76ab65398c16f4a2f0cb4e0fb7c1364ebd5cc8821934c446
+      method: vector
+      page_fraction: 0.15
+      width: 1884
+      height: 649
+      bytes: 271347
+    - paper: bosshart-2014-p4
+      figure: f02
+      number: "2"
+      page: 2
+      bbox: [326.49, 350.38, 536.18, 499.02]
+      caption: 'Figure 2: The abstract forwarding model.'
+      sha256: 1d0c90f244f54e33fa7b007ecad2b621b0b53b3007cabf2c916b4c70ce030608
+      method: raster
+      page_fraction: 0.06
+      width: 1264
+      height: 896
+      bytes: 186006
+    - paper: bosshart-2014-p4
+      figure: f03
+      number: "3"
+      page: 3
+      bbox: [317.28, 181.68, 554.16, 304.8]
+      caption: 'Figure 3: Table dependency graph for an L2/L3 switch.'
+      sha256: 7239954d185d7d750ad77725b0267dfe642c204dae38d4b3b853869981a2dc16
+      method: raster
+      page_fraction: 0.06
+      width: 987
+      height: 513
+      bytes: 171710
+    - paper: bosshart-2014-p4
+      figure: f04
+      number: "4"
+      page: 6
+      bbox: [66.65, 190.9, 279.77, 278.74]
+      caption: 'Figure 4: Flow chart for the mTag example.'
+      sha256: 0d04b9bb611a6c44741beae7f3658326756c525f73bfad5cc140a905ad3c4191
+      method: raster
+      page_fraction: 0.04
+      width: 1036
+      height: 427
+      bytes: 65576
+    - paper: corbett-2012-spanner
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [343.68, 627.84, 512.16, 723.36]
+      caption: 'Figure 1: Spanner server organization.'
+      sha256: 93ec987411732a1610feeadd36bd7f28bcaf9b3e6072d0f5d3c460bf1dbbf3f4
+      method: raster
+      page_fraction: 0.03
+      width: 702
+      height: 398
+      bytes: 67517
+    - paper: corbett-2012-spanner
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [89.76, 571.68, 283.44, 723.36]
+      caption: 'Figure 2: Spanserver software stack.'
+      sha256: 22241114c85a9090237a073c693c5767acde681982ff308c1a3ddd2016b3454e
+      method: raster
+      page_fraction: 0.06
+      width: 807
+      height: 632
+      bytes: 128013
+    - paper: corbett-2012-spanner
+      figure: f03
+      number: "3"
+      page: 3
+      bbox: [348.96, 646.08, 505.92, 722.88]
+      caption: 'Figure 3: Directories are the unit of data movement between Paxos groups.'
+      sha256: 34a617a8f657418228c8e04a9f40ca7d1211412218352fb6013a4e0ffda87784
+      method: raster
+      page_fraction: 0.02
+      width: 654
+      height: 320
+      bytes: 30390
+    - paper: corbett-2012-spanner
+      figure: f04
+      number: "4"
+      page: 5
+      bbox: [115.92, 559.92, 256.08, 625.92]
+      caption: 'Figure 4: Example Spanner schema for photo metadata, and the interleaving implied by INTERLEAVE IN.'
+      sha256: c170ade4f3c8e52aeda5affc3af2e390b4fd5a34efd2e70ff67d6cae5d1ef7f8
+      method: raster
+      page_fraction: 0.02
+      width: 584
+      height: 275
+      bytes: 76960
+    - paper: corbett-2012-spanner
+      figure: f05
+      number: "5"
+      page: 10
+      bbox: [335.28, 575.76, 520.56, 719.76]
+      caption: 'Figure 5: Effect of killing servers on throughput.'
+      sha256: 98ff83df40fc98be1f2d241f3027b95cf16e71d3b8aa97a5ae15218945776de4
+      method: vector
+      page_fraction: 0.06
+      width: 772
+      height: 600
+      bytes: 63418
+    - paper: dean-2004-mapreduce
+      figure: f01
+      number: "2"
+      page: 8
+      bbox: [333.12, 619.68, 521.76, 662.64]
+      caption: 'Figure 2: Data transfer rate over time'
+      sha256: 535d02505391f925b7002735643cb5feadcb61dc99ef0625805746471bb47b6f
+      method: vector
+      page_fraction: 0.02
+      width: 786
+      height: 179
+      bytes: 11658
+    - paper: dean-2004-mapreduce
+      figure: f02
+      number: "4"
+      page: 10
+      bbox: [342.48, 552.48, 512.64, 620.4]
+      caption: 'Figure 4: MapReduce instances over time'
+      sha256: 1b8ab1342d29f6be15f990988d5a8c454e48c5bb5b01cd19a619dd5296bc4a14
+      method: vector
+      page_fraction: 0.02
+      width: 709
+      height: 283
+      bytes: 22482
+    - paper: goodfellow-2014-gan
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [115.44, 330, 497.28, 445.44]
+      caption: 'Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution (D, blue, dashed line) so that it discriminates between samples from the data generating distribution (black, dotted line) p x from those of the generative distribution p g (G) (green, solid line). The lower horizontal line is the domain from which z is sampled, in this case uniformly. The horizontal line above is part of the domain of x. The upward arrows show how the mapping x = G(z) imposes the non-uniform distribution p g on transformed samples. G contracts in regions of high density and expands in regions of low density of p g . (a) Consider an adversarial pair near convergence: p g is similar to p data and D is a partially accurate classifier.'
+      sha256: d4d9f5a22022e3a5705cacfce5d2079dce821701f3fb7dedd74eea0bdf814837
+      method: vector
+      page_fraction: 0.09
+      width: 1591
+      height: 481
+      bytes: 59602
+    - paper: goodfellow-2014-gan
+      figure: f02
+      number: "2"
+      page: 6
+      bbox: [112.85, 167.87, 501.17, 435.64]
+      caption: 'Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, not conditional means given samples of hidden units. Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator)'
+      sha256: 9d47d4af1e1a74ef4e5144acbf84027c9531c3be4ab9cc8429fd8821bc746e77
+      method: vector
+      page_fraction: 0.21
+      scale: 0.59
+      width: 960
+      height: 662
+      bytes: 453791
+    - paper: goodfellow-2014-gan
+      figure: f03
+      number: "3"
+      page: 7
+      bbox: [133.92, 690, 478.08, 710.88]
+      caption: 'Figure 3: Digits obtained by linearly interpolating between coordinates in z space of the full model.'
+      sha256: 0bde6f89cbe46c47624020f106e756e6704cdc0438d0d5a391a0ba0d46122d1c
+      method: vector
+      page_fraction: 0.01
+      width: 1434
+      height: 87
+      bytes: 28656
+    - paper: he-2016-resnet
+      figure: f01
+      number: "2"
+      page: 2
+      bbox: [97.44, 636.72, 232.32, 712.32]
+      caption: 'Figure 2. Residual learning: a building block.'
+      sha256: 8d23b06279be9e9f11759e4b0c5ae2656660f25572226152b5401b70356e46b9
+      method: vector
+      page_fraction: 0.02
+      width: 562
+      height: 315
+      bytes: 25309
+    - paper: he-2016-resnet
+      figure: f02
+      number: "4"
+      page: 5
+      bbox: [85.68, 402.72, 510, 539.76]
+      caption: 'Figure 4. Training on ImageNet. Thin curves denote training error, and bold curves denote validation error of the center crops. Left: plain networks of 18 and 34 layers. Right: ResNets of 18 and 34 layers. In this plot, the residual networks have no extra parameter compared to their plain counterparts.'
+      sha256: 84e3738c8ef4053eef46799ebd994e533801404a23c8eefb06b48c3d847ad9b4
+      method: vector
+      page_fraction: 0.12
+      width: 1768
+      height: 571
+      bytes: 84345
+    - paper: he-2016-resnet
+      figure: f03
+      number: "5"
+      page: 6
+      bbox: [334.32, 649.2, 534.72, 720.24]
+      caption: 'Figure 5. A deeper residual function F for ImageNet. Left: a building block (on 56×56 feature maps) as in Fig. 3 for ResNet-34. Right: a “bottleneck” building block for ResNet-50/101/152.'
+      sha256: e7b9a9e3a91b25802171429ec819cfd8735c5c75a2792522b3ff81049412a921
+      method: vector
+      page_fraction: 0.03
+      width: 835
+      height: 296
+      bytes: 24401
+    - paper: sutskever-2014-seq2seq
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [127.2, 394.08, 484.8, 465.6]
+      caption: 'Figure 1: Our model reads an input sentence “ABC” and produces “WXYZ” as the output sentence. The model stops making predictions after outputting the end-of-sentence token. Note that the LSTM reads the input sentence in reverse, because doing so introduces many short term dependencies in the data that make the optimization problem much easier.'
+      sha256: 9f85dce633b386294dcd02edd93a5e924ec435a9dadcfa04cdec81a0936f33b3
+      method: vector
+      page_fraction: 0.05
+      width: 1490
+      height: 298
+      bytes: 11511
+    - paper: sutskever-2014-seq2seq
+      figure: f02
+      number: "2"
+      page: 6
+      bbox: [136.08, 164.88, 484.8, 284.16]
+      caption: 'Figure 2: The figure shows a 2-dimensional PCA projection of the LSTM hidden states that are obtained after processing the phrases in the figures. The phrases are clustered by meaning, which in these examples is primarily a function of word order, which would be difficult to capture with a bag-of-words model. Notice that both clusters have similar internal structure.'
+      sha256: 968456088a3d42e0035b0cfd769a33ea1d147fcff8a84a8d4013f86ad2ef8b40
+      method: vector
+      page_fraction: 0.09
+      width: 1453
+      height: 497
+      bytes: 59594
+    - paper: sutskever-2014-seq2seq
+      figure: f03
+      number: "3"
+      page: 7
+      bbox: [144.48, 239.76, 470.64, 405.36]
+      caption: 'Figure 3: The left plot shows the performance of our system as a function of sentence length, where the x-axis corresponds to the test sentences sorted by their length and is marked by the actual sequence lengths. There is no degradation on sentences with less than 35 words, there is only a minor degradation on the longest sentences. The right plot shows the LSTM’s performance on sentences with progressively more rare words, where the x-axis corresponds to the test sentences sorted by their “average word frequency rank”.'
+      sha256: 4874e1b715a004cc272b56fcc220de8fef3e32c8f8711941d1c3ac571a242a18
+      method: vector
+      page_fraction: 0.11
+      width: 1359
+      height: 690
+      bytes: 66305
     - paper: vaswani-2017-attention
       figure: f01
       number: "1"

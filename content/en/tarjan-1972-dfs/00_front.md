@@ -7,6 +7,7 @@ year: 1972
 venue: SIAM Journal on Computing
 field: algorithms
 section_title: Front Matter
+tag: "0042"
 kind: front
 lang: en
 source: https://sites.cs.ucsb.edu/~gilbert/cs240a/old/cs240aSpr2011/slides/TarjanDFS.pdf

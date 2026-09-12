@@ -7,6 +7,7 @@ year: 1950
 venue: Bell System Technical Journal
 field: theory
 section_title: Front Matter
+tag: "0036"
 kind: front
 lang: en
 source: https://archive.org/download/bstj29-2-147/bstj29-2-147.pdf

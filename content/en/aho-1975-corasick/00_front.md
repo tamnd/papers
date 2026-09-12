@@ -8,6 +8,7 @@ year: 1975
 venue: Communications of the ACM
 field: algorithms
 section_title: Front Matter
+tag: "0043"
 kind: front
 lang: en
 source: https://cr.yp.to/bib/1975/aho.pdf

@@ -7,6 +7,7 @@ year: 1975
 venue: Communications of the ACM
 field: graphics
 section_title: Front Matter
+tag: "0065"
 kind: front
 lang: en
 source: https://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf

@@ -7,6 +7,7 @@ year: 1950
 venue: Mind
 field: ai-ml
 section_title: Front Matter
+tag: "0062"
 kind: front
 lang: en
 source: https://www.csee.umbc.edu/courses/471/papers/turing.pdf

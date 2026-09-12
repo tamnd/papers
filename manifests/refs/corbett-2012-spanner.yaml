@@ -1,0 +1,375 @@
+paper: corbett-2012-spanner
+style: bracket
+entries:
+    - key: "1"
+      raw: 'Azza Abouzeid et al. “HadoopDB: an architectural hybrid of MapReduce and DBMS technologies for analytical workloads”. Proc. of VLDB. 2009, pp. 922–933.'
+      authors:
+        - Azza Abouzeid et al
+      title: 'HadoopDB: an architectural hybrid of MapReduce and DBMS technologies for analytical workloads'
+      venue: Proc. of VLDB. 2009, pp. 922–933
+      year: 2009
+      pages: 922-933
+      resolves_to: ""
+    - key: "2"
+      raw: A. Adya et al. “Efficient optimistic concurrency control using loosely synchronized clocks”. Proc. of SIGMOD. 1995, pp. 23–34.
+      authors:
+        - A. Adya et al
+      title: Efficient optimistic concurrency control using loosely synchronized clocks
+      venue: Proc. of SIGMOD. 1995, pp. 23–34
+      year: 1995
+      pages: 23-34
+      resolves_to: ""
+    - key: "3"
+      raw: Amazon. Amazon DynamoDB. 2012.
+      title: Amazon
+      venue: Amazon DynamoDB
+      year: 2012
+      resolves_to: ""
+    - key: "4"
+      raw: 'Michael Armbrust et al. “PIQL: Success-Tolerant Query Processing in the Cloud”. Proc. of VLDB. 2011, pp. 181–192.'
+      authors:
+        - Michael Armbrust et al
+      title: 'PIQL: Success-Tolerant Query Processing in the Cloud'
+      venue: Proc. of VLDB. 2011, pp. 181–192
+      year: 2011
+      pages: 181-192
+      resolves_to: ""
+    - key: "5"
+      raw: 'Jason Baker et al. “Megastore: Providing Scalable, Highly Available Storage for Interactive Services”. Proc. of CIDR. 2011, pp. 223–234.'
+      authors:
+        - Jason Baker et al
+      title: 'Megastore: Providing Scalable, Highly Available Storage for Interactive Services'
+      venue: Proc. of CIDR. 2011, pp. 223–234
+      year: 2011
+      pages: 223-234
+      resolves_to: ""
+    - key: "6"
+      raw: Hal Berenson et al. “A critique of ANSI SQL isolation levels”. Proc. of SIGMOD. 1995, pp. 1–10.
+      authors:
+        - Hal Berenson et al
+      title: A critique of ANSI SQL isolation levels
+      venue: Proc. of SIGMOD. 1995, pp. 1–10
+      year: 1995
+      pages: 1-10
+      resolves_to: ""
+    - key: "7"
+      raw: Matthias Brantner et al. “Building a database on S3”. Proc. of SIGMOD. 2008, pp. 251–264.
+      authors:
+        - Matthias Brantner et al
+      title: Building a database on S3
+      venue: Proc. of SIGMOD. 2008, pp. 251–264
+      year: 2008
+      pages: 251-264
+      resolves_to: ""
+    - key: "8"
+      raw: A. Chan and R. Gray. “Implementing Distributed Read-Only Transactions”. IEEE TOSE SE-11.2 (Feb. 1985), pp. 205–212.
+      authors:
+        - A. Chan
+        - R. Gray
+      title: Implementing Distributed Read-Only Transactions
+      venue: IEEE TOSE SE-11.2 (Feb. 1985), pp. 205–212
+      year: 1985
+      pages: 205-212
+      resolves_to: ""
+    - key: "9"
+      raw: 'Fay Chang et al. “Bigtable: A Distributed Storage System for Structured Data”. ACM TOCS 26.2 (June 2008), 4:1–4:26.'
+      authors:
+        - Fay Chang et al
+      title: 'Bigtable: A Distributed Storage System for Structured Data'
+      venue: ACM TOCS 26.2 (June 2008), 4:1–4:26
+      year: 2008
+      resolves_to: ""
+    - key: "10"
+      raw: 'Brian F. Cooper et al. “PNUTS: Yahoo!’s hosted data serving platform”. Proc. of VLDB. 2008, pp. 1277–1288.'
+      authors:
+        - Brian F. Cooper et al
+      title: 'PNUTS: Yahoo!’s hosted data serving platform'
+      venue: Proc. of VLDB. 2008, pp. 1277–1288
+      year: 2008
+      pages: 1277-1288
+      resolves_to: ""
+    - key: "11"
+      raw: 'James Cowling and Barbara Liskov. “Granola: Low-Overhead Distributed Transaction Coordination”. Proc. of USENIX ATC. 2012, pp. 223–236.'
+      authors:
+        - James Cowling
+        - Barbara Liskov
+      title: 'Granola: Low-Overhead Distributed Transaction Coordination'
+      venue: Proc. of USENIX ATC. 2012, pp. 223–236
+      year: 2012
+      pages: 223-236
+      resolves_to: ""
+    - key: "12"
+      raw: 'Jeffrey Dean and Sanjay Ghemawat. “MapReduce: a flexible data processing tool”. CACM 53.1 (Jan. 2010), pp. 72–77.'
+      authors:
+        - Jeffrey Dean
+        - Sanjay Ghemawat
+      title: 'MapReduce: a flexible data processing tool'
+      venue: CACM 53.1 (Jan. 2010), pp. 72–77
+      year: 2010
+      pages: 72-77
+      resolves_to: ""
+    - key: "13"
+      raw: John Douceur and Jon Howell. Scalable Byzantine-Fault-Quantifying Clock Synchronization. Tech. rep. MSR-TR-2003-67. MS Research, 2003.
+      authors:
+        - John Douceur
+        - Jon Howell
+      title: Scalable Byzantine-Fault-Quantifying Clock Synchronization
+      venue: Tech. rep. MSR-TR-2003-67. MS Research
+      year: 2003
+      resolves_to: ""
+    - key: "14"
+      raw: John R. Douceur and Jon Howell. “Distributed directory service in the Farsite file system”. Proc. of OSDI. 2006, pp. 321–334.
+      authors:
+        - John R. Douceur
+        - Jon Howell
+      title: Distributed directory service in the Farsite file system
+      venue: Proc. of OSDI. 2006, pp. 321–334
+      year: 2006
+      pages: 321-334
+      resolves_to: ""
+    - key: "15"
+      raw: Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. “The Google file system”. Proc. of SOSP. Dec. 2003, pp. 29–43.
+      authors:
+        - Sanjay Ghemawat
+        - Howard Gobioff
+        - Shun-Tak Leung
+      title: The Google file system
+      venue: Proc. of SOSP. Dec. 2003, pp. 29–43
+      year: 2003
+      pages: 29-43
+      resolves_to: ghemawat-2003-gfs
+    - key: "16"
+      raw: David K. Gifford. Information Storage in a Decentralized Computer System. Tech. rep. CSL-81-8. PhD dissertation. Xerox PARC, July 1982.
+      authors:
+        - David K. Gifford
+      title: Information Storage in a Decentralized Computer System
+      venue: Tech. rep. CSL-81-8. PhD dissertation. Xerox PARC
+      year: 1982
+      resolves_to: ""
+    - key: "17"
+      raw: Lisa Glendenning et al. “Scalable consistency in Scatter”. Proc. of SOSP. 2011.
+      authors:
+        - Lisa Glendenning et al
+      title: Scalable consistency in Scatter
+      venue: Proc. of SOSP
+      year: 2011
+      resolves_to: ""
+    - key: "18"
+      raw: Jim Gray and Leslie Lamport. “Consensus on transaction commit”. ACM TODS 31.1 (Mar. 2006), pp. 133–160.
+      authors:
+        - Jim Gray
+        - Leslie Lamport
+      title: Consensus on transaction commit
+      venue: ACM TODS 31.1 (Mar. 2006), pp. 133–160
+      year: 2006
+      pages: 133-160
+      resolves_to: ""
+    - key: "19"
+      raw: 'Pat Helland. “Life beyond Distributed Transactions: an Apostate’s Opinion”. Proc. of CIDR. 2007, pp. 132–141.'
+      authors:
+        - Pat Helland
+      title: 'Life beyond Distributed Transactions: an Apostate’s Opinion'
+      venue: Proc. of CIDR. 2007, pp. 132–141
+      year: 2007
+      pages: 132-141
+      resolves_to: ""
+    - key: "20"
+      raw: 'Maurice P. Herlihy and Jeannette M. Wing. “Linearizability: a correctness condition for concurrent objects”. ACM TOPLAS 12.3 (July 1990), pp. 463–492.'
+      authors:
+        - Maurice P. Herlihy
+        - Jeannette M. Wing
+      title: 'Linearizability: a correctness condition for concurrent objects'
+      venue: ACM TOPLAS 12.3 (July 1990), pp. 463–492
+      year: 1990
+      pages: 463-492
+      resolves_to: ""
+    - key: "21"
+      raw: Leslie Lamport. “The part-time parliament”. ACM TOCS 16.2 (May 1998), pp. 133–169.
+      authors:
+        - Leslie Lamport
+      title: The part-time parliament
+      venue: ACM TOCS 16.2 (May 1998), pp. 133–169
+      year: 1998
+      pages: 133-169
+      resolves_to: lamport-1998-paxos
+    - key: "22"
+      raw: Leslie Lamport, Dahlia Malkhi, and Lidong Zhou. “Reconfiguring a state machine”. SIGACT News 41.1 (Mar. 2010), pp. 63–73.
+      authors:
+        - Leslie Lamport
+        - Dahlia Malkhi
+        - Lidong Zhou
+      title: Reconfiguring a state machine
+      venue: SIGACT News 41.1 (Mar. 2010), pp. 63–73
+      year: 2010
+      pages: 63-73
+      resolves_to: ""
+    - key: "23"
+      raw: Barbara Liskov. “Practical uses of synchronized clocks in distributed systems”. Distrib. Comput. 6.4 (July 1993), pp. 211–219.
+      authors:
+        - Barbara Liskov
+      title: Practical uses of synchronized clocks in distributed systems
+      venue: Distrib. Comput. 6.4 (July 1993), pp. 211–219
+      year: 1993
+      pages: 211-219
+      resolves_to: ""
+    - key: "24"
+      raw: David B. Lomet and Feifei Li. “Improving Transaction-Time DBMS Performance and Functionality”. Proc. of ICDE (2009), pp. 581–591.
+      authors:
+        - David B. Lomet
+        - Feifei Li
+      title: Improving Transaction-Time DBMS Performance and Functionality
+      venue: Proc. of ICDE (2009), pp. 581–591
+      year: 2009
+      pages: 581-591
+      resolves_to: ""
+    - key: "25"
+      raw: Jacob R. Lorch et al. “The SMART way to migrate replicated stateful services”. Proc. of EuroSys. 2006, pp. 103–115.
+      authors:
+        - Jacob R. Lorch et al
+      title: The SMART way to migrate replicated stateful services
+      venue: Proc. of EuroSys. 2006, pp. 103–115
+      year: 2006
+      pages: 103-115
+      resolves_to: ""
+    - key: "26"
+      raw: MarkLogic. MarkLogic 5 Product Documentation. 2012.
+      title: MarkLogic
+      venue: MarkLogic 5 Product Documentation
+      year: 2012
+      resolves_to: ""
+    - key: "27"
+      raw: Keith Marzullo and Susan Owicci. “Maintaining the time in a distributed system”. Proc. of PODC. 1983, pp. 295–305.
+      authors:
+        - Keith Marzullo
+        - Susan Owicci
+      title: Maintaining the time in a distributed system
+      venue: Proc. of PODC. 1983, pp. 295–305
+      year: 1983
+      pages: 295-305
+      resolves_to: ""
+    - key: "28"
+      raw: 'Sergey Melnik et al. “Dremel: Interactive Analysis of Web-Scale Datasets”. Proc. of VLDB. 2010, pp. 330–339.'
+      authors:
+        - Sergey Melnik et al
+      title: 'Dremel: Interactive Analysis of Web-Scale Datasets'
+      venue: Proc. of VLDB. 2010, pp. 330–339
+      year: 2010
+      pages: 330-339
+      resolves_to: ""
+    - key: "29"
+      raw: D.L. Mills. Time synchronization in DCNET hosts. Internet Project Report IEN–173. COMSAT Laboratories, Feb. 1981.
+      authors:
+        - D.L. Mills
+      title: Time synchronization in DCNET hosts
+      venue: Internet Project Report IEN–173. COMSAT Laboratories, Feb
+      year: 1981
+      resolves_to: ""
+    - key: "30"
+      raw: Oracle. Oracle Total Recall. 2012.
+      title: Oracle
+      venue: Oracle Total Recall
+      year: 2012
+      resolves_to: ""
+    - key: "31"
+      raw: Andrew Pavlo et al. “A comparison of approaches to large-scale data analysis”. Proc. of SIGMOD. 2009, pp. 165–178.
+      authors:
+        - Andrew Pavlo et al
+      title: A comparison of approaches to large-scale data analysis
+      venue: Proc. of SIGMOD. 2009, pp. 165–178
+      year: 2009
+      pages: 165-178
+      resolves_to: ""
+    - key: "32"
+      raw: Daniel Peng and Frank Dabek. “Large-scale incremental processing using distributed transactions and notifications”. Proc. of OSDI. 2010, pp. 1–15.
+      authors:
+        - Daniel Peng
+        - Frank Dabek
+      title: Large-scale incremental processing using distributed transactions and notifications
+      venue: Proc. of OSDI. 2010, pp. 1–15
+      year: 2010
+      pages: 1-15
+      resolves_to: ""
+    - key: "33"
+      raw: Daniel J. Rosenkrantz, Richard E. Stearns, and Philip M. Lewis II. “System level concurrency control for distributed database systems”. ACM TODS 3.2 (June 1978), pp. 178–198.
+      authors:
+        - Daniel J. Rosenkrantz
+        - Richard E. Stearns
+        - Philip M. Lewis II
+      title: System level concurrency control for distributed database systems
+      venue: ACM TODS 3.2 (June 1978), pp. 178–198
+      year: 1978
+      pages: 178-198
+      resolves_to: ""
+    - key: "34"
+      raw: Alexander Shraer et al. “Dynamic Reconfiguration of Primary/Backup Clusters”. Proc. of USENIX ATC. 2012, pp. 425–438.
+      authors:
+        - Alexander Shraer et al
+      title: Dynamic Reconfiguration of Primary/Backup Clusters
+      venue: Proc. of USENIX ATC. 2012, pp. 425–438
+      year: 2012
+      pages: 425-438
+      resolves_to: ""
+    - key: "35"
+      raw: Jeff Shute et al. “F1 — The Fault-Tolerant Distributed RDBMS Supporting Google’s Ad Business”. Proc. of SIGMOD. May 2012, pp. 777–778.
+      authors:
+        - Jeff Shute et al
+      title: F1 — The Fault-Tolerant Distributed RDBMS Supporting Google’s Ad Business
+      venue: Proc. of SIGMOD. May 2012, pp. 777–778
+      year: 2012
+      pages: 777-778
+      resolves_to: ""
+    - key: "36"
+      raw: Yair Sovran et al. “Transactional storage for geo-replicated systems”. Proc. of SOSP. 2011, pp. 385–400.
+      authors:
+        - Yair Sovran et al
+      title: Transactional storage for geo-replicated systems
+      venue: Proc. of SOSP. 2011, pp. 385–400
+      year: 2011
+      pages: 385-400
+      resolves_to: ""
+    - key: "37"
+      raw: Michael Stonebraker. Why Enterprises Are Uninterested in NoSQL. 2010.
+      authors:
+        - Michael Stonebraker
+      title: Why Enterprises Are Uninterested in NoSQL
+      year: 2010
+      resolves_to: ""
+    - key: "38"
+      raw: Michael Stonebraker. Six SQL Urban Myths. 2010.
+      authors:
+        - Michael Stonebraker
+      title: Six SQL Urban Myths
+      year: 2010
+      resolves_to: ""
+    - key: "39"
+      raw: 'Michael Stonebraker et al. “The end of an architectural era: (it’s time for a complete rewrite)”. Proc. of VLDB. 2007, pp. 1150–1160.'
+      authors:
+        - Michael Stonebraker et al
+      title: 'The end of an architectural era: (it’s time for a complete rewrite)'
+      venue: Proc. of VLDB. 2007, pp. 1150–1160
+      year: 2007
+      pages: 1150-1160
+      resolves_to: ""
+    - key: "40"
+      raw: 'Alexander Thomson et al. “Calvin: Fast Distributed Transactions for Partitioned Database Systems”. Proc. of SIGMOD. 2012, pp. 1–12.'
+      authors:
+        - Alexander Thomson et al
+      title: 'Calvin: Fast Distributed Transactions for Partitioned Database Systems'
+      venue: Proc. of SIGMOD. 2012, pp. 1–12
+      year: 2012
+      pages: 1-12
+      resolves_to: ""
+    - key: "41"
+      raw: Ashish Thusoo et al. “Hive — A Petabyte Scale Data Warehouse Using Hadoop”. Proc. of ICDE. 2010, pp. 996–1005.
+      authors:
+        - Ashish Thusoo et al
+      title: Hive — A Petabyte Scale Data Warehouse Using Hadoop
+      venue: Proc. of ICDE. 2010, pp. 996–1005
+      year: 2010
+      pages: 996-1005
+      resolves_to: ""
+    - key: "42"
+      raw: 'VoltDB. VoltDB Resources. 2012. A Paxos Leader-Lease Management The simplest means to ensure the disjointness of Paxos-leader-lease intervals would be for a leader to issue a synchronous Paxos write of the lease interval, whenever it would be extended. A subsequent leader would read the interval and wait until that interval has passed. TrueTime can be used to ensure disjointness without these extra log writes. The potential ith leader keeps a lower bound on the start of a lease vote from replica r as $v_{i,r}^{leader} = TT.now().earliest$, computed before $e_{i,r}^{send}$ (defined as when the lease request is sent by the leader). Each replica r grants a lease at lease $e_{i,r}^{grant}$, which happens after $e_{i,r}^{receive}$ (when the replica receives a lease request); the lease ends at $t_{i,r}^{end} = TT.now().latest + 10$, computed after $e_{i,r}^{receive}$. A replica r obeys the single-vote rule: it will not grant another lease vote until $TT.after(t_{i,r}^{end})$ is true. To enforce this rule across different incarnations of r, Spanner logs a lease vote at the granting replica before granting the lease; this log write can be piggybacked upon existing Paxos-protocol log writes. When the ith leader receives a quorum of votes (event $e_i^{quorum}$), it computes its lease interval as $lease_i = [TT.now().latest, min_r(v_{i,r}^{leader}) + 10]$. The lease is deemed to have expired at the leader when $TT.before(min_r(v_{i,r}^{leader}) + 10)$ is false. To prove disjointness, we make use of the fact that the ith and $(i+1)$th leaders must have one replica in common in their quorums. Call that replica r0. Proof: $$ \begin{align*} lease_i.end &= min_r(v_{i,r}^{leader}) + 10 & \text{(by definition)} \\ min_r(v_{i,r}^{leader}) + 10 &\leq v_{i,r0}^{leader} + 10 & \text{(min)} \\ v_{i,r0}^{leader} + 10 &\leq t_{abs}(e_{i,r0}^{send}) + 10 & \text{(by definition)} \\ t_{abs}(e_{i,r0}^{send}) + 10 &\leq t_{abs}(e_{i,r0}^{receive}) + 10 & \text{(causality)} \\ t_{abs}(e_{i,r0}^{receive}) + 10 &\leq t_{i,r0}^{end} & \text{(by definition)} \\ t_{i,r0}^{end} &< t_{abs}(e_{i+1,r0}^{grant}) & \text{(single-vote)} \\ t_{abs}(e_{i+1,r0}^{grant}) &\leq t_{abs}(e_{i+1}^{quorum}) & \text{(causality)} \\ t_{abs}(e_{i+1}^{quorum}) &\leq lease_{i+1}.start & \text{(by definition)} \end{align*} $$'
+      title: VoltDB
+      year: 2012
+      resolves_to: ""

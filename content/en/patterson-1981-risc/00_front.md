@@ -8,6 +8,7 @@ year: 1981
 venue: ISCA
 field: architecture
 section_title: Front Matter
+tag: 005B
 kind: front
 lang: en
 source: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-F00/handouts/papers/p216-patterson.pdf

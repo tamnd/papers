@@ -33,12 +33,14 @@ pages:
     - pdf: 8
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 9
       size: [612, 792]
       columns: 2
     - pdf: 10
       size: [612, 792]
       columns: 2
+      figures: [f02]
     - pdf: 11
       size: [612, 792]
       columns: 2

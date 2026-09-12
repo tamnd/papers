@@ -7,6 +7,7 @@ year: 1983
 venue: IEEE Computer
 field: hci
 section_title: Front Matter
+tag: "0066"
 kind: front
 lang: en
 source: https://www.cs.umd.edu/~ben/papers/Shneiderman1983Direct.pdf

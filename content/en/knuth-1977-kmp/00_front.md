@@ -9,6 +9,7 @@ year: 1977
 venue: SIAM Journal on Computing
 field: algorithms
 section_title: Front Matter
+tag: "0044"
 kind: front
 lang: en
 source: https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Knuth77.pdf

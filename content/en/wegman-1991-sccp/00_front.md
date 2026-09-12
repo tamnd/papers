@@ -8,14 +8,15 @@ year: 1991
 venue: ACM TOPLAS
 field: languages
 section_title: Front Matter
+tag: 004C
 kind: front
 lang: en
 source: https://www.cs.utexas.edu/users/lin/cs380c/wegman.pdf
 pdf_sha256: 40929436cdf1c477f2318221df5d0aa71488db4a01cc448b184e0aba8bf95ddb
-pdf_pages: 2-3
+pdf_pages: "2"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 074c1dac71072a974bfb20cdaba5ac8ba911e10292b52b9dedf158f94d1bb160
+content_sha256: 94ce5b5dba477ad2c0e4754f4c994d52f8979f20334977030a8748c85db9197d
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -27,4 +28,4 @@ In Section 6 several techniques are explored to perform constant propagation ove
 
 Section 7 outlines some open problems and Section 8 concludes the paper.
 
-1.
+### 1. {#wegman-1991-sccp-s-1 .section tag=012F}

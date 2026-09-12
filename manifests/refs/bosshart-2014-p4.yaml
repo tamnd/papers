@@ -1,0 +1,195 @@
+paper: bosshart-2014-p4
+style: bracket
+entries:
+    - key: "1"
+      raw: 'C. Kozanitis, J. Huber, S. Singh, and G. Varghese, “Leaping multiple headers in a single bound: Wire-speed parsing using the Kangaroo system,” in IEEE INFOCOM, pp. 830–838, 2010.'
+      authors:
+        - C. Kozanitis
+        - J. Huber
+        - S. Singh
+        - G. Varghese
+      title: 'Leaping multiple headers in a single bound: Wire-speed parsing using the Kangaroo system'
+      venue: in IEEE INFOCOM, pp. 830–838
+      year: 2010
+      pages: 830-838
+      resolves_to: ""
+    - key: "2"
+      raw: 'P. Bosshart, G. Gibb, H.-S. Kim, G. Varghese, N. McKeown, M. Izzard, F. Mujica, and M. Horowitz, “Forwarding metamorphosis: Fast programmable match-action processing in hardware for SDN,” in ACM SIGCOMM, 2013.'
+      authors:
+        - P. Bosshart
+        - G. Gibb
+        - H.-S. Kim
+        - G. Varghese
+        - N. McKeown
+        - M. Izzard
+        - F. Mujica
+        - M. Horowitz
+      title: 'Forwarding metamorphosis: Fast programmable match-action processing in hardware for SDN'
+      venue: in ACM SIGCOMM
+      year: 2013
+      resolves_to: ""
+    - key: "3"
+      raw: “Intel Ethernet Switch Silicon FM6000.” http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ethernet-switch-fm6000-sdn-paper.pdf.
+      title: Intel Ethernet Switch Silicon FM6000
+      url: http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ethernet-switch-fm6000-sdn-paper.pdf
+      resolves_to: ""
+    - key: "4"
+      raw: N. Yadav and D. Cohn, “OpenFlow Primitive Set.” http://goo.gl/6qwbg, July 2011.
+      authors:
+        - N. Yadav
+        - D. Cohn
+      title: OpenFlow Primitive Set
+      year: 2011
+      url: http://goo.gl/6qwbg
+      resolves_to: ""
+    - key: "5"
+      raw: 'H. Song, “Protocol-oblivious forwarding: Unleash the power of SDN through a future-proof forwarding plane,” in SIGCOMM HotSDN Workshop, Aug. 2013.'
+      authors:
+        - H. Song
+      title: 'Protocol-oblivious forwarding: Unleash the power of SDN through a future-proof forwarding plane'
+      venue: in SIGCOMM HotSDN Workshop, Aug
+      year: 2013
+      resolves_to: ""
+    - key: "6"
+      raw: “Openflow forwarding abstractions working group charter.” http://goo.gl/TtLtw0, Apr. 2013.
+      title: Openflow forwarding abstractions working group charter
+      venue: Apr
+      year: 2013
+      url: http://goo.gl/TtLtw0
+      resolves_to: ""
+    - key: "7"
+      raw: 'M. Raju, A. Wundsam, and M. Yu, “NOSIX: A lightweight portability layer for the SDN OS,” ACM SIGCOMM Computer Communications Review, 2014.'
+      authors:
+        - M. Raju
+        - A. Wundsam
+        - M. Yu
+      title: 'NOSIX: A lightweight portability layer for the SDN OS'
+      venue: ACM SIGCOMM Computer Communications Review
+      year: 2014
+      resolves_to: ""
+    - key: "8"
+      raw: V. Jeyakumar, M. Alizadeh, C. Kim, and D. Mazieres, “Tiny packet programs for low-latency network control and monitoring,” in ACM SIGCOMM HotNets Workshop, Nov. 2013.
+      authors:
+        - V. Jeyakumar
+        - M. Alizadeh
+        - C. Kim
+        - D. Mazieres
+      title: Tiny packet programs for low-latency network control and monitoring
+      venue: in ACM SIGCOMM HotNets Workshop, Nov
+      year: 2013
+      resolves_to: ""
+    - key: "9"
+      raw: 'A. Sivaraman, K. Weinstein, S. Subramanian, and H. Balakrishnan, “No silver bullet: Extending SDN to the data plane,” in ACM SIGCOMM HotNets Workshop, Nov. 2013.'
+      authors:
+        - A. Sivaraman
+        - K. Weinstein
+        - S. Subramanian
+        - H. Balakrishnan
+      title: 'No silver bullet: Extending SDN to the data plane'
+      venue: in ACM SIGCOMM HotNets Workshop, Nov
+      year: 2013
+      resolves_to: ""
+    - key: "10"
+      raw: E. Kohler, R. Morris, B. Chen, J. Jannotti, and M. F. Kaashoek, “The Click modular router,” ACM Transactions on Computer Systems, vol. 18, pp. 263–297, Aug. 2000.
+      authors:
+        - E. Kohler
+        - R. Morris
+        - B. Chen
+        - J. Jannotti
+        - M. F. Kaashoek
+      title: The Click modular router
+      venue: ACM Transactions on Computer Systems, vol. 18, pp. 263–297, Aug
+      year: 2000
+      pages: 263-297
+      resolves_to: ""
+    - key: "11"
+      raw: “Multiprotocol Label Switching Charter.” http://datatracker.ietf.org/wg/mpls/charter/
+      title: Multiprotocol Label Switching Charter
+      url: http://datatracker.ietf.org/wg/mpls/charter/
+      resolves_to: ""
+    - key: "12"
+      raw: 'R. Niranjan Mysore, A. Pamboris, N. Farrington, N. Huang, P. Miri, S. Radhakrishnan, V. Subramanya, and A. Vahdat, “PortLand: A scalable fault-tolerant layer 2 data center network fabric,” in ACM SIGCOMM, pp. 39–50, Aug. 2009.'
+      authors:
+        - R. Niranjan Mysore
+        - A. Pamboris
+        - N. Farrington
+        - N. Huang
+        - P. Miri
+        - S. Radhakrishnan
+        - V. Subramanya
+        - A. Vahdat
+      title: 'PortLand: A scalable fault-tolerant layer 2 data center network fabric'
+      venue: in ACM SIGCOMM, pp. 39–50, Aug
+      year: 2009
+      pages: 39-50
+      resolves_to: ""
+    - key: "13"
+      raw: 'P. McCann and S. Chandra, “PacketTypes: Abstract specificationa of network protocol messages,” in ACM SIGCOMM, pp. 321–333, Aug. 2000.'
+      authors:
+        - P. McCann
+        - S. Chandra
+      title: 'PacketTypes: Abstract specificationa of network protocol messages'
+      venue: in ACM SIGCOMM, pp. 321–333, Aug
+      year: 2000
+      pages: 321-333
+      resolves_to: ""
+    - key: "14"
+      raw: G. Back, “DataScript - A specification and scripting language for binary data,” in Generative Programming and Component Engineering, vol. 2487, pp. 66–77, Lecture Notes in Computer Science, 2002.
+      authors:
+        - G. Back
+      title: DataScript - A specification and scripting language for binary data
+      venue: in Generative Programming and Component Engineering, vol. 2487, pp. 66–77, Lecture Notes in Computer Science
+      year: 2002
+      pages: 66-77
+      resolves_to: ""
+    - key: "15"
+      raw: 'K. Fisher and R. Gruber, “PADS: A domain specific language for processing ad hoc data,” in ACM Conference on Programming Language Design and Implementation, pp. 295–304, June 2005.'
+      authors:
+        - K. Fisher
+        - R. Gruber
+      title: 'PADS: A domain specific language for processing ad hoc data'
+      venue: in ACM Conference on Programming Language Design and Implementation, pp. 295–304
+      year: 2005
+      pages: 295-304
+      resolves_to: ""
+    - key: "16"
+      raw: G. Gibb, G. Varghese, M. Horowitz, and N. McKeown, “Design principles for packet parsers,” in ANCS, pp. 13–24, 2013.
+      authors:
+        - G. Gibb
+        - G. Varghese
+        - M. Horowitz
+        - N. McKeown
+      title: Design principles for packet parsers
+      venue: in ANCS, pp. 13–24
+      year: 2013
+      pages: 13-24
+      resolves_to: ""
+    - key: "17"
+      raw: “Open vSwitch website.” http://www.openvswitch.org
+      title: Open vSwitch website
+      url: http://www.openvswitch.org
+      resolves_to: ""
+    - key: "18"
+      raw: D. Zhou, B. Fan, H. Lim, M. Kaminsky, and D. G. Andersen, “Scalable, high performance ethernet forwarding with CuckooSwitch,” in CoNext, pp. 97–108, 2013.
+      authors:
+        - D. Zhou
+        - B. Fan
+        - H. Lim
+        - M. Kaminsky
+        - D. G. Andersen
+      title: Scalable, high performance ethernet forwarding with CuckooSwitch
+      venue: in CoNext, pp. 97–108
+      year: 2013
+      pages: 97-108
+      resolves_to: ""
+    - key: "19"
+      raw: “EZChip 240-Gigabit Network Processor for Carrier Ethernet Applications.” http:http://www.ezchip.com/p_np5.htm
+      title: EZChip 240-Gigabit Network Processor for Carrier Ethernet Applications
+      venue: 'http:'
+      url: http://www.ezchip.com/p_np5.htm
+      resolves_to: ""
+    - key: "20"
+      raw: “Broadcom BCM56850 Series.” https://www.broadcom.com/products/Switching/Data-Center/BCM56850-Series
+      title: Broadcom BCM56850 Series
+      url: https://www.broadcom.com/products/Switching/Data-Center/BCM56850-Series
+      resolves_to: ""

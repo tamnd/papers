@@ -8,6 +8,7 @@ year: 1959
 venue: IBM Journal of Research and Development
 field: theory
 section_title: Front Matter
+tag: "0037"
 kind: front
 lang: en
 source: https://doi.org/10.1147/rd.32.0114

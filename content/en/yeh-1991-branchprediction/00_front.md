@@ -8,6 +8,7 @@ year: 1991
 venue: MICRO
 field: architecture
 section_title: Front Matter
+tag: 005D
 kind: front
 lang: en
 source: http://classweb.ece.umd.edu/enee646/yeh+patt-adaptive-training-1991.pdf

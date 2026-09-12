@@ -1,0 +1,371 @@
+paper: goodfellow-2014-gan
+style: bracket
+entries:
+    - key: "1"
+      raw: 'Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow, I. J., Bergeron, A., Bouchard, N., and Bengio, Y. (2012). Theano: new features and speed improvements. Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop.'
+      authors:
+        - F. Bastien
+        - P. Lamblin
+        - R. Pascanu
+        - J. Bergstra
+        - I. J. Goodfellow
+        - A. Bergeron
+        - N. Bouchard
+        - Bengio
+        - Y. (2012)
+      title: 'Theano: new features and speed improvements'
+      venue: Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop
+      year: 2012
+      resolves_to: ""
+    - key: "2"
+      raw: Bengio, Y. (2009). *Learning deep architectures for AI.* Now Publishers.
+      authors:
+        - Bengio
+        - Y. (2009)
+      title: '*Learning deep architectures for AI.* Now Publishers'
+      year: 2009
+      resolves_to: ""
+    - key: "3"
+      raw: Bengio, Y., Mesnil, G., Dauphin, Y., and Rifai, S. (2013a). Better mixing via deep representations. In *ICML’13*.
+      authors:
+        - Y. Bengio
+        - G. Mesnil
+        - Y. Dauphin
+        - Rifai
+        - S. (2013a)
+      title: Better mixing via deep representations
+      venue: In *ICML’13*
+      resolves_to: ""
+    - key: "4"
+      raw: Bengio, Y., Yao, L., Alain, G., and Vincent, P. (2013b). Generalized denoising auto-encoders as generative models. In *NIPS26*. Nips Foundation.
+      authors:
+        - Y. Bengio
+        - L. Yao
+        - G. Alain
+        - Vincent
+        - P. (2013b)
+      title: Generalized denoising auto-encoders as generative models
+      venue: In *NIPS26*. Nips Foundation
+      resolves_to: ""
+    - key: "5"
+      raw: Bengio, Y., Thibodeau-Laufer, E., and Yosinski, J. (2014a). Deep generative stochastic networks trainable by backprop. In *ICML’14*.
+      authors:
+        - Y. Bengio
+        - E. Thibodeau-Laufer
+        - Yosinski
+        - J. (2014a)
+      title: Deep generative stochastic networks trainable by backprop
+      venue: In *ICML’14*
+      resolves_to: ""
+    - key: "6"
+      raw: Bengio, Y., Thibodeau-Laufer, E., Alain, G., and Yosinski, J. (2014b). Deep generative stochastic networks trainable by backprop. In *Proceedings of the 30th International Conference on Machine Learning (ICML’14)*.
+      authors:
+        - Y. Bengio
+        - E. Thibodeau-Laufer
+        - G. Alain
+        - Yosinski
+        - J. (2014b)
+      title: Deep generative stochastic networks trainable by backprop
+      venue: In *Proceedings of the 30th International Conference on Machine Learning (ICML’14)*
+      resolves_to: ""
+    - key: "7"
+      raw: 'Bergstra, J., Breuleux, O., Bastien, F., Lamblin, P., Pascanu, R., Desjardins, G., Turian, J., Warde-Farley, D., and Bengio, Y. (2010). Theano: a CPU and GPU math expression compiler. In *Proceedings of the Python for Scientific Computing Conference (SciPy)*. Oral Presentation.'
+      authors:
+        - J. Bergstra
+        - O. Breuleux
+        - F. Bastien
+        - P. Lamblin
+        - R. Pascanu
+        - G. Desjardins
+        - J. Turian
+        - D. Warde-Farley
+        - Bengio
+        - Y. (2010)
+      title: 'Theano: a CPU and GPU math expression compiler'
+      venue: In *Proceedings of the Python for Scientific Computing Conference (SciPy)*. Oral Presentation
+      year: 2010
+      resolves_to: ""
+    - key: "8"
+      raw: Breuleux, O., Bengio, Y., and Vincent, P. (2011). Quickly generating representative samples from an RBM-derived process. *Neural Computation*, **23**(8), 2053–2073.
+      authors:
+        - O. Breuleux
+        - Y. Bengio
+        - Vincent
+        - P. (2011)
+      title: Quickly generating representative samples from an RBM-derived process
+      venue: '*Neural Computation*, **23**(8), 2053–'
+      year: 2073
+      resolves_to: ""
+    - key: "9"
+      raw: Glorot, X., Bordes, A., and Bengio, Y. (2011). Deep sparse rectifier neural networks. In *AISTATS’2011*.
+      authors:
+        - X. Glorot
+        - A. Bordes
+        - Bengio
+        - Y. (2011)
+      title: Deep sparse rectifier neural networks
+      venue: In *AISTATS’2011*
+      year: 2011
+      resolves_to: ""
+    - key: "10"
+      raw: Goodfellow, I. J., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013a). Maxout networks. In *ICML’2013*.
+      authors:
+        - I. J. Goodfellow
+        - D. Warde-Farley
+        - M. Mirza
+        - A. Courville
+        - Bengio
+        - Y. (2013a)
+      title: Maxout networks
+      venue: In *ICML’2013*
+      year: 2013
+      resolves_to: ""
+    - key: "11"
+      raw: Goodfellow, I. J., Mirza, M., Courville, A., and Bengio, Y. (2013b). Multi-prediction deep Boltzmann machines. In *NIPS’2013*.
+      authors:
+        - I. J. Goodfellow
+        - M. Mirza
+        - A. Courville
+        - Bengio
+        - Y. (2013b)
+      title: Multi-prediction deep Boltzmann machines
+      venue: In *NIPS’2013*
+      year: 2013
+      resolves_to: ""
+    - key: "12"
+      raw: 'Goodfellow, I. J., Warde-Farley, D., Lamblin, P., Dumoulin, V., Mirza, M., Pascanu, R., Bergstra, J., Bastien, F., and Bengio, Y. (2013c). Pylearn2: a machine learning research library. *arXiv preprint arXiv:1308.4214*.'
+      authors:
+        - I. J. Goodfellow
+        - D. Warde-Farley
+        - P. Lamblin
+        - V. Dumoulin
+        - M. Mirza
+        - R. Pascanu
+        - J. Bergstra
+        - F. Bastien
+        - Bengio
+        - Y. (2013c)
+      title: 'Pylearn2: a machine learning research library'
+      venue: '*arXiv preprint arXiv:1308.4214*'
+      arxiv: "1308.4214"
+      resolves_to: ""
+    - key: "13"
+      raw: 'Gutmann, M. and Hyvarinen, A. (2010). Noise-contrastive estimation: A new estimation principle for unnormalized statistical models. In *AISTATS’2010*.'
+      authors:
+        - M. Gutmann
+        - Hyvarinen
+        - A. (2010)
+      title: 'Noise-contrastive estimation: A new estimation principle for unnormalized statistical models'
+      venue: In *AISTATS’2010*
+      year: 2010
+      resolves_to: ""
+    - key: "14"
+      raw: Hinton, G., Deng, L., Dahl, G. E., Mohamed, A., Jaitly, N., Senior, A., Vanhoucke, V., Nguyen, P., Sainath, T., and Kingsbury, B. (2012a). Deep neural networks for acoustic modeling in speech recognition. *IEEE Signal Processing Magazine*, **29**(6), 82–97.
+      authors:
+        - G. Hinton
+        - L. Deng
+        - G. E. Dahl
+        - A. Mohamed
+        - N. Jaitly
+        - A. Senior
+        - V. Vanhoucke
+        - P. Nguyen
+        - T. Sainath
+        - Kingsbury
+        - B. (2012a)
+      title: Deep neural networks for acoustic modeling in speech recognition
+      venue: '*IEEE Signal Processing Magazine*, **29**(6), 82–97'
+      pages: 82-97
+      resolves_to: ""
+    - key: "15"
+      raw: Hinton, G. E., Dayan, P., Frey, B. J., and Neal, R. M. (1995). The wake-sleep algorithm for unsupervised neural networks. *Science*, **268**, 1558–1161.
+      authors:
+        - G. E. Hinton
+        - P. Dayan
+        - B. J. Frey
+        - Neal
+        - R. M. (1995)
+      title: The wake-sleep algorithm for unsupervised neural networks
+      venue: '*Science*, **268**, 1558–1161'
+      year: 1995
+      pages: 1558-1161
+      resolves_to: ""
+    - key: "16"
+      raw: Hinton, G. E., Osindero, S., and Teh, Y. (2006). A fast learning algorithm for deep belief nets. *Neural Computation*, **18**, 1527–1554.
+      authors:
+        - G. E. Hinton
+        - S. Osindero
+        - Teh
+        - Y. (2006)
+      title: A fast learning algorithm for deep belief nets
+      venue: '*Neural Computation*, **18**, 1527–1554'
+      year: 2006
+      pages: 1527-1554
+      resolves_to: ""
+    - key: "17"
+      raw: Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. (2012b). Improving neural networks by preventing co-adaptation of feature detectors. Technical report, arXiv:1207.0580.
+      authors:
+        - G. E. Hinton
+        - N. Srivastava
+        - A. Krizhevsky
+        - I. Sutskever
+        - Salakhutdinov
+        - R. (2012b)
+      title: Improving neural networks by preventing co-adaptation of feature detectors
+      venue: Technical report, arXiv:1207.0580
+      arxiv: "1207.0580"
+      resolves_to: ""
+    - key: "18"
+      raw: Hyvärinen, A. (2005). Estimation of non-normalized statistical models using score matching. *J. Machine Learning Res.*, **6**.
+      authors:
+        - Hyvärinen
+        - A. (2005)
+      title: Estimation of non-normalized statistical models using score matching
+      venue: '*J. Machine Learning Res.*, **6**'
+      year: 2005
+      resolves_to: ""
+    - key: "19"
+      raw: Jarrett, K., Kavukcuoglu, K., Ranzato, M., and LeCun, Y. (2009). What is the best multi-stage architecture for object recognition? In *Proc. International Conference on Computer Vision (ICCV’09)*, pages 2146–2153. IEEE.
+      authors:
+        - K. Jarrett
+        - K. Kavukcuoglu
+        - M. Ranzato
+        - LeCun
+        - Y. (2009)
+      title: What is the best multi-stage architecture for object recognition? In *Proc
+      venue: International Conference on Computer Vision (ICCV’09)*, pages 2146–2153. IEEE
+      year: 2009
+      pages: 2146-2153
+      resolves_to: ""
+    - key: "20"
+      raw: Kingma, D. P. and Welling, M. (2014). Auto-encoding variational bayes. In *Proceedings of the International Conference on Learning Representations (ICLR)*.
+      authors:
+        - D. P. Kingma
+        - Welling
+        - M. (2014)
+      title: Auto-encoding variational bayes
+      venue: In *Proceedings of the International Conference on Learning Representations (ICLR)*
+      year: 2014
+      resolves_to: ""
+    - key: "21"
+      raw: Krizhevsky, A. and Hinton, G. (2009). Learning multiple layers of features from tiny images. Technical report, University of Toronto.
+      authors:
+        - A. Krizhevsky
+        - Hinton
+        - G. (2009)
+      title: Learning multiple layers of features from tiny images
+      venue: Technical report, University of Toronto
+      year: 2009
+      resolves_to: ""
+    - key: "22"
+      raw: Krizhevsky, A., Sutskever, I., and Hinton, G. (2012). ImageNet classification with deep convolutional neural networks. In *NIPS’2012*.
+      authors:
+        - A. Krizhevsky
+        - I. Sutskever
+        - Hinton
+        - G. (2012)
+      title: ImageNet classification with deep convolutional neural networks
+      venue: In *NIPS’2012*
+      year: 2012
+      resolves_to: krizhevsky-2012-imagenet
+    - key: "23"
+      raw: LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE*, **86**(11), 2278–2324.
+      authors:
+        - Y. LeCun
+        - L. Bottou
+        - Y. Bengio
+        - Haffner
+        - P. (1998)
+      title: Gradient-based learning applied to document recognition
+      venue: '*Proceedings of the IEEE*, **86**(11), 2278–2324'
+      year: 1998
+      pages: 2278-2324
+      resolves_to: lecun-1998-lenet
+    - key: "24"
+      raw: Rezende, D. J., Mohamed, S., and Wierstra, D. (2014). Stochastic backpropagation and approximate inference in deep generative models. Technical report, arXiv:1401.4082.
+      authors:
+        - D. J. Rezende
+        - S. Mohamed
+        - Wierstra
+        - D. (2014)
+      title: Stochastic backpropagation and approximate inference in deep generative models
+      venue: Technical report, arXiv:1401.4082
+      year: 2014
+      arxiv: "1401.4082"
+      resolves_to: ""
+    - key: "25"
+      raw: Rifai, S., Bengio, Y., Dauphin, Y., and Vincent, P. (2012). A generative process for sampling contractive auto-encoders. In *ICML’12*.
+      authors:
+        - S. Rifai
+        - Y. Bengio
+        - Y. Dauphin
+        - Vincent
+        - P. (2012)
+      title: A generative process for sampling contractive auto-encoders
+      venue: In *ICML’12*
+      year: 2012
+      resolves_to: ""
+    - key: "26"
+      raw: Salakhutdinov, R. and Hinton, G. E. (2009). Deep Boltzmann machines. In *AISTATS’2009*, pages 448–455.
+      authors:
+        - R. Salakhutdinov
+        - Hinton
+        - G. E. (2009)
+      title: Deep Boltzmann machines
+      venue: In *AISTATS’2009*, pages 448–455
+      year: 2009
+      pages: 448-455
+      resolves_to: ""
+    - key: "27"
+      raw: 'Smolensky, P. (1986). Information processing in dynamical systems: Foundations of harmony theory. In D. E. Rumelhart and J. L. McClelland, editors, *Parallel Distributed Processing*, volume 1, chapter 6, pages 194–281. MIT Press, Cambridge.'
+      authors:
+        - Smolensky
+        - P. (1986)
+      title: 'Information processing in dynamical systems: Foundations of harmony theory'
+      venue: In D. E. Rumelhart and J. L. McClelland, editors, *Parallel Distributed Processing*, volume 1, chapter 6, pages 194–281. MIT Press, Cambridge
+      year: 1986
+      pages: 194-281
+      resolves_to: ""
+    - key: "28"
+      raw: Susskind, J., Anderson, A., and Hinton, G. E. (2010). The Toronto face dataset. Technical Report UTML TR 2010-001, U. Toronto.
+      authors:
+        - J. Susskind
+        - A. Anderson
+        - Hinton
+        - G. E. (2010)
+      title: The Toronto face dataset
+      venue: Technical Report UTML TR 2010-001, U. Toronto
+      year: 2010
+      resolves_to: ""
+    - key: "29"
+      raw: Tieleman, T. (2008). Training restricted Boltzmann machines using approximations to the likelihood gradient. In W. W. Cohen, A. McCallum, and S. T. Roweis, editors, *ICML 2008*, pages 1064–1071. ACM.
+      authors:
+        - Tieleman
+        - T. (2008)
+      title: Training restricted Boltzmann machines using approximations to the likelihood gradient
+      venue: In W. W. Cohen, A. McCallum, and S. T. Roweis, editors, *ICML 2008*, pages 1064–1071. ACM
+      year: 2008
+      pages: 1064-1071
+      resolves_to: ""
+    - key: "30"
+      raw: Vincent, P., Larochelle, H., Bengio, Y., and Manzagol, P.-A. (2008). Extracting and composing robust features with denoising autoencoders. In *ICML 2008*.
+      authors:
+        - P. Vincent
+        - H. Larochelle
+        - Y. Bengio
+        - Manzagol
+        - P.-A. (2008)
+      title: Extracting and composing robust features with denoising autoencoders
+      venue: In *ICML 2008*
+      year: 2008
+      resolves_to: ""
+    - key: "31"
+      raw: Younes, L. (1999). On the convergence of Markovian stochastic algorithms with rapidly decreasing ergodicity rates. *Stochastics and Stochastic Reports*, **65**(3), 177–228.
+      authors:
+        - Younes
+        - L. (1999)
+      title: On the convergence of Markovian stochastic algorithms with rapidly decreasing ergodicity rates
+      venue: '*Stochastics and Stochastic Reports*, **65**(3), 177–228'
+      year: 1999
+      pages: 177-228
+      resolves_to: ""

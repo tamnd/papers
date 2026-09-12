@@ -7,6 +7,7 @@ year: 1970
 venue: Communications of the ACM
 field: algorithms
 section_title: Front Matter
+tag: "0041"
 kind: front
 lang: en
 source: http://crystal.uta.edu/~mcguigan/cse6350/papers/Bloom.pdf

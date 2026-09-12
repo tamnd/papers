@@ -7,6 +7,7 @@ year: 1967
 venue: IBM Journal of Research and Development
 field: architecture
 section_title: Front Matter
+tag: "0059"
 kind: front
 lang: en
 source: https://doi.org/10.1147/rd.111.0025

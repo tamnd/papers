@@ -8,6 +8,7 @@ year: 1972
 venue: Acta Informatica
 field: databases
 section_title: Front Matter
+tag: "0055"
 kind: front
 lang: en
 source: https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf

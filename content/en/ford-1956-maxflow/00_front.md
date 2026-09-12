@@ -8,6 +8,7 @@ year: 1956
 venue: Canadian Journal of Mathematics
 field: algorithms
 section_title: Front Matter
+tag: 003C
 kind: front
 lang: en
 source: https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf

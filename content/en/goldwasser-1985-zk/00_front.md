@@ -9,6 +9,7 @@ year: 1985
 venue: STOC
 field: theory
 section_title: Front Matter
+tag: 003B
 kind: front
 lang: en
 source: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf

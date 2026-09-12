@@ -8,6 +8,7 @@ year: 1984
 venue: Journal of Computer and System Sciences
 field: security
 section_title: Front Matter
+tag: "0061"
 kind: front
 lang: en
 source: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Encryption/Probabilistic_Encryption.pdf

@@ -8,6 +8,7 @@ year: 1975
 venue: MIT AI Memo 349
 field: languages
 section_title: Front Matter
+tag: "0047"
 kind: front
 lang: en
 source: https://dspace.mit.edu/server/api/core/bitstreams/70ab0fe6-0e7a-41ef-99fb-ac2c9481a05e/content

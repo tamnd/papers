@@ -7,6 +7,7 @@ year: 1962
 venue: Communications of the ACM
 field: algorithms
 section_title: Front Matter
+tag: 003F
 kind: front
 lang: en
 source: https://web.archive.org/web/20200531072111id_/https://dl.acm.org/doi/pdf/10.1145/367766.368168?download=true

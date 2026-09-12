@@ -7,6 +7,7 @@ year: 1971
 venue: STOC
 field: theory
 section_title: Front Matter
+tag: "0039"
 kind: front
 lang: en
 source: https://www.cs.toronto.edu/~sacook/homepage/1971.pdf

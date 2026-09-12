@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "1"
 section_title: Introduction
+tag: "0005"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

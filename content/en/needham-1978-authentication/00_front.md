@@ -8,6 +8,7 @@ year: 1978
 venue: Communications of the ACM
 field: security
 section_title: Front Matter
+tag: "0060"
 kind: front
 lang: en
 source: https://web.archive.org/web/20250531153030id_/https://dl.acm.org/doi/pdf/10.1145/359657.359659

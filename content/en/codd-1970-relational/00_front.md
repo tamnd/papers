@@ -7,6 +7,7 @@ year: 1970
 venue: Communications of the ACM
 field: databases
 section_title: Front Matter
+tag: "0034"
 kind: front
 lang: en
 source: https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
