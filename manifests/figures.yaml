@@ -7,4 +7,65 @@
 #
 # `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
 
-figures: []
+figures:
+    - paper: vaswani-2017-attention
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [196.56, 397.87, 415.3, 719.28]
+      caption: 'Figure 1: The Transformer - model architecture.'
+      sha256: 7cf0d7b098e0bd367484d313b8bddaf8d4022c6175619b0bc82f2a5dc61037bf
+      method: raster
+      page_fraction: 0.15
+      width: 1519
+      height: 2232
+      bytes: 328438
+    - paper: vaswani-2017-attention
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [147.12, 553.44, 466.8, 720.96]
+      caption: 'Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.'
+      sha256: 71b3374976dc57b47c6be8cbbe3a39342373cf3148365d3c6c9b93f8978a8adc
+      method: vector
+      page_fraction: 0.11
+      width: 1332
+      height: 698
+      bytes: 85587
+    - paper: vaswani-2017-attention
+      figure: f03
+      number: "3"
+      page: 13
+      bbox: [118.8, 489.12, 503.04, 692.16]
+      caption: 'Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.'
+      sha256: e066b5e97c5f69a9af1d06a60d9e2ec5607909554af16274e01263fc0c0757e7
+      method: vector
+      page_fraction: 0.16
+      width: 1601
+      height: 846
+      bytes: 113854
+    - paper: vaswani-2017-attention
+      figure: f04
+      number: "4"
+      page: 14
+      bbox: [121.2, 187.2, 501.6, 621.6]
+      caption: 'Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.'
+      sha256: d77d2ce2ecb1966d5871ea555c974d6660d4073d6440ef796f8cb976d0b0c266
+      method: vector
+      page_fraction: 0.34
+      width: 1585
+      height: 1810
+      bytes: 437582
+    - paper: vaswani-2017-attention
+      figure: f05
+      number: "5"
+      page: 15
+      bbox: [122.6, 201.54, 497.35, 607.23]
+      caption: 'Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.'
+      sha256: f7b5163229616c96438d85cdc567a57e680b9132f2eab291375ef336ae29d684
+      method: vector
+      page_fraction: 0.31
+      scale: 0.83
+      width: 1296
+      height: 1403
+      bytes: 483255

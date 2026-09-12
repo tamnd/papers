@@ -13,6 +13,7 @@ source: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl
 pdf_sha256: 81a363deb884ca23e495280eb9229df1064b4b3f79d662f270be35b50bea5318
 pdf_pages: "1"
 extraction: native
+extraction_model: pdftotext version 26.09.0
 content_sha256: 5ba54efa7d614c052fc9cc27926ef673f3b7564e6f06a5af439958b65d61ac91
 ---
 
