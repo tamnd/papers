@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "10"
 section_title: Privacy
+tag: 000E
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "5"
 section_title: Network
+tag: "0009"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

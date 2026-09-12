@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "4"
 section_title: Proof-of-Work
+tag: "0008"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

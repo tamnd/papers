@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "2"
 section_title: Transactions
+tag: "0006"
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

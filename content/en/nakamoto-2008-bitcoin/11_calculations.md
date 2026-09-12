@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "11"
 section_title: Calculations
+tag: 000F
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

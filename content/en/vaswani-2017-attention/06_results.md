@@ -15,6 +15,7 @@ venue: NIPS
 field: ai-ml
 section: "6"
 section_title: Results
+tag: "0028"
 kind: section
 lang: en
 source: arxiv:1706.03762
@@ -22,10 +23,10 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 8-10
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 7390e8b0fdb6a131db1a0b4efc2232c5c3142e2247188b17a67c5f0a9e60d521
+content_sha256: 7c6f3fa11b2f79f8068ae588a76a8771f84de9e8aaada5757aee898a96c75981
 ---
 
-### 6.1 Machine Translation
+### 6.1 Machine Translation {#vaswani-2017-attention-s6-1 .section tag=0029}
 
 On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models.
 
@@ -35,13 +36,13 @@ For the base models, we used a single model obtained by averaging the last 5 che
 
 Table 2 summarizes our results and compares our translation quality and training costs to other model architectures from the literature. We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU 5 .
 
-### 6.2 Model Variations
+### 6.2 Model Variations {#vaswani-2017-attention-s6-2 .section tag=002A}
 
 To evaluate the importance of different components of the Transformer, we varied our base model in different ways, measuring the change in performance on English-to-German translation on the
 
 We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.
 
-Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.
+Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities. {#vaswani-2017-attention-tab-3 .table tag=002B}
 
 train PPL BLEU params N d model d ff h d k d v P drop ϵ ls 6
 
@@ -69,7 +70,7 @@ In Table 3 rows (A), we vary the number of attention heads and the attention key
 
 In Table 3 rows (B), we observe that reducing the attention key size d k hurts model quality. This suggests that determining compatibility is not easy and that a more sophisticated compatibility function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected, bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical results to the base model.
 
-### 6.3 English Constituency Parsing
+### 6.3 English Constituency Parsing {#vaswani-2017-attention-s6-3 .section tag=002C}
 
 To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes [37].
 
@@ -77,7 +78,7 @@ We trained a 4-layer transformer with d model = 1024 on the Wall Street Journal 
 
 We performed only a small number of experiments to select the dropout, both attention and residual (section 5.4), learning rates and beam size on the Section 22 development set, all other parameters remained unchanged from the English-to-German base translation model. During inference, we
 
-Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)
+Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ) {#vaswani-2017-attention-tab-4 .table tag=002D}
 
 Parser Training WSJ 23 F1 Vinyals & Kaiser el al. (2014) [37] WSJ only, discriminative 88.3
 

@@ -7,6 +7,7 @@ year: 2008
 venue: bitcoin.org
 field: security
 section_title: References
+tag: "0011"
 kind: references
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

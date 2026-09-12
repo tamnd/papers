@@ -56,6 +56,8 @@ Every section, numbered statement, numbered equation, figure, table and listing 
 
 `tags/tags` is the register, one line per anchored item. A tag is what lets the four languages point at the same paragraph, and what the citation graph joins on when one paper in the corpus cites another.
 
+The one exception to the attribute block is the section a whole file is. Its heading lives in the front matter rather than in the body, so its tag lives there too, as a `tag` field. `tags/runs` records the range of tags each assignment handed out, because tags climb in reading order within one run and deliberately do not climb across runs: a section added to a paper next year takes a tag from the top of the register and sits between two much lower ones.
+
 ## Provenance
 
 Every content file opens with YAML front matter recording where the text came from: the source PDF hash, the pages, the extraction path, and for a translation the English file it was made from together with the SHA-256 of that file as it stood at the time.

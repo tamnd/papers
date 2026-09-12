@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "8"
 section_title: Simplified Payment Verification
+tag: 000C
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf
