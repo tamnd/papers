@@ -15,6 +15,7 @@ venue: NIPS
 field: ai-ml
 section: "5"
 section_title: Training
+tag: "0022"
 kind: section
 lang: en
 source: arxiv:1706.03762
@@ -22,20 +23,20 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 7-8
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 79389ef52ea99fa5edaae6a62873be2cf0768f95775e8302bfebf6ac76c04357
+content_sha256: 1d91f43bf9fb0e70d49a73ae397f830aa8413939da2459fed12320715caa56cf
 ---
 
 This section describes the training regime for our models.
 
-### 5.1 Training Data and Batching
+### 5.1 Training Data and Batching {#vaswani-2017-attention-s5-1 .section tag=0023}
 
 We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs. Sentences were encoded using byte-pair encoding [3], which has a shared sourcetarget vocabulary of about 37000 tokens. For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [38]. Sentence pairs were batched together by approximate sequence length. Each training batch contained a set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens.
 
-### 5.2 Hardware and Schedule
+### 5.2 Hardware and Schedule {#vaswani-2017-attention-s5-2 .section tag=0024}
 
 We trained our models on one machine with 8 NVIDIA P100 GPUs. For our base models using the hyperparameters described throughout the paper, each training step took about 0.4 seconds. We trained the base models for a total of 100,000 steps or 12 hours. For our big models,(described on the bottom line of table 3), step time was 1.0 seconds. The big models were trained for 300,000 steps (3.5 days).
 
-### 5.3 Optimizer
+### 5.3 Optimizer {#vaswani-2017-attention-s5-3 .section tag=0025}
 
 We used the Adam optimizer [20] with β = 0.9, β = 0.98 and ϵ = 10 −9 . We varied the learning
 
@@ -45,11 +46,11 @@ We used the Adam optimizer [20] with β = 0.9, β = 0.98 and ϵ = 10 −9 . We v
 
 This corresponds to increasing the learning rate linearly for the first warmup_steps training steps, and decreasing it thereafter proportionally to the inverse square root of the step number. We used warmup_steps = 4000.
 
-### 5.4 Regularization
+### 5.4 Regularization {#vaswani-2017-attention-s5-4 .section tag=0026}
 
 We employ three types of regularization during training:
 
-Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.
+Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost. {#vaswani-2017-attention-tab-2 .table tag=0027}
 
 BLEU Training Cost (FLOPs) Model
 

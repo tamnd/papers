@@ -1,6 +1,6 @@
 # Audit
 
-52 rules: 42 passed, 0 failed, 10 not run
+55 rules: 48 passed, 0 failed, 7 not run
 
 ## S Sources and licensing
 
@@ -112,9 +112,15 @@
 
 ## G Tags
 
-**G01** (hard, not run) every tag in tags/tags is four hex characters, and every line is tag,anchor.
+**G01** (hard, pass) every tag in tags/tags is four hex characters, and every line is tag,anchor.
 
-**G02** (hard, not run) no tag appears twice.
+**G02** (hard, pass) no tag appears twice.
 
-**G03** (hard, not run) no anchor appears twice.
+**G03** (hard, pass) no anchor appears twice.
+
+**G04** (hard, pass) every tag in a body is in tags/tags against that anchor.
+
+**G05** (hard, pass) every anchored item in a body carries a tag.
+
+**G06** (hard, pass) tags climb in reading order within a run.
 

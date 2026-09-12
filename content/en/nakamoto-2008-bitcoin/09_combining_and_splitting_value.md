@@ -8,6 +8,7 @@ venue: bitcoin.org
 field: security
 section: "9"
 section_title: Combining and Splitting Value
+tag: 000D
 kind: section
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

@@ -7,6 +7,7 @@ year: 2008
 venue: bitcoin.org
 field: security
 section_title: Front Matter
+tag: "0004"
 kind: front
 lang: en
 source: https://bitcoin.org/bitcoin.pdf

@@ -54,8 +54,13 @@ jobs:
       # corpus starts failing the moment somebody pushes to the toolchain,
       # which is a change to a different repository breaking this one with no
       # commit here to point at.
+      # The pin has to be moved when the toolchain releases, and moving it is
+      # part of the work of a release rather than an afterthought. Left alone
+      # it quietly does the opposite of its job: this pin sat at v0.1.0 while
+      # the audit grew from eight rules to fifty five, so every green tick
+      # here for three releases meant eight rules passed.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.1.0
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.3.0
 
       - name: papers audit --hard
         env:
