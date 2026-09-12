@@ -258,12 +258,12 @@ entries:
       arxiv: "1511.06114"
       resolves_to: ""
     - key: "24"
-      raw: Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.
+      raw: Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attention-based neural machine translation. arXiv preprint arXiv:1508.04025, 2015.
       authors:
         - Minh-Thang Luong
         - Hieu Pham
         - Christopher D Manning
-      title: Effective approaches to attentionbased neural machine translation
+      title: Effective approaches to attention-based neural machine translation
       venue: arXiv preprint arXiv:1508.04025
       year: 2015
       arxiv: "1508.04025"

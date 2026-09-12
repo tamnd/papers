@@ -14,9 +14,10 @@ lang: en
 source: https://bitcoin.org/bitcoin.pdf
 pdf_sha256: b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553
 pdf_pages: "4"
-extraction: native
-extraction_model: pdftotext version 26.09.0
+extraction: vision
+extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 01172d2346ed073f420e2442cc427b763d02e88f602c901cf380e00956c9ec95
+prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
 By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.

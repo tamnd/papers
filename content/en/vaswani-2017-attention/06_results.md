@@ -21,68 +21,65 @@ lang: en
 source: arxiv:1706.03762
 pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 8-10
-extraction: native
-extraction_model: pdftotext version 26.09.0
-content_sha256: 3e5010de9abaee85ed925ef833d20a52e974145d691b89714e5c3a1419997284
+extraction: vision
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: c6427c8bf8f60bfb3b8609dd99627cf1a63035648c4844a18343bc7a5ebf5dd2
+edited: true
+prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
 ### 6.1 Machine Translation {#vaswani-2017-attention-s6-1 .section tag=0029}
 
-On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models.
+On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table[2]) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table[3] Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models.
 
-On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0, outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model. The Transformer (big) model trained for English-to-French used dropout rate P drop = 0.1, instead of 0.3.
+On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0, outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model. The Transformer (big) model trained for English-to-French used dropout rate $P_{drop} = 0.1$, instead of 0.3.
 
-For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We used beam search with a beam size of 4 and length penalty α = 0.6 [38]. These hyperparameters were chosen after experimentation on the development set. We set the maximum output length during inference to input length + 50, but terminate early when possible [38].
+For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We used beam search with a beam size of 4 and length penalty $\alpha = 0.6$ [38]. These hyperparameters were chosen after experimentation on the development set. We set the maximum output length during inference to input length + 50, but terminate early when possible [38].
 
-Table 2 summarizes our results and compares our translation quality and training costs to other model architectures from the literature. We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU 5 .
+Table[2] summarizes our results and compares our translation quality and training costs to other model architectures from the literature. We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU$^5$
 
 ### 6.2 Model Variations {#vaswani-2017-attention-s6-2 .section tag=002A}
 
 To evaluate the importance of different components of the Transformer, we varied our base model in different ways, measuring the change in performance on English-to-German translation on the
 
-We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.
+$^5$We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.
 
 Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities. {#vaswani-2017-attention-tab-3 .table tag=002B}
 
-```text
-                                                          train   PPL    BLEU     params
-       N    d model  d ff  h     d k   d v  P drop   ϵ ls steps   (dev)   (dev)    ×10 6
-base   6     512    2048    8    64    64     0.1   0.1   100K    4.92    25.8      65
-                            1   512   512                         5.29    24.9
-                            4   128   128                         5.00    25.5
-(A)
-                           16    32    32                         4.91    25.8
-                           32    16    16                         5.01    25.4
-                                 16                               5.16    25.1      58
- (B)
-                                 32                               5.01    25.4      60
-       2                                                          6.11    23.7      36
-       4                                                          5.19    25.3      50
-       8                                                          4.88    25.5      80
- (C)         256                 32    32                         5.75    24.5      28
-            1024                128   128                         4.66    26.0      168
-                    1024                                          5.12    25.4      53
-                    4096                                          4.75    26.2      90
-                                              0.0                 5.77    24.6
-                                              0.2                 4.95    25.5
-(D)
-                                                    0.0           4.67    25.3
-                                                    0.2           5.47    25.7
- (E)          positional embedding instead of sinusoids           4.92    25.7
- big   6    1024    4096   16                 0.3         300K    4.33    26.4      213
-```
+|  | N | $d_{model}$ | $d_{ff}$ | h | $d_k$ | $d_v$ | $P_{drop}$ | $\epsilon_{ls}$ | train steps | PPL (dev) | BLEU (dev) | params $\times 10^6$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| base | 6 | 512 | 2048 | 8 | 64 | 64 | 0.1 | 0.1 | 100K | 4.92 | 25.8 | 65 |
+| (A) |  |  |  | 1 | 512 | 512 |  |  |  | 5.29 | 24.9 |  |
+|  |  |  |  | 4 | 128 | 128 |  |  |  | 5.00 | 25.5 |  |
+|  |  |  |  | 16 | 32 | 32 |  |  |  | 4.91 | 25.8 |  |
+|  |  |  |  | 32 | 16 | 16 |  |  |  | 5.01 | 25.4 |  |
+| (B) |  |  |  |  | 16 |  |  |  |  | 5.16 | 25.1 | 58 |
+|  |  |  |  |  | 32 |  |  |  |  | 5.01 | 25.4 | 60 |
+| (C) | 2 |  |  |  |  |  |  |  |  | 6.11 | 23.7 | 36 |
+|  | 4 |  |  |  |  |  |  |  |  | 5.19 | 25.3 | 50 |
+|  | 8 |  |  |  |  |  |  |  |  | 4.88 | 25.5 | 80 |
+|  |  | 256 |  |  | 32 | 32 |  |  |  | 5.75 | 24.5 | 28 |
+|  |  | 1024 |  |  | 128 | 128 |  |  |  | 4.66 | 26.0 | 168 |
+|  |  |  | 1024 |  |  |  |  |  |  | 5.12 | 25.4 | 53 |
+|  |  |  | 4096 |  |  |  |  |  |  | 4.75 | 26.2 | 90 |
+| (D) |  |  |  |  |  |  | 0.0 |  |  | 5.77 | 24.6 |  |
+|  |  |  |  |  |  |  | 0.2 |  |  | 4.95 | 25.5 |  |
+|  |  |  |  |  |  |  |  | 0.0 |  | 4.67 | 25.3 |  |
+|  |  |  |  |  |  |  |  | 0.2 |  | 5.47 | 25.7 |  |
+| (E) | positional embedding instead of sinusoids |  |  |  |  |  |  |  |  | 4.92 | 25.7 |  |
+| big | 6 | 1024 | 4096 | 16 |  |  | 0.3 |  | 300K | 4.33 | 26.4 | 213 |
 
-development set, newstest2013. We used beam search as described in the previous section, but no checkpoint averaging. We present these results in Table 3.
+development set, newstest2013. We used beam search as described in the previous section, but no checkpoint averaging. We present these results in Table 3
 
 In Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions, keeping the amount of computation constant, as described in Section 3.2.2. While single-head attention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads.
 
-In Table 3 rows (B), we observe that reducing the attention key size d k hurts model quality. This suggests that determining compatibility is not easy and that a more sophisticated compatibility function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected, bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical results to the base model.
+In Table 3 rows (B), we observe that reducing the attention key size $d_k$ hurts model quality. This suggests that determining compatibility is not easy and that a more sophisticated compatibility function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected, bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical results to the base model.
 
 ### 6.3 English Constituency Parsing {#vaswani-2017-attention-s6-3 .section tag=002C}
 
 To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes [37].
 
-We trained a 4-layer transformer with d model = 1024 on the Wall Street Journal (WSJ) portion of the Penn Treebank [25], about 40K training sentences. We also trained it in a semi-supervised setting, using the larger high-confidence and BerkleyParser corpora from with approximately 17M sentences [37]. We used a vocabulary of 16K tokens for the WSJ only setting and a vocabulary of 32K tokens for the semi-supervised setting.
+We trained a 4-layer transformer with $d_{model} = 1024$ on the Wall Street Journal (WSJ) portion of the Penn Treebank [25], about 40K training sentences. We also trained it in a semi-supervised setting, using the larger high-confidence and BerkleyParser corpora from with approximately 17M sentences [37]. We used a vocabulary of 16K tokens for the WSJ only setting and a vocabulary of 32K tokens for the semi-supervised setting.
 
 We performed only a small number of experiments to select the dropout, both attention and residual (section 5.4), learning rates and beam size on the Section 22 development set, all other parameters remained unchanged from the English-to-German base translation model. During inference, we
 
@@ -103,7 +100,7 @@ Table 4: The Transformer generalizes well to English constituency parsing (Resul
 | Luong et al. (2015) [23] | multi-task | 93.0 |
 | Dyer et al. (2016) [8] | generative | 93.3 |
 
-increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3 for both WSJ only and the semi-supervised setting.
+increased the maximum output length to input length + 300. We used a beam size of 21 and $\alpha = 0.3$ for both WSJ only and the semi-supervised setting.
 
 Our results in Table 4 show that despite the lack of task-specific tuning our model performs surprisingly well, yielding better results than all previously reported models with the exception of the Recurrent Neural Network Grammar [8].
 
