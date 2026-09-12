@@ -140,6 +140,66 @@ figures:
       width: 709
       height: 283
       bytes: 22482
+    - paper: devlin-2018-bert
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [75.84, 599.97, 522.24, 778.77]
+      caption: 'Figure 1: Overall pre-training and fine-tuning procedures for BERT. Apart from output layers, the same architectures are used in both pre-training and fine-tuning. The same pre-trained model parameters are used to initialize models for different down-stream tasks. During fine-tuning, all parameters are fine-tuned. [CLS] is a special symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating questions/answers).'
+      sha256: baba1f92407218dcb372372ec379c68c91359f8becf1176103716bbe3bda3c25
+      method: vector
+      page_fraction: 0.16
+      width: 1860
+      height: 745
+      bytes: 168759
+    - paper: devlin-2018-bert
+      figure: f02
+      number: "2"
+      page: 5
+      bbox: [115.68, 674.61, 471.6, 778.77]
+      caption: 'Figure 2: BERT input representation. The input embeddings are the sum of the token embeddings, the segmentation embeddings and the position embeddings.'
+      sha256: 2c987eb166c0ca3b389f1d1e31a396b77d4286f5e18e3e7d252efc52ac4c4f3e
+      method: vector
+      page_fraction: 0.07
+      width: 1483
+      height: 434
+      bytes: 58442
+    - paper: devlin-2018-bert
+      figure: f03
+      number: "3"
+      page: 13
+      bbox: [78.48, 677.25, 525.12, 778.53]
+      caption: 'Figure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT uses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-toleft LSTMs to generate features for downstream tasks. Among the three, only BERT representations are jointly conditioned on both left and right context in all layers. In addition to the architecture differences, BERT and OpenAI GPT are fine-tuning approaches, while ELMo is a feature-based approach.'
+      sha256: 30a15a1b5e9de0e603aa963e19ac508a11487d520f854d5ad3e3d293862c98ee
+      method: vector
+      page_fraction: 0.09
+      width: 1861
+      height: 422
+      bytes: 91655
+    - paper: devlin-2018-bert
+      figure: f04
+      number: "4"
+      page: 15
+      bbox: [118.32, 409.89, 425.28, 462.93]
+      caption: 'Figure 4: Illustrations of Fine-tuning BERT on Different Tasks.'
+      sha256: 86d3b87c0f38c39981c3dfbbfbd8f6f47f93eb3a8eca6e44a630e578eacf6ab5
+      method: vector
+      page_fraction: 0.03
+      width: 1279
+      height: 221
+      bytes: 26319
+    - paper: devlin-2018-bert
+      figure: f05
+      number: "5"
+      page: 16
+      bbox: [74.64, 139.65, 270.72, 270.21]
+      caption: 'Figure 5: Ablation over number of training steps. This shows the MNLI accuracy after fine-tuning, starting from model parameters that have been pre-trained for k steps. The x-axis is the value of k.'
+      sha256: d08e7b42f0bb41cd03bb46bad0e0a68d8165084920ff47b869102eff50497af6
+      method: vector
+      page_fraction: 0.05
+      width: 817
+      height: 544
+      bytes: 49405
     - paper: goodfellow-2014-gan
       figure: f01
       number: "1"
