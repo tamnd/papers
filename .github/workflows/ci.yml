@@ -60,7 +60,7 @@ jobs:
       # the audit grew from eight rules to fifty five, so every green tick
       # here for three releases meant eight rules passed.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.3.1
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.3.2
 
       - name: papers audit --hard
         env:
