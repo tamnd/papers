@@ -8,7 +8,6 @@ year: 2004
 venue: OSDI
 field: systems
 section_title: References
-tag: 008B
 kind: references
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

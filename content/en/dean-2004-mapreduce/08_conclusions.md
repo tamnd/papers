@@ -9,7 +9,6 @@ venue: OSDI
 field: systems
 section: "8"
 section_title: Conclusions
-tag: 008A
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
