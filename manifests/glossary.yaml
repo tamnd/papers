@@ -21,6 +21,13 @@
 # Bump version whenever a term is added or a rendering changes: every
 # translated file records the version it was made under, so a change here
 # makes the files it affects detectably stale.
+#
+# The common flag is neither of those. It says the English word is also an
+# ordinary English word, or that the technical sense has more than one right
+# rendering, and it stops the audit asking for the rendering on the strength
+# of the English word alone. The translator is still offered the term, no
+# rendering changes, and nothing already translated goes stale, so setting it
+# does not move the version.
 version: 6
 terms:
   - en: abstraction
@@ -62,7 +69,10 @@ terms:
     vi: cận
     zh: 界
     ja: 上界・下界
-    note: an upper or lower limit on a quantity, as in a complexity bound
+    common: true
+    note: an upper or lower limit on a quantity, as in a complexity bound; the
+      Japanese is two answers and a bound on a quantity is the first of them
+      alone, which is why the audit does not ask for this one
   - en: branch
     vi: nhánh
     zh: 分支
@@ -88,6 +98,7 @@ terms:
     vi: lớp
     zh: 类
     ja: クラス
+    common: true
     note: in languages a type, in machine learning a label
   - en: classification
     vi: phân loại
@@ -204,12 +215,14 @@ terms:
     zh: 特征
     ja: 特徴量
     fields: [ai-ml, graphics]
+    common: true
     note: an input variable of a model, not a capability of a program
   - en: feature
     vi: tính năng
     zh: 功能
     ja: 機能
     fields: [software, systems, hci, networks, databases, security]
+    common: true
     note: a capability of a program, not an input variable of a model
   - en: framework
     vi: khung
@@ -290,6 +303,7 @@ terms:
     vi: khóa
     zh: 键
     ja: キー
+    common: true
     note: 'in a store what a value is found by, in cryptography a secret; zh: cryptography中通常译为“密钥”，但此处首义是存储系统中的键'
   - en: language model
     vi: mô hình ngôn ngữ
@@ -314,6 +328,8 @@ terms:
     vi: thư viện
     zh: 库
     ja: ライブラリ
+    common: true
+    note: the collection of code, not the building with books in it
   - en: load balancing
     vi: cân bằng tải
     zh: 负载均衡
@@ -434,6 +450,7 @@ terms:
     vi: thủ tục
     zh: 过程
     ja: 手続き
+    common: true
   - en: process
     vi: tiến trình
     zh: 进程
@@ -508,6 +525,7 @@ terms:
     vi: mẫu
     zh: 样本
     ja: サンプル
+    common: true
   - en: scalability
     vi: khả năng mở rộng
     zh: 可扩展性
@@ -533,6 +551,7 @@ terms:
     vi: chuỗi
     zh: 序列
     ja: シーケンス
+    common: true
   - en: sequence length
     vi: độ dài chuỗi
     zh: 序列长度
@@ -575,6 +594,7 @@ terms:
     vi: trạng thái
     zh: 状态
     ja: 状態
+    common: true
   - en: state machine
     vi: máy trạng thái
     zh: 状态机
