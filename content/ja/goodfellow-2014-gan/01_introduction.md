@@ -23,7 +23,7 @@ pdf_sha256: ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63
 pdf_pages: 1-2
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: 161f9121f60f6d2688a87b80fedc4aa367b50d309b6d0c1ea5024456ca24aea4
+content_sha256: ac10dbe7345dfc788c1bf4bc3c831bcff7982f445204e3b2bc8127102b60cbdb
 translated_from: content/en/goodfellow-2014-gan/01_introduction.md
 source_content_sha256: 8cff2016cc5d3b4dd011b7208fdc0d32f9d8fa354a6c940d4eeb6be58318d257
 translation_model: gpt-5
@@ -42,6 +42,6 @@ roundtrip_run: 20260914T070941Z
 [^1]: Jean Pouget-AbadieはEcole PolytechniqueからUniversité de Montréalに滞在中である。
 [^2]: Sherjil OzairはIndian Institute of Technology DelhiからUniversité de Montréalに滞在中である。
 [^3]: Yoshua BengioはCIFAR Senior Fellowである。
-[^4]: すべてのコードおよびハイパーパラメータは[http://www.github.com/goodfeli/adversarial](http://www.github.com/goodfeli/adversarial)で利用可能である。
+[^4]: すべてのコードおよびハイパーパラメータはhttp://www.github.com/goodfeli/adversarialで利用可能である。
 
 このフレームワークは、多くの種類のモデルおよび最適化アルゴリズムに対して具体的な学習アルゴリズムを与えることができる。本稿では、生成モデルがランダムノイズを多層パーセプトロンに通すことでサンプルを生成し、識別モデルもまた多層パーセプトロンであるという特殊な場合を検討する。この特殊な場合を*adversarial nets*と呼ぶ。この場合、非常に成功を収めている誤差逆伝播法およびドロップアウトのアルゴリズム[17]のみを用いて両方のモデルを学習でき、生成モデルからのサンプリングも順伝播のみを用いて行うことができる。近似推論やマルコフ連鎖は不要である。
