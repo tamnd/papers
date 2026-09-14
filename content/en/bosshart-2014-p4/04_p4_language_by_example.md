@@ -26,7 +26,7 @@ pdf_sha256: 2bb0ccb7b5410868efdecc9ef5208d235c6f3aa75dee84aa992751aed117a42f
 pdf_pages: 4-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 24413c13df1e70b3110a60b447ad2d111d385d331e5d1f4c69927d24d384703d
+content_sha256: 38febf1d6dc10fb4a818de5f4c83b224e6407fbf26b752bb33e90de845423d9d
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -52,6 +52,7 @@ Next, we show how each of these components contributes to the definition of an i
 
 A design begins with the specification of header formats. Several domain-specific languages have been proposed for this [13, 14, 15]; P4 borrows a number of ideas from them. In general, each header is specified by declaring an ordered list of field names together with their widths. Optional field annotations allow constraints on value ranges or maximum lengths for variable-sized fields. For example, standard Ethernet and VLAN headers are specified as follows:
 
+```text
 header ethernet {
     fields {
         dst_addr : 48; // width in bits
@@ -68,9 +69,11 @@ header vlan {
         ethertype : 16;
     }
 }
+```
 
 The mTag header can be added without altering existing declarations. The field names indicate that the core has two layers of aggregation. Each core switch is programmed with rules to examine one of these bytes determined by its location in the hierarchy and the direction of travel (up or down).
 
+```text
 header mTag {
     fields {
         up1 : 8;
@@ -80,6 +83,7 @@ header mTag {
         ethertype : 16;
     }
 }
+```
 
 ### 4.3 The Packet Parser {#bosshart-2014-p4-s4-3 .section tag=0097}
 
@@ -87,6 +91,7 @@ P4 assumes the underlying switch can implement a state machine that traverses pa
 
 P4 describes this state machine directly as the set of transitions from one header to the next. Each transition may be triggered by values in the current header. For example, we describe the mTag state machine as follows.
 
+```text
 parser start{
 ethernet;
 }
@@ -114,6 +119,7 @@ parser mTag {
         // Other cases
     }
 }
+```
 
 Parsing starts in the start state and proceeds until an explicit stop state is reached or an unhandled case is encountered (which may be marked as an error). Upon reaching a state for a new header, the state machine extracts the header using its specification and proceeds to identify its next transition. The extracted headers are forwarded to match+action processing in the back-half of the switch pipeline.
 
@@ -127,8 +133,8 @@ In our simple $mTag$ example, the edge switch matches on the L2 destination and 
 
 The table specification allows a compiler to decide how much memory it needs, and the memory type (e.g., TCAM or SRAM) to implement the table.
 
+```text
 table mTag_table {
-
 reads {
         ethernet.dst_addr : exact;
         vlan.vid : exact;
@@ -140,9 +146,11 @@ reads {
     }
     max_size : 20000;
 }
+```
 
 For completeness and for later discussion, we present brief definitions of other tables that are referenced by the Control Program (\S4.6).
 
+```text
 table source_check {
     // Verify mtag only on ports to the core
     reads {
@@ -152,10 +160,8 @@ table source_check {
     actions { // Each table entry specifies *one* action
         // If inappropriate mTag, send to CPU
         fault_to_cpu;
-
 // If mtag found, strip and record in metadata
         strip_mtag;
-
 // Otherwise, allow the packet to continue
         pass;
     }
@@ -172,6 +178,7 @@ table egress_check {
     // Do not retag packets received with tag
     // Reads egress and whether packet was mTagged
 }
+```
 
 ### 4.5 Action Specifications {#bosshart-2014-p4-s4-5 .section tag=0124}
 
@@ -179,6 +186,7 @@ P4 defines a collection of primitive actions from which more complicated actions
 
 The **add_mTag** action referred to above is implemented as follows:
 
+```text
 action add_mTag(up1, up2, down1, down2, egr_spec) {
     add_header(mTag);
     // Copy VLAN ethertype to mTag
@@ -189,10 +197,10 @@ set_field(mTag.up1, up1);
 set_field(mTag.up2, up2);
 set_field(mTag.down1, down1);
 set_field(mTag.down2, down2);
-
 // Set the destination egress port as well
 set_field(metadata.egress_spec, egr_spec);
 }
+```
 
 If an action needs parameters (e.g., the up1 value for the mTag), it is supplied from the match table at runtime.
 
@@ -221,21 +229,20 @@ The local_switching table is then executed. If this table “misses,” it indic
 
 The imperative representation of this packet processing pipeline is as follows:
 
+```text
 control main() {
     // Verify mTag state and port are consistent
     table(source_check);
-
 // If no error from source_check, continue
     if (!defined(metadata.ingress_error)) {
         // Attempt to switch to end hosts
         table(local_switching);
-
 if (!defined(metadata.egress_spec)) {
             // Not a known local host; try mtagging
             table(mTag_table);
         }
-
 // Check for unknown egress state or bad retagging with mTag.
         table(egress_check);
     }
 }
+```
