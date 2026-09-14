@@ -32,6 +32,8 @@ translation_run: 20260914T163737Z
 glossary_version: 6
 glossary_terms_sha256: a534ae50d60bff0e03804fd3c150e37d1876484531ab87df9c72dc4d0c455eb2
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T214350Z
 ---
 
 Spanner: Cơ sở dữ liệu phân tán toàn cầu của Google

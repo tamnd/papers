@@ -33,6 +33,8 @@ translation_run: 20260914T201546Z
 glossary_version: 6
 glossary_terms_sha256: a534ae50d60bff0e03804fd3c150e37d1876484531ab87df9c72dc4d0c455eb2
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T214350Z
 ---
 
 Chúng tôi đã dành phần lớn năm vừa qua làm việc với nhóm F1 để chuyển backend quảng cáo của Google từ MySQL sang Spanner. Chúng tôi đang tích cực cải thiện các công cụ giám sát và hỗ trợ của nó, cũng như tinh chỉnh hiệu năng của nó. Ngoài ra, chúng tôi đã làm việc để cải thiện chức năng và hiệu năng của hệ thống sao lưu/khôi phục của mình. Hiện tại chúng tôi đang triển khai ngôn ngữ lược đồ Spanner, việc bảo trì tự động các chỉ mục thứ cấp, và việc phân mảnh lại dựa trên tải tự động. Về dài hạn, có một vài tính năng mà chúng tôi dự định nghiên cứu. Thực hiện các thao tác đọc song song một cách lạc quan có thể là một chiến lược có giá trị để theo đuổi, nhưng các thử nghiệm ban đầu đã chỉ ra rằng việc triển khai đúng không hề tầm thường. Ngoài ra, chúng tôi dự định cuối cùng sẽ hỗ trợ các thay đổi trực tiếp của các cấu hình Paxos [22, 34].
