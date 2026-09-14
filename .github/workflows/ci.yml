@@ -62,7 +62,7 @@ jobs:
       # v0.4.0 for four more, which is the second time, so the paragraph
       # above is a warning and not a story about the past.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.6.3
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.7.3
 
       - name: papers audit --hard
         env:

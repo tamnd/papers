@@ -25,7 +25,7 @@ pdf_sha256: 61875779e75f603d21aefba6d9bd9816d4dd0c18cf41089f43707249e24bbf88
 pdf_pages: 2-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 9de2aa4ca1dc68c609189a4ceded7e2873f5d4b89501935db21227ab19d4c300
+content_sha256: 824c517dc3bb6707da0f5607a35f6b2c4f083b94bb3a19d05ac9be99a7032886
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -45,7 +45,9 @@ Figure 1: Spanner server organization. {#corbett-2012-spanner-fig-1 .figure tag=
 
 This section focuses on the spanserver implementation to illustrate how replication and distributed transactions have been layered onto our Bigtable-based implementation. The software stack is shown in Figure 2. At the bottom, each spanserver is responsible for between 100 and 1000 instances of a data structure called a tablet. A tablet is similar to Bigtable’s tablet abstraction, in that it implements a bag of the following mappings:
 
+```text
 (key:string, timestamp:int64) → string
+```
 
 Unlike Bigtable, Spanner assigns timestamps to data, which is an important way in which Spanner is more like a multi-version database than a key-value store. A tablet’s state is stored in set of B-tree-like files and a write-ahead log, all on a distributed file system called Colossus (the successor to the Google File System [[ghemawat-2003-gfs]]).
 
@@ -81,6 +83,7 @@ Spanner’s data model is not purely relational, in that rows must have names. M
 
 Figure 4 contains an example Spanner schema for storing photo metadata on a per-user, per-album basis. The schema language is similar to Megastore’s, with the additional requirement that every Spanner database must be partitioned by clients into one or more hierarchies of tables. Client applications declare the hierarchies in database schemas via the INTERLEAVE IN declarations. The table at the top of a hierarchy is a directory table. Each row in a directory table with key $K$, together with all of the rows in descendant tables that start with $K$ in lexicographic order, forms a directory. ON DELETE CASCADE says that deleting a row in the directory table deletes any associated child rows. The figure also illustrates the interleaved layout for the example database: for
 
+```text
 CREATE TABLE Users {
     uid INT64 NOT NULL, email STRING
 } PRIMARY KEY (uid), DIRECTORY;
@@ -90,6 +93,7 @@ CREATE TABLE Albums {
     name STRING
 } PRIMARY KEY (uid, aid),
 INTERLEAVE IN PARENT Users ON DELETE CASCADE;
+```
 
 | Users(1) | Albums(1,1) | Albums(1,2) | Users(2) | Albums(2,1) | Albums(2,2) | Albums(2,3) |
 | --- | --- | --- | --- | --- | --- | --- |
