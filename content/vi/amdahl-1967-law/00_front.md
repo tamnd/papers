@@ -1,0 +1,46 @@
+---
+paper: amdahl-1967-law
+title: Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities
+authors:
+  - Gene M. Amdahl
+year: 1967
+venue: AFIPS Spring Joint Computer Conference
+field: architecture
+section_title: Front Matter
+tag: "0003"
+kind: front
+lang: vi
+source: https://www3.cs.stonybrook.edu/~rezaul/Spring-2012/CSE613/reading/Amdahl-1967.pdf
+pdf_sha256: 81a363deb884ca23e495280eb9229df1064b4b3f79d662f270be35b50bea5318
+pdf_pages: "1"
+extraction: native
+extraction_model: pdftotext version 26.09.0
+content_sha256: 40cf8a34a51ce2ca3246e33777b3e126facd9ad17ed1bff3987929bcadf3e58e
+translated_from: content/en/amdahl-1967-law/00_front.md
+source_content_sha256: 7bd3eb6f14dec478b2dae3bfdd6d3934b5f48e638476f1e6eb87cdcc8adb9198
+translation_model: gpt-5
+translation_run: 20260914T201546Z
+glossary_version: 6
+glossary_terms_sha256: 1f83355a83baacb04f1185b8bd47b133f28d2f764f5d7ae919d5d9d0d7e083ee
+prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+---
+
+TÀI LIỆU KỸ THUẬT
+
+Tính hợp lệ của phương pháp bộ xử lý đơn trong việc
+
+Đạt được các khả năng tính toán quy mô lớn
+
+Tái bản từ AFIPS Conference Proceedings, Tập 30 (Atlantic City, N.J., 18–20 tháng 4), AFIPS Press, Reston, Va., 1967, trang 483–485, khi Tiến sĩ Amdahl đang làm việc tại International
+
+Business Machines Corporation, Sunnyvale, California
+
+Tiến sĩ Gene M. Amdahl
+
+Bài báo này là công bố đầu tiên của Gene Amdahl về điều sau này được biết đến là Định luật Amdahl. Điều thú vị là bài báo không có phương trình nào và chỉ có một hình duy nhất. Trong số báo này của SSCS News, Tiến sĩ Amdahl đã đồng ý vẽ lại hình đó. Trong bản in cứng hiện có, hình này không thể đọc được. Chúng tôi in bài báo lịch sử này để cho phép các thành viên đọc nguồn gốc ban đầu từ khoảng 40 năm trước.
+
+Các Biên tập viên
+
+Trong hơn một thập kỷ, các nhà tiên tri đã đưa ra quan điểm rằng việc tổ chức một máy tính đơn đã đạt đến giới hạn của nó và những tiến bộ thực sự đáng kể chỉ có thể đạt được bằng cách kết nối nhiều máy tính theo cách cho phép giải quyết hợp tác. Theo nhiều hướng khác nhau, hướng đi thích hợp đã được chỉ ra là các máy tính mục đích chung với sự kết nối tổng quát của các bộ nhớ, hoặc các máy tính chuyên dụng với các kết nối bộ nhớ có quan hệ hình học và được điều khiển bởi một hoặc nhiều luồng lệnh.
+
+Sự chứng minh được đưa ra về tính hợp lệ tiếp tục của phương pháp bộ xử lý đơn và những điểm yếu của phương pháp đa bộ xử lý xét về việc áp dụng vào các bài toán thực tế cùng với những bất thường đi kèm của chúng.
