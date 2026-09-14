@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 Chúng tôi đã huấn luyện các mạng đối kháng trên một loạt tập dữ liệu, bao gồm MNIST[[lecun-1998-lenet]], Toronto Face Database (TFD) [28] và CIFAR-10 [21]. Các mạng sinh sử dụng sự kết hợp giữa các hàm kích hoạt tuyến tính chỉnh lưu [19, 9] và các hàm kích hoạt sigmoid, trong khi mạng phân biệt sử dụng các hàm kích hoạt maxout [10]. Dropout [17] được áp dụng trong quá trình huấn luyện mạng phân biệt. Mặc dù khung lý thuyết của chúng tôi cho phép sử dụng dropout và các nhiễu khác tại các lớp trung gian của bộ sinh, chúng tôi chỉ sử dụng nhiễu làm đầu vào cho lớp thấp nhất của mạng bộ sinh.

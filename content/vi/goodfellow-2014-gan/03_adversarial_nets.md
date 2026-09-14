@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T070941Z
 ---
 
 Khung mô hình hóa đối kháng được áp dụng một cách trực tiếp nhất khi các mô hình đều là các perceptron nhiều lớp. Để học phân phối của bộ sinh $p_g$ trên dữ liệu $\boldsymbol{x}$, chúng tôi định nghĩa một phân phối tiên nghiệm trên các biến nhiễu đầu vào $p_z(\boldsymbol{z})$, sau đó biểu diễn một ánh xạ tới không gian dữ liệu dưới dạng $G(\boldsymbol{z}; \theta_g)$, trong đó $G$ là một hàm khả vi được biểu diễn bởi một perceptron nhiều lớp với các tham số $\theta_g$. Chúng tôi cũng định nghĩa một perceptron nhiều lớp thứ hai $D(\boldsymbol{x}; \theta_d)$ cho ra một giá trị vô hướng duy nhất. $D(\boldsymbol{x})$ biểu diễn xác suất rằng $\boldsymbol{x}$ đến từ dữ liệu thay vì từ $p_g$. Chúng tôi huấn luyện $D$ để cực đại hóa xác suất gán nhãn đúng cho cả các ví dụ huấn luyện và các mẫu từ $G$. Đồng thời, chúng tôi huấn luyện $G$ để cực tiểu hóa $\log(1 - D(G(\boldsymbol{z})))$:

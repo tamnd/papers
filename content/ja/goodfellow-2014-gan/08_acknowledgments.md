@@ -29,6 +29,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: 58c68d890f07ae3e920d6d07238da8d409da407f972fdd92b14f9e3f1e0382a4
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: same
+roundtrip_run: 20260914T070941Z
 ---
 
 有益な議論をしてくださったPatrice Marcotte、Olivier Delalleau、Kyunghyun Cho、Guillaume Alain、およびJason Yosinskiに感謝する。Yann DauphinはParzen window評価コードを共有してくださった。Pylearn2 [12]およびTheano [7, 1]の開発者たち、とりわけ本プロジェクトのために特別にTheanoの機能を共有してくださったFrédéric Bastienに感謝する。Arnaud Bergeronは$\LaTeX$組版に関して不可欠な支援を提供してくださった。また、資金提供を行ったCIFARおよびCanada Research Chairs、ならびに計算リソースを提供したCompute CanadaおよびCalcul Québecにも感謝する。Ian Goodfellowは2013 Google Fellowship in Deep Learningの支援を受けている。最後に、我々の創造性を刺激してくれたLes Trois Brasseursに感謝する。

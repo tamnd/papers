@@ -21,7 +21,7 @@
 # Bump version whenever a term is added or a rendering changes: every
 # translated file records the version it was made under, so a change here
 # makes the files it affects detectably stale.
-version: 5
+version: 6
 terms:
   - en: abstraction
     vi: trừu tượng hóa
@@ -337,6 +337,11 @@ terms:
     vi: ánh xạ
     zh: 映射
     ja: 写像
+  - en: Markov chain
+    vi: chuỗi Markov
+    zh: 马尔可夫链
+    ja: マルコフ連鎖
+    note: the whole phrase, so that chain inside it is not asked for on its own
   - en: memory
     vi: bộ nhớ
     zh: 内存
@@ -621,6 +626,12 @@ terms:
     zh: 训练数据
     ja: 学習データ
     fields: [ai-ml]
+  - en: training objective
+    vi: mục tiêu huấn luyện
+    zh: 训练目标
+    ja: 学習目的
+    fields: [ai-ml]
+    note: the whole phrase, and not always the function itself
   - en: transaction
     vi: giao dịch
     zh: 事务

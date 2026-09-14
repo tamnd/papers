@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T070941Z
 ---
 
 Khung mới này có cả ưu điểm và nhược điểm so với các khung mô hình hóa trước đây. Nhược điểm chủ yếu là không có biểu diễn tường minh của $p_g(x)$, và $D$ phải được đồng bộ tốt với $G$ trong quá trình huấn luyện (cụ thể, $G$ không được huấn luyện quá nhiều mà không cập nhật $D$, nhằm tránh “kịch bản Helvetica”, trong đó $G$ làm sụp đổ quá nhiều giá trị của $\mathbf{z}$ về cùng một giá trị của $\mathbf{x}$ khiến không đủ tính đa dạng để mô hình hóa $p_{\text{data}}$), tương tự như việc các chuỗi âm của máy Boltzmann phải được cập nhật giữa các bước học. Ưu điểm là không bao giờ cần các chuỗi Markov, chỉ sử dụng backprop để thu được gradient, không cần suy luận trong quá trình học, và có thể đưa nhiều loại hàm khác nhau vào mô hình. Bảng 2 tóm tắt sự so sánh giữa các mạng đối sinh và các phương pháp mô hình hóa sinh khác.

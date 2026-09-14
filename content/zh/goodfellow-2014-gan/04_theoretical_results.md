@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: aa1a7666eb5aba682ebd624c3c3b22b31572ab7cb642335fce8b31a161208c7e
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 生成器$G$将当$z\sim p_z$时得到的样本$G(z)$的分布隐式定义为概率分布$p_g$。因此，如果给定足够的容量和训练时间，我们希望算法1能够收敛到$p_{\mathrm{data}}$的一个良好估计器。本节的结果是在非参数设定下得到的，例如，我们通过研究概率密度函数空间中的收敛性来表示具有无限容量的模型。

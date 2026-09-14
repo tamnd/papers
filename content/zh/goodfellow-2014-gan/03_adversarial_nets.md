@@ -31,6 +31,8 @@ translation_run: 20260914T063738Z
 glossary_version: 5
 glossary_terms_sha256: aa1a7666eb5aba682ebd624c3c3b22b31572ab7cb642335fce8b31a161208c7e
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T070941Z
 ---
 
 当两个模型都是多层感知机时，对抗建模框架最容易应用。为了学习生成器在数据$\boldsymbol{x}$上的分布$p_g$，我们定义输入噪声变量的先验分布$p_z(\boldsymbol{z})$，然后将到数据空间的映射表示为$G(\boldsymbol{z}; \theta_g)$，其中$G$是一个由参数$\theta_g$的多层感知机表示的可微函数。我们还定义第二个多层感知机$D(\boldsymbol{x}; \theta_d)$，其输出为单个标量。$D(\boldsymbol{x})$表示$\boldsymbol{x}$来自数据而非$p_g$的概率。我们训练$D$以最大化对训练样本和来自$G$的样本都赋予正确标签的概率。同时，我们训练$G$以最小化$\log(1 - D(G(\boldsymbol{z})))$：

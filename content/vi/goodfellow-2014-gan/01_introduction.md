@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T070941Z
 ---
 
 Lời hứa của học sâu là khám phá các mô hình phong phú, có cấu trúc phân cấp [2] biểu diễn các phân phối xác suất trên những loại dữ liệu gặp trong các ứng dụng trí tuệ nhân tạo, chẳng hạn như ảnh tự nhiên, dạng sóng âm thanh chứa tiếng nói và các ký hiệu trong các kho ngữ liệu ngôn ngữ tự nhiên. Cho đến nay, những thành công nổi bật nhất của học sâu liên quan đến các mô hình phân biệt, thường là những mô hình ánh xạ một đầu vào cảm nhận giàu thông tin có số chiều cao thành một nhãn lớp [14], [[krizhevsky-2012-imagenet]]. Những thành công nổi bật này chủ yếu dựa trên các thuật toán backpropagation và dropout, sử dụng các đơn vị tuyến tính từng phần [19, 9, 10] có gradient đặc biệt ổn định. Các mô hình *sinh* sâu có tác động ít hơn, do khó khăn trong việc xấp xỉ nhiều phép tính xác suất không thể xử lý tường minh phát sinh trong ước lượng hợp lý cực đại và các chiến lược liên quan, cũng như do khó khăn trong việc tận dụng lợi ích của các đơn vị tuyến tính từng phần trong bối cảnh sinh dữ liệu. Chúng tôi đề xuất một thủ tục ước lượng mô hình sinh mới giúp tránh được những khó khăn này. [^4]

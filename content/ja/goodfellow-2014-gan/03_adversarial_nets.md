@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: 58c68d890f07ae3e920d6d07238da8d409da407f972fdd92b14f9e3f1e0382a4
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 敵対的モデリングのフレームワークは、両方のモデルが多層パーセプトロンである場合に最も直接的に適用できる。データ$\boldsymbol{x}$上の生成器の分布$p_g$を学習するために、入力ノイズ変数$p_z(\boldsymbol{z})$上の事前分布を定義し、次にデータ空間への写像を$G(\boldsymbol{z}; \theta_g)$として表現する。ここで$G$は、パラメータ$\theta_g$を持つ多層パーセプトロンによって表現される微分可能な関数である。また、単一のスカラーを出力する第2の多層パーセプトロン$D(\boldsymbol{x}; \theta_d)$も定義する。$D(\boldsymbol{x})$は、$\boldsymbol{x}$が$p_g$ではなくデータから来た確率を表す。$D$は、学習例と$G$からのサンプルの両方に正しいラベルを割り当てる確率を最大化するように学習する。同時に、$G$は$\log(1 - D(G(\boldsymbol{z})))$を最小化するように学習する。

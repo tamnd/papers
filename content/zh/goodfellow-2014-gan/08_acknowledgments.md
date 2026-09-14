@@ -29,6 +29,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: aa1a7666eb5aba682ebd624c3c3b22b31572ab7cb642335fce8b31a161208c7e
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 我们感谢Patrice Marcotte、Olivier Delalleau、Kyunghyun Cho、Guillaume Alain和Jason Yosinski所进行的富有帮助的讨论。Yann Dauphin与我们分享了他的Parzen窗评估代码。我们感谢Pylearn2 [12]和Theano [7, 1]的开发者，尤其是Frédéric Bastien，他分享了一项专门为本项目提供帮助的Theano特性。Arnaud Bergeron在$\LaTeX$排版方面提供了极其重要的支持。我们还感谢CIFAR和Canada Research Chairs提供资金支持，并感谢Compute Canada和Calcul Québec提供计算资源。Ian Goodfellow获得了2013年Google深度学习奖学金的资助。最后，我们感谢Les Trois Brasseurs激发了我们的创造力。

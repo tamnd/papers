@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: aa1a7666eb5aba682ebd624c3c3b22b31572ab7cb642335fce8b31a161208c7e
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T070941Z
 ---
 
 我们在多个数据集上训练了对抗网络，包括MNIST[[lecun-1998-lenet]]、Toronto Face Database（TFD）[28]以及CIFAR-10 [21]。生成器网络使用了整流线性激活函数[19, 9]与sigmoid激活函数的混合，而判别器网络使用了maxout [10]激活函数。在训练判别器网络时应用了Dropout [17]。尽管我们的理论框架允许在生成器的中间层使用dropout及其他噪声，但我们仅将噪声作为生成器网络最底层的输入。
