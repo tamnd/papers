@@ -23,7 +23,8 @@ pdf_sha256: ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63
 pdf_pages: 1-2
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: 9f6562ad5828d6212b9bea988b10c6386637a74b4cd1be70d566677234528f95
+content_sha256: 5a9cb9d8d29ef9eae0dfa335085cdd1e9baab52f16325f8a5e0f06e4ef5afc7c
+edited: true
 translated_from: content/en/goodfellow-2014-gan/01_introduction.md
 source_content_sha256: 8cff2016cc5d3b4dd011b7208fdc0d32f9d8fa354a6c940d4eeb6be58318d257
 translation_model: gpt-5
@@ -42,6 +43,6 @@ Trong khung *adversarial nets* được đề xuất, mô hình sinh được đ
 [^1]: Jean Pouget-Abadie đang thăm Université de Montréal từ Ecole Polytechnique.
 [^2]: Sherjil Ozair đang thăm Université de Montréal từ Indian Institute of Technology Delhi
 [^3]: Yoshua Bengio là CIFAR Senior Fellow.
-[^4]: Toàn bộ mã nguồn và các siêu tham số có tại [http://www.github.com/goodfeli/adversarial](http://www.github.com/goodfeli/adversarial)
+[^4]: Toàn bộ mã nguồn và các siêu tham số có tại http://www.github.com/goodfeli/adversarial
 
 Khung này có thể tạo ra các thuật toán huấn luyện cụ thể cho nhiều loại mô hình và thuật toán tối ưu hóa. Trong bài báo này, chúng tôi khảo sát trường hợp đặc biệt khi mô hình sinh tạo các mẫu bằng cách truyền nhiễu ngẫu nhiên qua một perceptron nhiều lớp, và mô hình phân biệt cũng là một perceptron nhiều lớp. Chúng tôi gọi trường hợp đặc biệt này là *adversarial nets*. Trong trường hợp này, chúng tôi có thể huấn luyện cả hai mô hình chỉ bằng các thuật toán backpropagation và dropout rất thành công [17], đồng thời lấy mẫu từ mô hình sinh chỉ bằng lan truyền thuận. Không cần suy luận xấp xỉ hay các chuỗi Markov.
