@@ -9,6 +9,7 @@ venue: OSDI
 field: systems
 section: "5"
 section_title: Performance
+tag: 007D
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
@@ -16,7 +17,7 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: 8-10
 extraction: vision
 extraction_model: gpt-5
-content_sha256: e51b0ffef7526d99690dcf18a86760a798041287cdd7f67df86dfcf903870745
+content_sha256: 8cf6aa8c9061baed7ac0fdb241ab6e791739182324ca75e0a972dc12ffa02be8
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -24,21 +25,21 @@ In this section we measure the performance of MapReduce on two computations runn
 
 These two programs are representative of a large subset of the real programs written by users of MapReduce – one class of programs shuffles data from one representation to another, and another class extracts a small amount of interesting data from a large data set.
 
-### 5.1 Cluster Configuration
+### 5.1 Cluster Configuration {#dean-2004-mapreduce-s5-1 .section tag=007E}
 
-All of the programs were executed on a cluster that consisted of approximately 1800 machines. Each machine had two 2GHz Intel Xeon processors with Hyper-Threading enabled, 4GB of memory, two 160GB IDE disks, and a gigabit Ethernet link. The machines were arranged in a two-level tree-shaped switched network with approximately 100-200 Gbps of aggregate bandwidth available at the root. All of the machines were in the same hosting facility and therefore the round-trip time between any pair of machines was less than a mil- lisecond.
+All of the programs were executed on a cluster that consisted of approximately 1800 machines. Each machine had two 2GHz Intel Xeon processors with Hyper-Threading enabled, 4GB of memory, two 160GB IDE disks, and a gigabit Ethernet link. The machines were arranged in a two-level tree-shaped switched network with approximately 100-200 Gbps of aggregate bandwidth available at the root. All of the machines were in the same hosting facility and therefore the round-trip time between any pair of machines was less than a millisecond.
 
-Figure 2. Data transfer rate over time
+Figure 2. Data transfer rate over time {#dean-2004-mapreduce-fig-2 .figure tag=007F}
 
 Out of the 4GB of memory, approximately 1-1.5GB was reserved by other tasks running on the cluster. The programs were executed on a weekend afternoon, when the CPUs, disks, and network were mostly idle.
 
-### 5.2 Grep
+### 5.2 Grep {#dean-2004-mapreduce-s5-2 .section tag=0080}
 
 The grep program scans through $10^10$ 100-byte records, searching for a relatively rare three-character pattern (the pattern occurs in 92,337 records). The input is split into approximately 64MB pieces ($M = 15000$), and the entire output is placed in one file ($R = 1$).
 
 Figure 2 shows the progress of the computation over time. The Y-axis shows the rate at which the input data is scanned. The rate gradually picks up as more machines are assigned to this MapReduce computation, and peaks at over 30 GB/s when 1764 workers have been assigned. As the map task finishes, the rate starts dropping and hits zero about 80 seconds into the computation. The entire computation takes approximately 150 seconds from start to finish. This includes about a minute of startup overhead. The overhead is due to the propagation of the program to all worker machines, and delays interacting with GFS to open the set of 1000 input files and to get the information needed for the locality optimization.
 
-### 5.3 Sort
+### 5.3 Sort {#dean-2004-mapreduce-s5-3 .section tag=0081}
 
 The sort program sorts $10^10$ 100-byte records (approximately one terabyte of data). This program is modeled after the TeraSort benchmark [10].
 
@@ -50,7 +51,7 @@ The sorting program consists of less than 50 lines of user code. A three-line Ma
 
 (c) 200 tasks killed original text line as the intermediate key/value pair. We used a built-in Identity function as the Reduce operator. This function passes the intermediate key/value pair unchanged as the output key/value pair. The final sorted output is written to a set of 2-way replicated GFS files (i.e., 2 terabytes are written as the output of the program).
 
-Figure 3: Data transfer rates over time for different executions of the sort program
+Figure 3: Data transfer rates over time for different executions of the sort program {#dean-2004-mapreduce-fig-3 .figure tag=0082}
 
 As before, the input data is split into 64MB pieces ($M = 15000$). We partition the sorted output into 4000 files ($R = 4000$). The partitioning function uses the initial bytes of the key to segregate it into one of $R$ pieces.
 
@@ -64,11 +65,11 @@ The bottom-left graph shows the rate at which sorted data is written to the fina
 
 A few things to note: the input rate is higher than the shuffle rate and the output rate because of our locality optimization – most data is read from a local disk and bypasses our relatively bandwidth constrained network. The shuffle rate is higher than the output rate because the output phase writes two copies of the sorted data (we make two replicas of the output for reliability and availability reasons). We write two replicas because that is the mechanism for reliability and availability provided by our underlying file system. Network bandwidth requirements for writing data would be reduced if the underlying file system used erasure coding [14] rather than replication.
 
-### 5.4 Effect of Backup Tasks
+### 5.4 Effect of Backup Tasks {#dean-2004-mapreduce-s5-4 .section tag=0083}
 
 In Figure 3 (b), we show an execution of the sort program with backup tasks disabled. The execution flow is similar to that shown in Figure 3 (a), except that there is a very long tail where hardly any write activity occurs. After 960 seconds, all except 5 of the reduce tasks are completed. The last few stragglers don’t finish until 300 seconds later. The entire computation takes 1283 seconds, an increase of 44% in elapsed time.
 
-### 5.5 Machine Failures
+### 5.5 Machine Failures {#dean-2004-mapreduce-s5-5 .section tag=0084}
 
 In Figure 3 (c), we show an execution of the sort program where we intentionally killed 200 out of 1746 worker processes several minutes into the computation. The underlying cluster scheduler immediately restarted new worker processes on these machines (since only the processes were killed, the machines were still functioning properly).
 

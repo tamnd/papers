@@ -26,7 +26,7 @@ pdf_sha256: 2bb0ccb7b5410868efdecc9ef5208d235c6f3aa75dee84aa992751aed117a42f
 pdf_pages: 4-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 10d3d6e554bea52f4af8a6cd59295f0cdbc92a3a8849778db6f92bf601406643
+content_sha256: 24413c13df1e70b3110a60b447ad2d111d385d331e5d1f4c69927d24d384703d
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -87,7 +87,8 @@ P4 assumes the underlying switch can implement a state machine that traverses pa
 
 P4 describes this state machine directly as the set of transitions from one header to the next. Each transition may be triggered by values in the current header. For example, we describe the mTag state machine as follows.
 
-parser start{ ethernet;
+parser start{
+ethernet;
 }
 
 parser ethernet {
@@ -182,7 +183,6 @@ action add_mTag(up1, up2, down1, down2, egr_spec) {
     add_header(mTag);
     // Copy VLAN ethertype to mTag
     copy_field(mTag.ethertype, vlan.ethertype);
-
 // Set VLAN’s ethertype to signal mTag
 set_field(vlan.ethertype, 0xaaaa);
 set_field(mTag.up1, up1);

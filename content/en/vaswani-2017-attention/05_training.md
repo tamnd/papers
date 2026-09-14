@@ -24,7 +24,7 @@ pdf_pages: 7-8
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 0cac3dc6c1258470ff9423d372c6196c3b2c85bbe42096fbc3aa31d1f1333524
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
 This section describes the training regime for our models.

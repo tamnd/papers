@@ -9,6 +9,7 @@ venue: OSDI
 field: systems
 section: "6"
 section_title: Experience
+tag: "0085"
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
@@ -16,7 +17,7 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: 10-11
 extraction: vision
 extraction_model: gpt-5
-content_sha256: 81d9713251175e112801515930e1ddbad94909752d202a67e52b711731483722
+content_sha256: bcdb99888edac503b375930673b2bb2cf6f4d95a9ed5da9409f472e8dbce720c
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -28,7 +29,7 @@ We wrote the first version of the MapReduce library in February of 2003, and mad
 - extraction of properties of web pages for new experiments and products (e.g. extraction of geographical locations from a large corpus of web pages for localized search), and
 - large-scale graph computations.
 
-Figure 4. MapReduce instances over time
+Figure 4. MapReduce instances over time {#dean-2004-mapreduce-fig-4 .figure tag=0086}
 
 ```text
 Number of jobs                                      29,423
@@ -46,13 +47,13 @@ Unique reduce implementations                         269
 Unique map/reduce combinations                        426
 ```
 
-Table 1: MapReduce jobs run in August 2004
+Table 1: MapReduce jobs run in August 2004 {#dean-2004-mapreduce-tab-1 .table tag=0087}
 
 Figure 4 shows the significant growth in the number of separate MapReduce programs checked into our primary source code management system over time, from 0 in early 2003 to almost 900 separate instances as of late September 2004. MapReduce has been so successful because it makes it possible to write a simple program and run it efficiently on a thousand machines in the course of half an hour, greatly speeding up the development and prototyping cycle. Furthermore, it allows programmers who have no experience with distributed and/or parallel systems to exploit large amounts of resources easily.
 
 At the end of each job, the MapReduce library logs statistics about the computational resources used by the job. In Table 1, we show some statistics for a subset of MapReduce jobs run at Google in August 2004.
 
-### 6.1 Large-Scale Indexing
+### 6.1 Large-Scale Indexing {#dean-2004-mapreduce-s6-1 .section tag=0088}
 
 One of our most significant uses of MapReduce to date has been a complete rewrite of the production indexing system that produces the data structures used for the Google web search service. The indexing system takes as input a large set of documents that have been retrieved by our crawling system, stored as a set of GFS files. The raw contents for these documents are more than 20 terabytes of data. The indexing process runs as a sequence of five to ten MapReduce operations. Using MapReduce (instead of the ad-hoc distributed passes in the prior version of the indexing system) has provided several benefits:
 

@@ -9,7 +9,9 @@ authors:
 year: 2018
 venue: NAACL
 field: ai-ml
-section_title: C Additional Ablation Studies
+section: C
+section_title: Additional Ablation Studies
+tag: 01A7
 kind: appendix
 lang: en
 source: arxiv:1810.04805

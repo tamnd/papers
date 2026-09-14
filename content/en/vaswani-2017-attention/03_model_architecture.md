@@ -23,8 +23,8 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 2-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 18993a944a2828586d262d65f87df266353a3e63c0250fcc15e87c1bb15dcd58
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: 3ce3cab88fbfd7a058ce48ff85df1b9e88cd5494c5a8b679ebe0c11bd8779ea3
+prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
 Most competitive neural sequence transduction models have an encoder-decoder structure [5], [2], [[sutskever-2014-seq2seq]]. Here, the encoder maps an input sequence of symbol representations $(x_1, ..., x_n)$ to a sequence of continuous representations $z = (z_1, ..., z_n)$. Given $z$, the decoder then generates an output sequence $(y_1, ..., y_m)$ of symbols one element at a time. At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.
@@ -41,11 +41,9 @@ Decoder: The decoder is also composed of a stack of $N = 6$ identical layers. In
 
 ### 3.2 Attention {#vaswani-2017-attention-s3-2 .section tag=0018}
 
-An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
+An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
 
 Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel. {#vaswani-2017-attention-fig-2 .figure tag=0019}
-
-of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
 
 ### 3.2.1 Scaled Dot-Product Attention {#vaswani-2017-attention-s3-2-1 .section tag=001A}
 

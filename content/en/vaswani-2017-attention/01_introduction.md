@@ -24,7 +24,7 @@ pdf_pages: "2"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: ce264b2ad5a9bb5375e2272b407b8547989c49d7cd3813b0f17c77a2fefda93b
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
 Recurrent neural networks, long short-term memory [[hochreiter-1997-lstm]] and gated recurrent [7] neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation [[sutskever-2014-seq2seq]], [2], [5]. Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures [38, 24, 15].

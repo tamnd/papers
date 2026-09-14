@@ -9,6 +9,7 @@ venue: OSDI
 field: systems
 section: "1"
 section_title: Introduction
+tag: 006B
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

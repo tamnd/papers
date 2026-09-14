@@ -25,7 +25,7 @@ pdf_sha256: 61875779e75f603d21aefba6d9bd9816d4dd0c18cf41089f43707249e24bbf88
 pdf_pages: 9-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 608bb034bfdb7600560cf96945da5b214b38a14c0ea0fe4a65d1b7f5396df46b
+content_sha256: c9c10f1c76c4c385602bfd1a438bf03cb71243d3ac151292d10068ebd24133fa
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -69,11 +69,9 @@ We can also see the effect of the fact that Paxos leader leases are set to 10 se
 
 Two questions must be answered with respect to TrueTime: is $\epsilon$ truly a bound on clock uncertainty, and how bad does $\epsilon$ get? For the former, the most serious problem would be if a local clock’s drift were greater than 200us/sec: that would break assumptions made by TrueTime. Our machine statistics show that bad CPUs are 6 times more likely than bad clocks. That is, clock issues are extremely infrequent, relative to much more serious hardware problems. As a result, we believe that TrueTime’s implementation is as trustworthy as any other piece of software upon which Spanner depends.
 
-Figure 6 presents TrueTime data taken at several thousand spanserver machines across datacenters up to 2200
+Figure 6 presents TrueTime data taken at several thousand spanserver machines across datacenters up to 2200 km apart. It plots the 90th, 99th, and 99.9th percentiles of $\epsilon$, sampled at timeslave daemons immediately after polling the time masters. This sampling elides the sawtooth in $\epsilon$ due to local-clock uncertainty, and therefore measures time-master uncertainty (which is generally 0) plus communication delay to the time masters.
 
 Figure 6: Distribution of TrueTime $\epsilon$ values, sampled right after timeslave daemon polls the time masters. 90th, 99th, and 99.9th percentiles are graphed. {#corbett-2012-spanner-fig-6 .figure tag=00B9}
-
-km apart. It plots the 90th, 99th, and 99.9th percentiles of $\epsilon$, sampled at timeslave daemons immediately after polling the time masters. This sampling elides the sawtooth in $\epsilon$ due to local-clock uncertainty, and therefore measures time-master uncertainty (which is generally 0) plus communication delay to the time masters.
 
 The data shows that these two factors in determining the base value of $\epsilon$ are generally not a problem. However, there can be significant tail-latency issues that cause higher values of $\epsilon$. The reduction in tail latencies beginning on March 30 were due to networking improvements that reduced transient network-link congestion. The increase in $\epsilon$ on April 13, approximately one hour in duration, resulted from the shutdown of 2 time masters at a datacenter for routine maintenance. We continue to investigate and remove causes of TrueTime spikes.
 

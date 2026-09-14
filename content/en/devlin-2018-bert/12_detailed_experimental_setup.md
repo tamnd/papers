@@ -9,7 +9,9 @@ authors:
 year: 2018
 venue: NAACL
 field: ai-ml
-section_title: B Detailed Experimental Setup
+section: B
+section_title: Detailed Experimental Setup
+tag: 01A6
 kind: appendix
 lang: en
 source: arxiv:1810.04805

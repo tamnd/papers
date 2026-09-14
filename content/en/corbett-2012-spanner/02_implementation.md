@@ -25,7 +25,7 @@ pdf_sha256: 61875779e75f603d21aefba6d9bd9816d4dd0c18cf41089f43707249e24bbf88
 pdf_pages: 2-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 5ff4ae7e221aaf6317af3035619f0de368016df5492474672c2d249bcb55149c
+content_sha256: 9de2aa4ca1dc68c609189a4ceded7e2873f5d4b89501935db21227ab19d4c300
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -96,8 +96,6 @@ INTERLEAVE IN PARENT Users ON DELETE CASCADE;
 
 Directory 3665
 
-Directory 453
+Directory 453 example, Albums $(2,1)$ represents the row from the Albums table for user_id 2, album_id 1. This interleaving of tables to form directories is significant because it allows clients to describe the locality relationships that exist between multiple tables, which is necessary for good performance in a sharded, distributed database. Without it, Spanner would not know the most important locality relationships.
 
 Figure 4: Example Spanner schema for photo metadata, and the interleaving implied by INTERLEAVE IN. {#corbett-2012-spanner-fig-4 .figure tag=00A4}
-
-example, Albums $(2,1)$ represents the row from the Albums table for user_id 2, album_id 1. This interleaving of tables to form directories is significant because it allows clients to describe the locality relationships that exist between multiple tables, which is necessary for good performance in a sharded, distributed database. Without it, Spanner would not know the most important locality relationships.

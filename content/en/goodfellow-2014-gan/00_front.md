@@ -22,7 +22,7 @@ pdf_sha256: ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63
 pdf_pages: "1"
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: c265cba67355836c7114c3970907c02f98e48871dec6b14aad433176ef193cb2
+content_sha256: a4e28d68ff58a1ca69f29c4a8a52e6c2dcd135d63d9462b4b91a1eb91d010ffd
 prompt_sha256: d53a8bfa14d5deec1eabb71e8a2ea2db8c42f516778942c09f3051aa50a9397f
 ---
 
@@ -32,9 +32,7 @@ Generative Adversarial Nets
 
 Département d’informatique et de recherche opérationnelle  
 Université de Montréal  
-Montréal, QC H3C 3J7
-
-arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
+Montréal, QC H3C 3J7 arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
 
 Abstract
 
