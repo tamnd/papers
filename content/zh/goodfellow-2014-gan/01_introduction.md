@@ -23,8 +23,7 @@ pdf_sha256: ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63
 pdf_pages: 1-2
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: 9e2ac41771e7feb08b85639feedc230eea1ec88406c9048ccb37cf3e7d86389b
-edited: true
+content_sha256: 382cac28246474e3249266a25e1ac68dcbfa53bf5fdd1787cf2ce36df79982e2
 translated_from: content/en/goodfellow-2014-gan/01_introduction.md
 source_content_sha256: 8cff2016cc5d3b4dd011b7208fdc0d32f9d8fa354a6c940d4eeb6be58318d257
 translation_model: gpt-5
@@ -43,6 +42,6 @@ roundtrip_run: 20260914T070941Z
 [^1]: Jean Pouget-Abadie从Ecole Polytechnique访问蒙特利尔大学。
 [^2]: Sherjil Ozair从Indian Institute of Technology Delhi访问蒙特利尔大学
 [^3]: Yoshua Bengio是CIFAR高级研究员。
-[^4]: 所有代码和超参数可在http://www.github.com/goodfeli/adversarial获得
+[^4]: 所有代码和超参数可在[http://www.github.com/goodfeli/adversarial](http://www.github.com/goodfeli/adversarial)获得
 
 该框架能够为多种类型的模型和优化算法导出具体的训练算法。本文探索一种特殊情形：生成模型通过将随机噪声传入多层感知机来生成样本，而判别模型也是一个多层感知机。我们将这一特殊情形称为*对抗网络*。在这种情况下，我们只需使用极其成功的反向传播和Dropout算法[17]即可训练两个模型，并且只需前向传播即可从生成模型中采样。不需要近似推理或马尔可夫链。
