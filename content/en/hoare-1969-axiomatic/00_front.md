@@ -16,7 +16,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 24f88c8444e3fd377fa1494d7d18cc301a70c0ea0fda94eee2221c36ef78b271
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
 An Axiomatic Basis for Computer Programming

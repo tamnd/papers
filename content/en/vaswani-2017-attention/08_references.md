@@ -22,8 +22,8 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 10-15
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 6bcbcb7b4c3545df8bb4a677e6729ddf457a33acfde846b28ce35316e229991c
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: 1dc169475673a49bb14bd29def8a3ded0b6419ab614b629ee699263edb8fa5b2
+prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
 [1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.
@@ -120,26 +120,16 @@ Input-Input Layer5
 
 The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad>
 
-Input-Input The Law never Layer5 just this what are <pad>
+Input-Input The Law never Layer5 just this what are <pad> , - , . perfect should opinion <EOS> will be but its be is we in my
 
-, - , . perfect should opinion <EOS> will be but its be is we in my
-
-The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad>
-
-, - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
+The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
 
 Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word. {#vaswani-2017-attention-fig-4 .figure tag=0031}
 
 Input-Input Layer5
 
-The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad>
+The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . Input-Input perfect Layer5 should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
 
-, - , . Input-Input perfect Layer5 should opinion <EOS>
-
-will be but its be is we in my The Law never just this what are <pad>
-
-The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad>
-
-, - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
+The Law will never be perfect , but its should be just - this is what we are , in my opinion . <EOS> <pad> , - , . perfect should opinion <EOS> will be but its be is we in my The Law never just this what are <pad>
 
 Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks. {#vaswani-2017-attention-fig-5 .figure tag=0032}

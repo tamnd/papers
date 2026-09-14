@@ -16,7 +16,7 @@ pdf_sha256: c2961e078943a26ae1f752b202290f561578b7ecf8b24b8929e3c1f99e6b2c52
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 326c3043a5d2c15ce603ddfd07ea950af19f0f9587bb0f8c53dce7b8a3d04f66
+content_sha256: a6a05d1e2fa64ebbc54e884c819aafbf4c93c6f41cf48cf2a3776bbb3204ab53
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -30,9 +30,7 @@ December 1975
 
 SCHEME
 
-AN INTERPRETER FOR EXTENDED LAMBDA CALCULUS
-
-by
+AN INTERPRETER FOR EXTENDED LAMBDA CALCULUS by
 
 Gerald Jay Sussman and Guy Lewis Steele Jr.
 

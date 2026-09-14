@@ -9,6 +9,7 @@ venue: OSDI
 field: systems
 section: A
 section_title: Word Frequency
+tag: 016E
 kind: appendix
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

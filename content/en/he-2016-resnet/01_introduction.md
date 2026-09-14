@@ -19,15 +19,13 @@ pdf_sha256: 1e0651b6810ecba34a3dbc5b5b0209226f889004607c1f203540a48d64e5a93a
 pdf_pages: 1-2
 extraction: vision
 extraction_model: gpt-5
-content_sha256: 03d99ba1c63b4f439a211fbd79265c35c593d06388bc393ebd1310d31879515e
+content_sha256: 2721cdfcd5fa4c1d2fb4d7699661f0df236d55cfca1019e225e870a3982ccf46
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
-Deep convolutional neural networks [22], [[krizhevsky-2012-imagenet]] have led to a series of breakthroughs for image classification [[krizhevsky-2012-imagenet]], [50], [40]. Deep networks naturally integrate low/mid/high-level features [50] and classifiers in an end-to-end multilayer fashion, and the “levels” of features can be enriched by the number of stacked layers (depth). Recent evidence [41, 44] reveals that network depth is of crucial importance, and the leading results [41, 44, 13, 16] on the challenging ImageNet dataset [36] all exploit “very deep” [41] models, with a depth of sixteen [41] to thirty [16]. Many other non-trivial visual recognition tasks [8, 12, 7, 32, 27] have also
+Deep convolutional neural networks [22], [[krizhevsky-2012-imagenet]] have led to a series of breakthroughs for image classification [[krizhevsky-2012-imagenet]], [50], [40]. Deep networks naturally integrate low/mid/high-level features [50] and classifiers in an end-to-end multilayer fashion, and the “levels” of features can be enriched by the number of stacked layers (depth). Recent evidence [41, 44] reveals that network depth is of crucial importance, and the leading results [41, 44, 13, 16] on the challenging ImageNet dataset [36] all exploit “very deep” [41] models, with a depth of sixteen [41] to thirty [16]. Many other non-trivial visual recognition tasks [8, 12, 7, 32, 27] have also greatly benefited from very deep models.
 
 Figure 1. Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer “plain” networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig. 4. {#he-2016-resnet-fig-1 .figure tag=00E7}
-
-greatly benefited from very deep models.
 
 Driven by the significance of depth, a question arises: *Is learning better networks as easy as stacking more layers?* An obstacle to answering this question was the notorious problem of vanishing/exploding gradients [1, 9], which hamper convergence from the beginning. This problem, however, has been largely addressed by normalized initialization [23, 9, 37, 13] and intermediate normalization layers [16], which enable networks with tens of layers to start converging for stochastic gradient descent (SGD) with back-propagation [22].
 

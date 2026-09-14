@@ -8,6 +8,7 @@ year: 2004
 venue: OSDI
 field: systems
 section_title: References
+tag: 008B
 kind: references
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
@@ -15,7 +16,7 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: 12-13
 extraction: vision
 extraction_model: gpt-5
-content_sha256: 8fc45c3a141c6cf848d055956aaec7efa49dfda6dfb52761003253d0a84a7016
+content_sha256: 80be6782ce26b34a5ed085d747b87f98d08790075a70c463b0db70f64b8ec51b
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -35,7 +36,7 @@ prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 
 [8] Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. The Google file system. In 19th Symposium on Operating Systems Principles, pages 29–43, Lake George, New York, 2003.
 
-[9] S. Gorlatch. Systematic efficient parallelization of scan and other list homomorphisms. In L. Bouge, P. Fragni- aud, A. Mignotte, and Y. Robert, editors, Euro-Par’96. Parallel Processing, Lecture Notes in Computer Science 1124, pages 401–408. Springer-Verlag, 1996.
+[9] S. Gorlatch. Systematic efficient parallelization of scan and other list homomorphisms. In L. Bouge, P. Fragniaud, A. Mignotte, and Y. Robert, editors, Euro-Par’96. Parallel Processing, Lecture Notes in Computer Science 1124, pages 401–408. Springer-Verlag, 1996.
 
 [10] Jim Gray. Sort benchmark home page. http://research.microsoft.com/barc/SortBenchmark/.
 

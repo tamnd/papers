@@ -15,7 +15,7 @@ pdf_sha256: 3d981849e59505eff3f14397a177b409f5d978d43d114bdd67c956e74320fc92
 pdf_pages: 1-3
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 99ca45842e94baac0c4a8a87f87f893ac11b3ca331c2904346168b690e50dcd7
+content_sha256: 62a9d2f18f4beaa77a8b0146e72d94b83ed43bab924361cde21b921469a6e98b
 ---
 
 Recursive Functions of Symbolic Expressions
@@ -32,6 +32,4 @@ A programming system called LISP (for LISt Processor) has been developed for the
 
 In the course of its development the LISP system went through several stages of simplification and eventually came to be based on a scheme for representing the partial recursive functions of a certain class of symbolic expressions. This representation is independent of the IBM 704 computer, or of any other electronic computer, and it now seems expedient to expound the system by starting with the class of expressions called S-expressions and the functions called S-functions.
 
-∗ Putting this paper in L A supported by ARPA (ONR) grant N00014-94-1-0775
-
-TEXpartly to Stanford University where John McCarthy has been since 1962. Copied with minor notational changes from CACM, April 1960. If you want the exact typography, look there.
+∗ Putting this paper in LaTeX partly supported by ARPA (ONR) grant N00014-94-1-0775 to Stanford University where John McCarthy has been since 1962. Copied with minor notational changes from CACM, April 1960. If you want the exact typography, look there.
