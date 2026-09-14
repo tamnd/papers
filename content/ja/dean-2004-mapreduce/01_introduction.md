@@ -1,0 +1,35 @@
+---
+paper: dean-2004-mapreduce
+title: 'MapReduce: Simplified Data Processing on Large Clusters'
+authors:
+  - Jeffrey Dean
+  - Sanjay Ghemawat
+year: 2004
+venue: OSDI
+field: systems
+section: "1"
+section_title: はじめに
+kind: section
+lang: ja
+source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
+pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
+pdf_pages: 1-2
+extraction: vision
+extraction_model: gpt-5
+content_sha256: fd6701cbc8946166d01e6864e46df6a6c62b23aaf551bebf792b26bf5669b1e2
+translated_from: content/en/dean-2004-mapreduce/01_introduction.md
+source_content_sha256: ecd74842b3eddb127d86aec0b3f6588f7aaffeaf23a4676b745e58c293a81f7f
+translation_model: gpt-5
+translation_run: 20260914T102340Z
+glossary_version: 6
+glossary_terms_sha256: 9c1d74873f0850941dca2606ce296d509b8f605b085ea9e17a26ed91e2333e11
+prompt_sha256: 28abc9ae7c2a46d63213afc528700760d76ff5866e775238c90c95b3052a886f
+---
+
+過去5年間にわたり、著者らおよびGoogleの多くの他のメンバーは、クロールされたドキュメント、ウェブリクエストログなどの大量の生データを処理し、転置インデックス、ウェブドキュメントのグラフ構造のさまざまな表現、ホストごとにクロールされたページ数の要約、ある日における最も頻繁なクエリの集合など、さまざまな種類の派生データを計算する、数百もの特定用途向け計算を実装してきた。このような計算の大部分は概念的には単純である。しかし、入力データは通常大規模であり、妥当な時間内に完了させるためには、計算を数百または数千台のマシンに分散させる必要がある。計算を並列化する方法、データを分散する方法、および障害を処理する方法に関する問題が組み合わさることで、これらの問題に対処するための大量の複雑なコードによって、本来単純な計算が不明瞭になっている。
+
+この複雑性への対応として、我々は実行しようとしていた単純な計算を表現できる一方で、並列化、フォールトトレランス、データ分散、および負荷分散の煩雑な詳細をライブラリ内に隠蔽する新しい抽象化を設計した。我々の抽象化は、Lispおよびその他多くの関数型言語に存在する*map*および*reduce*プリミティブに触発されたものである。我々の計算の大部分は、入力内の各論理的な「レコード」に対して*map*操作を適用し、中間のキー/値ペアの集合を計算し、その後、同じキーを共有するすべての値に対して*reduce*操作を適用して、派生データを適切に結合する処理で構成されていることに気付いた。ユーザーが指定したmapおよびreduce操作を持つ関数型モデルを使用することで、大規模な計算を容易に並列化し、再実行をフォールトトレランスの主要な機構として利用できる。
+
+本研究の主要な貢献は、大規模計算の自動的な並列化と分散を可能にする単純かつ強力なインターフェースと、このインターフェースを実装し、コモディティPCの大規模クラスター上で高い性能を達成する実装を組み合わせたことである。
+
+Section 2では、基本的なプログラミングモデルを説明し、いくつかの例を示す。Section 3では、クラスターを基盤とした計算環境に適合させたMapReduceインターフェースの実装について説明する。Section 4では、有用であることが分かったプログラミングモデルのいくつかの改良について説明する。Section 5では、さまざまなタスクに対する我々の実装の性能測定結果を示す。Section 6では、Google内部におけるMapReduceの利用について、実運用インデックスシステムの書き換えの基盤として利用した経験を含めて検討する。Section 7では、関連研究および今後の研究について議論する。
