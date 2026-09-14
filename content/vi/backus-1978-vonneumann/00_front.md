@@ -23,6 +23,8 @@ translation_run: 20260914T102340Z
 glossary_version: 6
 glossary_terms_sha256: e18583cfd8910711c2e3aa00f134fd0de9487b97e78e37da9096be4297760e66
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T214350Z
 ---
 
 Lập trình có thể được giải phóng khỏi phong cách von Neumann? Phong cách hàm và đại số chương trình của nó

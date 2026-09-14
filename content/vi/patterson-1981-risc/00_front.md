@@ -24,6 +24,8 @@ translation_run: 20260914T201546Z
 glossary_version: 6
 glossary_terms_sha256: 1f83355a83baacb04f1185b8bd47b133f28d2f764f5d7ae919d5d9d0d7e083ee
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T214350Z
 ---
 
 RISC I: MÁY TÍNH VLSI VỚI TẬP LỆNH RÚT GỌN

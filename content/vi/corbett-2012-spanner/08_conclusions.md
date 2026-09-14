@@ -33,6 +33,8 @@ translation_run: 20260914T201546Z
 glossary_version: 6
 glossary_terms_sha256: a534ae50d60bff0e03804fd3c150e37d1876484531ab87df9c72dc4d0c455eb2
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T214350Z
 ---
 
 Tóm lại, Spanner kết hợp và mở rộng các ý tưởng từ hai cộng đồng nghiên cứu: từ cộng đồng cơ sở dữ liệu, một giao diện bán quan hệ quen thuộc, dễ sử dụng, các giao dịch, và một ngôn ngữ truy vấn dựa trên SQL; từ cộng đồng hệ thống, khả năng mở rộng, phân mảnh tự động, khả năng chịu lỗi, sao chép nhất quán, tính nhất quán bên ngoài, và phân phối diện rộng. Kể từ khi Spanner ra đời, chúng tôi đã mất hơn 5 năm để lặp lại qua các phiên bản nhằm đạt đến thiết kế và triển khai hiện tại. Một phần của giai đoạn lặp lại dài này là do việc nhận ra chậm rằng Spanner nên làm nhiều hơn việc giải quyết vấn đề về một không gian tên được sao chép toàn cầu, và cũng nên tập trung vào các tính năng cơ sở dữ liệu mà Bigtable còn thiếu.

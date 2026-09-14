@@ -31,6 +31,8 @@ translation_run: 20260914T155352Z
 glossary_version: 6
 glossary_terms_sha256: afc6de5d010821f75553a129f8b55d5fbabc0d9d7af198021ca9a5a496de4088
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T214350Z
 ---
 
 Xen và Nghệ thuật Ảo hóa

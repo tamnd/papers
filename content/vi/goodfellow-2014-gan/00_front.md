@@ -30,6 +30,8 @@ translation_run: 20260914T092812Z
 glossary_version: 6
 glossary_terms_sha256: 0d0a9334a40352952769479a6ad339487dd551fe3d836bae9914ea196d2f4310
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T214350Z
 ---
 
 Mạng đối sinh sinh (Generative Adversarial Nets)

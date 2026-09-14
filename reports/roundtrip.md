@@ -1,1195 +1,899 @@
 # Back translation
 
-27 pages checked: 8 the same, 7 differ in wording, 12 differ materially
+67 pages checked: 44 the same, 14 differ in wording, 9 differ materially
 
-Run 20260914T070941Z. Every abstract, every section of the first 100 papers of the canon, and a 5% sample of the rest.
+Run 20260914T214350Z. Every abstract, every section of the first 10 papers of the canon, and a 5% sample of the rest.
 
-88,111 tokens in, 22,656 out.
+2,197,912 tokens in, 22,482 out.
 
 ## Differs materially
 
-### `content/ja/goodfellow-2014-gan/02_related_work.md`
+### `content/vi/birrell-1984-rpc/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says DBNs incur the computational difficulties associated with both undirected and directed models, whereas the back-translation says only that DBNs have computational difficulties associated with both types of models, which is equivalent.
-- The original says learning slows dramatically after NCE has learned even an approximately correct distribution over a small subset of the observed variables, whereas the back-translation says the learning rate drops dramatically after it has learned an approximately correct distribution for a small subset, omitting the original emphasis on “even” an approximately correct distribution and changing “learning slows” to “learning rate drops.”
-- The original says piecewise linear units improve backpropagation performance but have problems with unbounded activation when used in a feedback loop, whereas the back-translation says the units have the problem that activations become unbounded in feedback loops while improving backpropagation performance, preserving the substantive claim.
-
-The English as it stands:
-
-> An alternative to directed graphical models with latent variables are undirected graphical models with latent variables, such as restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann machines (DBMs) [26] and their numerous variants. The interactions within such models are represented as the product of unnormalized potential functions, normalized by a global summation/integration over all states of the random variables. This quantity (the *partition function*) and its gradient are intractable for all but the most trivial instances, although they can be estimated by Markov chain Monte Carlo (MCMC) methods. Mixing poses a significant problem for learning algorithms that rely on MCMC [3, 5].
->
-> Deep belief networks (DBNs) [16] are hybrid models containing a single undirected layer and several directed layers. While a fast approximate layer-wise training criterion exists, DBNs incur the computational difficulties associated with both undirected and directed models.
->
-> Alternative criteria that do not approximate or bound the log-likelihood have also been proposed, such as score matching [18] and noise-contrastive estimation (NCE) [13]. Both of these require the learned probability density to be analytically specified up to a normalization constant. Note that in many interesting generative models with several layers of latent variables (such as DBNs and DBMs), it is not even possible to derive a tractable unnormalized probability density. Some models such as denoising auto-encoders [30] and contractive autoencoders have learning rules very similar to score matching applied to RBMs. In NCE, as in this work, a discriminative training criterion is employed to fit a generative model. However, rather than fitting a separate discriminative model, the generative model itself is used to discriminate generated data from samples a fixed noise distribution. Because NCE uses a fixed noise distribution, learning slows dramatically after the model has learned even an approximately correct distribution over a small subset of the observed variables.
->
-> Finally, some techniques do not involve defining a probability distribution explicitly, but rather train a generative machine to draw samples from the desired distribution. This approach has the advantage that such machines can be designed to be trained by back-propagation. Prominent recent work in this area includes the generative stochastic network (GSN) framework [5], which extends generalized denoising auto-encoders [4]: both can be seen as defining a parameterized Markov chain, i.e., one learns the parameters of a machine that performs one step of a generative Markov chain. Compared to GSNs, the adversarial nets framework does not require a Markov chain for sampling. Because adversarial nets do not require feedback loops during generation, they are better able to leverage piecewise linear units [19, 9, 10], which improve the performance of backpropagation but have problems with unbounded activation when used in a feedback loop. More recent examples of training a generative machine by back-propagating into it include recent work on auto-encoding variational Bayes [20] and stochastic backpropagation [24].
-
-What came back:
-
-> As an alternative to directed graphical models with latent variables, there are undirected graphical models with latent variables, such as restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann machines (DBMs) [26], and their numerous variants. The interactions in such models are represented as a product of unnormalized potential functions, and are normalized by a global summation/integration over all states of the random variables. This quantity (the *partition function*) and its gradient are difficult to handle except in the most trivial cases, but can be estimated by Markov chain Monte Carlo (MCMC) methods. Mixing becomes a serious problem for learning algorithms that depend on MCMC [3, 5].
->
-> Deep belief networks (DBNs) [16] are hybrid models that contain a single undirected layer and multiple directed layers. While fast approximate layer-wise learning criteria exist, DBNs have computational difficulties associated with both undirected and directed models.
->
-> Alternative criteria that do not approximate the log likelihood or provide upper/lower bounds have also been proposed, such as score matching [18] and noise-contrastive estimation (NCE) [13]. Both of these require the learned probability density to be described analytically up to a normalization constant. For many interesting generative models with multiple layers of latent variables (such as DBNs and DBMs), it is not even possible to derive a tractable unnormalized probability density. Some models, such as denoising auto-encoders [30] and contractive autoencoders, have learning rules very similar to score matching applied to RBMs. In NCE, as in this work, a discriminative learning criterion is used to fit a generative model. However, instead of fitting a separate discriminative model, the generative model itself is used to discriminate between samples from a fixed noise distribution and generated data. Because NCE uses a fixed noise distribution, the learning rate drops dramatically after the model has learned an approximately correct distribution for a small subset of the observed variables.
->
-> Finally, there are methods that, rather than explicitly defining a probability distribution, learn a generative machine that generates samples from the desired distribution. This approach has the advantage that such a machine can be designed so that it can be trained by backpropagation. A recent representative work in this field is the generative stochastic network (GSN) framework [5], which extends generalized denoising auto-encoders [4]. Both can be viewed as defining a parameterized Markov chain. That is, the parameters of the machine that performs one step of the generative Markov chain are learned. Compared with GSN, the adversarial nets framework does not require a Markov chain for sampling. Because adversarial nets do not require a feedback loop during generation, they can more effectively utilize piecewise linear units [19, 9, 10], which have the problem that activations become unbounded when used in feedback loops, while improving the performance of backpropagation. More recent examples of learning by performing backpropagation on a generative machine include recent work on auto-encoding variational Bayes [20] and stochastic backpropagation [24].
-
-### `content/ja/goodfellow-2014-gan/03_adversarial_nets.md`
-
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
-- The original claims that the framework is most straightforward when both models are multilayer perceptrons, defines \(p_z\), \(G(\boldsymbol z;\theta_g)\), and \(D(\boldsymbol x;\theta_d)\), explains \(D\)'s probability interpretation, and states how \(D\) and \(G\) are trained, whereas the back-translation drops this entire paragraph and leaves only a fragment before the equation.
-- The original explicitly states that \(D\) and \(G\) play a two-player minimax game with value function \(V(G,D)\), whereas the back-translation omits this statement and presents only a truncated equation fragment.
+- material: the original says the semantics should make distributed computations easier to build and get right, the back-translation says they will help do so.
+- material: the original says Nelson’s dissertation references much of the previous RPC work, the back-translation says it references most of that work.
+- wording: the original says several areas were inadequately understood, the back-translation says some areas were still not fully understood.
 
 The English as it stands:
 
-> The adversarial modeling framework is most straightforward to apply when the models are both multilayer perceptrons. To learn the generator’s distribution $p_g$ over data $\boldsymbol{x}$, we define a prior on input noise variables $p_z(\boldsymbol{z})$, then represent a mapping to data space as $G(\boldsymbol{z}; \theta_g)$, where $G$ is a differentiable function represented by a multilayer perceptron with parameters $\theta_g$. We also define a second multilayer perceptron $D(\boldsymbol{x}; \theta_d)$ that outputs a single scalar. $D(\boldsymbol{x})$ represents the probability that $\boldsymbol{x}$ came from the data rather than $p_g$. We train $D$ to maximize the probability of assigning the correct label to both training examples and samples from $G$. We simultaneously train $G$ to minimize $\log(1 - D(G(\boldsymbol{z})))$:
+> still execute (depending on the details of the parallelism of that environment and the RPC implementation).
 >
-> In other words, $D$ and $G$ play the following two-player minimax game with value function $V(G,D)$:
+> There are many attractive aspects to this idea. One is clean and simple semantics: these should make it easier to build distributed computations, and to get them right. Another is efficiency: procedure calls seem simple enough for the communication to be quite rapid. A third is generality: in single-machine computations, procedures are often the most important mechanism for communication between parts of the algorithm.
 >
-> $$\min_G \max_D V(D,G) = \mathbb{E}_{x\sim p_{\mathrm{data}}(x)}[\log D(x)] + \mathbb{E}_{z\sim p_z(z)}[\log(1-D(G(z)))]. \tag{1}$$
-> {#goodfellow-2014-gan-eq-1 .equation tag=00C4}
+> The idea of RPC has been around for many years. It has been discussed in the public literature many times since at least as far back as 1976 [15]. Nelson’s doctoral dissertation [13] is an extensive examination of the design possibilities for an RPC system and has references to much of the previous work on RPC. However, full-scale implementations of RPC have been rarer than paper designs. Notable recent efforts include Courier in the Xerox NS family of protocols [4], and current work at MIT [10].
 >
-> In the next section, we present a theoretical analysis of adversarial nets, essentially showing that the training criterion allows one to recover the data generating distribution as $G$ and $D$ are given enough capacity, i.e., in the non-parametric limit. See Figure 1 for a less formal, more pedagogical explanation of the approach. In practice, we must implement the game using an iterative, numerical approach. Optimizing $D$ to completion in the inner loop of training is computationally prohibitive, and on finite datasets would result in overfitting. Instead, we alternate between $k$ steps of optimizing $D$ and one step of optimizing $G$. This results in $D$ being maintained near its optimal solution, so long as $G$ changes slowly enough. This strategy is analogous to the way that SML/PCD [31, 29] training maintains samples from a Markov chain from one learning step to the next in order to avoid burning in a Markov chain as part of the inner loop of learning. The procedure is formally presented in Algorithm 1.
->
-> In practice, equation 1 may not provide sufficient gradient for $G$ to learn well. Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data. In this case, $\log(1-D(G(z)))$ saturates. Rather than training $G$ to minimize $\log(1-D(G(z)))$ we can train $G$ to maximize $\log D(G(z))$. This objective function results in the same fixed point of the dynamics of $G$ and $D$ but provides much stronger gradients early in learning.
->
-> Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution ($D$, blue, dashed line) so that it discriminates between samples from the data generating distribution (black, dotted line) $p_x$ from those of the generative distribution $p_g$ ($G$) (green, solid line). The lower horizontal line is the domain from which $z$ is sampled, in this case uniformly. The horizontal line above is part of the domain of $x$. The upward arrows show how the mapping $x=G(z)$ imposes the non-uniform distribution $p_g$ on transformed samples. $G$ contracts in regions of high density and expands in regions of low density of $p_g$. (a) Consider an adversarial pair near convergence: $p_g$ is similar to $p_{\mathrm{data}}$ and $D$ is a partially accurate classifier. (b) In the inner loop of the algorithm $D$ is trained to discriminate samples from data, converging to $D^*(x)=\frac{p_{\mathrm{data}}(x)}{p_{\mathrm{data}}(x)+p_g(x)}$. (c) After an update to $G$, gradient of $D$ has guided $G(z)$ to flow to regions that are more likely to be classified as data. (d) After several steps of training, if $G$ and $D$ have enough capacity, they will reach a point at which both cannot improve because $p_g=p_{\mathrm{data}}$. The discriminator is unable to differentiate between the two distributions, i.e. $D(x)=\frac{1}{2}$. {#goodfellow-2014-gan-fig-1 .figure tag=00C5}
+> This paper results from the construction of an RPC facility for the Cedar project. We felt, because of earlier work (particularly Nelson’s thesis and associated experiments), that we understood the choices the designer of an RPC facility must make. Our task was to make the choices in light of our particular aims and environment. In practice, we found that several areas were inadequately understood, and we produced a system whose design has several novel aspects.
 
 What came back:
 
-> The adversarial modeling framework is most directly applicable when both\sim p_z(z)}[\log(1-D(G(z)))]. \tag{1}$$
-> {#goodfellow-2014-gan-eq-1 .equation tag=00C4}
+> still executes (depending on the details of concurrency in that environment and the RPC implementation).
 >
-> In the next section, we present a theoretical analysis of adversarial nets. Basically, we show that with this training criterion, when $G$ and $D$ are given sufficient capacity, that is, in the non-parametric limit, the data-generating distribution can be recovered. See Figure 1 for a less formal, educational explanation. In practice, this game must be implemented using iterative numerical methods. Fully optimizing $D$ in the inner loop of training is computationally prohibitively expensive and causes overfitting on finite datasets. Instead, alternately repeat optimizing $D$ for $k$ steps, and then optimizing $G$ for 1 step. This keeps $D$ near its optimal solution as long as $G$ changes sufficiently slowly. This strategy is similar to the way SML/PCD [31, 29] training maintains samples from a Markov chain from one training step to the next in order to avoid burning in the Markov chain as part of the inner loop of training. This procedure is formally shown in Algorithm 1.
+> There are many attractive aspects of this idea. One is clear and simple semantics: these will help make constructing distributed computations easier, and help them be carried out correctly. Another aspect is efficiency: procedure calls seem simple enough that communication can take place very quickly. The third aspect is generality: in computations on a single machine, procedures are usually the most important mechanism for communication between parts of the algorithm.
 >
-> In practice, Equation 1 may not provide sufficient gradients for $G$ to learn well enough. In the early stages of training, when the performance of $G$ is low, $D$ can reject the samples with high confidence because the samples are clearly different from the training data. In this case, $\log(1-D(G(z)))$ saturates. Instead of training $G$ toward minimizing $\log(1-D(G(z)))$, we can train $G$ to maximize $\log D(G(z))$. This objective function produces the same fixed point in the dynamical system of $G$ and $D$, but provides much stronger gradients in the early stages of training.
+> The idea of RPC has existed for many years. It has been discussed in the public literature many times since at least 1976 [15]. Nelson's doctoral dissertation [13] is an extensive survey of the design possibilities for an RPC system and has references to most of the previous work on RPC. However, full-scale RPC implementations are rarer than designs on paper. Notable recent efforts include Courier in the Xerox NS family of protocols [4], and current work at MIT [10].
 >
-> Figure 1: Generative adversarial nets are learned by simultaneously updating the discriminative distribution ($D$, blue, dashed). This distinguishes between samples from the data-generating distribution (black, dotted) $p_x$ and samples from the generative distribution $p_g$ ($G$) (green, solid). The lower horizontal line is the domain from which $z$ is sampled, which is uniform in this case. The upper horizontal line is part of the domain of $x$. The upward arrows show how the mapping $x=G(z)$ imposes a non-uniform distribution $p_g$ on the transformed samples. $G$ contracts in high-density regions and expands in low-density regions of $p_g$. (a) Consider an adversarial pair near convergence. $p_g$ is similar to $p_{\mathrm{data}}$, and $D$ is a partially accurate classifier. (b) In the inner loop of the algorithm, $D$ is trained to distinguish samples from the data, and converges to $D^*(x)=\frac{p_{\mathrm{data}}(x)}{p_{\mathrm{data}}(x)+p_g(x)}$. (c) After the update of $G$, the gradient of $D$ guides $G(z)$ to flow toward regions more likely to be classified as data. (d) After several steps of training, if $G$ and $D$ have sufficient capacity, they reach a point where neither can improve because $p_g=p_{\mathrm{data}}$. The discriminator cannot distinguish between the two distributions, that is, $D(x)=\frac{1}{2}$. {#goodfellow-2014-gan-fig-1 .figure tag=00C5}
+> This paper results from building an RPC facility for the Cedar project. We felt, based on previous work (especially Nelson's dissertation and related experiments), that we understood the choices that the designer of an RPC facility must make. Our task was to make the choices based on our specific goals and environment. In practice, we found that some areas were still not fully understood, and we created a system whose design has some novel aspects.
 
-### `content/ja/goodfellow-2014-gan/04_theoretical_results.md`
+### `content/vi/corbett-2012-spanner/07_future_work.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+the 5% sample, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says the function \(y\rightarrow a\log(y)+b\log(1-y)\) achieves its maximum **in** \([0,1]\) at \(\frac{a}{a+b}\), while the back-translation says it achieves its maximum **at** \(\frac{a}{a+b}\) on \([0,1]\); this is only a wording difference.
-- The original says the Jensen–Shannon divergence is non-negative and zero only when the distributions are equal, while the back-translation says the same and is therefore equivalent.
-- The original says the multilayer perceptrons' excellent performance **in practice suggests** they are a reasonable model despite lacking theoretical guarantees, while the back-translation says their **actual good performance suggests** they are reasonable models; this is only a slight wording change.
-- The original proof of Proposition 2 concludes that \(p_g\) converges to \(p_x\), while the proposition itself states convergence to \(p_{\mathrm{data}}\); the back-translation preserves the same mismatch.
+- material: the original plans to support direct changes of Paxos configurations, the back-translation plans to support live changes, introducing a claim about changes during operation and omitting that they are direct.
 
 The English as it stands:
 
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of the samples $G(z)$ obtained when $z\sim p_z$. Therefore, we would like Algorithm 1 to converge to a good estimator of $p_{\mathrm{data}}$, if given enough capacity and training time. The results of this section are done in a non-parametric setting, e.g. we represent a model with infinite capacity by studying convergence in the space of probability density functions.
+> We have spent most of the last year working with the F1 team to transition Google’s advertising backend from MySQL to Spanner. We are actively improving its monitoring and support tools, as well as tuning its performance. In addition, we have been working on improving the functionality and performance of our backup/restore system. We are currently implementing the Spanner schema language, automatic maintenance of secondary indices, and automatic load-based resharding. Longer term, there are a couple of features that we plan to investigate. Optimistically doing reads in parallel may be a valuable strategy to pursue, but initial experiments have indicated that the right implementation is non-trivial. In addition, we plan to eventually support direct changes of Paxos configurations [22, 34].
 >
-> We will show in section 4.1 that this minimax game has a global optimum for $p_g=p_{\mathrm{data}}$. We will then show in section 4.2 that Algorithm 1 optimizes Eq 1, thus obtaining the desired result.
+> Given that we expect many applications to replicate their data across datacenters that are relatively close to each other, TrueTime $\epsilon$ may noticeably affect performance. We see no insurmountable obstacle to reducing $\epsilon$ below 1ms. Time-master-query intervals can be reduced, and better clock crystals are relatively cheap. Time-master query latency could be reduced with improved networking technology, or possibly even avoided through alternate time-distribution technology.
 >
-> **Algorithm 1** Minibatch stochastic gradient descent training of generative adversarial nets. The number of steps to apply to the discriminator, $k$, is a hyperparameter. We used $k = 1$, the least expensive option in our experiments.
->
-> **for** number of training iterations **do**
->
-> **for** $k$ steps **do**
->
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Sample minibatch of $m$ examples $\{x^{(1)}, \ldots, x^{(m)}\}$ from data generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending its stochastic gradient:
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Update the generator by descending its stochastic gradient:
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> The gradient-based updates can use any standard gradient-based learning rule. We used momentum in our experiments.
->
-> ### 4.1 Global Optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> We first consider the optimal discriminator $D$ for any given generator $G$.
->
-> **Proposition 1.** *For $G$ fixed, the optimal discriminator $D$ is* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* The training criterion for the discriminator D, given any generator G, is to maximize the quantity $V(G,D)$
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For any $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ achieves its maximum in $[0,1]$ at $\frac{a}{a+b}$. The discriminator does not need to be defined outside of $Supp(p_{\text{data}})\cup Supp(p_g)$, concluding the proof. $\square$
->
-> Note that the training objective for $D$ can be interpreted as maximizing the log-likelihood for estimating the conditional probability $P(Y=y|x)$, where $Y$ indicates whether $x$ comes from $p_{\text{data}}$ (with $y=1$) or from $p_g$ (with $y=0$). The minimax game in Eq. 1 can now be reformulated as:
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At that point, $C(G)$ achieves the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* For $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$, (consider Eq. 2). Hence, by inspecting Eq. 4 at $D_G^*(x) = \frac{1}{2}$, we find $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To see that this is the best possible value of $C(G)$, reached only for $p_g = p_{\mathrm{data}}$, observe that
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> and that by subtracting this expression from $C(G) = V(D_G^*, G)$, we obtain:
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> where KL is the Kullback–Leibler divergence. We recognize in the previous expression the Jensen–Shannon divergence between the model’s distribution and the data generating process:
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always non-negative and zero only when they are equal, we have shown that $C^* = -\log(4)$ is the global minimum of $C(G)$ and that the only solution is $p_g = p_{\mathrm{data}}$, i.e., the generative model perfectly replicating the data generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have enough capacity, and at each step of Algorithm 1, the discriminator is allowed to reach its optimum given $G$, and $p_g$ is updated so as to improve the criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *then $p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* Consider $V(G, D) = U(p_g, D)$ as a function of $p_g$ as done in the above criterion. Note that $U(p_g, D)$ is convex in $p_g$. The subderivatives of a supremum of convex functions include the derivative of the function at the point where the maximum is attained. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$ and $f_\alpha(x)$ is convex in $x$ for every $\alpha$, then $\partial f_\beta(x) \in \partial f$ if $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$. This is equivalent to computing a gradient descent update for $p_g$ at the optimal $D$ given the corresponding $G$. $\sup_D U(p_g, D)$ is convex in $p_g$ with a unique global optima as proven in Thm 1, therefore with sufficiently small updates of $p_g$, $p_g$ converges to $p_x$, concluding the proof. $\square$
->
-> In practice, adversarial nets represent a limited family of $p_g$ distributions via the function $G(z; \theta_g)$, and we optimize $\theta_g$ rather than $p_g$ itself. Using a multilayer perceptron to define $G$ introduces multiple critical points in parameter space. However, the excellent performance of multilayer perceptrons in practice suggests that they are a reasonable model to use despite their lack of theoretical guarantees.
+> Finally, there are obvious areas for improvement. Although Spanner is scalable in the number of nodes, the node-local data structures have relatively poor performance on complex SQL queries, because they were designed for simple key-value accesses. Algorithms and data structures from DB literature could improve single-node performance a great deal. Second, moving data automatically between datacenters in response to changes in client load has long been a goal of ours, but to make that goal effective, we would also need the ability to move client-application processes between datacenters in an automated, coordinated fashion. Moving processes raises the even more difficult problem of managing resource acquisition and allocation between datacenters.
 
 What came back:
 
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of samples $G(z)$ obtained when $z\sim p_z$. Therefore, given sufficient capacity and training time, we hope that Algorithm 1 converges to a good estimator of $p_{\mathrm{data}}$. The results in this section are obtained in a nonparametric setting. For example, we represent a model with infinite capacity by examining convergence in the space of probability density functions.
+> We have spent most of the past year working with the F1 team to move Google's advertising backend from MySQL to Spanner. We are actively improving its monitoring and support tools, as well as tuning its performance. In addition, we have worked to improve the functionality and performance of our backup/restore system. We are currently implementing the Spanner schema language, automatic maintenance of secondary indexes, and automatic load-based resharding. In the long term, there are a few features that we plan to investigate. Performing parallel reads optimistically may be a valuable strategy to pursue, but initial experiments have shown that implementing it correctly is not trivial. In addition, we plan eventually to support live changes to Paxos configurations [22, 34].
 >
-> In Section 4.1, we show that this minimax game has a global optimum for $p_g=p_{\mathrm{data}}$. Subsequently, in Section 4.2, we show that Algorithm 1 optimizes Equation 1, and show that this produces the desired result.
+> Because we expect many applications to replicate their data across relatively nearby data centers, TrueTime $\epsilon$ may significantly affect performance. We see no insurmountable obstacle to reducing $\epsilon$ below 1ms. Time-master query intervals can be reduced, and better clock crystals are relatively inexpensive. Time-master query latency can be reduced with improved networking technology, or may even be avoided through alternative time-distribution technology.
 >
-> **Algorithm 1** Learning generative adversarial networks by minibatch stochastic gradient descent. The number of steps $k$ applied to the discriminator is a hyperparameter. In our experiments, we used $k = 1$, which is the least computationally expensive choice.
->
-> **for** number of training iterations **do**
->
-> **for** $k$ steps **do**
->
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior distribution $p_g(z)$.
-> - Sample a minibatch of $m$ examples $\{x^{(1)}, \ldots, x^{(m)}\}$ from the data-generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending along the stochastic gradient.
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior distribution $p_g(z)$.
-> - Update the generator by descending along the stochastic gradient.
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> Any standard gradient-based learning rule can be used for the gradient-based updates. In our experiments, we used momentum.
->
-> ### 4.1 Global optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> First, consider the optimal discriminator $D$ for any given generator $G$.
->
-> **Proposition 1.** *When $G$ is fixed, the optimal discriminator $D$ is as follows* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* Given any generator G, the training criterion of the discriminator D is to maximize the quantity $V(G,D)$.
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For any $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ achieves its maximum at $\frac{a}{a+b}$ on $[0,1]$. Since the discriminator does not need to be defined outside $Supp(p_{\text{data}})\cup Supp(p_g)$, the proof is complete. $\square$
->
-> Note that the training objective function of $D$ can be interpreted as maximizing the log-likelihood for estimating the conditional probability $P(Y=y|x)$. Here $Y$ indicates whether $x$ came from $p_{\text{data}}$ ($y=1$) or from $p_g$ ($y=0$). The minimax game of Equation 1 can be reformulated as follows.
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At that time, $C(G)$ achieves the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* When $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$ (see Equation 2). Therefore, by examining Equation 4 at $D_G^*(x) = \frac{1}{2}$, we obtain $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To show that this is the best value that $C(G)$ can take, and that it is achieved only when $p_g = p_{\mathrm{data}}$, observe the following.
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> And by subtracting this equation from $C(G) = V(D_G^*, G)$, we obtain the following.
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> Here, KL is the Kullback–Leibler divergence. In the preceding expression, we can recognize the Jensen–Shannon divergence between the model distribution and the data-generating process.
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always nonnegative and is zero only when they are equal, we have shown that $C^* = -\log(4)$ is the global minimum of $C(G)$, and the unique solution is $p_g = p_{\mathrm{data}}$, that is, the generative model completely reproduces the data-generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have sufficient capacity, and at each step of Algorithm 1, the discriminator is allowed to reach the optimal value for the given $G$, and furthermore $p_g$ is updated to improve the following criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *$p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* As was done with the above criterion, consider $V(G, D) = U(p_g, D)$ as a function of $p_g$. Note that $U(p_g, D)$ is convex with respect to $p_g$. The subdifferential of the supremum of a family of convex functions contains the derivative of the function at the point where the maximum is achieved. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$ and $f_\alpha(x)$ is convex with respect to $x$ for every $\alpha$, then when $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$, $\partial f_\beta(x) \in \partial f$. This is equivalent to calculating the gradient descent update for $p_g$ at the optimal $D$ given the corresponding $G$. As proved in Theorem 1, $\sup_D U(p_g, D)$ is convex with respect to $p_g$, and has a unique global optimum. Therefore, if the update of $p_g$ is sufficiently small, $p_g$ converges to $p_x$, completing the proof. $\square$
->
-> In practice, adversarial networks represent a restricted family of the $p_g$ distribution through the function $G(z; \theta_g)$, and optimize $\theta_g$ rather than $p_g$ itself. When a multilayer perceptron is used to define $G$, multiple critical points are introduced into the parameter space. However, the fact that multilayer perceptrons actually show good performance suggests that they are reasonable models to use despite the lack of theoretical guarantees.
+> Finally, there are clear areas that need improvement. Although Spanner scales with the number of nodes, node-local data structures perform relatively poorly on complex SQL queries, because they were designed for simple key-value accesses. Algorithms and data structures from the DB literature could significantly improve the performance of a single node. Second, automatic movement of data between data centers in response to changes in client load has long been a goal of ours, but for that goal to be effective, we also need the ability to move client application processes between data centers in an automatic, coordinated way. Moving processes raises the even more difficult problem of managing resource acquisition and allocation between data centers.
 
-### `content/ja/goodfellow-2014-gan/05_experiments.md`
+### `content/vi/dageville-2016-snowflake/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says that \(p(x)\) is intractable and **may** be approximated with AIS, whereas the back-translation says it is infeasible but **can** be approximated with AIS, changing a qualified possibility into an unqualified capability.
+- material: the original says the data and workloads require freshness, the back-translation says they require novelty.
 
 The English as it stands:
 
-> We trained adversarial nets on a range of datasets including MNIST[[lecun-1998-lenet]], the Toronto Face Database (TFD) [28], and CIFAR-10 [21]. The generator nets used a mixture of rectifier linear activations [19, 9] and sigmoid activations, while the discriminator net used maxout [10] activations. Dropout [17] was applied in training the discriminator net. While our theoretical framework permits the use of dropout and other noise at intermediate layers of the generator, we used noise as the input to only the bottommost layer of the generator network.
+> The Snowflake Elastic Data Warehouse
 >
-> We estimate probability of the test set data under $p_g$ by fitting a Gaussian Parzen window to the samples generated with $G$ and reporting the log-likelihood under this distribution. The $\sigma$ parameter
+> Benoit Dageville, Thierry Cruanes, Marcin Zukowski, Vadim Antonov, Artin Avanes,
 >
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial nets | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
+> Jon Bock, Jonathan Claybaugh, Daniel Engovatov, Martin Hentschel,
 >
-> Table 1: Parzen window-based log-likelihood estimates. The reported numbers on MNIST are the mean log-likelihood of samples on test set, with the standard error of the mean computed across examples. On TFD, we computed the standard error across folds of the dataset, with a different $\sigma$ chosen using the validation set of each fold. On TFD, $\sigma$ was cross validated on each fold and mean log-likelihood on each fold were computed. For MNIST we compare against other models of the real-valued (rather than binary) version of dataset. {#goodfellow-2014-gan-tab-1 .table tag=00CA}
+> Jiansheng Huang, Allison W. Lee, Ashish Motivala, Abdul Q. Munir, Steven Pelley,
 >
-> of the Gaussians was obtained by cross validation on the validation set. This procedure was introduced in Breuleux *et al.* [8] and used for various generative models for which the exact likelihood is not tractable [25, 3, 5]. Results are reported in Table 1. This method of estimating the likelihood has somewhat high variance and does not perform well in high dimensional spaces but it is the best method available to our knowledge. Advances in generative models that can sample but not estimate likelihood directly motivate further research on how to evaluate such models.
+> Peter Povinec, Greg Rahn, Spyridon Triantafyllis, Philipp Unterbrunner
 >
-> In Figures 2 and 3 we show samples drawn from the generator net after training. While we make no claim that these samples are better than samples generated by existing methods, we believe that these samples are at least competitive with the better generative models in the literature and highlight the potential of the adversarial framework.
+> Snowflake Computing
 >
-> Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, not conditional means given samples of hidden units. Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
+> ABSTRACT
 >
-> Figure 3: Digits obtained by linearly interpolating between coordinates in $z$ space of the full model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
+> We live in the golden age of distributed computing. Public cloud platforms now offer virtually unlimited compute and storage resources on demand. At the same time, the Software-as-a-Service (SaaS) model brings enterprise-class systems to users who previously could not afford such systems due to their cost and complexity. Alas, traditional data warehousing systems are struggling to fit into this new environment. For one thing, they have been designed for fixed resources and are thus unable to leverage the cloud’s elasticity. For another thing, their dependence on complex ETL pipelines and physical tuning is at odds with the flexibility and freshness requirements of the cloud’s new types of semi-structured data and rapidly evolving workloads.
 >
-> |  | Deep directed graphical models | Deep undirected graphical models | Generative autoencoders | Adversarial models |
-> |---|---|---|---|---|
-> | Training | Inference needed during training. | Inference needed during training. MCMC needed to approximate partition function gradient. | Enforced tradeoff between mixing and power of reconstruction generation | Synchronizing the discriminator with the generator. Helvetica. |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulties | Requires Markov chain | Requires Markov chain | No difficulties |
-> | Evaluating $p(x)$ | Intractable, may be approximated with AIS | Intractable, may be approximated with AIS | Not explicitly represented, may be approximated with Parzen density estimation | Not explicitly represented, may be approximated with Parzen density estimation |
-> | Model design | Nearly all models incur extreme difficulty | Careful design needed to ensure multiple properties | Any differentiable function is theoretically permitted | Any differentiable function is theoretically permitted |
->
-> Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches to deep generative modeling for each of the major operations involving a model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> We decided a fundamental redesign was in order. Our mission was to build an enterprise-ready data warehousing solution for the cloud. The result is the Snowflake Elastic Data Warehouse, or “Snowflake” for short. Snowflake is a multi-tenant, transactional, secure, highly scalable and elastic system with full SQL support and built-in extensions for semi-structured and schema-less data. The system is offered as a pay-as-you-go service in the Amazon cloud. Users upload their data to the cloud and can immediately manage and query it using familiar tools and interfaces.
 
 What came back:
 
-> Trained adversarial nets on various datasets including MNIST[[lecun-1998-lenet]], Toronto Face Database (TFD) [28], and CIFAR-10 [21]. The generator net used a mixture of rectifier linear activation [19, 9] and sigmoid activation, while the discriminator net used maxout [10] activation. Dropout [17] was applied to train the discriminator net. In the theoretical framework it is possible to use dropout and other noise in the intermediate layers of the generator, but in this study noise was used only as input to the lowest layer of the generator network.
+> The Snowflake Elastic Data Warehouse
 >
-> By fitting a Gaussian Parzen window to the samples generated by $G$ and reporting the log-likelihood under this distribution, we estimate the probability of test set data under $p_g$. The $\sigma$ parameter
+> Benoit Dageville, Thierry Cruanes, Marcin Zukowski, Vadim Antonov, Artin Avanes,
 >
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial net | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
+> Jon Bock, Jonathan Claybaugh, Daniel Engovatov, Martin Hentschel,
 >
-> Table 1: Log-likelihood estimates based on Parzen window. The numbers reported for MNIST are the average log-likelihood of samples on the test set, and the standard error of the mean was calculated across samples. For TFD, the standard error was calculated across each fold of the dataset, and a different $\sigma$ was selected using the validation set of each fold. For TFD, cross-validation of $\sigma$ was performed for each fold, and the average log-likelihood of each fold was calculated. For MNIST, we compare against other models on the real-valued version of the dataset rather than the binary version. {#goodfellow-2014-gan-tab-1 .table tag=00CA}
+> Jiansheng Huang, Allison W. Lee, Ashish Motivala, Abdul Q. Munir, Steven Pelley,
 >
-> The Gaussian was obtained by cross-validation on the validation set. This method was introduced by Breuleux *et al.* [8] and has been used for various generative models for which exact likelihood calculation is infeasible [25, 3, 5]. The results are shown in Table 1. This likelihood estimation method has somewhat high variance and does not work well in high-dimensional spaces, but to the best of our knowledge it is the best available method. Progress in generative models that can sample but cannot directly estimate likelihood is encouraging further research on methods for evaluating such models.
+> Peter Povinec, Greg Rahn, Spyridon Triantafyllis, Philipp Unterbrunner
 >
-> Figures 2 and 3 show samples obtained from the generator net after training. We do not claim that these samples are superior to samples generated by existing methods, but we believe that they are at least competitive with good generative models in the literature and demonstrate the potential of the adversarial framework.
+> Snowflake Computing
 >
-> Figure 2: Visualization of samples from the model. The rightmost column shows the training sample closest to the adjacent sample, intended to demonstrate that the model has not memorized the training set. The samples are not arbitrarily selected, but are fair random draws. Unlike many other visualizations of deep generative models, these images show actual samples from the model distribution rather than conditional means conditioned on samples of hidden units. Furthermore, because the sampling process does not depend on mixing of a Markov chain, these samples are uncorrelated. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
+> ABSTRACT
 >
-> Figure 3: Digits obtained by linearly interpolating between coordinates in the $z$ space of the full model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
+> We are living in the golden age of distributed computing. Public cloud platforms now provide nearly unlimited computing and storage resources on demand. At the same time, the Software-as-a-Service (SaaS) model brings enterprise-grade systems to users who previously could not afford such systems because of their cost and complexity. However, traditional data warehouse systems are struggling to adapt to this new environment. On the one hand, they were designed for fixed resources and therefore cannot take advantage of the elasticity of the cloud. On the other hand, their dependence on complex ETL pipelines and physical tuning goes against the requirements for flexibility and novelty of the cloud’s new semi-structured data types as well as rapidly evolving workloads.
 >
-> |  | Deep directed graphical models | Deep undirected graphical models | Generative autoencoder | Adversarial model |
-> |---|---|---|---|---|
-> | Training | Inference is required during training. | Inference is required during training. MCMC is required to approximate the gradient of the partition function. | Forces a trade-off between mixing and reconstruction generation ability. | Synchronization of discriminator and generator.Helvetica。 |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulty | Markov chain required | Markov chain required | No difficulty |
-> | $p(x)$ evaluation | Infeasible but can be approximated by AIS | Infeasible but can be approximated by AIS | Not explicitly represented, but can be approximated by Parzen density estimation | Not explicitly represented, but can be approximated by Parzen density estimation |
-> | Model design | Extreme difficulty arises in almost all models | Careful design is required to guarantee multiple properties | Any differentiable function is theoretically allowed | Any differentiable function is theoretically allowed |
->
-> Table 2: Challenges in generative modeling. A summary of the difficulties encountered by different approaches to deep generative modeling for each of the major operations involving the model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> We decided that a fundamental redesign was needed. Our mission was to build an enterprise-ready data warehouse solution for the cloud. The result is the Snowflake Elastic Data Warehouse, or “Snowflake” for short. Snowflake is a multi-tenant, transactional, secure, highly scalable and elastic system with full SQL support and built-in extensions for semi-structured data and schemaless data. The system is provided as a pay-per-use service in the Amazon cloud. Users upload their data to the cloud and can immediately manage and query that data using familiar tools and interfaces.
 
-### `content/vi/goodfellow-2014-gan/00_front.md`
+### `content/vi/jacobson-1988-congestion/00_front.md`
 
-every abstract is checked, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says there is no need for Markov chains or unrolled approximate inference networks during training or sample generation, whereas the back-translation says no Markov chains or approximate inference networks need to be implemented extensively during those phases, weakening and changing the claim about unrolled networks and the extent of the requirement.
+- material: the original says much of the cause lies in transport protocol implementations, the back-translation says most of the cause lies in those implementations.
 
 The English as it stands:
 
-> Generative Adversarial Nets
+> Congestion Avoidance and Control*
 >
-> **Ian J. Goodfellow, Jean Pouget-Abadie[^1], Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair[^2], Aaron Courville, Yoshua Bengio[^3]**
+> Van Jacobson†
+> Lawrence Berkeley Laboratory
 >
-> Département d’informatique et de recherche opérationnelle  
-> Université de Montréal  
-> Montréal, QC H3C 3J7
+> Michael J. Karels‡
+> University of California at Berkeley
 >
-> arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
+> November, 1988
 >
-> Abstract
->
-> We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model $G$ that captures the data distribution, and a discriminative model $D$ that estimates the probability that a sample came from the training data rather than $G$. The training procedure for $G$ is to maximize the probability of $D$ making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions $G$ and $D$, a unique solution exists, with $G$ recovering the training data distribution and $D$ equal to $\frac{1}{2}$ everywhere. In the case where $G$ and $D$ are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.
+> Computer networks have experienced an explosive growth over the past few years and with that growth have come severe congestion problems. For example, it is now common to see internet gateways drop 10% of the incoming packets because of local buffer overflows. Our investigation of some of these problems has shown that much of the cause lies in transport protocol implementations (not in the protocols themselves): The ‘obvious’ ways to implement a window-based transport protocol can result in exactly the wrong behavior in response to network congestion. We give examples of ‘wrong’ behavior and describe some simple algorithms that can be used to make right things happen. The algorithms are rooted in the idea of achieving network stability by forcing the transport connection to obey a ‘packet conservation’ principle. We show how the algorithms derive from this principle and what effect they have on traffic over congested networks.
 
 What came back:
 
-> Generative Adversarial Networks
+> Congestion Avoidance and Control*
 >
-> **Ian J. Goodfellow, Jean Pouget-Abadie[^1], Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair[^2], Aaron Courville, Yoshua Bengio[^3]**
+> Van Jacobson†
+> Lawrence Berkeley Laboratory
 >
-> Department of computer science and operations research  
-> University of Montreal  
-> Montreal, QC H3C 3J7
+> Michael J. Karels‡
+> University of California at Berkeley
 >
-> arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
+> November, 1988
 >
-> Abstract
->
-> We propose a new framework for estimating generative models through an adversarial process, in which we simultaneously train two models: a generative model $G$ that captures the data distribution, and a discriminative model $D$ that estimates the probability that a sample comes from the training data rather than from $G$. The training procedure for $G$ is to maximize the probability that $D$ makes a mistake. This framework corresponds to a two-player minimax game. In the space of arbitrary functions $G$ and $D$, there exists a unique solution, in which $G$ recovers the training data distribution and $D$ equals $\frac{1}{2}$ everywhere. In the case where $G$ and $D$ are defined by multilayer perceptrons, the entire system can be trained by backpropagation. No Markov chains or approximate inference networks need to be implemented extensively in either the training phase or the generation phase. Experiments show the potential of this framework through qualitative and quantitative evaluation of the generated samples.
+> Computer networks have grown explosively over the past few years, and along with that growth have come serious congestion problems. For example, it is now common to see Internet gateways discard 10% of incoming packets due to local buffer overflow. Our research into some of these problems shows that most of the cause lies in transport protocol implementations (not the protocols themselves): The ‘obvious’ ways to implement a window-based transport protocol can lead to exactly the wrong behavior in response to network congestion. We give examples of ‘wrong’ behavior and describe some simple algorithms that can be used to make things go right. These algorithms are based on the idea of achieving network stability by forcing the transport connection to obey a ‘packet conservation’ principle. We show how the algorithms are derived from this principle and their impact on traffic through congested networks.
 
-### `content/vi/goodfellow-2014-gan/02_related_work.md`
+### `content/vi/lattner-2004-llvm/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says DBNs have several directed layers, while the back-translation says they have many directed layers; this is a slight quantity change.
-- The original says NCE learning slows “dramatically,” while the back-translation says it slows “significantly”; this softens the stated degree of slowdown.
-- The original says the model has learned an “approximately correct” distribution, while the back-translation says it has learned a “correct approximate” distribution; this does not materially change the claim.
-- The original says adversarial nets are “better able to leverage” piecewise linear units, while the back-translation says they “have the potential to make better use” of them; this changes a claim of demonstrated comparative ability into a hedged potential.
-- The original says GSNs “extend” generalized denoising auto-encoders, while the back-translation says GSN is “an extension” of them; this preserves the claim.
-- The original says more recent examples involve back-propagating “into it,” while the back-translation says “into itself”; this slightly narrows the wording but does not materially alter the claim.
+- material: the original says the evaluation examines the effectiveness of the representation, the back-translation says it examines the efficiency of the representation.
 
 The English as it stands:
 
-> An alternative to directed graphical models with latent variables are undirected graphical models with latent variables, such as restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann machines (DBMs) [26] and their numerous variants. The interactions within such models are represented as the product of unnormalized potential functions, normalized by a global summation/integration over all states of the random variables. This quantity (the *partition function*) and its gradient are intractable for all but the most trivial instances, although they can be estimated by Markov chain Monte Carlo (MCMC) methods. Mixing poses a significant problem for learning algorithms that rely on MCMC [3, 5].
+> LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation
 >
-> Deep belief networks (DBNs) [16] are hybrid models containing a single undirected layer and several directed layers. While a fast approximate layer-wise training criterion exists, DBNs incur the computational difficulties associated with both undirected and directed models.
+> Chris Lattner
 >
-> Alternative criteria that do not approximate or bound the log-likelihood have also been proposed, such as score matching [18] and noise-contrastive estimation (NCE) [13]. Both of these require the learned probability density to be analytically specified up to a normalization constant. Note that in many interesting generative models with several layers of latent variables (such as DBNs and DBMs), it is not even possible to derive a tractable unnormalized probability density. Some models such as denoising auto-encoders [30] and contractive autoencoders have learning rules very similar to score matching applied to RBMs. In NCE, as in this work, a discriminative training criterion is employed to fit a generative model. However, rather than fitting a separate discriminative model, the generative model itself is used to discriminate generated data from samples a fixed noise distribution. Because NCE uses a fixed noise distribution, learning slows dramatically after the model has learned even an approximately correct distribution over a small subset of the observed variables.
+> Vikram Adve
+> University of Illinois at Urbana-Champaign
+> {lattner,vadve}@cs.uiuc.edu
+> http://llvm.cs.uiuc.edu/
 >
-> Finally, some techniques do not involve defining a probability distribution explicitly, but rather train a generative machine to draw samples from the desired distribution. This approach has the advantage that such machines can be designed to be trained by back-propagation. Prominent recent work in this area includes the generative stochastic network (GSN) framework [5], which extends generalized denoising auto-encoders [4]: both can be seen as defining a parameterized Markov chain, i.e., one learns the parameters of a machine that performs one step of a generative Markov chain. Compared to GSNs, the adversarial nets framework does not require a Markov chain for sampling. Because adversarial nets do not require feedback loops during generation, they are better able to leverage piecewise linear units [19, 9, 10], which improve the performance of backpropagation but have problems with unbounded activation when used in a feedback loop. More recent examples of training a generative machine by back-propagating into it include recent work on auto-encoding variational Bayes [20] and stochastic backpropagation [24].
+> ABSTRACT
+> This paper describes LLVM (Low Level Virtual Machine), a compiler framework designed to support transparent, lifelong program analysis and transformation for arbitrary programs, by providing high-level information to compiler transformations at compile-time, link-time, run-time, and in idle time between runs. LLVM defines a common, low-level code representation in Static Single Assignment (SSA) form, with several novel features: a simple, language-independent type-system that exposes the primitives commonly used to implement high-level language features; an instruction for typed address arithmetic; and a simple mechanism that can be used to implement the exception handling features of high-level languages (and setjmp/longjmp in C) uniformly and efficiently. The LLVM compiler framework and code representation together provide a combination of key capabilities that are important for practical, lifelong analysis and transformation of programs. To our knowledge, no existing compilation approach provides all these capabilities. We describe the design of the LLVM representation and compiler framework, and evaluate the design in three ways: (a) the size and effectiveness of the representation, including the type information it provides; (b) compiler performance for several interprocedural problems; and (c) illustrative examples of the benefits LLVM provides for several challenging compiler problems.
 
 What came back:
 
-> An alternative to directed graphical models with latent variables is undirected graphical models with latent variables, such as restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann machines (DBMs) [26] and their many variants. The interactions within such models are represented as a product of unnormalized potential functions, normalized by a global summation/integration over all states of the random variables. This quantity ( *partition function* ) and its gradient are intractable for all but the most trivial cases, although they can be estimated using Markov chain Monte Carlo (MCMC) methods. Mixing poses a significant problem for learning algorithms dependent on MCMC [3, 5].
+> LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation
 >
-> Deep belief networks (DBNs) [16] are hybrid models containing a single undirected layer and many directed layers. Although a fast approximate layer-wise training criterion exists, DBNs must bear the computational difficulties associated with both undirected and directed models.
+> Chris Lattner
 >
-> Alternative criteria that neither approximate nor bound the log-likelihood have also been proposed, such as score matching [18] and noise-contrastive estimation (NCE) [13]. Both require the learned probability density to be specified analytically up to a normalization constant. Note that in many interesting generative models with multiple layers of latent variables (such as DBN and DBM), it is not even possible to derive a tractable unnormalized probability density. Some models such as denoising auto-encoders [30] and contractive autoencoders have learning rules very similar to score matching applied to RBM. In NCE, as in this work, a discriminative training criterion is used to fit a generative model. However, instead of fitting a separate discriminative model, the generative model itself is used to discriminate generated data from samples from a fixed noise distribution. Because NCE uses a fixed noise distribution, learning slows down significantly after the model has learned even a correct approximate distribution on a small subset of the observed variables.
+> Vikram Adve
+> University of Illinois at Urbana-Champaign
+> {lattner,vadve}@cs.uiuc.edu
+> http://llvm.cs.uiuc.edu/
 >
-> Finally, some techniques do not involve explicitly defining a probability distribution, but instead train a generative machine to draw samples from the desired distribution. This approach has the advantage that such machines can be designed to be trained by backpropagation. Notable recent work in this area includes the generative stochastic network (GSN) framework [5], an extension of generalized denoising auto-encoders [4]: both can be viewed as defining a parameterized Markov chain, that is, one learns the parameters of a machine that performs one step of a generative Markov chain. Compared to GSN, the adversarial nets framework does not require a Markov chain for sampling. Because adversarial nets do not require feedback loops during generation, they have the potential to make better use of piecewise linear units [19, 9, 10], which improve the performance of backpropagation but have problems with unbounded activations when used in a feedback loop. More recent examples of training a generative machine by backpropagating into itself include recent work on auto-encoding variational Bayes [20] and stochastic backpropagation [24].
+> ABSTRACT
+> This paper describes LLVM (Low Level Virtual Machine), a compiler framework designed to support transparent, lifelong program analysis and transformation for arbitrary programs, by providing high-level information for compiler transformations at compile time, link time, runtime, and idle time between runs. LLVM defines a common, low-level code representation in Static Single Assignment (SSA) form, with several new features: a simple, language-independent type system that exposes the primitives commonly used to implement high-level language features; an instruction for typed address computation; and a simple mechanism that can be used to implement the exception-handling features of high-level languages (and setjmp/longjmp in C) uniformly and efficiently. The LLVM compiler framework and code representation together provide a combination of key capabilities important for lifelong program analysis and transformation in practice. To our knowledge, no existing compilation approach provides all of these capabilities. We describe the design of the LLVM representation and compiler framework, and evaluate the design in three respects: (a) the size and efficiency of the representation, including the type information it provides; (b) the performance of the compiler on several interprocedural problems; and (c) illustrative examples of the benefits that LLVM brings to several challenging compiler problems.
 
-### `content/vi/goodfellow-2014-gan/04_theoretical_results.md`
+### `content/vi/patterson-1981-risc/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original claims the minimax game has a global optimum at \(p_g=p_{\mathrm{data}}\), whereas the back-translation claims it has a global maximum there.
-- The original says the discriminator’s optimum is reached “given \(G\),” whereas the back-translation says it is reached “with \(G\) given,” which is equivalent.
-- The original proof concludes that \(p_g\) converges to \(p_x\), whereas the back-translation also says \(p_g\) converges to \(p_x\); however, this is a named-variable inconsistency already present in the original and therefore not a translation difference.
-- The original says adversarial networks represent a limited family of \(p_g\) distributions, whereas the back-translation says they represent a finite family; “finite” is stronger than merely “limited.”
+- material: the original says such a machine should have a much shorter design time, the back-translation says it will have a much shorter design time.
 
 The English as it stands:
 
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of the samples $G(z)$ obtained when $z\sim p_z$. Therefore, we would like Algorithm 1 to converge to a good estimator of $p_{\mathrm{data}}$, if given enough capacity and training time. The results of this section are done in a non-parametric setting, e.g. we represent a model with infinite capacity by studying convergence in the space of probability density functions.
+> RISC I: A REDUCED INSTRUCTION SET VLSI COMPUTER
 >
-> We will show in section 4.1 that this minimax game has a global optimum for $p_g=p_{\mathrm{data}}$. We will then show in section 4.2 that Algorithm 1 optimizes Eq 1, thus obtaining the desired result.
+> DAVID A. PATTERSON and CARLO H. SEQUIN
 >
-> **Algorithm 1** Minibatch stochastic gradient descent training of generative adversarial nets. The number of steps to apply to the discriminator, $k$, is a hyperparameter. We used $k = 1$, the least expensive option in our experiments.
+> Computer Science Division
+> University of California
+> Berkeley, California
 >
-> **for** number of training iterations **do**
+> ABSTRACT
 >
-> **for** $k$ steps **do**
+> The Reduced Instruction Set Computer (RISC) Project investigates an alternative to the general trend toward computers with increasingly complex instruction sets: With a proper set of instructions and a corresponding architectural design, a machine with a high effective throughput can be achieved. The simplicity of the instruction set and addressing modes allows most instructions to execute in a single machine cycle, and the simplicity of each instruction guarantees a short cycle time. In addition, such a machine should have a much shorter design time.
 >
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Sample minibatch of $m$ examples $\{x^{(1)}, \ldots, x^{(m)}\}$ from data generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending its stochastic gradient:
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Update the generator by descending its stochastic gradient:
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> The gradient-based updates can use any standard gradient-based learning rule. We used momentum in our experiments.
->
-> ### 4.1 Global Optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> We first consider the optimal discriminator $D$ for any given generator $G$.
->
-> **Proposition 1.** *For $G$ fixed, the optimal discriminator $D$ is* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* The training criterion for the discriminator D, given any generator G, is to maximize the quantity $V(G,D)$
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For any $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ achieves its maximum in $[0,1]$ at $\frac{a}{a+b}$. The discriminator does not need to be defined outside of $Supp(p_{\text{data}})\cup Supp(p_g)$, concluding the proof. $\square$
->
-> Note that the training objective for $D$ can be interpreted as maximizing the log-likelihood for estimating the conditional probability $P(Y=y|x)$, where $Y$ indicates whether $x$ comes from $p_{\text{data}}$ (with $y=1$) or from $p_g$ (with $y=0$). The minimax game in Eq. 1 can now be reformulated as:
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At that point, $C(G)$ achieves the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* For $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$, (consider Eq. 2). Hence, by inspecting Eq. 4 at $D_G^*(x) = \frac{1}{2}$, we find $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To see that this is the best possible value of $C(G)$, reached only for $p_g = p_{\mathrm{data}}$, observe that
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> and that by subtracting this expression from $C(G) = V(D_G^*, G)$, we obtain:
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> where KL is the Kullback–Leibler divergence. We recognize in the previous expression the Jensen–Shannon divergence between the model’s distribution and the data generating process:
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always non-negative and zero only when they are equal, we have shown that $C^* = -\log(4)$ is the global minimum of $C(G)$ and that the only solution is $p_g = p_{\mathrm{data}}$, i.e., the generative model perfectly replicating the data generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have enough capacity, and at each step of Algorithm 1, the discriminator is allowed to reach its optimum given $G$, and $p_g$ is updated so as to improve the criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *then $p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* Consider $V(G, D) = U(p_g, D)$ as a function of $p_g$ as done in the above criterion. Note that $U(p_g, D)$ is convex in $p_g$. The subderivatives of a supremum of convex functions include the derivative of the function at the point where the maximum is attained. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$ and $f_\alpha(x)$ is convex in $x$ for every $\alpha$, then $\partial f_\beta(x) \in \partial f$ if $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$. This is equivalent to computing a gradient descent update for $p_g$ at the optimal $D$ given the corresponding $G$. $\sup_D U(p_g, D)$ is convex in $p_g$ with a unique global optima as proven in Thm 1, therefore with sufficiently small updates of $p_g$, $p_g$ converges to $p_x$, concluding the proof. $\square$
->
-> In practice, adversarial nets represent a limited family of $p_g$ distributions via the function $G(z; \theta_g)$, and we optimize $\theta_g$ rather than $p_g$ itself. Using a multilayer perceptron to define $G$ introduces multiple critical points in parameter space. However, the excellent performance of multilayer perceptrons in practice suggests that they are a reasonable model to use despite their lack of theoretical guarantees.
+> This paper presents the architecture of RISC I and its novel hardware support scheme for procedure call/return. Overlapping sets of register banks that can pass parameters directly to subroutines are largely responsible for the excellent performance of RISC I. Static and dynamic comparisons between this new architecture and more traditional machines are given. Although instructions are simpler, the average length of programs was found not to exceed programs for DEC VAX 11 by more than a factor of 2. Preliminary benchmarks demonstrate the performance advantages of RISC. It appears possible to build a single chip computer faster than VAX 11/780.
 
 What came back:
 
-> :::writing{variant="document" id="58321" title="English Translation"}
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of the samples $G(z)$ obtained when $z\sim p_z$. Therefore, we want Algorithm 1 to converge to a good estimator of $p_{\mathrm{data}}$, if provided with sufficient capacity and training time. The results of this section are carried out in the nonparametric setting, for example we represent a model with infinite capacity by studying convergence in the space of probability density functions.
+> RISC I: VLSI COMPUTER WITH A REDUCED INSTRUCTION SET
 >
-> We will show in Section 4.1 that this minimax game has a global maximum at $p_g=p_{\mathrm{data}}$. Then, we will show in Section 4.2 that Algorithm 1 optimizes Eq 1, thereby obtaining the desired result.
+> DAVID A. PATTERSON and CARLO H. SEQUIN
 >
-> **Algorithm 1** Training adversarial networks by minibatch stochastic gradient descent. The number of steps applied to the discriminator, $k$, is a hyperparameter. We use $k = 1$, the least expensive choice in our experiments.
+> Computer Science Division
+> University of California
+> Berkeley, California
 >
-> **for** number of training iterations **do**
+> ABSTRACT
 >
-> **for** $k$ steps **do**
+> The Reduced Instruction Set Computer (RISC) project investigates an alternative to the general trend toward computers with increasingly complex instruction sets: With an appropriate instruction set and a corresponding architectural design, a machine with high effective throughput can be achieved. The simplicity of the instruction set and addressing modes allows most instructions to execute in a single machine cycle, and the simplicity of each instruction ensures a short cycle time. In addition, such a machine will have a much shorter design time.
 >
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior $p_g(z)$.
-> - Sample a minibatch of $m$ examples $\{x^{(1)}, \ldots, x^{(m)}\}$ from the data-generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending its stochastic gradient:
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior $p_g(z)$.
-> - Update the generator by descending its stochastic gradient:
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> The gradient-based updates can use any standard gradient-based learning rule. We use momentum in our experiments.
->
-> ### 4.1 Global Optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> First, we consider the optimal discriminator $D$ for any given generator $G$.
->
-> **Proposition 1.** *For fixed $G$, the optimal discriminator $D$ is* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* The training criterion for discriminator D, with any generator G, is to maximize the quantity $V(G,D)$
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For every $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ achieves its maximum in $[0,1]$ at $\frac{a}{a+b}$. The discriminator does not need to be defined outside $Supp(p_{\text{data}})\cup Supp(p_g)$, completing the proof. $\square$
->
-> The training criterion for $D$ can be interpreted as maximizing the log-likelihood to estimate the conditional probability $P(Y=y|x)$, where $Y$ indicates whether $x$ comes from $p_{\text{data}}$ (with $y=1$) or from $p_g$ (with $y=0$). The minimax game in Eq. 1 can now be rewritten as:
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At that point, $C(G)$ achieves the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* With $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$, (consider Eq. 2). Therefore, by considering Eq. 4 at $D_G^*(x) = \frac{1}{2}$, we have $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To see that this is the best possible value of $C(G)$, achieved only when $p_g = p_{\mathrm{data}}$, consider
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> and by subtracting this expression from $C(G) = V(D_G^*, G)$, we obtain:
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> where KL is the Kullback–Leibler divergence. In the above expression, we recognize the Jensen–Shannon divergence between the model distribution and the data-generating process:
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always non-negative and is equal to zero only when they are equal, we have proved that $C^* = -\log(4)$ is the global minimum of $C(G)$ and the unique solution is $p_g = p_{\mathrm{data}}$, that is, the generative model perfectly reproduces the data-generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have sufficient capacity, and at each step of Algorithm 1, the discriminator is allowed to reach its optimum with $G$ given, and $p_g$ is updated so as to improve the criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *then $p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* Consider $V(G, D) = U(p_g, D)$ as a function of $p_g$ in the way done in the above criterion. Note that $U(p_g, D)$ is a convex function in $p_g$. The subderivatives of a supremum of convex functions include the derivative of the function at the point achieving the maximum. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$ and $f_\alpha(x)$ is convex in $x$ for every $\alpha$, then $\partial f_\beta(x) \in \partial f$ if $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$. This is equivalent to calculating a gradient descent update for $p_g$ at the optimal $D$ corresponding to the corresponding $G$. $\sup_D U(p_g, D)$ is convex in $p_g$ with a unique global extremum as proved in Theorem 1, therefore with sufficiently small $p_g$ updates, $p_g$ converges to $p_x$, completing the proof. $\square$
->
-> In practice, adversarial networks represent a finite family of distributions $p_g$ through the function $G(z; \theta_g)$, and we optimize $\theta_g$ instead of $p_g$ itself. The use of multilayer perceptrons to define $G$ introduces many critical points in the parameter space. However, the excellent performance of multilayer perceptrons in practice shows that they are a reasonable model to use despite the lack of theoretical guarantees.
->
-> =====
+> This paper presents the architecture of RISC I and the new hardware support scheme for procedure call/return. Overlapping sets of register banks that can pass parameters directly to subroutines are the principal factor creating the excellent performance of RISC I. Static and dynamic comparisons between this new architecture and more traditional machines are given. Although the instructions are simpler, the average length of programs was found not to exceed programs for the DEC VAX 11 by more than a factor of 2. Preliminary benchmarks demonstrate the performance advantages of RISC. It appears feasible to build a single-chip computer faster than the VAX 11/780.
 
-### `content/vi/goodfellow-2014-gan/05_experiments.md`
+### `content/vi/rabin-1959-automata/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says the samples are “not cherry-picked,” whereas the back-translation says they are “not selected,” which is only a slight wording difference and preserves the claim.
-- The original says the samples are at least competitive with “the better generative models in the literature,” whereas the back-translation says they are competitive with “better generative models,” which slightly blurs the comparison but does not materially change it.
-- The original says Parzen likelihood estimation “may be approximated” for the relevant models in Table 2, whereas the back-translation says it “can be approximated,” strengthening the modality from possibility to capability.
-- The original says any differentiable function is “theoretically permitted” for model design, whereas the back-translation says any differentiable function is “allowed in theory,” preserving the claim.
+- material: the original says some decision problems are solvable by effective algorithms, the back-translation says they are solvable by efficient algorithms.
 
 The English as it stands:
 
-> We trained adversarial nets on a range of datasets including MNIST[[lecun-1998-lenet]], the Toronto Face Database (TFD) [28], and CIFAR-10 [21]. The generator nets used a mixture of rectifier linear activations [19, 9] and sigmoid activations, while the discriminator net used maxout [10] activations. Dropout [17] was applied in training the discriminator net. While our theoretical framework permits the use of dropout and other noise at intermediate layers of the generator, we used noise as the input to only the bottommost layer of the generator network.
+> Finite Automata and Their Decision Problems†
 >
-> We estimate probability of the test set data under $p_g$ by fitting a Gaussian Parzen window to the samples generated with $G$ and reporting the log-likelihood under this distribution. The $\sigma$ parameter
->
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial nets | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
->
-> Table 1: Parzen window-based log-likelihood estimates. The reported numbers on MNIST are the mean log-likelihood of samples on test set, with the standard error of the mean computed across examples. On TFD, we computed the standard error across folds of the dataset, with a different $\sigma$ chosen using the validation set of each fold. On TFD, $\sigma$ was cross validated on each fold and mean log-likelihood on each fold were computed. For MNIST we compare against other models of the real-valued (rather than binary) version of dataset. {#goodfellow-2014-gan-tab-1 .table tag=00CA}
->
-> of the Gaussians was obtained by cross validation on the validation set. This procedure was introduced in Breuleux *et al.* [8] and used for various generative models for which the exact likelihood is not tractable [25, 3, 5]. Results are reported in Table 1. This method of estimating the likelihood has somewhat high variance and does not perform well in high dimensional spaces but it is the best method available to our knowledge. Advances in generative models that can sample but not estimate likelihood directly motivate further research on how to evaluate such models.
->
-> In Figures 2 and 3 we show samples drawn from the generator net after training. While we make no claim that these samples are better than samples generated by existing methods, we believe that these samples are at least competitive with the better generative models in the literature and highlight the potential of the adversarial framework.
->
-> Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, not conditional means given samples of hidden units. Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
->
-> Figure 3: Digits obtained by linearly interpolating between coordinates in $z$ space of the full model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
->
-> |  | Deep directed graphical models | Deep undirected graphical models | Generative autoencoders | Adversarial models |
-> |---|---|---|---|---|
-> | Training | Inference needed during training. | Inference needed during training. MCMC needed to approximate partition function gradient. | Enforced tradeoff between mixing and power of reconstruction generation | Synchronizing the discriminator with the generator. Helvetica. |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulties | Requires Markov chain | Requires Markov chain | No difficulties |
-> | Evaluating $p(x)$ | Intractable, may be approximated with AIS | Intractable, may be approximated with AIS | Not explicitly represented, may be approximated with Parzen density estimation | Not explicitly represented, may be approximated with Parzen density estimation |
-> | Model design | Nearly all models incur extreme difficulty | Careful design needed to ensure multiple properties | Any differentiable function is theoretically permitted | Any differentiable function is theoretically permitted |
->
-> Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches to deep generative modeling for each of the major operations involving a model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> Abstract: Finite automata are considered in this paper as instruments for classifying finite tapes. Each one-tape automaton defines a set of tapes, a two-tape automaton defines a set of pairs of tapes, et cetera. The structure of the defined sets is studied. Various generalizations of the notion of an automaton are introduced and their relation to the classical automata is determined. Some decision problems concerning automata are shown to be solvable by effective algorithms; others turn out to be unsolvable by algorithms.
 
 What came back:
 
-> We trained adversarial networks on a variety of datasets, including MNIST[[lecun-1998-lenet]], Toronto Face Database (TFD) [28] and CIFAR-10 [21]. The generative networks use a combination of rectified linear activation functions [19, 9] and sigmoid activation functions, while the discriminative network uses maxout activation functions [10]. Dropout [17] is applied during training of the discriminative network. Although our theoretical framework allows the use of dropout and other noise at intermediate layers of the generator, we only use noise as input to the lowest layer of the generator network.
+> Finite Automata and Their Decision Problems†
 >
-> We estimate the probability of test set data under $p_g$ by fitting a Gaussian Parzen window to the samples generated by $G$ and report the log-likelihood under this distribution. The parameter $\sigma$
->
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial net | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
->
-> Table 1: Log-likelihood estimates based on Parzen windows. The numbers reported on MNIST are the average log-likelihood of the samples on the test set, with the standard error of the mean computed over the examples. On TFD, we compute the standard error over the folds of the dataset, with a different $\sigma$ selected by the validation set of each fold. On TFD, $\sigma$ is cross-validated on each fold and the average log-likelihood over each fold is computed. For MNIST, we compare with other models of the version of the dataset with real values (rather than binary). {#goodfellow-2014-gan-tab-1 .table tag=00CA}
->
-> of the Gaussians is determined by cross-validation on the validation set. This procedure is introduced in Breuleux *et al.* [8] and is used for many different generative models for which exact likelihood is not tractable [25, 3, 5]. The results are reported in Table 1. This likelihood estimation method has relatively high variance and does not work well in spaces with high dimensionality, but to our knowledge, this is the best method currently available. Advances in generative models that can sample but cannot directly estimate likelihood motivate further research on how to evaluate such models.
->
-> In Figures 2 and 3, we present samples drawn from the generator network after training. Although we do not claim that these samples are better than the samples generated by existing methods, we believe that these samples are at least competitive with better generative models in the literature and highlight the potential of the adversarial framework.
->
-> Figure 2: Visualization of samples from the model. The far right column shows the nearest training example of the neighboring sample, to demonstrate that the model does not memorize the training set. The samples are fair random draws, not selected. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, rather than conditional means given samples of the hidden units. Furthermore, these samples are uncorrelated because the sampling process does not depend on the mixing of a Markov chain. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
->
-> Figure 3: Digits obtained by linearly interpolating between coordinates in the $z$ space of the full model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
->
-> |  | Directed deep graph models | Undirected deep graph models | Generative autoencoder | Adversarial models |
-> |---|---|---|---|---|
-> | Training | Inference is needed during training. | Inference is needed during training. MCMC is needed to approximate the gradient of the partition function. | Imposes a tradeoff between mixing and capacity of the generative reconstruction process | Synchronize the discriminator with the generator. Helvetica. |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulty | Requires a Markov chain | Requires a Markov chain | No difficulty |
-> | Evaluating $p(x)$ | Intractable, can be approximated by AIS | Intractable, can be approximated by AIS | Not explicitly represented, can be approximated by Parzen density estimation | Not explicitly represented, can be approximated by Parzen density estimation |
-> | Model design | Nearly all models encounter extremely great difficulty | Careful design is needed to ensure many properties | In theory, any differentiable function is allowed | In theory, any differentiable function is allowed |
->
-> Table 2: Challenges in generative modeling: summary of the difficulties encountered by different approaches to deep generative modeling for each main operation involved in a model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> Abstract: In this paper, finite automata are viewed as tools for classifying finite tapes. Each one-tape automaton defines a set of tapes, a two-tape automaton defines a set of pairs of tapes, etc. The structure of the defined sets is studied. Various generalizations of the concept of an automaton are introduced and their relationships with classical automata are determined. Some decision problems concerning automata are proved to be solvable by efficient algorithms; others turn out to be unsolvable by algorithms.
 
-### `content/vi/goodfellow-2014-gan/07_conclusions_and_future_work.md`
+### `content/vi/selinger-1979-accesspath/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says the research directions “could prove useful,” whereas the back-translation says they “can be useful,” changing a hedged possibility into a more definite claim.
+- material: the original names the authors’ affiliation as IBM Research Division, San Jose, the back-translation names it as IBM Research Laboratory, San Jose.
 
 The English as it stands:
 
-> This framework admits many straightforward extensions:
+> Access Path Selection
+> in a Relational Database Management System
 >
-> 1. A *conditional* generative model $p(\mathbf{x}\mid\mathbf{c})$ can be obtained by adding $\mathbf{c}$ as input to both $G$ and $D$.
-> 2. *Learned approximate inference* can be performed by training an auxiliary network to predict $\mathbf{z}$ given $\mathbf{x}$. This is similar to the inference net trained by the wake-sleep algorithm [15] but with the advantage that the inference net may be trained for a fixed generator net after the generator net has finished training.
+> P. Griffiths Selinger
+> M. M. Astrahan
+> D. D. Chamberlin
+> R. A. Lorie
+> T. G. Price
 >
-> 3. One can approximately model all conditionals $p(x_S \mid x_{\not S})$ where $S$ is a subset of the indices of $x$ by training a family of conditional models that share parameters. Essentially, one can use adversarial nets to implement a stochastic extension of the deterministic MP-DBM [11].
-> 4. *Semi-supervised learning:* features from the discriminator or inference net could improve performance of classifiers when limited labeled data is available.
-> 5. *Efficiency improvements:* training could be accelerated greatly by divising better methods for coordinating $G$ and $D$ or determining better distributions to sample $z$ from during training.
+> IBM Research Division, San Jose, California 95193
 >
-> This paper has demonstrated the viability of the adversarial modeling framework, suggesting that these research directions could prove useful.
+> ABSTRACT: In a high level query and data manipulation language such as SQL, requests are stated non-procedurally, without reference to access paths. This paper describes how System R chooses access paths for both simple (single relation) and complex queries (such as joins), given a user specification of desired data as a boolean expression of predicates. System R is an experimental database management system developed to carry out research on the relational model of data. System R was designed and built by members of the IBM San Jose Research Laboratory.
 
 What came back:
 
-> This framework allows several simple extensions:
+> Access Path Selection
+> in a Relational Database Management System
 >
-> 1. A *conditional* generative model $p(\mathbf{x}\mid\mathbf{c})$ can be obtained by adding $\mathbf{c}$ as an input to both $G$ and $D$.
-> 2. It is possible to perform *learned approximate inference* by training an auxiliary network to predict $\mathbf{z}$ when given $\mathbf{x}$. This is similar to the inference network trained by the wake-sleep algorithm [15], but has the advantage that the inference network can be trained with a fixed generative network after the generative network has completed its training.
+> P. Griffiths Selinger
+> M. M. Astrahan
+> D. D. Chamberlin
+> R. A. Lorie
+> T. G. Price
 >
-> 3. It is possible to approximate modeling all conditional distributions $p(x_S \mid x_{\not S})$ in which $S$ is a subset of the indices of $x$, by training a family of conditional models sharing parameters. Basically, adversarial networks can be used to implement a stochastic extension of the deterministic MP-DBM [11].
-> 4. *Semi-supervised learning:* features from the discriminator or inference network can improve the performance of classifiers when limited labeled data are available.
-> 5. *Efficiency improvement:* the training process can be accelerated significantly by constructing better methods to coordinate $G$ and $D$ or determining better distributions for sampling $z$ during training.
+> IBM Research Laboratory, San Jose, California 95193
 >
-> This paper has demonstrated the feasibility of the adversarial modeling framework, showing that these research directions can be useful.
+> ABSTRACT: In a high-level query and data manipulation language such as SQL, requests are expressed nonprocedurally, without reference to access paths. This paper describes how System R selects access paths for both simple queries (a single relation) and complex queries (such as joins), with a user specification of the desired data in the form of a boolean expression of predicates. System R is an experimental database management system developed to conduct research on the relational data model. System R was designed and built by members of the IBM San Jose Research Laboratory.
 
-### `content/zh/goodfellow-2014-gan/01_introduction.md`
+### `content/vi/yeh-1991-branchprediction/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says the deep-learning successes use piecewise linear units with a particularly well-behaved gradient, while the back-translation says their gradients merely have particularly good properties, which slightly weakens the specific claim.
-- The original says deep generative models have had less impact partly because of difficulty approximating many intractable probabilistic computations arising in maximum likelihood estimation and related strategies, while the back-translation says there is difficulty approximating maximum likelihood estimation itself and the many intractable probability calculations arising in related strategies, changing what is described as difficult to approximate.
-- The original calls the framework “adversarial nets,” while the back-translation calls it “adversarial network” and later says “an adversarial network” for the special case; this changes the named term from the paper’s plural name to a singular one.
-- The original footnote [^3] says Yoshua Bengio is a “CIFAR Senior Fellow,” while the back-translation says he is a “CIFAR Senior Researcher.”
-- The original says all code and hyperparameters are available at the specified GitHub URL, while the back-translation gives a corrupted and substantially altered rendering of that URL rather than the same usable link.
+- material: the original says prediction misses cause serious performance degradation because much speculative work must be discarded, the back-translation says the discarded speculative work causes the mispredictions.
 
 The English as it stands:
 
-> The promise of deep learning is to discover rich, hierarchical models [2] that represent probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, audio waveforms containing speech, and symbols in natural language corpora. So far, the most striking successes in deep learning have involved discriminative models, usually those that map a high-dimensional, rich sensory input to a class label [14], [[krizhevsky-2012-imagenet]]. These striking successes have primarily been based on the backpropagation and dropout algorithms, using piecewise linear units [19, 9, 10] which have a particularly well-behaved gradient . Deep *generative* models have had less of an impact, due to the difficulty of approximating many intractable probabilistic computations that arise in maximum likelihood estimation and related strategies, and due to difficulty of leveraging the benefits of piecewise linear units in the generative context. We propose a new generative model estimation procedure that sidesteps these difficulties. [^4]
+> There is serious performance degradation in deep-pipelined and/or superscalar machines caused by prediction misses due to the large amount of speculative work that has to be discarded [1, 8]. This is the motivation for proposing a new, higher-accuracy dynamic branch prediction scheme. The new scheme uses two levels of branch history information to make predictions. The first level is the history of the last $n$ branches. The second is the branch behavior for the last $s$ occurrences of that unique pattern of the last $n$ branches. The history information is collected on the fly without executing the program beforehand, eliminating the major disadvantage of Static Training Prediction. The scheme proposed here is called Two-Level Adaptive Training Branch Prediction, because predictions are based not only on the record of the last $n$ branches, but moreover on the record of the last $s$ occurrences of the particular record of the last $n$ branches.
 >
-> In the proposed *adversarial nets* framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency. Competition in this game drives both teams to improve their methods until the counterfeits are indistinguishable from the genuine articles.
->
-> [^1]: Jean Pouget-Abadie is visiting Université de Montréal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting Université de Montréal from Indian Institute of Technology Delhi
-> [^3]: Yoshua Bengio is a CIFAR Senior Fellow.
-> [^4]: All code and hyperparameters available at http://www.github.com/goodfeli/adversarial
->
-> This framework can yield specific training algorithms for many kinds of model and optimization algorithm. In this article, we explore the special case when the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We refer to this special case as *adversarial nets*. In this case, we can train both models using only the highly successful backpropagation and dropout algorithms [17] and sample from the generative model using only forward propagation. No approximate inference or Markov chains are necessary.
+> Trace-driven simulations were used in this study. The Two-Level Adaptive Training branch prediction scheme as well as the other dynamic and static branch prediction schemes were simulated on the SPEC benchmark suite. By using Two-Level Adaptive Training Branch Prediction, the average prediction accuracy for the benchmarks reaches 97 percent, while most of the other schemes achieve under 93 percent. This represents more than 100 percent reduction in mispredictions by using the Two-Level Adaptive Training scheme. This reduction can lead directly to a large performance gain on a high-performance processor.
 
 What came back:
 
-> The prospect of deep learning lies in discovering rich, hierarchical models[2], which represent probability distributions over various types of data encountered in artificial intelligence applications, such as natural images, audio waveforms containing speech, and symbols in natural language corpora. So far, the most striking successes of deep learning have mainly come from discriminative models, usually models that map high-dimensional, rich perceptual inputs to class labels[14], [[krizhevsky-2012-imagenet]]. These remarkable successes have mainly been built on backpropagation and Dropout algorithms, using piecewise linear units[19, 9, 10], whose gradients have particularly good properties. The impact of deep *generative* models has been smaller, due to the difficulty of approximating maximum likelihood estimation and the many intractable probability calculations that arise in related strategies, and also due to the difficulty of exploiting the advantages of piecewise linear units in the generative setting. We propose a new generative model estimation procedure that bypasses these difficulties.[^4]
+> There is serious performance degradation in deeply pipelined and/or superscalar machines due to mispredictions caused by the large amount of speculative work that must be discarded [1, 8]. This is the motivation for proposing a new dynamic branch prediction scheme with higher accuracy. The new scheme uses two levels of branch history information to make predictions. The first level is the history of the $n$ most recent branches. The second level is the behavior of the branch in the $s$ most recent occurrences of that unique pattern of the $n$ most recent branches. History information is collected directly during execution without requiring prior execution of the program, eliminating the main disadvantage of Static Training Prediction. The scheme proposed here is called Two-Level Adaptive Training Branch Prediction, because the predictions are based not only on the record of the $n$ most recent branches, but also on the record of the $s$ most recent occurrences of the specific record of the $n$ most recent branches.
 >
-> In the proposed *adversarial network* framework, a generative model is set against an opponent: a discriminative model that learns to determine whether a sample comes from the model distribution or the data distribution. The generative model can be viewed as a group of counterfeiters, trying to manufacture and use fake currency without being discovered; while the discriminative model is like the police, trying to identify counterfeit currency. The competition in this game drives both sides to continuously improve their respective methods, until the forgeries cannot be distinguished from the genuine articles.
->
-> [^1]: Jean Pouget-Abadie is visiting the University of Montreal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting the University of Montreal from Indian Institute of Technology Delhi
-> [^3]: Yoshua Bengio is a CIFAR Senior Researcher.
-> [^4]: All code and hyperparameters can be found at [[http://www.github.com/goodfeli/adversarial\](http://www.github.com/goodfeli/adversarial)获得](http://www.github.com/goodfeli/adversarial]\(http://www.github.com/goodfeli/adversarial\)获得)
->
-> The framework can derive specific training algorithms for many types of models and optimization algorithms. This paper explores a special case: the generative model generates samples by passing random noise into a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We call this special case an *adversarial network*. In this case, we only need to use the extremely successful backpropagation and Dropout algorithms[17] to train the two models, and only forward propagation is needed to sample from the generative model. Approximate inference or Markov chains are not needed.
-
-### `content/zh/goodfellow-2014-gan/04_theoretical_results.md`
-
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
-- The original says that with sufficiently small updates of \(p_g\), \(p_g\) converges to \(p_x\), while the back-translation likewise says it converges to \(p_x\); however, the surrounding theorem establishes the unique optimum as \(p_g=p_{\mathrm{data}}\), so the unchanged \(p_x\) appears to be a source-text inconsistency rather than a translation difference.
-
-The English as it stands:
-
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of the samples $G(z)$ obtained when $z\sim p_z$. Therefore, we would like Algorithm 1 to converge to a good estimator of $p_{\mathrm{data}}$, if given enough capacity and training time. The results of this section are done in a non-parametric setting, e.g. we represent a model with infinite capacity by studying convergence in the space of probability density functions.
->
-> We will show in section 4.1 that this minimax game has a global optimum for $p_g=p_{\mathrm{data}}$. We will then show in section 4.2 that Algorithm 1 optimizes Eq 1, thus obtaining the desired result.
->
-> **Algorithm 1** Minibatch stochastic gradient descent training of generative adversarial nets. The number of steps to apply to the discriminator, $k$, is a hyperparameter. We used $k = 1$, the least expensive option in our experiments.
->
-> **for** number of training iterations **do**
->
-> **for** $k$ steps **do**
->
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Sample minibatch of $m$ examples $\{x^{(1)}, \ldots, x^{(m)}\}$ from data generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending its stochastic gradient:
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from noise prior $p_g(z)$.
-> - Update the generator by descending its stochastic gradient:
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> The gradient-based updates can use any standard gradient-based learning rule. We used momentum in our experiments.
->
-> ### 4.1 Global Optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> We first consider the optimal discriminator $D$ for any given generator $G$.
->
-> **Proposition 1.** *For $G$ fixed, the optimal discriminator $D$ is* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* The training criterion for the discriminator D, given any generator G, is to maximize the quantity $V(G,D)$
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For any $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ achieves its maximum in $[0,1]$ at $\frac{a}{a+b}$. The discriminator does not need to be defined outside of $Supp(p_{\text{data}})\cup Supp(p_g)$, concluding the proof. $\square$
->
-> Note that the training objective for $D$ can be interpreted as maximizing the log-likelihood for estimating the conditional probability $P(Y=y|x)$, where $Y$ indicates whether $x$ comes from $p_{\text{data}}$ (with $y=1$) or from $p_g$ (with $y=0$). The minimax game in Eq. 1 can now be reformulated as:
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At that point, $C(G)$ achieves the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* For $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$, (consider Eq. 2). Hence, by inspecting Eq. 4 at $D_G^*(x) = \frac{1}{2}$, we find $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To see that this is the best possible value of $C(G)$, reached only for $p_g = p_{\mathrm{data}}$, observe that
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> and that by subtracting this expression from $C(G) = V(D_G^*, G)$, we obtain:
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> where KL is the Kullback–Leibler divergence. We recognize in the previous expression the Jensen–Shannon divergence between the model’s distribution and the data generating process:
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always non-negative and zero only when they are equal, we have shown that $C^* = -\log(4)$ is the global minimum of $C(G)$ and that the only solution is $p_g = p_{\mathrm{data}}$, i.e., the generative model perfectly replicating the data generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have enough capacity, and at each step of Algorithm 1, the discriminator is allowed to reach its optimum given $G$, and $p_g$ is updated so as to improve the criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *then $p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* Consider $V(G, D) = U(p_g, D)$ as a function of $p_g$ as done in the above criterion. Note that $U(p_g, D)$ is convex in $p_g$. The subderivatives of a supremum of convex functions include the derivative of the function at the point where the maximum is attained. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$ and $f_\alpha(x)$ is convex in $x$ for every $\alpha$, then $\partial f_\beta(x) \in \partial f$ if $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$. This is equivalent to computing a gradient descent update for $p_g$ at the optimal $D$ given the corresponding $G$. $\sup_D U(p_g, D)$ is convex in $p_g$ with a unique global optima as proven in Thm 1, therefore with sufficiently small updates of $p_g$, $p_g$ converges to $p_x$, concluding the proof. $\square$
->
-> In practice, adversarial nets represent a limited family of $p_g$ distributions via the function $G(z; \theta_g)$, and we optimize $\theta_g$ rather than $p_g$ itself. Using a multilayer perceptron to define $G$ introduces multiple critical points in parameter space. However, the excellent performance of multilayer perceptrons in practice suggests that they are a reasonable model to use despite their lack of theoretical guarantees.
-
-What came back:
-
-> The generator $G$ implicitly defines a probability distribution $p_g$ as the distribution of samples $G(z)$ obtained when $z\sim p_z$. Therefore, given sufficient capacity and training time, we hope that Algorithm 1 can converge to a good estimator of $p_{\mathrm{data}}$. The results in this section are obtained in the nonparametric setting, for example, we represent models with infinite capacity by studying convergence in the space of probability density functions.
->
-> We will prove in Section 4.1 that when $p_g=p_{\mathrm{data}}$, the minimax game has a global optimum. Subsequently, we will prove in Section 4.2 that Algorithm 1 optimizes Equation 1, thereby obtaining the desired result.
->
-> **Algorithm 1** Minibatch stochastic gradient descent training of generative adversarial networks. The number of steps $k$ applied to the discriminator is a hyperparameter. In our experiments $k = 1$ was used, which is the least costly choice.
->
-> **for** number of training iterations **do**
->
-> **for** $k$ steps **do**
->
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior $p_g(z)$.
-> - Sample a minibatch of $m$ samples $\{x^{(1)}, \ldots, x^{(m)}\}$ from the data generating distribution $p_{\text{data}}(x)$.
-> - Update the discriminator by ascending along its stochastic gradient:
->
-> $$\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m}\left[\log D\left(x^{(i)}\right)+\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right)\right].$$
->
-> **end for**
->
-> - Sample a minibatch of $m$ noise samples $\{z^{(1)}, \ldots, z^{(m)}\}$ from the noise prior $p_g(z)$.
-> - Update the generator by descending along its stochastic gradient:
->
-> $$\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m}\log\left(1-D\left(G\left(z^{(i)}\right)\right)\right).$$
->
-> **end for**
->
-> The gradient-based updates can use any standard gradient-based learning rule. Momentum was used in our experiments.
->
-> ### 4.1 Global optimality of $p_g = p_{\text{data}}$ {#goodfellow-2014-gan-s4-1 .section tag=00C7}
->
-> We first consider the optimal discriminator $D$ corresponding to any given generator $G$.
->
-> **Proposition 1.** *For fixed $G$, the optimal discriminator $D$ is* {#goodfellow-2014-gan-prop-1 .statement tag=00C8}
->
-> $$D_G^*(x)=\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\tag{2}$$
-> {#goodfellow-2014-gan-eq-2 .equation tag=014B}
->
-> *Proof.* Given any generator G, the training criterion for the discriminator D is to maximize the quantity $V(G,D)$
->
-> $$\begin{aligned}
-> V(G,D)&=\int_x p_{\text{data}}(x)\log(D(x))dx+\int_z p_z(z)\log(1-D(g(z)))dz\\
-> &=\int_x p_{\text{data}}(x)\log(D(x))+p_g(x)\log(1-D(x))dx
-> \end{aligned}\tag{3}$$
-> {#goodfellow-2014-gan-eq-3 .equation tag=014C}
->
-> For any $(a,b)\in\mathbb{R}^2\setminus\{0,0\}$, the function $y\rightarrow a\log(y)+b\log(1-y)$ attains its maximum on the interval $[0,1]$ at $\frac{a}{a+b}$. The discriminator need not be defined outside $Supp(p_{\text{data}})\cup Supp(p_g)$, completing the proof. $\square$
->
-> Notice that the training objective of $D$ can be interpreted as maximizing the log-likelihood for estimating the conditional probability $P(Y=y|x)$, where $Y$ indicates whether $x$ comes from $p_{\text{data}}$ (in which case $y=1$) or from $p_g$ (in which case $y=0$). The minimax game in Equation 1 can now be rewritten as:
->
-> $$\begin{aligned}
-> C(G)&=\max_D V(G,D)\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{z\sim p_z}\left[\log(1-D_G^*(G(z)))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log D_G^*(x)\right]+\mathbb{E}_{x\sim p_g}\left[\log(1-D_G^*(x))\right]\\
-> &=\mathbb{E}_{x\sim p_{\text{data}}}\left[\log\frac{p_{\text{data}}(x)}{p_{\text{data}}(x)+p_g(x)}\right]+\mathbb{E}_{x\sim p_g}\left[\log\frac{p_g(x)}{p_{\text{data}}(x)+p_g(x)}\right]
-> \end{aligned}\tag{4}$$
-> {#goodfellow-2014-gan-eq-4 .equation tag=014D}
->
-> **Theorem 1.** *The global minimum of the virtual training criterion $C(G)$ is achieved if and only if $p_g = p_{\mathrm{data}}$. At this time, $C(G)$ takes the value $-\log 4$.* {#goodfellow-2014-gan-thm-1 .statement tag=0111}
->
-> *Proof.* When $p_g = p_{\mathrm{data}}$, $D_G^*(x) = \frac{1}{2}$ (see Equation 2). Therefore, considering Equation 4 when $D_G^*(x) = \frac{1}{2}$, we obtain $C(G) = \log \frac{1}{2} + \log \frac{1}{2} = -\log 4$. To show that this is the best value that $C(G)$ can achieve, and that it is achieved only when $p_g = p_{\mathrm{data}}$, notice that
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[-\log 2] + \mathbb{E}_{x\sim p_g}[-\log 2] = -\log 4$$
->
-> and subtracting this expression from $C(G) = V(D_G^*, G)$, we obtain:
->
-> $$C(G) = -\log(4) + KL\left(p_{\mathrm{data}} \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) + KL\left(p_g \left\| \frac{p_{\mathrm{data}} + p_g}{2}\right.\right) \tag{5}$$
-> {#goodfellow-2014-gan-eq-5 .equation tag=014E}
->
-> where KL is the Kullback–Leibler divergence. We can identify the Jensen–Shannon divergence between the model distribution and the data generating process in the preceding expression:
->
-> $$C(G) = -\log(4) + 2 \cdot JSD(p_{\mathrm{data}} \| p_g) \tag{6}$$
-> {#goodfellow-2014-gan-eq-6 .equation tag=014F}
->
-> Since the Jensen–Shannon divergence between two distributions is always nonnegative, and is zero only when they are equal, we have proved that $C^* = -\log(4)$ is the global minimum of $C(G)$, and the unique solution is $p_g = p_{\mathrm{data}}$, that is, the generative model perfectly reproduces the data generating process. $\square$
->
-> ### 4.2 Convergence of Algorithm 1 {#goodfellow-2014-gan-s4-2 .section tag=0112}
->
-> **Proposition 2.** *If $G$ and $D$ have sufficient capacity, and at every step of Algorithm 1, the discriminator is allowed to reach its optimum given $G$, while updating $p_g$ to improve the criterion* {#goodfellow-2014-gan-prop-2 .statement tag=0113}
->
-> $$\mathbb{E}_{x\sim p_{\mathrm{data}}}[\log D_G^*(x)] + \mathbb{E}_{x\sim p_g}[\log(1 - D_G^*(x))]$$
->
-> *then $p_g$ converges to $p_{\mathrm{data}}$*
->
-> *Proof.* Following the approach in the above criterion, regard $V(G, D) = U(p_g, D)$ as a function of $p_g$. Notice that $U(p_g, D)$ is convex with respect to $p_g$. The subderivative of the supremum of convex functions contains the derivative of the function at the point where the maximum is attained. In other words, if $f(x) = \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$, and $f_\alpha(x)$ is convex with respect to $x$ for every $\alpha$, then when $\beta = \arg \sup_{\alpha\in\mathcal{A}} f_\alpha(x)$, $\partial f_\beta(x) \in \partial f$. This is equivalent to calculating one gradient descent update for $p_g$ at the optimal $D$ given the corresponding $G$. According to the result already proved in Theorem 1, $\sup_D U(p_g, D)$ is convex with respect to $p_g$, and has a unique global optimum, therefore when the update of $p_g$ is sufficiently small, $p_g$ converges to $p_x$, completing the proof. $\square$
->
-> In practice, adversarial networks represent a restricted family of the $p_g$ distribution through the function $G(z; \theta_g)$, while what we optimize is $\theta_g$ rather than $p_g$ itself. Using a multilayer perceptron to define $G$ introduces multiple critical points in parameter space. However, the excellent performance of multilayer perceptrons in practice indicates that, despite the lack of theoretical guarantees, they are still reasonably usable models.
-
-### `content/zh/goodfellow-2014-gan/08_acknowledgments.md`
-
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
-- The original says Ian Goodfellow is supported by the 2013 Google Fellowship in Deep Learning, while the back-translation says he was supported by the 2013 Google Deep Learning Scholarship.
-
-The English as it stands:
-
-> We would like to acknowledge Patrice Marcotte, Olivier Delalleau, Kyunghyun Cho, Guillaume Alain and Jason Yosinski for helpful discussions. Yann Dauphin shared his Parzen window evaluation code with us. We would like to thank the developers of Pylearn2 [12] and Theano [7, 1], particularly Frédéric Bastien who shared a Theano feature specifically to benefit this project. Arnaud Bergeron provided much-needed support with $\LaTeX$ typesetting. We would also like to thank CIFAR, and Canada Research Chairs for funding, and Compute Canada, and Calcul Québec for providing computational resources. Ian Goodfellow is supported by the 2013 Google Fellowship in Deep Learning. Finally, we would like to thank Les Trois Brasseurs for stimulating our creativity.
-
-What came back:
-
-> We thank Patrice Marcotte, Olivier Delalleau, Kyunghyun Cho, Guillaume Alain, and Jason Yosinski for the helpful discussions. Yann Dauphin shared his Parzen window evaluation code with us. We thank the developers of Pylearn2 [12] and Theano [7, 1], especially Frédéric Bastien, who shared a Theano feature specifically to help with this project. Arnaud Bergeron provided extremely important support in $\LaTeX$ typesetting. We also thank CIFAR and Canada Research Chairs for funding support, and Compute Canada and Calcul Québec for providing computing resources. Ian Goodfellow was supported by the 2013 Google Deep Learning Scholarship. Finally, we thank Les Trois Brasseurs for inspiring our creativity.
+> Trace-driven simulations were used in this study. The Two-Level Adaptive Training branch prediction scheme as well as other dynamic and static branch prediction schemes were simulated on the SPEC benchmark suite. By using Two-Level Adaptive Training Branch Prediction, the average prediction accuracy for the benchmarks reached 97 percent, while most other schemes achieved less than 93 percent. This represents a reduction of more than 100 percent in the number of mispredictions when using the Two-Level Adaptive Training scheme. This reduction can directly lead to a large performance increase on a high-performance processor.
 
 ## Differs in wording
 
-### `content/ja/goodfellow-2014-gan/01_introduction.md`
+### `content/vi/barham-2003-xen/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-- The original says the piecewise linear units have a particularly well-behaved gradient, while the back-translation says they have particularly convenient gradients, which slightly blurs the stated property but does not materially change the claim.
-- The original says the framework can yield specific training algorithms for many kinds of model and optimization algorithm, while the back-translation says it can provide specific learning algorithms for many types of models and optimization algorithms, preserving the claim.
+- wording: the original says “commodity operating systems,” the back-translation says “popular operating systems.”
 
 The English as it stands:
 
-> The promise of deep learning is to discover rich, hierarchical models [2] that represent probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, audio waveforms containing speech, and symbols in natural language corpora. So far, the most striking successes in deep learning have involved discriminative models, usually those that map a high-dimensional, rich sensory input to a class label [14], [[krizhevsky-2012-imagenet]]. These striking successes have primarily been based on the backpropagation and dropout algorithms, using piecewise linear units [19, 9, 10] which have a particularly well-behaved gradient . Deep *generative* models have had less of an impact, due to the difficulty of approximating many intractable probabilistic computations that arise in maximum likelihood estimation and related strategies, and due to difficulty of leveraging the benefits of piecewise linear units in the generative context. We propose a new generative model estimation procedure that sidesteps these difficulties. [^4]
+> Xen and the Art of Virtualization
 >
-> In the proposed *adversarial nets* framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency. Competition in this game drives both teams to improve their methods until the counterfeits are indistinguishable from the genuine articles.
+> Paul Barham*, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris,
 >
-> [^1]: Jean Pouget-Abadie is visiting Université de Montréal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting Université de Montréal from Indian Institute of Technology Delhi
-> [^3]: Yoshua Bengio is a CIFAR Senior Fellow.
-> [^4]: All code and hyperparameters available at http://www.github.com/goodfeli/adversarial
+> Alex Ho, Rolf Neugebauer†, Ian Pratt, Andrew Warfield
 >
-> This framework can yield specific training algorithms for many kinds of model and optimization algorithm. In this article, we explore the special case when the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We refer to this special case as *adversarial nets*. In this case, we can train both models using only the highly successful backpropagation and dropout algorithms [17] and sample from the generative model using only forward propagation. No approximate inference or Markov chains are necessary.
+> University of Cambridge Computer Laboratory
+>
+> 15 JJ Thomson Avenue, Cambridge, UK, CB3 0FD
+>
+> {firstname.lastname}@cl.cam.ac.uk
+>
+> ABSTRACT
+>
+> Numerous systems have been designed which use virtualization to subdivide the ample resources of a modern computer. Some require specialized hardware, or cannot support commodity operating systems. Some target 100% binary compatibility at the expense of performance. Others sacrifice security or functionality for speed. Few offer resource isolation or performance guarantees; most provide only best-effort provisioning, risking denial of service.
+>
+> This paper presents Xen, an x86 virtual machine monitor which allows multiple commodity operating systems to share conventional hardware in a safe and resource managed fashion, but without sacrificing either performance or functionality. This is achieved by providing an idealized virtual machine abstraction to which operating systems such as Linux, BSD and Windows XP, can be ported with minimal effort.
+>
+> Our design is targeted at hosting up to 100 virtual machine instances simultaneously on a modern server. The virtualization approach taken by Xen is extremely efficient: we allow operating systems such as Linux and Windows XP to be hosted simultaneously for a negligible performance overhead — at most a few percent compared with the unvirtualized case. We considerably outperform competing commercial and freely available solutions in a range of microbenchmarks and system-wide tests.
+>
+> Categories and Subject Descriptors
+>
+> D.4.1 [Operating Systems]: Process Management; D.4.2 [Operating Systems]: Storage Management; D.4.8 [Operating Systems]: Performance
 
 What came back:
 
-> The promise of deep learning lies in discovering rich, hierarchical models [2] that represent probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, acoustic waveforms including speech, and symbols in natural language corpora. So far, the most striking successes in deep learning have been with discriminative models, which usually map high-dimensional, rich sensory inputs to class labels [14], [[krizhevsky-2012-imagenet]]. These striking successes have been based mainly on the algorithms of backpropagation and dropout, using piecewise-linear units [19, 9, 10] with particularly convenient gradients. Deep *generative* models have had a smaller impact because of the difficulty of approximating many intractable probabilistic computations that arise in maximum likelihood estimation and related strategies, and the difficulty of exploiting the advantages of piecewise-linear units in the context of generation. In this paper, we propose a new generative model estimation procedure that avoids these difficulties. [^4]
+> Xen and the Art of Virtualization
 >
-> In the proposed *adversarial nets* framework, the generative model confronts an adversary. That is, a discriminative model that learns to determine whether a sample came from the model distribution or the data distribution. The generative model can be thought of as resembling a group of counterfeiters who produce counterfeit currency and try to use it without being discovered. On the other hand, the discriminative model resembles the police who try to detect that counterfeit currency. The competition in this game encourages both sides to improve their methods until the counterfeits become indistinguishable from the genuine ones.
+> Paul Barham*, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris,
 >
-> [^1]: Jean Pouget-Abadie is visiting Université de Montréal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting Université de Montréal from Indian Institute of Technology Delhi.
-> [^3]: Yoshua Bengio is a CIFAR Senior Fellow.
-> [^4]: All code and hyperparameters are available at [[http://www.github.com/goodfeli/adversarial\](http://www.github.com/goodfeli/adversarial)で利用可能である。](http://www.github.com/goodfeli/adversarial]\(http://www.github.com/goodfeli/adversarial\)で利用可能である。)
+> Alex Ho, Rolf Neugebauer†, Ian Pratt, Andrew Warfield
 >
-> This framework can provide specific learning algorithms for many types of models and optimization algorithms. In this paper, we consider the special case in which the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We call this special case *adversarial nets*. In this case, both models can be trained using only the highly successful algorithms of backpropagation and dropout [17], and sampling from the generative model can also be performed using only forward propagation. Approximate inference and Markov chains are unnecessary.
+> University of Cambridge Computer Laboratory
+>
+> 15 JJ Thomson Avenue, Cambridge, UK, CB3 0FD
+>
+> {firstname.lastname}@cl.cam.ac.uk
+>
+> ABSTRACT
+>
+> Many systems have been designed using virtualization to partition the abundant resources of a modern computer. Some require specialized hardware, or cannot support popular operating systems. Some aim for 100% binary compatibility at the cost of performance. Other systems sacrifice security or functionality in exchange for speed. Very few systems provide resource isolation or performance guarantees; most only provide best-effort allocation, leading to the risk of denial of service.
+>
+> This paper presents Xen, an x86 virtual machine monitor that allows multiple popular operating systems to share conventional hardware in a secure and resource-managed manner, but without sacrificing either performance or functionality. This is achieved by providing an ideal virtual machine abstraction to which operating systems such as Linux, BSD and Windows XP can be ported with minimal effort.
+>
+> Our design aims to host up to 100 virtual machine instances simultaneously on a modern server. The virtualization approach used by Xen is extremely efficient: we allow operating systems such as Linux and Windows XP to be hosted simultaneously with negligible performance overhead — at most only a few percent compared with the non-virtualized case. We significantly outperform competing commercial solutions and freely available solutions across a range of microbenchmarks and system-wide tests.
+>
+> Categories and Subject Descriptors
+>
+> D.4.1 [Operating Systems]: Process Management; D.4.2 [Operating Systems]: Storage Management; D.4.8 [Operating Systems]: Performance
 
-### `content/ja/goodfellow-2014-gan/06_advantages_and_disadvantages.md`
+### `content/vi/brin-1998-pagerank/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
 
+- wording: the original says Google makes heavy use of hypertext structure, the back-translation says it makes full use of that structure.
+- wording: the original says a comparable number of distinct terms, the back-translation says a comparable number of distinct words.
 
 The English as it stands:
 
-> This new framework comes with advantages and disadvantages relative to previous modeling frameworks. The disadvantages are primarily that there is no explicit representation of $p_g(x)$, and that $D$ must be synchronized well with $G$ during training (in particular, $G$ must not be trained too much without updating $D$, in order to avoid “the Helvetica scenario” in which $G$ collapses too many values of $\mathbf{z}$ to the same value of $\mathbf{x}$ to have enough diversity to model $p_{\text{data}}$), much as the negative chains of a Boltzmann machine must be kept up to date between learning steps. The advantages are that Markov chains are never needed, only backprop is used to obtain gradients, no inference is needed during learning, and a wide variety of functions can be incorporated into the model. Table 2 summarizes the comparison of generative adversarial nets with other generative modeling approaches.
+> The anatomy of a large-scale hypertextual Web search engine $^1$
 >
-> The aforementioned advantages are primarily computational. Adversarial models may also gain some statistical advantage from the generator network not being updated directly with data examples, but only with gradients flowing through the discriminator. This means that components of the input are not copied directly into the generator’s parameters. Another advantage of adversarial networks is that they can represent very sharp, even degenerate distributions, while methods based on Markov chains require that the distribution be somewhat blurry in order for the chains to be able to mix between modes.
-
-What came back:
-
-> This new framework has advantages and disadvantages compared with conventional modeling frameworks. The disadvantages are mainly that there is no explicit representation of $p_g(x)$ and that $D$ must be well synchronized with $G$ during training (in particular, $G$ must not be overtrained without updating $D$ in order to avoid the “Helvetica scenario,” in which $G$ collapses too many values of $\mathbf{z}$ onto the same value of $\mathbf{x}$, so as to have enough diversity to model $p_{\text{data}}$). This is similar to how the negative chain of a Boltzmann machine must always be kept up to date between training steps. The advantages are that no Markov chain is needed at all, only backpropagation is used to obtain gradients, inference is not needed during training, and a wide variety of functions can be incorporated into the model. Table 2 summarizes the comparison of generative adversarial networks with other generative modeling methods.
+> Sergey Brin $^2$, Lawrence Page $^*,2$
 >
-> The aforementioned advantages are mainly computational. Adversarial models may also have some statistical advantages because the generator network is not updated directly by data examples, but only by gradients flowing through the discriminator. This means that components of the input are not directly copied into the parameters of the generator. Another advantage of adversarial networks is that they can represent very sharp, even degenerate distributions. On the other hand, in methods based on Markov chains, the distribution needs to be blurred to some extent so that the chain can mix between modes.
-
-### `content/vi/goodfellow-2014-gan/01_introduction.md`
-
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
-
-The English as it stands:
-
-> The promise of deep learning is to discover rich, hierarchical models [2] that represent probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, audio waveforms containing speech, and symbols in natural language corpora. So far, the most striking successes in deep learning have involved discriminative models, usually those that map a high-dimensional, rich sensory input to a class label [14], [[krizhevsky-2012-imagenet]]. These striking successes have primarily been based on the backpropagation and dropout algorithms, using piecewise linear units [19, 9, 10] which have a particularly well-behaved gradient . Deep *generative* models have had less of an impact, due to the difficulty of approximating many intractable probabilistic computations that arise in maximum likelihood estimation and related strategies, and due to difficulty of leveraging the benefits of piecewise linear units in the generative context. We propose a new generative model estimation procedure that sidesteps these difficulties. [^4]
->
-> In the proposed *adversarial nets* framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency. Competition in this game drives both teams to improve their methods until the counterfeits are indistinguishable from the genuine articles.
->
-> [^1]: Jean Pouget-Abadie is visiting Université de Montréal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting Université de Montréal from Indian Institute of Technology Delhi
-> [^3]: Yoshua Bengio is a CIFAR Senior Fellow.
-> [^4]: All code and hyperparameters available at http://www.github.com/goodfeli/adversarial
->
-> This framework can yield specific training algorithms for many kinds of model and optimization algorithm. In this article, we explore the special case when the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We refer to this special case as *adversarial nets*. In this case, we can train both models using only the highly successful backpropagation and dropout algorithms [17] and sample from the generative model using only forward propagation. No approximate inference or Markov chains are necessary.
-
-What came back:
-
-> The promise of deep learning is to discover rich, hierarchical structured models [2] representing probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, speech-containing sound waveforms, and symbols in natural language corpora. So far, the most notable successes of deep learning concern discriminative models, often models that map a high-dimensional, information-rich perceptual input to a class label [14], [[krizhevsky-2012-imagenet]]. These notable successes have mainly relied on backpropagation and dropout algorithms, using piecewise linear units [19, 9, 10] with particularly stable gradients. Deep \*generative\* models have had less impact, due to difficulties in approximating many intractable probability computations that arise explicitly in maximum likelihood estimation and related strategies, as well as difficulties in exploiting the benefits of piecewise linear units in the context of data generation. We propose a new generative model estimation procedure that avoids these difficulties. [^4]
->
-> In the \*adversarial nets\* framework proposed, the generative model is placed against an opponent: a discriminative model learns to determine whether a sample comes from the model's distribution or from the data distribution. The generative model can be viewed as similar to a group of counterfeiters, trying to produce counterfeit money and use it without being detected, while the discriminative model is similar to the police force, trying to detect counterfeit money. The competition in this game drives both sides to improve their methods until the counterfeits become indistinguishable from the real ones.
->
-> [^1]: Jean Pouget-Abadie is visiting Université de Montréal from Ecole Polytechnique.
-> [^2]: Sherjil Ozair is visiting Université de Montréal from Indian Institute of Technology Delhi
-> [^3]: Yoshua Bengio is a CIFAR Senior Fellow.
-> [^4]: The complete source code and hyperparameters are available at [[http://www.github.com/goodfeli/adversarial\](http://www.github.com/goodfeli/adversarial)](http://www.github.com/goodfeli/adversarial]\(http://www.github.com/goodfeli/adversarial\))
->
-> This framework can produce specific training algorithms for many types of models and optimization algorithms. In this paper, we examine the special case in which the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We call this special case \*adversarial nets\*. In this case, we can train both models only with very successful backpropagation and dropout algorithms [17], while sampling from the generative model only by forward propagation. No approximate inference or Markov chains are needed.
-
-### `content/zh/goodfellow-2014-gan/00_front.md`
-
-every abstract is checked, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
-
-The English as it stands:
-
-> Generative Adversarial Nets
->
-> **Ian J. Goodfellow, Jean Pouget-Abadie[^1], Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair[^2], Aaron Courville, Yoshua Bengio[^3]**
->
-> Département d’informatique et de recherche opérationnelle  
-> Université de Montréal  
-> Montréal, QC H3C 3J7
->
-> arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
+> Computer Science Department, Stanford University, Stanford, CA 94305, USA
 >
 > Abstract
 >
-> We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model $G$ that captures the data distribution, and a discriminative model $D$ that estimates the probability that a sample came from the training data rather than $G$. The training procedure for $G$ is to maximize the probability of $D$ making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions $G$ and $D$, a unique solution exists, with $G$ recovering the training data distribution and $D$ equal to $\frac{1}{2}$ everywhere. In the case where $G$ and $D$ are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.
+> In this paper, we present Google, a prototype of a large-scale search engine which makes heavy use of the structure present in hypertext. Google is designed to crawl and index the Web efficiently and produce much more satisfying search results than existing systems. The prototype with a full text and hyperlink database of at least 24 million pages is available at http://google.stanford.edu/
+>
+> To engineer a search engine is a challenging task. Search engines index tens to hundreds of millions of Web pages involving a comparable number of distinct terms. They answer tens of millions of queries every day. Despite the importance of large-scale search engines on the Web, very little academic research has been done on them. Furthermore, due to rapid advance in technology and Web proliferation, creating a Web search engine today is very different from three years ago. This paper provides an in-depth description of our large-scale Web search engine — the first such detailed public description we know of to date.
+>
+> Apart from the problems of scaling traditional search techniques to data of this magnitude, there are new technical challenges involved with using the additional information present in hypertext to produce better search results. This paper addresses this question of how to build a practical large-scale system which can exploit the additional information present in hypertext.
 
 What came back:
 
-> Generative Adversarial Networks
+> The structure of a large-scale hypertext web search engine $^1$
 >
-> **Ian J. Goodfellow, Jean Pouget-Abadie[^1], Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair[^2], Aaron Courville, Yoshua Bengio[^3]**
+> Sergey Brin $^2$, Lawrence Page $^*,2$
 >
-> Département d’informatique et de recherche opérationnelle  
-> Université de Montréal  
-> Montréal, QC H3C 3J7
->
-> arXiv:1406.2661v1 [stat.ML] 10 Jun 2014
+> Department of Computer Science, Stanford University, Stanford, CA 94305, USA
 >
 > Abstract
 >
-> We propose a new framework for estimating generative models through an adversarial process, in which two models are trained simultaneously: a generative model $G$ that captures the data distribution, and a discriminative model $D$ that estimates the probability that a given sample comes from the training data rather than from $G$. The training process of $G$ is to maximize the probability that $D$ makes a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions $G$ and $D$, there exists a unique solution, where $G$ recovers the training data distribution, and $D$ equals $\frac{1}{2}$ at all locations. When $G$ and $D$ are defined by multilayer perceptrons, the entire system can be trained by backpropagation. Neither Markov chains nor unfolded approximate inference networks are needed during training or during the generation of samples. Experiments demonstrate the potential of this framework through qualitative and quantitative evaluation of generated samples.
+> In this paper, we introduce Google, a prototype large-scale search engine that makes full use of the structure present in hypertext (hypertext). Google is designed to crawl and index (indexing) the web efficiently, while producing search results that are much more satisfactory than existing systems. The prototype with a full-text and hyperlink database of at least 24 million pages is available at http://google.stanford.edu/
+>
+> Building a search engine is a challenging task. Search engines index tens to hundreds of millions of web pages with a comparable number of distinct words. They answer tens of millions of queries every day. Although large-scale search engines play an important role on the web, there is still very little academic research about them. Furthermore, due to the rapid advancement of technology and the strong growth of the web, building a web search engine today is very different from three years ago. This paper describes our large-scale web search engine in depth — the first such detailed public description that we know of to date.
+>
+> In addition to the problems of scaling traditional search techniques to handle data at this scale, there are new technical challenges in using the additional information present in hypertext to produce better search results. This paper addresses the question of how to build a practical large-scale system that can exploit the additional information present in hypertext.
 
-### `content/zh/goodfellow-2014-gan/03_adversarial_nets.md`
+### `content/vi/cerf-1974-tcpip/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
-
-The English as it stands:
-
-> The adversarial modeling framework is most straightforward to apply when the models are both multilayer perceptrons. To learn the generator’s distribution $p_g$ over data $\boldsymbol{x}$, we define a prior on input noise variables $p_z(\boldsymbol{z})$, then represent a mapping to data space as $G(\boldsymbol{z}; \theta_g)$, where $G$ is a differentiable function represented by a multilayer perceptron with parameters $\theta_g$. We also define a second multilayer perceptron $D(\boldsymbol{x}; \theta_d)$ that outputs a single scalar. $D(\boldsymbol{x})$ represents the probability that $\boldsymbol{x}$ came from the data rather than $p_g$. We train $D$ to maximize the probability of assigning the correct label to both training examples and samples from $G$. We simultaneously train $G$ to minimize $\log(1 - D(G(\boldsymbol{z})))$:
->
-> In other words, $D$ and $G$ play the following two-player minimax game with value function $V(G,D)$:
->
-> $$\min_G \max_D V(D,G) = \mathbb{E}_{x\sim p_{\mathrm{data}}(x)}[\log D(x)] + \mathbb{E}_{z\sim p_z(z)}[\log(1-D(G(z)))]. \tag{1}$$
-> {#goodfellow-2014-gan-eq-1 .equation tag=00C4}
->
-> In the next section, we present a theoretical analysis of adversarial nets, essentially showing that the training criterion allows one to recover the data generating distribution as $G$ and $D$ are given enough capacity, i.e., in the non-parametric limit. See Figure 1 for a less formal, more pedagogical explanation of the approach. In practice, we must implement the game using an iterative, numerical approach. Optimizing $D$ to completion in the inner loop of training is computationally prohibitive, and on finite datasets would result in overfitting. Instead, we alternate between $k$ steps of optimizing $D$ and one step of optimizing $G$. This results in $D$ being maintained near its optimal solution, so long as $G$ changes slowly enough. This strategy is analogous to the way that SML/PCD [31, 29] training maintains samples from a Markov chain from one learning step to the next in order to avoid burning in a Markov chain as part of the inner loop of learning. The procedure is formally presented in Algorithm 1.
->
-> In practice, equation 1 may not provide sufficient gradient for $G$ to learn well. Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data. In this case, $\log(1-D(G(z)))$ saturates. Rather than training $G$ to minimize $\log(1-D(G(z)))$ we can train $G$ to maximize $\log D(G(z))$. This objective function results in the same fixed point of the dynamics of $G$ and $D$ but provides much stronger gradients early in learning.
->
-> Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution ($D$, blue, dashed line) so that it discriminates between samples from the data generating distribution (black, dotted line) $p_x$ from those of the generative distribution $p_g$ ($G$) (green, solid line). The lower horizontal line is the domain from which $z$ is sampled, in this case uniformly. The horizontal line above is part of the domain of $x$. The upward arrows show how the mapping $x=G(z)$ imposes the non-uniform distribution $p_g$ on transformed samples. $G$ contracts in regions of high density and expands in regions of low density of $p_g$. (a) Consider an adversarial pair near convergence: $p_g$ is similar to $p_{\mathrm{data}}$ and $D$ is a partially accurate classifier. (b) In the inner loop of the algorithm $D$ is trained to discriminate samples from data, converging to $D^*(x)=\frac{p_{\mathrm{data}}(x)}{p_{\mathrm{data}}(x)+p_g(x)}$. (c) After an update to $G$, gradient of $D$ has guided $G(z)$ to flow to regions that are more likely to be classified as data. (d) After several steps of training, if $G$ and $D$ have enough capacity, they will reach a point at which both cannot improve because $p_g=p_{\mathrm{data}}$. The discriminator is unable to differentiate between the two distributions, i.e. $D(x)=\frac{1}{2}$. {#goodfellow-2014-gan-fig-1 .figure tag=00C5}
-
-What came back:
-
-> When both models are multilayer perceptrons, the adversarial modeling framework is easiest to apply. To learn the distribution $p_g$ of the generator over data $\boldsymbol{x}$, we define a prior distribution $p_z(\boldsymbol{z})$ of the input noise variables, and then represent the mapping to data space as $G(\boldsymbol{z}; \theta_g)$, where $G$ is a differentiable function represented by a multilayer perceptron with parameters $\theta_g$. We also define a second multilayer perceptron $D(\boldsymbol{x}; \theta_d)$ whose output is a single scalar. $D(\boldsymbol{x})$ represents the probability that $\boldsymbol{x}$ comes from the data rather than from $p_g$. We train $D$ to maximize the probability of assigning the correct labels to both training examples and samples from $G$. At the same time, we train $G$ to minimize $\log(1 - D(G(\boldsymbol{z})))$:
->
-> In other words, $D$ and $G$ play the following two-player minimax game with $V(G,D)$ as the value function:
->
-> \min_G \max_D V(D,G) = \mathbb{E}_{x\sim p_{\mathrm{data}}(x)}[\log D(x)] + \mathbb{E}_{z\sim p_z(z)}[\log(1-D(G(z)))]. \tag{1}
->
-> {#goodfellow-2014-gan-eq-1 .equation tag=00C4}
->
-> In the next section, we will give a theoretical analysis of adversarial networks, whose essence is to show: when $G$ and $D$ are given sufficient capacity, that is, in the nonparametric limit, this training criterion can recover the data-generating distribution. For a less formal and more pedagogical explanation of this method, see Figure 1. In practice, we must use an iterative numerical method to implement this game. Optimizing $D$ to completion in the inner loop of training is computationally too expensive, and on finite datasets it will cause overfitting. Instead, we alternately perform $k$ steps of optimization of $D$ and one step of optimization of $G$. As long as $G$ changes sufficiently slowly, this can make $D$ always remain near its optimal solution. This strategy is similar to the practice in SML/PCD [31, 29] training, which continuously maintains samples from a Markov chain from one learning step to the next, thereby avoiding warming up the Markov chain in the inner loop of learning. This process is formally described in Algorithm 1.
->
-> In practice, Equation 1 may not provide enough gradient for $G$ to achieve good learning. At the beginning of learning, when $G$ performs poorly, $D$ can reject samples with very high confidence because they are obviously different from the training data. In this case, $\log(1-D(G(z)))$ saturates. Rather than training $G$ to minimize $\log(1-D(G(z)))$, we can train $G$ to maximize $\log D(G(z))$. This objective function produces the same fixed points as the dynamics of $G$ and $D$, but can provide much stronger gradients at the beginning of learning.
->
-> Figure 1: Generative adversarial networks are trained by simultaneously updating the discriminative distribution ($D$, blue dashed line), enabling it to distinguish samples from the data-generating distribution (black dotted line) $p_x$ from samples from the generative distribution $p_g$ ($G$) (green solid line). The horizontal line below is the domain from which $z$ is sampled, in this case uniformly sampled. The horizontal line above is part of the domain of $x$. The upward arrows show how the mapping $x=G(z)$ imposes a non-uniform distribution $p_g$ on the transformed samples. $G$ contracts in high-density regions and expands in low-density regions of $p_g$. (a) Consider an adversarial game pair close to convergence: $p_g$ is similar to $p_{\mathrm{data}}$, while $D$ is a partially accurate classifier. (b) In the inner loop of the algorithm, $D$ is trained to distinguish samples from the data and converges to $D^*(x)=\frac{p_{\mathrm{data}}(x)}{p_{\mathrm{data}}(x)+p_g(x)}$. (c) After one update of $G$, the gradient of $D$ guides $G(z)$ to flow toward regions more likely to be classified as data. (d) After several steps of training, if $G$ and $D$ have sufficient capacity, they will reach a point where neither can improve further, because $p_g=p_{\mathrm{data}}$. The discriminator cannot distinguish the two distributions, that is, $D(x)=\frac{1}{2}$. {#goodfellow-2014-gan-fig-1 .figure tag=00C5}
-
-### `content/zh/goodfellow-2014-gan/05_experiments.md`
-
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-
+- wording: the original says the protocol accommodates variation in individual network packet sizes, the back-translation says it allows changes to the packet size of each network.
 
 The English as it stands:
 
-> We trained adversarial nets on a range of datasets including MNIST[[lecun-1998-lenet]], the Toronto Face Database (TFD) [28], and CIFAR-10 [21]. The generator nets used a mixture of rectifier linear activations [19, 9] and sigmoid activations, while the discriminator net used maxout [10] activations. Dropout [17] was applied in training the discriminator net. While our theoretical framework permits the use of dropout and other noise at intermediate layers of the generator, we used noise as the input to only the bottommost layer of the generator network.
+> A Protocol for Packet Network Intercommunication
 >
-> We estimate probability of the test set data under $p_g$ by fitting a Gaussian Parzen window to the samples generated with $G$ and reporting the log-likelihood under this distribution. The $\sigma$ parameter
->
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial nets | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
->
-> Table 1: Parzen window-based log-likelihood estimates. The reported numbers on MNIST are the mean log-likelihood of samples on test set, with the standard error of the mean computed across examples. On TFD, we computed the standard error across folds of the dataset, with a different $\sigma$ chosen using the validation set of each fold. On TFD, $\sigma$ was cross validated on each fold and mean log-likelihood on each fold were computed. For MNIST we compare against other models of the real-valued (rather than binary) version of dataset. {#goodfellow-2014-gan-tab-1 .table tag=00CA}
->
-> of the Gaussians was obtained by cross validation on the validation set. This procedure was introduced in Breuleux *et al.* [8] and used for various generative models for which the exact likelihood is not tractable [25, 3, 5]. Results are reported in Table 1. This method of estimating the likelihood has somewhat high variance and does not perform well in high dimensional spaces but it is the best method available to our knowledge. Advances in generative models that can sample but not estimate likelihood directly motivate further research on how to evaluate such models.
->
-> In Figures 2 and 3 we show samples drawn from the generator net after training. While we make no claim that these samples are better than samples generated by existing methods, we believe that these samples are at least competitive with the better generative models in the literature and highlight the potential of the adversarial framework.
->
-> Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, not conditional means given samples of hidden units. Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
->
-> Figure 3: Digits obtained by linearly interpolating between coordinates in $z$ space of the full model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
->
-> |  | Deep directed graphical models | Deep undirected graphical models | Generative autoencoders | Adversarial models |
-> |---|---|---|---|---|
-> | Training | Inference needed during training. | Inference needed during training. MCMC needed to approximate partition function gradient. | Enforced tradeoff between mixing and power of reconstruction generation | Synchronizing the discriminator with the generator. Helvetica. |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulties | Requires Markov chain | Requires Markov chain | No difficulties |
-> | Evaluating $p(x)$ | Intractable, may be approximated with AIS | Intractable, may be approximated with AIS | Not explicitly represented, may be approximated with Parzen density estimation | Not explicitly represented, may be approximated with Parzen density estimation |
-> | Model design | Nearly all models incur extreme difficulty | Careful design needed to ensure multiple properties | Any differentiable function is theoretically permitted | Any differentiable function is theoretically permitted |
->
-> Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches to deep generative modeling for each of the major operations involving a model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> Abstract — A protocol that supports the sharing of resources that exist in different packet switching networks is presented. The protocol provides for variation in individual network packet sizes, transmission failures, sequencing, flow control, end-to-end error checking, and the creation and destruction of logical process-to-process connections. Some implementation issues are considered, and problems such as internetwork routing, accounting, and timeouts are exposed.
 
 What came back:
 
-> We trained adversarial networks on multiple datasets, including MNIST[[lecun-1998-lenet]], the Toronto Face Database (TFD) [28], and CIFAR-10 [21]. The generator network used a mixture of rectified linear activation functions [19, 9] and sigmoid activation functions, while the discriminator network used maxout [10] activation functions. Dropout [17] was applied when training the discriminator network. Although our theoretical framework allows dropout and other noise to be used in the intermediate layers of the generator, we only used noise as the input to the lowest layer of the generator network.
+> A protocol for the interconnection of packet networks
 >
-> We estimated the probability of test set data under $p_g$ by fitting a Gaussian Parzen window to samples generated by $G$ and reporting the log likelihood under this distribution. The $\sigma$ parameter
->
-> | Model | MNIST | TFD |
-> |---|---|---|
-> | DBN [3] | $138 \pm 2$ | $1909 \pm 66$ |
-> | Stacked CAE [3] | $121 \pm 1.6$ | $\mathbf{2110 \pm 50}$ |
-> | Deep GSN [6] | $214 \pm 1.1$ | $1890 \pm 29$ |
-> | Adversarial networks | $\mathbf{225 \pm 2}$ | $\mathbf{2057 \pm 26}$ |
->
-> Table 1: Parzen window-based log likelihood estimates. The reported values on MNIST are the mean of the test set sample log likelihoods, and the standard error of the mean is calculated across samples. On TFD, we calculated the standard error across the folds of the dataset, and used the validation set of each fold to select a different $\sigma$. On TFD, $\sigma$ was determined by cross-validation on each fold, and the mean log likelihood on each fold was calculated. For MNIST, we compare with other models on the real-valued version of the dataset (rather than the binary version). {#goodfellow-2014-gan-tab-1 .table tag=00CA}
->
-> The parameters of these Gaussian distributions were obtained through cross-validation on the validation set. This procedure was proposed by Breuleux *et al.* [8] and used for multiple generative models that cannot calculate exact likelihoods [25, 3, 5]. The results are shown in Table 1. This likelihood estimation method has high variance and performs poorly in high-dimensional spaces, but to our knowledge, it is the best method currently available. The development of generative models that can sample but cannot directly estimate likelihood has prompted further research into how to evaluate such models.
->
-> In Figures 2 and 3, we show samples drawn from the generator network after training. Although we do not claim that these samples are better than those generated by existing methods, we believe that these samples can at least compete with the better generative models in the literature and demonstrate the potential of the adversarial framework.
->
-> Figure 2: Visualization of model samples. The rightmost column shows the nearest training sample to the adjacent sample, to prove that the model did not memorize the training set. The samples are all fairly randomly drawn, rather than deliberately selected. Unlike visualizations of most other deep generative models, these images show real samples from the model distribution, rather than conditional means given a latent unit sample. In addition, these samples are uncorrelated with each other, because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and “deconvolutional” generator) {#goodfellow-2014-gan-fig-2 .figure tag=00CB}
->
-> Figure 3: Digits obtained by linearly interpolating between the $z$ space coordinates of the complete model. {#goodfellow-2014-gan-fig-3 .figure tag=00CC}
->
-> |  | Deep directed graphical models | Deep undirected graphical models | Generative autoencoders | Adversarial models |
-> |---|---|---|---|---|
-> | Training | Inference is required during training. | Inference is required during training. MCMC is required to approximate the partition function gradient. | Forced tradeoff between mixing ability and reconstruction generation ability | Synchronize the discriminator and generator.Helvetica。 |
-> | Inference | Learned approximate inference | Variational inference | MCMC-based inference | Learned approximate inference |
-> | Sampling | No difficulty | Requires a Markov chain | Requires a Markov chain | No difficulty |
-> | Evaluate $p(x)$ | Intractable, can be approximated with AIS | Intractable, can be approximated with AIS | Not explicitly represented, can be approximated with Parzen density estimation | Not explicitly represented, can be approximated with Parzen density estimation |
-> | Model design | Almost all models encounter great difficulties | Needs to be carefully designed to guarantee multiple properties | Theoretically allows any differentiable function | Theoretically allows any differentiable function |
->
-> Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches to deep generative modeling in the various major operations involving the model. {#goodfellow-2014-gan-tab-2 .table tag=00CD}
+> Abstract — A protocol is presented that supports the sharing of resources existing in different packet-switched networks. This protocol allows changes to the packet size of each network, handles transmission failures, sequencing, flow control, end-to-end error checking, as well as the creation and destruction of logical connections between processes. Some implementation issues are considered, while issues such as internetwork routing, accounting, and timeouts are raised.
 
-### `content/zh/goodfellow-2014-gan/07_conclusions_and_future_work.md`
+### `content/vi/codd-1970-relational/00_front.md`
 
-paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 
+- wording: the original says a prompting service supplying such information is not satisfactory, the back-translation says a reminder service providing such information is not satisfactory.
 
 The English as it stands:
 
-> This framework admits many straightforward extensions:
+> A Relational Model of Data for Large Shared Data Banks
 >
-> 1. A *conditional* generative model $p(\mathbf{x}\mid\mathbf{c})$ can be obtained by adding $\mathbf{c}$ as input to both $G$ and $D$.
-> 2. *Learned approximate inference* can be performed by training an auxiliary network to predict $\mathbf{z}$ given $\mathbf{x}$. This is similar to the inference net trained by the wake-sleep algorithm [15] but with the advantage that the inference net may be trained for a fixed generator net after the generator net has finished training.
+> E. F. Codd
+> IBM Research Laboratory, San Jose, California
 >
-> 3. One can approximately model all conditionals $p(x_S \mid x_{\not S})$ where $S$ is a subset of the indices of $x$ by training a family of conditional models that share parameters. Essentially, one can use adversarial nets to implement a stochastic extension of the deterministic MP-DBM [11].
-> 4. *Semi-supervised learning:* features from the discriminator or inference net could improve performance of classifiers when limited labeled data is available.
-> 5. *Efficiency improvements:* training could be accelerated greatly by divising better methods for coordinating $G$ and $D$ or determining better distributions to sample $z$ from during training.
+> Future users of large data banks must be protected from having to know how the data is organized in the machine (the internal representation). A prompting service which supplies such information is not a satisfactory solution. Activities of users at terminals and most application programs should remain unaffected when the internal representation of data is changed and even when some aspects of the external representation are changed. Changes in data representation will often be needed as a result of changes in query, update, and report traffic and natural growth in the types of stored information.
 >
-> This paper has demonstrated the viability of the adversarial modeling framework, suggesting that these research directions could prove useful.
+> Existing noninferential, formatted data systems provide users with tree-structured files or slightly more general network models of the data. In Section 1, inadequacies of these models are discussed. A model based on n-ary relations, a normal form for data base relations, and the concept of a universal data sublanguage are introduced. In Section 2, certain operations on relations (other than logical inference) are discussed and applied to the problems of redundancy and consistency in the user's model.
+>
+> KEY WORDS AND PHRASES: data bank, data base, data structure, data organization, hierarchies of data, networks of data, relations, derivability, redundancy, consistency, composition, join, retrieval language, predicate calculus, security, data integrity
+> CR CATEGORIES: 3.70, 3.73, 3.75, 4.20, 4.22, 4.29
 
 What came back:
 
-> :::writing{variant="document" id="58321" title="Translated Passage"}
-> This framework allows many direct extensions:
+> The relational model of data for large shared data banks
 >
-> 1. By adding $\mathbf{c}$ as input to both $G$ and $D$, a *conditional* generative model $p(\mathbf{x}\mid\mathbf{c})$ can be obtained.
-> 2. By training an auxiliary network to predict $\mathbf{z}$ from $\mathbf{x}$, *learned approximate inference* can be achieved. This is similar to the inference network trained by the wake-sleep algorithm [15], but has the advantage that, after the generator network has completed training, the inference network can be trained for a fixed generator network.
+> E. F. Codd
+> IBM Research Laboratory, San Jose, California
 >
-> 3. By training a family of conditional models that share parameters, all conditional distributions $p(x_S \mid x_{\not S})$ can be approximately modeled, where $S$ is a subset of the index set of $x$. In essence, adversarial networks can be used to implement a stochastic extension of deterministic MP-DBM [11].
-> 4. *Semi-supervised learning:* Features from the discriminator or inference network can improve the performance of a classifier when labeled data is limited.
-> 5. *Efficiency improvements:* Training can be greatly accelerated by designing better methods to coordinate $G$ and $D$, or by determining a better sampling distribution for $z$ during training.
+> Future users of large data banks must be protected from having to know how the data is organized in the machine (internal representation). A reminder service providing such information is not a satisfactory solution. Users' activities at terminals and most application programs should be unaffected when the internal representation of data is changed and even when some aspects of the external representation are changed. Changes in data representation will often be necessary due to changes in the traffic of queries, updates, and reports, as well as natural growth in the types of information stored.
 >
-> This paper has demonstrated the feasibility of the adversarial modeling framework, indicating that these research directions may be valuable.
-> :::
+> Existing formatted, noninferential data systems provide users with tree-structured files or slightly more general network models of data. In Section 1, the inadequacies of these models are discussed. A model based on n-ary relations, a normal form for database relations, and the concept of a universal data sublanguage are introduced. In Section 2, some operations on relations (other than logical inference) are discussed and applied to the problems of redundancy and consistency in the user's model.
+>
+> KEY WORDS AND PHRASES: data banks, databases, data structures, data organization, hierarchies of data, networks of data, relations, derivability, redundancy, consistency, composition, join, retrieval language, predicate calculus, security, data integrity
+> CR CLASSIFICATION: 3.70, 3.73, 3.75, 4.20, 4.22, 4.29
+
+### `content/vi/corbett-2012-spanner/08_conclusions.md`
+
+the 5% sample, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says “reifying clock uncertainty in the time API,” the back-translation says “realizing clock uncertainty in the time API.”
+
+The English as it stands:
+
+> To summarize, Spanner combines and extends on ideas from two research communities: from the database community, a familiar, easy-to-use, semi-relational interface, transactions, and an SQL-based query language; from the systems community, scalability, automatic sharding, fault tolerance, consistent replication, external consistency, and wide-area distribution. Since Spanner’s inception, we have taken more than 5 years to iterate to the current design and implementation. Part of this long iteration phase was due to a slow realization that Spanner should do more than tackle the problem of a globally-replicated namespace, and should also focus on database features that Bigtable was missing.
+>
+> One aspect of our design stands out: the linchpin of Spanner’s feature set is TrueTime. We have shown that reifying clock uncertainty in the time API makes it possible to build distributed systems with much stronger time semantics. In addition, as the underlying system enforces tighter bounds on clock uncertainty, the overhead of the stronger semantics decreases. As a community, we should no longer depend on loosely synchronized clocks and weak time APIs in designing distributed algorithms.
+
+What came back:
+
+> In summary, Spanner combines and extends ideas from two research communities: from the database community, a familiar, easy-to-use semi-relational interface, transactions, and an SQL-based query language; from the systems community, scalability, automatic sharding, fault tolerance, consistent replication, external consistency, and wide-area distribution. Since Spanner came into being, we have spent more than 5 years iterating through versions to reach the current design and implementation. Part of this long iteration period is due to the slow realization that Spanner should do more than solve the problem of a globally replicated namespace, and should also focus on the database features that Bigtable lacks.
+>
+> One aspect of our design stands out: the key element in Spanner's feature set is TrueTime. We have shown that realizing clock uncertainty in the time API makes it possible to build distributed systems with much stronger time semantics. In addition, when the underlying system imposes tighter bounds on clock uncertainty, the overhead of stronger semantics will decrease. As a community, we should no longer depend on loosely synchronized clocks and weak time APIs in designing distributed algorithms.
+
+### `content/vi/decandia-2007-dynamo/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says “persistent state,” the back-translation says “long-term state.”
+
+The English as it stands:
+
+> Dynamo: Amazon’s Highly Available Key-value Store
+>
+> Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels
+> Amazon.com
+>
+> ABSTRACT
+> Reliability at massive scale is one of the biggest challenges we face at Amazon.com, one of the largest e-commerce operations in the world; even the slightest outage has significant financial consequences and impacts customer trust. The Amazon.com platform, which provides services for many web sites worldwide, is implemented on top of an infrastructure of tens of thousands of servers and network components located in many datacenters around the world. At this scale, small and large components fail continuously and the way persistent state is managed in the face of these failures drives the reliability and scalability of the software systems.
+>
+> This paper presents the design and implementation of Dynamo, a highly available key-value storage system that some of Amazon’s core services use to provide an “always-on” experience. To achieve this level of availability, Dynamo sacrifices consistency under certain failure scenarios. It makes extensive use of object versioning and application-assisted conflict resolution in a manner that provides a novel interface for developers to use.
+>
+> Categories and Subject Descriptors
+> D.4.2 [Operating Systems]: Storage Management; D.4.5 [Operating Systems]: Reliability; D.4.2 [Operating Systems]: Performance;
+>
+> General Terms
+> Algorithms, Management, Measurement, Performance, Design, Reliability.
+
+What came back:
+
+> Dynamo: Amazon’s Highly Available Key-Value Store
+>
+> Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels
+> Amazon.com
+>
+> ABSTRACT
+> Reliability at extremely large scale is one of the greatest challenges we face at Amazon.com, one of the world’s largest e-commerce operations; even the smallest disruption causes significant financial consequences and affects customer trust. The Amazon.com platform, which provides services to many websites worldwide, is deployed on an infrastructure consisting of tens of thousands of servers and network components located in multiple data centers around the world. At this scale, large and small components continually fail, and the way long-term state is managed in the face of these failures determines the reliability and scalability of software systems.
+>
+> This paper presents the design and implementation of Dynamo, a highly available key-value storage system that some of Amazon’s core services use to provide an “always-on” experience. To achieve this level of availability, Dynamo sacrifices consistency in certain failure scenarios. The system makes extensive use of object versioning and application-assisted conflict resolution, in a manner that provides a new interface for developers to use.
+>
+> Categories and Subject Descriptors
+> D.4.2 [Operating Systems]: Storage Management; D.4.5 [Operating Systems]: Reliability; D.4.2 [Operating Systems]: Performance;
+>
+> General Terms
+> Algorithms, Management, Measurement, Performance, Design, Reliability.
+
+### `content/vi/deutsch-1984-smalltalk/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says “universally polymorphic procedures,” the back-translation says “fully polymorphic procedures.”
+
+The English as it stands:
+
+> Efficient Implementation of the Smalltalk-80 System
+>
+> L. Peter Deutsch
+> Xerox PARC, Software Concepts Group
+>
+> Allan M. Schiffman
+> Fairchild Laboratory for Artificial Intelligence Research
+>
+> ABSTRACT
+>
+> The Smalltalk-80* programming language includes dynamic storage allocation, full upward funargs, and universally polymorphic procedures; the Smalltalk-80 programming system features interactive execution with incremental compilation, and implementation portability. These features of modern programming systems are among the most difficult to implement efficiently, even individually. A new implementation of the Smalltalk-80 system, hosted on a small microprocessor-based computer, achieves high performance while retaining complete (object code) compatibility with existing implementations. This paper discusses the most significant optimization techniques developed over the course of the project, many of which are applicable to other languages. The key idea is to represent certain runtime state (both code and data) in more than one form, and to convert between forms when needed.
+>
+> *Smalltalk-80 is a trademark of the Xerox Corporation.
+
+What came back:
+
+> Efficient Implementation of the Smalltalk-80 System
+>
+> L. Peter Deutsch  
+> Xerox PARC, Software Concepts Group
+>
+> Allan M. Schiffman  
+> Fairchild Laboratory for Artificial Intelligence Research
+>
+> ABSTRACT
+>
+> The Smalltalk-80* programming language includes dynamic memory allocation, full upward funargs, and fully polymorphic procedures; the Smalltalk-80 programming system features interactive execution with incremental compilation, and portability in implementation. These features of modern programming systems are among the most difficult features to implement efficiently, even when considered individually. A new implementation of the Smalltalk-80 system, hosted on a microprocessor-based small computer, achieves high performance while maintaining complete (object code) compatibility with existing implementations. This paper discusses the most important optimization techniques developed in the course of carrying out the project, many of which can be applied to other languages. The key idea is to represent some runtime state (both code and data) in multiple different forms, and convert between the forms as needed.
+>
+> *Smalltalk-80 is a trademark of Xerox Corporation.
+
+### `content/vi/gal-2009-tracejit/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says machine code is generated “on the fly,” the back-translation says it is generated “immediately.”
+
+The English as it stands:
+
+> Trace-based Just-in-Time Type Specialization for Dynamic Languages
+>
+> Andreas Gal*+, Brendan Eich*, Mike Shaver*, David Anderson*, David Mandelin*, Mohammad R. Haghighat\$, Blake Kaplan*, Graydon Hoare*, Boris Zbarsky*, Jason Orendorff*, Jesse Ruderman*, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+
+>
+> Mozilla Corporation*
+>
+> {gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
+>
+> Adobe Corporation#
+>
+> {edwsmith,rreitmai}@adobe.com
+>
+> Intel Corporation\$
+>
+> {mohammad.r.haghighat}@intel.com
+>
+> University of California, Irvine+
+>
+> {mbebenit,changm,franz}@uci.edu
+>
+> Abstract
+>
+> Dynamic languages such as JavaScript are more difficult to compile than statically typed ones. Since no concrete type information is available, traditional compilers need to emit generic code that can handle all possible type combinations at runtime. We present an alternative compilation technique for dynamically-typed languages that identifies frequently executed loop traces at run-time and then generates machine code on the fly that is specialized for the actual dynamic types occurring on each path through the loop. Our method provides cheap inter-procedural type specialization, and an elegant and efficient way of incrementally compiling lazily discovered alternative paths through nested loops. We have implemented a dynamic compiler for JavaScript based on our technique and we have measured speedups of 10x and more for certain benchmark programs.
+>
+> Categories and Subject Descriptors D.3.4 [Programming Languages]: Processors — Incremental compilers, code generation.
+>
+> General Terms Design, Experimentation, Measurement, Performance.
+>
+> Keywords JavaScript, just-in-time compilation, trace trees.
+>
+> 1. Introduction
+>
+> Dynamic languages such as JavaScript, Python, and Ruby, are popular since they are expressive, accessible to non-experts, and make deployment as easy as distributing a source file. They are used for small scripts as well as for complex applications.
+
+What came back:
+
+> Trace-based Just-in-Time Type Specialization for Dynamic Languages
+>
+> Andreas Gal*+, Brendan Eich*, Mike Shaver*, David Anderson*, David Mandelin*, Mohammad R. Haghighat\$, Blake Kaplan*, Graydon Hoare*, Boris Zbarsky*, Jason Orendorff*, Jesse Ruderman*, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+
+>
+> Mozilla Corporation*
+>
+> {gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
+>
+> Adobe Corporation#
+>
+> {edwsmith,rreitmai}@adobe.com
+>
+> Intel Corporation\$
+>
+> {mohammad.r.haghighat}@intel.com
+>
+> University of California, Irvine+
+>
+> {mbebenit,changm,franz}@uci.edu
+>
+> Abstract
+>
+> Dynamic languages such as JavaScript are harder to compile than statically typed languages. Because there is no concrete type information, traditional compilers need to generate general code that can handle every possible combination of types at runtime. We present an alternative compilation technique for dynamically typed languages, which identifies frequently executed loop traces at runtime and then immediately generates machine code specialized for the actual dynamic types that appear on each path through the loop. Our method provides low-cost interprocedural type specialization, along with an elegant and efficient way to incrementally compile lazily discovered alternative paths through nested loops. We have implemented a dynamic compiler for JavaScript based on our technique and have measured speedups of 10x or more for some benchmark programs.
+>
+> Categories and Subject Descriptors D.3.4 [Programming Languages]: Processors — Incremental compilers, code generation.
+>
+> General Terms Design, Experimentation, Measurement, Performance.
+>
+> Keywords JavaScript, just-in-time compilation, trace trees.
+>
+> 1. Introduction
+>
+> Dynamic languages such as JavaScript, Python, and Ruby are popular because they are expressive, accessible to non-experts, and make deployment as easy as distributing a source code file. They are used for small scripts as well as complex applications.
+
+### `content/vi/graefe-1994-volcano/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says support-function semantics are not prescribed, the back-translation says they are not specified in advance.
+- wording: the original says Volcano effectively combines extensibility and parallelism, the back-translation says Volcano is capable of effectively combining them.
+
+The English as it stands:
+
+> Volcano—An Extensible and Parallel Query Evaluation System
+>
+> Goetz Graefe
+>
+> Abstract—To investigate the interactions of extensibility and parallelism in database query processing, we have developed a new dataflow query execution system called Volcano. The Volcano effort provides a rich environment for research and education in database systems design, heuristics for query optimization, parallel query execution, and resource allocation.
+>
+> Volcano uses a standard interface between algebra operators, allowing easy addition of new operators and operator implementations. Operations on individual items, e.g., predicates, are imported into the query processing operators using support functions. The semantics of support functions is not prescribed; any data type including complex objects and any operation can be realized. Thus, Volcano is extensible with new operators, algorithms, data types, and type-specific methods.
+>
+> Volcano includes two novel meta-operators. The choose-plan meta-operator supports dynamic query evaluation plans that allow delaying selected optimization decisions until run-time, e.g., for embedded queries with free variables. The exchange meta-operator supports intra-operator parallelism on partitioned datasets and both vertical and horizontal inter-operator parallelism, translating between demand-driven dataflow within processes and data-driven dataflow between processes.
+>
+> All operators, with the exception of the exchange operator, have been designed and implemented in a single-process environment, and parallelized using the exchange operator. Even operators not yet designed can be parallelized using this new operator if they use and provide the interator interface. Thus, the issues of data manipulation and parallelism have become orthogonal, making Volcano the first implemented query execution engine that effectively combines extensibility and parallelism.
+
+What came back:
+
+> Volcano—An Extensible and Parallel Query Evaluation System
+>
+> Goetz Graefe
+>
+> Abstract—To study the interactions between extensibility and parallelism in database query processing, we have developed a new dataflow query execution system called Volcano. The Volcano effort provides a rich environment for research and education on database system design, heuristics for query optimization, parallel query execution, and resource allocation.
+>
+> Volcano uses a standard interface between algebraic operators, allowing easy addition of new operators and operator implementations. Operations on individual items, for example predicates, are imported into query processing operators using support functions. The semantics of the support functions are not specified in advance; any data type including complex objects and any operation can be implemented. Therefore, Volcano is extensible with new operators, algorithms, data types, and type-specific methods.
+>
+> Volcano includes two new meta-operators. The choose-plan meta-operator supports dynamic query evaluation plans, allowing selected optimization decisions to be delayed until runtime, for example for embedded queries with free variables. The exchange meta-operator supports intra-operator parallelism on partitioned datasets and both vertical and horizontal inter-operator parallelism, converting between demand-driven dataflow within processes and data-driven dataflow between processes.
+>
+> All operators, except the exchange operator, have been designed and implemented in a single-process environment, and parallelized using the exchange operator. Even operators that have not yet been designed can be parallelized using this new operator if they use and provide the interator interface. Therefore, the issues of data manipulation and parallelism have become orthogonal, making Volcano the first implemented query execution engine capable of effectively combining extensibility and parallelism.
+
+### `content/vi/hamming-1950-codes/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says the failure escapes routine checking, the back-translation says it escapes periodic checking.
+
+The English as it stands:
+
+> Error Detecting and Error Correcting Codes
+>
+> By R. W. HAMMING
+>
+> 1. Introduction
+>
+> The author was led to the study given in this paper from a consideration of large scale computing machines in which a large number of operations must be performed without a single error in the end result. This problem of "doing things right" on a large scale is not essentially new; in a telephone central office, for example, a very large number of operations are performed while the errors leading to wrong numbers are kept well under control, though they have not been completely eliminated. This has been achieved, in part, through the use of self-checking circuits. The occasional failure that escapes routine checking is still detected by the customer and will, if it persists, result in customer complaint, while if it is transient it will produce only occasional wrong numbers. At the same time the rest of the central office functions satisfactorily. In a digital computer, on the other hand, a single failure usually means the complete failure, in the sense that if it is detected no more computing can be done until the failure is located and corrected, while if it escapes detection then it invalidates all subsequent operations of the machine.
+
+What came back:
+
+> Error-detecting codes and error-correcting codes
+>
+> By R. W. HAMMING
+>
+> 1. Introduction
+>
+> The author was led to the research presented in this paper from considering large-scale computers, in which a large number of operations must be performed without a single error in the final result. The problem of "doing everything right" on this large scale is fundamentally not new; for example, in a telephone exchange, a very large number of operations are performed while errors leading to wrong numbers are very tightly controlled, although they have not been completely eliminated. This has been achieved in part through the use of self-checking circuits. The occasional failure that escapes periodic checking is still detected by the customer and will, if prolonged, lead to a customer complaint, while if it is temporary it only produces occasional wrong numbers. At the same time, the remaining functions of the exchange still operate satisfactorily. On the other hand, in a digital computer, a single failure usually means complete breakdown, in the sense that if it is detected then no further computation can be performed until the failure is identified and repaired, while if it escapes detection then it invalidates all subsequent operations of the machine.
+
+### `content/vi/jouppi-2017-tpu/08_discussion.md`
+
+the 5% sample, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says CPU and GPU results would be “comparable to” the TPU under the stated conditions, the back-translation says they would be “equivalent to” the TPU.
+
+The English as it stands:
+
+> This section follows the fallacy and pitfall with rebuttal style of [Hen18].
+> • *Fallacy*: *NN inference applications in datacenters value throughput as much as response time.*
+> We were surprised that our developers had strong response-time demands, as some suggested in 2014 that batch sizes would be large enough for the TPU to reach peak performance or that latency requirements wouldn’t be as tight. One driving application was off-line image processing, and the intuition was that if interactive services also wanted TPUs, most of them would just accumulate larger batches. Even the developers of one application in 2014 that cared about response time (LSTM1) said the limit was 10 ms in 2014, but shrank it to 7 ms when they actually ported it to the TPU. The unexpected desire for TPUs by many such services combined with the impact on and preference for low response time changed the equation, with application writers often opting for reduced latency over waiting for bigger batches to accumulate. Fortunately, the TPU has a simple and repeatable execution model to help meet the response-time targets of interactive services and such high peak throughput that even small batch sizes result in higher performance than contemporary CPUs and GPUs.
+> • *Fallacy*: *The K80 GPU architecture is a good match to NN inference.*
+> GPUs have traditionally been seen as high-throughput architectures that rely on high-bandwidth DRAM and thousands of threads to achieve their goals. This perspective helps explain why the K80 is only a little faster at inference than Haswell and much slower than the TPU. Successors to the K80 will surely include optimizations to improve peak inference performance, but given their throughput-oriented architectural approach, it may be more challenging for GPUs to meet the strict latency limits. And as Section 7 shows, there is plenty of headroom to improve the TPU, so it’s not an easy target.
+>
+> • *Pitfall: Architects have neglected important NN tasks.*
+> We are pleased by the attention that the architecture community is paying to NN: 15% of the papers at ISCA 2016 were on hardware accelerators for NN [Alb16] [Che16a][Chi16][Han16][Kim16][LiK16][Liu16][Rea16] [Sha16]! Alas, all nine papers looked at CNNs, and only two mentioned other NNs. CNNs are more complex than MLPs and prominent in NN competitions [Rus15], which might explain their allure, but they are only about 5% of our datacenter NN workload. While CNNs may be common in edge devices, the volume of convolutional models hasn’t yet caught up with MLPs and LSTMs in the datacenter. We hope that architects try to accelerate MLPs and LSTMs with at least as much gusto.
+> • *Pitfall: For NN hardware, Inferences Per Second (IPS) is an inaccurate summary performance metric.*
+> Our results show that IPS is a poor overall performance summary for NN hardware, as it’s simply the inverse of the complexity of the typical inference in the application (e.g., the number, size, and type of NN layers). For example, the TPU runs the 4-layer MLP1 at 360,000 IPS but the 89-layer CNN1 at only 4,700 IPS, so TPU IPS vary by 75X! Thus, using IPS as the single-speed summary is *even more misleading* for NN accelerators than MIPS or FLOPS are for regular processors [Hen18], so IPS should be even more disparaged. To compare NN machines better, we need a benchmark suite written at a high-level to port it to the wide variety of NN architectures. Fathom is a promising new attempt at such a benchmark suite [Ado16].
+> • *Fallacy: The K80 GPU results would be much better if Boost mode were enabled.*
+> Setting aside the negative impact of K80 Boost mode on TCO (Section 3), we measured it on LSTM1. Boost mode increased the clock rate by a factor of up to 1.6—from 560 to 875 MHz—which increased performance by 1.4X, but it also raised power by 1.3X. The net gain in performance/Watt is 1.1X, and thus for LSTM1, boost mode would have a minor impact on our energy-speed analysis.
+> • *Fallacy: CPU and GPU results would be comparable to the TPU if we used them more efficiently or compared to newer versions.*
+> We originally had 8-bit results for just one DNN on the CPU, due to the significant work to use AVX2 integer support efficiently. The benefit was ~3.5X. It was less confusing (and less space) to present all CPU results in floating point, rather than having one exception, with its own roofline. If all DNNs had similar speedup, performance/Watt ratio would drop from 41-83X to 12-24X. The new 16-nm, 1.5GHz, 250W P40 datacenter GPU can perform 47 Tera 8-bit ops/sec, but was unavailable in early 2015, so isn’t contemporary with our three platforms. We also can’t know the fraction of P40 peak delivered within our rigid time bounds. If we compared newer chips, Section 7 shows that we could triple performance of the 28-nm, 0.7GHz, 40W TPU just by using the K80’s GDDR5 memory (at a cost of an additional 10W).
+> • *Pitfall: Performance counters added as an afterthought for NN hardware.*
+> The TPU has 106 performance counters, and if anything we would like a few more (see Table 3). The raison d'etre for NN accelerators is performance, and it is way too early in their evolution to have good intuition about what is going on.
+> • *Fallacy: After two years of software tuning, the only path left to increase TPU performance is hardware upgrades.*
+> The performance of CNN1 on the TPU could improve if developers and compiler writers did more work to match CNN1 to the TPU hardware. For example, developers could reorganize the applications to aggregate multiple short batches out of the convolution layers into a single, deeper batch (from 32 to 128) for the four fully connected layers. Such a single layer would improve utilization of the matrix unit (Table 3). As CNN1 currently runs more than 70 times faster on the TPU than the CPU, the CNN1 developers are already very happy, so it’s not clear whether or when such optimizations would be performed.
+
+What came back:
+
+> This section follows the rebuttal style of [Hen18] for fallacies and pitfalls.
+> • *Fallacy*: *NN inference applications in datacenters value throughput as much as response time.*
+> We were very surprised that our developers had strong requirements for response time, because some people had proposed in 2014 that batch sizes would be large enough for the TPU to reach peak performance or that latency requirements would not be too tight. One motivating application was offline image processing, and the intuition was that if interactive services also wanted to use the TPU, most of them would just accumulate larger batches. Even the developers of an application in 2014 that cared about response time (LSTM1) said that the limit was 10 ms in 2014, but it had dropped to 7 ms when they actually moved it to the TPU. The unexpected desire for the TPU from many such services combined with the impact and priority given to low response time changed the equation, with application writers often choosing to reduce latency instead of waiting to accumulate larger batches. Fortunately, the TPU has a simple and repeatable execution model to help meet the response time targets of interactive services and has such high peak throughput that even small batch sizes produce higher performance than contemporary CPUs and GPUs.
+> • *Fallacy*: *The K80 GPU architecture is a good fit for NN inference.*
+> GPUs have traditionally been viewed as high-throughput architectures that rely on high-bandwidth DRAM and thousands of threads to achieve their goals. This perspective helps explain why the K80 is only slightly faster at inference than Haswell and much slower than the TPU. Successors to the K80 will certainly include optimizations to improve peak inference performance, but due to their throughput-oriented architectural approach, it may be more difficult for GPUs to meet strict latency limits. And as Section 7 points out, there is still much room to improve the TPU, so this is not an easy target.
+>
+> • *Pitfall: Architects have overlooked important NN tasks.*
+> We are pleased with the attention that the architecture community is giving to NNs: 15% of the papers at ISCA 2016 were about hardware accelerators for NNs [Alb16] [Che16a][Chi16][Han16][Kim16][LiK16][Liu16][Rea16] [Sha16]! However, all nine papers considered CNNs, and only two mentioned other NNs. CNNs are more complex than MLPs and prominent in NN competitions [Rus15], which may explain their appeal, but they account for only about 5% of the NN workload in our datacenters. Although CNNs may be popular in edge devices, the volume of convolutional models has not yet caught up with MLPs and LSTMs in datacenters. We hope architects will try to accelerate MLPs and LSTMs with at least equal enthusiasm.
+> • *Pitfall: For NN hardware, Inferences Per Second (IPS) is an inaccurate aggregate performance metric.*
+> Our results show that IPS is a poor summary of overall performance for NN hardware, because it is simply the inverse of the complexity of typical inference in the application (for example: the number, size, and type of NN layers). For example, the TPU runs the 4-layer MLP1 at 360,000 IPS but the 89-layer CNN1 at only 4,700 IPS, so the TPU's IPS varies by 75X! Thus, using IPS as the sole speed metric is *even more misleading* for NN accelerators than MIPS or FLOPS are for conventional processors [Hen18], so IPS should be taken even less seriously. To compare NN machines better, we need a benchmark suite written at a high level to port it to many different NN architectures. Fathom is a promising new effort for such a benchmark suite [Ado16].
+> • *Fallacy: The K80 GPU results would be much better if Boost mode were enabled.*
+> Ignoring the negative impact of the K80's Boost mode on TCO (Section 3), we measured it on LSTM1. Boost mode increases the clock speed by a maximum factor of 1.6—from 560 to 875 MHz—increasing performance by 1.4X, but it also increases power by 1.3X. The net gain in performance/Watt is 1.1X, and thus for LSTM1, boost mode would have a small impact on our energy-speed analysis.
+> • *Fallacy: The CPU and GPU results would be equivalent to the TPU if we used them more efficiently or compared with newer versions.*
+> Initially we had 8-bit results for only one DNN on the CPU, due to the substantial amount of work needed to use AVX2 integer support effectively. The benefit was ~3.5X. Presenting all CPU results in floating point was less confusing (and took less space), instead of having one exception with its own roofline. If all DNNs had a similar speedup, the performance/Watt ratio would decrease from 41-83X to 12-24X. The new 16-nm, 1.5GHz, 250W P40 datacenter GPU can perform 47 Tera 8-bit ops/sec, but was not available in early 2015, so it is not contemporary with our three platforms. We also cannot know the fraction of the P40's peak delivered within our rigid time limits. If we compared newer chips, Section 7 shows that we could triple the performance of the 28-nm, 0.7GHz, 40W TPU just by using the K80's GDDR5 memory (at an additional cost of 10W).
+> • *Pitfall: Performance counters are added as an afterthought for NN hardware.*
+> The TPU has 106 performance counters, and if anything we would like a few more (see Table 3). The reason for existence of NN accelerators is performance, and it is too early in their development to have good intuition about what is happening.
+> • *Fallacy: After two years of software tuning, the only remaining path to increasing TPU performance is to upgrade the hardware.*
+> The performance of CNN1 on the TPU could be improved if developers and compiler writers did more work to match CNN1 to the TPU hardware. For example, developers could reorganize applications to aggregate many short batches from the convolutional layers into a single, deeper batch (from 32 to 128) for the four fully connected layers. Such a single layer would improve the utilization of the matrix unit (Table 3). Because CNN1 currently runs more than 70 times faster on the TPU than on the CPU, the CNN1 developers were very satisfied, so it is unclear whether or when such optimizations will be performed.
+
+### `content/vi/lamport-1998-paxos/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original labels category C2.4 “Computer-Communications Networks,” the back-translation labels it “Computer Networks.”
+
+The English as it stands:
+
+> The Part-Time Parliament
+>
+> Leslie Lamport
+>
+> This article appeared in ACM Transactions on Computer Systems 16, 2 (May 1998), 133-169. Minor corrections were made on 29 August 2000.
+>
+> The Part-Time Parliament
+>
+> LESLIE LAMPORT Digital Equipment Corporation
+>
+> Recent archaeological discoveries on the island of Paxos reveal that the parliament functioned despite the peripatetic propensity of its part-time legislators. The legislators maintained consistent copies of the parliamentary record, despite their frequent forays from the chamber and the forgetfulness of their messengers. The Paxon parliament’s protocol provides a new way of implementing the state-machine approach to the design of distributed systems. Categories and Subject Descriptors: C2.4 [Computer-Communications Networks]: Distributed Systems—Network operating systems; D4.5 [Operating Systems]: Reliability—Fault-tolerance; J.1 [Administrative Data Processing]: Government General Terms: Design, Reliability Additional Key Words and Phrases: State machines, three-phase commit, voting
+>
+> This submission was recently discovered behind a filing cabinet in the TOCS editorial office. Despite its age, the editor-in-chief felt that it was worth publishing. Because the author is currently doing field work in the Greek isles and cannot be reached, I was asked to prepare it for publication.
+>
+> The author appears to be an archeologist with only a passing interest in computer science. This is unfortunate; even though the obscure ancient Paxon civilization he describes is of little interest to most computer scientists, its legislative system is an excellent model for how to implement a distributed computer system in an asynchronous environment.
+
+What came back:
+
+> The Part-Time Parliament
+>
+> Leslie Lamport
+>
+> This paper appeared in ACM Transactions on Computer Systems 16, 2 (May 1998), 133-169. Minor corrections were made on August 29, 2000.
+>
+> The Part-Time Parliament
+>
+> LESLIE LAMPORT Digital Equipment Corporation
+>
+> Recent archaeological discoveries on the island of Paxos show that the parliament continued to operate despite the wandering tendencies of its part-time legislators. The legislators maintained consistent copies of the parliamentary records, despite frequently leaving the chamber and the absent-mindedness of the messengers. The protocol of the Paxon parliament provides a new method for implementing the state machine approach to designing distributed systems. Categories and Subject Descriptions: C2.4 [Computer Networks]: Distributed systems—Network operating systems; D4.5 [Operating Systems]: Reliability—Fault tolerance; J.1 [Administrative Data Processing]: Government General Terms: Design, Reliability Additional Keywords and Phrases: State machine, three-phase commit, voting
+>
+> This manuscript was recently discovered behind a filing cabinet in the TOCS editorial office. Although it is old, the editor-in-chief thought it was worth publishing. Because the author is currently conducting fieldwork on the Greek islands and cannot be contacted, I was asked to prepare the manuscript for publication.
+>
+> The author appears to be an archaeologist with only a passing interest in computer science. This is unfortunate; although the little-known ancient Paxon civilization that he describes is of little interest to most computer scientists, its legislative system is an excellent model for how to implement a distributed computer system in an asynchronous environment.
+
+### `content/vi/savitch-1970-tape/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original says computations correspond to “threadings” of mazes and refers to “threadable mazes,” the back-translation says “paths through” mazes and “mazes that can be traversed.”
+
+The English as it stands:
+
+> Relationships Between Nondeterministic and Deterministic Tape Complexities*
+>
+> Walter J. Savitch
+>
+> Department of Applied Physics and Information Science,
+> University of California, San Diego, La Jolla, California 92037
+>
+> Received August 29, 1969
+>
+> The amount of storage needed to simulate a nondeterministic tape bounded Turing machine on a deterministic Turing machine is investigated. Results include the following: Theorem. A nondeterministic $L(n)$-tape bounded Turing machine can be simulated by a deterministic $[L(n)]^2$-tape bounded Turing machine, provided $L(n) \geq \log_2 n$. Computations of nondeterministic machines are shown to correspond to threadings of certain mazes. This correspondence is used to produce a specific set, namely the set of all codings of threadable mazes, such that, if there is any set which distinguishes nondeterministic tape complexity classes from deterministic tape complexity classes, then this is one such set.
+
+What came back:
+
+> The relationship between the tape complexity of nondeterministic and deterministic Turing machines*
+>
+> Walter J. Savitch
+>
+> Department of Applied Physics and Information Science,
+> University of California, San Diego, La Jolla, California 92037
+>
+> Received August 29, 1969
+>
+> The amount of memory needed to simulate a tape-bounded nondeterministic Turing machine on a deterministic Turing machine is studied. The results include the following: Theorem. An $L(n)$ tape-bounded nondeterministic Turing machine can be simulated by an $[L(n)]^2$ tape-bounded deterministic Turing machine, provided that $L(n) \geq \log_2 n$. The computations of nondeterministic machines are shown to correspond to paths through certain mazes. This correspondence is used to produce a specific set, namely the set of all encodings of mazes that can be traversed, such that, if there exists a set distinguishing nondeterministic tape complexity classes from deterministic tape complexity classes, then this set is also such a set.
+
+### `content/vi/stonebraker-2005-cstore/00_front.md`
+
+every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+
+- wording: the original title says “A Column-oriented DBMS,” the back-translation title says “A Column-Oriented Relational DBMS.”
+
+The English as it stands:
+
+> C-Store: A Column-oriented DBMS
+>
+> Mike Stonebraker*, Daniel J. Abadi*, Adam Batkin†, Xuedong Chen†, Mitch Cherniack†,  
+> Miguel Ferreira*, Edmond Lau*, Amerson Lin*, Sam Madden*, Elizabeth O’Neil†,  
+> Pat O’Neil†, Alex Rasin‡, Nga Tran†, Stan Zdonik‡
+>
+> *MIT CSAIL  
+> Cambridge, MA
+>
+> †Brandeis University  
+> Waltham, MA
+>
+> †UMass Boston  
+> Boston, MA
+>
+> ‡Brown University  
+> Providence, RI
+>
+> Abstract
+>
+> This paper presents the design of a read-optimized relational DBMS that contrasts sharply with most current systems, which are write-optimized. Among the many differences in its design are: storage of data by column rather than by row, careful coding and packing of objects into storage including main memory during query processing, storing an overlapping collection of column-oriented projections, rather than the current fare of tables and indexes, a non-traditional implementation of transactions which includes high availability and snapshot isolation for read-only transactions, and the extensive use of bitmap indexes to complement B-tree structures.
+>
+> We present preliminary performance data on a subset of TPC-H and show that the system we are building, C-Store, is substantially faster than popular commercial products. Hence, the architecture looks very encouraging.
+
+What came back:
+
+> C-Store: A Column-Oriented Relational DBMS
+>
+> Mike Stonebraker*, Daniel J. Abadi*, Adam Batkin†, Xuedong Chen†, Mitch Cherniack†,  
+> Miguel Ferreira*, Edmond Lau*, Amerson Lin*, Sam Madden*, Elizabeth O’Neil†,  
+> Pat O’Neil†, Alex Rasin‡, Nga Tran†, Stan Zdonik‡
+>
+> *MIT CSAIL  
+> Cambridge, MA
+>
+> †Brandeis University  
+> Waltham, MA
+>
+> †UMass Boston  
+> Boston, MA
+>
+> ‡Brown University  
+> Providence, RI
+>
+> Abstract
+>
+> This paper presents the design of a read-optimized relational DBMS, in sharp contrast to most current systems, which are write-optimized. Among the many differences in its design are: storing data by column instead of by row, carefully encoding and packing objects into storage including main memory during query processing, storing an overlapping set of column-oriented projections instead of the current approach with tables and indexes, an unconventional implementation of transactions including high availability and snapshot isolation for read-only transactions, along with extensive use of bitmap indexes to supplement B-tree structures.
+>
+> We present preliminary performance data on a subset of TPC-H and show that the system we are building, C-Store, is significantly faster than popular commercial products. Therefore, this architecture appears very promising.
 
 ## The same
 
-- `content/ja/goodfellow-2014-gan/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/ja/goodfellow-2014-gan/07_conclusions_and_future_work.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/ja/goodfellow-2014-gan/08_acknowledgments.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/vi/goodfellow-2014-gan/03_adversarial_nets.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/vi/goodfellow-2014-gan/06_advantages_and_disadvantages.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/vi/goodfellow-2014-gan/08_acknowledgments.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/zh/goodfellow-2014-gan/02_related_work.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
-- `content/zh/goodfellow-2014-gan/06_advantages_and_disadvantages.md` paper 86 of the canon, checked whole, translated by gpt-5, put back by gpt-5, judged by gpt-5. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/aho-1975-corasick/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/amdahl-1967-law/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/astrahan-1976-systemr/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/backus-1978-vonneumann/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/bayer-1972-btree/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/bloom-1970-filter/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/cook-1971-np/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/cooley-1965-fft/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/corbett-2012-spanner/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/cytron-1991-ssa/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/dean-2004-mapreduce/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/dennard-1974-scaling/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/denning-1968-workingset/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/dewitt-1990-gamma/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/dijkstra-1959-shortestpath/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/dijkstra-1968-the/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/floyd-1962-shortestpath/00_front.md` every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/ford-1956-maxflow/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/ghemawat-2003-gfs/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/goldwasser-1985-zk/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/goodfellow-2014-gan/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/hoare-1962-quicksort/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/hoare-1969-axiomatic/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/jouppi-1990-victimcache/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/jouppi-2017-tpu/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/karp-1972-reducibility/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/knuth-1977-kmp/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/lamport-1978-clocks/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/mccarthy-1960-lisp/00_front.md` every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/mckeown-2008-openflow/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/metcalfe-1976-ethernet/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/mohan-1992-aries/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/nagle-1984-congestion/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/ongaro-2014-raft/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/razborov-1997-naturalproofs/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/ritchie-1974-unix/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/saltzer-1984-endtoend/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/shannon-1948-communication/00_front.md` every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/stoica-2001-chord/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/sussman-1975-scheme/00_front.md` every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/tarjan-1972-dfs/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/tomasulo-1967-algorithm/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
+- `content/vi/turing-1936-computable/00_front.md` every abstract is checked, translated by gpt-6-astra, put back by gpt-6-astra, judged by gpt-6-astra. The fleet had nothing else free, so this is a model marking its own work.
+- `content/vi/verma-2015-borg/00_front.md` every abstract is checked, translated by gpt-5, put back by gpt-6-astra, judged by gpt-6-astra.
 

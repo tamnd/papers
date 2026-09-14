@@ -23,6 +23,8 @@ translation_run: 20260914T155042Z
 glossary_version: 6
 glossary_terms_sha256: 6d9e5417e9b1c2ea0332cc910589a2f1f7989033c37ee6d1610f4912cdc9e218
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T214350Z
 ---
 
 VỀ CÁC SỐ TÍNH ĐƯỢC, VỚI MỘT ỨNG DỤNG CHO BÀI TOÁN QUYẾT ĐỊNH (Entscheidungsproblem)

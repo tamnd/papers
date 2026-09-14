@@ -27,6 +27,8 @@ translation_run: 20260914T163737Z
 glossary_version: 6
 glossary_terms_sha256: 3a5b9dd3cd6211761c92d70db4c4910c364b1cae9e5e732eea77349f449c860b
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T214350Z
 ---
 
 Chord: Dịch vụ tra cứu ngang hàng (Peer-to-peer) có khả năng mở rộng cho các ứng dụng Internet

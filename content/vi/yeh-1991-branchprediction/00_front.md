@@ -24,6 +24,8 @@ translation_run: 20260914T201546Z
 glossary_version: 6
 glossary_terms_sha256: 1f83355a83baacb04f1185b8bd47b133f28d2f764f5d7ae919d5d9d0d7e083ee
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T214350Z
 ---
 
 Có sự suy giảm nghiêm trọng về hiệu năng trong các máy có đường ống sâu và/hoặc siêu vô hướng do các lỗi dự đoán gây ra bởi lượng lớn công việc suy đoán phải bị loại bỏ [1, 8]. Đây là động lực để đề xuất một lược đồ dự đoán nhánh động mới có độ chính xác cao hơn. Lược đồ mới sử dụng hai mức thông tin lịch sử nhánh để đưa ra dự đoán. Mức thứ nhất là lịch sử của $n$ nhánh gần nhất. Mức thứ hai là hành vi của nhánh trong $s$ lần xuất hiện gần nhất của mẫu duy nhất đó của $n$ nhánh gần nhất. Thông tin lịch sử được thu thập trực tiếp trong quá trình chạy mà không cần thực thi chương trình trước đó, loại bỏ nhược điểm chính của Static Training Prediction. Lược đồ được đề xuất ở đây được gọi là Two-Level Adaptive Training Branch Prediction, vì các dự đoán không chỉ dựa trên bản ghi của $n$ nhánh gần nhất, mà còn dựa trên bản ghi của $s$ lần xuất hiện gần nhất của bản ghi cụ thể của $n$ nhánh gần nhất.

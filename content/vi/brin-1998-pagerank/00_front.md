@@ -24,6 +24,8 @@ translation_run: 20260914T155157Z
 glossary_version: 6
 glossary_terms_sha256: 51f62d367854beec600f51894702ad34dfcde96c993d5c00a2f7a9873047d13f
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-in-wording
+roundtrip_run: 20260914T214350Z
 ---
 
 Cấu trúc của một công cụ tìm kiếm web siêu văn bản quy mô lớn $^1$
