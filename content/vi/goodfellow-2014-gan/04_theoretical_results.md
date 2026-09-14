@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 Bộ sinh $G$ định nghĩa ngầm một phân phối xác suất $p_g$ là phân phối của các mẫu $G(z)$ thu được khi $z\sim p_z$. Do đó, chúng tôi muốn Thuật toán 1 hội tụ đến một bộ ước lượng tốt của $p_{\mathrm{data}}$, nếu được cung cấp đủ năng lực và thời gian huấn luyện. Các kết quả của phần này được thực hiện trong thiết lập phi tham số, chẳng hạn chúng tôi biểu diễn một mô hình có năng lực vô hạn bằng cách nghiên cứu sự hội tụ trong không gian của các hàm mật độ xác suất.

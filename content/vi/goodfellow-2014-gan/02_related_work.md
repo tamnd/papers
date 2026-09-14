@@ -31,6 +31,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 Một phương án thay thế cho các mô hình đồ thị có hướng với các biến tiềm ẩn là các mô hình đồ thị vô hướng với các biến tiềm ẩn, chẳng hạn như restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann machines (DBMs) [26] và nhiều biến thể của chúng. Các tương tác bên trong những mô hình như vậy được biểu diễn dưới dạng tích của các hàm thế chưa được chuẩn hóa, được chuẩn hóa bằng một phép tổng hóa/tích phân hóa toàn cục trên mọi trạng thái của các biến ngẫu nhiên. Đại lượng này ( *hàm phân hoạch* ) và gradient của nó là bất khả trị đối với tất cả các trường hợp ngoại trừ những trường hợp tầm thường nhất, mặc dù chúng có thể được ước lượng bằng các phương pháp Markov chain Monte Carlo (MCMC). Sự hòa trộn đặt ra một vấn đề đáng kể đối với các thuật toán học phụ thuộc vào MCMC [3, 5].

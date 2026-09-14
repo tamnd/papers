@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: 58c68d890f07ae3e920d6d07238da8d409da407f972fdd92b14f9e3f1e0382a4
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: same
+roundtrip_run: 20260914T070941Z
 ---
 
 このフレームワークは、多くの直接的な拡張を可能にする。

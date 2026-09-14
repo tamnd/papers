@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: 58c68d890f07ae3e920d6d07238da8d409da407f972fdd92b14f9e3f1e0382a4
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 潜在変数を持つ有向グラフィカルモデルの代替として、restricted Boltzmann machines (RBMs) [27, 16]、deep Boltzmann machines (DBMs) [26]およびそれらの多数の変種のような、潜在変数を持つ無向グラフィカルモデルがある。そのようなモデル内の相互作用は、正規化されていないポテンシャル関数の積として表現され、確率変数のすべての状態にわたる大域的な総和／積分によって正規化される。この量（*分配関数*）とその勾配は、最も自明な場合を除いて扱いが困難であるが、Markov chain Monte Carlo (MCMC)法によって推定することは可能である。混合は、MCMCに依存する学習アルゴリズムにとって重大な問題となる[3, 5]。

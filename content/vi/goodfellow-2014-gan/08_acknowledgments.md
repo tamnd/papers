@@ -29,6 +29,8 @@ translation_run: 20260914T064759Z
 glossary_version: 5
 glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
+roundtrip: same
+roundtrip_run: 20260914T070941Z
 ---
 
 Chúng tôi xin cảm ơn Patrice Marcotte, Olivier Delalleau, Kyunghyun Cho, Guillaume Alain và Jason Yosinski vì những cuộc thảo luận hữu ích. Yann Dauphin đã chia sẻ với chúng tôi mã đánh giá cửa sổ Parzen. Chúng tôi xin cảm ơn các nhà phát triển của Pylearn2 [12] và Theano [7, 1], đặc biệt là Frédéric Bastien, người đã chia sẻ một đặc trưng của Theano nhằm phục vụ riêng cho dự án này. Arnaud Bergeron đã cung cấp sự hỗ trợ rất cần thiết về việc soạn thảo $\LaTeX$. Chúng tôi cũng xin cảm ơn CIFAR và Canada Research Chairs vì đã tài trợ, cùng Compute Canada và Calcul Québec vì đã cung cấp các tài nguyên tính toán. Ian Goodfellow được hỗ trợ bởi Học bổng Google năm 2013 về Học sâu. Cuối cùng, chúng tôi xin cảm ơn Les Trois Brasseurs vì đã kích thích sự sáng tạo của chúng tôi.

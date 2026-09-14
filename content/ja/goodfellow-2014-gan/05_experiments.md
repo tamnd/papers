@@ -31,6 +31,8 @@ translation_run: 20260914T054537Z
 glossary_version: 5
 glossary_terms_sha256: 58c68d890f07ae3e920d6d07238da8d409da407f972fdd92b14f9e3f1e0382a4
 prompt_sha256: a85b86fd402f05bc73ad3f4ad24540e4def82d38e0f105fa05c1de90e9436390
+roundtrip: differs-materially
+roundtrip_run: 20260914T070941Z
 ---
 
 MNIST[[lecun-1998-lenet]]、Toronto Face Database (TFD) [28]、および CIFAR-10 [21]を含むさまざまなデータセット上で敵対的ネットを学習した。生成器ネットは rectifier linear activation [19, 9]と sigmoid activation の混合を用い、一方で識別器ネットは maxout [10] activation を用いた。識別器ネットの学習にはドロップアウト [17]を適用した。理論的フレームワークでは生成器の中間レイヤーにドロップアウトやその他のノイズを用いることが可能であるが、本研究では生成器ネットワークの最下層への入力としてのみノイズを用いた。
