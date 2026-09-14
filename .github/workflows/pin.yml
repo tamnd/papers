@@ -1,0 +1,70 @@
+name: pin
+
+# The toolchain pin in ci.yml rots, and it rots quietly. It sat at v0.1.0
+# while the audit grew from eight rules to fifty six, and every green tick in
+# that period meant eight rules passed. A comment telling whoever cuts a
+# release to move the pin did not work twice, so this asks once a week
+# instead.
+#
+# It opens an issue rather than failing the build. The reason ci.yml pins at
+# all is that a push to the toolchain repository should not turn this one red
+# with no commit here to point at, and a check that went red the moment the
+# toolchain released would give that away for nothing. An issue is the same
+# information with none of that cost.
+
+on:
+  schedule:
+    # Monday morning, so the week starts with the list of what has drifted.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: is the toolchain pin the latest release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: compare
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          pinned=$(sed -n 's|.*cmd/papers@\(v[0-9][^ ]*\).*|\1|p' .github/workflows/ci.yml | head -1)
+          latest=$(gh release view --repo tamnd/papers-reader --json tagName -q .tagName)
+          echo "pinned $pinned, latest $latest"
+          if [ "$pinned" = "$latest" ]; then
+            exit 0
+          fi
+
+          # One issue, reopened and brought up to date, rather than one a week
+          # saying the same thing.
+          title="The toolchain pin is behind"
+          body=$(printf '%s\n' \
+            "CI installs papers $pinned and the latest release of tamnd/papers-reader is $latest." \
+            "" \
+            "The audit lives in the toolchain, so a pin that is behind means this corpus is being held to an older set of rules than the one the toolchain is writing. That has gone both ways before: rules the corpus was never checked against, and rules the toolchain had already fixed that this repository stayed red on." \
+            "" \
+            "Move the pin in .github/workflows/ci.yml and run the audit locally first, because moving it is what turns up the findings the new rules bring." \
+            "" \
+            "https://github.com/tamnd/papers-reader/releases/tag/$latest")
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --search "$title in:title" --json number,state -q '.[0] | "\(.number) \(.state)"' || true)
+          if [ -z "$existing" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+            exit 0
+          fi
+          number=${existing%% *}
+          state=${existing##* }
+          if [ "$state" = "CLOSED" ]; then
+            gh issue reopen --repo "$GITHUB_REPOSITORY" "$number"
+          fi
+          gh issue edit --repo "$GITHUB_REPOSITORY" "$number" --body "$body"
