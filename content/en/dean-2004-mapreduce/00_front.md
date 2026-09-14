@@ -8,7 +8,6 @@ year: 2004
 venue: OSDI
 field: systems
 section_title: Front Matter
-tag: 006A
 kind: front
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

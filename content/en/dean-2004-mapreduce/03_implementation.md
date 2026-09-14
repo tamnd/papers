@@ -9,7 +9,6 @@ venue: OSDI
 field: systems
 section: "3"
 section_title: Implementation
-tag: "0071"
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
@@ -17,7 +16,7 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: 3-6
 extraction: vision
 extraction_model: gpt-5
-content_sha256: 0d48c976d3c509f3fc40cd3481146b310c03c626b926b01101dda70eedbdc44a
+content_sha256: 66253c21c975141e88412536a0c4388d1ce214171bcdab04521badc4b3ff98d7
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -35,7 +34,7 @@ This section describes an implementation targeted to the computing environment i
 
 (5) Users submit jobs to a scheduling system. Each job consists of a set of tasks, and is mapped by the scheduler to a set of available machines within a cluster.
 
-### 3.1 Execution Overview {#dean-2004-mapreduce-s3-1 .section tag=0072}
+### 3.1 Execution Overview
 
 The Map invocations are distributed across multiple machines by automatically partitioning the input data into a set of $M$ splits. The input splits can be processed in parallel by different machines. Reduce invocations are distributed by partitioning the intermediate key space into $R$ pieces using a partitioning function (e.g., hash(key) mod $R$). The number of partitions ($R$) and the partitioning function are specified by the user.
 
@@ -57,13 +56,13 @@ Figure 1 shows the overall flow of a MapReduce operation in our implementation. 
 
 After successful completion, the output of the mapreduce execution is available in the $R$ output files (one per reduce task, with file names as specified by the user). Typically, users do not need to combine these $R$ output files into one file – they often pass these files as input to another MapReduce call, or use them from another distributed application that is able to deal with input that is partitioned into multiple files.
 
-### 3.2 Master Data Structures {#dean-2004-mapreduce-s3-2 .section tag=0121}
+### 3.2 Master Data Structures
 
 The master keeps several data structures. For each map task and reduce task, it stores the state (idle, in-progress, or completed), and the identity of the worker machine (for non-idle tasks).
 
 The master is the conduit through which the location of intermediate file regions is propagated from map tasks to reduce tasks. Therefore, for each completed map task, the master stores the locations and sizes of the $R$ intermediate file regions produced by the map task. Updates to this location and size information are received as map tasks are completed. The information is pushed incrementally to workers that have in-progress reduce tasks.
 
-### 3.3 Fault Tolerance {#dean-2004-mapreduce-s3-3 .section tag=0122}
+### 3.3 Fault Tolerance
 
 Since the MapReduce library is designed to help process very large amounts of data using hundreds or thousands of machines, the library must tolerate machine failures gracefully.
 
@@ -93,11 +92,11 @@ The vast majority of our map and reduce operators are deterministic, and the fac
 
 Consider map task $M$ and reduce tasks $R_1$ and $R_2$. Let $e(R_i)$ be the execution of $R_i$ that committed (there is exactly one such execution). The weaker semantics arise because $e(R_1)$ may have read the output produced by one execution of $M$ and $e(R_2)$ may have read the output produced by a different execution of $M$.
 
-### 3.4 Locality {#dean-2004-mapreduce-s3-4 .section tag=0109}
+### 3.4 Locality
 
 Network bandwidth is a relatively scarce resource in our computing environment. We conserve network bandwidth by taking advantage of the fact that the input data (managed by GFS [[ghemawat-2003-gfs]]) is stored on the local disks of the machines that make up our cluster. GFS divides each file into 64 MB blocks, and stores several copies of each block (typically 3 copies) on different machines. The MapReduce master takes the location information of the input files into account and attempts to schedule a map task on a machine that contains a replica of the corresponding input data. Failing that, it attempts to schedule a map task near a replica of that task’s input data (e.g., on a worker machine that is on the same network switch as the machine containing the data). When running large MapReduce operations on a significant fraction of the workers in a cluster, most input data is read locally and consumes no network bandwidth.
 
-### 3.5 Task Granularity {#dean-2004-mapreduce-s3-5 .section tag=010A}
+### 3.5 Task Granularity
 
 We subdivide the map phase into $M$ pieces and the reduce phase into $R$ pieces, as described above. Ideally, $M$ and $R$ should be much larger than the number of worker machines. Having each worker perform many different tasks improves dynamic load balancing, and also speeds up recovery when a worker fails: the many map tasks it has completed can be spread out across all the other worker machines.
 
@@ -105,7 +104,7 @@ There are practical bounds on how large $M$ and $R$ can be in our implementation
 
 Furthermore, $R$ is often constrained by users because the output of each reduce task ends up in a separate output file. In practice, we tend to choose $M$ so that each individual task is roughly 16 MB to 64 MB of input data (so that the locality optimization described above is most effective), and we make $R$ a small multiple of the number of worker machines we expect to use. We often perform MapReduce computations with $M = 200,000$ and $R = 5,000$, using 2,000 worker machines.
 
-### 3.6 Backup Tasks {#dean-2004-mapreduce-s3-6 .section tag=010B}
+### 3.6 Backup Tasks
 
 One of the common causes that lengthens the total time taken for a MapReduce operation is a “straggler”: a machine that takes an unusually long time to complete one of the last few map or reduce tasks in the computation. Stragglers can arise for a whole host of reasons. For example, a machine with a bad disk may experience frequent correctable errors that slow its read performance from 30 MB/s to 1 MB/s. The cluster scheduling system may have scheduled other tasks on the machine, causing it to execute the MapReduce code more slowly due to competition for CPU, memory, local disk, or network bandwidth. A recent problem we experienced was a bug in machine initialization code that caused processor caches to be disabled: computations on affected machines slowed down by over a factor of one hundred.
 

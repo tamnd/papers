@@ -9,7 +9,6 @@ venue: OSDI
 field: systems
 section: A
 section_title: Word Frequency
-tag: "0168"
 kind: appendix
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

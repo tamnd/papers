@@ -9,7 +9,6 @@ venue: OSDI
 field: systems
 section: "7"
 section_title: Related Work
-tag: "0089"
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf

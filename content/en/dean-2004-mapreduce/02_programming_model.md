@@ -9,7 +9,6 @@ venue: OSDI
 field: systems
 section: "2"
 section_title: Programming Model
-tag: 006C
 kind: section
 lang: en
 source: https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf
@@ -17,7 +16,7 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: 2-3
 extraction: vision
 extraction_model: gpt-5
-content_sha256: c7e67fc6b1103b4953278edc167bdfc9009815abad8934e8d5cc8c236f7a0d6f
+content_sha256: aaf581737cd4d87ef514b916c1ce15d8ee969caef455403515366f71228c9af2
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -27,7 +26,7 @@ Map, written by the user, takes an input pair and produces a set of intermediate
 
 The Reduce function, also written by the user, accepts an intermediate key $I$ and a set of values for that key. It merges together these values to form a possibly smaller set of values. Typically just zero or one output value is produced per Reduce invocation. The intermediate values are supplied to the user’s reduce function via an iterator. This allows us to handle lists of values that are too large to fit in memory.
 
-### 2.1 Example {#dean-2004-mapreduce-s2-1 .section tag=006D}
+### 2.1 Example
 
 Consider the problem of counting the number of occurrences of each word in a large collection of documents. The user would write code similar to the following pseudo-code:
 
@@ -51,7 +50,7 @@ The map function emits each word plus an associated count of occurrences (just �
 
 In addition, the user writes code to fill a mapreduce specification object with the names of the input and output files, and optional tuning parameters. The user then invokes the MapReduce function, passing it the specification object. The user’s code is linked together with the MapReduce library (implemented in C++). Appendix A contains the full program text for this example.
 
-### 2.2 Types {#dean-2004-mapreduce-s2-2 .section tag=006E}
+### 2.2 Types
 
 Even though the previous pseudo-code is written in terms of string inputs and outputs, conceptually the map and reduce functions supplied by the user have associated types:
 
@@ -64,7 +63,7 @@ I.e., the input keys and values are drawn from a different domain than the outpu
 
 Our C++ implementation passes strings to and from the user-defined functions and leaves it to the user code to convert between strings and appropriate types.
 
-### 2.3 More Examples {#dean-2004-mapreduce-s2-3 .section tag=006F}
+### 2.3 More Examples
 
 Here are a few simple examples of interesting programs that can be easily expressed as MapReduce computations.
 
@@ -76,7 +75,7 @@ Reverse Web-Link Graph: The map function outputs $\langle target,source\rangle$ 
 
 Term-Vector per Host: A term vector summarizes the most important words that occur in a document or a set of documents as a list of $\langle word,frequency\rangle$ pairs. The map function emits a $\langle hostname,term\ vector\rangle$ pair for each input document (where the hostname is extracted from the URL of the document). The reduce function is passed all per-document term vectors for a given host. It adds these term vectors together, throwing away infrequent terms, and then emits a final $\langle hostname,term\ vector\rangle$ pair.
 
-Figure 1: Execution overview {#dean-2004-mapreduce-fig-1 .figure tag=0070}
+Figure 1: Execution overview
 
 Inverted Index: The map function parses each document, and emits a sequence of $\langle word, document\ ID\rangle$ pairs. The reduce function accepts all pairs for a given word, sorts the corresponding document IDs and emits a $\langle word, list(document\ ID)\rangle$ pair. The set of all output pairs forms a simple inverted index. It is easy to augment this computation to keep track of word positions.
 
