@@ -27,6 +27,7 @@ terms:
     vi: trừu tượng hóa
     zh: 抽象
     ja: 抽象化
+    common: true
   - en: accuracy
     vi: độ chính xác
     zh: 准确率
@@ -62,6 +63,7 @@ terms:
     vi: cận
     zh: 界
     ja: 上界・下界
+    common: true
     note: an upper or lower limit on a quantity, as in a complexity bound
   - en: branch
     vi: nhánh
@@ -88,6 +90,7 @@ terms:
     vi: lớp
     zh: 类
     ja: クラス
+    common: true
     note: in languages a type, in machine learning a label
   - en: classification
     vi: phân loại
@@ -115,6 +118,7 @@ terms:
     vi: độ phức tạp
     zh: 复杂度
     ja: 計算量
+    common: true
   - en: computation
     vi: tính toán
     zh: 计算
@@ -204,6 +208,7 @@ terms:
     zh: 特征
     ja: 特徴量
     fields: [ai-ml, graphics]
+    common: true
     note: an input variable of a model, not a capability of a program
   - en: feature
     vi: tính năng
@@ -219,6 +224,7 @@ terms:
     vi: hàm
     zh: 函数
     ja: 関数
+    common: true
   - en: gradient
     vi: gradient
     zh: 梯度
@@ -290,6 +296,7 @@ terms:
     vi: khóa
     zh: 键
     ja: キー
+    common: true
     note: 'in a store what a value is found by, in cryptography a secret; zh: cryptography中通常译为“密钥”，但此处首义是存储系统中的键'
   - en: language model
     vi: mô hình ngôn ngữ
@@ -314,6 +321,7 @@ terms:
     vi: thư viện
     zh: 库
     ja: ライブラリ
+    common: true
   - en: load balancing
     vi: cân bằng tải
     zh: 负载均衡
@@ -374,11 +382,13 @@ terms:
     zh: 目标函数
     ja: 目的関数
     fields: [ai-ml]
+    common: true
     note: the function being optimised
   - en: operator
     vi: toán tử
     zh: 算子
     ja: 演算子
+    common: true
   - en: optimization
     vi: tối ưu hóa
     zh: 优化
@@ -434,11 +444,13 @@ terms:
     vi: thủ tục
     zh: 过程
     ja: 手続き
+    common: true
   - en: process
     vi: tiến trình
     zh: 进程
     ja: プロセス
     fields: [systems, languages, architecture]
+    common: true
     note: the operating system's unit of execution, not a general procedure and not a stochastic process
   - en: processor
     vi: bộ xử lý
@@ -508,6 +520,7 @@ terms:
     vi: mẫu
     zh: 样本
     ja: サンプル
+    common: true
   - en: scalability
     vi: khả năng mở rộng
     zh: 可扩展性
@@ -533,6 +546,7 @@ terms:
     vi: chuỗi
     zh: 序列
     ja: シーケンス
+    common: true
   - en: sequence length
     vi: độ dài chuỗi
     zh: 序列长度
@@ -575,6 +589,7 @@ terms:
     vi: trạng thái
     zh: 状态
     ja: 状態
+    common: true
   - en: state machine
     vi: máy trạng thái
     zh: 状态机
@@ -631,6 +646,7 @@ terms:
     zh: 训练目标
     ja: 学習目的
     fields: [ai-ml]
+    common: true
     note: the whole phrase, and not always the function itself
   - en: transaction
     vi: giao dịch
