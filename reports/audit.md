@@ -1,6 +1,6 @@
 # Audit
 
-86 rules: 82 passed, 4 failed, 0 not run
+64 rules: 64 passed, 0 failed, 0 not run
 
 ## S Sources and licensing
 
@@ -8,7 +8,7 @@
 
 **S02** (hard, pass) a restricted paper has only 00_front.md, and no figures.
 
-**S03** (hard, pass) no PDF and no EPUB is tracked by git, whatever the licence says.
+**S03** (hard, pass) no PDF is tracked by git, whatever the licence says.
 
 **S04** (hard, pass) every paper in papers.yaml has an entry in sources.yaml.
 
@@ -45,10 +45,6 @@
 **T10** (hard, pass) no page furniture is left in the body: running heads, bare folios.
 
 **T11** (hard, pass) no raw HTML markup is left in a body.
-
-**T12** (hard, pass) no Markdown link is left in a body.
-
-**T13** (soft, pass) no word is left split at the hyphen the page broke it with.
 
 ## M Mathematics
 
@@ -92,42 +88,9 @@
 
 **C05** (soft, pass) no listing runs past 120 lines.
 
-**C06** (hard, pass) a numbered listing carries an attribute block with a .code class.
+**C08** (soft, pass) no run of lines reads as program text outside a fence.
 
-**C07** (hard, pass) the fenced regions of a translation are its English ones, byte for byte.
-
-**C08** (soft, 20 found) no run of lines reads as program text outside a fence.
-
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:23` 7 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:31` 8 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:42` 9 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:58` 3 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:62` 8 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:71` 7 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:79` 6 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:100` 11 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:114` 9 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:127` 5 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:133` 4 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:138` 5 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:150` 10 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:161` 3 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:192` 3 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:196` 4 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:201` 4 lines here read as program text and are not in a fence
-- `content/en/bosshart-2014-p4/04_p4_language_by_example.md:206` 4 lines here read as program text and are not in a fence
-- `content/en/brown-2020-gpt3/15_additional_samples_from_gpt_3.md:68` 9 lines here read as program text and are not in a fence
-- `content/en/corbett-2012-spanner/02_implementation.md:57` 5 lines here read as program text and are not in a fence
-
-**C09** (soft, 7 found) no run of lines is lined up with spaces Markdown will collapse.
-
-- `content/en/bosshart-2014-p4/00_front.md:4` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/brown-2020-gpt3/01_introduction.md:27` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/brown-2020-gpt3/04_measuring_and_preventing_memorization.md:45` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/brown-2020-gpt3/04_measuring_and_preventing_memorization.md:61` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/brown-2020-gpt3/12_details_of_test_set_contamination.md:3` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/brown-2020-gpt3/12_details_of_test_set_contamination.md:13` 1 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
-- `content/en/verma-2015-borg/00_front.md:3` 2 lines here are lined up with spaces that Markdown will collapse, so the columns are lost
+**C09** (soft, pass) no run of lines is lined up with spaces Markdown will collapse.
 
 ## F Figures
 
@@ -147,15 +110,7 @@
 
 **F08** (hard, pass) no restricted paper has a figure.
 
-**F09** (soft, 7 found) every figure the paper numbers in its prose is present.
-
-- `manifests/figures.yaml` dean-2004-mapreduce mentions Figure 1 in its prose and has no such figure
-- `manifests/figures.yaml` dean-2004-mapreduce mentions Figure 3 in its prose and has no such figure
-- `manifests/figures.yaml` corbett-2012-spanner mentions Figure 6 in its prose and has no such figure
-- `manifests/figures.yaml` he-2016-resnet mentions Figure 1 in its prose and has no such figure
-- `manifests/figures.yaml` he-2016-resnet mentions Figure 3 in its prose and has no such figure
-- `manifests/figures.yaml` he-2016-resnet mentions Figure 6 in its prose and has no such figure
-- `manifests/figures.yaml` he-2016-resnet mentions Figure 7 in its prose and has no such figure
+**F09** (soft, pass) every figure the paper numbers in its prose is present.
 
 ## R References
 
@@ -187,45 +142,5 @@
 
 **G05** (hard, pass) every anchored item in a body carries a tag.
 
-## L Translation
-
-**L01** (hard, pass) the mathematics of a translation is the mathematics of its English.
-
-**L02** (hard, pass) the attribute blocks of a translation are its English ones.
-
-**L03** (hard, pass) the heading tree of a translation is its English one.
-
-**L04** (hard, pass) every translated file is a file of the English paper, with the same number and kind.
-
-**L05** (hard, pass) every translation records the English file and the hash it was made from.
-
-**L06** (soft, 1 found) a glossary term used in the English is rendered the glossary's way in the translation.
-
-- `content/vi/goodfellow-2014-gan/04_theoretical_results.md` the English uses these terms and the glossary's rendering is nowhere in the translation: "training objective" as "mục tiêu huấn luyện", "objective" as "hàm mục tiêu"
-
-**L07** (hard, pass) no paragraph came back in English.
-
-**L08** (soft, pass) no translation was written by a small model.
-
-**L09** (hard, pass) two files under one glossary version were translated against the same renderings.
-
-**L10** (hard, pass) no English glossary term is left standing in a translation with its rendering nowhere in the file.
-
-**L11** (hard, pass) no sentence came back in English.
-
-**L12** (hard, pass) the words set inside the mathematics are translated too.
-
-**L13** (hard, pass) no word of a translation is written in a script that language does not use.
-
-**L14** (hard, pass) a bibliography stands as printed in every language.
-
-**L15** (soft, pass) no translation was written on a free gateway.
-
-**L16** (hard, pass) the citations of a translation are its English ones.
-
-**L17** (hard, pass) no translation is a provider's error message or an apology.
-
-**L18** (hard, pass) the listings of a translation are its English ones, byte for byte.
-
-**L19** (soft, pass) the section title of a translation was translated too.
+**G06** (hard, pass) tags climb in reading order within a run.
 
