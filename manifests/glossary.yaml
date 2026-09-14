@@ -8,9 +8,11 @@
 # that are only ever part of a longer term here ("hidden", "neural"), and
 # words with no translation problem in them at all.
 #
-# A term with no field is offered to every paper. A term with a field is
-# offered to that field only, because a rendering offered to the wrong paper
-# is worse than none: the translator will take it.
+# A term with no fields is offered to every paper. A term with fields is
+# offered to those fields only, because a rendering offered to the wrong paper
+# is worse than none: the translator will take it. A sense usually spans a few
+# fields: "log" is the append only record in systems, databases and networks,
+# and the logarithm in every other paper in the corpus.
 #
 # A term with keep set stands in English in all three languages, and that is a
 # decision somebody made rather than a gap in the table.
@@ -19,7 +21,7 @@
 # Bump version whenever a term is added or a rendering changes: every
 # translated file records the version it was made under, so a change here
 # makes the files it affects detectably stale.
-version: 4
+version: 5
 terms:
   - en: abstraction
     vi: trừu tượng hóa
@@ -42,7 +44,7 @@ terms:
     vi: cơ chế attention
     zh: 注意力机制
     ja: 注意機構
-    field: ai-ml
+    fields: [ai-ml]
     note: the mechanism, not the ordinary word
   - en: baseline
     vi: đường cơ sở
@@ -103,7 +105,7 @@ terms:
     vi: xác nhận
     zh: 提交
     ja: コミット
-    field: databases
+    fields: [databases]
     note: the end of a transaction, not a revision
   - en: compiler
     vi: trình biên dịch
@@ -165,12 +167,12 @@ terms:
     vi: dropout
     zh: Dropout
     ja: ドロップアウト
-    field: ai-ml
+    fields: [ai-ml]
   - en: embedding
     vi: embedding
     zh: 嵌入
     ja: 埋め込み
-    field: ai-ml
+    fields: [ai-ml]
   - en: encoder
     vi: bộ mã hóa
     zh: 编码器
@@ -187,6 +189,7 @@ terms:
     vi: mục nhập
     zh: 表项
     ja: エントリ
+    fields: [systems, architecture, databases, networks]
     note: one row of a table, as in a page table entry
   - en: execution
     vi: thực thi
@@ -200,7 +203,14 @@ terms:
     vi: đặc trưng
     zh: 特征
     ja: 特徴量
-    note: in machine learning an input variable, in software a capability
+    fields: [ai-ml, graphics]
+    note: an input variable of a model, not a capability of a program
+  - en: feature
+    vi: tính năng
+    zh: 功能
+    ja: 機能
+    fields: [software, systems, hci, networks, databases, security]
+    note: a capability of a program, not an input variable of a model
   - en: framework
     vi: khung
     zh: 框架
@@ -237,12 +247,12 @@ terms:
     vi: trạng thái ẩn
     zh: 隐状态
     ja: 隠れ状態
-    field: ai-ml
+    fields: [ai-ml]
   - en: identity
     vi: ánh xạ đồng nhất
     zh: 恒等映射
     ja: 恒等写像
-    field: ai-ml
+    fields: [ai-ml]
     note: the identity mapping of a residual connection
   - en: inference
     vi: suy luận
@@ -257,7 +267,7 @@ terms:
     vi: chuỗi đầu vào
     zh: 输入序列
     ja: 入力系列
-    field: ai-ml
+    fields: [ai-ml]
   - en: instruction
     vi: lệnh
     zh: 指令
@@ -274,7 +284,8 @@ terms:
     vi: nhân
     zh: 内核
     ja: カーネル
-    note: 'in systems the core of an operating system, in machine learning a filter; zh: machine learning中的filter通常译为“卷积核”'
+    fields: [systems, architecture]
+    note: the core of an operating system, not a convolution kernel and not a kernel method
   - en: key
     vi: khóa
     zh: 键
@@ -284,7 +295,7 @@ terms:
     vi: mô hình ngôn ngữ
     zh: 语言模型
     ja: 言語モデル
-    field: ai-ml
+    fields: [ai-ml]
   - en: latency
     vi: độ trễ
     zh: 延迟
@@ -298,7 +309,7 @@ terms:
     vi: tốc độ học
     zh: 学习率
     ja: 学習率
-    field: ai-ml
+    fields: [ai-ml]
   - en: library
     vi: thư viện
     zh: 库
@@ -315,12 +326,13 @@ terms:
     vi: nhật ký
     zh: 日志
     ja: ログ
+    fields: [systems, databases, networks]
     note: the append only record, not the logarithm
   - en: machine translation
     vi: dịch máy
     zh: 机器翻译
     ja: 機械翻訳
-    field: ai-ml
+    fields: [ai-ml]
   - en: mapping
     vi: ánh xạ
     zh: 映射
@@ -347,7 +359,7 @@ terms:
     vi: mạng nơ-ron
     zh: 神经网络
     ja: ニューラルネットワーク
-    field: ai-ml
+    fields: [ai-ml]
   - en: node
     vi: nút
     zh: 节点
@@ -356,7 +368,7 @@ terms:
     vi: hàm mục tiêu
     zh: 目标函数
     ja: 目的関数
-    field: ai-ml
+    fields: [ai-ml]
     note: the function being optimised
   - en: operator
     vi: toán tử
@@ -378,7 +390,7 @@ terms:
     vi: gói tin
     zh: 数据包
     ja: パケット
-    field: networks
+    fields: [networks]
   - en: parameter
     vi: tham số
     zh: 参数
@@ -391,6 +403,8 @@ terms:
     vi: phân vùng
     zh: 分区
     ja: パーティション
+    fields: [systems, databases, networks]
+    note: the split of a store or of a cluster, not the partition function of a distribution
   - en: performance
     vi: hiệu năng
     zh: 性能
@@ -419,7 +433,8 @@ terms:
     vi: tiến trình
     zh: 进程
     ja: プロセス
-    note: the operating system's unit of execution, not a general procedure
+    fields: [systems, languages, architecture]
+    note: the operating system's unit of execution, not a general procedure and not a stochastic process
   - en: processor
     vi: bộ xử lý
     zh: 处理器
@@ -444,7 +459,7 @@ terms:
     vi: hỏi đáp
     zh: 问答
     ja: 質問応答
-    field: ai-ml
+    fields: [ai-ml]
   - en: queue
     vi: hàng đợi
     zh: 队列
@@ -457,7 +472,7 @@ terms:
     vi: thanh ghi
     zh: 寄存器
     ja: レジスタ
-    field: architecture
+    fields: [architecture]
   - en: replication
     vi: sao chép
     zh: 复制
@@ -474,12 +489,12 @@ terms:
     vi: quay lui
     zh: 回滚
     ja: ロールバック
-    field: databases
+    fields: [databases]
   - en: router
     vi: bộ định tuyến
     zh: 路由器
     ja: ルーター
-    field: networks
+    fields: [networks]
   - en: runtime
     vi: thời gian chạy
     zh: 运行时
@@ -500,7 +515,7 @@ terms:
     vi: lược đồ
     zh: 模式
     ja: スキーマ
-    field: databases
+    fields: [databases]
   - en: score
     vi: điểm số
     zh: 分数
@@ -517,12 +532,12 @@ terms:
     vi: độ dài chuỗi
     zh: 序列长度
     ja: シーケンス長
-    field: ai-ml
+    fields: [ai-ml]
   - en: serializability
     vi: tính khả tuần tự
     zh: 可串行化
     ja: 直列化可能性
-    field: databases
+    fields: [databases]
   - en: server
     vi: server
     zh: 服务器
@@ -535,7 +550,8 @@ terms:
     vi: chữ ký
     zh: 签名
     ja: 署名
-    note: 'in security a cryptographic signature, in languages the shape of a function; vi: trong ngôn ngữ lập trình, "chữ ký hàm" cũng chỉ dạng của hàm; zh: also "函数签名" in programming languages, but "签名" covers both cryptographic and function senses; ja: also「シグネチャ」in programming languages, but 署名 is the standard security term and the security sense is primary'
+    fields: [security, networks, databases]
+    note: a cryptographic signature, not the shape of a function
   - en: source code
     vi: mã nguồn
     zh: 源代码
@@ -548,6 +564,7 @@ terms:
     vi: ngăn xếp
     zh: 栈
     ja: スタック
+    fields: [algorithms, languages, systems, architecture, networks]
     note: the data structure and the call stack, not a pile of layers
   - en: state
     vi: trạng thái
@@ -566,7 +583,7 @@ terms:
     vi: chuyển mạch
     zh: 开关
     ja: スイッチ
-    field: networks
+    fields: [networks]
   - en: syntax
     vi: cú pháp
     zh: 语法
@@ -575,7 +592,7 @@ terms:
     vi: tập kiểm thử
     zh: 测试集
     ja: テストセット
-    field: ai-ml
+    fields: [ai-ml]
   - en: thread
     vi: luồng
     zh: 线程
@@ -592,22 +609,23 @@ terms:
     vi: token
     zh: 标记
     ja: トークン
-    note: in languages what a lexer produces, in machine learning a unit of text
+    fields: [languages, security]
+    note: what a lexer produces, not a unit of text in a language model
   - en: training
     vi: huấn luyện
     zh: 训练
     ja: 学習
-    field: ai-ml
+    fields: [ai-ml]
   - en: training data
     vi: dữ liệu huấn luyện
     zh: 训练数据
     ja: 学習データ
-    field: ai-ml
+    fields: [ai-ml]
   - en: transaction
     vi: giao dịch
     zh: 事务
     ja: トランザクション
-    field: databases
+    fields: [databases]
   - en: type
     vi: kiểu
     zh: 类型

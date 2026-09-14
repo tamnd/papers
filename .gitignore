@@ -8,4 +8,9 @@ images/
 # Queues, caches and scratch space for the toolchain.
 work/
 
+# Set books. papers book writes LaTeX, a PDF and an EPUB, and the PDF and the
+# EPUB are the paper itself in one file. Audit rule S03 fails on either of
+# them in the index.
+books/
+
 .DS_Store
