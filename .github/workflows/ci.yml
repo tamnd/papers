@@ -58,9 +58,11 @@ jobs:
       # part of the work of a release rather than an afterthought. Left alone
       # it quietly does the opposite of its job: this pin sat at v0.1.0 while
       # the audit grew from eight rules to fifty six, so every green tick
-      # here for three releases meant eight rules passed.
+      # here for three releases meant eight rules passed. It then sat at
+      # v0.4.0 for four more, which is the second time, so the paragraph
+      # above is a warning and not a story about the past.
       - name: install papers
-        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.4.0
+        run: go install github.com/tamnd/papers-reader/cmd/papers@v0.6.3
 
       - name: papers audit --hard
         env:
