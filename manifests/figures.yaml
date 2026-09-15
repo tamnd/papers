@@ -609,6 +609,78 @@ figures:
       width: 915
       height: 459
       bytes: 51747
+    - paper: dageville-2016-snowflake
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [316.32, 566.64, 556.08, 738.48]
+      caption: 'Figure 1: Multi-Cluster, Shared Data Architecture'
+      sha256: 9b94b04d470d799ad36b329a64fa887eb690b128b3eddbc261dec1940116d0c5
+      method: vector
+      page_fraction: 0.09
+      width: 999
+      height: 716
+      bytes: 87642
+    - paper: dageville-2016-snowflake
+      figure: f02
+      number: "2"
+      page: 6
+      bbox: [316.56, 589.92, 556.08, 738.24]
+      caption: 'Figure 2: Multi-Data Center Instance of Snowflake'
+      sha256: e65cbe660f718d3222118790643f6a08151975d6defde5c95703b1c348bbf5d4
+      method: vector
+      page_fraction: 0.07
+      width: 998
+      height: 618
+      bytes: 81980
+    - paper: dageville-2016-snowflake
+      figure: f03
+      number: "3"
+      page: 7
+      bbox: [53.76, 563.04, 292.8, 738]
+      caption: 'Figure 3: Online Upgrade'
+      sha256: 3354b1a5461e2759620d2d66420d96f132f8d32979f2ea0bbe78a3c855a3f1cd
+      method: vector
+      page_fraction: 0.09
+      width: 996
+      height: 729
+      bytes: 89342
+    - paper: dageville-2016-snowflake
+      figure: f04
+      number: "4"
+      page: 8
+      bbox: [84, 613.92, 545.76, 734.16]
+      caption: 'Figure 4: TPC-H SF100 and SF1000 Performance: Relational vs. Schema-less Row Format'
+      sha256: fe58328b0f53acbf32de255f9f023c4fe9a456dd4e9684a130fccf9f3cadffff
+      method: vector
+      page_fraction: 0.11
+      width: 1924
+      height: 501
+      bytes: 38832
+    - paper: dageville-2016-snowflake
+      figure: f05
+      number: "5"
+      page: 9
+      bbox: [316.8, 621.6, 556.08, 738]
+      caption: 'Figure 5: Encryption Key Hierarchy'
+      sha256: 79f4d76455a48cd58742637c3d6a1add013d68bdc8079e0126021b07197ea182
+      method: vector
+      page_fraction: 0.06
+      width: 997
+      height: 485
+      bytes: 59179
+    - paper: dageville-2016-snowflake
+      figure: f06
+      number: "6"
+      page: 10
+      bbox: [53.76, 557.52, 292.8, 738.48]
+      caption: 'Figure 6: Table Key Life Cycle'
+      sha256: ae357ffc23c8c5782ee1920d2d6740ff6fc34ad840920e475babf957353e196b
+      method: vector
+      page_fraction: 0.09
+      width: 996
+      height: 754
+      bytes: 82306
     - paper: dean-2004-mapreduce
       figure: f01
       number: "1"
