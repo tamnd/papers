@@ -1262,6 +1262,162 @@ figures:
       width: 1489
       height: 1094
       bytes: 38021
+    - paper: stoica-2001-chord
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [65.52, 621.36, 281.28, 738.48]
+      caption: 'Figure 1: Structure of an example Chord-based distributed storage system.'
+      sha256: 732dfc32b2af2f34da4fade6ec38ee88a9c2a595287683ca89cd35390b6fc196
+      method: vector
+      page_fraction: 0.05
+      width: 899
+      height: 488
+      bytes: 27410
+    - paper: stoica-2001-chord
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [270.72, 640.08, 509.04, 738.48]
+      caption: 'Figure 2: An identifier circle consisting of the three nodes 0, 1, and 3. In this example, key 1 is located at node 1, key 2 at node 3, and key 6 at node 0.'
+      sha256: 23c455dcec306b8ffb9ae455b0a05b56fdbc8892a96c5a2501fbf1aa0b3d8823
+      method: vector
+      page_fraction: 0.05
+      width: 993
+      height: 410
+      bytes: 25989
+    - paper: stoica-2001-chord
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [148.32, 617.52, 461.52, 738.48]
+      caption: 'Figure 3: (a) The finger intervals associated with node 1. (b) Finger tables and key locations for a net with nodes 0, 1, and 3, and keys 1, 2, and 6.'
+      sha256: 57ec0c74b23385112d51bd7302b5030c4991824fc0b31cac48ef98c5dbc17a79
+      method: vector
+      page_fraction: 0.08
+      width: 1305
+      height: 504
+      bytes: 90670
+    - paper: stoica-2001-chord
+      figure: f04
+      number: "4"
+      page: 5
+      bbox: [315.36, 419.04, 455.04, 523.68]
+      caption: 'Figure 4: The pseudocode to find the successor node of an identifier . Remote procedure calls and variable lookups are preceded by the remote node.'
+      sha256: 7771436609c54dfd648259c9964dff344aef7f53c2e5ab1927d066fc6052cedc
+      method: vector
+      page_fraction: 0.03
+      width: 582
+      height: 436
+      bytes: 49649
+    - paper: stoica-2001-chord
+      figure: f05
+      number: "5"
+      page: 6
+      bbox: [150.96, 617.52, 461.04, 738.48]
+      caption: 'Figure 5: (a) Finger tables and key locations after node 6 joins. (b) Finger tables and key locations after node 3 leaves. Changed entries are shown'
+      sha256: 244ad09c96664da2b28a5b5f8c2a7c0a4b08b3aebef9a5194fa8f47a35099bc6
+      method: vector
+      page_fraction: 0.08
+      width: 1292
+      height: 504
+      bytes: 92243
+    - paper: stoica-2001-chord
+      figure: f06
+      number: "6"
+      page: 6
+      bbox: [424.08, 165.36, 487.68, 347.04]
+      caption: 'Figure 6: Pseudocode for the node join operation.'
+      sha256: 884b13836ea21363f2c2021642fd24e5ab0ad9d7bb888a775f441efaca2be856
+      method: vector
+      page_fraction: 0.02
+      width: 265
+      height: 757
+      bytes: 26900
+    - paper: stoica-2001-chord
+      figure: f07
+      number: "7"
+      page: 7
+      bbox: [315.36, 549.84, 489.12, 738.96]
+      caption: 'Figure 7: Pseudocode for stabilization.'
+      sha256: ef53244cfcfc047df7a87cb34929cf805b1df7ccfe13cd28a7fffa7b6e01b5f8
+      method: vector
+      page_fraction: 0.07
+      width: 724
+      height: 788
+      bytes: 96904
+    - paper: stoica-2001-chord
+      figure: f08
+      number: "9"
+      page: 8
+      bbox: [337.44, 597.12, 530.88, 738.72]
+      caption: 'Figure 9: The 1st and the 99th percentiles of the number of keys per node as a function of virtual nodes mapped to a real node. The network has real nodes and stores keys.'
+      sha256: 321ab83a7a1416c723b1c25345769b138d09e46797766283592829d420cb086b
+      method: vector
+      page_fraction: 0.06
+      width: 806
+      height: 590
+      bytes: 26390
+    - paper: stoica-2001-chord
+      figure: f09
+      number: "8"
+      page: 9
+      bbox: [94.56, 581.52, 514.32, 738.72]
+      caption: 'Figure 8: (a) The mean and 1st and 99th percentiles of the number of keys stored per node in a node network. (b) The probability'
+      sha256: 130ba220d8295a50f7c0b0b29f65debb5f4879569913bf94fcfb612e28fb6905
+      method: vector
+      page_fraction: 0.14
+      width: 1749
+      height: 655
+      bytes: 59495
+    - paper: stoica-2001-chord
+      figure: f10
+      number: "11"
+      page: 9
+      bbox: [336.96, 389.76, 531.36, 529.44]
+      caption: 'Figure 11: The fraction of lookups that fail as a function of the fraction of nodes that fail.'
+      sha256: cfa18c44de57e2330a44dfb8812afcd75ff9cf73023d2b9fc05313f462d56edb
+      method: vector
+      page_fraction: 0.06
+      width: 810
+      height: 582
+      bytes: 27591
+    - paper: stoica-2001-chord
+      figure: f11
+      number: "10"
+      page: 10
+      bbox: [94.56, 581.52, 512.88, 738.72]
+      caption: 'Figure 10: (a) The path length as a function of network size. (b) The PDF of the path length in the case of a node network.'
+      sha256: f27a19ce64e306d81af6a5c55f00edccf8b553b3b083054cbcbb7dd6d1bfc74d
+      method: vector
+      page_fraction: 0.14
+      width: 1743
+      height: 655
+      bytes: 45130
+    - paper: stoica-2001-chord
+      figure: f12
+      number: "12"
+      page: 10
+      bbox: [74.16, 400.32, 268.32, 540]
+      caption: 'Figure 12: The fraction of lookups that fail as a function of the rate (over time) at which nodes fail and join. Only failures caused by Chord state inconsistency are included, not failures due to lost keys.'
+      sha256: 35a605a121d31d5f40587a055e729600b59120cdc5a1b72b321615090567b37e
+      method: vector
+      page_fraction: 0.06
+      width: 809
+      height: 582
+      bytes: 31299
+    - paper: stoica-2001-chord
+      figure: f13
+      number: "13"
+      page: 11
+      bbox: [74.16, 600.96, 275.04, 736.8]
+      caption: 'Figure 13: Lookup latency on the Internet prototype, as a function of the total number of nodes. Each of the ten physical sites runs multiple independent copies of the Chord node software.'
+      sha256: 2d0460102a5569b79fa834555d0f7bffa52b5f77a28a448dd42d2deeb1bd1b99
+      method: vector
+      page_fraction: 0.06
+      width: 837
+      height: 566
+      bytes: 26983
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
