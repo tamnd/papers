@@ -588,10 +588,9 @@ entries:
         - Yuan Cao
         - Qin Gao
         - Klaus Macherey
-        - et al. 2016
       title: 'Google’s neural machine translation system: Bridging the gap between human and machine translation'
       venue: '*arXiv preprint arXiv:1609.08144.*'
-      year: 1609
+      year: 2016
       arxiv: "1609.08144"
       resolves_to: ""
     - key: "53"

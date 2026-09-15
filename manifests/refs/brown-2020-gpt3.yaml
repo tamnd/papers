@@ -1,0 +1,1718 @@
+paper: brown-2020-gpt3
+style: bracket
+entries:
+    - key: ADG+16
+      raw: Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew W Hoffman, David Pfau, Tom Schaul, Brendan Shillingford, and Nando De Freitas. Learning to learn by gradient descent by gradient descent. In Advances in neural information processing systems, pages 3981–3989, 2016.
+      authors:
+        - Marcin Andrychowicz
+        - Misha Denil
+        - Sergio Gomez
+        - Matthew W Hoffman
+        - David Pfau
+        - Tom Schaul
+        - Brendan Shillingford
+        - Nando De Freitas
+      title: Learning to learn by gradient descent by gradient descent
+      venue: In Advances in neural information processing systems, pages 3981–3989
+      year: 2016
+      pages: 3981-3989
+      resolves_to: ""
+    - key: AI19
+      raw: WeChat AI. Tr-mt (ensemble), December 2019.
+      authors:
+        - WeChat AI
+      title: Tr-mt (ensemble), December 2019
+      year: 2019
+      resolves_to: ""
+    - key: AJF19
+      raw: 'Roee Aharoni, Melvin Johnson, and Orhan Firat. Massively multilingual neural machine translation. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2019.'
+      authors:
+        - Roee Aharoni
+        - Melvin Johnson
+        - Orhan Firat
+      title: Massively multilingual neural machine translation
+      year: 2019
+      resolves_to: ""
+    - key: BBDIW20
+      raw: 'Su Lin Blodgett, Solon Barocas, Hal Daumé III, and Hanna Wallach. Language (technology) is power: A critical survey of “bias” in nlp. arXiv preprint arXiv:2005.14050, 2020.'
+      authors:
+        - Su Lin Blodgett
+        - Solon Barocas
+        - Hal Daumé III
+        - 'Hanna Wallach. Language (technology) is power: A critical survey of'
+      title: bias
+      venue: in nlp. arXiv preprint arXiv:2005.14050
+      year: 2020
+      arxiv: "2005.14050"
+      resolves_to: ""
+    - key: BCFL13
+      raw: Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. Semantic parsing on freebase from question-answer pairs. In Proceedings of the 2013 conference on empirical methods in natural language processing, pages 1533–1544, 2013.
+      authors:
+        - Jonathan Berant
+        - Andrew Chou
+        - Roy Frostig
+        - Percy Liang
+      title: Semantic parsing on freebase from question-answer pairs
+      venue: In Proceedings of the 2013 conference on empirical methods in natural language processing, pages 1533–1544
+      year: 2013
+      pages: 1533-1544
+      resolves_to: ""
+    - key: BDD+09
+      raw: Luisa Bentivogli, Ido Dagan, Hoa Trang Dang, Danilo Giampiccolo, and Bernardo Magnini. The fifth PASCAL recognizing textual entailment challenge. 2009.
+      authors:
+        - Luisa Bentivogli
+        - Ido Dagan
+        - Hoa Trang Dang
+        - Danilo Giampiccolo
+        - Bernardo Magnini
+      title: The fifth PASCAL recognizing textual entailment challenge
+      year: 2009
+      resolves_to: ""
+    - key: BES10
+      raw: 'Stefano Baccianella, Andrea Esuli, and Fabrizio Sebastiani. Sentiwordnet 3.0: an enhanced lexical resource for sentiment analysis and opinion mining. In Lrec, volume 10, pages 2200–2204, 2010.'
+      authors:
+        - Stefano Baccianella
+        - Andrea Esuli
+        - Fabrizio Sebastiani
+      title: 'Sentiwordnet 3.0: an enhanced lexical resource for sentiment analysis and opinion mining'
+      venue: In Lrec, volume 10, pages 2200–2204
+      year: 2010
+      pages: 2200-2204
+      resolves_to: ""
+    - key: BHDD+06
+      raw: Roy Bar Haim, Ido Dagan, Bill Dolan, Lisa Ferro, Danilo Giampiccolo, Bernardo Magnini, and Idan Szpektor. The second PASCAL recognising textual entailment challenge. 2006.
+      authors:
+        - Roy Bar Haim
+        - Ido Dagan
+        - Bill Dolan
+        - Lisa Ferro
+        - Danilo Giampiccolo
+        - Bernardo Magnini
+        - Idan Szpektor
+      title: The second PASCAL recognising textual entailment challenge
+      year: 2006
+      resolves_to: ""
+    - key: BHT+20
+      raw: Yonatan Bisk, Ari Holtzman, Jesse Thomason, Jacob Andreas, Yoshua Bengio, Joyce Chai, Mirella Lapata, Angeliki Lazaridou, Jonathan May, Aleksandr Nisnevich, et al. Experience grounds language. arXiv preprint arXiv:2004.10151, 2020.
+      authors:
+        - Yonatan Bisk
+        - Ari Holtzman
+        - Jesse Thomason
+        - Jacob Andreas
+        - Yoshua Bengio
+        - Joyce Chai
+        - Mirella Lapata
+        - Angeliki Lazaridou
+        - Jonathan May
+        - Aleksandr Nisnevich
+      title: Experience grounds language
+      venue: arXiv preprint arXiv:2004.10151
+      year: 2020
+      arxiv: "2004.10151"
+      resolves_to: ""
+    - key: BLC13
+      raw: Yoshua Bengio, Nicholas Léonard, and Aaron C. Courville. Estimating or propagating gradients through stochastic neurons for conditional computation. Arxiv, 2013.
+      authors:
+        - Yoshua Bengio
+        - Nicholas Léonard
+        - Aaron C. Courville
+      title: Estimating or propagating gradients through stochastic neurons for conditional computation
+      venue: Arxiv
+      year: 2013
+      resolves_to: ""
+    - key: BZB+19
+      raw: 'Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. Piqa: Reasoning about physical commonsense in natural language. arXiv preprint arXiv:1911.11641, 2019.'
+      authors:
+        - Yonatan Bisk
+        - Rowan Zellers
+        - Ronan Le Bras
+        - Jianfeng Gao
+        - Yejin Choi
+      title: 'Piqa: Reasoning about physical commonsense in natural language'
+      venue: arXiv preprint arXiv:1911.11641
+      year: 2019
+      arxiv: "1911.11641"
+      resolves_to: ""
+    - key: Car97
+      raw: Rich Caruana. Multitask learning. Machine learning, 28(1), 1997.
+      authors:
+        - Rich Caruana
+      title: Multitask learning
+      venue: Machine learning, 28(1)
+      year: 1997
+      resolves_to: ""
+    - key: CB78
+      raw: Susan Carey and Elsa Bartlett. Acquiring a single new word. Proceedings of the Stanford Child Language Conference, 1978.
+      authors:
+        - Susan Carey
+        - Elsa Bartlett
+      title: Acquiring a single new word
+      venue: Proceedings of the Stanford Child Language Conference
+      year: 1978
+      resolves_to: ""
+    - key: CCE+18
+      raw: Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning challenge. ArXiv, abs/1803.05457, 2018.
+      authors:
+        - Peter Clark
+        - Isaac Cowhey
+        - Oren Etzioni
+        - Tushar Khot
+        - Ashish Sabharwal
+        - Carissa Schoenick
+        - Oyvind Tafjord
+      title: Think you have solved question answering? try arc, the ai2 reasoning challenge
+      venue: ArXiv, abs/1803.05457
+      year: 2018
+      arxiv: "1803.05457"
+      resolves_to: ""
+    - key: CGRS19
+      raw: Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers, 2019.
+      authors:
+        - Rewon Child
+        - Scott Gray
+        - Alec Radford
+        - Ilya Sutskever
+      title: Generating long sequences with sparse transformers, 2019
+      year: 2019
+      resolves_to: ""
+    - key: CHI+18
+      raw: 'Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy Liang, and Luke Zettlemoyer. Quac : Question answering in context. Arxiv, 2018.'
+      authors:
+        - Eunsol Choi
+        - He He
+        - Mohit Iyyer
+        - Mark Yatskar
+        - Wen-tau Yih
+        - Yejin Choi
+        - Percy Liang
+        - Luke Zettlemoyer
+      title: 'Quac : Question answering in context'
+      venue: Arxiv
+      year: 2018
+      resolves_to: ""
+    - key: CLC+19
+      raw: 'Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. BoolQ: Exploring the surprising difficulty of natural yes/no questions. arXiv preprint arXiv:1905.10044, 2019.'
+      authors:
+        - Christopher Clark
+        - Kenton Lee
+        - Ming-Wei Chang
+        - Tom Kwiatkowski
+        - Michael Collins
+        - Kristina Toutanova
+      title: 'BoolQ: Exploring the surprising difficulty of natural yes/no questions'
+      venue: arXiv preprint arXiv:1905.10044
+      year: 2019
+      arxiv: "1905.10044"
+      resolves_to: ""
+    - key: CLY+19
+      raw: 'Yen-Chun Chen, Linjie Li, Licheng Yu, Ahmed El Kholy, Faisal Ahmed, Zhe Gan, Yu Cheng, and Jingjing Liu. Uniter: Learning universal image-text representations. arXiv preprint arXiv:1909.11740, 2019.'
+      authors:
+        - Yen-Chun Chen
+        - Linjie Li
+        - Licheng Yu
+        - Ahmed El Kholy
+        - Faisal Ahmed
+        - Zhe Gan
+        - Yu Cheng
+        - Jingjing Liu
+      title: 'Uniter: Learning universal image-text representations'
+      venue: arXiv preprint arXiv:1909.11740
+      year: 2019
+      arxiv: "1909.11740"
+      resolves_to: ""
+    - key: Cra17
+      raw: Kate Crawford. The trouble with bias. NIPS 2017 Keynote, 2017.
+      authors:
+        - Kate Crawford
+      title: The trouble with bias
+      venue: NIPS 2017 Keynote
+      year: 2017
+      resolves_to: ""
+    - key: DCLT18
+      raw: 'Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018.'
+      authors:
+        - Jacob Devlin
+        - Ming-Wei Chang
+        - Kenton Lee
+        - Kristina Toutanova
+      title: 'BERT: Pre-training of deep bidirectional transformers for language understanding'
+      venue: arXiv preprint arXiv:1810.04805
+      year: 2018
+      arxiv: "1810.04805"
+      resolves_to: devlin-2018-bert
+    - key: DGM06
+      raw: Ido Dagan, Oren Glickman, and Bernardo Magnini. The PASCAL recognising textual entailment challenge. In Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising textual entailment, pages 177–190. Springer, 2006.
+      authors:
+        - Ido Dagan
+        - Oren Glickman
+        - Bernardo Magnini
+      title: The PASCAL recognising textual entailment challenge
+      venue: In Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising textual entailment, pages 177–190. Springer
+      year: 2006
+      pages: 177-190
+      resolves_to: ""
+    - key: DGV+18
+      raw: Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and Lukasz Kaiser. Universal transformers. Arxiv, 2018.
+      authors:
+        - Mostafa Dehghani
+        - Stephan Gouws
+        - Oriol Vinyals
+        - Jakob Uszkoreit
+        - Lukasz Kaiser
+      title: Universal transformers
+      venue: Arxiv
+      year: 2018
+      resolves_to: ""
+    - key: DHKH14
+      raw: Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh’s phrase-based machine translation systems for wmt-14. In Proceedings of the Ninth Workshop on Statistical Machine Translation, pages 97–104, 2014.
+      authors:
+        - Nadir Durrani
+        - Barry Haddow
+        - Philipp Koehn
+        - Kenneth Heafield
+      title: Edinburgh’s phrase-based machine translation systems for wmt-14
+      venue: In Proceedings of the Ninth Workshop on Statistical Machine Translation, pages 97–104
+      year: 2014
+      pages: 97-104
+      resolves_to: ""
+    - key: DL15
+      raw: Andrew M. Dai and Quoc V. Le. Semi-supervised sequence learning. In Advances in neural information processing systems, 2015.
+      authors:
+        - Andrew M. Dai
+        - Quoc V. Le
+      title: Semi-supervised sequence learning
+      venue: In Advances in neural information processing systems
+      year: 2015
+      resolves_to: ""
+    - key: DMST19
+      raw: 'Marie-Catherine De Marneffe, Mandy Simons, and Judith Tonhauser. The CommitmentBank: Investigating projection in naturally occurring discourse. 2019. To appear in proceedings of Sinn und Bedeutung 23. Data can be found at https://github.com/mcdm/CommitmentBank/.'
+      authors:
+        - Marie-Catherine De Marneffe
+        - Mandy Simons
+        - Judith Tonhauser
+      title: 'The CommitmentBank: Investigating projection in naturally occurring discourse'
+      venue: 2019. To appear in proceedings of Sinn und Bedeutung 23. Data can be found at
+      year: 2019
+      url: https://github.com/mcdm/CommitmentBank/
+      resolves_to: ""
+    - key: DSC+16
+      raw: 'Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, and Pieter Abbeel. $Rl^2$: Fast reinforcement learning via slow reinforcement learning. ArXiv, abs/1611.02779, 2016.'
+      authors:
+        - Yan Duan
+        - John Schulman
+        - Xi Chen
+        - Peter L. Bartlett
+        - Ilya Sutskever
+        - Pieter Abbeel
+      title: '$Rl^2$: Fast reinforcement learning via slow reinforcement learning'
+      venue: ArXiv, abs/1611.02779
+      year: 2016
+      arxiv: "1611.02779"
+      resolves_to: ""
+    - key: DWD+19
+      raw: 'Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and Matt Gardner. Drop: A reading comprehension benchmark requiring discrete reasoning over paragraphs. arXiv preprint arXiv:1903.00161, 2019.'
+      authors:
+        - Dheeru Dua
+        - Yizhong Wang
+        - Pradeep Dasigi
+        - Gabriel Stanovsky
+        - Sameer Singh
+        - Matt Gardner
+      title: 'Drop: A reading comprehension benchmark requiring discrete reasoning over paragraphs'
+      venue: arXiv preprint arXiv:1903.00161
+      year: 2019
+      arxiv: "1903.00161"
+      resolves_to: ""
+    - key: DYY+19
+      raw: 'Zihang Dai, Zhilin Yang, Yiming Yang, Jaime G. Carbonell, Quoc V. Le, and Ruslan Salakhutdinov. Transformer-xl: Attentive language models beyond a fixed-length context. Arxiv, 2019.'
+      authors:
+        - Zihang Dai
+        - Zhilin Yang
+        - Yiming Yang
+        - Jaime G. Carbonell
+        - Quoc V. Le
+        - Ruslan Salakhutdinov
+      title: 'Transformer-xl: Attentive language models beyond a fixed-length context'
+      venue: Arxiv
+      year: 2019
+      resolves_to: ""
+    - key: EOAG18
+      raw: Sergey Edunov, Myle Ott, Michael Auli, and David Grangier. Understanding back-translation at scale. arXiv preprint arXiv:1808.09381, 2018.
+      authors:
+        - Sergey Edunov
+        - Myle Ott
+        - Michael Auli
+        - David Grangier
+      title: Understanding back-translation at scale
+      venue: arXiv preprint arXiv:1808.09381
+      year: 2018
+      arxiv: "1808.09381"
+      resolves_to: ""
+    - key: FAL17
+      raw: Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-agnostic meta-learning for fast adaptation of deep networks. ArXiv, abs/1703.03400, 2017.
+      authors:
+        - Chelsea Finn
+        - Pieter Abbeel
+        - Sergey Levine
+      title: Model-agnostic meta-learning for fast adaptation of deep networks
+      venue: ArXiv, abs/1703.03400
+      year: 2017
+      arxiv: "1703.03400"
+      resolves_to: ""
+    - key: Fyo00
+      raw: Yaroslav Fyodorov. A natural logic inference system, 2000.
+      authors:
+        - Yaroslav Fyodorov
+      title: A natural logic inference system, 2000
+      year: 2000
+      resolves_to: ""
+    - key: GG19
+      raw: 'Hila Gonen and Yoav Goldberg. Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them. arXiv preprint arXiv:1903.03862, 2019.'
+      authors:
+        - Hila Gonen
+        - Yoav Goldberg
+      title: 'Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them'
+      venue: arXiv preprint arXiv:1903.03862
+      year: 2019
+      arxiv: "1903.03862"
+      resolves_to: ""
+    - key: GLT+20
+      raw: 'Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909, 2020.'
+      authors:
+        - Kelvin Guu
+        - Kenton Lee
+        - Zora Tung
+        - Panupong Pasupat
+        - Ming-Wei Chang
+      title: 'Realm: Retrieval-augmented language model pre-training'
+      venue: arXiv preprint arXiv:2002.08909
+      year: 2020
+      arxiv: "2002.08909"
+      resolves_to: ""
+    - key: GMD07
+      raw: Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan. The third PASCAL recognizing textual entailment challenge. In Proceedings of the ACL-PASCAL workshop on textual entailment and paraphrasing, pages 1–9. Association for Computational Linguistics, 2007.
+      authors:
+        - Danilo Giampiccolo
+        - Bernardo Magnini
+        - Ido Dagan
+        - Bill Dolan
+      title: The third PASCAL recognizing textual entailment challenge
+      venue: In Proceedings of the ACL-PASCAL workshop on textual entailment and paraphrasing, pages 1–9. Association for Computational Linguistics
+      year: 2007
+      pages: 1-9
+      resolves_to: ""
+    - key: Gra16
+      raw: Alex Graves. Adaptive computation time for recurrent neural networks. Arxiv, 2016.
+      authors:
+        - Alex Graves
+      title: Adaptive computation time for recurrent neural networks
+      venue: Arxiv
+      year: 2016
+      resolves_to: ""
+    - key: GSL+18
+      raw: Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R Bowman, and Noah A Smith. Annotation artifacts in natural language inference data. arXiv preprint arXiv:1803.02324, 2018.
+      authors:
+        - Suchin Gururangan
+        - Swabha Swayamdipta
+        - Omer Levy
+        - Roy Schwartz
+        - Samuel R Bowman
+        - Noah A Smith
+      title: Annotation artifacts in natural language inference data
+      venue: arXiv preprint arXiv:1803.02324
+      year: 2018
+      arxiv: "1803.02324"
+      resolves_to: ""
+    - key: GSR19
+      raw: 'Sebastian Gehrmann, Hendrik Strobelt, and Alexander M. Rush. Gltr: Statistical detection and visualization of generated text. arXiv preprint arXiv:1906.04403, 2019.'
+      authors:
+        - Sebastian Gehrmann
+        - Hendrik Strobelt
+        - Alexander M. Rush
+      title: 'Gltr: Statistical detection and visualization of generated text'
+      venue: arXiv preprint arXiv:1906.04403
+      year: 2019
+      arxiv: "1906.04403"
+      resolves_to: ""
+    - key: GWC+18
+      raw: Jiatao Gu, Yong Wang, Yun Chen, Kyunghyun Cho, and Victor OK Li. Meta-learning for low-resource neural machine translation. arXiv preprint arXiv:1808.08437, 2018.
+      authors:
+        - Jiatao Gu
+        - Yong Wang
+        - Yun Chen
+        - Kyunghyun Cho
+        - Victor OK Li
+      title: Meta-learning for low-resource neural machine translation
+      venue: arXiv preprint arXiv:1808.08437
+      year: 2018
+      arxiv: "1808.08437"
+      resolves_to: ""
+    - key: HB20
+      raw: Daniel Hernandez and Tom Brown. Ai and efficiency, May 2020.
+      authors:
+        - Daniel Hernandez
+        - Tom Brown
+      title: Ai and efficiency, May 2020
+      year: 2020
+      resolves_to: ""
+    - key: HBFC19
+      raw: Ari Holtzman, Jan Buys, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. CoRR, abs/1904.09751, 2019.
+      authors:
+        - Ari Holtzman
+        - Jan Buys
+        - Maxwell Forbes
+        - Yejin Choi
+      title: The curious case of neural text degeneration
+      venue: CoRR, abs/1904.09751
+      year: 2019
+      arxiv: "1904.09751"
+      resolves_to: ""
+    - key: HLW+20
+      raw: Dan Hendrycks, Xiaoyuan Liu, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, and Dawn Song. Pretrained transformers improve out of distribution robustness. arXiv preprint arXiv:2004.06100, 2020.
+      authors:
+        - Dan Hendrycks
+        - Xiaoyuan Liu
+        - Eric Wallace
+        - Adam Dziedzic
+        - Rishabh Krishnan
+        - Dawn Song
+      title: Pretrained transformers improve out of distribution robustness
+      venue: arXiv preprint arXiv:2004.06100
+      year: 2020
+      arxiv: "2004.06100"
+      resolves_to: ""
+    - key: HNA+17
+      raw: Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically. arXiv preprint arXiv:1712.00409, 2017.
+      authors:
+        - Joel Hestness
+        - Sharan Narang
+        - Newsha Ardalani
+        - Gregory Diamos
+        - Heewoo Jun
+        - Hassan Kianinejad
+        - Md
+      title: Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou
+      venue: Deep learning scaling is predictable, empirically. arXiv preprint arXiv:1712.00409
+      year: 2017
+      arxiv: "1712.00409"
+      resolves_to: ""
+    - key: HR18
+      raw: Jeremy Howard and Sebastian Ruder. Universal language model fine-tuning for text classification. arXiv preprint arXiv:1801.06146, 2018.
+      authors:
+        - Jeremy Howard
+        - Sebastian Ruder
+      title: Universal language model fine-tuning for text classification
+      venue: arXiv preprint arXiv:1801.06146
+      year: 2018
+      arxiv: "1801.06146"
+      resolves_to: ""
+    - key: HVD15
+      raw: Geoffrey Hinton, Oriol Vinyals, and Jeff Dean. Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2015.
+      authors:
+        - Geoffrey Hinton
+        - Oriol Vinyals
+        - Jeff Dean
+      title: Distilling the knowledge in a neural network
+      venue: arXiv preprint arXiv:1503.02531
+      year: 2015
+      arxiv: "1503.02531"
+      resolves_to: ""
+    - key: HYC01
+      raw: Sepp Hochreiter, A Steven Younger, and Peter R Conwell. Learning to Learn Using Gradient Descent. In International Conference on Artificial Neural Networks, pages 87–94. Springer, 2001.
+      authors:
+        - Sepp Hochreiter
+        - A Steven Younger
+        - Peter R Conwell
+      title: Learning to Learn Using Gradient Descent
+      venue: In International Conference on Artificial Neural Networks, pages 87–94. Springer
+      year: 2001
+      pages: 87-94
+      resolves_to: ""
+    - key: HZJ+19
+      raw: Po-Sen Huang, Huan Zhang, Ray Jiang, Robert Stanforth, Johannes Welbl, Jack Rae, Vishal Maini, Dani Yogatama, and Pushmeet Kohli. Reducing sentiment bias in language models via counterfactual evaluation. arXiv preprint arXiv:1911.03064, 2019.
+      authors:
+        - Po-Sen Huang
+        - Huan Zhang
+        - Ray Jiang
+        - Robert Stanforth
+        - Johannes Welbl
+        - Jack Rae
+        - Vishal Maini
+        - Dani Yogatama
+        - Pushmeet Kohli
+      title: Reducing sentiment bias in language models via counterfactual evaluation
+      venue: arXiv preprint arXiv:1911.03064
+      year: 2019
+      arxiv: "1911.03064"
+      resolves_to: ""
+    - key: IBGC+14
+      raw: Mohit Iyyer, Jordan Boyd-Graber, Leonardo Claudino, Richard Socher, and Hal Daumé III. A neural network for factoid question answering over paragraphs. In Empirical Methods in Natural Language Processing, 2014.
+      authors:
+        - Mohit Iyyer
+        - Jordan Boyd-Graber
+        - Leonardo Claudino
+        - Richard Socher
+        - Hal Daumé III
+      title: A neural network for factoid question answering over paragraphs
+      venue: In Empirical Methods in Natural Language Processing
+      year: 2014
+      resolves_to: ""
+    - key: IDCBE19
+      raw: Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch, and Douglas Eck. Automatic detection of generated text is easiest when humans are fooled. arXiv preprint arXiv:1911.00650, 2019.
+      authors:
+        - Daphne Ippolito
+        - Daniel Duckworth
+        - Chris Callison-Burch
+        - Douglas Eck
+      title: Automatic detection of generated text is easiest when humans are fooled
+      venue: arXiv preprint arXiv:1911.00650
+      year: 2019
+      arxiv: "1911.00650"
+      resolves_to: ""
+    - key: JCWZ17
+      raw: 'Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension. arXiv preprint arXiv:1705.03551, 2017.'
+      authors:
+        - Mandar Joshi
+        - Eunsol Choi
+        - Daniel S. Weld
+        - Luke Zettlemoyer
+      title: 'TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension'
+      venue: arXiv preprint arXiv:1705.03551
+      year: 2017
+      arxiv: "1705.03551"
+      resolves_to: ""
+    - key: JN20
+      raw: Zheng Junyuan and Gamma Lab NYC. Numeric transformer - albert, March 2020.
+      authors:
+        - Zheng Junyuan
+        - Gamma Lab NYC
+      title: Numeric transformer - albert, March 2020
+      year: 2020
+      resolves_to: ""
+    - key: JVS+16
+      raw: Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.
+      authors:
+        - Rafal Jozefowicz
+        - Oriol Vinyals
+        - Mike Schuster
+        - Noam Shazeer
+        - Yonghui Wu
+      title: Exploring the limits of language modeling
+      venue: arXiv preprint arXiv:1602.02410
+      year: 2016
+      arxiv: "1602.02410"
+      resolves_to: ""
+    - key: JYS+19
+      raw: 'Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, and Qun Liu. TinyBERT: Distilling BERT for natural language understanding. arXiv preprint arXiv:1909.10351, 2019.'
+      authors:
+        - Xiaoqi Jiao
+        - Yichun Yin
+        - Lifeng Shang
+        - Xin Jiang
+        - Xiao Chen
+        - Linlin Li
+        - Fang Wang
+        - Qun Liu
+      title: 'TinyBERT: Distilling BERT for natural language understanding'
+      venue: arXiv preprint arXiv:1909.10351
+      year: 2019
+      arxiv: "1909.10351"
+      resolves_to: ""
+    - key: JZC+19
+      raw: Ying Ju, Fubang Zhao, Shijie Chen, Bowen Zheng, Xuefeng Yang, and Yunfeng Liu. Technical report on conversational question answering. arXiv preprint arXiv:1909.10772, 2019.
+      authors:
+        - Ying Ju
+        - Fubang Zhao
+        - Shijie Chen
+        - Bowen Zheng
+        - Xuefeng Yang
+        - Yunfeng Liu
+      title: Technical report on conversational question answering
+      venue: arXiv preprint arXiv:1909.10772
+      year: 2019
+      arxiv: "1909.10772"
+      resolves_to: ""
+    - key: KCR+18
+      raw: 'Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay, and Dan Roth. Looking beyond the surface: A challenge set for reading comprehension over multiple sentences. In Proceedings of North American Chapter of the Association for Computational Linguistics (NAACL), 2018.'
+      authors:
+        - Daniel Khashabi
+        - Snigdha Chaturvedi
+        - Michael Roth
+        - Shyam Upadhyay
+        - Dan Roth
+      title: 'Looking beyond the surface: A challenge set for reading comprehension over multiple sentences'
+      venue: In Proceedings of North American Chapter of the Association for Computational Linguistics (NAACL)
+      year: 2018
+      resolves_to: ""
+    - key: KKS+20
+      raw: 'Daniel Khashabi, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700, 2020.'
+      authors:
+        - Daniel Khashabi
+        - Tushar Khot
+        - Ashish Sabharwal
+        - Oyvind Tafjord
+        - Peter Clark
+        - Hannaneh Hajishirzi
+      title: 'Unifiedqa: Crossing format boundaries with a single qa system'
+      venue: arXiv preprint arXiv:2005.00700
+      year: 2020
+      arxiv: "2005.00700"
+      resolves_to: ""
+    - key: KMB20
+      raw: 'Sarah E. Kreps, Miles McCain, and Miles Brundage. All the news that’s fit to fabricate: Ai-generated text as a tool of media misinformation, 2020.'
+      authors:
+        - Sarah E. Kreps
+        - Miles McCain
+        - Miles Brundage
+      title: 'All the news that’s fit to fabricate: Ai-generated text as a tool of media misinformation, 2020'
+      year: 2020
+      resolves_to: ""
+    - key: KMH+20
+      raw: Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020.
+      authors:
+        - Jared Kaplan
+        - Sam McCandlish
+        - Tom Henighan
+        - Tom B. Brown
+        - Benjamin Chess
+        - Rewon Child
+        - Scott Gray
+        - Alec Radford
+        - Jeffrey Wu
+        - Dario Amodei
+      title: Scaling laws for neural language models, 2020
+      year: 2020
+      resolves_to: ""
+    - key: KPR+19
+      raw: 'Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey, Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. Natural questions: a benchmark for question answering research. Transactions of the Association of Computational Linguistics, 2019.'
+      title: Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey, Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov
+      venue: 'Natural questions: a benchmark for question answering research. Transactions of the Association of Computational Linguistics'
+      year: 2019
+      resolves_to: ""
+    - key: KR16
+      raw: Yoon Kim and Alexander M. Rush. Sequence-level knowledge distillation. Arxiv, 2016.
+      authors:
+        - Yoon Kim
+        - Alexander M. Rush
+      title: Sequence-level knowledge distillation
+      venue: Arxiv
+      year: 2016
+      resolves_to: ""
+    - key: LB02
+      raw: 'Edward Loper and Steven Bird. Nltk: The natural language toolkit, 2002.'
+      authors:
+        - Edward Loper
+        - Steven Bird
+      title: 'Nltk: The natural language toolkit, 2002'
+      year: 2002
+      resolves_to: ""
+    - key: LC19
+      raw: Guillaume Lample and Alexis Conneau. Cross-lingual language model pretraining. arXiv preprint arXiv:1901.07291, 2019.
+      authors:
+        - Guillaume Lample
+        - Alexis Conneau
+      title: Cross-lingual language model pretraining
+      venue: arXiv preprint arXiv:1901.07291
+      year: 2019
+      arxiv: "1901.07291"
+      resolves_to: ""
+    - key: LCG+19
+      raw: 'Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. ALBERT: A lite BERT for self-supervised learning of language representations. arXiv preprint arXiv:1909.11942, 2019.'
+      authors:
+        - Zhenzhong Lan
+        - Mingda Chen
+        - Sebastian Goodman
+        - Kevin Gimpel
+        - Piyush Sharma
+        - Radu Soricut
+      title: 'ALBERT: A lite BERT for self-supervised learning of language representations'
+      venue: arXiv preprint arXiv:1909.11942
+      year: 2019
+      arxiv: "1909.11942"
+      resolves_to: ""
+    - key: LCH+20
+      raw: Xiaodong Liu, Hao Cheng, Pengcheng He, Weizhu Chen, Yu Wang, Hoifung Poon, and Jianfeng Gao. Adversarial training for large neural language models. arXiv preprint arXiv:2004.08994, 2020.
+      authors:
+        - Xiaodong Liu
+        - Hao Cheng
+        - Pengcheng He
+        - Weizhu Chen
+        - Yu Wang
+        - Hoifung Poon
+        - Jianfeng Gao
+      title: Adversarial training for large neural language models
+      venue: arXiv preprint arXiv:2004.08994
+      year: 2020
+      arxiv: "2004.08994"
+      resolves_to: ""
+    - key: LDL19
+      raw: Zhongyang Li, Xiao Ding, and Ting Liu. Story ending prediction by transferable bert. arXiv preprint arXiv:1905.07504, 2019.
+      authors:
+        - Zhongyang Li
+        - Xiao Ding
+        - Ting Liu
+      title: Story ending prediction by transferable bert
+      venue: arXiv preprint arXiv:1905.07504
+      year: 2019
+      arxiv: "1905.07504"
+      resolves_to: ""
+    - key: LDM12
+      raw: Hector Levesque, Ernest Davis, and Leora Morgenstern. The Winograd schema challenge. In Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning, 2012.
+      authors:
+        - Hector Levesque
+        - Ernest Davis
+        - Leora Morgenstern
+      title: The Winograd schema challenge
+      venue: In Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning
+      year: 2012
+      resolves_to: ""
+    - key: LGG+20
+      raw: Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan Ghazvininejad, Mike Lewis, and Luke Zettlemoyer. Multilingual denoising pre-training for neural machine translation. arXiv preprint arXiv:2001.08210, 2020.
+      authors:
+        - Yinhan Liu
+        - Jiatao Gu
+        - Naman Goyal
+        - Xian Li
+        - Sergey Edunov
+        - Marjan Ghazvininejad
+        - Mike Lewis
+        - Luke Zettlemoyer
+      title: Multilingual denoising pre-training for neural machine translation
+      venue: arXiv preprint arXiv:2001.08210
+      year: 2020
+      arxiv: "2001.08210"
+      resolves_to: ""
+    - key: LGH+15
+      raw: 'Xiaodong Liu, Jianfeng Gao, Xiaodong He, Li Deng, Kevin Duh, and Ye-Yi Wang. Representation learning using multi-task deep neural networks for semantic classification and information retrieval. In Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2015.'
+      authors:
+        - Xiaodong Liu
+        - Jianfeng Gao
+        - Xiaodong He
+        - Li Deng
+        - Kevin Duh
+        - Ye-Yi Wang
+      title: Representation learning using multi-task deep neural networks for semantic classification and information retrieval
+      venue: 'In Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies'
+      year: 2015
+      resolves_to: ""
+    - key: LH17
+      raw: Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.
+      authors:
+        - Ilya Loshchilov
+        - Frank Hutter
+      title: Decoupled weight decay regularization
+      venue: arXiv preprint arXiv:1711.05101
+      year: 2017
+      arxiv: "1711.05101"
+      resolves_to: ""
+    - key: LHCG19a
+      raw: Xiaodong Liu, Pengcheng He, Weizhu Chen, and Jianfeng Gao. Improving multi-task deep neural networks via knowledge distillation for natural language understanding. arXiv preprint arXiv:1904.09482, 2019.
+      authors:
+        - Xiaodong Liu
+        - Pengcheng He
+        - Weizhu Chen
+        - Jianfeng Gao
+      title: Improving multi-task deep neural networks via knowledge distillation for natural language understanding
+      venue: arXiv preprint arXiv:1904.09482
+      year: 2019
+      arxiv: "1904.09482"
+      resolves_to: ""
+    - key: LHCG19b
+      raw: Xiaodong Liu, Pengcheng He, Weizhu Chen, and Jianfeng Gao. Multi-task deep neural networks for natural language understanding. arXiv preprint arXiv:1901.11504, 2019.
+      authors:
+        - Xiaodong Liu
+        - Pengcheng He
+        - Weizhu Chen
+        - Jianfeng Gao
+      title: Multi-task deep neural networks for natural language understanding
+      venue: arXiv preprint arXiv:1901.11504
+      year: 2019
+      arxiv: "1901.11504"
+      resolves_to: ""
+    - key: Lin20
+      raw: Tal Linzen. How can we accelerate progress towards human-like linguistic generalization? arXiv preprint arXiv:2005.00955, 2020.
+      authors:
+        - Tal Linzen
+      title: How can we accelerate progress towards human-like linguistic generalization? arXiv preprint arXiv:2005.00955, 2020
+      year: 2020
+      arxiv: "2005.00955"
+      resolves_to: ""
+    - key: LLG+19
+      raw: 'Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, and Luke Zettlemoyer. Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. arXiv preprint arXiv:1910.13461, 2019.'
+      authors:
+        - Mike Lewis
+        - Yinhan Liu
+        - Naman Goyal
+        - Marjan Ghazvininejad
+        - Abdelrahman Mohamed
+        - Omer Levy
+        - Ves Stoyanov
+        - Luke Zettlemoyer
+      title: 'Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension'
+      venue: arXiv preprint arXiv:1910.13461
+      year: 2019
+      arxiv: "1910.13461"
+      resolves_to: ""
+    - key: LM17
+      raw: Ke Li and Jitendra Malik. Learning to optimize neural nets. arXiv preprint arXiv:1703.00441, 2017.
+      authors:
+        - Ke Li
+        - Jitendra Malik
+      title: Learning to optimize neural nets
+      venue: arXiv preprint arXiv:1703.00441
+      year: 2017
+      arxiv: "1703.00441"
+      resolves_to: ""
+    - key: LOG+19
+      raw: 'Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach. arXiv preprint arXiv:1907.11692, 2019.'
+      authors:
+        - Yinhan Liu
+        - Myle Ott
+        - Naman Goyal
+        - Jingfei Du
+        - Mandar Joshi
+        - Danqi Chen
+        - Omer Levy
+        - Mike Lewis
+        - Luke Zettlemoyer
+        - Veselin Stoyanov
+      title: 'RoBERTa: A robustly optimized BERT pretraining approach'
+      venue: arXiv preprint arXiv:1907.11692
+      year: 2019
+      arxiv: "1907.11692"
+      resolves_to: ""
+    - key: LPP+20
+      raw: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, and Kiela Douwe. Retrieval-augmented generation for knowledge-intensive nlp tasks. arXiv preprint arXiv:2005.11401, 2020.
+      authors:
+        - Patrick Lewis
+        - Ethan Perez
+        - Aleksandra Piktus
+        - Fabio Petroni
+        - Vladimir Karpukhin
+        - Naman Goyal
+        - Heinrich Küttler
+        - Mike Lewis
+        - Wen-tau Yih
+        - Tim Rocktäschel
+        - Sebastian Riedel
+        - Kiela Douwe
+      title: Retrieval-augmented generation for knowledge-intensive nlp tasks
+      venue: arXiv preprint arXiv:2005.11401
+      year: 2020
+      arxiv: "2005.11401"
+      resolves_to: ""
+    - key: LSP+18
+      raw: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam Shazeer. Generating Wikipedia by summarizing long sequences. arXiv preprint arXiv:1801.10198, 2018.
+      authors:
+        - Peter J. Liu
+        - Mohammad Saleh
+        - Etienne Pot
+        - Ben Goodrich
+        - Ryan Sepassi
+        - Lukasz Kaiser
+        - Noam Shazeer
+      title: Generating Wikipedia by summarizing long sequences
+      venue: arXiv preprint arXiv:1801.10198
+      year: 2018
+      arxiv: "1801.10198"
+      resolves_to: ""
+    - key: LWS+20
+      raw: 'Zhuohan Li, Eric Wallace, Sheng Shen, Kevin Lin, Kurt Keutzer, Dan Klein, and Joseph E. Gonzalez. Train large, then compress: Rethinking model size for efficient training and inference of transformers, 2020.'
+      authors:
+        - Zhuohan Li
+        - Eric Wallace
+        - Sheng Shen
+        - Kevin Lin
+        - Kurt Keutzer
+        - Dan Klein
+        - Joseph E. Gonzalez
+      title: 'Train large, then compress: Rethinking model size for efficient training and inference of transformers, 2020'
+      year: 2020
+      resolves_to: ""
+    - key: LXL+17
+      raw: 'Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. Race: Large-scale reading comprehension dataset from examinations. arXiv preprint arXiv:1704.04683, 2017.'
+      authors:
+        - Guokun Lai
+        - Qizhe Xie
+        - Hanxiao Liu
+        - Yiming Yang
+        - Eduard Hovy
+      title: 'Race: Large-scale reading comprehension dataset from examinations'
+      venue: arXiv preprint arXiv:1704.04683
+      year: 2017
+      arxiv: "1704.04683"
+      resolves_to: ""
+    - key: LYN+20
+      raw: Sheng-Chieh Lin, Jheng-Hong Yang, Rodrigo Nogueira, Ming-Feng Tsai, Chuan-Ju Wang, and Jimmy Lin. Tttttackling winogrande schemas. arXiv preprint arXiv:2003.08380, 2020.
+      authors:
+        - Sheng-Chieh Lin
+        - Jheng-Hong Yang
+        - Rodrigo Nogueira
+        - Ming-Feng Tsai
+        - Chuan-Ju Wang
+        - Jimmy Lin
+      title: Tttttackling winogrande schemas
+      venue: arXiv preprint arXiv:2003.08380
+      year: 2020
+      arxiv: "2003.08380"
+      resolves_to: ""
+    - key: Mac92
+      raw: David. MacKay. Information-based objective functions for active data selection. Neural Computation, 1992.
+      title: David
+      venue: MacKay. Information-based objective functions for active data selection. Neural Computation
+      year: 1992
+      resolves_to: ""
+    - key: MBXS17
+      raw: 'Bryan McCann, James Bradbury, Caiming Xiong, and Richard Socher. Learned in translation: Contextualized word vectors. In Advances in Neural Information Processing Systems, pages 6294–6305, 2017.'
+      authors:
+        - Bryan McCann
+        - James Bradbury
+        - Caiming Xiong
+        - Richard Socher
+      title: 'Learned in translation: Contextualized word vectors'
+      venue: In Advances in Neural Information Processing Systems, pages 6294–6305
+      year: 2017
+      pages: 6294-6305
+      resolves_to: ""
+    - key: MCCD13
+      raw: Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, 2013.
+      authors:
+        - Tomas Mikolov
+        - Kai Chen
+        - Greg Corrado
+        - Jeffrey Dean
+      title: Efficient estimation of word representations in vector space
+      venue: arXiv preprint arXiv:1301.3781
+      year: 2013
+      arxiv: "1301.3781"
+      resolves_to: ""
+    - key: MCH+16
+      raw: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, and James Allen. A corpus and evaluation framework for deeper understanding of commonsense stories. arXiv preprint arXiv:1604.01696, 2016.
+      authors:
+        - Nasrin Mostafazadeh
+        - Nathanael Chambers
+        - Xiaodong He
+        - Devi Parikh
+        - Dhruv Batra
+        - Lucy Vanderwende
+        - Pushmeet Kohli
+        - James Allen
+      title: A corpus and evaluation framework for deeper understanding of commonsense stories
+      venue: arXiv preprint arXiv:1604.01696
+      year: 2016
+      arxiv: "1604.01696"
+      resolves_to: ""
+    - key: MCKS18
+      raw: Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. ArXiv, abs/1809.02789, 2018.
+      authors:
+        - Todor Mihaylov
+        - Peter Clark
+        - Tushar Khot
+        - Ashish Sabharwal
+      title: Can a suit of armor conduct electricity? a new dataset for open book question answering
+      venue: ArXiv, abs/1809.02789
+      year: 2018
+      arxiv: "1809.02789"
+      resolves_to: ""
+    - key: MKAT18
+      raw: Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training, 2018.
+      authors:
+        - Sam McCandlish
+        - Jared Kaplan
+        - Dario Amodei
+        - OpenAI Dota Team
+      title: An empirical model of large-batch training, 2018
+      year: 2018
+      resolves_to: ""
+    - key: MKM+94
+      raw: 'Mitchell Marcus, Grace Kim, Mary Ann Marcinkiewicz, Robert MacIntyre, Ann Bies, Mark Ferguson, Karen Katz, and Britta Schasberger. The penn treebank: annotating predicate argument structure. In Proceedings of the workshop on Human Language Technology, pages 114–119. Association for Computational Linguistics, 1994.'
+      authors:
+        - Mitchell Marcus
+        - Grace Kim
+        - Mary Ann Marcinkiewicz
+        - Robert MacIntyre
+        - Ann Bies
+        - Mark Ferguson
+        - Karen Katz
+        - Britta Schasberger
+      title: 'The penn treebank: annotating predicate argument structure'
+      venue: In Proceedings of the workshop on Human Language Technology, pages 114–119. Association for Computational Linguistics
+      year: 1994
+      pages: 114-119
+      resolves_to: ""
+    - key: MKXS18
+      raw: 'Bryan McCann, Nitish Shirish Keskar, Caiming Xiong, and Richard Socher. The natural language decathlon: Multitask learning as question answering. arXiv preprint arXiv:1806.08730, 2018.'
+      authors:
+        - Bryan McCann
+        - Nitish Shirish Keskar
+        - Caiming Xiong
+        - Richard Socher
+      title: 'The natural language decathlon: Multitask learning as question answering'
+      venue: arXiv preprint arXiv:1806.08730
+      year: 2018
+      arxiv: "1806.08730"
+      resolves_to: ""
+    - key: MPL19
+      raw: 'R Thomas McCoy, Ellie Pavlick, and Tal Linzen. Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. arXiv preprint arXiv:1902.01007, 2019.'
+      authors:
+        - R Thomas McCoy
+        - Ellie Pavlick
+        - Tal Linzen
+      title: 'Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference'
+      venue: arXiv preprint arXiv:1902.01007
+      year: 2019
+      arxiv: "1902.01007"
+      resolves_to: ""
+    - key: MWZ+18
+      raw: Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. Model cards for model reporting, 2018.
+      authors:
+        - Margaret Mitchell
+        - Simone Wu
+        - Andrew Zaldivar
+        - Parker Barnes
+        - Lucy Vasserman
+        - Ben Hutchinson
+        - Elena Spitzer
+        - Inioluwa Deborah Raji
+        - Timnit Gebru
+      title: Model cards for model reporting, 2018
+      year: 2018
+      resolves_to: ""
+    - key: NBR20
+      raw: 'Moin Nadeem, Anna Bethke, and Siva Reddy. Stereoset: Measuring stereotypical bias in pretrained language models. arXiv preprint arXiv:2004.09456, 2020.'
+      authors:
+        - Moin Nadeem
+        - Anna Bethke
+        - Siva Reddy
+      title: 'Stereoset: Measuring stereotypical bias in pretrained language models'
+      venue: arXiv preprint arXiv:2004.09456
+      year: 2020
+      arxiv: "2004.09456"
+      resolves_to: ""
+    - key: NK19
+      raw: Timothy Niven and Hung-Yu Kao. Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355, 2019.
+      authors:
+        - Timothy Niven
+        - Hung-Yu Kao
+      title: Probing neural network comprehension of natural language arguments
+      venue: arXiv preprint arXiv:1907.07355
+      year: 2019
+      arxiv: "1907.07355"
+      resolves_to: ""
+    - key: Nor09
+      raw: Peter Norvig. Natural language corpus data, 2009.
+      authors:
+        - Peter Norvig
+      title: Natural language corpus data, 2009
+      year: 2009
+      resolves_to: ""
+    - key: NvNvdG19
+      raw: 'Malvina Nissim, Rik van Noord, and Rob van der Goot. Fair is better than sensational: Man is to doctor as woman is to doctor. arXiv preprint arXiv:1905.09866, 2019.'
+      authors:
+        - Malvina Nissim
+        - Rik van Noord
+        - Rob van der Goot
+      title: 'Fair is better than sensational: Man is to doctor as woman is to doctor'
+      venue: arXiv preprint arXiv:1905.09866
+      year: 2019
+      arxiv: "1905.09866"
+      resolves_to: ""
+    - key: NWD+19
+      raw: 'Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe Kiela. Adversarial nli: A new benchmark for natural language understanding. arXiv preprint arXiv:1910.14599, 2019.'
+      authors:
+        - Yixin Nie
+        - Adina Williams
+        - Emily Dinan
+        - Mohit Bansal
+        - Jason Weston
+        - Douwe Kiela
+      title: 'Adversarial nli: A new benchmark for natural language understanding'
+      venue: arXiv preprint arXiv:1910.14599
+      year: 2019
+      arxiv: "1910.14599"
+      resolves_to: ""
+    - key: oR16
+      raw: University of Regensburg. Fascha, 2016.
+      title: University of Regensburg
+      venue: Fascha
+      year: 2016
+      resolves_to: ""
+    - key: PCC18
+      raw: 'Mohammad Taher Pilehvar and Jose Camacho-Collados. WIC: 10,000 example pairs for evaluating context-sensitive representations. arXiv preprint arXiv:1808.09121, 2018.'
+      authors:
+        - Mohammad Taher Pilehvar
+        - Jose Camacho-Collados
+      title: 'WIC: 10,000 example pairs for evaluating context-sensitive representations'
+      venue: arXiv preprint arXiv:1808.09121
+      year: 2018
+      arxiv: "1808.09121"
+      resolves_to: ""
+    - key: PFB18
+      raw: 'Jason Phang, Thibault Févry, and Samuel R. Bowman. Sentence encoders on STILTs: Supplementary training on intermediate labeled-data tasks. arXiv preprint arXiv:1811.01088, 2018.'
+      authors:
+        - Jason Phang
+        - Thibault Févry
+        - Samuel R. Bowman
+      title: 'Sentence encoders on STILTs: Supplementary training on intermediate labeled-data tasks'
+      venue: arXiv preprint arXiv:1811.01088
+      year: 2018
+      arxiv: "1811.01088"
+      resolves_to: ""
+    - key: PHR+18
+      raw: Adam Poliak, Aparajita Haldar, Rachel Rudinger, J. Edward Hu, Ellie Pavlick, Aaron Steven White, and Benjamin Van Durme. Collecting diverse natural language inference problems for sentence representation evaluation. In Proceedings of EMNLP, 2018.
+      authors:
+        - Adam Poliak
+        - Aparajita Haldar
+        - Rachel Rudinger
+        - J. Edward Hu
+        - Ellie Pavlick
+        - Aaron Steven White
+        - Benjamin Van Durme
+      title: Collecting diverse natural language inference problems for sentence representation evaluation
+      venue: In Proceedings of EMNLP
+      year: 2018
+      resolves_to: ""
+    - key: PKL+16
+      raw: 'Denis Paperno, Germán Kruszewski, Angeliki Lazaridou, Quan Ngoc Pham, Raffaella Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel Fernández. The lambada dataset: Word prediction requiring a broad discourse context. arXiv preprint arXiv:1606.06031, 2016.'
+      authors:
+        - Denis Paperno
+        - Germán Kruszewski
+        - Angeliki Lazaridou
+        - Quan Ngoc Pham
+        - Raffaella Bernardi
+        - Sandro Pezzelle
+        - Marco Baroni
+        - Gemma Boleda
+        - Raquel Fernández
+      title: 'The lambada dataset: Word prediction requiring a broad discourse context'
+      venue: arXiv preprint arXiv:1606.06031
+      year: 2016
+      arxiv: "1606.06031"
+      resolves_to: ""
+    - key: PNZtY18
+      raw: 'Matthew E. Peters, Mark Neumann, Luke Zettlemoyer, and Wen tau Yih. Dissecting contextual word embeddings: Architecture and representation, 2018.'
+      authors:
+        - Matthew E. Peters
+        - Mark Neumann
+        - Luke Zettlemoyer
+        - Wen tau Yih
+      title: 'Dissecting contextual word embeddings: Architecture and representation, 2018'
+      year: 2018
+      resolves_to: ""
+    - key: Pos18
+      raw: Matt Post. A call for clarity in reporting BLEU scores. arXiv preprint arXiv:1804.08771, 2018.
+      authors:
+        - Matt Post
+      title: A call for clarity in reporting BLEU scores
+      venue: arXiv preprint arXiv:1804.08771
+      year: 2018
+      arxiv: "1804.08771"
+      resolves_to: ""
+    - key: PSM14
+      raw: 'Jeffrey Pennington, Richard Socher, and Christopher Manning. GloVe: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP), 2014.'
+      authors:
+        - Jeffrey Pennington
+        - Richard Socher
+        - Christopher Manning
+      title: 'GloVe: Global vectors for word representation'
+      venue: In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)
+      year: 2014
+      resolves_to: ""
+    - key: QIA20
+      raw: QIANXIN. Sa-net on albert (ensemble), April 2020.
+      title: QIANXIN
+      venue: Sa-net on albert (ensemble)
+      year: 2020
+      resolves_to: ""
+    - key: QMZH19
+      raw: Yusu Qian, Urwa Muaz, Ben Zhang, and Jae Won Hyun. Reducing gender bias in word-level language models with a gender-equalizing loss function. arXiv preprint arXiv:1905.12801, 2019.
+      authors:
+        - Yusu Qian
+        - Urwa Muaz
+        - Ben Zhang
+        - Jae Won Hyun
+      title: Reducing gender bias in word-level language models with a gender-equalizing loss function
+      venue: arXiv preprint arXiv:1905.12801
+      year: 2019
+      arxiv: "1905.12801"
+      resolves_to: ""
+    - key: RBG11
+      raw: 'Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S Gordon. Choice of plausible alternatives: An evaluation of commonsense causal reasoning. In 2011 AAAI Spring Symposium Series, 2011.'
+      authors:
+        - Melissa Roemmele
+        - Cosmin Adrian Bejan
+        - Andrew S Gordon
+      title: 'Choice of plausible alternatives: An evaluation of commonsense causal reasoning'
+      venue: In 2011 AAAI Spring Symposium Series
+      year: 2011
+      resolves_to: ""
+    - key: RCM19
+      raw: 'Siva Reddy, Danqi Chen, and Christopher D Manning. Coqa: A conversational question answering challenge. Transactions of the Association for Computational Linguistics, 7:249–266, 2019.'
+      authors:
+        - Siva Reddy
+        - Danqi Chen
+        - Christopher D Manning
+      title: 'Coqa: A conversational question answering challenge'
+      venue: Transactions of the Association for Computational Linguistics, 7:249–266
+      year: 2019
+      resolves_to: ""
+    - key: RCP+17
+      raw: 'Scott Reed, Yutian Chen, Thomas Paine, Aäron van den Oord, SM Eslami, Danilo Rezende, Oriol Vinyals, and Nando de Freitas. Few-shot autoregressive density estimation: Towards learning to learn distributions. arXiv preprint arXiv:1710.10304, 2017.'
+      authors:
+        - Scott Reed
+        - Yutian Chen
+        - Thomas Paine
+        - Aäron van den Oord
+        - SM Eslami
+        - Danilo Rezende
+        - Oriol Vinyals
+        - Nando de Freitas
+      title: 'Few-shot autoregressive density estimation: Towards learning to learn distributions'
+      venue: arXiv preprint arXiv:1710.10304
+      year: 2017
+      arxiv: "1710.10304"
+      resolves_to: ""
+    - key: RJL18
+      raw: 'Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable questions for squad. arXiv preprint arXiv:1806.03822, 2018.'
+      authors:
+        - Pranav Rajpurkar
+        - Robin Jia
+        - Percy Liang
+      title: 'Know what you don’t know: Unanswerable questions for squad'
+      venue: arXiv preprint arXiv:1806.03822
+      year: 2018
+      arxiv: "1806.03822"
+      resolves_to: ""
+    - key: RL16
+      raw: Sachin Ravi and Hugo Larochelle. Optimization as a model for few-shot learning. ICLR 2017 (oral), 2016.
+      authors:
+        - Sachin Ravi
+        - Hugo Larochelle
+      title: Optimization as a model for few-shot learning
+      venue: ICLR 2017 (oral)
+      year: 2016
+      resolves_to: ""
+    - key: RLL+19
+      raw: 'Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. NumNet: Machine reading comprehension with numerical reasoning. In Proceedings of EMNLP, 2019.'
+      authors:
+        - Qiu Ran
+        - Yankai Lin
+        - Peng Li
+        - Jie Zhou
+        - Zhiyuan Liu
+      title: 'NumNet: Machine reading comprehension with numerical reasoning'
+      venue: In Proceedings of EMNLP
+      year: 2019
+      resolves_to: ""
+    - key: RNLVD18
+      raw: Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme. Gender bias in coreference resolution. arXiv preprint arXiv:1804.09301, 2018.
+      authors:
+        - Rachel Rudinger
+        - Jason Naradowsky
+        - Brian Leonard
+        - Benjamin Van Durme
+      title: Gender bias in coreference resolution
+      venue: arXiv preprint arXiv:1804.09301
+      year: 2018
+      arxiv: "1804.09301"
+      resolves_to: ""
+    - key: RNSS18
+      raw: Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training, 2018.
+      authors:
+        - Alec Radford
+        - Karthik Narasimhan
+        - Tim Salimans
+        - Ilya Sutskever
+      title: Improving language understanding by generative pre-training, 2018
+      year: 2018
+      resolves_to: ""
+    - key: Ros12
+      raw: R.S. Ross. Guide for conducting risk assessments. NIST Special Publication, 2012.
+      authors:
+        - R.S. Ross
+      title: Guide for conducting risk assessments
+      venue: NIST Special Publication
+      year: 2012
+      resolves_to: ""
+    - key: RRBS19
+      raw: Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales, 2019.
+      authors:
+        - Jonathan S. Rosenfeld
+        - Amir Rosenfeld
+        - Yonatan Belinkov
+        - Nir Shavit
+      title: A constructive prediction of the generalization error across scales, 2019
+      year: 2019
+      resolves_to: ""
+    - key: RRS20
+      raw: Adam Roberts, Colin Raffel, and Noam Shazeer. How much knowledge can you pack into the parameters of a language model? arXiv preprint arXiv:2002.08910, 2020.
+      authors:
+        - Adam Roberts
+        - Colin Raffel
+        - Noam Shazeer
+      title: How much knowledge can you pack into the parameters of a language model? arXiv preprint arXiv:2002.08910, 2020
+      year: 2020
+      arxiv: "2002.08910"
+      resolves_to: ""
+    - key: RSR+19
+      raw: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer, 2019.
+      authors:
+        - Colin Raffel
+        - Noam Shazeer
+        - Adam Roberts
+        - Katherine Lee
+        - Sharan Narang
+        - Michael Matena
+        - Yanqi Zhou
+        - Wei Li
+        - Peter J. Liu
+      title: Exploring the limits of transfer learning with a unified text-to-text transformer, 2019
+      year: 2019
+      resolves_to: ""
+    - key: RWC+19
+      raw: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners, 2019.
+      authors:
+        - Alec Radford
+        - Jeffrey Wu
+        - Rewon Child
+        - David Luan
+        - Dario Amodei
+        - Ilya Sutskever
+      title: Language models are unsupervised multitask learners, 2019
+      year: 2019
+      resolves_to: ""
+    - key: SBBC19
+      raw: 'Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd schema challenge at scale, 2019.'
+      authors:
+        - Keisuke Sakaguchi
+        - Ronan Le Bras
+        - Chandra Bhagavatula
+        - Yejin Choi
+      title: 'Winogrande: An adversarial winograd schema challenge at scale, 2019'
+      year: 2019
+      resolves_to: ""
+    - key: SBC+19
+      raw: Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, Sarah Kreps, Miles McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, and Jasmine Wang. Release strategies and the social impacts of language models, 2019.
+      title: Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, Sarah Kreps, Miles McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, and Jasmine Wang
+      venue: Release strategies and the social impacts of language models
+      year: 2019
+      resolves_to: ""
+    - key: SCNP19
+      raw: 'Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, and Nanyun Peng. The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326, 2019.'
+      authors:
+        - Emily Sheng
+        - Kai-Wei Chang
+        - Premkumar Natarajan
+        - Nanyun Peng
+      title: 'The woman worked as a babysitter: On biases in language generation'
+      venue: arXiv preprint arXiv:1909.01326
+      year: 2019
+      arxiv: "1909.01326"
+      resolves_to: ""
+    - key: SDCW19
+      raw: 'Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108, 2019.'
+      authors:
+        - Victor Sanh
+        - Lysandre Debut
+        - Julien Chaumond
+        - Thomas Wolf
+      title: 'DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter'
+      venue: arXiv preprint arXiv:1910.01108
+      year: 2019
+      arxiv: "1910.01108"
+      resolves_to: ""
+    - key: SDSE19
+      raw: Roy Schwartz, Jesse Dodge, Noah A. Smith, and Oren Etzioni. Green AI. CoRR, abs/1907.10597, 2019.
+      authors:
+        - Roy Schwartz
+        - Jesse Dodge
+        - Noah A. Smith
+        - Oren Etzioni
+      title: Green AI
+      venue: CoRR, abs/1907.10597
+      year: 2019
+      arxiv: "1907.10597"
+      resolves_to: ""
+    - key: SHB15
+      raw: Rico Sennrich, Barry Haddow, and Alexandra Birch. Improving neural machine translation models with monolingual data. arXiv preprint arXiv:1511.06709, 2015.
+      authors:
+        - Rico Sennrich
+        - Barry Haddow
+        - Alexandra Birch
+      title: Improving neural machine translation models with monolingual data
+      venue: arXiv preprint arXiv:1511.06709
+      year: 2015
+      arxiv: "1511.06709"
+      resolves_to: ""
+    - key: SMM+17
+      raw: 'Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.'
+      authors:
+        - Noam Shazeer
+        - Azalia Mirhoseini
+        - Krzysztof Maziarz
+        - Andy Davis
+        - Quoc Le
+        - Geoffrey Hinton
+        - Jeff Dean
+      title: 'Outrageously large neural networks: The sparsely-gated mixture-of-experts layer'
+      venue: arXiv preprint arXiv:1701.06538
+      year: 2017
+      arxiv: "1701.06538"
+      resolves_to: ""
+    - key: SPP+19
+      raw: 'Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using model parallelism, 2019.'
+      authors:
+        - Mohammad Shoeybi
+        - Mostofa Patwary
+        - Raul Puri
+        - Patrick LeGresley
+        - Jared Casper
+        - Bryan Catanzaro
+      title: 'Megatron-lm: Training multi-billion parameter language models using model parallelism, 2019'
+      year: 2019
+      resolves_to: ""
+    - key: SS20
+      raw: Timo Schick and Hinrich Schütze. Exploiting cloze questions for few-shot text classification and natural language inference. arXiv preprint arXiv:2001.07676, 2020.
+      authors:
+        - Timo Schick
+        - Hinrich Schütze
+      title: Exploiting cloze questions for few-shot text classification and natural language inference
+      venue: arXiv preprint arXiv:2001.07676
+      year: 2020
+      arxiv: "2001.07676"
+      resolves_to: ""
+    - key: STQ+19
+      raw: 'Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, and Tie-Yan Liu. MASS: Masked sequence to sequence pre-training for language generation. arXiv preprint arXiv:1905.02450, 2019.'
+      authors:
+        - Kaitao Song
+        - Xu Tan
+        - Tao Qin
+        - Jianfeng Lu
+        - Tie-Yan Liu
+      title: 'MASS: Masked sequence to sequence pre-training for language generation'
+      venue: arXiv preprint arXiv:1905.02450
+      year: 2019
+      arxiv: "1905.02450"
+      resolves_to: ""
+    - key: TFR+17
+      raw: Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, and Pieter Abbeel. Domain randomization for transferring deep neural networks from simulation to the real world. In 2017 IEEE/RSJ international conference on intelligent robots and systems (IROS), pages 23–30. IEEE, 2017.
+      authors:
+        - Josh Tobin
+        - Rachel Fong
+        - Alex Ray
+        - Jonas Schneider
+        - Wojciech Zaremba
+        - Pieter Abbeel
+      title: Domain randomization for transferring deep neural networks from simulation to the real world
+      venue: In 2017 IEEE/RSJ international conference on intelligent robots and systems (IROS), pages 23–30. IEEE
+      year: 2017
+      pages: 23-30
+      resolves_to: ""
+    - key: TL05
+      raw: Peter D. Turney and Michael L. Littman. Corpus-based learning of analogies and semantic relations. CoRR, abs/cs/0508103, 2005.
+      authors:
+        - Peter D. Turney
+        - Michael L. Littman
+      title: Corpus-based learning of analogies and semantic relations
+      venue: CoRR, abs/cs/0508103
+      year: 2005
+      resolves_to: ""
+    - key: TL18
+      raw: Trieu H. Trinh and Quoc V. Le. A simple method for commonsense reasoning. arXiv preprint arXiv:1806.02847, 2018.
+      authors:
+        - Trieu H. Trinh
+        - Quoc V. Le
+      title: A simple method for commonsense reasoning
+      venue: arXiv preprint arXiv:1806.02847
+      year: 2018
+      arxiv: "1806.02847"
+      resolves_to: ""
+    - key: TLBS03
+      raw: Peter D. Turney, Michael L. Littman, Jeffrey Bigham, and Victor Shnayder. Combining independent modules to solve multiple-choice synonym and analogy problems. CoRR, cs.CL/0309035, 2003.
+      authors:
+        - Peter D. Turney
+        - Michael L. Littman
+        - Jeffrey Bigham
+        - Victor Shnayder
+      title: Combining independent modules to solve multiple-choice synonym and analogy problems
+      venue: CoRR, cs.CL/0309035
+      year: 2003
+      resolves_to: ""
+    - key: Tur20
+      raw: Project Turing. Microsoft research blog, Feb 2020.
+      authors:
+        - Project Turing
+      title: Microsoft research blog, Feb 2020
+      year: 2020
+      resolves_to: ""
+    - key: VBL+16
+      raw: Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al. Matching Networks for One Shot Learning. In Advances in neural information processing systems, pages 3630–3638, 2016.
+      authors:
+        - Oriol Vinyals
+        - Charles Blundell
+        - Timothy Lillicrap
+        - Daan Wierstra
+      title: Matching Networks for One Shot Learning
+      venue: In Advances in neural information processing systems, pages 3630–3638
+      year: 2016
+      pages: 3630-3638
+      resolves_to: ""
+    - key: VSP+17
+      raw: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, 2017.
+      authors:
+        - Ashish Vaswani
+        - Noam Shazeer
+        - Niki Parmar
+        - Jakob Uszkoreit
+        - Llion Jones
+        - Aidan N. Gomez
+        - Łukasz Kaiser
+        - Illia Polosukhin
+      title: Attention is all you need
+      venue: In Advances in neural information processing systems
+      year: 2017
+      resolves_to: vaswani-2017-attention
+    - key: WPN+19
+      raw: 'Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems. In Advances in Neural Information Processing Systems, pages 3261–3275, 2019.'
+      authors:
+        - Alex Wang
+        - Yada Pruksachatkun
+        - Nikita Nangia
+        - Amanpreet Singh
+        - Julian Michael
+        - Felix Hill
+        - Omer Levy
+        - Samuel Bowman
+      title: 'Superglue: A stickier benchmark for general-purpose language understanding systems'
+      venue: In Advances in Neural Information Processing Systems, pages 3261–3275
+      year: 2019
+      pages: 3261-3275
+      resolves_to: ""
+    - key: WXH+18
+      raw: Yiren Wang, Yingce Xia, Tianyu He, Fei Tian, Tao Qin, ChengXiang Zhai, and Tie-Yan Liu. Multi-agent dual learning. ICLR 2019, 2018.
+      authors:
+        - Yiren Wang
+        - Yingce Xia
+        - Tianyu He
+        - Fei Tian
+        - Tao Qin
+        - ChengXiang Zhai
+        - Tie-Yan Liu
+      title: Multi-agent dual learning
+      venue: ICLR 2019
+      year: 2018
+      resolves_to: ""
+    - key: XDH+19
+      raw: Qizhe Xie, Zihang Dai, Eduard Hovy, Minh-Thang Luong, and Quoc V. Le. Unsupervised data augmentation for consistency training, 2019.
+      authors:
+        - Qizhe Xie
+        - Zihang Dai
+        - Eduard Hovy
+        - Minh-Thang Luong
+        - Quoc V. Le
+      title: Unsupervised data augmentation for consistency training, 2019
+      year: 2019
+      resolves_to: ""
+    - key: YdC+19
+      raw: Dani Yogatama, Cyprien de Masson d’Autume, Jerome Connor, Tomas Kocisky, Mike Chrzanowski, Lingpeng Kong, Angeliki Lazaridou, Wang Ling, Lei Yu, Chris Dyer, et al. Learning and evaluating general linguistic intelligence. arXiv preprint arXiv:1901.11373, 2019.
+      authors:
+        - Dani Yogatama
+        - Cyprien de Masson d’Autume
+        - Jerome Connor
+        - Tomas Kocisky
+        - Mike Chrzanowski
+        - Lingpeng Kong
+        - Angeliki Lazaridou
+        - Wang Ling
+        - Lei Yu
+        - Chris Dyer
+      title: Learning and evaluating general linguistic intelligence
+      venue: arXiv preprint arXiv:1901.11373
+      year: 2019
+      arxiv: "1901.11373"
+      resolves_to: ""
+    - key: YDY+19
+      raw: 'Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc V. Le. XLNet: Generalized autoregressive pretraining for language understanding. arXiv preprint arXiv:1906.08237, 2019.'
+      authors:
+        - Zhilin Yang
+        - Zihang Dai
+        - Yiming Yang
+        - Jaime Carbonell
+        - Ruslan Salakhutdinov
+        - Quoc V. Le
+      title: 'XLNet: Generalized autoregressive pretraining for language understanding'
+      venue: arXiv preprint arXiv:1906.08237
+      year: 2019
+      arxiv: "1906.08237"
+      resolves_to: ""
+    - key: ZHB+19
+      raw: 'Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830, 2019.'
+      authors:
+        - Rowan Zellers
+        - Ari Holtzman
+        - Yonatan Bisk
+        - Ali Farhadi
+        - Yejin Choi
+      title: 'Hellaswag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830, 2019'
+      year: 2019
+      arxiv: "1905.07830"
+      resolves_to: ""
+    - key: ZHR+19
+      raw: Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, and Yejin Choi. Defending against neural fake news. arXiv preprint arXiv:1905.12616, 2019.
+      authors:
+        - Rowan Zellers
+        - Ari Holtzman
+        - Hannah Rashkin
+        - Yonatan Bisk
+        - Ali Farhadi
+        - Franziska Roesner
+        - Yejin Choi
+      title: Defending against neural fake news
+      venue: arXiv preprint arXiv:1905.12616
+      year: 2019
+      arxiv: "1905.12616"
+      resolves_to: ""
+    - key: ZLL+18
+      raw: 'Sheng Zhang, Xiaodong Liu, Jingjing Liu, Jianfeng Gao, Kevin Duh, and Benjamin Van Durme. ReCoRD: Bridging the gap between human and machine commonsense reading comprehension. arXiv preprint arXiv:1810.12885, 2018.'
+      authors:
+        - Sheng Zhang
+        - Xiaodong Liu
+        - Jingjing Liu
+        - Jianfeng Gao
+        - Kevin Duh
+        - Benjamin Van Durme
+      title: 'ReCoRD: Bridging the gap between human and machine commonsense reading comprehension'
+      venue: arXiv preprint arXiv:1810.12885
+      year: 2018
+      arxiv: "1810.12885"
+      resolves_to: ""
+    - key: ZSW+19a
+      raw: Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, and Geoffrey Irving. Fine-tuning language models from human preferences, 2019.
+      authors:
+        - Daniel M. Ziegler
+        - Nisan Stiennon
+        - Jeffrey Wu
+        - Tom B. Brown
+        - Alec Radford
+        - Dario Amodei
+        - Paul Christiano
+        - Geoffrey Irving
+      title: Fine-tuning language models from human preferences, 2019
+      year: 2019
+      resolves_to: ""
+    - key: ZSW+19b
+      raw: Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, and Geoffrey Irving. Fine-tuning language models from human preferences. ArXiv, abs/1909.08593, 2019.
+      authors:
+        - Daniel M. Ziegler
+        - Nisan Stiennon
+        - Jeffrey Wu
+        - Tom B. Brown
+        - Alec Radford
+        - Dario Amodei
+        - Paul Christiano
+        - Geoffrey Irving
+      title: Fine-tuning language models from human preferences
+      venue: ArXiv, abs/1909.08593
+      year: 2019
+      arxiv: "1909.08593"
+      resolves_to: ""
