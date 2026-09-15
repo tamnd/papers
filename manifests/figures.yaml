@@ -1418,6 +1418,30 @@ figures:
       width: 837
       height: 566
       bytes: 26983
+    - paper: stonebraker-2005-cstore
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [314.16, 139.68, 551.04, 736.8]
+      caption: Figure 1. Architecture of C-Store
+      sha256: b8a48f5def7633243eeb14f0234456e8bea48c6cc0409250a74f6ff52735260b
+      method: vector
+      page_fraction: 0.29
+      width: 987
+      height: 2488
+      bytes: 389608
+    - paper: stonebraker-2005-cstore
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [375.36, 278.88, 490.32, 379.68]
+      caption: 'Figure 2: A join index from EMP3 to EMP1. In practice, we expect to store each column in several projections, thereby allowing us to maintain relatively few join indices. This is because join indexes are very expensive to store and maintain in the presence of updates, since each modification to a projection requires every join index that points into or out of it to be updated as well.'
+      sha256: 328d6cc72c0062419595724491aca085c9ed1cb35a0733ef8d0eac1f8fde148c
+      method: raster
+      page_fraction: 0.02
+      width: 479
+      height: 420
+      bytes: 48600
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
