@@ -15,10 +15,8 @@ pdf_sha256: 81a363deb884ca23e495280eb9229df1064b4b3f79d662f270be35b50bea5318
 pdf_pages: "1"
 extraction: native
 extraction_model: pdftotext version 26.09.0
-content_sha256: 7bd3eb6f14dec478b2dae3bfdd6d3934b5f48e638476f1e6eb87cdcc8adb9198
+content_sha256: 171773ab6985277014edc3cd9c8194b6f319c68c97b5f19c7035fd7df73aebc8
 ---
-
-TECHNICAL LITERATURE
 
 Validity of the Single Processor Approach to
 

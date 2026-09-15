@@ -16,40 +16,30 @@ pdf_sha256: c2961e078943a26ae1f752b202290f561578b7ecf8b24b8929e3c1f99e6b2c52
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 6573aff32cf9306ac3492bef4d8a92d256f5171c009ed85e13df56f53aa8352f
+content_sha256: 82f2e7c9dbf1bd5eb9c18c506a79536c631378b42cfb0a7553145fbcb5e1fe9a
 translated_from: content/en/sussman-1975-scheme/00_front.md
-source_content_sha256: 326c3043a5d2c15ce603ddfd07ea950af19f0f9587bb0f8c53dce7b8a3d04f66
+source_content_sha256: 3d6c1645013adada5ed8396c103bb95dcd22e4e3723d8c5352a4ba786fc9c140
 translation_model: gpt-5
-translation_run: 20260914T102340Z
+translation_run: 20260915T020405Z
 glossary_version: 6
 glossary_terms_sha256: fcb84f53aa78484b92ff53c9baf55147dd1cf39c33fa0b3519c4a3322d452302
 prompt_sha256: da0c2696badfbe5d93fdc534847b1b0ca3b25ec37e0ce29843665f6e701c278e
 ---
 
-麻省理工学院
-
-人工智能实验室
-
-AI Memo No. 349
-
-1975年12月
-
 SCHEME
 
-扩展 λ 演算的解释器
-
-作者
+扩展 Lambda 演算的解释器
 
 Gerald Jay Sussman 和 Guy Lewis Steele Jr.
 
 摘要：
 
-受 ACTORS [Greif and Hewitt] [Smith and Hewitt] 的启发，我们实现了一个类似 LISP 的编程语言 SCHEME 的解释器。SCHEME 基于 λ 演算 [Church]，并扩展了副作用、多进程和进程同步。该实现旨在用于教学。我们的目标是：
+受 ACTORS [Greif and Hewitt] [Smith and Hewitt] 启发，我们实现了一个类似 LISP 的编程语言 SCHEME 的解释器。该编程语言基于 Lambda 演算 [Church]，但扩展了副作用、多进程以及进程同步机制。该实现的目的在于教学。我们希望：
 
-(1) 通过阐明如何将非递归控制结构嵌入 LISP 这样的递归宿主语言，来消除 Micro-PLANNER、CONNIVER 等造成的困惑。
+(1) 通过澄清像 LISP 这样的递归宿主语言中非递归控制结构的嵌入方式，减轻由 Micro-PLANNER、CONNIVER 等造成的困惑。
 
-(2) 说明如何使用这些控制结构，而不涉及模式匹配和数据库操作等问题。
+(2) 解释如何使用这些控制结构，而不涉及模式匹配和数据库操作等问题。
 
-(3) 为编程语义和编程风格中的某些问题提供一个简单而具体的实验领域。
+(3) 为编程语义和风格中的某些问题提供一个简单具体的实验领域。
 
-本文分为若干节。第一节是一份简短的“参考手册”，其中包含 SCHEME 所有非标准特性的规范。接下来，我们给出一系列编程示例，用于说明各种编程风格以及如何使用这些风格。这些示例将引出一些语义问题，我们将在第三节中尝试用 λ 演算加以澄清。第四节将总体讨论基于 λ 演算的语言的解释器实现者所面临的问题。
+本文组织为若干部分。第一部分是一个简短的“参考手册”，包含 SCHEME 所有特殊特性的规范。接下来，我们给出一系列程序示例，用以说明各种程序设计风格以及如何使用它们。这将引出一些语义问题，我们将在第三部分尝试用 Lambda 演算对其进行澄清。在第四部分，我们将对基于 Lambda 演算的编程语言的解释器实现者所面临的问题进行总体讨论。最后，我们将给出一个完全注释的 SCHEME 解释器，该解释器使用 MacLISP [Moon] 编写，以使程序员了解在类似 LISP 这样的递归语言中实现非递归控制结构的技巧。
