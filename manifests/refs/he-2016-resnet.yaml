@@ -393,8 +393,8 @@ entries:
         - A. Karpathy
         - A. Khosla
         - M. Bernstein
-        - et al. Imagenet large scale visual recognition challenge
-      title: '*arXiv:1409.0575*, 2014'
+      title: Imagenet large scale visual recognition challenge
+      venue: '*arXiv:1409.0575*'
       year: 2014
       arxiv: "1409.0575"
       resolves_to: ""
