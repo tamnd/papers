@@ -1190,6 +1190,78 @@ figures:
       width: 902
       height: 462
       bytes: 78178
+    - paper: selinger-1979-accesspath
+      figure: f01
+      number: "1"
+      page: 8
+      bbox: [357.6, 425.52, 553.44, 719.52]
+      caption: Figure 1. JOIN example
+      sha256: 7b9c73cba917168413bde0bba0eccd01c12b1fa2d6f15bcda0279e90a675b404
+      method: vector
+      page_fraction: 0.12
+      width: 816
+      height: 1225
+      bytes: 92552
+    - paper: selinger-1979-accesspath
+      figure: f02
+      number: "2"
+      page: 8
+      bbox: [367.44, 123.84, 526.8, 342.96]
+      caption: Figure 2.
+      sha256: 3f8a9600260983fa1056a79c6f0522cef376fe7b1aafa5642179c9363de59916
+      method: vector
+      page_fraction: 0.07
+      width: 664
+      height: 913
+      bytes: 30300
+    - paper: selinger-1979-accesspath
+      figure: f03
+      number: "3"
+      page: 9
+      bbox: [54.24, 560.4, 288, 666]
+      caption: Figure 3. Search tree for single relations
+      sha256: c489eecb4df70203a64cca5282e76e9a954d46b94c3254da1a8de3c63a255d3e
+      method: raster
+      page_fraction: 0.05
+      width: 974
+      height: 440
+      bytes: 12495
+    - paper: selinger-1979-accesspath
+      figure: f04
+      number: "4"
+      page: 9
+      bbox: [114.24, 103.44, 503.52, 331.68]
+      caption: Figure 4. Extended search tree for second relation (nested loop join)
+      sha256: 2c039daf3c848bb572aeb0b9d8d07f39db6ec9f286ad850f656634ca1786d6d6
+      method: raster
+      page_fraction: 0.18
+      width: 1622
+      height: 951
+      bytes: 36957
+    - paper: selinger-1979-accesspath
+      figure: f05
+      number: "5"
+      page: 10
+      bbox: [122.64, 455.76, 493.44, 716.64]
+      caption: Figure 5. Extended search tree for second relation (merged join)
+      sha256: 5fd391a83dedff81bd196e7a2f51eb88d3b4b73ce97f45bf4baae9e2a885e9df
+      method: raster
+      page_fraction: 0.2
+      width: 1545
+      height: 1087
+      bytes: 42672
+    - paper: selinger-1979-accesspath
+      figure: f06
+      number: "6"
+      page: 10
+      bbox: [128.64, 115.2, 486, 377.76]
+      caption: Figure 6. Extended search tree for third relation
+      sha256: c70fe1e15d41635f76d40a8129ea5b2f876bf4c076f976e31cc7609f2dc6d7a8
+      method: raster
+      page_fraction: 0.19
+      width: 1489
+      height: 1094
+      bytes: 38021
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
