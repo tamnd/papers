@@ -15,11 +15,11 @@ pdf_sha256: fd7424d2a47593223e2b490e841613bd900bc140944cb4eb590cff0e529886a2
 pdf_pages: "2"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 49d1754d824206e72f2113d87e2aa7f845aea6b0f36e253ef57e37bcd799d8da
+content_sha256: 366da5561c78c97d3387d490fdd59c647640b234e3d6b581708911971272151d
 translated_from: content/en/floyd-1962-shortestpath/00_front.md
-source_content_sha256: 04f30dab59a71d7a283f24b36d558f2574d62d8850b1b9bcf3c3800fa097fada
+source_content_sha256: f47988721e3f52c695a4436975c6c5a774afc02420dba6c78d793c8f8e5a7703
 translation_model: gpt-5
-translation_run: 20260915T022550Z
+translation_run: 20260915T053248Z
 glossary_version: 6
 glossary_terms_sha256: 51f62d367854beec600f51894702ad34dfcde96c993d5c00a2f7a9873047d13f
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
@@ -49,4 +49,4 @@ begin
 end shortest path
 ```
 
-Các đóng góp cho bộ phận này phải có dạng được nêu trong tuyên bố chính sách của Bộ phận Thuật toán (Communications, February, 1960), ngoại trừ việc phải sử dụng ký hiệu ALGOL 60 (xem Communications, May 1960). Các đóng góp nên được gửi thành hai bản sao cho J. H. Wegstein, Computation Laboratory, National Bureau of Standards, Washington 25, D. C. Các thuật toán phải ở dạng Tham chiếu của ALGOL 60 và được viết theo phong cách dựa trên các thuật toán gần đây nhất xuất hiện trong bộ phận này.
+Các đóng góp cho bộ phận này phải ở dạng được nêu trong tuyên bố chính sách của Bộ phận Thuật toán (Communications, February, 1960), ngoại trừ việc phải sử dụng ký hiệu ALGOL 60 (xem Communications, May 1960). Các đóng góp phải được gửi thành hai bản đến J. H. Wegstein, Computation Laboratory, National Bureau of Standards, Washington 25, D. C. Các thuật toán phải ở dạng Tham chiếu của ALGOL 60 và được viết theo phong cách dựa trên các thuật toán gần đây nhất xuất hiện trong bộ phận này.
