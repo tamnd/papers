@@ -21,3 +21,39 @@ pages:
       printed: "25"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "26"
+      size: [612, 792]
+      columns: 1
+    - pdf: 5
+      printed: "27"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "28"
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      printed: "29"
+      size: [612, 792]
+      columns: 2
+    - pdf: 8
+      printed: "30"
+      size: [612, 792]
+      columns: 2
+    - pdf: 9
+      printed: "31"
+      size: [612, 792]
+      columns: 2
+    - pdf: 10
+      printed: "32"
+      size: [612, 792]
+      columns: 1
+    - pdf: 11
+      printed: "33"
+      size: [612, 792]
+      columns: 2
+    - pdf: 12
+      printed: "34"
+      size: [612, 792]
+      columns: 2
