@@ -1,0 +1,55 @@
+paper: mccarthy-1960-lisp
+style: number
+entries:
+    - key: "1"
+      raw: J. McCARTHY, Programs with common sense, Paper presented at the Symposium on the Mechanization of Thought Processes, National Physical Laboratory, Teddington, England, Nov. 24-27, 1958. (Published in Proceedings of the Symposium by H. M. Stationery Office).
+      authors:
+        - J. McCARTHY
+        - Programs with common sense
+        - Paper presented at the Symposium on the Mechanization of Thought Processes
+        - National Physical Laboratory
+        - Teddington
+        - England
+        - Nov
+      title: 24-27, 1958
+      venue: (Published in Proceedings of the Symposium by H. M. Stationery Office)
+      year: 1958
+      resolves_to: ""
+    - key: "2"
+      raw: A. NEWELL AND J. C. SHAW, Programming the logic theory machine, Proc. Western Joint Computer Conference, Feb. 1957.
+      authors:
+        - A. NEWELL
+        - J. C. SHAW
+        - Programming the logic theory machine
+        - Proc. Western Joint Computer Conference
+        - Feb
+      title: "1957"
+      year: 1957
+      resolves_to: ""
+    - key: "3"
+      raw: A. CHURCH, The Calculi of Lambda-Conversion (Princeton University Press, Princeton, N. J., 1941).
+      title: A. CHURCH, The Calculi of Lambda-Conversion (Princeton University Press, Princeton, N. J., 1941)
+      year: 1941
+      resolves_to: ""
+    - key: "4"
+      raw: FORTRAN Programmer’s Reference Manual, IBM Corporation, New York, Oct. 15, 1956.
+      authors:
+        - FORTRAN Programmer’s Reference Manual
+        - IBM Corporation
+        - New York
+        - Oct
+      title: 15, 1956
+      year: 1956
+      resolves_to: ""
+    - key: "5"
+      raw: A. J. PERLIS AND K. SAMELS0N, International algebraic language, Preliminary Report, Comm. Assoc. Comp. Mach., Dec. 1958.
+      authors:
+        - A. J. PERLIS
+        - K. SAMELS0N
+        - International algebraic language
+        - Preliminary Report
+        - Comm
+      title: Assoc. Comp
+      venue: Mach., Dec
+      year: 1958
+      resolves_to: ""
