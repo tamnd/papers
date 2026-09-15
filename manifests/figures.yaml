@@ -973,6 +973,31 @@ figures:
       width: 1655
       height: 995
       bytes: 330796
+    - paper: krizhevsky-2012-imagenet
+      figure: f01
+      number: "2"
+      page: 5
+      bbox: [108, 587.76, 504.24, 710.64]
+      caption: 'Figure 2: An illustration of the architecture of our CNN, explicitly showing the delineation of responsibilities between the two GPUs. One GPU runs the layer-parts at the top of the figure while the other runs the layer-parts at the bottom. The GPUs communicate only at certain layers. The network’s input is 150,528-dimensional, and the number of neurons in the network’s remaining layers is given by 253,440–186,624–64,896–64,896–43,264– 4096–4096–1000.'
+      sha256: 2dd28a2e82cc8cf771999db0d297c432ee02adf047b73c3efd974b26500fb004
+      method: vector
+      page_fraction: 0.1
+      width: 1651
+      height: 512
+      bytes: 88817
+    - paper: krizhevsky-2012-imagenet
+      figure: f02
+      number: "4"
+      page: 8
+      bbox: [108.52, 560.35, 503.48, 711.13]
+      caption: 'Figure 4: (Left) Eight ILSVRC-2010 test images and the five labels considered most probable by our model. The correct label is written under each image, and the probability assigned to the correct label is also shown with a red bar (if it happens to be in the top 5). (Right) Five ILSVRC-2010 test images in the first column. The remaining columns show the six training images that produce feature vectors in the last hidden layer with the smallest Euclidean distance from the feature vector for the test image.'
+      sha256: 1d20ac40053b30e1ee55f8bbd005dc89cc6a8c1e3c10b0da54b096bd237ab3a0
+      method: vector
+      page_fraction: 0.12
+      scale: 0.46
+      width: 757
+      height: 289
+      bytes: 427395
     - paper: lamport-1998-paxos
       figure: f01
       number: "1"
