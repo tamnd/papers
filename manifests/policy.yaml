@@ -1,0 +1,21 @@
+# What this corpus publishes, as against what each paper's licence allows.
+#
+# sources.yaml records what the publisher says, found by the resolver and
+# never edited to suit us. This file records the decision taken about those
+# facts, which is a different question and belongs in a different file.
+#
+# Eighty eight of the hundred and one papers here resolve to restricted, and
+# they resolve that way because only seventeen of them state a licence
+# anywhere a resolver can read it. Restricted mostly means nobody told us.
+# Published by licence, that left ninety papers as a title, an author list
+# and a capped abstract, which is a reading list and not a corpus.
+#
+# So this corpus publishes every paper in full. The licence each paper
+# carries is still written down next door, unchanged, and anybody who wants
+# the cautious behaviour back deletes this file.
+#
+# This does not touch the rule about PDFs. No PDF is committed here under any
+# licence and under any policy, and audit rule S03 asks git rather than
+# trusting .gitignore.
+body: true
+note: every paper in full, decided 2026-09-15, because publishing by licence left ninety of a hundred and one papers as front matter only
