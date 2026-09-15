@@ -12,14 +12,14 @@ figures:
       figure: f01
       number: "1"
       page: 1
-      bbox: [75.12, 246.72, 527.28, 402.48]
+      bbox: [352.56, 264.12, 520.8, 388.08]
       caption: 'Figure 1: P4 is a language to configure switches.'
-      sha256: a00caf07419f638f76ab65398c16f4a2f0cb4e0fb7c1364ebd5cc8821934c446
-      method: vector
-      page_fraction: 0.15
-      width: 1884
-      height: 649
-      bytes: 271347
+      sha256: 38d86dbc79530baa1fc2abf8278c60cb2e1cd733ed161f588e040c487442543c
+      method: raster
+      page_fraction: 0.04
+      width: 1402
+      height: 1033
+      bytes: 205761
     - paper: bosshart-2014-p4
       figure: f02
       number: "2"
@@ -56,6 +56,487 @@ figures:
       width: 1036
       height: 427
       bytes: 65576
+    - paper: brown-2020-gpt3
+      figure: f01
+      number: "1.1"
+      page: 3
+      bbox: [71.88, 148.68, 472.08, 342.72]
+      caption: 'Figure 1.1: Language model meta-learning. During unsupervised pre-training, a language model develops a broad set of skills and pattern recognition abilities. It then uses these abilities at inference time to rapidly adapt to or recognize the desired task. We use the term “in-context learning” to describe the inner loop of this process, which occurs within the forward-pass upon each sequence. The sequences in this diagram are not intended to be representative of the data a model would see during pre-training, but are intended to show that there are sometimes repeated sub-tasks embedded within a single sequence.'
+      sha256: 13e0d1b622c402869f316ac1e7a07599ff1d1d89203105bac0cc2eee9c4eaabb
+      method: raster
+      page_fraction: 0.16
+      width: 3335
+      height: 1617
+      bytes: 181876
+    - paper: brown-2020-gpt3
+      figure: f02
+      number: "1.2"
+      page: 4
+      bbox: [118.32, 517.92, 492.96, 718.8]
+      caption: 'Figure 1.2: Larger models make increasingly efficient use of in-context information. We show in-context learning performance on a simple task requiring the model to remove random symbols from a word, both with and without a natural language task description (see Sec. 3.9.2). The steeper “in-context learning curves” for large models demonstrate improved ability to learn a task from contextual information. We see qualitatively similar behavior across a wide range of tasks.'
+      sha256: 629ee03c88bb86518bbca1425be344e26e60b21c775e9e7a35b599b2e057b29c
+      method: raster
+      page_fraction: 0.16
+      width: 3122
+      height: 1674
+      bytes: 214709
+    - paper: brown-2020-gpt3
+      figure: f03
+      number: "1.3"
+      page: 5
+      bbox: [141.99, 518.06, 469.58, 720]
+      caption: 'Figure 1.3: Aggregate performance for all 42 accuracy-denominated benchmarks While zero-shot performance improves steadily with model size, few-shot performance increases more rapidly, demonstrating that larger models are more proficient at in-context learning. See Figure 3.8 for a more detailed analysis on SuperGLUE, a standard NLP benchmark suite.'
+      sha256: 7ece61c5ff88e942aef686b5db762b40b396506dda93796c3688221b8914be30
+      method: raster
+      page_fraction: 0.14
+      scale: 0.84
+      width: 1142
+      height: 704
+      bytes: 462739
+    - paper: brown-2020-gpt3
+      figure: f04
+      number: "2.1"
+      page: 7
+      bbox: [118.32, 390.36, 493.68, 719.4]
+      caption: 'Figure 2.1: Zero-shot, one-shot and few-shot, contrasted with traditional fine-tuning. The panels above show four methods for performing a task with a language model – fine-tuning is the traditional method, whereas zero-, one-, and few-shot, which we study in this work, require the model to perform the task with only forward passes at test time. We typically present the model with a few dozen examples in the few shot setting. Exact phrasings for all task descriptions, examples and prompts can be found in Appendix G.'
+      sha256: 89cb19bae1bece68db151aed24120d3411fc73a074322c7e3843c8e51761b361
+      method: raster
+      page_fraction: 0.25
+      width: 3128
+      height: 2742
+      bytes: 413196
+    - paper: brown-2020-gpt3
+      figure: f05
+      number: "2.2"
+      page: 9
+      bbox: [96.38, 486.25, 516.88, 718.88]
+      caption: 'Figure 2.2: Total compute used during training. Based on the analysis in Scaling Laws For Neural Language Models [KMH + 20] we train much larger models on many fewer tokens than is typical. As a consequence, although GPT-3 3B is almost 10x larger than RoBERTa-Large (355M params), both models took roughly 50 petaflop/s-days of compute during pre-training. Methodology for these calculations can be found in Appendix D.'
+      sha256: b4fc9933781e2a0a1e12c631f7ee834b318a3f2936de54562ceeb86066e78546
+      method: raster
+      page_fraction: 0.2
+      width: 3364
+      height: 1861
+      bytes: 100321
+    - paper: brown-2020-gpt3
+      figure: f06
+      number: "3.1"
+      page: 11
+      bbox: [166.13, 485.01, 457.82, 708.25]
+      caption: 'Figure 3.1: Smooth scaling of performance with compute. Performance (measured in terms of cross-entropy validation loss) follows a power-law trend with the amount of compute used for training. The power-law behavior observed in [KMH + 20] continues for an additional two orders of magnitude with only small deviations from the predicted curve. For this figure, we exclude embedding parameters from compute and parameter counts.'
+      sha256: 3e665350f4f152c57558d6e7cbb468e6bdc12b30f1b94e9aad7019179300a7ad
+      method: raster
+      page_fraction: 0.13
+      width: 2135
+      height: 1634
+      bytes: 331653
+    - paper: brown-2020-gpt3
+      figure: f07
+      number: "3.2"
+      page: 12
+      bbox: [139.68, 349.44, 465.6, 559.68]
+      caption: 'Figure 3.2: On LAMBADA, the few-shot capability of language models results in a strong boost to accuracy. GPT-3 2.7B outperforms the SOTA 17B parameter Turing-NLG [Tur20] in this setting, and GPT-3 175B advances the state of the art by 18%. Note zero-shot uses a different format from one-shot and few-shot as described in the text.'
+      sha256: 62fc86225bf0feb762e3d2c564fb0894a4b66656f84633ea66fbe7edbee13a4a
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 876
+      bytes: 167908
+    - paper: brown-2020-gpt3
+      figure: f08
+      number: "3.3"
+      page: 14
+      bbox: [139.68, 503.28, 465.6, 713.28]
+      caption: 'Figure 3.3: On TriviaQA GPT3’s performance grows smoothly with model size, suggesting that language models continue to absorb knowledge as their capacity increases. One-shot and few-shot performance make significant gains over zero-shot behavior, matching and exceeding the performance of the SOTA fine-tuned open-domain model, RAG [LPP + 20]'
+      sha256: 98276a22532ffb9e4c51d8fd6cf6a271156a38f333f1e7f35f802e70447b413f
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 875
+      bytes: 175113
+    - paper: brown-2020-gpt3
+      figure: f09
+      number: "3.4"
+      page: 15
+      bbox: [140.4, 155.52, 465.6, 365.76]
+      caption: 'Figure 3.4: Few-shot translation performance on 6 language pairs as model capacity increases. There is a consistent trend of improvement across all datasets as the model scales, and as well as tendency for translation into English to be stronger than translation from English.'
+      sha256: 5da5bf4a19a69178505eefab287c6396b23a9e818f0f045fc13ebc462f1e9ea9
+      method: raster
+      page_fraction: 0.14
+      width: 1355
+      height: 876
+      bytes: 246113
+    - paper: brown-2020-gpt3
+      figure: f10
+      number: "3.5"
+      page: 16
+      bbox: [139.68, 367.2, 465.6, 577.44]
+      caption: 'Figure 3.5: Zero-, one-, and few-shot performance on the adversarial Winogrande dataset as model capacity scales. Scaling is relatively smooth with the gains to few-shot learning increasing with model size, and few-shot GPT-3 175B is competitive with a fine-tuned RoBERTA-large.'
+      sha256: 23d6d83898a4b6fc3e65f1f5085f29453cd721003bf1d319bae11b67c813de21
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 876
+      bytes: 191236
+    - paper: brown-2020-gpt3
+      figure: f11
+      number: "3.6"
+      page: 17
+      bbox: [139.68, 364.8, 465.6, 575.04]
+      caption: 'Figure 3.6: GPT-3 results on PIQA in the zero-shot, one-shot, and few-shot settings. The largest model achieves a score on the development set in all three conditions that exceeds the best recorded score on the task.'
+      sha256: 72a4ef311ba4dff0559b333a359631169974edc08c7158ddcbcd6af9bb0d0512
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 876
+      bytes: 156032
+    - paper: brown-2020-gpt3
+      figure: f12
+      number: "3.7"
+      page: 19
+      bbox: [139.68, 447.6, 465.6, 657.6]
+      caption: 'Figure 3.7: GPT-3 results on CoQA reading comprehension task. GPT-3 175B achieves 85 F1 in the few-shot setting, only a few points behind measured human performance and state-of-the-art fine-tuned models. Zero-shot and one-shot performance is a few points behind, with the gains to few-shot being largest for bigger models.'
+      sha256: 2284aed9567a148e387ec6d75f58c10548e50d4b820b4578f73f32e7f8f52bf5
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 875
+      bytes: 163085
+    - paper: brown-2020-gpt3
+      figure: f13
+      number: "3.8"
+      page: 20
+      bbox: [76.09, 509.02, 535.44, 716.09]
+      caption: 'Figure 3.8: Performance on SuperGLUE increases with model size and number of examples in context. A value of K = 32 means that our model was shown 32 examples per task, for 256 examples total divided across the 8 tasks in SuperGLUE. We report GPT-3 values on the dev set, so our numbers are not directly comparable to the dotted reference lines (our test set results are in Table 3.8). The BERT-Large reference model was fine-tuned on the SuperGLUE training set (125K examples), whereas BERT++ was first fine-tuned on MultiNLI (392K examples) and SWAG (113K examples) before further fine-tuning on the SuperGLUE training set (for a total of 630K fine-tuning examples). We find the difference in performance between the BERT-Large and BERT++ to be roughly equivalent to the difference between GPT-3 with one example per context versus eight examples per context.'
+      sha256: b79562e1d0251a3935bc01e610ad0b4b0d9c6f93fae3e8e3eb6a938779b0286a
+      method: raster
+      page_fraction: 0.2
+      width: 2469
+      height: 1113
+      bytes: 301728
+    - paper: brown-2020-gpt3
+      figure: f14
+      number: "3.9"
+      page: 21
+      bbox: [139.68, 493.44, 465.6, 703.44]
+      caption: 'Figure 3.9: Performance of GPT-3 on ANLI Round 3. Results are on the dev-set, which has only 1500 examples and therefore has high variance (we estimate a standard deviation of 1.2%). We find that smaller models hover around random chance, while few-shot GPT-3 175B closes almost half the gap from random chance to SOTA. Results for ANLI rounds 1 and 2 are shown in the appendix.'
+      sha256: 7b44af94ee7196e3c534588b9eb38419de38c01c028cbe190b1dd8e5973cc6e5
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 875
+      bytes: 197377
+    - paper: brown-2020-gpt3
+      figure: f15
+      number: "3.10"
+      page: 22
+      bbox: [135.12, 493.44, 465.6, 703.44]
+      caption: 'Figure 3.10: Results on all 10 arithmetic tasks in the few-shot settings for models of different sizes. There is a significant jump from the second largest model (GPT-3 13B) to the largest model (GPT-3 175), with the latter being able to reliably accurate 2 digit arithmetic, usually accurate 3 digit arithmetic, and correct answers a significant fraction of the time on 4-5 digit arithmetic, 2 digit multiplication, and compound operations. Results for one-shot and zero-shot are shown in the appendix.'
+      sha256: cdfb94702dabb6a4131686500b9b37b4a3b1bb07a1023869b0e58ce847e06eec
+      method: raster
+      page_fraction: 0.14
+      width: 1377
+      height: 875
+      bytes: 293216
+    - paper: brown-2020-gpt3
+      figure: f16
+      number: "3.11"
+      page: 24
+      bbox: [139.68, 493.44, 465.6, 703.44]
+      caption: 'Figure 3.11: Few-shot performance on the five word scrambling tasks for different sizes of model. There is generally smooth improvement with model size although the random insertion task shows an upward slope of improvement with the 175B model solving the task the majority of the time. Scaling of one-shot and zero-shot performance is shown in the appendix. All tasks are done with K = 100.'
+      sha256: 2f69baccaac2453d556dd1aba1496565feef2edddedb2abf8abde30b4d4b8bbe
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 875
+      bytes: 201995
+    - paper: brown-2020-gpt3
+      figure: f17
+      number: "3.12"
+      page: 25
+      bbox: [139.68, 493.44, 465.6, 703.44]
+      caption: 'Figure 3.12: Zero-, one-,and few-shot performance on SAT analogy tasks, for different sizes of model. The largest model achieves 65% accuracy in the few-shot setting, and also demonstrates significant gains to in-context learning which are not present in smaller models.'
+      sha256: 7ef1086247a6d53dffe9465c41d393f69b0a5b6a6b765435a768f66ca6749a6b
+      method: raster
+      page_fraction: 0.14
+      width: 1358
+      height: 875
+      bytes: 158703
+    - paper: brown-2020-gpt3
+      figure: f18
+      number: "3.13"
+      page: 27
+      bbox: [75.84, 377.52, 536.64, 677.28]
+      caption: 'Figure 3.13: People’s ability to identify whether news articles are model-generated (measured by the ratio of correct assignments to non-neutral assignments) decreases as model size increases. Accuracy on the outputs on the deliberatelybad control model (an unconditioned GPT-3 Small model with higher output randomness) is indicated with the dashed line at the top, and the random chance (50%) is indicated with the dashed line at the bottom. Line of best fit is a power law with 95% confidence intervals.'
+      sha256: 42f80e275dd8df2061535d481311228ff0062ac97bc8a895c95bbb2dac55c3fa
+      method: raster
+      page_fraction: 0.28
+      width: 1920
+      height: 1249
+      bytes: 218255
+    - paper: brown-2020-gpt3
+      figure: f19
+      number: "3.14"
+      page: 28
+      bbox: [84.24, 425.52, 527.76, 662.16]
+      caption: 'Figure 3.14: The GPT-3 generated news article that humans had the greatest difficulty distinguishing from a human written article (accuracy: 12%).'
+      sha256: a503791815cd7ebc3c71c9a86730836931e6b34d76f416090c228798e7fe757a
+      method: vector
+      page_fraction: 0.22
+      width: 1848
+      height: 986
+      bytes: 94364
+    - paper: brown-2020-gpt3
+      figure: f20
+      number: "3.15"
+      page: 28
+      bbox: [84.24, 114, 527.76, 318]
+      caption: 'Figure 3.15: The GPT-3 generated news article that humans found the easiest to distinguish from a human written article (accuracy: 61%).'
+      sha256: eae2356c2f6e3ecebcb5845e8580aea1e3696d8f6d49dd32415a9f1638a54a1e
+      method: vector
+      page_fraction: 0.19
+      width: 1848
+      height: 850
+      bytes: 77669
+    - paper: brown-2020-gpt3
+      figure: f21
+      number: "3.16"
+      page: 29
+      bbox: [72.48, 438.48, 539.28, 720.72]
+      caption: 'Figure 3.16: Representative GPT-3 completions for the few-shot task of using a new word in a sentence. Boldface is GPT-3’s completions, plain text is human prompts. In the first example both the prompt and the completion are provided by a human; this then serves as conditioning for subsequent examples where GPT-3 receives successive additional prompts and provides the completions. Nothing task-specific is provided to GPT-3 other than the conditioning shown here.'
+      sha256: 43ffa85a01b6664a24dc7c7271fac15c14b471eb8ab7ca994b851da0713f1102
+      method: vector
+      page_fraction: 0.27
+      width: 1945
+      height: 1176
+      bytes: 201603
+    - paper: brown-2020-gpt3
+      figure: f22
+      number: "4.1"
+      page: 31
+      bbox: [119.04, 512.46, 492.65, 720]
+      caption: 'Figure 4.1: GPT-3 Training Curves We measure model performance during training on a deduplicated validation split of our training distribution. Though there is some gap between training and validation performance, the gap grows only minimally with model size and training time, suggesting that most of the gap comes from a difference in difficulty rather than overfitting.'
+      sha256: 3078b9297b4fbe9dda9ed1ce348e01199ce0f02afb941dafabe33507630703f0
+      method: raster
+      page_fraction: 0.16
+      width: 1811
+      height: 1006
+      bytes: 416926
+    - paper: brown-2020-gpt3
+      figure: f23
+      number: "4.2"
+      page: 32
+      bbox: [101.04, 542.64, 513.36, 720.96]
+      caption: 'Figure 4.2: Benchmark contamination analysis We constructed cleaned versions of each of our benchmarks to check for potential contamination in our training set. The x-axis is a conservative lower bound for how much of the dataset is known with high confidence to be clean, and the y-axis shows the difference in performance when evaluating only on the verified clean subset. Performance on most benchmarks changed negligibly, but some were flagged for further review. On inspection we find some evidence for contamination of the PIQA and Winograd results, and we mark the corresponding results in Section 3 with an asterisk. We find no evidence that other benchmarks are affected.'
+      sha256: 06595d83be077cfd238bda2be08ffc143b714a0f5fedf6b131e7b42776f8f522
+      method: raster
+      page_fraction: 0.15
+      width: 1718
+      height: 743
+      bytes: 178194
+    - paper: brown-2020-gpt3
+      figure: f24
+      number: "6.1"
+      page: 38
+      bbox: [172.68, 536.57, 419.38, 707.84]
+      caption: 'Figure 6.1: Racial Sentiment Across Models'
+      sha256: 02d0189ea712e52fed448616cef8f3d978dd6d328fd430140fa69619b480f897
+      method: raster
+      page_fraction: 0.09
+      width: 1583
+      height: 1099
+      bytes: 217841
+    - paper: brown-2020-gpt3
+      figure: f25
+      number: E.1
+      page: 47
+      bbox: [146.16, 288.24, 465.6, 518.16]
+      caption: 'Figure E.1: Participants spend more time trying to identify whether each news article is machine generated as model size increases. Duration on the control model is indicated with the dashed line. Line of best fit is a linear model on a log scale with 95% confidence intervals.'
+      sha256: 2213926791d5aeb5c7623f05b541ed413860d59545cf1fc116359fa7e1118994
+      method: raster
+      page_fraction: 0.15
+      width: 1331
+      height: 958
+      bytes: 148188
+    - paper: brown-2020-gpt3
+      figure: f26
+      number: G.5
+      page: 52
+      bbox: [170.64, 584.88, 540.72, 627.36]
+      caption: 'Figure G.5: Formatted dataset example for COPA'
+      sha256: 9bf9b2c4235434bfd4ad8b5c093a9e3c03055fbbe8d66dbe35821036ac8355c1
+      method: vector
+      page_fraction: 0.03
+      width: 1542
+      height: 177
+      bytes: 24044
+    - paper: brown-2020-gpt3
+      figure: f27
+      number: G.34
+      page: 59
+      bbox: [258, 98.4, 540.72, 190.56]
+      caption: 'Figure G.34: Formatted dataset example for TriviaQA. TriviaQA allows for multiple valid completions.'
+      sha256: e3f75ce73498331d8a7157b53e0692240134df8fdc56629bc5ca8830fc395e10
+      method: vector
+      page_fraction: 0.05
+      width: 1178
+      height: 384
+      bytes: 10837
+    - paper: brown-2020-gpt3
+      figure: f28
+      number: G.35
+      page: 60
+      bbox: [175.44, 659.28, 540.72, 711.84]
+      caption: 'Figure G.35: Formatted dataset example for WebQA'
+      sha256: 061fe3fee7ef234315d86e499e6ce8a751e4f4af6508bb692ce577f3e9d70e11
+      method: vector
+      page_fraction: 0.04
+      width: 1522
+      height: 219
+      bytes: 21035
+    - paper: brown-2020-gpt3
+      figure: f29
+      number: G.37
+      page: 60
+      bbox: [175.44, 475.92, 540.72, 508.56]
+      caption: 'Figure G.37: Formatted dataset example for En→De'
+      sha256: 837b6bddbce460a143f4d86deae78382ec0a88b25e2d7dbb708be735a08f638e
+      method: vector
+      page_fraction: 0.02
+      width: 1522
+      height: 136
+      bytes: 28187
+    - paper: brown-2020-gpt3
+      figure: f30
+      number: H.1
+      page: 64
+      bbox: [71.52, 297.12, 541.92, 694.32]
+      caption: 'Figure H.1: All results for all SuperGLUE tasks.'
+      sha256: f609ce6cd81d33002c73c2de6d283c93c9c65a446cdccba726e251f341c693c1
+      method: vector
+      page_fraction: 0.39
+      width: 1960
+      height: 1655
+      bytes: 386014
+    - paper: brown-2020-gpt3
+      figure: f31
+      number: H.2
+      page: 64
+      bbox: [71.56, 115.79, 262.14, 219.67]
+      caption: 'Figure H.2: Results for SAT task.'
+      sha256: b368cd57a3537dcf285ef210240cdc407407424392d74b4d9568eae335549f5d
+      method: raster
+      page_fraction: 0.04
+      width: 1297
+      height: 707
+      bytes: 65317
+    - paper: brown-2020-gpt3
+      figure: f32
+      number: H.3
+      page: 64
+      bbox: [261.84, 115.44, 541.92, 220.08]
+      caption: 'Figure H.3: All results for all Winograd tasks.'
+      sha256: c2bd1abf16ad474d7e5af22341f4cc867358b36dff3da190ed8fdb1783a3747c
+      method: vector
+      page_fraction: 0.06
+      width: 1167
+      height: 436
+      bytes: 64430
+    - paper: brown-2020-gpt3
+      figure: f33
+      number: H.4
+      page: 65
+      bbox: [71.52, 297.36, 541.92, 694.56]
+      caption: 'Figure H.4: All results for all Arithmetic tasks.'
+      sha256: 7de59627b3495b02c799b9ecb5cf2717c423145d4a31b4c1674c18c91a948c04
+      method: vector
+      page_fraction: 0.39
+      width: 1960
+      height: 1655
+      bytes: 347201
+    - paper: brown-2020-gpt3
+      figure: f34
+      number: H.5
+      page: 65
+      bbox: [71.52, 115.44, 541.92, 220.32]
+      caption: 'Figure H.5: All results for all Cloze and Completion tasks.'
+      sha256: 1179cd7cf1b159bf2c753553354c5f7f23348d1fad66afad2eeda2b335c76d71
+      method: vector
+      page_fraction: 0.1
+      width: 1960
+      height: 437
+      bytes: 105950
+    - paper: brown-2020-gpt3
+      figure: f35
+      number: H.6
+      page: 66
+      bbox: [71.52, 600.48, 541.92, 716.16]
+      caption: 'Figure H.6: All results for all Common Sense Reasoning tasks.'
+      sha256: 5d7215d42f6b2cf6a8e4ebff4698715f072e67c5ebe61af3330f624859272998
+      method: vector
+      page_fraction: 0.11
+      width: 1960
+      height: 482
+      bytes: 95966
+    - paper: brown-2020-gpt3
+      figure: f36
+      number: H.7
+      page: 66
+      bbox: [71.52, 462, 541.92, 566.88]
+      caption: 'Figure H.7: All results for all QA tasks.'
+      sha256: 80a84b818c7f5e01e09caca2ba9c62aa544f375910da57add8d807c0111dff97
+      method: vector
+      page_fraction: 0.1
+      width: 1960
+      height: 437
+      bytes: 102817
+    - paper: brown-2020-gpt3
+      figure: f37
+      number: H.8
+      page: 66
+      bbox: [71.52, 226.32, 541.92, 428.64]
+      caption: 'Figure H.8: All results for all Reading Comprehension tasks.'
+      sha256: c6854d829d9ed4a5e1932e2c59dd3ed0c1d5321c3e51525d7b7667319624d195
+      method: vector
+      page_fraction: 0.2
+      width: 1960
+      height: 843
+      bytes: 171395
+    - paper: brown-2020-gpt3
+      figure: f38
+      number: H.9
+      page: 66
+      bbox: [71.52, 93.6, 541.92, 192.96]
+      caption: 'Figure H.9: All results for all ANLI rounds.'
+      sha256: 2cad496d126d75643331250ed4fb2fbc65dec9c0e91a82640ef36e3bcc431dac
+      method: vector
+      page_fraction: 0.1
+      width: 1960
+      height: 414
+      bytes: 106966
+    - paper: brown-2020-gpt3
+      figure: f39
+      number: H.10
+      page: 67
+      bbox: [71.52, 516.48, 541.92, 718.8]
+      caption: 'Figure H.10: All results for all Scramble tasks.'
+      sha256: fa47750c8ad81e22cda46da42daac1b7e6579ca51ac2dbcccfc1fd3f67cffa05
+      method: vector
+      page_fraction: 0.2
+      width: 1960
+      height: 843
+      bytes: 188989
+    - paper: brown-2020-gpt3
+      figure: f40
+      number: H.11
+      page: 67
+      bbox: [71.52, 90.96, 541.92, 488.16]
+      caption: 'Figure H.11: All results for all Translation tasks.'
+      sha256: a1ecdb9f05b9d1d1983b186926b087c4c0e15ceca05b3067c9fe9f34b4a3f737
+      method: vector
+      page_fraction: 0.39
+      width: 1960
+      height: 1655
+      bytes: 396091
     - paper: corbett-2012-spanner
       figure: f01
       number: "1"
@@ -116,30 +597,66 @@ figures:
       width: 772
       height: 600
       bytes: 63418
+    - paper: corbett-2012-spanner
+      figure: f06
+      number: "6"
+      page: 11
+      bbox: [72, 612.24, 291.6, 722.4]
+      caption: 'Figure 6: Distribution of TrueTime values, sampled right after timeslave daemon polls the time masters. 90th, 99th, and 99.9th percentiles are graphed.'
+      sha256: 726c3544fffcf0bf0c82570e2f8282f0b895bfa4480405ad7cdc474524d96a7e
+      method: vector
+      page_fraction: 0.05
+      width: 915
+      height: 459
+      bytes: 51747
     - paper: dean-2004-mapreduce
       figure: f01
-      number: "2"
-      page: 8
-      bbox: [333.12, 619.68, 521.76, 662.64]
-      caption: 'Figure 2: Data transfer rate over time'
-      sha256: 535d02505391f925b7002735643cb5feadcb61dc99ef0625805746471bb47b6f
+      number: "1"
+      page: 3
+      bbox: [106.8, 441.84, 511.44, 720]
+      caption: 'Figure 1: Execution overview'
+      sha256: 046d0b9254a998071e62232e92f94b9cdeea75d8db97555c9afbd6ed71e1ab69
       method: vector
-      page_fraction: 0.02
-      width: 786
-      height: 179
-      bytes: 11658
+      page_fraction: 0.23
+      width: 1686
+      height: 1159
+      bytes: 153990
     - paper: dean-2004-mapreduce
       figure: f02
+      number: "2"
+      page: 8
+      bbox: [332.88, 619.68, 521.76, 720.24]
+      caption: 'Figure 2: Data transfer rate over time'
+      sha256: a5857cd4cd5c032bcc9091fa1db06488373b49bbea42cd316237c07eb1444c56
+      method: vector
+      page_fraction: 0.04
+      width: 787
+      height: 419
+      bytes: 29907
+    - paper: dean-2004-mapreduce
+      figure: f03
+      number: "3"
+      page: 9
+      bbox: [76.08, 470.16, 480, 722.64]
+      caption: 'Figure 3: Data transfer rates over time for different executions of the sort program'
+      sha256: ce1eecabe5bf5b95a9a828522524932dcf35e6e91c70f02b280da4cf76064768
+      method: vector
+      page_fraction: 0.21
+      width: 1683
+      height: 1052
+      bytes: 116749
+    - paper: dean-2004-mapreduce
+      figure: f04
       number: "4"
       page: 10
-      bbox: [342.48, 552.48, 512.64, 620.4]
+      bbox: [342.48, 552.48, 512.64, 723.36]
       caption: 'Figure 4: MapReduce instances over time'
-      sha256: 1b8ab1342d29f6be15f990988d5a8c454e48c5bb5b01cd19a619dd5296bc4a14
+      sha256: 7d8ea3e59047ff7df619acd5b88a3b33ab52df1ba94fb314819562c813289e07
       method: vector
-      page_fraction: 0.02
+      page_fraction: 0.06
       width: 709
-      height: 283
-      bytes: 22482
+      height: 712
+      bytes: 41399
     - paper: devlin-2018-bert
       figure: f01
       number: "1"
@@ -180,26 +697,26 @@ figures:
       figure: f04
       number: "4"
       page: 15
-      bbox: [118.32, 409.89, 425.28, 462.93]
+      bbox: [112.56, 409.89, 483.6, 775.65]
       caption: 'Figure 4: Illustrations of Fine-tuning BERT on Different Tasks.'
-      sha256: 86d3b87c0f38c39981c3dfbbfbd8f6f47f93eb3a8eca6e44a630e578eacf6ab5
+      sha256: 2151ddd5175a682c32d32e83225e5ceeec4897a69906df70f1458c69cd4fd0b7
       method: vector
-      page_fraction: 0.03
-      width: 1279
-      height: 221
-      bytes: 26319
+      page_fraction: 0.27
+      width: 1546
+      height: 1524
+      bytes: 293007
     - paper: devlin-2018-bert
       figure: f05
       number: "5"
       page: 16
-      bbox: [74.64, 139.65, 270.72, 270.21]
+      bbox: [72, 139.65, 291.12, 628.29]
       caption: 'Figure 5: Ablation over number of training steps. This shows the MNLI accuracy after fine-tuning, starting from model parameters that have been pre-trained for k steps. The x-axis is the value of k.'
-      sha256: d08e7b42f0bb41cd03bb46bad0e0a68d8165084920ff47b869102eff50497af6
+      sha256: 6d7bd235a1ea637b8f3d0e4430929a927d6f28a9c4b379abc2aea45e06efa0dd
       method: vector
-      page_fraction: 0.05
-      width: 817
-      height: 544
-      bytes: 49405
+      page_fraction: 0.21
+      width: 913
+      height: 2036
+      bytes: 256172
     - paper: goodfellow-2014-gan
       figure: f01
       number: "1"
@@ -239,6 +756,18 @@ figures:
       bytes: 28656
     - paper: he-2016-resnet
       figure: f01
+      number: "1"
+      page: 1
+      bbox: [308.64, 489.6, 544.8, 567.84]
+      caption: Figure 1. Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer “plain” networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig. 4.
+      sha256: a4831c12f9fba62d298ae4b768a054239b8d47eaf105fc0f123599f21c524398
+      method: vector
+      page_fraction: 0.04
+      width: 984
+      height: 326
+      bytes: 44119
+    - paper: he-2016-resnet
+      figure: f02
       number: "2"
       page: 2
       bbox: [97.44, 636.72, 232.32, 712.32]
@@ -250,11 +779,23 @@ figures:
       height: 315
       bytes: 25309
     - paper: he-2016-resnet
-      figure: f02
+      figure: f03
+      number: "3"
+      page: 4
+      bbox: [50.16, 173.52, 285.6, 714.48]
+      caption: 'Figure 3. Example network architectures for ImageNet. Left: the 18-layer plain net is of a similar form. See Table 1 for de-'
+      sha256: 95f29ff72c72478825a28baabc911dec57406455c55daf9a92dba2c423d28e43
+      method: vector
+      page_fraction: 0.26
+      width: 981
+      height: 2254
+      bytes: 311486
+    - paper: he-2016-resnet
+      figure: f04
       number: "4"
       page: 5
       bbox: [85.68, 402.72, 510, 539.76]
-      caption: 'Figure 4. Training on ImageNet. Thin curves denote training error, and bold curves denote validation error of the center crops. Left: plain networks of 18 and 34 layers. Right: ResNets of 18 and 34 layers. In this plot, the residual networks have no extra parameter compared to their plain counterparts.'
+      caption: 'Figure 4. Training on ImageNet. Thin curves denote training error, and bold curves denote validation error of the center crops. Left: plain networks of 18 and 34 layers. Right: ResNets of 18 and 34 layers. In this plot, the residual networks have no extra parameter compared to'
       sha256: 84e3738c8ef4053eef46799ebd994e533801404a23c8eefb06b48c3d847ad9b4
       method: vector
       page_fraction: 0.12
@@ -262,17 +803,176 @@ figures:
       height: 571
       bytes: 84345
     - paper: he-2016-resnet
-      figure: f03
+      figure: f05
       number: "5"
       page: 6
-      bbox: [334.32, 649.2, 534.72, 720.24]
+      bbox: [243.12, 649.2, 534.72, 720.72]
       caption: 'Figure 5. A deeper residual function F for ImageNet. Left: a building block (on 56×56 feature maps) as in Fig. 3 for ResNet-34. Right: a “bottleneck” building block for ResNet-50/101/152.'
-      sha256: e7b9a9e3a91b25802171429ec819cfd8735c5c75a2792522b3ff81049412a921
+      sha256: 877428d847429d45ef3dfabed4c79c32cee22de355f7b574080d7a2890e4c42c
       method: vector
-      page_fraction: 0.03
-      width: 835
-      height: 296
-      bytes: 24401
+      page_fraction: 0.04
+      width: 1215
+      height: 298
+      bytes: 26028
+    - paper: he-2016-resnet
+      figure: f06
+      number: "6"
+      page: 8
+      bbox: [99.84, 619.2, 495.12, 720]
+      caption: 'Figure 6. Training on CIFAR-10. Dashed lines denote training error, and bold lines denote testing error. Left: plain networks. The error'
+      sha256: 181b244713e2796f9656ab4c96ec56b69aa1855506051044237008591517b666
+      method: vector
+      page_fraction: 0.08
+      width: 1647
+      height: 420
+      bytes: 135046
+    - paper: he-2016-resnet
+      figure: f07
+      number: "7"
+      page: 8
+      bbox: [61.44, 463.44, 274.8, 580.08]
+      caption: 'Figure 7. Standard deviations (std) of layer responses on CIFAR-10. The responses are the outputs of each 3×3 layer, after BN and before nonlinearity. Top: the layers are shown in their original order. Bottom: the responses are ranked in descending order.'
+      sha256: 65d4d3853a036ba659f9ccbddc7162335b8a35a829d076617315290963328301
+      method: vector
+      page_fraction: 0.05
+      width: 889
+      height: 486
+      bytes: 66977
+    - paper: jouppi-2017-tpu
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [54.71, 525.15, 303.66, 700.47]
+      caption: Figure 1. TPU ​ Block Diagram. The main computation part is the yellow Matrix Multiply unit in the upper right hand corner. Its inputs are the blue Weight FIFO and the blue Unified Buffer (UB) and its output is the blue Accumulators (Acc). The yellow Activation Unit performs the nonlinear functions on the Acc, which go to the UB.
+      sha256: 1e379aba05e5e9f8bc2c5958fbc0c52f6f2e0f7dd6fdee2d1e6eab0e1cfff92d
+      method: raster
+      page_fraction: 0.09
+      scale: 0.78
+      width: 1224
+      height: 862
+      bytes: 459981
+    - paper: jouppi-2017-tpu
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [305.28, 524.88, 531.84, 702.72]
+      caption: Figure 2. Floor ​ Plan of TPU die. The shading follows Figure 1. The light (blue) data buffers are 37% of the die, the light (yellow) compute is 30%, the medium (green) I/O is 10%, and the dark (red) control is just 2%. Control is much larger (and much more difficult to design) in a CPU or GPU
+      sha256: 25089e1c9a7ccb40c01aa23852fadb3a94640a282a2d6de272d53573d16ff646
+      method: raster
+      page_fraction: 0.08
+      width: 944
+      height: 741
+      bytes: 383835
+    - paper: jouppi-2017-tpu
+      figure: f03
+      number: "3"
+      page: 4
+      bbox: [55.64, 121.45, 298.18, 268]
+      caption: Figure 3. TPU ​ Printed Circuit Board. It can be inserted in the slot for an SATA disk in a server, but the card uses PCIe Gen3 x16.
+      sha256: aa542c3bcef94e1ea3b7087b415ee33b336d2b24f44b00bcb00d0517707e854a
+      method: raster
+      page_fraction: 0.07
+      scale: 0.41
+      width: 667
+      height: 403
+      bytes: 511713
+    - paper: jouppi-2017-tpu
+      figure: f04
+      number: "4"
+      page: 4
+      bbox: [299.17, 121.66, 556.04, 308.44]
+      caption: Figure 4. Systolic ​ data flow of the Matrix Multiply Unit. Software has the illusion that each 256B input is read at once, and they instantly
+      sha256: 7b9bb737f202e1634c0fcdabfb3c281e8bc4d968532aafc992bd23a235e7f163
+      method: raster
+      page_fraction: 0.1
+      width: 1081
+      height: 786
+      bytes: 160574
+    - paper: jouppi-2017-tpu
+      figure: f05
+      number: "5"
+      page: 6
+      bbox: [107.52, 361.92, 499.68, 677.52]
+      caption: Figure 5. TPU ​ (die) roofline. Its ridge point is far to the right at 1350 operations per byte of weight memory fetched.
+      sha256: 71ad957d478fa35d408f6aa1dbbced4982b9b5533d93f2dca8dae972c4e00192
+      method: raster
+      page_fraction: 0.26
+      width: 1634
+      height: 1315
+      bytes: 414445
+    - paper: jouppi-2017-tpu
+      figure: f06
+      number: "6"
+      page: 7
+      bbox: [98.64, 323.04, 494.88, 514.08]
+      caption: Figure 6. Intel ​ Haswell CPU (die) roofline with its ridge point at 13 operations/byte, which is much further left than in Figure. 5.
+      sha256: 69e71158a6bbc6943487b18cae0baf402f8a50e9773aeb2252993eb003a919cc
+      method: raster
+      page_fraction: 0.16
+      width: 1651
+      height: 796
+      bytes: 236133
+    - paper: jouppi-2017-tpu
+      figure: f07
+      number: "7"
+      page: 7
+      bbox: [109.92, 105.84, 492.24, 282.48]
+      caption: Figure 7.​ NVIDIA K80 GPU die Roofline. The much higher memory bandwidth moves the ridge point to 9 operations per weight byte, which is even further left than in Figure 6. The DNNs are much lower than their Roofline because of response time limits (see Table 4).
+      sha256: 37a7aca39df1aedb47f0296e328ef498a3c4394ec16a07f0cfcf42191cedbc9a
+      method: raster
+      page_fraction: 0.14
+      width: 1593
+      height: 736
+      bytes: 273089
+    - paper: jouppi-2017-tpu
+      figure: f08
+      number: "8"
+      page: 9
+      bbox: [135.36, 421.2, 470.64, 707.04]
+      caption: Figure 8. Figures ​ 5-7 combined into a single log-log graph. Stars are for the TPU, triangles are for the K80, and circles are for Haswell. All TPU stars are at or above the other 2 rooflines.
+      sha256: a9735f8025cf4ca8e4d4c482b54361138f546d4d7eb4e58712fe64f7d656a28a
+      method: raster
+      page_fraction: 0.2
+      width: 1397
+      height: 1191
+      bytes: 424978
+    - paper: jouppi-2017-tpu
+      figure: f09
+      number: "9"
+      page: 9
+      bbox: [103.68, 128.16, 508.8, 357.36]
+      caption: Figure 9. Relative ​ performance/Watt (TDP) of GPU server (blue bar) and TPU server (red bar) to CPU server, and TPU server to GPU server (orange bar). TPU’ is an improved TPU (Sec. 7). The green bar shows its ratio to the CPU server and the lavender bar shows its relation to the GPU server. Total includes host server power, but incremental doesn’t. GM and WM are the geometric and weighted means.
+      sha256: 1562db4ad8a52c82799850b362130f40568c59325e49bbee4f515f73d524b66f
+      method: raster
+      page_fraction: 0.19
+      width: 1688
+      height: 955
+      bytes: 382864
+    - paper: jouppi-2017-tpu
+      figure: f10
+      number: "10"
+      page: 11
+      bbox: [113.46, 447.69, 492.51, 712.72]
+      caption: Figure 10. Watts/die ​ for CNN0 as target platform utilization varies from 0% to 100%. The Total GPU and TPU power are the red and orange lines and their Incremental power are the green and purple lines. (The blue line is power for the Haswell CPU, which by definition is Total power.) A server has 2 CPUs and 8 GPUs or 4 TPUs, so we normalize power by dividing by 2, 8, and 4, respectively.
+      sha256: c74b63dc9d99a4612b6b7efa620925639f184744ff555842d792e9cf066e1f59
+      method: raster
+      page_fraction: 0.21
+      scale: 0.86
+      width: 1353
+      height: 946
+      bytes: 465708
+    - paper: jouppi-2017-tpu
+      figure: f11
+      number: "11"
+      page: 11
+      bbox: [93.6, 134.4, 490.8, 373.2]
+      caption: 'Figure 11. Weighted ​ mean TPU performance as metrics scale from 0.25x to 4x: memory bandwidth, clock rate + accumulators, clock rate, matrix unit dimension + accumulators, and matrix unit dimension. The weighted mean makes it hard see to contributions of individual DNNs, but MLPs and LSTMs improve 3X with 4X memory bandwidth, but get nothing from a higher clock. For CNNs it’s vice versa; 2X for 4X clock, but get little benefit from faster memory. A bigger matrix multiply unit doesn’t help any DNN.'
+      sha256: db5e47e61c62ae4ce4dba0602661fafe5744d817bdf3fe787bd87ffc0e9abb9d
+      method: raster
+      page_fraction: 0.2
+      width: 1655
+      height: 995
+      bytes: 330796
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
