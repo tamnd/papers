@@ -621,7 +621,7 @@ sources:
       fetched: "2026-09-11"
       sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
       pages: 26
-      text_layer: native
+      text_layer: digital
     - id: ritchie-1974-unix
       access: restricted
       url: https://dsf.berkeley.edu/cs262/unix.pdf

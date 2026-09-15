@@ -4,16 +4,16 @@ How much of each paper the corpus publishes.
 
 `full` is a paper whose body is here, section by section. `stub` is the front matter and a short abstract, which is where a paper stops until it is read in full. `none` is a paper the corpus publishes nothing of yet.
 
-101 papers: 13 full, 85 stub, 3 none, which is 13% of the corpus published in full.
+101 papers: 13 full, 84 stub, 4 none, which is 13% of the corpus published in full.
 
 ## Per field
 
 | field | papers | full | stub | none | done |
 | --- | --: | --: | --: | --: | --: |
-| theory | 10 | 1 | 8 | 1 | 10% |
+| theory | 10 | 0 | 8 | 2 | 0% |
 | algorithms | 10 | 0 | 10 | 0 | 0% |
 | languages | 10 | 0 | 10 | 0 | 0% |
-| systems | 13 | 1 | 12 | 0 | 8% |
+| systems | 13 | 2 | 11 | 0 | 15% |
 | networks | 8 | 1 | 7 | 0 | 13% |
 | databases | 12 | 1 | 11 | 0 | 8% |
 | architecture | 7 | 2 | 5 | 0 | 29% |
@@ -22,17 +22,17 @@ How much of each paper the corpus publishes.
 | graphics | 2 | 0 | 2 | 0 | 0% |
 | hci | 2 | 0 | 2 | 0 | 0% |
 | software | 4 | 0 | 4 | 0 | 0% |
-| **all** | 101 | 13 | 85 | 3 | 13% |
+| **all** | 101 | 13 | 84 | 4 | 13% |
 
 ## What the rest is waiting on
 
 | waiting on | papers |
 | --- | --: |
 | waiting on a vision model | 56 |
-| waiting on a layout tool | 27 |
+| waiting on a layout tool | 28 |
 | nothing is known about what may be published from it | 2 |
-| waiting on extraction, which needs no model | 2 |
 | not fetched yet | 1 |
+| waiting on extraction, which needs no model | 1 |
 
 ## Per language
 
@@ -40,10 +40,10 @@ English is extracted and the other three are translated from it. `stale` is a tr
 
 | language | papers | files | stale |
 | --- | --: | --: | --: |
-| en | 98 | 223 | 0 |
-| vi | 98 | 220 | 1 |
-| zh | 30 | 39 | 6 |
-| ja | 31 | 40 | 6 |
+| en | 97 | 216 | 0 |
+| vi | 97 | 215 | 2 |
+| zh | 30 | 39 | 7 |
+| ja | 31 | 40 | 7 |
 
 ## What is left
 
@@ -98,7 +98,6 @@ The 88 papers that are not yet as done as their licence allows, in id order.
 | knuth-1977-kmp | algorithms | restricted | stub | waiting on a vision model |
 | krizhevsky-2012-imagenet | ai-ml | restricted | stub | waiting on a layout tool |
 | lamport-1978-clocks | systems | restricted | stub | waiting on a vision model |
-| lamport-1998-paxos | systems | restricted | stub | waiting on extraction, which needs no model |
 | lattner-2004-llvm | languages | restricted | stub | waiting on a layout tool |
 | lecun-1998-lenet | ai-ml | restricted | stub | waiting on a layout tool |
 | mccabe-1976-complexity | software | restricted | stub | waiting on a vision model |
@@ -114,6 +113,7 @@ The 88 papers that are not yet as done as their licence allows, in id order.
 | patterson-1981-risc | architecture | restricted | stub | waiting on a vision model |
 | phong-1975-illumination | graphics | restricted | stub | waiting on a vision model |
 | rabin-1959-automata | theory | restricted | stub | waiting on a vision model |
+| razborov-1997-naturalproofs | theory | restricted | none | waiting on a layout tool |
 | ritchie-1974-unix | systems | restricted | stub | waiting on a layout tool |
 | rivest-1978-rsa | security | restricted | stub | waiting on a layout tool |
 | rosenblatt-1958-perceptron | ai-ml | unknown | none | nothing is known about what may be published from it |

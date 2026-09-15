@@ -973,6 +973,30 @@ figures:
       width: 1655
       height: 995
       bytes: 330796
+    - paper: lamport-1998-paxos
+      figure: f01
+      number: "1"
+      page: 7
+      bbox: [216, 532.56, 399.84, 674.88]
+      caption: Fig. 1. Paxon manuscript showing a set B, consisting of five ballots, that satisfies conditions B1(B)–B3(B). (Explanatory column headings have been added.)
+      sha256: 09fce2d32ab9c5c31a473a336454e545df633b79ead64100878ddde7454a2fb4
+      method: vector
+      page_fraction: 0.05
+      width: 766
+      height: 593
+      bytes: 29293
+    - paper: lamport-1998-paxos
+      figure: f02
+      number: "2"
+      page: 24
+      bbox: [126, 618.96, 458.64, 673.92]
+      caption: Fig. 2. State machine for simple database.
+      sha256: 82264b72652e8f6d40ca114d067b51b674c2131a3bee279b0ff5e0bbf45137ad
+      method: vector
+      page_fraction: 0.04
+      width: 1386
+      height: 229
+      bytes: 55941
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
