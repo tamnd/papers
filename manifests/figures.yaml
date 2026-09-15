@@ -1094,6 +1094,66 @@ figures:
       width: 1386
       height: 229
       bytes: 55941
+    - paper: lattner-2004-llvm
+      figure: f01
+      number: "2"
+      page: 4
+      bbox: [316.08, 331.44, 562.8, 735.6]
+      caption: 'Figure 2: LLVM code for the C++ example. The handler code specified by invoke executes the destructor.'
+      sha256: 6dbcb2990ce1fb3292bcf5dcbf776f6fe62861c9ede6cc2ce8508421b4dac624
+      method: vector
+      page_fraction: 0.21
+      width: 1028
+      height: 1684
+      bytes: 364515
+    - paper: lattner-2004-llvm
+      figure: f02
+      number: "1"
+      page: 4
+      bbox: [316.08, 604.32, 562.8, 735.6]
+      caption: 'Figure 1: C++ exception handling example'
+      sha256: 1dffd6317d7da101ebc898093be41c8fe897340c10f710d507c60858c92ecea2
+      method: vector
+      page_fraction: 0.07
+      width: 1028
+      height: 547
+      bytes: 124696
+    - paper: lattner-2004-llvm
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [74.16, 632.88, 287.28, 739.2]
+      caption: 'Figure 3: LLVM code uses a runtime library for C++ exceptions support while exposing control-flow.'
+      sha256: c6180d2c1c45506b0814767fc286a3cfc5fb5fcb6086f4826e3ed3d2bb6b1984
+      method: vector
+      page_fraction: 0.05
+      width: 888
+      height: 443
+      bytes: 93824
+    - paper: lattner-2004-llvm
+      figure: f04
+      number: "4"
+      page: 6
+      bbox: [88.56, 666, 521.04, 738.72]
+      caption: 'Figure 4: LLVM system architecture diagram'
+      sha256: 2878917d55b5e77464033e402a2cc67c2f8b46074240e396a97ee7ab84c51a61
+      method: vector
+      page_fraction: 0.06
+      width: 1802
+      height: 303
+      bytes: 94413
+    - paper: lattner-2004-llvm
+      figure: f05
+      number: "5"
+      page: 9
+      bbox: [53.76, 384.48, 294.24, 680.64]
+      caption: 'Figure 5: Executable sizes for LLVM, X86, Sparc (in KB)'
+      sha256: c7b1a5096186ba7d866cea72d616b27da8fe822e039ae1a7774ffba255ce6b81
+      method: vector
+      page_fraction: 0.15
+      width: 1002
+      height: 1234
+      bytes: 165199
     - paper: mckeown-2008-openflow
       figure: f01
       number: "1"

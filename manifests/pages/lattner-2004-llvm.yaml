@@ -7,16 +7,41 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: lattner-2004-llvm
-offset: 0
+offset: null
 pages:
     - pdf: 1
       size: [612, 792]
       columns: 2
     - pdf: 2
-      printed: "2"
       size: [612, 792]
       columns: 2
     - pdf: 3
-      printed: "3"
+      size: [612, 792]
+      columns: 2
+    - pdf: 4
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      size: [612, 792]
+      columns: 2
+    - pdf: 8
+      size: [612, 792]
+      columns: 2
+    - pdf: 9
+      size: [612, 792]
+      columns: 2
+    - pdf: 10
+      size: [612, 792]
+      columns: 2
+    - pdf: 11
+      size: [612, 792]
+      columns: 2
+    - pdf: 12
       size: [612, 792]
       columns: 2
