@@ -123,6 +123,7 @@ terms:
     vi: tính toán
     zh: 计算
     ja: 計算
+    common: true
   - en: concurrency
     vi: đồng thời
     zh: 并发
@@ -203,6 +204,7 @@ terms:
     vi: sự cố
     zh: 故障
     ja: 障害
+    common: true
   - en: feature
     vi: đặc trưng
     zh: 特征
@@ -269,6 +271,7 @@ terms:
     vi: đầu vào
     zh: 输入
     ja: 入力
+    common: true
   - en: input sequence
     vi: chuỗi đầu vào
     zh: 输入序列
@@ -424,6 +427,7 @@ terms:
     vi: hiệu năng
     zh: 性能
     ja: 性能
+    common: true
   - en: pipeline
     vi: đường ống
     zh: 流水线
@@ -658,6 +662,7 @@ terms:
     zh: 类型
     ja: 型
     note: the property of an expression, not a kind of thing
+    common: true
   - en: vector
     vi: vectơ
     zh: 向量
