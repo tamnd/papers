@@ -25,9 +25,9 @@ extraction_model: gpt-6-astra
 content_sha256: 0096166d44aafa494a88186a856930ad1d676396c6bb13b30ecf668aa0324cca
 translated_from: content/en/goodfellow-2014-gan/09_references.md
 source_content_sha256: 0096166d44aafa494a88186a856930ad1d676396c6bb13b30ecf668aa0324cca
-translation_run: 20260914T064759Z
-glossary_version: 5
-glossary_terms_sha256: 95f35b8eeca7e5d682ff5338deefc303c320897501e75661c72974f88e8865d4
+translation_run: 20260915T022520Z
+glossary_version: 6
+glossary_terms_sha256: 0d0a9334a40352952769479a6ad339487dd551fe3d836bae9914ea196d2f4310
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
 ---
 
