@@ -11,10 +11,19 @@ offset: null
 pages:
     - pdf: 1
       size: [612, 792]
-      columns: 1
+      columns: 2
     - pdf: 2
       size: [612, 792]
       columns: 2
     - pdf: 3
+      size: [612, 792]
+      columns: 2
+    - pdf: 4
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
       size: [612, 792]
       columns: 2

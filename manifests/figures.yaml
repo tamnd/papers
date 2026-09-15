@@ -997,6 +997,42 @@ figures:
       width: 1386
       height: 229
       bytes: 55941
+    - paper: mckeown-2008-openflow
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [324.48, 546.72, 505.92, 614.64]
+      caption: 'Figure 1: Idealized OpenFlow Switch. The Flow Table is controlled by a remote controller via the Secure Channel.'
+      sha256: 433d4b058fd71c16c64866c0efd5df723ffe79ea07ef31555f1f239cfbcfa2ad
+      method: vector
+      page_fraction: 0.03
+      width: 756
+      height: 283
+      bytes: 43262
+    - paper: mckeown-2008-openflow
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [109.44, 477.36, 236.16, 512.4]
+      caption: 'Figure 2: Example of a network of OpenFlowenabled commercial switches and routers.'
+      sha256: 28a4d68de490859bb60c82eb04032f808014d06a6d364d4c84dd3e26e1239e50
+      method: vector
+      page_fraction: 0.01
+      width: 528
+      height: 146
+      bytes: 25542
+    - paper: mckeown-2008-openflow
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [324.48, 525.36, 540.96, 636.24]
+      caption: 'Figure 3: Example of processing packets through an external line-rate packet-processing device, such as a programmable NetFPGA router.'
+      sha256: 96c39841f866a4aad703ea0b176db5529dd23ab6cba847714d74f71e01cda881
+      method: vector
+      page_fraction: 0.05
+      width: 902
+      height: 462
+      bytes: 78178
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"

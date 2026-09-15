@@ -2,26 +2,21 @@ paper: lamport-1998-paxos
 style: hanging
 entries:
     - key: "1"
-      raw: Bernstein, P. A., Hadzilacos, V., and Goodman, N. 1987. Concurrency Control and Re-
+      raw: Bernstein, P. A., Hadzilacos, V., and Goodman, N. 1987. Concurrency Control and Recovery in Database Systems. Addison-Wesley, Reading, Massachusetts. De Prisco, R., Lampson, B., and Lynch, N. 1997. Revisiting the Paxos algorithm. In
       authors:
         - P. A. Bernstein
         - V. Hadzilacos
         - Goodman
         - N. 1987
-      title: Concurrency Control and Re-
-      year: 1987
-      resolves_to: ""
-    - key: "2"
-      raw: covery in Database Systems. Addison-Wesley, Reading, Massachusetts. De Prisco, R., Lampson, B., and Lynch, N. 1997. Revisiting the Paxos algorithm. In
-      title: covery in Database Systems
+      title: Concurrency Control and Recovery in Database Systems
       venue: Addison-Wesley, Reading, Massachusetts. De Prisco, R., Lampson, B., and Lynch, N. 1997. Revisiting the Paxos algorithm. In
       year: 1997
       resolves_to: ""
-    - key: "3"
+    - key: "2"
       raw: M. Mavronicolas and P. Tsigas (Eds.), Proceedings of the 11th International Workshop on Distributed Algorithms (WDAG 97), Volume 1320 of Lecture Notes in Computer
       title: M. Mavronicolas and P. Tsigas (Eds.), Proceedings of the 11th International Workshop on Distributed Algorithms (WDAG 97), Volume 1320 of Lecture Notes in Computer
       resolves_to: ""
-    - key: "4"
+    - key: "3"
       raw: Science, Saarbruken, Germany, pp. 111–125. Springer-Verlag. Dijkstra, E. W. 1974. Self-stabilizing systems in spite of distributed control. Commun.
       authors:
         - Science
@@ -33,63 +28,29 @@ entries:
       year: 1974
       pages: 111-125
       resolves_to: ""
-    - key: "5"
-      raw: ACM 17, 11 (Nov.), 643–644. Dwork, C., Lynch, N., and Stockmeyer, L. 1988. Consensus in the presence of partial
+    - key: "4"
+      raw: 'ACM 17, 11 (Nov.), 643–644. Dwork, C., Lynch, N., and Stockmeyer, L. 1988. Consensus in the presence of partial synchrony. Journal of the ACM 35, 2 (April), 288–323. Fekete, A., Lynch, N., and Shvartsman, A. 1997. Specifying and using a partitionable group communication service. In Proceedings of the Sixteenth Annual ACM Symposium on Principles of Distributed Computing, pp. 53–62. ACM Press. Fischer, M. J., Lynch, N., and Paterson, M. S. 1985. Impossibility of distributed consensus with one faulty process. Journal of the ACM 32, 2 (April), 374–382. Gray, C. G. and Cheriton, D. R. 1989. Leases: An efficient fault-toerant mechanism for distributed file cache consistency. In Proceedings of the Twelfth ACM Symposium on Operating Systems Principles, New York, pp. 202–210. ACM. Keidar, I. and Dolev, D. 1996. Efficient message ordering in dynamic networks. In Proceedings of the 15 th Annual ACM Symposium on Principles of Distributed Computing. ACM.'
       authors:
         - ACM 17
         - 11 (Nov.)
         - 643–644
       title: Dwork, C., Lynch, N., and Stockmeyer, L. 1988
-      venue: Consensus in the presence of partial
-      year: 1988
-      resolves_to: ""
-    - key: "6"
-      raw: synchrony. Journal of the ACM 35, 2 (April), 288–323. Fekete, A., Lynch, N., and Shvartsman, A. 1997. Specifying and using a partitionable
-      title: synchrony
-      venue: Journal of the ACM 35, 2 (April), 288–323. Fekete, A., Lynch, N., and Shvartsman, A. 1997. Specifying and using a partitionable
-      year: 1997
-      resolves_to: ""
-    - key: "7"
-      raw: group communication service. In Proceedings of the Sixteenth Annual ACM Symposium on Principles of Distributed Computing, pp. 53–62. ACM Press. Fischer, M. J., Lynch, N., and Paterson, M. S. 1985. Impossibility of distributed consensus
-      title: group communication service
-      year: 1985
+      year: 1996
       pages: 53-62
       resolves_to: ""
-    - key: "8"
-      raw: 'with one faulty process. Journal of the ACM 32, 2 (April), 374–382. Gray, C. G. and Cheriton, D. R. 1989. Leases: An efficient fault-toerant mechanism for dis-'
-      title: with one faulty process
-      venue: 'Journal of the ACM 32, 2 (April), 374–382. Gray, C. G. and Cheriton, D. R. 1989. Leases: An efficient fault-toerant mechanism for dis-'
-      year: 1989
-      resolves_to: ""
-    - key: "9"
-      raw: tributed file cache consistency. In Proceedings of the Twelfth ACM Symposium on Operating Systems Principles, New York, pp. 202–210. ACM. Keidar, I. and Dolev, D. 1996. Efficient message ordering in dynamic networks. In Proceedings
-      title: tributed file cache consistency
-      year: 1996
-      pages: 202-210
-      resolves_to: ""
-    - key: "10"
-      raw: of the 15 th Annual ACM Symposium on Principles of Distributed Computing. ACM.
-      title: of the 15 th Annual ACM Symposium on Principles of Distributed Computing
-      venue: ACM
-      resolves_to: ""
-    - key: "11"
-      raw: Ladin, R., Liskov, B., Shrira, L., and Ghemawat, S. 1992. Providing high availability using
+    - key: "5"
+      raw: Ladin, R., Liskov, B., Shrira, L., and Ghemawat, S. 1992. Providing high availability using lazy replication. ACM Transactions on Computer Systems 10, 4 (Nov.), 360–391. Lamport, L. 1978. Time, clocks, and the ordering of events in a distributed system. Commun.
       authors:
         - R. Ladin
         - B. Liskov
         - L. Shrira
         - Ghemawat
         - S. 1992
-      title: Providing high availability using
-      year: 1992
-      resolves_to: ""
-    - key: "12"
-      raw: lazy replication. ACM Transactions on Computer Systems 10, 4 (Nov.), 360–391. Lamport, L. 1978. Time, clocks, and the ordering of events in a distributed system. Commun.
-      title: lazy replication
+      title: Providing high availability using lazy replication
       venue: ACM Transactions on Computer Systems 10, 4 (Nov.), 360–391. Lamport, L. 1978. Time, clocks, and the ordering of events in a distributed system. Commun
       year: 1978
       resolves_to: ""
-    - key: "13"
+    - key: "6"
       raw: ACM 21, 7 (July), 558–565. Lamport, L. 1984. Using time instead of timeout for fault-tolerant distributed systems. ACM
       authors:
         - ACM 21
@@ -99,36 +60,18 @@ entries:
       venue: Using time instead of timeout for fault-tolerant distributed systems. ACM
       year: 1984
       resolves_to: ""
-    - key: "14"
-      raw: Trans. on Programm. Lang. Syst. 6, 2 (April), 254–280. Lampson, B. W. 1996. How to build a highly available system using consensus. In O. Babaoglu
+    - key: "7"
+      raw: 'Trans. on Programm. Lang. Syst. 6, 2 (April), 254–280. Lampson, B. W. 1996. How to build a highly available system using consensus. In O. Babaoglu and K. Marzullo (Eds.), Distributed Algorithms, Volume 1151 of Lecture Notes in Computer Science, Berlin, pp. 1–17. Springer-Verlag. Oki, B. M. and Liskov, B. H. 1988. Viewstamped replication: A new primary copy method to support highly-available distributed systems. In Proceedings of the Seventh Annual ACM Symposium on Principles of Distributed Computing, pp. 8–17. ACM Press. Schneider, F. B. 1990. Implementing fault-tolerant services using the state machine approach:'
       title: Trans. on Programm
-      venue: Lang. Syst. 6, 2 (April), 254–280. Lampson, B. W. 1996. How to build a highly available system using consensus. In O. Babaoglu
-      year: 1996
-      resolves_to: ""
-    - key: "15"
-      raw: 'and K. Marzullo (Eds.), Distributed Algorithms, Volume 1151 of Lecture Notes in Computer Science, Berlin, pp. 1–17. Springer-Verlag. Oki, B. M. and Liskov, B. H. 1988. Viewstamped replication: A new primary copy method to'
-      title: and K. Marzullo (Eds.), Distributed Algorithms, Volume 1151 of Lecture Notes in Computer Science, Berlin, pp. 1–17
-      venue: 'Springer-Verlag. Oki, B. M. and Liskov, B. H. 1988. Viewstamped replication: A new primary copy method to'
-      year: 1988
+      year: 1990
       pages: 1-17
       resolves_to: ""
-    - key: "16"
-      raw: 'support highly-available distributed systems. In Proceedings of the Seventh Annual ACM Symposium on Principles of Distributed Computing, pp. 8–17. ACM Press. Schneider, F. B. 1990. Implementing fault-tolerant services using the state machine approach:'
-      title: support highly-available distributed systems
-      year: 1990
-      pages: 8-17
-      resolves_to: ""
-    - key: "17"
-      raw: A tutorial. ACM Computing Surveys 22, 4 (Dec.), 299–319. Skeen, M. D. 1982. Crash recovery in a distributed database system. Ph. D. thesis, University
+    - key: "8"
+      raw: A tutorial. ACM Computing Surveys 22, 4 (Dec.), 299–319. Skeen, M. D. 1982. Crash recovery in a distributed database system. Ph. D. thesis, University of California, Berkeley.
       title: A tutorial
-      venue: ACM Computing Surveys 22, 4 (Dec.), 299–319. Skeen, M. D. 1982. Crash recovery in a distributed database system. Ph. D. thesis, University
       year: 1982
       resolves_to: ""
-    - key: "18"
-      raw: of California, Berkeley.
-      title: of California, Berkeley
-      resolves_to: ""
-    - key: "19"
+    - key: "9"
       raw: Received January 1990; Accepted March 1998
       title: Received January 1990; Accepted March 1998
       year: 1998
