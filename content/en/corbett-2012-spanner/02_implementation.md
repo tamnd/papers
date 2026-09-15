@@ -26,6 +26,7 @@ pdf_pages: 2-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 824c517dc3bb6707da0f5607a35f6b2c4f083b94bb3a19d05ac9be99a7032886
+edited: true
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 

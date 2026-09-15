@@ -22,10 +22,10 @@ kind: appendix
 lang: en
 source: arxiv:2005.14165
 pdf_sha256: 97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83
-pdf_pages: 50-67
+pdf_pages: 50-62
 extraction: vision
-extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 8a9d69bbff62d9ebe27602470821ca87b1a9c53bf1c5417ae9113884d9b7210e
+extraction_model: gpt-5
+content_sha256: 8c1805dd37edf3e3c962a55620b8381d5fbdf5e5ddf5415a162d40f7c59b76dc
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -410,39 +410,3 @@ Figure G.50: Formatted dataset example for Arithmetic 5D–
 | Target Completion → | 81564 |
 
 Figure G.51: Formatted dataset example for Arithmetic 5D+
-
-```text
-Name  Metric  Split  SOTA  K  Zero-Shot  One-Shot  Few-Shot  175B
-Small  Med  Large  XL  2.7B  6.7B  13B  175B  Small  Med  Large  XL  2.7B  6.7B  13B  175B  Small  Med  Large  XL  2.7B  6.7B  13B  175B  (test server)
-HellaSwag  acc  dev  85.6  20  33.7  43.6  51.0  54.7  62.8  67.4  70.9  78.9  33.0  42.9  50.5  53.5  61.9  66.5  70.0  78.1  33.5  43.1  51.3  54.9  62.9  67.3  71.3  79.3
-LAMBADA  acc  test  68.0  15  42.7  54.3  60.4  63.6  67.1  70.3  72.5  76.2  22.0  47.1  52.6  58.3  61.1  65.4  69.0  72.5  22.0  40.4  63.2  57.0  78.1  79.1  81.3  86.4
-LAMBADA  ppl  test  8.63  15  18.6  9.09  6.53  5.44  4.60  4.00  3.56  3.00  165.0  11.6  8.29  6.46  5.53  4.61  4.06  3.35  165.0  27.6  6.63  7.45  2.89  2.56  2.56  1.92
-StoryCloze  acc  test  91.8  70  63.3  68.5  72.4  73.4  77.2  77.7  79.5  83.2  62.3  68.7  72.3  74.2  77.3  78.7  79.7  84.7  62.3  70.2  73.9  76.1  80.2  81.2  83.0  87.7
-NQs  acc  test  44.5  64  0.64  1.75  2.71  4.40  6.01  5.79  7.84  14.6  1.19  3.07  4.79  5.43  8.73  9.78  13.7  23.0  1.72  4.46  7.89  9.72  13.2  17.0  21.0  29.9
-TriviaQA  acc  dev  68.0  64  4.15  7.61  14.0  19.7  31.3  38.7  41.8  64.3  4.19  12.9  20.5  26.5  35.9  44.4  51.3  68.0  6.96  16.3  26.5  32.1  42.3  51.6  57.5  71.2
-WebQs  acc  test  45.5  64  1.77  3.20  4.33  4.63  7.92  7.73  8.22  14.4  2.56  6.20  8.51  9.15  14.5  15.1  19.0  25.3  5.46  12.6  15.9  19.6  24.8  27.7  33.5  41.5
-```
-
-Table H.1: Scores for every task, setting and model that we investigate in this paper.
-
-Figure H.1: All results for all SuperGLUE tasks.
-
-Figure H.2: Results for SAT task.
-
-Figure H.3: All results for all Winograd tasks.
-
-Figure H.4: All results for all Arithmetic tasks.
-
-Figure H.5: All results for all Cloze and Completion tasks.
-
-Figure H.6: All results for all Common Sense Reasoning tasks.
-
-Figure H.7: All results for all QA tasks.
-
-Figure H.8: All results for all Reading Comprehension tasks.
-
-Figure H.9: All results for all ANLI rounds.
-
-Figure H.10: All results for all Scramble tasks.
-
-Figure H.11: All results for all Translation tasks.

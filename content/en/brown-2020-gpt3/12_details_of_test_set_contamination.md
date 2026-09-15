@@ -24,7 +24,7 @@ source: arxiv:2005.14165
 pdf_sha256: 97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83
 pdf_pages: 43-45
 extraction: vision
-extraction_model: olmOCR-2-7B-1025-FP8
+extraction_model: gpt-5
 content_sha256: 6258f06ce09764649d32c5609a0fce9fffde636769f81323b1d549373ad0ea74
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---

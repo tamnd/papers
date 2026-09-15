@@ -15,11 +15,9 @@ pdf_sha256: 4dc29926c05033d1cdb702444158bf8d154d8a152cad1b4a430ffd0403d3af33
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: a48a9f68202bc233b378374bbb05762a6d48bbcc4693041b6496d3a634ab9f81
+content_sha256: 178dae58b6334224246811d4db50742e5584d362bbb7f1bdf2e1f87a0f3d1d1d
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
-
-Direct manipulation systems offer the satisfying experience of operating on visible objects. The computer becomes transparent, and users can concentrate on their tasks.
 
 Direct Manipulation:
 
@@ -47,4 +45,6 @@ Certain interactive systems generate glowing enthusiasm among users—in marked 
 
 • desire to explore more powerful aspects of the system.
 
-These feelings are not, of course, universal, but the amalgam does convey an image of the truly pleased user. As I talked with these enthusiasts and examined the systems they used, I began to develop a model of the features that produced such delight.
+These feelings are not, of course, universal, but the amalgam does convey an image of the truly pleased user. As I talked with these enthusiasts and examined the systems they used, I began to develop a model of the features that produced such delight. The central ideas seemed to be visibility of the object of interest; rapid, reversible, incremental actions; and replacement of complex command language syntax by direct manipulation of the object of interest—hence the term "direct manipulation."
+
+Examples of direct manipulation systems

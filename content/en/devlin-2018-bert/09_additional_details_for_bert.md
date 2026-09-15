@@ -19,7 +19,8 @@ pdf_sha256: 5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e
 pdf_pages: 12-13
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: dcd30aa05fe0927899ee83716a55b532b72e4da9b944668054aaadcb2b2ff1b1
+content_sha256: e3baa1999d013332d5a881da46ce22b843239c6bea9df57ad0b5f77083ea521b
+edited: true
 prompt_sha256: d53a8bfa14d5deec1eabb71e8a2ea2db8c42f516778942c09f3051aa50a9397f
 ---
 
@@ -27,43 +28,13 @@ prompt_sha256: d53a8bfa14d5deec1eabb71e8a2ea2db8c42f516778942c09f3051aa50a9397f
 
 We provide examples of the pre-training tasks in the following.
 
-**Masked LM and the Masking Procedure** Assuming the unlabeled sentence is
+**Masked LM and the Masking Procedure** Assuming the unlabeled sentence is `my dog is hairy`, and during the random masking procedure we chose the 4-th token (which corresponding to `hairy`), our masking procedure can be further illustrated by
 
-```text
-my dog is hairy
-```
+- 80% of the time: Replace the word with the `[MASK]` token, e.g., `my dog is hairy → my dog is [MASK]`
 
-, and during the random masking procedure we chose the 4-th token (which corresponding to
+- 10% of the time: Replace the word with a random word, e.g., `my dog is hairy → my dog is apple`
 
-```text
-hairy
-```
-
-), our masking procedure can be further illustrated by
-
-- 80% of the time: Replace the word with the
-
-  ```text
-  [MASK]
-  ``` token, e.g.,
-
-  ```text
-  my dog is hairy → my dog is [MASK]
-  ```
-
-- 10% of the time: Replace the word with a random word, e.g.,
-
-  ```text
-  my dog is hairy → my dog is apple
-  ```
-
-- 10% of the time: Keep the word unchanged, e.g.,
-
-  ```text
-  my dog is hairy → my dog is hairy
-  ```
-
-. The purpose of this is to bias the representation towards the actual observed word.
+- 10% of the time: Keep the word unchanged, e.g., `my dog is hairy → my dog is hairy`. The purpose of this is to bias the representation towards the actual observed word.
 
 The advantage of this procedure is that the Transformer encoder does not know which words it will be asked to predict or which have been replaced by random words, so it is forced to keep a distributional contextual representation of *every* input token. Additionally, because random replacement only occurs for 1.5% of all tokens (i.e., 10% of 15%), this does not seem to harm the model’s language understanding capability. In Section C.2, we evaluate the impact this procedure.
 

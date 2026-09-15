@@ -16,17 +16,9 @@ pdf_sha256: c2961e078943a26ae1f752b202290f561578b7ecf8b24b8929e3c1f99e6b2c52
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: a6a05d1e2fa64ebbc54e884c819aafbf4c93c6f41cf48cf2a3776bbb3204ab53
+content_sha256: 3d6c1645013adada5ed8396c103bb95dcd22e4e3723d8c5352a4ba786fc9c140
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
-
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-
-ARTIFICIAL INTELLIGENCE LABORATORY
-
-AI Memo No. 349
-
-December 1975
 
 SCHEME
 
@@ -44,4 +36,4 @@ Inspired by ACTORS [Greif and Hewitt] [Smith and Hewitt], we have implemented an
 
 (3) have a simple concrete experimental domain for certain issues of programming semantics and style.
 
-This paper is organized into sections. The first section is a short "reference manual" containing specifications for all the unusual features of SCHEME. Next, we present a sequence of programming examples which illustrate various programming styles, and how to use them. This will raise certain issues of semantics which we will try to clarify with lambda calculus in the third section. In the fourth section we will give a general discussion of the issues facing an implementor of an interpreter for a language based on lambda calculus.
+This paper is organized into sections. The first section is a short "reference manual" containing specifications for all the unusual features of SCHEME. Next, we present a sequence of programming examples which illustrate various programming styles, and how to use them. This will raise certain issues of semantics which we will try to clarify with lambda calculus in the third section. In the fourth section we will give a general discussion of the issues facing an implementor of an interpreter for a language based on lambda calculus. Finally, we will present a completely annotated interpreter for SCHEME, written in MacLISP [Moon], to acquaint programmers with the tricks of the trade of implementing non-recursive control structures in a recursive language like LISP.
