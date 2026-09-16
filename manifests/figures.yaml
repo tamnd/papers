@@ -1173,6 +1173,54 @@ figures:
       width: 913
       height: 2036
       bytes: 256172
+    - paper: dewitt-1990-gamma
+      figure: f01
+      number: "6"
+      page: 14
+      bbox: [107.28, 363.12, 504.24, 685.68]
+      caption: Figure 6 One of the main problems with the DIRECT prototype was that every data page processed required at least one control message to a centralized scheduler. In Gamma this bottleneck is completely avoided. In fact, the number of control messages required to execute a query is approximately equal to three times the number of operators in the query times the number of processors used to execute each operator. As an example, consider Figure 7
+      sha256: 4b05f2d35762fb983ac08bce58db24d1c59f24e2ea5bb7eb83e6292425acebee
+      method: vector
+      page_fraction: 0.26
+      width: 1654
+      height: 1344
+      bytes: 54060
+    - paper: dewitt-1990-gamma
+      figure: f02
+      number: "12"
+      page: 26
+      bbox: [89.04, 420.72, 507.12, 684]
+      caption: Figure 12 Figure 13
+      sha256: f991417c7d58bf5e7f8edbb5ce2154701b0278b8e690b8ccee98b2b3ba56633e
+      method: vector
+      page_fraction: 0.23
+      width: 1742
+      height: 1097
+      bytes: 106079
+    - paper: dewitt-1990-gamma
+      figure: f03
+      number: "14"
+      page: 27
+      bbox: [87.84, 422.16, 507.12, 684]
+      caption: Figure 14 Figure 15
+      sha256: 6ef3df2794e7176e15584a46c89f30d1e6b4615195dca8540aa4a9cfc09657b8
+      method: vector
+      page_fraction: 0.23
+      width: 1747
+      height: 1091
+      bytes: 118368
+    - paper: dewitt-1990-gamma
+      figure: f04
+      number: "17"
+      page: 30
+      bbox: [89.04, 111.84, 507.12, 373.68]
+      caption: Figure 17 Figure 18
+      sha256: a099c460834ad901f4ffdbcf6deba8539aee55f05697e9a91be5a6b9343d266a
+      method: vector
+      page_fraction: 0.23
+      width: 1742
+      height: 1091
+      bytes: 102704
     - paper: engelbart-1968-augmenting
       figure: f01
       number: "1"
@@ -1608,6 +1656,102 @@ figures:
       width: 889
       height: 486
       bytes: 66977
+    - paper: jacobson-1988-congestion
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [108.48, 755.12, 504, 766.16]
+      caption: 'Figure 1: Window Flow Control ‘Self-clocking’'
+      sha256: bb5f95181865a0b54dec74c1a22e466143277e8ff1cc3b47f24ec59a72befc21
+      method: vector
+      page_fraction: 0.01
+      width: 1648
+      height: 46
+      bytes: 13205
+    - paper: jacobson-1988-congestion
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [108.48, 755.12, 504.24, 766.16]
+      caption: 'Figure 2: The Chronology of a Slow-start'
+      sha256: 19546c831a22cdc69f79fd43baad44d61866374d2688c0321fa315cd47a65383
+      method: vector
+      page_fraction: 0.01
+      width: 1649
+      height: 46
+      bytes: 13250
+    - paper: jacobson-1988-congestion
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [107.76, 755.12, 504, 766.4]
+      caption: 'Figure 3: Startup behavior of TCP without Slow-start'
+      sha256: 700de9ff742aea9c00e907e729259b0766585e7896a0f190fde3ad321dececf3
+      method: vector
+      page_fraction: 0.01
+      width: 1651
+      height: 47
+      bytes: 15373
+    - paper: jacobson-1988-congestion
+      figure: f04
+      number: "4"
+      page: 6
+      bbox: [107.76, 755.12, 504.24, 766.4]
+      caption: 'Figure 4: Startup behavior of TCP with Slow-start'
+      sha256: 9a76b8184e815957b3e2d68e5cd44b0b69e4e7f2cda357828d535c2cab75b9ed
+      method: vector
+      page_fraction: 0.01
+      width: 1652
+      height: 47
+      bytes: 15564
+    - paper: jacobson-1988-congestion
+      figure: f05
+      number: "5"
+      page: 7
+      bbox: [107.76, 755.12, 504.24, 766.16]
+      caption: 'Figure 5: Performance of an RFC793 retransmit timer'
+      sha256: ae1e78a678d31aa8d1c4e91a85a160cfe19e7ecdb7d7f9bc976cbfb0312933de
+      method: vector
+      page_fraction: 0.01
+      width: 1652
+      height: 46
+      bytes: 15086
+    - paper: jacobson-1988-congestion
+      figure: f06
+      number: "6"
+      page: 8
+      bbox: [107.76, 757.04, 504.24, 766.16]
+      caption: 'Figure 6: Performance of a Mean+Variance retransmit timer'
+      sha256: f59831dad03f01ef6e2568c4e656960034058dda8542ab01de01d5c03ba40ebe
+      method: vector
+      page_fraction: 0.01
+      width: 1652
+      height: 38
+      bytes: 11928
+    - paper: jacobson-1988-congestion
+      figure: f07
+      number: "7"
+      page: 12
+      bbox: [107.76, 757.04, 504.24, 766.16]
+      caption: 'Figure 7: Multiple conversation test setup'
+      sha256: f6af2116693ac74f914931f88ff153ab80d2b89cdae13c05e97622f3d66c9c07
+      method: vector
+      page_fraction: 0.01
+      width: 1652
+      height: 38
+      bytes: 12794
+    - paper: jacobson-1988-congestion
+      figure: f08
+      number: "8"
+      page: 13
+      bbox: [107.76, 757.04, 504, 766.16]
+      caption: 'Figure 8: Multiple, simultaneous TCPs with no congestion avoidance 1200'
+      sha256: 9d6d29ee1aa2c3f74c7559b8e9153070d6619e420ee8ff2927854059b51cfbee
+      method: vector
+      page_fraction: 0.01
+      width: 1651
+      height: 38
+      bytes: 12805
     - paper: jouppi-2017-tpu
       figure: f01
       number: "1"
@@ -1852,6 +1996,414 @@ figures:
       width: 1002
       height: 1234
       bytes: 165199
+    - paper: lecun-1998-lenet
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [82.32, 616.08, 242.88, 737.76]
+      caption: 'Fig. 1. Traditional pattern recognition is performed with two modules: a fixed feature extractor and a trainable classifier.'
+      sha256: 618e5b12b418002ab57133078fc618a416c39443e924e626bdaa6bd8087a8079
+      method: raster
+      page_fraction: 0.04
+      width: 669
+      height: 507
+      bytes: 6568
+    - paper: lecun-1998-lenet
+      figure: f02
+      number: "2"
+      page: 7
+      bbox: [52.32, 609.12, 282.24, 737.76]
+      caption: Fig. 2. Architecture of LeNet-5, a convolutional NN, here used for digits recognition. Each plane is a feature map, i.e., a set of units whose weights are constrained to be identical.
+      sha256: 1a1bb9035c7439fd104e30b1233d23ea1f60a3783ae680975271291bca1b2845
+      method: vector
+      page_fraction: 0.06
+      width: 958
+      height: 536
+      bytes: 32813
+    - paper: lecun-1998-lenet
+      figure: f03
+      number: "3"
+      page: 10
+      bbox: [113.04, 552.96, 282.24, 737.76]
+      caption: Fig. 3. Initial parameters of the output RBF’s for recognizing the full ASCII set.
+      sha256: 52b53f201547f9ff2efb151f4115cbfd4989c665ffd0fc0a3308fa5f83a79e74
+      method: vector
+      page_fraction: 0.06
+      width: 705
+      height: 770
+      bytes: 54015
+    - paper: lecun-1998-lenet
+      figure: f04
+      number: "4"
+      page: 11
+      bbox: [306, 495.36, 545.28, 738]
+      caption: Fig. 4. Size-normalized examples from the MNIST database.
+      sha256: 7f2bbe317de8c5643fd9fca09ca9c83424d1d831335a3d61753dd0c0ab2c83a9
+      method: raster
+      page_fraction: 0.12
+      width: 997
+      height: 1011
+      bytes: 36828
+    - paper: lecun-1998-lenet
+      figure: f05
+      number: "5"
+      page: 12
+      bbox: [43.68, 561.36, 282.24, 737.76]
+      caption: Fig. 5. Training and test error of LeNet-5 as a function of the number of passes through the 60 000 pattern training set (without distortions). The average training error is measured on-the-fly as training proceeds. This explains why the training error appears to be larger than the test error initially. Convergence is attained after 10–12 passes through the training set.
+      sha256: 2777d2d5eea51fee5c613dd0e246675d5e0175e6c30da6422eb4fb64f8256142
+      method: raster
+      page_fraction: 0.09
+      width: 994
+      height: 735
+      bytes: 30356
+    - paper: lecun-1998-lenet
+      figure: f06
+      number: "6"
+      page: 13
+      bbox: [131.52, 406.56, 282.24, 737.76]
+      caption: Fig. 6. Training and test errors of LeNet-5 achieved using training sets of various sizes. This graph suggests that a larger training set could improve the performance of LeNet-5. The hollow square shows the test error when more training patterns are artificially generated using random distortions. The test patterns are not distorted.
+      sha256: a6aca5e1b052514b59ba1b83b5f98ca649e0af6b57d2e88eb790b34ed761c2cc
+      method: vector
+      page_fraction: 0.1
+      width: 628
+      height: 1380
+      bytes: 37697
+    - paper: lecun-1998-lenet
+      figure: f07
+      number: "8"
+      page: 13
+      bbox: [267.84, 132.24, 545.28, 354.96]
+      caption: Fig. 8. The 82 test patterns misclassified by LeNet-5. Below each image is displayed the correct answers (left) and the network answer (right). These errors are mostly caused either by genuinely ambiguous patterns, or by digits written in a style that are under-represented in the training set.
+      sha256: d2027b9dac969b8c7591903a023a55d3c55554d5098409e0c534efc99f119504
+      method: raster
+      page_fraction: 0.13
+      width: 1156
+      height: 928
+      bytes: 37527
+    - paper: lecun-1998-lenet
+      figure: f08
+      number: "7"
+      page: 13
+      bbox: [51.12, 132, 268.08, 354.96]
+      caption: Fig. 7. Examples of distortions of ten training patterns.
+      sha256: 26a4fb2fc8123cef79118d53a3a6aaf8cb82954a2ae0c4bc43fe7f93c1c87580
+      method: raster
+      page_fraction: 0.1
+      width: 904
+      height: 929
+      bytes: 41279
+    - paper: lecun-1998-lenet
+      figure: f09
+      number: "9"
+      page: 14
+      bbox: [49.44, 376.08, 282.24, 737.76]
+      caption: Fig. 9. Error rate on the test set (%) for various classification methods. [deslant] indicates that the classifier was trained and tested on the deslanted version of the database. [dist] indicates that the training set was augmented with artificially distorted examples. [16 2 16] indicates that the system used the 16 2 16 pixel images. The uncertainty in the quoted error rates is about 0.1%.
+      sha256: 8bb9cb3424934f130cb4848313ad1cf6f63fbd9c7abbb4a996cc9a4ccf827827
+      method: vector
+      page_fraction: 0.17
+      width: 970
+      height: 1507
+      bytes: 29214
+    - paper: lecun-1998-lenet
+      figure: f10
+      number: "10"
+      page: 16
+      bbox: [120.96, 583.68, 282.24, 737.76]
+      caption: 'Fig. 10. Rejection Performance: percentage of test patterns that must be rejected to achieve 0.5% error for some of the systems.'
+      sha256: 29269d3576551447cf38d419e2e0ee7e7929278097312dca0278b131bc90a0c3
+      method: vector
+      page_fraction: 0.05
+      width: 672
+      height: 642
+      bytes: 10963
+    - paper: lecun-1998-lenet
+      figure: f11
+      number: "11"
+      page: 16
+      bbox: [104.4, 244.08, 282.24, 534.24]
+      caption: Fig. 11. Number of multiply–accumulate operations for the recognition of a single character starting with a size-normalized image.
+      sha256: 4607bec6adc31167ad5d5e2c8c4a66693a3b62a2822c739df871b0f051e30e2a
+      method: vector
+      page_fraction: 0.11
+      width: 741
+      height: 1209
+      bytes: 21740
+    - paper: lecun-1998-lenet
+      figure: f12
+      number: "12"
+      page: 17
+      bbox: [104.64, 447.84, 282.24, 737.76]
+      caption: Fig. 12. Memory requirements, measured in number of variables, for each of the methods. Most of the methods only require one byte per variable for adequate performance.
+      sha256: a1b948623866385b08111df51cf22b548df192c10e055a3a511d05edc601f877
+      method: vector
+      page_fraction: 0.11
+      width: 740
+      height: 1208
+      bytes: 22266
+    - paper: lecun-1998-lenet
+      figure: f13
+      number: "13"
+      page: 19
+      bbox: [126.48, 420, 282.24, 729.84]
+      caption: Fig. 13. Examples of unusual, distorted, and noisy characters correctly recognized by LeNet-5. The grey level of the output label represents the penalty (lighter for higher penalties).
+      sha256: 21f985a4185606e0c1f6072e164797c9c640607cd14b3ffaa8c20fb4a065a420
+      method: vector
+      page_fraction: 0.1
+      width: 649
+      height: 1291
+      bytes: 92527
+    - paper: lecun-1998-lenet
+      figure: f14
+      number: "14"
+      page: 19
+      bbox: [45.12, 224.4, 280.32, 378.48]
+      caption: Fig. 14. A trainable system composed of heterogeneous modules.
+      sha256: 50dadb348c78742d09d87103b3e1925be54549f0b582ed318f01a5cd001ec76d
+      method: raster
+      page_fraction: 0.07
+      width: 980
+      height: 642
+      bytes: 10731
+    - paper: lecun-1998-lenet
+      figure: f15
+      number: "15"
+      page: 21
+      bbox: [52.08, 570.96, 273.36, 737.04]
+      caption: Fig. 15. Traditional NN’s and multimodule systems communicate fixed-size vectors between layers. Multilayer GTN’s are composed of trainable modules that operate on and produce graphs whose arcs carry numerical information.
+      sha256: 53eacb96dedcc35e3e78188901eae49edd0dab78c4b2cdf562222ae87fb5b8bd
+      method: raster
+      page_fraction: 0.08
+      width: 922
+      height: 692
+      bytes: 12968
+    - paper: lecun-1998-lenet
+      figure: f16
+      number: "16"
+      page: 21
+      bbox: [308.16, 667.68, 543.84, 737.76]
+      caption: Fig. 16. Building a segmentation graph with HOS.
+      sha256: 91a8de843d363a074c1f3b83b480142ca7417347e405bc4d5aa6db0c88fc1697
+      method: raster
+      page_fraction: 0.03
+      width: 982
+      height: 292
+      bytes: 22794
+    - paper: lecun-1998-lenet
+      figure: f17
+      number: "17"
+      page: 22
+      bbox: [44.88, 379.68, 280.56, 737.76]
+      caption: Fig. 17. Recognizing a character string with a GTN. For readability, only the arcs with low penalties are shown.
+      sha256: cffe26fdbd4d966facf2f0db345faa2f25b2352657cdac6e6811e1967c0c0039
+      method: raster
+      page_fraction: 0.17
+      width: 982
+      height: 1492
+      bytes: 84780
+    - paper: lecun-1998-lenet
+      figure: f18
+      number: "18"
+      page: 22
+      bbox: [306.24, 446.16, 545.28, 737.76]
+      caption: Fig. 18. The recognition transformer refines each arc of the segmentation arc into a set of arcs in the interpretation graph, one per character class, with attached penalties and labels.
+      sha256: 4f9c26b832774b7efd498363fec36e20b8ffc5fb65bd2ecc67063ec893a654cf
+      method: raster
+      page_fraction: 0.14
+      width: 996
+      height: 1215
+      bytes: 71152
+    - paper: lecun-1998-lenet
+      figure: f19
+      number: "19"
+      page: 24
+      bbox: [55.2, 549.36, 270.72, 737.76]
+      caption: Fig. 19. Viterbi training GTN architecture for a character string recognizer based on HOS.
+      sha256: cbb4429ee0e9e7033d2c842c90b66af57cdf6807679bc99c6e886d1929745ada
+      method: raster
+      page_fraction: 0.08
+      width: 898
+      height: 785
+      bytes: 43989
+    - paper: lecun-1998-lenet
+      figure: f20
+      number: "20"
+      page: 26
+      bbox: [126, 218.4, 282.24, 697.92]
+      caption: Fig. 20. Discriminative Viterbi training GTN architecture for a character string recognizer based on HOS. Quantities in square brackets are penalties computed during the forward propagation. Quantities in parentheses are partial derivatives computed during the backward propagation.
+      sha256: ec3a3c6e752555410286661ac505f9adbb76b034e671d4e138255bbe344a2682
+      method: vector
+      page_fraction: 0.15
+      width: 651
+      height: 1998
+      bytes: 79996
+    - paper: lecun-1998-lenet
+      figure: f21
+      number: "21"
+      page: 28
+      bbox: [42.96, 546.72, 282.24, 737.76]
+      caption: Fig. 21. Discriminative forward training GTN architecture for a character string recognizer based on HOS.
+      sha256: 1ae8e286819bd0e9defd429ce951b2404b2609b09ecb2fd23a42c6dab895801e
+      method: raster
+      page_fraction: 0.09
+      width: 997
+      height: 796
+      bytes: 43803
+    - paper: lecun-1998-lenet
+      figure: f22
+      number: "22"
+      page: 29
+      bbox: [51.36, 610.8, 274.08, 737.76]
+      caption: Fig. 22. Explicit segmentation can be avoided by sweeping a recognizer at every possible location in the input field.
+      sha256: 275db5d9afcc99697ca907c79981372612847cac0b7de0bff4c516432ee424c1
+      method: raster
+      page_fraction: 0.06
+      width: 928
+      height: 529
+      bytes: 21215
+    - paper: lecun-1998-lenet
+      figure: f23
+      number: "23"
+      page: 29
+      bbox: [308.88, 447.6, 542.64, 737.76]
+      caption: Fig. 23. An SDNN is a convolutional network that has been replicated over a wide input field.
+      sha256: be40a8b2baf4e4002801accb232f8192de8a95e477f21dac89340fcd55dbc9a2
+      method: raster
+      page_fraction: 0.14
+      width: 974
+      height: 1209
+      bytes: 56250
+    - paper: lecun-1998-lenet
+      figure: f24
+      number: "24"
+      page: 30
+      bbox: [340.56, 570, 511.2, 736.32]
+      caption: Fig. 24. A GT pulls out the best interpretation from the output of the SDNN.
+      sha256: c3bb7f9599c0310bc04b44884ef075de579933e41b93ab063ff59cd0da45c442
+      method: raster
+      page_fraction: 0.06
+      width: 711
+      height: 693
+      bytes: 13258
+    - paper: lecun-1998-lenet
+      figure: f25
+      number: "25"
+      page: 30
+      bbox: [314.64, 390.48, 537.36, 527.28]
+      caption: Fig. 25. An example of multiple character recognition with SDNN. With SDNN, no explicit segmentation is performed.
+      sha256: 337ebbf23a0a81053b07248c978d9a8c6d026de63ce99e7a7d4ac23f9a185c36
+      method: raster
+      page_fraction: 0.06
+      width: 928
+      height: 570
+      bytes: 54791
+    - paper: lecun-1998-lenet
+      figure: f26
+      number: "26"
+      page: 31
+      bbox: [43.68, 520.08, 282.24, 737.76]
+      caption: Fig. 26. AN SDNN applied to a noisy image of digit string. The digits shown in the SDNN output represent the winning class labels, with a lighter grey level for high-penalty answers.
+      sha256: 9c6371986cc964495eea06bd442ad7ef4c34132dda1830cf94e668d660bc2a68
+      method: raster
+      page_fraction: 0.11
+      width: 994
+      height: 907
+      bytes: 73892
+    - paper: lecun-1998-lenet
+      figure: f27
+      number: "27"
+      page: 32
+      bbox: [43.68, 485.52, 281.52, 737.76]
+      caption: Fig. 27. A globally trainable SDNN/HMM hybrid system expressed as a GTN.
+      sha256: da063240bbe6372cf00d849fb4edf34d47d3c5ea3248c14adafe097632811fde
+      method: raster
+      page_fraction: 0.12
+      width: 991
+      height: 1051
+      bytes: 61323
+    - paper: lecun-1998-lenet
+      figure: f28
+      number: "28"
+      page: 33
+      bbox: [308.4, 487.44, 544.08, 737.76]
+      caption: Fig. 28. Example of composition of the recognition graph with the grammar graph in order to build an interpretation that is consistent with both of them. During the forward propagation (dark arrows), the methods check and fprop are used. Gradients (dashed arrows) are back propagated with the adaptation of the method group.
+      sha256: 8185062b2202ef3df02f0bf13714250c0872d37211d4e1c6bf8ae3849e7bd4ce
+      method: raster
+      page_fraction: 0.12
+      width: 982
+      height: 1043
+      bytes: 79929
+    - paper: lecun-1998-lenet
+      figure: f29
+      number: "29"
+      page: 34
+      bbox: [307.2, 269.76, 543.84, 735.6]
+      caption: 'Fig. 29. Pseudocode for a simplified generalized composition algorithm. For simplifying the presentation, we do not handle null transitions nor implement dead end avoidance. The two main components of the composition appear clearly here: 1) the recursive function simtoken() enumerating the token trajectories and 2) the associative array map used for remembering which nodes of the composed graph have been visited.'
+      sha256: c0f7cb9589902d36fc1f316ee2a02243c2045800897722dc13da7c97e458db84
+      method: raster
+      page_fraction: 0.23
+      width: 986
+      height: 1941
+      bytes: 57319
+    - paper: lecun-1998-lenet
+      figure: f30
+      number: "30"
+      page: 36
+      bbox: [342.96, 431.28, 508.56, 737.76]
+      caption: Fig. 30. An online handwriting recognition GTN based on HOS.
+      sha256: 77f59603f8c9e0617afff2c8b834ebab1a2457026f2ca2d26a597130869e80f2
+      method: raster
+      page_fraction: 0.1
+      width: 690
+      height: 1277
+      bytes: 62739
+    - paper: lecun-1998-lenet
+      figure: f31
+      number: "31"
+      page: 37
+      bbox: [76.08, 436.8, 249.84, 737.76]
+      caption: Fig. 31. An online handwriting recognition GTN based on SDNN.
+      sha256: 7357186f306b2f6c3e6e893aaea9cd2ad9cac9562cf9f95cc837defb11752269
+      method: raster
+      page_fraction: 0.11
+      width: 724
+      height: 1254
+      bytes: 59738
+    - paper: lecun-1998-lenet
+      figure: f32
+      number: "32"
+      page: 38
+      bbox: [126.24, 583.68, 282.24, 737.76]
+      caption: Fig. 32. Comparative results (character error rates) showing the improvement brought by global training on the SDNN/HMM hybrid, and on the HOS, without and with a 25 461-word dictionary.
+      sha256: 10832e8d5b93f345911950e60c7edcb6cadea356b2b125a75c18496e036e38b7
+      method: vector
+      page_fraction: 0.05
+      width: 650
+      height: 642
+      bytes: 12205
+    - paper: lecun-1998-lenet
+      figure: f33
+      number: "33"
+      page: 39
+      bbox: [331.2, 468.48, 520.8, 737.76]
+      caption: Fig. 33. A complete check amount reader implemented as a single cascade of GT modules. Successive graph transformations progressively extract higher level information.
+      sha256: 0af35719ea6221989d44a1f0a0682c8be13fd34d386dd5ffba77cfa8a9eb630e
+      method: raster
+      page_fraction: 0.11
+      width: 790
+      height: 1122
+      bytes: 62068
+    - paper: lecun-1998-lenet
+      figure: f34
+      number: "34"
+      page: 41
+      bbox: [44.4, 578.4, 281.04, 737.76]
+      caption: Fig. 34. Additional processing required to compute the confidence.
+      sha256: bc4c5257f30e67d8abc7d7e016cdb9e9f266ca7aa20f4db963f1bec66b03fb20
+      method: raster
+      page_fraction: 0.08
+      width: 986
+      height: 664
+      bytes: 32970
     - paper: mckeown-2008-openflow
       figure: f01
       number: "1"
