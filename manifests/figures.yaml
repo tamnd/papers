@@ -8,6 +8,78 @@
 # `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
 
 figures:
+    - paper: barham-2003-xen
+      figure: f01
+      number: "1"
+      page: 5
+      bbox: [72, 596.88, 274.8, 738.48]
+      caption: 'Figure 1: The structure of a machine running the Xen hypervisor, hosting a number of different guest operating systems, including Domain0 running control software in a XenoLinux environment.'
+      sha256: 8b0fc7ebf6acc1e546114b5a2684c9b360c929733433544696afa842b529b4d3
+      method: vector
+      page_fraction: 0.06
+      width: 845
+      height: 590
+      bytes: 95697
+    - paper: barham-2003-xen
+      figure: f02
+      number: "2"
+      page: 6
+      bbox: [64.08, 600.96, 282.48, 738.96]
+      caption: 'Figure 2: The structure of asynchronous I/O rings, which are used for data transfer between Xen and guest OSes.'
+      sha256: 8d19cb492a620ad1d30515420f8b83a094c3199eaf7d290394df5db4a300effa
+      method: vector
+      page_fraction: 0.06
+      width: 910
+      height: 575
+      bytes: 108250
+    - paper: barham-2003-xen
+      figure: f03
+      number: "3"
+      page: 9
+      bbox: [64.56, 517.68, 320.16, 723.6]
+      caption: 'Figure 3: Relative performance of native Linux (L), XenoLinux (X), VMware workstation 3.2 (V) and User-Mode Linux (U).'
+      sha256: 5cc74e00c29988d6036c8f830bb23e6283741ee0607b5c45c2f7bda019bc237f
+      method: vector
+      page_fraction: 0.11
+      width: 1065
+      height: 858
+      bytes: 50340
+    - paper: barham-2003-xen
+      figure: f04
+      number: "4"
+      page: 11
+      bbox: [54.24, 528.72, 279.6, 722.88]
+      caption: 'Figure 4: SPEC WEB99 for 1, 2, 4, 8 and 16 concurrent Apache servers: higher values are better.'
+      sha256: ccd6cb8d3c347879d2eac0baa1d88c6e78933ae2f5b46e7420f94390b89734d7
+      method: vector
+      page_fraction: 0.09
+      width: 939
+      height: 809
+      bytes: 53751
+    - paper: barham-2003-xen
+      figure: f05
+      number: "5"
+      page: 11
+      bbox: [319.68, 527.52, 542.64, 722.88]
+      caption: 'Figure 5: Performance of multiple instances of PostgreSQL running OSDB in separate Xen domains. 8(diff) bars show performance variation with different scheduler weights.'
+      sha256: eeffe0bdf746f36d7bbb439f1ee830fff43d553fa38101cc91db11fc99ded93f
+      method: vector
+      page_fraction: 0.09
+      width: 929
+      height: 814
+      bytes: 52323
+    - paper: barham-2003-xen
+      figure: f06
+      number: "6"
+      page: 12
+      bbox: [54.24, 594.72, 291.36, 730.08]
+      caption: 'Figure 6: Normalized aggregate performance of a subset of SPEC CINT2000 running concurrently on 1-128 domains'
+      sha256: f112ac40109ccf624023c6674b6cd5003b53bdb0c0c16fe4e111ff31622b5583
+      method: vector
+      page_fraction: 0.07
+      width: 988
+      height: 564
+      bytes: 52216
     - paper: boncz-2005-x100
       figure: f01
       number: "1"
