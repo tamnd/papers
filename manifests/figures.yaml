@@ -1077,6 +1077,126 @@ figures:
       width: 913
       height: 2036
       bytes: 256172
+    - paper: gal-2009-tracejit
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [316.08, 651.12, 556.32, 720.96]
+      caption: 'Figure 1. Sample program: sieve of Eratosthenes. primes is initialized to an array of 100 false values on entry to this code snippet.'
+      sha256: 555039f8e415b6626168846b3d86dc170bd7a422048c243841534afced5571fc
+      method: vector
+      page_fraction: 0.03
+      width: 1001
+      height: 291
+      bytes: 32366
+    - paper: gal-2009-tracejit
+      figure: f02
+      number: "2"
+      page: 2
+      bbox: [316.08, 402.72, 556.32, 720.96]
+      caption: Figure 2. State machine describing the major activities of Trace-Monkey and the conditions that cause transitions to a new activity. In the dark box, TM executes JS as compiled traces. In the light gray boxes, TM executes JS in the standard interpreter. White boxes are overhead. Thus, to maximize performance, we need to maximize time spent in the darkest box and minimize time spent in the white boxes. The best case is a loop where the types at the loop edge are the same as the types on entry–then TM can stay in native code until the loop is done.
+      sha256: 746a25f7793eb611f43c020fc00dc882b775209dadf293f009285ba4832fd2b4
+      method: vector
+      page_fraction: 0.16
+      width: 1001
+      height: 1326
+      bytes: 192937
+    - paper: gal-2009-tracejit
+      figure: f03
+      number: "5"
+      page: 6
+      bbox: [316.8, 571.68, 556.32, 640.08]
+      caption: Figure 5. A tree with two traces, a trunk trace and one branch trace. The trunk trace contains a guard to which a branch trace was attached. The branch trace contain a guard that may fail and trigger a side exit. Both the trunk and the branch trace loop back to the tree anchor, which is the beginning of the trace tree.
+      sha256: 9c54475fe70cd5f9beba11684e1a0e089516f53360cb40b46164d175cc3f4115
+      method: vector
+      page_fraction: 0.03
+      width: 998
+      height: 285
+      bytes: 8585
+    - paper: gal-2009-tracejit
+      figure: f04
+      number: "7"
+      page: 7
+      bbox: [54, 569.28, 293.76, 717.12]
+      caption: Figure 7. Control flow graph of a nested loop with an if statement inside the inner most loop (a). An inner tree captures the inner loop, and is nested inside an outer tree which “calls” the inner tree. The inner tree returns to the outer tree once it exits along its loop condition guard (b).
+      sha256: 3161ff2578a93d8fd5e2982a00bfb5d93d4611a0be98d6b549fea7b39a3cd968
+      method: vector
+      page_fraction: 0.07
+      width: 999
+      height: 616
+      bytes: 46790
+    - paper: gal-2009-tracejit
+      figure: f05
+      number: "8"
+      page: 7
+      bbox: [316.08, 588.24, 556.32, 717.12]
+      caption: Figure 8. Control flow graph of a loop with two nested loops (left) and its nested trace tree configuration (right). The outer tree calls the two inner nested trace trees and places guards at their side exit locations.
+      sha256: 36e58091677afc30b573fff5cc9044f64aa11a972f3727ad3723fd35759dcf58
+      method: vector
+      page_fraction: 0.06
+      width: 1001
+      height: 537
+      bytes: 36233
+    - paper: gal-2009-tracejit
+      figure: f06
+      number: "9"
+      page: 8
+      bbox: [316.08, 634.8, 556.32, 720.72]
+      caption: Figure 9. Tagged values in the SpiderMonkey JS interpreter. Testing tags, unboxing (extracting the untagged value) and boxing (creating tagged values) are significant costs. Avoiding these costs is a key benefit of tracing.
+      sha256: e9e91f6e92cc2c256ec020eb46c5061120f1b334dbc6d324cd45900fab5b093b
+      method: vector
+      page_fraction: 0.04
+      width: 1001
+      height: 358
+      bytes: 62775
+    - paper: gal-2009-tracejit
+      figure: f07
+      number: "11"
+      page: 10
+      bbox: [316.08, 494.16, 559.92, 719.76]
+      caption: Figure 11. Fraction of dynamic bytecodes executed by interpreter and on native traces. The speedup vs. interpreter is shown in parentheses next to each test. The fraction of bytecodes executed while recording is too small to see in this figure, except for crypto-md5, where fully 3% of bytecodes are executed while recording. In most of the tests, almost all the bytecodes are executed by compiled traces. Three of the benchmarks are not traced at all and run in the interpreter.
+      sha256: cb437580ffd514c73bc641862640843cb541b07eadb4acf3a3f4558202c400fe
+      method: vector
+      page_fraction: 0.11
+      width: 1016
+      height: 940
+      bytes: 101363
+    - paper: gal-2009-tracejit
+      figure: f08
+      number: "10"
+      page: 11
+      bbox: [54, 440.88, 556.32, 720.48]
+      caption: Figure 10. Speedup vs. a baseline JavaScript interpreter (SpiderMonkey) for our trace-based JIT compiler, Apple’s SquirrelFish Extreme inline threading interpreter and Google’s V8 JS compiler. Our system generates particularly efficient code for programs that benefit most from type specialization, which includes SunSpider Benchmark programs that perform bit manipulation. We type-specialize the code in question to use integer arithmetic, which substantially improves performance. For one of the benchmark programs we execute 25 times faster than the SpiderMonkey interpreter, and almost 5 times faster than V8 and SFX. For a large number of benchmarks all three VMs produce similar results. We perform worst on benchmark programs that we do not trace and instead fall back onto the interpreter. This includes the recursive
+      sha256: 658ffec710a0602c8658b852d5151a6219fcaa64a1ef4a7a1922a980ba0fbf63
+      method: vector
+      page_fraction: 0.29
+      width: 2093
+      height: 1165
+      bytes: 123819
+    - paper: gal-2009-tracejit
+      figure: f09
+      number: "13"
+      page: 12
+      bbox: [54, 438.72, 556.32, 708]
+      caption: Figure 13. Detailed trace recording statistics for the SunSpider benchmark set.
+      sha256: ab667c1b5556c8cf0b20c4d5b127fa7f0db5754ecdcaa2f71e397feb22be96ed
+      method: vector
+      page_fraction: 0.28
+      width: 2093
+      height: 1122
+      bytes: 287034
+    - paper: gal-2009-tracejit
+      figure: f10
+      number: "12"
+      page: 13
+      bbox: [54, 493.68, 295.44, 536.88]
+      caption: Figure 12. Fraction of time spent on major VM activities. The speedup vs. interpreter is shown in parentheses next to each test. Most programs where the VM spends the majority of its time running native code have a good speedup. Recording and compilation costs can be substantial; speeding up those parts of the implementation would improve SunSpider performance.
+      sha256: 21d794efb2a81f7b42cd558d3bc3837483215134d1ac719d829b9a2cb0a89ac7
+      method: vector
+      page_fraction: 0.02
+      width: 1006
+      height: 180
+      bytes: 12509
     - paper: goodfellow-2014-gan
       figure: f01
       number: "1"
