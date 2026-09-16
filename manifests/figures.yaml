@@ -1017,6 +1017,102 @@ figures:
       width: 709
       height: 712
       bytes: 41399
+    - paper: decandia-2007-dynamo
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [59.58, 488.59, 255.34, 711.03]
+      caption: 'Figure 1: Service-oriented architecture of Amazon’s platform'
+      sha256: e59b222b2de1b9ef204e411864256ea9f4c5ad60d050ca813b8d6789b236ab38
+      method: raster
+      page_fraction: 0.09
+      width: 851
+      height: 967
+      bytes: 365759
+    - paper: decandia-2007-dynamo
+      figure: f02
+      number: "2"
+      page: 5
+      bbox: [75.36, 566.88, 321.84, 717.12]
+      caption: 'Figure 2: Partitioning and replication of keys in Dynamo ring.'
+      sha256: c0874b6732e7837d64679933c9bc55c8dfe47384d284be532d1e1e24612b1ea1
+      method: vector
+      page_fraction: 0.08
+      width: 1027
+      height: 626
+      bytes: 52041
+    - paper: decandia-2007-dynamo
+      figure: f03
+      number: "3"
+      page: 7
+      bbox: [63.36, 521.52, 243.36, 717.12]
+      caption: 'Figure 3: Version evolution of an object over time.'
+      sha256: f483a64214725a512638ca79b313a2adc27418445f0f56be3dd1203666c832aa
+      method: raster
+      page_fraction: 0.07
+      width: 750
+      height: 815
+      bytes: 171901
+    - paper: decandia-2007-dynamo
+      figure: f04
+      number: "5"
+      page: 10
+      bbox: [316.56, 555.12, 562.08, 720.48]
+      caption: 'Figure 5: Comparison of performance of 99.9th percentile latencies for buffered vs. non-buffered writes over a period of 24 hours. The intervals between consecutive ticks in the x-axis correspond to one hour.'
+      sha256: 10c29c31625c70e6b20c15137753752a6b434d5a17f1b576a67967f9997dbaab
+      method: raster
+      page_fraction: 0.08
+      width: 1023
+      height: 689
+      bytes: 147474
+    - paper: decandia-2007-dynamo
+      figure: f05
+      number: "4"
+      page: 10
+      bbox: [53.76, 544.56, 307.2, 720.72]
+      caption: 'Figure 4: Average and 99.9 percentiles of latencies for read and write requests during our peak request season of December 2006. The intervals between consecutive ticks in the x-axis correspond to 12 hours. Latencies follow a diurnal pattern similar to the request rate and 99.9 percentile latencies are an order of magnitude higher than averages'
+      sha256: 5028b73f12c9469f1da8e56f3ca69b2a0aba24beeba7036ac9512398bcaa5eea
+      method: raster
+      page_fraction: 0.09
+      width: 1056
+      height: 734
+      bytes: 194065
+    - paper: decandia-2007-dynamo
+      figure: f06
+      number: "6"
+      page: 11
+      bbox: [54.24, 583.44, 294.96, 720.72]
+      caption: 'Figure 6: Fraction of nodes that are out-of-balance (i.e., nodes whose request load is above a certain threshold from the average system load) and their corresponding request load. The interval between ticks in x-axis corresponds to a time period of 30 minutes.'
+      sha256: 22f826426d4617c245a93f867df44af53048838de75e35b38d50f5c8ec41bb41
+      method: raster
+      page_fraction: 0.07
+      width: 1003
+      height: 572
+      bytes: 115950
+    - paper: decandia-2007-dynamo
+      figure: f07
+      number: "7"
+      page: 12
+      bbox: [92.4, 558.96, 517.2, 717.12]
+      caption: 'Figure 7: Partitioning and placement of keys in the three strategies. A, B, and C depict the three unique nodes that form the preference list for the key k1 on the consistent hashing ring (N=3). The shaded area indicates the key range for which nodes A, B, and C form the preference list. Dark arrows indicate the token locations for various nodes.'
+      sha256: 5d80f9d59e6ea436ed3b99bcc11719fd334d6a0d16fd5dac62b826d388285d49
+      method: raster
+      page_fraction: 0.14
+      width: 1770
+      height: 659
+      bytes: 338928
+    - paper: decandia-2007-dynamo
+      figure: f08
+      number: "8"
+      page: 13
+      bbox: [52.08, 569.28, 287.28, 718.8]
+      caption: 'Figure 8: Comparison of the load distribution efficiency of different strategies for system with 30 nodes and N=3 with equal amount of metadata maintained at each node. The values of the system size and number of replicas are based on the typical configuration deployed for majority of our services.'
+      sha256: 9cf53da8c90e9c7e173513a5391cc827d75a54b4d87491fda71b4d6835404864
+      method: vector
+      page_fraction: 0.07
+      width: 980
+      height: 623
+      bytes: 44535
     - paper: devlin-2018-bert
       figure: f01
       number: "1"
