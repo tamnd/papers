@@ -80,6 +80,17 @@ figures:
       width: 988
       height: 564
       bytes: 52216
+    - paper: bloom-1970-filter
+      figure: f01
+      page: 5
+      bbox: [43.68, 345.36, 297.84, 705.36]
+      caption: FIG. i
+      sha256: d01202327f2196c109d5ba759ab30cbd1f75786ea2bcb2d6609d277896d3149b
+      method: crop
+      page_fraction: 0.19
+      width: 1059
+      height: 1500
+      bytes: 253230
     - paper: boncz-2005-x100
       figure: f01
       number: "1"
