@@ -753,6 +753,78 @@ figures:
       width: 943
       height: 1204
       bytes: 167361
+    - paper: chang-2006-bigtable
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [118.32, 640.8, 314.16, 704.88]
+      caption: 'Figure 1: A slice of an example table that stores Web pages. The row name is a reversed URL. The contents column family contains the page contents, and the anchor column family contains the text of any anchors that reference the page. CNN’s home page is referenced by both the Sports Illustrated and the MY-look home pages, so the row contains columns named anchor:cnnsi.com and anchor:my.look.ca. Each anchor cell has one version; the contents column has three versions, at timestamps t 3 , t 5 , and t 6 .'
+      sha256: cf6b580766c13688982309d1d11d7f74f9bd08b5826f514480bc3016e5577db8
+      method: vector
+      page_fraction: 0.03
+      width: 816
+      height: 267
+      bytes: 16156
+    - paper: chang-2006-bigtable
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [71.76, 636.96, 296.16, 721.44]
+      caption: 'Figure 2: Writing to Bigtable.'
+      sha256: 17601b38276369712b8515ce45c120241c877552f660216b1319c3a6ae11fdb5
+      method: vector
+      page_fraction: 0.04
+      width: 935
+      height: 352
+      bytes: 51918
+    - paper: chang-2006-bigtable
+      figure: f03
+      number: "3"
+      page: 3
+      bbox: [314.88, 609.36, 529.68, 720.96]
+      caption: 'Figure 3: Reading from Bigtable.'
+      sha256: 2f2610572293b73e1f2dc7ef355bf995215d20fedd36a4da4b98747c7311b2f4
+      method: vector
+      page_fraction: 0.05
+      width: 895
+      height: 465
+      bytes: 67838
+    - paper: chang-2006-bigtable
+      figure: f04
+      number: "4"
+      page: 4
+      bbox: [314.16, 232.8, 540.24, 717.84]
+      caption: 'Figure 4: Tablet location hierarchy.'
+      sha256: f833f0fc26cbc86d64a57064b843cd7803fc65587565f347f00839f330273c19
+      method: vector
+      page_fraction: 0.23
+      width: 942
+      height: 2021
+      bytes: 268637
+    - paper: chang-2006-bigtable
+      figure: f05
+      number: "5"
+      page: 6
+      bbox: [71.76, 409.44, 297.6, 717.84]
+      caption: 'Figure 5: Tablet Representation'
+      sha256: 2fb7d1dd6ae711c729347dd001a955c56ef4017f8f963bcaf8fcbfc1c7c0502c
+      method: vector
+      page_fraction: 0.14
+      width: 941
+      height: 1285
+      bytes: 140502
+    - paper: chang-2006-bigtable
+      figure: f06
+      number: "6"
+      page: 9
+      bbox: [78.96, 613.68, 516.24, 723.84]
+      caption: 'Figure 6: Number of 1000-byte values read/written per second. The table shows the rate per tablet server; the graph shows the aggregate rate.'
+      sha256: 00ecf0aa009252a947ebe0424d935b68c00e6cd14e3d39f1b20554ad46c71527
+      method: vector
+      page_fraction: 0.1
+      width: 1822
+      height: 459
+      bytes: 134154
     - paper: corbett-2012-spanner
       figure: f01
       number: "1"
