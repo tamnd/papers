@@ -729,6 +729,30 @@ figures:
       width: 1960
       height: 1655
       bytes: 396091
+    - paper: castro-1999-pbft
+      figure: f01
+      number: "1"
+      page: 5
+      bbox: [71.76, 165.12, 297.84, 716.88]
+      caption: 'Figure 1: Normal Case Operation'
+      sha256: 9dfe20a1f9e0d80a4c657e612f9b9f69cc13b7693f766b3d35b8e565b2f6023e
+      method: vector
+      page_fraction: 0.26
+      width: 942
+      height: 2299
+      bytes: 361161
+    - paper: castro-1999-pbft
+      figure: f02
+      number: "2"
+      page: 9
+      bbox: [314.16, 316.56, 540.48, 605.52]
+      caption: 'Figure 2: Replicated File System Architecture.'
+      sha256: fa16b023cacb074579f00c6262ff7a6f745b3f9154a27b3a4d65335318f375e2
+      method: vector
+      page_fraction: 0.13
+      width: 943
+      height: 1204
+      bytes: 167361
     - paper: corbett-2012-spanner
       figure: f01
       number: "1"
