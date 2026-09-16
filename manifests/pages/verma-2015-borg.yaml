@@ -18,3 +18,48 @@ pages:
     - pdf: 3
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      size: [612, 792]
+      columns: 2
+    - pdf: 8
+      size: [612, 792]
+      columns: 2
+    - pdf: 9
+      size: [612, 792]
+      columns: 2
+    - pdf: 10
+      size: [612, 792]
+      columns: 2
+    - pdf: 11
+      size: [612, 792]
+      columns: 2
+    - pdf: 12
+      size: [612, 792]
+      columns: 2
+    - pdf: 13
+      size: [612, 792]
+      columns: 2
+    - pdf: 14
+      size: [612, 792]
+      columns: 2
+    - pdf: 15
+      size: [612, 792]
+      columns: 2
+    - pdf: 16
+      size: [612, 792]
+      columns: 2
+    - pdf: 17
+      size: [612, 792]
+      columns: 2
+    - pdf: 18
+      size: [612, 792]
+      columns: 1

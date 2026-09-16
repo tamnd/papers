@@ -2403,3 +2403,159 @@ figures:
       width: 1296
       height: 1403
       bytes: 483255
+    - paper: verma-2015-borg
+      figure: f01
+      number: "1"
+      page: 1
+      bbox: [349.92, 428.64, 529.68, 504]
+      caption: 'Figure 1: The high-level architecture of Borg. Only a tiny fraction of the thousands of worker nodes are shown.'
+      sha256: 45f48d54fe7e3132bc28544b814a0a99b2e807cb130259df2a69c49891596667
+      method: vector
+      page_fraction: 0.03
+      width: 749
+      height: 314
+      bytes: 25243
+    - paper: verma-2015-borg
+      figure: f02
+      number: "2"
+      page: 2
+      bbox: [296.16, 210, 556.32, 719.76]
+      caption: 'Figure 2: The state diagram for both jobs and tasks. Users can trigger submit, kill, and update transitions.'
+      sha256: c341385c5531e181e203a64d06e81c1d1869d69b8e7eed8e5823a704cd85f493
+      method: vector
+      page_fraction: 0.27
+      width: 1084
+      height: 2124
+      bytes: 328846
+    - paper: verma-2015-borg
+      figure: f03
+      number: "4"
+      page: 6
+      bbox: [340.08, 586.56, 533.04, 720.72]
+      caption: 'Figure 4: The effects of compaction. A CDF of the percentage of original cell size achieved after compaction, across 15 cells.'
+      sha256: 12e8aaee287a62083e441f1704ef1068882ab8dcb1c4fe4c74d717d27c858859
+      method: vector
+      page_fraction: 0.05
+      width: 804
+      height: 559
+      bytes: 28449
+    - paper: verma-2015-borg
+      figure: f04
+      number: "3"
+      page: 6
+      bbox: [63.6, 671.76, 294, 720.96]
+      caption: 'Figure 3: Task-eviction rates and causes for production and nonproduction workloads. Data from August 1st 2013.'
+      sha256: 5b838805f69bf8be1314574c557558ba39ff6da63c75a86cbac2e762851f9e0b
+      method: vector
+      page_fraction: 0.02
+      width: 960
+      height: 205
+      bytes: 29932
+    - paper: verma-2015-borg
+      figure: f05
+      number: "5"
+      page: 7
+      bbox: [326.88, 566.16, 554.16, 720.72]
+      caption: 'Figure 5: Segregating prod and non-prod work into different cells would need more machines. Both graphs show how many extra machines would be needed if the prod and non-prod workloads were sent to separate cells, expressed as a percentage of the minimum number of machines required to run the workload in a single cell. In this, and subsequent CDF plots, the value shown for each cell is derived from the'
+      sha256: 7e4f82dd35c017a1e1b67b6e94d360bc136ef4d2261dc78017417d6cfb16992e
+      method: raster
+      page_fraction: 0.07
+      width: 947
+      height: 644
+      bytes: 57517
+    - paper: verma-2015-borg
+      figure: f06
+      number: "6"
+      page: 7
+      bbox: [316.8, 380.64, 546.72, 520.56]
+      caption: 'Figure 6: Segregating users would need more machines. The total number of cells and the additional machines that would be needed if users larger than the threshold shown were given their own private cells, for 5 different cells.'
+      sha256: 4b99a14cb3e53610a5114b6074d5cf2648a1918608d7ca961cefa585982fe68c
+      method: raster
+      page_fraction: 0.07
+      width: 958
+      height: 583
+      bytes: 72458
+    - paper: verma-2015-borg
+      figure: f07
+      number: "7"
+      page: 8
+      bbox: [326.88, 564.24, 554.16, 717.6]
+      caption: 'Figure 7: Subdividing cells into smaller ones would require more machines. The additional machines (as a percentage of the single-cell'
+      sha256: c16dd6eaf4da79ae7e0041c4cd6bc15e4c34b6b5f38f94e077faefe98d9d9056
+      method: vector
+      page_fraction: 0.07
+      width: 947
+      height: 639
+      bytes: 66452
+    - paper: verma-2015-borg
+      figure: f08
+      number: "8"
+      page: 9
+      bbox: [78.72, 589.44, 270, 720.96]
+      caption: 'Figure 8: No bucket sizes fit most of the tasks well. CDF of requested CPU and memory requests across our sample cells. No one value stands out, although a few integer CPU core sizes are somewhat more popular.'
+      sha256: 51a0843829a63894c11cef6d2d20056877ca06e0a5ca39b4ae640197a0afb31e
+      method: vector
+      page_fraction: 0.05
+      width: 797
+      height: 548
+      bytes: 74934
+    - paper: verma-2015-borg
+      figure: f09
+      number: "10"
+      page: 9
+      bbox: [340.08, 585.36, 533.04, 720.72]
+      caption: 'Figure 10: Resource reclamation is quite effective. A CDF of the additional machines that would be needed if we disabled it for 15 representative cells.'
+      sha256: ffb011ecf49fbd6b9b72a228f6e20580f994b978efe8df88734335d7bab426d6
+      method: vector
+      page_fraction: 0.05
+      width: 804
+      height: 564
+      bytes: 26292
+    - paper: verma-2015-borg
+      figure: f10
+      number: "9"
+      page: 9
+      bbox: [54, 377.28, 295.2, 720.96]
+      caption: 'Figure 9: “Bucketing” resource requirements would need more machines. A CDF of the additional overheads that would result from rounding up CPU and memory requests to the next nearest powers of 2 across 15 cells. The lower and upper bounds straddle the actual values (see the text).'
+      sha256: 5650835e9563e91eae8e69f504eacfbd435dd76ec924f807f9f0211c2db3a036
+      method: vector
+      page_fraction: 0.17
+      width: 1005
+      height: 1432
+      bytes: 162285
+    - paper: verma-2015-borg
+      figure: f11
+      number: "11"
+      page: 9
+      bbox: [316.32, 403.2, 556.32, 720.72]
+      caption: 'Figure 11: Resource estimation is successful at identifying unused resources. The dotted lines shows CDFs of the ratio of CPU and memory usage to the request (limit) for tasks across 15 cells. Most tasks use much less than their limit, although a few use more CPU than requested. The solid lines show the CDFs of the ratio of CPU and memory reservations to the limits; these are closer to 100%. The straight lines are artifacts of the resource-estimation process.'
+      sha256: fc389a1a68a95c1920c744150366e23a8f1920e7242771863484f35ed024144c
+      method: vector
+      page_fraction: 0.16
+      width: 1000
+      height: 1323
+      bytes: 133350
+    - paper: verma-2015-borg
+      figure: f12
+      number: "12"
+      page: 10
+      bbox: [78.24, 599.76, 531.84, 720.72]
+      caption: 'Figure 12: More aggressive resource estimation can reclaim more resources, with little effect on out-of-memory events (OOMs). A timeline (starting on 2013-11-11) for one production cell of usage, reservation and limit averaged over 5-minute windows and cumulative out-ofmemory events; the slope of the latter is the aggregate rate of OOMs. Vertical bars separate weeks with different resource estimation settings.'
+      sha256: d2e2891b4e19b39f007ea735c50129e8c2417effc2b807467c221423ee95f710
+      method: vector
+      page_fraction: 0.11
+      width: 1890
+      height: 504
+      bytes: 219288
+    - paper: verma-2015-borg
+      figure: f13
+      number: "13"
+      page: 10
+      bbox: [354.24, 420.96, 515.28, 531.36]
+      caption: 'Figure 13: Scheduling delays as a function of load. A plot of how often a runnable thread had to wait longer than 1ms to get access to a CPU, as a function of how busy the machine was. In each pair of bars, latency-sensitive tasks are on the left, batch ones on the right. In only a few percent of the time did a thread have to wait longer than 5 ms to access a CPU (the white bars); they almost never had to wait longer (the darker bars). Data from a representative cell for the month of December 2013; error bars show day-to-day variance.'
+      sha256: e4ea54c924374c02a51210087f575b88869021c78af393fe24e4f8db30aaaa99
+      method: vector
+      page_fraction: 0.04
+      width: 671
+      height: 460
+      bytes: 30454
