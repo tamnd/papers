@@ -3172,6 +3172,511 @@ figures:
       width: 479
       height: 420
       bytes: 48600
+    - paper: sutherland-1963-sketchpad
+      figure: f01
+      number: "1.1"
+      page: 19
+      bbox: [103.67, 214.02, 479.8, 769.1]
+      caption: 'Figure 1.1: (Originally on page 10.)'
+      sha256: d1369dc1bd3dbafa65054861459e7e23a092e658a99e51bb1b92ddafb79f4fec
+      method: raster
+      page_fraction: 0.42
+      scale: 0.8
+      width: 1259
+      height: 1858
+      bytes: 482054
+    - paper: sutherland-1963-sketchpad
+      figure: f02
+      number: "1.2"
+      page: 20
+      bbox: [118.5, 317, 493.5, 619.5]
+      caption: 'Figure 1.2: TX-2 OPERATING AREA — SKETCHPAD IN USE. On the display can be seen part of a bridge similar to that of Figure 9.6. The Author is holding the Light pen. The push buttons used to control specific drawing functions are on the box in front of the Author. Part of the bank of toggle switches can be seen behind the Author. The size and position of the part of the total picture seen on the display is obtained through the four black knobs just above the table. (Originally on page 11.)'
+      sha256: 6c17f8a74faebe81d663ea83e0685fc81c8129eb9552e16eeaed0ac39773e2e2
+      method: raster
+      page_fraction: 0.23
+      scale: 0.48
+      width: 750
+      height: 605
+      bytes: 418298
+    - paper: sutherland-1963-sketchpad
+      figure: f03
+      number: "1.3"
+      page: 21
+      bbox: [103.3, 278, 480, 769.48]
+      caption: 'Figure 1.3: PLOTTER USED WITH SKETCHPAD. A digital and analog control system makes the plotter draw straight lines and circles either under direct control of the TX-2 or off-line from punched paper tape. (Originally on page 12.)'
+      sha256: 5d80c8fd8083660cd49dcb8cdbcccb6fb289c593501e3edcf0a82aeebb1a4403
+      method: vector
+      page_fraction: 0.37
+      scale: 0.46
+      width: 722
+      height: 942
+      bytes: 419307
+    - paper: sutherland-1963-sketchpad
+      figure: f04
+      number: "1.4"
+      page: 22
+      bbox: [117.82, 100.88, 494.18, 769.11]
+      caption: 'Figure 1.4: (Originally on page 14.)'
+      sha256: 77c34aff282884022a4318208507fd27686b6732bb6f90e744a8c8b8f21ebaa2
+      method: raster
+      page_fraction: 0.5
+      scale: 0.81
+      width: 1265
+      height: 2246
+      bytes: 484985
+    - paper: sutherland-1963-sketchpad
+      figure: f05
+      number: "1.5"
+      page: 23
+      bbox: [103.56, 132.85, 479.67, 769.34]
+      caption: 'Figure 1.5: (Originally on page 15.)'
+      sha256: e10d3d245aa48a1d8899f4af8581115427ec7c47142f2b9224ea14391eac3c07
+      method: raster
+      page_fraction: 0.48
+      scale: 0.73
+      width: 1144
+      height: 1936
+      bytes: 502766
+    - paper: sutherland-1963-sketchpad
+      figure: f06
+      number: "1.6"
+      page: 26
+      bbox: [118.05, 217.72, 493.95, 769.16]
+      caption: 'Figure 1.6: (Originally on page 20.)'
+      sha256: 0980e1fa12d3526d137e40b6930ca8d470246d4fb81b06625bd18ab3091ec54c
+      method: raster
+      page_fraction: 0.41
+      scale: 0.86
+      width: 1347
+      height: 1976
+      bytes: 469717
+    - paper: sutherland-1963-sketchpad
+      figure: f07
+      number: "1.7"
+      page: 27
+      bbox: [104.3, 542.78, 478.81, 732.49]
+      caption: 'Figure 1.7: (Originally on page 20.)'
+      sha256: 37da7d29b7dab677309872c9ff6a95f32c2a2ef52e0b28a2e308b8925f96181d
+      method: raster
+      page_fraction: 0.14
+      scale: 0.88
+      width: 1368
+      height: 693
+      bytes: 461964
+    - paper: sutherland-1963-sketchpad
+      figure: f08
+      number: "3.1"
+      page: 39
+      bbox: [103.68, 243.44, 480, 769.04]
+      caption: 'Figure 3.1: (Originally on page 36.)'
+      sha256: 7d49d91a20ca93138a9a71f5f84fc30ec4894c84e00410858271719130ea22ad
+      method: vector
+      page_fraction: 0.39
+      width: 1568
+      height: 2190
+      bytes: 481017
+    - paper: sutherland-1963-sketchpad
+      figure: f09
+      number: "3.2"
+      page: 42
+      bbox: [118.03, 101.15, 494.16, 769.21]
+      caption: 'Figure 3.2: (Originally on page 41.)'
+      sha256: 700f454026c457dd6de8ba718595f79b4567838355de26c28bde2f611f5f22a7
+      method: raster
+      page_fraction: 0.5
+      scale: 0.61
+      width: 956
+      height: 1698
+      bytes: 441518
+    - paper: sutherland-1963-sketchpad
+      figure: f10
+      number: "3.3"
+      page: 43
+      bbox: [103.68, 530.96, 479.52, 769.04]
+      caption: 'Figure 3.3: (Originally on page 43.)'
+      sha256: 6bc7e082b809042da29f81b4a9e4a289dc3ebc36b338e99d7ef09c9a3a178d7d
+      method: raster
+      page_fraction: 0.18
+      width: 1566
+      height: 992
+      bytes: 510195
+    - paper: sutherland-1963-sketchpad
+      figure: f11
+      number: "3.4"
+      page: 43
+      bbox: [106.32, 127.52, 479.28, 484.16]
+      caption: 'Figure 3.4: (Originally on page 43.)'
+      sha256: 67cc929789eb0690f84e4469804c11ff9c62c6a2e2e656b9ca6421a446692a74
+      method: raster
+      page_fraction: 0.27
+      width: 1554
+      height: 1486
+      bytes: 480714
+    - paper: sutherland-1963-sketchpad
+      figure: f12
+      number: "3.5"
+      page: 45
+      bbox: [103.53, 214.37, 479.72, 769.16]
+      caption: 'Figure 3.5: (Originally on page 46.)'
+      sha256: 7ae54d28c8b03e4397f82470f7aa7f4cb6e99670c088b01cfc50d641dd54bced
+      method: raster
+      page_fraction: 0.42
+      scale: 0.86
+      width: 1348
+      height: 1988
+      bytes: 470382
+    - paper: sutherland-1963-sketchpad
+      figure: f13
+      number: "3.6"
+      page: 46
+      bbox: [117.82, 99.87, 494.03, 769.06]
+      caption: 'Figure 3.6: (Originally on page 47.)'
+      sha256: 9463f138492734899ca7840426b32fc1ee87327e66d9429be2540b871fb4ba96
+      method: raster
+      page_fraction: 0.5
+      scale: 0.77
+      width: 1207
+      height: 2147
+      bytes: 499763
+    - paper: sutherland-1963-sketchpad
+      figure: f14
+      number: "3.7"
+      page: 49
+      bbox: [103.64, 101.36, 479.69, 769.08]
+      caption: 'Figure 3.7: (Originally on page 51.)'
+      sha256: 9d1c62c87464297cf0eba75f339a5d51fd0c035215d9c10e4333b86d5aca14db
+      method: raster
+      page_fraction: 0.5
+      scale: 0.52
+      width: 820
+      height: 1456
+      bytes: 447590
+    - paper: sutherland-1963-sketchpad
+      figure: f15
+      number: "3.8"
+      page: 50
+      bbox: [117.75, 189.88, 494.25, 769.25]
+      caption: 'Figure 3.8: (Originally on page 52.)'
+      sha256: 0c6254ba8f0b963c3df9cabce9c63cb459d8741e6ab2f8a98d661561fa942ad9
+      method: raster
+      page_fraction: 0.44
+      scale: 0.64
+      width: 1004
+      height: 1545
+      bytes: 440068
+    - paper: sutherland-1963-sketchpad
+      figure: f16
+      number: "4.1"
+      page: 54
+      bbox: [117.63, 434.34, 494.37, 769.49]
+      caption: 'Figure 4.1: LIGHT PEN. Courtesy of MIT Electronic Systems Laboratory. (Originally on page 56.)'
+      sha256: 85972de7eb05ae19dcbc033a52301ec82cc37ee175904de3eae5d4aad19664d7
+      method: raster
+      page_fraction: 0.25
+      scale: 0.47
+      width: 743
+      height: 661
+      bytes: 404685
+    - paper: sutherland-1963-sketchpad
+      figure: f17
+      number: "4.2"
+      page: 54
+      bbox: [118.56, 172.64, 494.4, 346.16]
+      caption: 'Figure 4.2: CONSTRUCTION OF LIGHT PEN. Drawing courtesy of Electronic Systems Laboratory. This drawing was made by conventional methods. (Originally on page 56.)'
+      sha256: 864273a1554729bea6524de157e502e8e0eb471d3870e630d22fd5f4ba4d97c2
+      method: raster
+      page_fraction: 0.13
+      width: 1566
+      height: 723
+      bytes: 511201
+    - paper: sutherland-1963-sketchpad
+      figure: f18
+      number: "4.3"
+      page: 56
+      bbox: [118.56, 459.92, 489.84, 732.32]
+      caption: 'Figure 4.3: (Originally on page 58.)'
+      sha256: 600ad1942bc9ca0939c07610b13a89f636d2b73734700d819e36bc6598042909
+      method: raster
+      page_fraction: 0.2
+      width: 1547
+      height: 1135
+      bytes: 294168
+    - paper: sutherland-1963-sketchpad
+      figure: f19
+      number: "4.4"
+      page: 57
+      bbox: [103.68, 266.24, 479.76, 769.04]
+      caption: 'Figure 4.4: (Originally on page 58.)'
+      sha256: 8d42fc5cfc07dd0a8bb7f9980fac238aecf4181ec50961cc7d51c13c14c5fe77
+      method: vector
+      page_fraction: 0.38
+      width: 1567
+      height: 2095
+      bytes: 333314
+    - paper: sutherland-1963-sketchpad
+      figure: f20
+      number: "4.5"
+      page: 58
+      bbox: [120.96, 524.48, 491.52, 729.92]
+      caption: 'Figure 4.5: (Originally on page 61.)'
+      sha256: 19224334320fc06e11aae1cd69e3d144eb4ec2b488771cdd4988cdc19d7ffcb7
+      method: raster
+      page_fraction: 0.15
+      width: 1544
+      height: 856
+      bytes: 297073
+    - paper: sutherland-1963-sketchpad
+      figure: f21
+      number: "4.6"
+      page: 60
+      bbox: [118.8, 374.24, 490.8, 730.4]
+      caption: 'Figure 4.6: (Originally on page 61.)'
+      sha256: c97df37c41ecd9657ce96705564e3c50356ed48ee16ca8601435ba33918dea59
+      method: raster
+      page_fraction: 0.26
+      width: 1550
+      height: 1484
+      bytes: 411549
+    - paper: sutherland-1963-sketchpad
+      figure: f22
+      number: "5.1"
+      page: 65
+      bbox: [103.78, 288.7, 479.35, 660.38]
+      caption: 'Figure 5.1: TWINKLING DISPLAY. Displaying the spots of a large display in random sequence makes the display appear to “twinkle.” This photograph was exposed only long enough to show about half of the spots of a twinkling display. It conveys the impression of a twinklings display as well as any still picture can. The curves are of the equation x 4 x 2 + y 2 = a 2 for several values of a. They were drawn by another program rather − than by Sketchpad. (Originally on page'
+      sha256: 60939326a549234cbdd4cfbd40883745e5ac40119bbf38c3ebd6a8dc2c303a1d
+      method: raster
+      page_fraction: 0.28
+      scale: 0.37
+      width: 579
+      height: 573
+      bytes: 441582
+    - paper: sutherland-1963-sketchpad
+      figure: f23
+      number: "5.2"
+      page: 67
+      bbox: [103.68, 177.92, 479.52, 769.04]
+      caption: 'Figure 5.2: (Originally on page 73.)'
+      sha256: e7adf8e55aac2e450c4ab06cd2d87f617271be059f35c37f59bf9d131221d87f
+      method: raster
+      page_fraction: 0.44
+      width: 1566
+      height: 2463
+      bytes: 405619
+    - paper: sutherland-1963-sketchpad
+      figure: f24
+      number: "5.3"
+      page: 74
+      bbox: [118.08, 241.28, 494.16, 769.04]
+      caption: 'Figure 5.3: (Originally on page 84.)'
+      sha256: 547e0a184e70afaf2049d4c21dd8c180342aab2727e1bd36b88f8c591fa599fc
+      method: vector
+      page_fraction: 0.4
+      width: 1567
+      height: 2199
+      bytes: 358452
+    - paper: sutherland-1963-sketchpad
+      figure: f25
+      number: "5.4"
+      page: 75
+      bbox: [104.16, 464.72, 477.36, 729.68]
+      caption: 'Figure 5.4: (Originally on page 84.)'
+      sha256: ff955f11566058d01d854eb1ad45d48b2a978e1bcbfc9c80ba41ceea8a129aeb
+      method: raster
+      page_fraction: 0.2
+      width: 1555
+      height: 1104
+      bytes: 372666
+    - paper: sutherland-1963-sketchpad
+      figure: f26
+      number: "6.1"
+      page: 81
+      bbox: [103.5, 156.77, 479.86, 769.18]
+      caption: 'Figure 6.1: (Originally on page 94.)'
+      sha256: f7ebaeb1d391a0524e10f56ef8e407d3024682e461fb3c1a57dea17f23f9d6dc
+      method: raster
+      page_fraction: 0.46
+      scale: 0.59
+      width: 920
+      height: 1497
+      bytes: 437919
+    - paper: sutherland-1963-sketchpad
+      figure: f27
+      number: "7.1"
+      page: 90
+      bbox: [117.71, 98.13, 494.29, 769.19]
+      caption: 'Figure 7.1: (Originally on page 106.)'
+      sha256: 55d716f08d7688151b74bade4193f6caaa14453eb151cabbfe2feccac0d68ced
+      method: raster
+      page_fraction: 0.5
+      scale: 0.59
+      width: 931
+      height: 1659
+      bytes: 441585
+    - paper: sutherland-1963-sketchpad
+      figure: f28
+      number: "9.1"
+      page: 100
+      bbox: [118.32, 487.04, 493.2, 732.8]
+      caption: 'Figure 9.1: (Originally on page 122.)'
+      sha256: 6d8a1cc814af39b64bd71716ec9f5843000788a82a320ed88ef1969af922acb6
+      method: raster
+      page_fraction: 0.18
+      width: 1562
+      height: 1024
+      bytes: 264014
+    - paper: sutherland-1963-sketchpad
+      figure: f29
+      number: "9.2"
+      page: 101
+      bbox: [103.68, 240.08, 479.52, 769.04]
+      caption: 'Figure 9.2: (Originally on page 122.)'
+      sha256: a5e810c874ecd3b4f141c0f371cc0e381c5ff4e9c884d31972deb0d9a503ed79
+      method: vector
+      page_fraction: 0.4
+      width: 1566
+      height: 2204
+      bytes: 443242
+    - paper: sutherland-1963-sketchpad
+      figure: f30
+      number: "9.3"
+      page: 103
+      bbox: [103.7, 508.87, 479.55, 769.19]
+      caption: 'Figure 9.3: The paths of four points on the central link are traced. This is a 15 second time exposure of a moving Sketchpad drawing. (Originally on page 125.)'
+      sha256: 52e404b71dd0224b0e6b1b2519e535403f985ceace4306c68e19c3797bd11b87
+      method: vector
+      page_fraction: 0.2
+      scale: 0.89
+      width: 1399
+      height: 969
+      bytes: 452534
+    - paper: sutherland-1963-sketchpad
+      figure: f31
+      number: "9.4"
+      page: 103
+      bbox: [103.67, 200.57, 479.5, 349.65]
+      caption: 'Figure 9.4: As the “driving lever” is moved, the point shown with a box around it traces a conic section. This conic can be seen in the time exposure. (Originally on page 125.)'
+      sha256: f295b995bf05c0b829f9498093c5dbcb650c94eee9d5b64f50e78f4dcf03e8ca
+      method: raster
+      page_fraction: 0.11
+      scale: 0.8
+      width: 1258
+      height: 499
+      bytes: 474713
+    - paper: sutherland-1963-sketchpad
+      figure: f32
+      number: "9.5"
+      page: 105
+      bbox: [103.68, 287.6, 479.52, 769.04]
+      caption: 'Figure 9.5: (Originally on page 128.)'
+      sha256: 854cbb73b6e1c266aaf960caa643a7a3db1ceee075258430e846298738a96df6
+      method: vector
+      page_fraction: 0.36
+      width: 1566
+      height: 2006
+      bytes: 228038
+    - paper: sutherland-1963-sketchpad
+      figure: f33
+      number: "9.6"
+      page: 106
+      bbox: [123.6, 495.68, 480.24, 723.68]
+      caption: 'Figure 9.6: (Originally on page 128.)'
+      sha256: fbfaba95f13af9a05a6d0bc31c580057dee7124ebc32c618c31871ff7c050b82
+      method: raster
+      page_fraction: 0.16
+      width: 1486
+      height: 950
+      bytes: 517234
+    - paper: sutherland-1963-sketchpad
+      figure: f34
+      number: "9.7"
+      page: 108
+      bbox: [117.91, 180.09, 494.61, 769.3]
+      caption: 'Figure 9.7: (Originally on page 131.)'
+      sha256: f72bcb26ccadb61f373a53224e0146ebfc449dd6d7b6df4c636a2669354cf69b
+      method: raster
+      page_fraction: 0.44
+      scale: 0.69
+      width: 1083
+      height: 1694
+      bytes: 519021
+    - paper: sutherland-1963-sketchpad
+      figure: f35
+      number: "9.8"
+      page: 109
+      bbox: [103.55, 108.52, 503.71, 769.14]
+      caption: 'Figure 9.8: (Originally on page 133.)'
+      sha256: dd3efa3eb747b5a8d2bf3c2047a53ca799b4d4c0bae7872884a33c949a00f48d
+      method: raster
+      page_fraction: 0.53
+      scale: 0.84
+      width: 1395
+      height: 2303
+      bytes: 476623
+    - paper: sutherland-1963-sketchpad
+      figure: f36
+      number: "9.9"
+      page: 111
+      bbox: [103.35, 106.52, 489.68, 769.23]
+      caption: 'Figure 9.9: (Originally on page 134.)'
+      sha256: a6cfcfd8ccdcc6677ab38a7da70e2fd293458b73519152c3351088371d0be3f0
+      method: raster
+      page_fraction: 0.51
+      scale: 0.62
+      width: 998
+      height: 1712
+      bytes: 418510
+    - paper: sutherland-1963-sketchpad
+      figure: f37
+      number: "9.10"
+      page: 112
+      bbox: [117.96, 101.47, 496.65, 769.08]
+      caption: 'Figure 9.10: (Originally on page 135.)'
+      sha256: 55f15c71cbe49af37eb2c712473e9f84e47ddaeebfb311be4e5759ba59eeeea0
+      method: raster
+      page_fraction: 0.5
+      scale: 0.78
+      width: 1236
+      height: 2179
+      bytes: 496220
+    - paper: sutherland-1963-sketchpad
+      figure: f38
+      number: "9.11"
+      page: 113
+      bbox: [103.44, 115.71, 479.79, 769.06]
+      caption: 'Figure 9.11: (Originally on page 137.)'
+      sha256: 76e3891963b03560b96c940d6b046e4f84b8483beb7fdaa4273b5319e18f76b4
+      method: raster
+      page_fraction: 0.49
+      scale: 0.76
+      width: 1197
+      height: 2078
+      bytes: 498952
+    - paper: sutherland-1963-sketchpad
+      figure: f39
+      number: E.1
+      page: 130
+      bbox: [118.07, 177.72, 490.76, 678.97]
+      caption: 'Figure E.1: (Originally on page 155.)'
+      sha256: 8aa84d59487814c5e01364f691ef910ce74356f28a8d87d4f0cd9a32093a1be2
+      method: raster
+      page_fraction: 0.37
+      scale: 0.87
+      width: 1351
+      height: 1817
+      bytes: 460051
+    - paper: sutherland-1963-sketchpad
+      figure: f40
+      number: E.2
+      page: 132
+      bbox: [149.77, 100.6, 465.62, 729.92]
+      caption: 'Figure E.2: (Originally on page 157.)'
+      sha256: 81e1ce902065a370202ba38c773c977404911521d6b8f23cd3b2a2f716e202a5
+      method: raster
+      page_fraction: 0.4
+      scale: 0.71
+      width: 930
+      height: 1853
+      bytes: 518188
     - paper: sutskever-2014-seq2seq
       figure: f01
       number: "1"
