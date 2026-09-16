@@ -1,0 +1,387 @@
+paper: dewitt-1990-gamma
+style: bracket
+entries:
+    - key: AGRA85
+      raw: Agrawal, R., and D.J. DeWitt, "Recovery Architectures for Multiprocessor Database Machines," Proceedings of the 1985 SIGMOD Conference, Austin, TX, May, 1985.
+      authors:
+        - R. Agrawal
+        - D.J. DeWitt
+      title: Recovery Architectures for Multiprocessor Database Machines
+      venue: Proceedings of the 1985 SIGMOD Conference, Austin, TX
+      year: 1985
+      resolves_to: ""
+    - key: ASTR76
+      raw: 'Astrahan, M. M., et. al., "System R: A Relational Approach to Database Management," ACM Transactions on Database Systems, Vol. 1, No. 2, June, 1976.'
+      authors:
+        - M. M. Astrahan
+        - et. al
+      title: 'System R: A Relational Approach to Database Management'
+      venue: ACM Transactions on Database Systems, Vol. 1, No. 2
+      year: 1976
+      resolves_to: astrahan-1976-systemr
+    - key: BITT83
+      raw: Bitton D., D.J. DeWitt, and C. Turbyfill, "Benchmarking Database Systems - A Systematic Approach," Proceedings of the 1983 Very Large Database Conference, October, 1983.
+      authors:
+        - Bitton D
+        - D.J. DeWitt
+        - C. Turbyfill
+      title: Benchmarking Database Systems - A Systematic Approach
+      venue: Proceedings of the 1983 Very Large Database Conference
+      year: 1983
+      resolves_to: ""
+    - key: BLAS79
+      raw: Blasgen, M. W., Gray, J., Mitoma, M., and T. Price, "The Convoy Phenomenon," Operating System Review, Vol. 13, No. 2, April, 1979.
+      authors:
+        - M. W. Blasgen
+        - J. Gray
+        - M. Mitoma
+        - T. Price
+      title: The Convoy Phenomenon
+      venue: Operating System Review, Vol. 13, No. 2
+      year: 1979
+      resolves_to: ""
+    - key: BORR81
+      raw: 'Borr, A., "Transaction Monitoring in Encompass [TM]: Reliable Distributed Transaction Processing," Proceedings of VLDB, 1981.'
+      authors:
+        - A. Borr
+      title: 'Transaction Monitoring in Encompass [TM]: Reliable Distributed Transaction Processing'
+      venue: Proceedings of VLDB
+      year: 1981
+      resolves_to: ""
+    - key: BRAT84
+      raw: Bratbergsengen, Kjell, "Hashing Methods and Relational Algebra Operations", Proceedings of the 1984 Very Large Database Conference, August, 1984.
+      authors:
+        - Bratbergsengen
+        - Kjell
+      title: Hashing Methods and Relational Algebra Operations
+      venue: Proceedings of the 1984 Very Large Database Conference
+      year: 1984
+      resolves_to: ""
+    - key: CHOU85
+      raw: Chou, H-T, DeWitt, D. J., Katz, R., and T. Klug, "Design and Implementation of the Wisconsin Storage System (WiSS)", Software Practices and Experience, Vol. 15, No. 10, October, 1985.
+      authors:
+        - Chou
+        - H-T
+        - D. J. DeWitt
+        - R. Katz
+        - T. Klug
+      title: Design and Implementation of the Wisconsin Storage System (WiSS)
+      venue: Software Practices and Experience, Vol. 15, No. 10
+      year: 1985
+      resolves_to: ""
+    - key: COPE88
+      raw: Copeland, G., Alexander, W., Boughter, E., and T. Keller, "Data Placement in Bubba," Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago, May 1988.
+      authors:
+        - G. Copeland
+        - W. Alexander
+        - E. Boughter
+        - T. Keller
+      title: Data Placement in Bubba
+      venue: Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago
+      year: 1988
+      resolves_to: ""
+    - key: COPE89
+      raw: Copeland, G. and T. Keller, "A Comparison of High-Availability Media Recovery Techniques," Proceedings of the ACM-SIGMOD International Conference on Management of Data, Portland, Oregon June 1989.
+      authors:
+        - G. Copeland
+        - T. Keller
+      title: A Comparison of High-Availability Media Recovery Techniques
+      venue: Proceedings of the ACM-SIGMOD International Conference on Management of Data, Portland, Oregon
+      year: 1989
+      resolves_to: ""
+    - key: DEWI79
+      raw: DeWitt, D.J., "DIRECT - A Multiprocessor Organization for Supporting Relational Database Management Systems," IEEE Transactions on Computers, June, 1979.
+      authors:
+        - DeWitt
+        - D.J
+      title: DIRECT - A Multiprocessor Organization for Supporting Relational Database Management Systems
+      venue: IEEE Transactions on Computers
+      year: 1979
+      resolves_to: ""
+    - key: DEWI84a
+      raw: DeWitt, D. J., Katz, R., Olken, F., Shapiro, D., Stonebraker, M. and D. Wood, "Implementation Techniques for Main Memory Database Systems", Proceedings of the 1984 SIGMOD Conference, Boston, MA, June, 1984.
+      authors:
+        - D. J. DeWitt
+        - R. Katz
+        - F. Olken
+        - D. Shapiro
+        - M. Stonebraker
+        - D. Wood
+      title: Implementation Techniques for Main Memory Database Systems
+      venue: Proceedings of the 1984 SIGMOD Conference, Boston, MA
+      year: 1984
+      resolves_to: ""
+    - key: DEWI84b
+      raw: 'DeWitt, D. J., Finkel, R., and Solomon, M., "The Crystal Multicomputer: Design and Implementation Experience," IEEE Transactions on Software Engineering, Vol. SE-13, No. 8, August, 1987.'
+      authors:
+        - D. J. DeWitt
+        - R. Finkel
+        - M. Solomon
+      title: 'The Crystal Multicomputer: Design and Implementation Experience'
+      venue: IEEE Transactions on Software Engineering, Vol. SE-13, No. 8
+      year: 1987
+      resolves_to: ""
+    - key: DEWI85
+      raw: DeWitt, D., and R. Gerber, "Multiprocessor Hash-Based Join Algorithms," Proceedings of the 1985 VLDB Conference, Stockholm, Sweden, August, 1985.
+      authors:
+        - D. DeWitt
+        - R. Gerber
+      title: Multiprocessor Hash-Based Join Algorithms
+      venue: Proceedings of the 1985 VLDB Conference, Stockholm, Sweden
+      year: 1985
+      resolves_to: ""
+    - key: DEWI86
+      raw: DeWitt, D., Gerber, R., Graefe, G., Heytens, M., Kumar, K., and M. Muralikrishna, "GAMMA-A High Performance Dataflow Database Machine," Proceedings of the 1986 VLDB Conference, Japan, August 1986.
+      authors:
+        - D. DeWitt
+        - R. Gerber
+        - G. Graefe
+        - M. Heytens
+        - K. Kumar
+        - M. Muralikrishna
+      title: GAMMA-A High Performance Dataflow Database Machine
+      venue: Proceedings of the 1986 VLDB Conference, Japan
+      year: 1986
+      resolves_to: ""
+    - key: DEWI88
+      raw: DeWitt, D., Ghandeharizadeh, S., and D. Schneider, "A Performance Analysis of the Gamma Database Machine," Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago, May 1988.
+      authors:
+        - D. DeWitt
+        - S. Ghandeharizadeh
+        - D. Schneider
+      title: A Performance Analysis of the Gamma Database Machine
+      venue: Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago
+      year: 1988
+      resolves_to: ""
+    - key: ENGL89
+      raw: Englert, S, J. Gray, T. Kocher, and P. Shah, "A Benchmark of NonStop SQL Release 2 Demonstrating Near-Linear Speedup and Scaleup on Large Databases," Tandem Computers, Technical Report 89.4, Tandem Part No. 27469, May 1989.
+      authors:
+        - S Englert
+        - J. Gray
+        - T. Kocher
+        - P. Shah
+      title: A Benchmark of NonStop SQL Release 2 Demonstrating Near-Linear Speedup and Scaleup on Large Databases
+      venue: Tandem Computers, Technical Report 89.4, Tandem Part No. 27469
+      year: 1989
+      resolves_to: ""
+    - key: ENSC85
+      raw: '"Enscribe Programming Manual," Tandem Part# 82583-A00, Tandem Computers Inc., March 1985.'
+      title: Enscribe Programming Manual
+      venue: Tandem Part# 82583-A00, Tandem Computers Inc
+      year: 1985
+      resolves_to: ""
+    - key: GERB87
+      raw: 'Gerber, R. and D. DeWitt, "The Impact of Hardware and Software Alternatives on the Performance of the Gamma Database Machine", Computer Sciences Technical Report #708, University of Wisconsin-Madison, July, 1987.'
+      authors:
+        - R. Gerber
+        - D. DeWitt
+      title: The Impact of Hardware and Software Alternatives on the Performance of the Gamma Database Machine
+      venue: 'Computer Sciences Technical Report #708, University of Wisconsin-Madison'
+      year: 1987
+      resolves_to: ""
+    - key: GHAN89
+      raw: Ghandeharizadeh, S. and D. J. DeWitt, "A Multiuser Performance Evaluation of Selection Queries in a Single Processor Database Machine", July 1989, submitted for publication.
+      authors:
+        - S. Ghandeharizadeh
+        - D. J. DeWitt
+      title: A Multiuser Performance Evaluation of Selection Queries in a Single Processor Database Machine
+      venue: July 1989, submitted for publication
+      year: 1989
+      resolves_to: ""
+    - key: GHAN90
+      raw: Ghandeharizadeh, S., and D.J. DeWitt, "Performance Analysis of Alternative Declustering Strategies", Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
+      authors:
+        - S. Ghandeharizadeh
+        - D.J. DeWitt
+      title: Performance Analysis of Alternative Declustering Strategies
+      venue: Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA
+      year: 1990
+      resolves_to: ""
+    - key: GOOD81
+      raw: Goodman, J. R., "An Investigation of Multiprocessor Structures and Algorithms for Database Management", University of California at Berkeley, Technical Report UCB/ERL, M81/33, May, 1981.
+      authors:
+        - J. R. Goodman
+      title: An Investigation of Multiprocessor Structures and Algorithms for Database Management
+      venue: University of California at Berkeley, Technical Report UCB/ERL, M81/33
+      year: 1981
+      resolves_to: ""
+    - key: GRAE89
+      raw: 'Graefe, G., "Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System", Working Paper, Oregon Graduate Center, Portland, OR, February 1989.'
+      authors:
+        - G. Graefe
+      title: 'Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System'
+      venue: Working Paper, Oregon Graduate Center, Portland, OR
+      year: 1989
+      resolves_to: ""
+    - key: GRAY78
+      raw: Gray, J., "Notes on Database Operating Systems," RJ 2188, IBM Research Laboratory, San Jose, California, February 1978.
+      authors:
+        - J. Gray
+      title: Notes on Database Operating Systems
+      venue: RJ 2188, IBM Research Laboratory, San Jose, California
+      year: 1978
+      resolves_to: ""
+    - key: GRAY88
+      raw: Gray, J., H. Sammer, and S. Whitford, "Shortest Seek vs Shortest Service Time Scheduling of Mirrored Disks," Tandem Computers, December 1988.
+      authors:
+        - J. Gray
+        - H. Sammer
+        - S. Whitford
+      title: Shortest Seek vs Shortest Service Time Scheduling of Mirrored Disks
+      venue: Tandem Computers
+      year: 1988
+      resolves_to: ""
+    - key: HSIA90
+      raw: 'Hsiao, H. I. and D. J. DeWitt, "Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines," Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.'
+      authors:
+        - H. I. Hsiao
+        - D. J. DeWitt
+      title: 'Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines'
+      venue: Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA
+      year: 1990
+      resolves_to: ""
+    - key: JARK84
+      raw: Jarke, M. and J. Koch, "Query Optimization in Database System," ACM Computing Surveys, Vol. 16, No. 2, June 1984.
+      authors:
+        - M. Jarke
+        - J. Koch
+      title: Query Optimization in Database System
+      venue: ACM Computing Surveys, Vol. 16, No. 2
+      year: 1984
+      resolves_to: ""
+    - key: KIM86
+      raw: Kim, M., "Synchronized Disk Interleaving," IEEE Transactions on Computers, Vol. C-35, No. 11, November 1986.
+      authors:
+        - M. Kim
+      title: Synchronized Disk Interleaving
+      venue: IEEE Transactions on Computers, Vol. C-35, No. 11
+      year: 1986
+      resolves_to: ""
+    - key: KITS83
+      raw: Kitsuregawa, M., Tanaka, H., and T. Moto-oka, "Application of Hash to Data Base Machine and Its Architecture", New Generation Computing, Vol. 1, No. 1, 1983.
+      authors:
+        - M. Kitsuregawa
+        - H. Tanaka
+        - T. Moto-oka
+      title: Application of Hash to Data Base Machine and Its Architecture
+      venue: New Generation Computing, Vol. 1, No. 1
+      year: 1983
+      resolves_to: ""
+    - key: LIVN87
+      raw: Livny, M., S. Khoshafian, and H. Boral, “Multi-Disk Management Algorithms”, Proceedings of the 1987 SIGMETRICS Conference, Banff, Alberta, Canada, May, 1987.
+      authors:
+        - M. Livny
+        - S. Khoshafian
+        - H. Boral
+      title: Multi-Disk Management Algorithms
+      venue: Proceedings of the 1987 SIGMETRICS Conference, Banff, Alberta, Canada
+      year: 1987
+      resolves_to: ""
+    - key: MOHA89
+      raw: 'Mohan, C., D. Haderle, B. Lindsay, H. Pirahesh, and P. Schwarz, "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging", RJ 6649, IBM Almaden Research Center, San Jose, California, January 1989.'
+      authors:
+        - C. Mohan
+        - D. Haderle
+        - B. Lindsay
+        - H. Pirahesh
+        - P. Schwarz
+      title: 'ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging'
+      venue: RJ 6649, IBM Almaden Research Center, San Jose, California
+      year: 1989
+      resolves_to: ""
+    - key: PATT88
+      raw: Patterson, D. A., G. Gibson, and R. H. Katz, "A Case for Redundant Arrays of Inexpensive Disks (RAID)," Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago, May 1988.
+      authors:
+        - D. A. Patterson
+        - G. Gibson
+        - R. H. Katz
+      title: A Case for Redundant Arrays of Inexpensive Disks (RAID)
+      venue: Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago
+      year: 1988
+      resolves_to: ""
+    - key: PROT85
+      raw: Proteon Associates, Operation and Maintenance Manual for the ProNet Model p8000, Waltham, Mass, 1985.
+      title: Proteon Associates, Operation and Maintenance Manual for the ProNet Model p8000, Waltham, Mass, 1985
+      year: 1985
+      resolves_to: ""
+    - key: RIES78
+      raw: Ries, D. and R. Epstein, "Evaluation of Distribution Criteria for Distributed Database Systems," UCB/ERL Technical Report M78/22, UC Berkeley, May, 1978.
+      authors:
+        - D. Ries
+        - R. Epstein
+      title: Evaluation of Distribution Criteria for Distributed Database Systems
+      venue: UCB/ERL Technical Report M78/22, UC Berkeley
+      year: 1978
+      resolves_to: ""
+    - key: SCHN89a
+      raw: Schneider, D. and D. DeWitt, “A Performance Evaluation of Four Parallel Join Algorithms in a Shared-Nothing Multiprocessor Environment”, Proceedings of the 1989 SIGMOD Conference, Portland, OR, June 1989.
+      authors:
+        - D. Schneider
+        - D. DeWitt
+      title: A Performance Evaluation of Four Parallel Join Algorithms in a Shared-Nothing Multiprocessor Environment
+      venue: Proceedings of the 1989 SIGMOD Conference, Portland, OR
+      year: 1989
+      resolves_to: ""
+    - key: SCHN89b
+      raw: 'Schneider, D. and D. DeWitt, "Design Tradeoffs of Alternative Query Tree Representations for Multiprocessor Database Machines", Computer Sciences Technical Report #869, University of Wisconsin-Madison, August 1989, submitted for publication.'
+      authors:
+        - D. Schneider
+        - D. DeWitt
+      title: Design Tradeoffs of Alternative Query Tree Representations for Multiprocessor Database Machines
+      venue: 'Computer Sciences Technical Report #869, University of Wisconsin-Madison, August 1989, submitted for publication'
+      year: 1989
+      resolves_to: ""
+    - key: SELI79
+      raw: Selinger,P. G., et. al., "Access Path Selection in a Relational Database Management System," Proceedings of the 1979 SIGMOD Conference, Boston, MA., May 1979.
+      authors:
+        - P. G. Selinger
+        - et. al
+      title: Access Path Selection in a Relational Database Management System
+      venue: Proceedings of the 1979 SIGMOD Conference, Boston, MA
+      year: 1979
+      resolves_to: selinger-1979-accesspath
+    - key: STON86
+      raw: Stonebraker, M., "The Case for Shared Nothing," Database Engineering, Vol. 9, No. 1, 1986.
+      authors:
+        - M. Stonebraker
+      title: The Case for Shared Nothing
+      venue: Database Engineering, Vol. 9, No. 1
+      year: 1986
+      resolves_to: ""
+    - key: STON88
+      raw: Stonebraker, M., R. Katz, D. Patterson, and J. Ousterhout, “The Design of XPRS”, Proceedings of the Fourteenth International Conference on Very Large Data Bases, Los Angeles, CA, August 1988.
+      authors:
+        - M. Stonebraker
+        - R. Katz
+        - D. Patterson
+        - J. Ousterhout
+      title: The Design of XPRS
+      venue: Proceedings of the Fourteenth International Conference on Very Large Data Bases, Los Angeles, CA
+      year: 1988
+      resolves_to: ""
+    - key: TAND88
+      raw: Tandem Performance Group, “A Benchmark of Non-Stop SQL on the Debit Credit Transaction,” Proceedings of the 1988 SIGMOD Conference, Chicago, IL, June 1988.
+      authors:
+        - Tandem Performance Group
+      title: A Benchmark of Non-Stop SQL on the Debit Credit Transaction
+      venue: Proceedings of the 1988 SIGMOD Conference, Chicago, IL
+      year: 1988
+      resolves_to: ""
+    - key: TERA85
+      raw: Teradata, "DBC/1012 Database Computer System Manual Release 2.0," Document No. C10-0001-02, Teradata Corp., NOV 1985.
+      authors:
+        - Teradata
+      title: DBC/1012 Database Computer System Manual Release 2.0
+      venue: Document No. C10-0001-02, Teradata Corp., NOV
+      year: 1985
+      resolves_to: ""
+    - key: WAGN73
+      raw: Wagner, R.E., "Indexing Design Considerations," IBM System Journal, Vol. 12, No. 4, Dec. 1973, pp. 351-367.
+      authors:
+        - Wagner
+        - R.E
+      title: Indexing Design Considerations
+      venue: IBM System Journal, Vol. 12, No. 4, Dec. 1973, pp. 351-367
+      year: 1973
+      pages: 351-367
+      resolves_to: ""
