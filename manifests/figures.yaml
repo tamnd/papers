@@ -1173,6 +1173,116 @@ figures:
       width: 913
       height: 2036
       bytes: 256172
+    - paper: engelbart-1968-augmenting
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [56.64, 143.36, 312.72, 508.16]
+      caption: FIGURE 1--Typical work station with TV display, typewriter keyboard, mouse and chord handset
+      sha256: c5f480b82248cf4c8532b1e6ac5cabf82f32ac3728d3007a012c2e5b9d395234
+      method: raster
+      page_fraction: 0.19
+      width: 1067
+      height: 1520
+      bytes: 516319
+    - paper: engelbart-1968-augmenting
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [56, 511.82, 378.91, 773.64]
+      caption: FIGURE 2 -- Underside of the Mouse
+      sha256: cd8e9ebf9feb58048da727179cee5a520b224fc806305edbc3f62897f5a5f424
+      method: raster
+      page_fraction: 0.17
+      scale: 0.33
+      width: 444
+      height: 360
+      bytes: 146338
+    - paper: engelbart-1968-augmenting
+      figure: f03
+      number: "3"
+      page: 8
+      bbox: [71.04, 201.2, 270, 348.8]
+      caption: Figure 3 -- View of Part of an MOL Program, Level parameter = 2, truncation parameter = 1
+      sha256: 53e00d30a82cad5ea4a673df5ac58f5617aa5ae183872bc471710787abbee436
+      method: raster
+      page_fraction: 0.06
+      width: 829
+      height: 615
+      bytes: 5281
+    - paper: engelbart-1968-augmenting
+      figure: f04
+      number: "4"
+      page: 9
+      bbox: [78.48, 655.28, 270, 814.88]
+      caption: Figure 4 -- Same Program as Figure 3, but with with level parameter changed to ALL. 3d5b Figure 5, demonstrates the freezing feature with a view of a program (the same one shown in Figure 8) written in our Control Metalanguage (CML, see below). Statemente 3C, 3C2, 2B, 2Bl, 2B2, 2B3, and 2B4 are frozen, and statements from 2J on are shown normally with L = 3, T = 1.
+      sha256: 69ef64b731c81352a8caa61027b2a433f017f96ada9ce211e41d299e74acdf60
+      method: raster
+      page_fraction: 0.06
+      width: 798
+      height: 665
+      bytes: 7188
+    - paper: engelbart-1968-augmenting
+      figure: f05
+      number: "5"
+      page: 9
+      bbox: [56.64, 433.04, 270, 584.96]
+      caption: Figure 5 -- View of a CML Program, showing the frozen statements and illustrating use of reference hopping
+      sha256: 68fd695826a5c8fdc857e4e90aef48a87e5a8c386ceab06270f302a61b11ce99
+      method: raster
+      page_fraction: 0.06
+      width: 889
+      height: 633
+      bytes: 7306
+    - paper: engelbart-1968-augmenting
+      figure: f06
+      number: "6"
+      page: 10
+      bbox: [56.35, 127.63, 380.35, 337.06]
+      caption: FIGURE 6--On-line conference arrangement
+      sha256: 11b434237a600381e9cf917f7eb707f2f9e5dabeb4cfaad54f5cc67dfde6ee35
+      method: raster
+      page_fraction: 0.14
+      scale: 0.77
+      width: 1035
+      height: 669
+      bytes: 510333
+    - paper: engelbart-1968-augmenting
+      figure: f07
+      number: "9"
+      page: 15
+      bbox: [58.32, 575.6, 371.52, 814.4]
+      caption: 'Figure 9-- Basic organization of NLS showing use of compilers and compiler-compiler to implement it 4d2 The Tree Meta Translator is a processor specially designed to produce new translators. 4d2a There is a special language the Tree Meta Language--for use in describing the translator to be produced. 4d2b A special Tree Meta library of subroutines must be used, along with the output of the Tree Meta Translator, to produce a functioning new translator. The same library serves for every translator it produces. 4d5 For programming the various subroutines used in our 940 systems, we have developed a special Machine-Oriented Language (MOL), together with an MOL Translator to convert MOL program descriptions into machine code (see Ref. Hay1 for a complete description) . 4d3a The MOL is designed to facilitate system programming, by providing a high level language for iterative, conditional, and arithmetic operations, etc., along with a block structure and conventions for labeling that fit our structured-statement on line manipulation aids. 4d3a1 These permit sophisticated computer aid where suitable, and also allow the programmer to switch to machine level coding (with full access to variables, labels, etc.) where core space, speed, timing, core-mapping arrangements, etc., are critical. 4d4 The NLS is organized as follows (letters refer to Figure 9): 4d4a The Control Processor (E) receives and processes successive user actions, and calls upon subroutines in the library (H) to provide it such services as the following: 4d4a1 Putting display feedback on the screen 4d4a2 Locating certain data in the file 4d4a3 Manipulating certain working data 4d4a4 Constructing a display view of specified data according to given view ing parameters, etc. 4d4b The NLS library subroutines (H) are produced from MOL programs (F), as translated by the'
+      sha256: 6394dcde8b4b8b3007067c92a5f6cdbd6b70c8831cfdf98382b7f10f13151ae3
+      method: raster
+      page_fraction: 0.15
+      width: 1305
+      height: 995
+      bytes: 18895
+    - paper: engelbart-1968-augmenting
+      figure: f08
+      number: "10"
+      page: 17
+      bbox: [58.32, 598.88, 372.96, 784.64]
+      caption: 'Figure 10--Special devices channel 5c1 Executive Control 5c1a This is essentially a sophisticated multiplexer that allows independent, asynchronous access to core from any of the 6 controllers connected to it. Its functions are the following: 5c1a1 Decoding instructions from the computer and passing them along as signals to the controllers. 5c1a2 Accepting addresses and requests for memory access (input or output) from the controllers, determining rela tive priority among the controllers, syn chronizing to the computer clock, and passing the requests along to memory via the MIC. 5c1b The executive control includes a comprehensive debugging panel that allows any of the 6 controllers to be operated off line without interfering with the operation of other controllers. 5c2 Disc File 5c2a This is a Model 4061 Bryant disc, selected for compatibility with the continued 940-system development by Berkeley''s Project GENIE, where extensive file handling software was developed. 5c2b As formatted for our use, the disc will have a storage capacity of approximately 32 million words, with a data-transfer rate of roughly 40,000 words per second and average access time of 85 milliseconds. 5c2c The disc controller was designed by Bryant in close cooperation with SRI and Project GENIE. 5c3 Display System 5c3a The display systems consists of two identical subsystems, each with display controller, display generator, 6 CRT''s, and 6 closed-circuit television systems. 5c3b The display controllers process display-command tables and display lists that are resident in core, and pass along display-buffer contents to the display genera tors. 5c3c The display generators and CRT''s were developed by Tasker Industries to our specifications. Each has general character vector plotting capability They will accept display buffers consisting of instructions (beam motion, character writing, etc. ) from the controller. Each will drive six 5-inch high-resolution CRT''s on which the display pictures are produced.'
+      sha256: c5deaf4cd738729107ff9943c764553ab009de1c841d14a8a63e096c917c0a7a
+      method: raster
+      page_fraction: 0.12
+      width: 1311
+      height: 774
+      bytes: 14340
+    - paper: engelbart-1968-augmenting
+      figure: f09
+      number: "11"
+      page: 19
+      bbox: [56.64, 623.12, 312.72, 814.88]
+      caption: FIGURE 11--Television display obtained by mixing the video sognal from remote camera with that from the computer-
+      sha256: 08db3d6feacc91e7c604ebf456cd0eafab0a1ca899f7106a049a9596053ceb32
+      method: raster
+      page_fraction: 0.1
+      width: 1067
+      height: 799
+      bytes: 305623
     - paper: gal-2009-tracejit
       figure: f01
       number: "1"
