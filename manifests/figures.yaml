@@ -1694,6 +1694,162 @@ figures:
       width: 1489
       height: 1094
       bytes: 38021
+    - paper: steiner-1988-kerberos
+      figure: f01
+      number: "1"
+      page: 4
+      bbox: [68.64, 407.52, 293.76, 747.84]
+      caption: Figure 1. Kerberos Software Components.
+      sha256: d79f5340c8787a29472de154b0ed741148d49bd774300ab83fecbaf83285fd6a
+      method: vector
+      page_fraction: 0.16
+      width: 938
+      height: 1418
+      bytes: 176965
+    - paper: steiner-1988-kerberos
+      figure: f02
+      number: "2"
+      page: 5
+      bbox: [97.2, 651.12, 293.76, 747.84]
+      caption: Figure 2. Kerberos Names.
+      sha256: c2e725292ef9721023423c03def14b1e64e72a35091f6c19aaec69e88ee250dd
+      method: vector
+      page_fraction: 0.04
+      width: 819
+      height: 403
+      bytes: 23445
+    - paper: steiner-1988-kerberos
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [299.04, 234, 501.84, 299.28]
+      caption: Figure 3. A Kerberos Ticket.
+      sha256: dcec994abcb678b7e064136f5afdcb75fc99067706de60ed179f2045a7012c9f
+      method: vector
+      page_fraction: 0.03
+      width: 845
+      height: 272
+      bytes: 33556
+    - paper: steiner-1988-kerberos
+      figure: f04
+      number: "4"
+      page: 6
+      bbox: [120.48, 684.96, 293.76, 747.84]
+      caption: Figure 4. A Kerberos Authenticator.
+      sha256: ac11b36d2864ee3de95e425d5aa7cf95bb6c2a67153a5b2d13c0dc99038d6b04
+      method: vector
+      page_fraction: 0.02
+      width: 722
+      height: 262
+      bytes: 9351
+    - paper: steiner-1988-kerberos
+      figure: f05
+      number: "5"
+      page: 6
+      bbox: [68.64, 381.84, 271.44, 506.88]
+      caption: Figure 5. Getting the Initial Ticket.
+      sha256: 2d3ba2eb55389a91ab39b1340e48aeac1b7697953642f2359a7b1999b083b60a
+      method: vector
+      page_fraction: 0.05
+      width: 845
+      height: 521
+      bytes: 44704
+    - paper: steiner-1988-kerberos
+      figure: f06
+      number: "6"
+      page: 6
+      bbox: [299.04, 213.12, 502.08, 407.28]
+      caption: Figure 6. Requesting a Service.
+      sha256: 7b396f4fdee4a0a0edf8944e7f1e029cc0745012862fde85eebaf05bd89f367f
+      method: vector
+      page_fraction: 0.08
+      width: 846
+      height: 809
+      bytes: 98723
+    - paper: steiner-1988-kerberos
+      figure: f07
+      number: "7"
+      page: 7
+      bbox: [68.64, 606.48, 293.76, 747.6]
+      caption: Figure 7. Mutual Authentication.
+      sha256: 2dc72fb55eddd9ab241ed831263a2c230766c4a51953b05c01c3e11da7b746bd
+      method: vector
+      page_fraction: 0.07
+      width: 938
+      height: 588
+      bytes: 56261
+    - paper: steiner-1988-kerberos
+      figure: f08
+      number: "9"
+      page: 7
+      bbox: [298.8, 334.56, 504.24, 630.24]
+      caption: Figure 9. Kerberos Authentication Protocols.
+      sha256: 019f69867696b4d05fb61b77c0fd5029e95f58f76029028f3ee5db18f6c14dba
+      method: vector
+      page_fraction: 0.13
+      width: 856
+      height: 1232
+      bytes: 124110
+    - paper: steiner-1988-kerberos
+      figure: f09
+      number: "8"
+      page: 7
+      bbox: [68.88, 154.08, 271.2, 291.12]
+      caption: Figure 8. Getting a Server Ticket.
+      sha256: e6308658dbbf5d4c719817dddb74a0c479bb74843f4693e780500c0718467c42
+      method: vector
+      page_fraction: 0.06
+      width: 843
+      height: 571
+      bytes: 55792
+    - paper: steiner-1988-kerberos
+      figure: f10
+      number: "10"
+      page: 8
+      bbox: [92.4, 583.68, 293.76, 747.84]
+      caption: Figure 10. Authentication Requests.
+      sha256: 6ec5cd393abff9a1c835fee732d5c004af3f2c287a2cabd4db75c73458236375
+      method: vector
+      page_fraction: 0.07
+      width: 839
+      height: 684
+      bytes: 15226
+    - paper: steiner-1988-kerberos
+      figure: f11
+      number: "11"
+      page: 8
+      bbox: [68.64, 287.52, 293.76, 747.84]
+      caption: Figure 11. Administration Requests.
+      sha256: 6f8b098f195312ba4932fba78c5c554fe67822dd013631e9ad184c7856de8a92
+      method: vector
+      page_fraction: 0.21
+      width: 938
+      height: 1918
+      bytes: 124286
+    - paper: steiner-1988-kerberos
+      figure: f12
+      number: "12"
+      page: 9
+      bbox: [93.36, 553.92, 293.76, 747.84]
+      caption: Figure 12. Kerberos Administration Protocol.
+      sha256: fe406e7204b186130fbf80b62b5d90beeb611bdaff805438f1e015d84d52ba86
+      method: vector
+      page_fraction: 0.08
+      width: 835
+      height: 808
+      bytes: 51423
+    - paper: steiner-1988-kerberos
+      figure: f13
+      number: "13"
+      page: 9
+      bbox: [303.84, 547.68, 500.64, 584.64]
+      caption: Figure 13. Database Propagation.
+      sha256: 9d3f0cce228d64032eb27dc20f388c898a4329322f1fbc5884a91562eedc933e
+      method: vector
+      page_fraction: 0.02
+      width: 820
+      height: 154
+      bytes: 6412
     - paper: stoica-2001-chord
       figure: f01
       number: "1"
