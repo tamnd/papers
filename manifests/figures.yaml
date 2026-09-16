@@ -1283,6 +1283,66 @@ figures:
       width: 1067
       height: 799
       bytes: 305623
+    - paper: freund-1997-adaboost
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [287.28, 629.52, 480.96, 798.24]
+      caption: FIG. 1. The on-line allocation algorithm.
+      sha256: c10151fd962da6d9954b256e4b8f58caab833b330a1804a66bf73433252035ef
+      method: vector
+      page_fraction: 0.06
+      width: 807
+      height: 703
+      bytes: 69705
+    - paper: freund-1997-adaboost
+      figure: f02
+      number: "2"
+      page: 8
+      bbox: [24.96, 512.64, 249.6, 639.36]
+      caption: FIG. 2. The adaptive boosting algorithm.
+      sha256: fd68e02f4756e12b61c1867d772600417673ee76f2d04c074fbd97f7736ee146
+      method: vector
+      page_fraction: 0.05
+      width: 936
+      height: 528
+      bytes: 55982
+    - paper: freund-1997-adaboost
+      figure: f03
+      number: "3"
+      page: 13
+      bbox: [286.8, 172.8, 539.04, 798]
+      caption: FIG. 3. A first multi-class extension of AdaBoost.
+      sha256: dfeb2052c4b0f5a7f44047901010e9816352b57b7e8dec3d90b256ef803a4dc7
+      method: vector
+      page_fraction: 0.29
+      width: 1051
+      height: 2605
+      bytes: 491610
+    - paper: freund-1997-adaboost
+      figure: f04
+      number: "4"
+      page: 16
+      bbox: [286.8, 350.64, 539.04, 798.24]
+      caption: FIG. 4. A second multi-class extension of AdaBoost.
+      sha256: 183dd0bc565331baa272648b00f7faab46f62ac7631c953bc546a52e424ebb2d
+      method: vector
+      page_fraction: 0.21
+      width: 1051
+      height: 1865
+      bytes: 203548
+    - paper: freund-1997-adaboost
+      figure: f05
+      number: "5"
+      page: 18
+      bbox: [286.8, 288.96, 539.04, 798.24]
+      caption: FIG. 5. An extension of AdaBoost to regression problems.
+      sha256: ce1570520096f85428239ed51f9b4310a73afea7d59df21f1b62ebb8762a80c2
+      method: vector
+      page_fraction: 0.24
+      width: 1051
+      height: 2122
+      bytes: 199474
     - paper: gal-2009-tracejit
       figure: f01
       number: "1"
