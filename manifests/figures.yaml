@@ -8,6 +8,126 @@
 # `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
 
 figures:
+    - paper: boncz-2005-x100
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [321.84, 596.4, 547.68, 738.24]
+      caption: 'Figure 1: A Decade of CPU Performance'
+      sha256: 9e5ad6aa7642a2ad62da8113620168cb7f45dd7f23babe62c0d8e97fef286238
+      method: vector
+      page_fraction: 0.07
+      width: 941
+      height: 591
+      bytes: 95135
+    - paper: boncz-2005-x100
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [67.92, 617.28, 295.68, 738.24]
+      caption: 'Figure 2: Itanium Hardware Predication Eliminates Branch Mispredictions'
+      sha256: a35f7ded7ef929f069082e5ed11b406fac0ad8c678836ffbb903b1732e3ee9f3
+      method: vector
+      page_fraction: 0.06
+      width: 949
+      height: 504
+      bytes: 73146
+    - paper: boncz-2005-x100
+      figure: f03
+      number: "3"
+      page: 4
+      bbox: [64.56, 94.32, 312.96, 426.48]
+      caption: 'Figure 3: TPC-H Query 1'
+      sha256: 913c845696d4d434db27d942f11464eb2024d741ce968ca7bf66379d84c86695
+      method: vector
+      page_fraction: 0.17
+      width: 1035
+      height: 1384
+      bytes: 267363
+    - paper: boncz-2005-x100
+      figure: f04
+      number: "4"
+      page: 6
+      bbox: [316.08, 285.12, 552.24, 735.84]
+      caption: 'Figure 4: Hard-Coded UDF for Query 1 in C'
+      sha256: 02a9c94ed3886bb9147e09bade33a28490bce3984878c8f9911485822c5df9e0
+      method: vector
+      page_fraction: 0.22
+      width: 984
+      height: 1878
+      bytes: 361947
+    - paper: boncz-2005-x100
+      figure: f05
+      number: "5"
+      page: 7
+      bbox: [316.32, 330.48, 551.04, 552]
+      caption: 'Figure 5: X100 Software Architecture'
+      sha256: 16733269602d3774fc1cfd660c5cb5372f2e1bc3f2d652b56804b68642ba631a
+      method: vector
+      page_fraction: 0.11
+      width: 978
+      height: 923
+      bytes: 132847
+    - paper: boncz-2005-x100
+      figure: f06
+      number: "6"
+      page: 8
+      bbox: [319.92, 435.12, 545.76, 737.76]
+      caption: 'Figure 6: Execution scheme of a simplified TPC-H Query 1 in MonetDB/X100'
+      sha256: c851f909514653508c80e1b48e70b8a188e0eb82525b5303b825fa6af08e540c
+      method: vector
+      page_fraction: 0.14
+      width: 941
+      height: 1261
+      bytes: 97843
+    - paper: boncz-2005-x100
+      figure: f07
+      number: "7"
+      page: 9
+      bbox: [64.56, 563.76, 312.96, 638.4]
+      caption: 'Figure 7: X100 Query Algebra'
+      sha256: 7f9552e5b6ea9d5fd810275b8ecf8e7da627d2ee4f75e06c9111be620a3566af
+      method: vector
+      page_fraction: 0.04
+      width: 1035
+      height: 311
+      bytes: 90283
+    - paper: boncz-2005-x100
+      figure: f08
+      number: "8"
+      page: 10
+      bbox: [319.68, 600.24, 543.84, 738]
+      caption: 'Figure 8: Vertical Storage and Updates'
+      sha256: e4fb977a39ea6852ec86bd37c28fdd0107ae4f8e3c7392d3ca8c6a520d6d227c
+      method: vector
+      page_fraction: 0.06
+      width: 934
+      height: 574
+      bytes: 103867
+    - paper: boncz-2005-x100
+      figure: f09
+      number: "9"
+      page: 11
+      bbox: [316.32, 541.2, 548.4, 738.96]
+      caption: 'Figure 9: Query 1 in X100 Algebra'
+      sha256: 6dfd6ef7459864bea60cb09baf486591a45df3b222f04ac618537e154e88954c
+      method: vector
+      page_fraction: 0.09
+      width: 967
+      height: 824
+      bytes: 148231
+    - paper: boncz-2005-x100
+      figure: f10
+      number: "10"
+      page: 12
+      bbox: [323.04, 578.16, 541.68, 732.24]
+      caption: 'Figure 10: Query 1 performance w.r.t. vector-size'
+      sha256: ba43764424262f05ae2aaff67740e474da6299b8d29e9e0f060ed1b534201295
+      method: vector
+      page_fraction: 0.07
+      width: 911
+      height: 642
+      bytes: 37979
     - paper: bosshart-2014-p4
       figure: f01
       number: "1"
