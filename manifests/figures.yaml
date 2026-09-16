@@ -1718,6 +1718,186 @@ figures:
       width: 902
       height: 462
       bytes: 78178
+    - paper: ongaro-2014-raft
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [92.88, 594.96, 279.6, 708.48]
+      caption: 'Figure 1: Replicated state machine architecture. The consensus algorithm manages a replicated log containing state machine commands from clients. The state machines process identical sequences of commands from the logs, so they produce the same outputs.'
+      sha256: 2e7f2fd625b04d7819a13be3b77ba6dd283abe6f4082995f2819aaff8875f3af
+      method: vector
+      page_fraction: 0.04
+      width: 778
+      height: 473
+      bytes: 52324
+    - paper: ongaro-2014-raft
+      figure: f02
+      number: "4"
+      page: 5
+      bbox: [327.84, 620.88, 537.84, 708.72]
+      caption: 'Figure 4: Server states. Followers only respond to requests from other servers. If a follower receives no communication, it becomes a candidate and initiates an election. A candidate that receives votes from a majority of the full cluster becomes the new leader. Leaders typically operate until they fail.'
+      sha256: a2f13aa85a56f19d559ecc63059f4facde0e9effeafe61fac4f7ff19ffca8fdf
+      method: vector
+      page_fraction: 0.04
+      width: 875
+      height: 366
+      bytes: 45861
+    - paper: ongaro-2014-raft
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [71.76, 540, 320.4, 644.16]
+      caption: 'Figure 3: Raft guarantees that each of these properties is true at all times. The section numbers indicate where each property is discussed.'
+      sha256: d284fde33e7ad52432923b8bd2b03dab3918673c30da70fdae287d7cf4e46348
+      method: vector
+      page_fraction: 0.05
+      width: 1036
+      height: 434
+      bytes: 88442
+    - paper: ongaro-2014-raft
+      figure: f04
+      number: "5"
+      page: 5
+      bbox: [349.44, 477.12, 516, 541.2]
+      caption: 'Figure 5: Time is divided into terms, and each term begins with an election. After a successful election, a single leader manages the cluster until the end of the term. Some elections fail, in which case the term ends without choosing a leader. The transitions between terms may be observed at different times on different servers.'
+      sha256: 28da8226a4e3f16783b39859749caa365c20a6e6906d88b69010df763495ad0b
+      method: vector
+      page_fraction: 0.02
+      width: 694
+      height: 267
+      bytes: 16640
+    - paper: ongaro-2014-raft
+      figure: f05
+      number: "6"
+      page: 6
+      bbox: [327.84, 551.28, 537.6, 708.48]
+      caption: 'Figure 6: Logs are composed of entries, which are numbered sequentially. Each entry contains the term in which it was created (the number in each box) and a command for the state machine. An entry is considered committed if it is safe for that entry to be applied to state machines.'
+      sha256: f44e68f347be1a1473101f2ae14321a13f6ea5bc086a7c3a546fedb384f545ea
+      method: vector
+      page_fraction: 0.07
+      width: 874
+      height: 655
+      bytes: 47110
+    - paper: ongaro-2014-raft
+      figure: f06
+      number: "7"
+      page: 7
+      bbox: [331.92, 573.36, 533.52, 708.72]
+      caption: 'Figure 7: When the leader at the top comes to power, it is possible that any of scenarios (a–f) could occur in follower logs. Each box represents one log entry; the number in the box is its term. A follower may be missing entries (a–b), may have extra uncommitted entries (c–d), or both (e–f). For example, scenario (f) could occur if that server was the leader for term 2, added several entries to its log, then crashed before committing any of them; it restarted quickly, became leader for term 3, and added a few more entries to its log; before any of the entries in either term 2 or term 3 were committed, the server crashed again and remained down for several terms.'
+      sha256: 19c227a2b0a68435807706d9c77ccbd62e48ef9d2abaadf4d950432be1255de8
+      method: vector
+      page_fraction: 0.06
+      width: 840
+      height: 564
+      bytes: 45075
+    - paper: ongaro-2014-raft
+      figure: f07
+      number: "8"
+      page: 8
+      bbox: [318.96, 606.24, 546.48, 708.72]
+      caption: 'Figure 8: A time sequence showing why a leader cannot determine commitment using log entries from older terms. In (a) S1 is leader and partially replicates the log entry at index 2. In (b) S1 crashes; S5 is elected leader for term 3 with votes from S3, S4, and itself, and accepts a different entry at log index 2. In (c) S5 crashes; S1 restarts, is elected leader, and continues replication. At this point, the log entry from term 2 has been replicated on a majority of the servers, but it is not committed. If S1 crashes as in (d), S5 could be elected leader (with votes from S2, S3, and S4) and overwrite the entry with its own entry from term 3. However, if S1 replicates an entry from its current term on a majority of the servers before crashing, as in (e), then this entry is committed (S5 cannot win an election). At this point all preceding entries in the log are committed as well.'
+      sha256: 25da1315eb77f3aac0ec432686c19e8435bc0b8f717511b06512f3b63f54eb2b
+      method: vector
+      page_fraction: 0.05
+      width: 948
+      height: 427
+      bytes: 40502
+    - paper: ongaro-2014-raft
+      figure: f08
+      number: "9"
+      page: 9
+      bbox: [109.68, 625.2, 262.8, 708.72]
+      caption: 'Figure 9: If S1 (leader for term T) commits a new log entry from its term, and S5 is elected leader for a later term U, then there must be at least one server (S3) that accepted the log entry and also voted for S5.'
+      sha256: e6b8a347957e6d5e2289d53fd63a8ab41fbf52a5e4382f697723ac014407a4c6
+      method: vector
+      page_fraction: 0.03
+      width: 638
+      height: 348
+      bytes: 33975
+    - paper: ongaro-2014-raft
+      figure: f09
+      number: "10"
+      page: 10
+      bbox: [348.72, 588.96, 517.2, 708.72]
+      caption: 'Figure 10: Switching directly from one configuration to another is unsafe because different servers will switch at different times. In this example, the cluster grows from three servers to five. Unfortunately, there is a point in time where two different leaders can be elected for the same term, one with a majority of the old configuration (C old ) and another with a majority of the new configuration (C new ).'
+      sha256: e6b68a288d3392522f26fa5d8b78b7ad1d4b527bb1902b959802373f8c9966f0
+      method: vector
+      page_fraction: 0.04
+      width: 702
+      height: 499
+      bytes: 25056
+    - paper: ongaro-2014-raft
+      figure: f10
+      number: "11"
+      page: 11
+      bbox: [85.68, 610.56, 286.8, 708.72]
+      caption: 'Figure 11: Timeline for a configuration change. Dashed lines show configuration entries that have been created but not committed, and solid lines show the latest committed configuration entry. The leader first creates the C old,new configuration entry in its log and commits it to C old,new (a majority of C old and a majority of C new ). Then it creates the C new entry and commits it to a majority of C new . There is no point in time in which C old and C new can both make decisions independently.'
+      sha256: d4952fa382c8c2537210e6ef089de7afd76e9335aafba69365c6d9f18897f4a7
+      method: vector
+      page_fraction: 0.04
+      width: 838
+      height: 409
+      bytes: 29857
+    - paper: ongaro-2014-raft
+      figure: f11
+      number: "12"
+      page: 12
+      bbox: [94.08, 583.2, 278.4, 708.48]
+      caption: 'Figure 12: A server replaces the committed entries in its log (indexes 1 through 5) with a new snapshot, which stores just the current state (variables x and y in this example). The snapshot’s last included index and term serve to position the snapshot in the log preceding entry 6.'
+      sha256: 540960efc2eb219232f100c9e841b461b68c2a5443c62abcf5f968835f990981
+      method: vector
+      page_fraction: 0.05
+      width: 768
+      height: 522
+      bytes: 40160
+    - paper: ongaro-2014-raft
+      figure: f12
+      number: "13"
+      page: 12
+      bbox: [320.16, 405.36, 545.04, 708.24]
+      caption: 'Figure 13: A summary of the InstallSnapshot RPC. Snapshots are split into chunks for transmission; this gives the follower a sign of life with each chunk, so it can reset its election timer.'
+      sha256: ff2f1507ee412a4d23ed18be0234f4dcad0f04482638507296ded69a7b139445
+      method: vector
+      page_fraction: 0.14
+      width: 937
+      height: 1262
+      bytes: 235059
+    - paper: ongaro-2014-raft
+      figure: f13
+      number: "15"
+      page: 14
+      bbox: [132.96, 617.76, 548.16, 711.36]
+      caption: 'Figure 15: Using a 5-point scale, participants were asked (left) which algorithm they felt would be easier to implement in a functioning, correct, and efficient system, and (right) which would be easier to explain to a CS graduate student.'
+      sha256: 4b1e3c0fe16110ebae1929148575671b1130ff5ba007ab86b01e44cc2a47b29c
+      method: vector
+      page_fraction: 0.08
+      width: 1730
+      height: 390
+      bytes: 56383
+    - paper: ongaro-2014-raft
+      figure: f14
+      number: "14"
+      page: 14
+      bbox: [105.84, 555.36, 262.08, 703.92]
+      caption: 'Figure 14: A scatter plot comparing 43 participants’ performance on the Raft and Paxos quizzes. Points above the diagonal (33) represent participants who scored higher for Raft.'
+      sha256: 77c8cd4e8f44dad6c4176b937ae7765b58351bd1295997515b1db36589bfe5ae
+      method: vector
+      page_fraction: 0.05
+      width: 651
+      height: 619
+      bytes: 39185
+    - paper: ongaro-2014-raft
+      figure: f15
+      number: "16"
+      page: 15
+      bbox: [73.2, 512.4, 293.76, 709.2]
+      caption: 'Figure 16: The time to detect and replace a crashed leader. The top graph varies the amount of randomness in election timeouts, and the bottom graph scales the minimum election timeout. Each line represents 1000 trials (except for 100 trials for “150–150ms”) and corresponds to a particular choice of election timeouts; for example, “150–155ms” means that election timeouts were chosen randomly and uniformly between 150ms and 155ms. The measurements were taken on a cluster of five servers with a broadcast time of roughly 15ms. Results for a cluster of nine servers are similar.'
+      sha256: 74b738d272f85c16eb50adc7b01d6f35b57afc76ad6144b3beef633b36c94918
+      method: vector
+      page_fraction: 0.09
+      width: 919
+      height: 820
+      bytes: 96610
     - paper: selinger-1979-accesspath
       figure: f01
       number: "1"
