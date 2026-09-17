@@ -21,3 +21,14 @@ pages:
       printed: "1055"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "1056"
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      printed: "1057"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      size: [612, 792]
+      columns: 1
