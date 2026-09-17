@@ -21,3 +21,19 @@ pages:
       printed: "995"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "996"
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      printed: "997"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "998"
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      printed: "999"
+      size: [612, 792]
+      columns: 2
