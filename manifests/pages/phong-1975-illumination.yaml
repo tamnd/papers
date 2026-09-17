@@ -21,3 +21,19 @@ pages:
       printed: "313"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "314"
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      printed: "315"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "316"
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      printed: "317"
+      size: [612, 792]
+      columns: 2
