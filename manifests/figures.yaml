@@ -8,6 +8,18 @@
 # `method` is `vector` when the region was re-rendered from the PDF, `raster` when an embedded bitmap was pulled out as it was, and `crop` when the region was cut out of a page image.
 
 figures:
+    - paper: aho-1975-corasick
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [59.76, 667.68, 298.56, 744.48]
+      caption: Fig. 1. Pattern matching machine.
+      sha256: 96e74963d26d6c59b43615659b7414e2dcc351cd90adc2d1c01292c77d80c8f8
+      method: crop
+      page_fraction: 0.04
+      width: 995
+      height: 320
+      bytes: 56737
     - paper: barham-2003-xen
       figure: f01
       number: "1"
