@@ -21,3 +21,22 @@ pages:
       printed: "335"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "336"
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      printed: "337"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "338"
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      printed: "339"
+      size: [612, 792]
+      columns: 2
+    - pdf: 8
+      size: [612, 792]
+      columns: 2
