@@ -10,6 +10,7 @@ paper: deutsch-1984-smalltalk
 offset: 296
 pages:
     - pdf: 1
+      printed: "297"
       size: [612, 792]
       columns: 2
     - pdf: 2
@@ -20,3 +21,15 @@ pages:
       printed: "299"
       size: [612, 792]
       columns: 2
+    - pdf: 4
+      printed: "300"
+      size: [612, 792]
+      columns: 2
+    - pdf: 5
+      printed: "301"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "302"
+      size: [612, 792]
+      columns: 1
