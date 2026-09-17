@@ -2631,6 +2631,19 @@ figures:
       width: 919
       height: 820
       bytes: 96610
+    - paper: phong-1975-illumination
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [312.92, 484.31, 551.69, 753.85]
+      caption: Fig. 1. A cone represented by means of planar approximation.
+      sha256: 5980da4e744feb4f5705377f3ecacb487aa95aadc49a3643a967c0e2c3f38665
+      method: crop
+      page_fraction: 0.13
+      scale: 0.78
+      width: 776
+      height: 876
+      bytes: 482562
     - paper: selinger-1979-accesspath
       figure: f01
       number: "1"
