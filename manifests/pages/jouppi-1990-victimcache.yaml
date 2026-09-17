@@ -7,14 +7,45 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: jouppi-1990-victimcache
-offset: null
+offset: 363
 pages:
     - pdf: 1
+      printed: "364"
       size: [612, 792]
       columns: 2
     - pdf: 2
+      printed: "365"
       size: [614, 793]
       columns: 2
     - pdf: 3
+      printed: "366"
       size: [612, 792]
+      columns: 2
+    - pdf: 4
+      printed: "367"
+      size: [614, 793]
+      columns: 2
+    - pdf: 5
+      printed: "368"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "369"
+      size: [613, 793]
+      columns: 2
+    - pdf: 7
+      printed: "370"
+      size: [614, 793]
+      columns: 2
+    - pdf: 8
+      printed: "371"
+      size: [613, 793]
+      columns: 2
+    - pdf: 9
+      printed: "372"
+      size: [616, 797]
+      columns: 2
+    - pdf: 10
+      printed: "373"
+      size: [614, 793]
       columns: 2

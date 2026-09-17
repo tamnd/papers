@@ -7,14 +7,42 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: brin-1998-pagerank
-offset: null
+offset: 106
 pages:
     - pdf: 1
       size: [547, 757]
       columns: 1
     - pdf: 2
+      printed: "108"
       size: [550, 759]
       columns: 2
     - pdf: 3
+      printed: "109"
       size: [547, 757]
+      columns: 2
+    - pdf: 4
+      printed: "110"
+      size: [550, 759]
+      columns: 2
+    - pdf: 5
+      size: [548, 758]
+      columns: 2
+    - pdf: 6
+      printed: "112"
+      size: [547, 758]
+      columns: 2
+    - pdf: 7
+      size: [551, 760]
+      columns: 2
+    - pdf: 8
+      size: [553, 762]
+      columns: 2
+    - pdf: 9
+      size: [549, 758]
+      columns: 2
+    - pdf: 10
+      size: [548, 758]
+      columns: 2
+    - pdf: 11
+      size: [549, 758]
       columns: 2

@@ -271,6 +271,30 @@ figures:
       width: 1036
       height: 427
       bytes: 65576
+    - paper: brin-1998-pagerank
+      figure: f01
+      number: I
+      page: 5
+      bbox: [284.88, 420.8, 500.64, 680.24]
+      caption: Fig I High level Goo$le architecture
+      sha256: 0fbc516b77e147867c56f617ddca4509504693775406af2a4226195c9c41efe1
+      method: raster
+      page_fraction: 0.13
+      width: 899
+      height: 1081
+      bytes: 492654
+    - paper: brin-1998-pagerank
+      figure: f02
+      number: "2"
+      page: 8
+      bbox: [45.36, 243.84, 388.8, 684.72]
+      caption: Fig. 2. Samplr rrults from Googlr.
+      sha256: 720f86364e98a9d5f4ea7c46ecfe88aeb730e44377d96c3fbace0187cb4ceb0a
+      method: vector
+      page_fraction: 0.36
+      width: 1431
+      height: 1837
+      bytes: 121165
     - paper: brown-2020-gpt3
       figure: f01
       number: "1.1"
@@ -848,6 +872,126 @@ figures:
       width: 1822
       height: 459
       bytes: 134154
+    - paper: codd-1970-relational
+      figure: f01
+      number: "1"
+      page: 3
+      bbox: [17.76, 462.2, 541.92, 743.24]
+      caption: FIG. 1. A relation of degree 4
+      sha256: 0a88409dffa337acc4384cf3479498f9a3ba078e467ed148b2124ddeed00d531
+      method: vector
+      page_fraction: 0.35
+      width: 2184
+      height: 1171
+      bytes: 245483
+    - paper: codd-1970-relational
+      figure: f02
+      number: "2"
+      page: 3
+      bbox: [17.76, 198.92, 542.16, 743.24]
+      caption: FIG. 2. A relation with-two identical domains
+      sha256: 964854a24a0a9815432a67a787b1a0591aecec35559e47d655eba93045a323e1
+      method: vector
+      page_fraction: 0.67
+      width: 2185
+      height: 2268
+      bytes: 458362
+    - paper: codd-1970-relational
+      figure: f03
+      number: "4"
+      page: 7
+      bbox: [285.84, 398.84, 540.96, 738.44]
+      caption: FIG. 4. A permuted projection of the relation in Figure 1
+      sha256: 8194e55ded57c7d80e4c66d910752c3e4f9dfb209e68a4691281d9300dbe8f8b
+      method: vector
+      page_fraction: 0.21
+      width: 1063
+      height: 1415
+      bytes: 284194
+    - paper: codd-1970-relational
+      figure: f04
+      number: "5"
+      page: 7
+      bbox: [275.76, 315.56, 540.96, 738.44]
+      caption: FIG. 5. Two joinable relations
+      sha256: f57875b8af358301e344c7e94078a6ee2daaafe97187ed6edbef78dde8baac02
+      method: vector
+      page_fraction: 0.27
+      width: 1105
+      height: 1762
+      bytes: 317773
+    - paper: codd-1970-relational
+      figure: f05
+      number: "6"
+      page: 7
+      bbox: [275.76, 212.12, 540.96, 738.44]
+      caption: FIG. 6. The natural join of R with S (from Figure 5)
+      sha256: 68ccbb451c92aaf51c5eb8384b1982d006f0b2782eae1a4f5d3a8cb9332d9b9c
+      method: vector
+      page_fraction: 0.33
+      width: 1105
+      height: 2193
+      bytes: 344047
+    - paper: codd-1970-relational
+      figure: f06
+      number: "7"
+      page: 7
+      bbox: [275.76, 130.76, 540.96, 738.44]
+      caption: FIG. 7. Another join of R with S (from Figure 5)
+      sha256: f281e4ac68f7107e6c918cd18e67e89d10551c9c3b832013da7e0def09bc68e9
+      method: vector
+      page_fraction: 0.38
+      width: 1105
+      height: 2532
+      bytes: 371961
+    - paper: codd-1970-relational
+      figure: f07
+      number: "8"
+      page: 8
+      bbox: [63.6, 243.44, 224.64, 295.52]
+      caption: FIG. 8. Binary relations with a plurality of cyclic 3-joins
+      sha256: 75e8a7cae281a33763122a617920d140b4360ca09d04bcbe244bc19dd7616815
+      method: vector
+      page_fraction: 0.02
+      width: 671
+      height: 217
+      bytes: 4020
+    - paper: codd-1970-relational
+      figure: f08
+      number: "9"
+      page: 8
+      bbox: [22.56, 145.04, 259.92, 295.52]
+      caption: FIG. 9. Two cyclic 3-joins of the relations in Figure 8
+      sha256: e52ad603c8d9db4d3062d518e88b06ea7b0f8262ccabee6fa798cd1a9c263352
+      method: vector
+      page_fraction: 0.08
+      width: 989
+      height: 627
+      bytes: 12264
+    - paper: codd-1970-relational
+      figure: f09
+      number: "10"
+      page: 9
+      bbox: [15.84, 586.76, 269.76, 730.04]
+      caption: FIG. 10. The natural composition of R with S (from Figure 5)
+      sha256: ddbcaed9e79aa5a2ca9c23696b326648da628e5e9a77c350fbf99a6e45975613
+      method: vector
+      page_fraction: 0.09
+      width: 1058
+      height: 597
+      bytes: 41010
+    - paper: codd-1970-relational
+      figure: f10
+      number: "13"
+      page: 9
+      bbox: [286.08, 460.52, 539.04, 731.24]
+      caption: FIG. 13. Example of restriction
+      sha256: 416f825f21bf26ed6a64ab416bb07b44f76e23be23042402cd1a5bedf077912d
+      method: vector
+      page_fraction: 0.16
+      width: 1054
+      height: 1128
+      bytes: 105894
     - paper: corbett-2012-spanner
       figure: f01
       number: "1"
@@ -1775,6 +1919,186 @@ figures:
       width: 1651
       height: 38
       bytes: 12805
+    - paper: jouppi-1990-victimcache
+      figure: f01
+      number: 2-1
+      page: 2
+      bbox: [67.68, 345.4, 294.96, 554.92]
+      caption: 'Figure 2-1: Baseline design'
+      sha256: 090df8508c56c0839f8a35f49583f75a0de80001636b9599e2f82204e32535fe
+      method: vector
+      page_fraction: 0.1
+      width: 947
+      height: 873
+      bytes: 173496
+    - paper: jouppi-1990-victimcache
+      figure: f02
+      number: 3-3
+      page: 4
+      bbox: [330.72, 447.64, 536.4, 619.72]
+      caption: 'Figure 3-3: Conflict misses removed by miss caching'
+      sha256: 28b5e043408f78355e4cd54644641be8d0da1237c5b37a3ce6334f383399a205
+      method: vector
+      page_fraction: 0.07
+      width: 857
+      height: 717
+      bytes: 119612
+    - paper: jouppi-1990-victimcache
+      figure: f03
+      number: 3-2
+      page: 4
+      bbox: [74.4, 412.12, 293.28, 566.92]
+      caption: 'Figure 3-2: Miss cache organization'
+      sha256: 76267511eae69e0f583d1252280bc0692a7e46f5477c4e0b7884ab2ac7c044a9
+      method: vector
+      page_fraction: 0.07
+      width: 912
+      height: 645
+      bytes: 83403
+    - paper: jouppi-1990-victimcache
+      figure: f04
+      number: 3-5
+      page: 5
+      bbox: [311.76, 351.6, 541.68, 754.8]
+      caption: 'Figure 3-5: Conflict misses removed by victim caching'
+      sha256: 16d04f8ca8b631aa0bd41f1c265bcab1f3253295e1786d470952990d00e67150
+      method: vector
+      page_fraction: 0.19
+      width: 958
+      height: 1680
+      bytes: 444085
+    - paper: jouppi-1990-victimcache
+      figure: f05
+      number: 3-4
+      page: 5
+      bbox: [60, 241.92, 279.12, 406.56]
+      caption: 'Figure 3-4: Victim cache organization'
+      sha256: 1da16c045476693ac1a1308c4140f04750ea7f8380ef440bbc69b6a3056d0652
+      method: vector
+      page_fraction: 0.07
+      width: 913
+      height: 686
+      bytes: 86615
+    - paper: jouppi-1990-victimcache
+      figure: f06
+      number: 3-6
+      page: 6
+      bbox: [77.52, 524.68, 284.4, 713.32]
+      caption: 'Figure 3-6: Victim cache: vary direct-map cache size'
+      sha256: f0fb4af500437be293618f6d4e7a47a8fd3905f42bc418dfa750216deef023ec
+      method: vector
+      page_fraction: 0.08
+      width: 862
+      height: 786
+      bytes: 100173
+    - paper: jouppi-1990-victimcache
+      figure: f07
+      number: 3-7
+      page: 6
+      bbox: [73.2, 231.64, 299.76, 457]
+      caption: 'Figure 3-7: Victim cache: vary data cache lime size'
+      sha256: 7c9198b67f39b93adad193ee73777ce298af8e2faf7407a9f8e20036f5da5b7b
+      method: vector
+      page_fraction: 0.11
+      width: 944
+      height: 939
+      bytes: 131139
+    - paper: jouppi-1990-victimcache
+      figure: f08
+      number: 4-1
+      page: 7
+      bbox: [60, 404.68, 288.24, 758.68]
+      caption: 'Figure 4-1: Limited time for prefetch'
+      sha256: acff510d68a4500e3fdedbb109c3a9c61f15cc33df4b86563d5fa3aea82fc935
+      method: vector
+      page_fraction: 0.17
+      width: 951
+      height: 1475
+      bytes: 306548
+    - paper: jouppi-1990-victimcache
+      figure: f09
+      number: 4-2
+      page: 7
+      bbox: [315.12, 349, 535.2, 464.68]
+      caption: 'Figure 4-2: Sequential stream buffer design'
+      sha256: c93e9ea6c4cb2bd42fbc0007191fd9c21be039ba5ad794c78c4c3cdc38ddda1d
+      method: vector
+      page_fraction: 0.05
+      width: 917
+      height: 482
+      bytes: 59813
+    - paper: jouppi-1990-victimcache
+      figure: f10
+      number: 4-4
+      page: 8
+      bbox: [316.8, 509.56, 545.52, 754.84]
+      caption: 'Figure 4-4: Four-way stream buffer design'
+      sha256: 3df8ed79e154a0af66273cadd5f183672c5936796cf1dc5f33b2315406f4fdf2
+      method: vector
+      page_fraction: 0.12
+      width: 953
+      height: 1022
+      bytes: 145321
+    - paper: jouppi-1990-victimcache
+      figure: f11
+      number: 4-5
+      page: 8
+      bbox: [316.8, 283.48, 545.52, 754.84]
+      caption: 'Figure 4-5: Four-way stream buffer performance'
+      sha256: 527f624350d15fd42101162e6deca4028f84cd7a1d9bc42602adb8a6b953a40a
+      method: vector
+      page_fraction: 0.22
+      width: 953
+      height: 1964
+      bytes: 300507
+    - paper: jouppi-1990-victimcache
+      figure: f12
+      number: 4-3
+      page: 8
+      bbox: [69.36, 377.08, 274.8, 568.36]
+      caption: 'Figure 4-3: Sequential stream buffer performance'
+      sha256: d6415b6b225f3a9ac08968ec594055c820fb64b7ab617a3aee3bac32406e7477
+      method: vector
+      page_fraction: 0.08
+      width: 856
+      height: 797
+      bytes: 139971
+    - paper: jouppi-1990-victimcache
+      figure: f13
+      number: 4-7
+      page: 9
+      bbox: [89.28, 141.56, 291.84, 760.28]
+      caption: 'Figure 4-7: Stream buffer performance vs. line size'
+      sha256: 62feddd28b4d9007bd8ce427dc1044ba026cc4414f1f996edda0982d8f5495b9
+      method: vector
+      page_fraction: 0.26
+      width: 844
+      height: 2578
+      bytes: 416732
+    - paper: jouppi-1990-victimcache
+      figure: f14
+      number: 4-6
+      page: 9
+      bbox: [62.64, 512.84, 291.12, 760.28]
+      caption: 'Figure 4-6: Stream buffer performance vs. cache size'
+      sha256: c1ba8beb40076db6b9a6b9a16071bd24ea7750d28f9e9f2a6248cdc028e0bc3d
+      method: vector
+      page_fraction: 0.12
+      width: 952
+      height: 1031
+      bytes: 164832
+    - paper: jouppi-1990-victimcache
+      figure: f15
+      number: 5-1
+      page: 10
+      bbox: [71.04, 316.84, 298.56, 620.2]
+      caption: 'Figure 5-1: Improved system performance'
+      sha256: 281a912c99aa7e73c7e2473577c453849d0e910ab2f785fbca82134471ebb2cb
+      method: vector
+      page_fraction: 0.14
+      width: 948
+      height: 1264
+      bytes: 283142
     - paper: jouppi-2017-tpu
       figure: f01
       number: "1"
@@ -2463,6 +2787,18 @@ figures:
       width: 902
       height: 462
       bytes: 78178
+    - paper: metcalfe-1976-ethernet
+      figure: f01
+      number: "3"
+      page: 7
+      bbox: [46.8, 455.76, 286.8, 727.44]
+      caption: Fig. 3. Collision control algorithm.
+      sha256: 2a9cc0be1e487710012ca1740fbfc9de7d0bede968171bbda9cb77bf86a10f91
+      method: crop
+      page_fraction: 0.13
+      width: 1000
+      height: 1132
+      bytes: 291858
     - paper: ongaro-2014-raft
       figure: f01
       number: "1"
