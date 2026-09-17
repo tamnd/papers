@@ -1280,6 +1280,67 @@ figures:
       width: 980
       height: 623
       bytes: 44535
+    - paper: denning-1968-workingset
+      figure: f01
+      number: "2"
+      page: 4
+      bbox: [56.64, 272.88, 328.08, 404.16]
+      caption: FIG. 2. Definition of W(t, ~-)
+      sha256: 0c71c5c8320da95feb02c0db4cab6396d4d4961beae0f9a50b9162594610507b
+      method: crop
+      page_fraction: 0.0735
+      width: 1131
+      height: 547
+      bytes: 40938
+    - paper: denning-1968-workingset
+      figure: f02
+      number: "5"
+      page: 6
+      bbox: [291.57, 74.38, 567.37, 729.22]
+      caption: FIG. 5. ['age table entries for detecting W(t, IQ)
+      sha256: 4dea9a6088e216d27c860b15b2a7a43198b9fe85c081f7385e45988932df8087
+      method: crop
+      page_fraction: 0.3726
+      scale: 0.81
+      width: 927
+      height: 2201
+      bytes: 144797
+    - paper: denning-1968-workingset
+      figure: f03
+      number: "4"
+      page: 6
+      bbox: [43.44, 78.96, 268.08, 246]
+      caption: FIG. 4. Residency
+      sha256: 0ccdb75bdbd21bf12457fbdd612f0721e36e668def3d3167d1451877d3812b43
+      method: crop
+      page_fraction: 0.0774
+      width: 936
+      height: 696
+      bytes: 31992
+    - paper: denning-1968-workingset
+      figure: f04
+      number: "8"
+      page: 8
+      bbox: [247.68, 123.84, 569.04, 338.64]
+      caption: FIG. 8. P r o b a b i l i t y density function for q
+      sha256: 1de75d08f1241f634d48c0ad53ab3f625ee71d297ce67874726e1f881bf2cf48
+      method: crop
+      page_fraction: 0.1424
+      width: 1339
+      height: 895
+      bytes: 82570
+    - paper: denning-1968-workingset
+      figure: f05
+      number: "9"
+      page: 9
+      bbox: [336.72, 114.24, 552.24, 208.32]
+      caption: FIG. 9. Conditional expectation function for q
+      sha256: 1bbb1bfa7ab6d9a2c751273a76cbd2fb87a90cafdb1bfb2b2fe379fb80759e6a
+      method: crop
+      page_fraction: 0.0418
+      width: 898
+      height: 392
+      bytes: 9220
     - paper: devlin-2018-bert
       figure: f01
       number: "1"
@@ -3072,7 +3133,7 @@ figures:
       caption: Fig. 1 — Schematic diagram of a general communication system.
       sha256: 647528827b8667114ef9022468e7bf10f61e94268677b1aa51d12122a996050d
       method: vector
-      page_fraction: 0
+      page_fraction: 0.0045
       width: 183
       height: 205
       bytes: 464
@@ -3084,7 +3145,7 @@ figures:
       caption: Fig. 2 — Graphical representation of the constraints on telegraph symbols.
       sha256: 63221625e7d3609f21683349504d2a03fd6a13d67cb4040d8907950adce2812e
       method: vector
-      page_fraction: 0.02
+      page_fraction: 0.0204
       width: 471
       height: 365
       bytes: 25674
@@ -3096,7 +3157,7 @@ figures:
       caption: Fig. 3 — A graph corresponding to the source in example B.
       sha256: 3cde75b4a52d6d4f93f42d1c58edd99fd6a5285da326b3fa9704b2602a892bd4
       method: vector
-      page_fraction: 0.1
+      page_fraction: 0.0976
       width: 1726
       height: 476
       bytes: 36967
@@ -3108,7 +3169,7 @@ figures:
       caption: Fig. 4 — A graph corresponding to the source in example C.
       sha256: 56f34e9ed27faf1b1b3008cc50b7b2907131a84a9a438335be67251a37e493dd
       method: vector
-      page_fraction: 0.03
+      page_fraction: 0.0287
       width: 709
       height: 341
       bytes: 22272
@@ -3120,7 +3181,7 @@ figures:
       caption: Fig. 5 — A graph corresponding to the source in example D.
       sha256: fa0f1e8c1b4e7f25075e3a6d002fb49463e92bdeb6ac2b5d536493f50173dda7
       method: vector
-      page_fraction: 0.3
+      page_fraction: 0.2978
       width: 1786
       height: 1403
       bytes: 174456
@@ -3132,7 +3193,7 @@ figures:
       caption: Fig. 6— Decomposition of a choice from three possibilities.
       sha256: f9744c377f0bf5e7e0af7fc3bef62652e3326c44b78035f18988ce1cad2e83ad
       method: vector
-      page_fraction: 0.15
+      page_fraction: 0.1467
       width: 1734
       height: 712
       bytes: 90981
@@ -3144,7 +3205,7 @@ figures:
       caption: Fig. 7 — Entropy in the case of two possibilities with probabilities p and ( 1 , p ) .
       sha256: 8c1a6a686346b1c81e3a2cb018b08d11ccd9bca03a66dc736197fc5797a4e2d2
       method: vector
-      page_fraction: 0.14
+      page_fraction: 0.1385
       width: 1167
       height: 999
       bytes: 34761
@@ -3156,7 +3217,7 @@ figures:
       caption: Fig. 8 — Schematic diagram of a correction system.
       sha256: 087f51e707d0fa0800adc67ea95fbb00ed572285293d950bcdfb4e5c6827e143
       method: vector
-      page_fraction: 0.11
+      page_fraction: 0.1087
       width: 1333
       height: 686
       bytes: 32606
@@ -3168,7 +3229,7 @@ figures:
       caption: Fig. 9 — The equivocation possible for a given input entropy to a channel.
       sha256: 8c1e1f5ef6b95dae881009ea95edad9e0b94f3bc2722135235328db48c6c1d84
       method: vector
-      page_fraction: 0.04
+      page_fraction: 0.0369
       width: 717
       height: 433
       bytes: 20220
@@ -3180,7 +3241,7 @@ figures:
       caption: Fig. 10 — Schematic representation of the relations between inputs and outputs in a channel.
       sha256: 3bf846385ee28675e882661f35c53c8a66090aa0f9cb664480c0023ab3985700
       method: vector
-      page_fraction: 0.15
+      page_fraction: 0.1458
       width: 1147
       height: 1070
       bytes: 77842
@@ -3192,7 +3253,7 @@ figures:
       caption: Fig. 11— Example of a discrete channel.
       sha256: 2f8478aa13b1ff601b84cd6a9099927aeaf637cf44ef2799c4b2547d545e4acc
       method: vector
-      page_fraction: 0.03
+      page_fraction: 0.0329
       width: 702
       height: 394
       bytes: 18769
@@ -3204,7 +3265,7 @@ figures:
       caption: Fig. 12 — Examples of discrete channels with the same transition probabilities for each input and for each output.
       sha256: 5d11245377bcde9b48f9bb63ca8c30e3a60d555a2269ef0aec0c9718baa20b1e
       method: vector
-      page_fraction: 0.09
+      page_fraction: 0.0914
       width: 1374
       height: 560
       bytes: 35264
