@@ -1,0 +1,120 @@
+paper: jouppi-1990-victimcache
+style: number
+entries:
+    - key: "1"
+      raw: Baer, Jean-Loup, and Wang, Wenn-Hann. On the Inclusion Properties for Multi-Level Cache Hierarchies. The 15th Annual Symposium on Computer Architecture, IEEE Computer Society Press, June, 1988, pp. 73-80.
+      authors:
+        - Baer
+        - Jean-Loup
+        - Wang
+        - Wenn-Hann
+      title: On the Inclusion Properties for Multi-Level Cache Hierarchies
+      venue: The 15th Annual Symposium on Computer Architecture, IEEE Computer Society Press, June, 1988, pp. 73-80
+      year: 1988
+      pages: 73-80
+      resolves_to: ""
+    - key: "2"
+      raw: 'Borg, Anita, Kessler, Rick E., Lazana, Georgia, and Wall, David W. Long Address Traces from RISC Machines: Generation and Analysis. Tech. Rept. 89/14, Digital Equipment Corporation Western Research Laboratory, September, 1989.'
+      title: 'Borg, Anita, Kessler, Rick E., Lazana, Georgia, and Wall, David W. Long Address Traces from RISC Machines: Generation and Analysis'
+      venue: Tech. Rept. 89/14, Digital Equipment Corporation Western Research Laboratory
+      year: 1989
+      resolves_to: ""
+    - key: "3"
+      raw: Digital Equipment Corporation, Inc. *VAX Hardware Handbook, volume 1 - 1984.* Maynard, Massachusetts, 1984.
+      title: Digital Equipment Corporation, Inc. *VAX Hardware Handbook, volume 1 - 1984.* Maynard, Massachusetts, 1984
+      year: 1984
+      resolves_to: ""
+    - key: "4"
+      raw: Emer, Joel S., and Clark, Douglas W. A Characterization of Processor Performance in the VAX-11/780. The 11th Annual Symposium on Computer Architecture, IEEE Computer Society Press, June, 1984, pp. 301-310.
+      authors:
+        - Emer
+        - Joel S
+        - Clark
+        - Douglas W. A Characterization of Processor Performance in the VAX-11/780
+      title: The 11th Annual Symposium on Computer Architecture, IEEE Computer Society Press, June, 1984, pp. 301-310
+      year: 1984
+      pages: 301-310
+      resolves_to: ""
+    - key: "5"
+      raw: Eustace, Alan. Private communication.
+      authors:
+        - Eustace
+        - Alan
+      title: Private communication
+      resolves_to: ""
+    - key: "6"
+      raw: Farrens, Matthew K., and Pleszkun, Andrew R. Improving Performance of Small On-Chip Instruction Caches . The 16th Annual Symposium on Computer Architecture, IEEE Computer Society Press, May, 1989, pp. 234-241.
+      authors:
+        - Farrens
+        - Matthew K
+        - Pleszkun
+        - Andrew R. Improving Performance of Small On-Chip Instruction Caches
+      title: The 16th Annual Symposium on Computer Architecture, IEEE Computer Society Press, May, 1989, pp. 234-241
+      year: 1989
+      pages: 234-241
+      resolves_to: ""
+    - key: "7"
+      raw: Hill, Mark D. *Aspects of Cache Memory and Instruction Buffer Performance.* Ph.D. Th., University of California, Berkeley, 1987.
+      title: Hill, Mark D. *Aspects of Cache Memory and Instruction Buffer Performance.* Ph.D. Th., University of California, Berkeley, 1987
+      year: 1987
+      resolves_to: ""
+    - key: "8"
+      raw: Jouppi, Norman P., and Wall, David W. Available Instruction-Level Parallelism For Superpipelined and Superscalar Machines. Third International Conference on Architectural Support for Programming Languages and Operating Systems, IEEE Computer Society Press, April, 1989, pp. 272-282.
+      authors:
+        - Jouppi
+        - Norman P
+        - Wall
+        - David W. Available Instruction-Level Parallelism For Superpipelined
+        - Superscalar Machines
+      title: Third International Conference on Architectural Support for Programming Languages and Operating Systems, IEEE Computer Society Press, April, 1989, pp. 272-282
+      year: 1989
+      pages: 272-282
+      resolves_to: ""
+    - key: "9"
+      raw: Jouppi, Norman P. Architectural and Organizational Tradeoffs in the Design of the MultiTitan CPU. The 16th Annual Symposium on Computer Architecture, IEEE Computer Society Press, May, 1989, pp. 281-289.
+      authors:
+        - Jouppi
+        - Norman P. Architectural
+        - Organizational Tradeoffs in the Design of the MultiTitan CPU
+      title: The 16th Annual Symposium on Computer Architecture, IEEE Computer Society Press, May, 1989, pp. 281-289
+      year: 1989
+      pages: 281-289
+      resolves_to: ""
+    - key: "10"
+      raw: Nielsen, Michael J. K. Titan System Manual. Tech. Rept. 86/1, Digital Equipment Corporation Western Research Laboratory, September, 1986.
+      authors:
+        - Nielsen
+        - Michael J. K. Titan System Manual
+      title: Tech. Rept
+      venue: 86/1, Digital Equipment Corporation Western Research Laboratory
+      year: 1986
+      resolves_to: ""
+    - key: "11"
+      raw: Ousterhout, John. Why Aren't Operating Systems Getting Faster As Fast As Hardware? Tech. Rept. Technote 11, Digital Equipment Corporation Western Research Laboratory, October, 1989.
+      authors:
+        - Ousterhout
+        - John
+      title: Why Aren't Operating Systems Getting Faster As Fast As Hardware? Tech. Rept
+      venue: Technote 11, Digital Equipment Corporation Western Research Laboratory
+      year: 1989
+      resolves_to: ""
+    - key: "12"
+      raw: Smith, Alan J. “Sequential program prefetching in memory hierarchies.” *IEEE Computer* 11, 12 (December 1978), 7-21.
+      authors:
+        - Smith
+        - Alan J
+      title: Sequential program prefetching in memory hierarchies
+      venue: '*IEEE Computer* 11, 12 (December 1978), 7-21'
+      year: 1978
+      pages: 7-21
+      resolves_to: ""
+    - key: "13"
+      raw: Smith, Alan J. “Cache Memories.” *Computing Surveys* (September 1982), 473-530.
+      authors:
+        - Smith
+        - Alan J
+      title: Cache Memories
+      venue: '*Computing Surveys* (September 1982), 473-530'
+      year: 1982
+      pages: 473-530
+      resolves_to: ""
