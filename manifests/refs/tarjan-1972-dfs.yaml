@@ -1,0 +1,93 @@
+paper: tarjan-1972-dfs
+style: bracket
+entries:
+    - key: "1"
+      raw: B. L. FOX AND D. M. LANDY, An algorithm for identifying the ergodic subchains and transient states of a stochastic matrix, Comm. ACM, 11 (1968), pp. 619–621.
+      authors:
+        - B. L. FOX
+        - D. M. LANDY
+        - An algorithm for identifying the ergodic subchains
+        - transient states of a stochastic matrix
+        - Comm
+      title: ACM, 11 (1968), pp. 619–621
+      year: 1968
+      pages: 619-621
+      resolves_to: ""
+    - key: "2"
+      raw: S. W. GOLOMB AND L. D. BAUMERT, Backtrack programming, J. ACM, 12 (1965), pp. 516–524.
+      title: S. W. GOLOMB AND L. D. BAUMERT, Backtrack programming, J. ACM, 12 (1965), pp. 516–524
+      year: 1965
+      pages: 516-524
+      resolves_to: ""
+    - key: "3"
+      raw: F. HARARY, Graph Theory, Addison-Wesley, Reading, Mass., 1969.
+      title: F. HARARY, Graph Theory, Addison-Wesley, Reading, Mass., 1969
+      year: 1969
+      resolves_to: ""
+    - key: "4"
+      raw: J. HOPCROFT AND R. TARJAN, Efficient algorithms for graph manipulation, Tech. Rep. 207, Computer Science Department, Stanford University, Stanford, Calif., 1971.
+      title: J. HOPCROFT AND R. TARJAN, Efficient algorithms for graph manipulation, Tech. Rep. 207, Computer Science Department, Stanford University, Stanford, Calif., 1971
+      year: 1971
+      resolves_to: ""
+    - key: "5"
+      raw: ———, A V^2 algorithm for determining isomorphism of planar graphs, Information Processing Letters, 1 (1971), pp. 32–34.
+      title: ———, A V^2 algorithm for determining isomorphism of planar graphs, Information Processing Letters, 1 (1971), pp. 32–34
+      year: 1971
+      pages: 32-34
+      resolves_to: ""
+    - key: "6"
+      raw: '———, Planarity testing in V log V steps: Extended abstract, Tech. Rep. 201, Computer Science Department, Stanford University, Stanford, Calif., 1971.'
+      title: '———, Planarity testing in V log V steps: Extended abstract, Tech. Rep. 201, Computer Science Department, Stanford University, Stanford, Calif., 1971'
+      year: 1971
+      resolves_to: ""
+    - key: "7"
+      raw: J. HOPCROFT, An N log N algorithm for isomorphism of planar triply connected graphs, Tech. Rep. 192, Computer Science Department, Stanford University, Stanford, Calif., 1971.
+      title: J. HOPCROFT, An N log N algorithm for isomorphism of planar triply connected graphs, Tech. Rep. 192, Computer Science Department, Stanford University, Stanford, Calif., 1971
+      year: 1971
+      resolves_to: ""
+    - key: "8"
+      raw: J. HOPCROFT AND R. TARJAN, Isomorphism of planar graphs, IBM Symposium on Complexity of Computer Computations, Yorktown Heights, N.Y., March, 1972, to be published by Plenum Press.
+      title: J. HOPCROFT AND R. TARJAN, Isomorphism of planar graphs, IBM Symposium on Complexity of Computer Computations, Yorktown Heights, N.Y., March, 1972, to be published by Plenum Press
+      year: 1972
+      resolves_to: ""
+    - key: "9"
+      raw: J. HOPCROFT AND J. ULLMAN, A linear list-merging algorithm, Tech. Rep. 71-111, Cornell University Computer Science Department, Ithaca, N.Y., 1971.
+      title: J. HOPCROFT AND J. ULLMAN, A linear list-merging algorithm, Tech. Rep. 71-111, Cornell University Computer Science Department, Ithaca, N.Y., 1971
+      year: 1971
+      resolves_to: ""
+    - key: "10"
+      raw: I. MUNRO, Efficient determination of the strongly connected components and transitive closure of a directed graph, Department of Computer Science, University of Toronto, 1971.
+      title: I. MUNRO, Efficient determination of the strongly connected components and transitive closure of a directed graph, Department of Computer Science, University of Toronto, 1971
+      year: 1971
+      resolves_to: ""
+    - key: "11"
+      raw: N. J. NILSON, Problem Solving Methods in Artificial Intelligence, McGraw-Hill, New York, 1971.
+      title: N. J. NILSON, Problem Solving Methods in Artificial Intelligence, McGraw-Hill, New York, 1971
+      year: 1971
+      resolves_to: ""
+    - key: "12"
+      raw: K. PATON, An algorithm for the blocks and cutnades of a graph, Comm. ACM, 14 (1971), pp. 468–475.
+      authors:
+        - K. PATON
+        - An algorithm for the blocks
+        - cutnades of a graph
+        - Comm
+      title: ACM, 14 (1971), pp. 468–475
+      year: 1971
+      pages: 468-475
+      resolves_to: ""
+    - key: "13"
+      raw: P. W. PURDOM, A transitive closure algorithm, Tech. Rep. 33, Computer Sciences Department, University of Wisconsin, Madison, 1968.
+      title: P. W. PURDOM, A transitive closure algorithm, Tech. Rep. 33, Computer Sciences Department, University of Wisconsin, Madison, 1968
+      year: 1968
+      resolves_to: ""
+    - key: "14"
+      raw: R. W. SHIREY, Implementation and analysis of efficient graph planarity testing algorithms, Doctoral thesis, Computer Sciences Department, University of Wisconsin, Madison, 1969.
+      title: R. W. SHIREY, Implementation and analysis of efficient graph planarity testing algorithms, Doctoral thesis, Computer Sciences Department, University of Wisconsin, Madison, 1969
+      year: 1969
+      resolves_to: ""
+    - key: "15"
+      raw: R. TARJAN, An efficient planarity algorithm, Tech. Rep. 244, Computer Science Department, Stanford University, Stanford, Calif., 1971.
+      title: R. TARJAN, An efficient planarity algorithm, Tech. Rep. 244, Computer Science Department, Stanford University, Stanford, Calif., 1971
+      year: 1971
+      resolves_to: ""
