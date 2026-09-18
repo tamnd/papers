@@ -4471,3 +4471,111 @@ figures:
       width: 671
       height: 460
       bytes: 30454
+    - paper: yeh-1991-branchprediction
+      figure: f01
+      number: "2"
+      page: 3
+      bbox: [316.08, 564.12, 554.16, 748.68]
+      caption: 'Figure 2: The state transition diagrams of the finitestate machines used for updating the pattern history in the pattern table entry.'
+      sha256: 8226e1a34a47ce9c014a10fa0f08172692d75154007c1a187c2bf7fd4af5628a
+      method: crop
+      page_fraction: 0.0893
+      width: 992
+      height: 769
+      bytes: 88639
+    - paper: yeh-1991-branchprediction
+      figure: f02
+      number: "1"
+      page: 3
+      bbox: [50.4, 563.88, 292.56, 694.68]
+      caption: 'Figure 1: The structure of the Two-Level Adaptive Training scheme.'
+      sha256: 24d484bcb95228659efd5ff48d0c77c1c30fa93b795700efa79f5366ab1ebf8b
+      method: crop
+      page_fraction: 0.0644
+      width: 1009
+      height: 545
+      bytes: 62119
+    - paper: yeh-1991-branchprediction
+      figure: f03
+      number: "3"
+      page: 5
+      bbox: [69.36, 571.16, 295.2, 737.48]
+      caption: 'Figure 3: Distribution of dynamic instructions.'
+      sha256: 8fd433ba3b42775949366c5de6600941dfca02808e53175a1fa9c14fc010e918
+      method: crop
+      page_fraction: 0.0756
+      width: 941
+      height: 693
+      bytes: 197646
+    - paper: yeh-1991-branchprediction
+      figure: f04
+      number: "4"
+      page: 5
+      bbox: [294.96, 556.52, 551.04, 680.84]
+      caption: 'Figure 4: Distribution of dynamic branch instructions.'
+      sha256: 4268480cad8afc2bdf34027019e7abe2a5211ff058c16b3e1135ae2aa2bba27d
+      method: crop
+      page_fraction: 0.0641
+      width: 1067
+      height: 518
+      bytes: 58909
+    - paper: yeh-1991-branchprediction
+      figure: f05
+      number: "5"
+      page: 7
+      bbox: [320.16, 571.76, 551.28, 628.88]
+      caption: 'Figure 5: Two-Level Adaptive Training schemes using different state transition automata.'
+      sha256: 3f7f2b9029b51a3a8c113957a26f685e4a91b30a5174f40b9a84217385f9a203
+      method: crop
+      page_fraction: 0.0264
+      width: 963
+      height: 238
+      bytes: 17645
+    - paper: yeh-1991-branchprediction
+      figure: f06
+      number: "7"
+      page: 8
+      bbox: [52.56, 550.12, 298.56, 737.08]
+      caption: 'Figure 7: Two-Level Adaptive Training schemes using history registers of different lengths.'
+      sha256: 35f195cbf0776dcf6d96c44f8f1f5fe3e8b94c2356296c9d15d021854fb88062
+      method: crop
+      page_fraction: 0.094
+      width: 1025
+      height: 779
+      bytes: 92431
+    - paper: yeh-1991-branchprediction
+      figure: f07
+      number: "10"
+      page: 9
+      bbox: [323.52, 561.12, 562.8, 747.6]
+      caption: 'Figure 10: Comparison of branch prediction schemes'
+      sha256: d42d13e2f29ac8f1f57195fa2c126b3ba5c4be51fa8b70e7aa313a0dd2f41f0e
+      method: crop
+      page_fraction: 0.0918
+      width: 997
+      height: 777
+      bytes: 88099
+    - paper: yeh-1991-branchprediction
+      figure: f08
+      number: "8"
+      page: 9
+      bbox: [58.32, 576.24, 296.88, 749.28]
+      caption: 'Figure 8: Prediction accuracy of Static Training schemes.'
+      sha256: 357c20a7fa4309e6f8a38df5cc16eeb24886fbea3ed930a4a662be86affdeca7
+      method: crop
+      page_fraction: 0.0849
+      width: 994
+      height: 721
+      bytes: 87845
+    - paper: yeh-1991-branchprediction
+      figure: f09
+      number: "9"
+      page: 9
+      bbox: [64.8, 359.04, 294, 411.12]
+      caption: 'Figure 9: Prediction accuracy of Branch Target Buffer designs, BTFN, Always Taken, and the Profiling scheme.'
+      sha256: d2b9be85905e7002729735cd29112958175a2c163bb1e056507781e843ef5425
+      method: crop
+      page_fraction: 0.0245
+      width: 955
+      height: 217
+      bytes: 22890
