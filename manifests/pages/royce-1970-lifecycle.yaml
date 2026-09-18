@@ -20,3 +20,35 @@ pages:
       printed: "330"
       size: [612, 792]
       columns: 1
+    - pdf: 4
+      printed: "331"
+      size: [612, 792]
+      columns: 1
+    - pdf: 5
+      printed: "332"
+      size: [612, 792]
+      columns: 1
+    - pdf: 6
+      printed: "333"
+      size: [612, 792]
+      columns: 4
+    - pdf: 7
+      printed: "334"
+      size: [612, 792]
+      columns: 1
+    - pdf: 8
+      printed: "335"
+      size: [612, 792]
+      columns: 1
+    - pdf: 9
+      printed: "336"
+      size: [612, 792]
+      columns: 1
+    - pdf: 10
+      printed: "337"
+      size: [612, 792]
+      columns: 1
+    - pdf: 11
+      printed: "338"
+      size: [612, 792]
+      columns: 1
