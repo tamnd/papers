@@ -20,27 +20,25 @@ pdf_sha256: fe83e914e79d8bf4271ea55de8f78a47a254fd7093a7ab073b80f956089d5690
 pdf_pages: 1-2
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 4aa92c77b3b2ed964c249d3308d8c252c791146d07e45b094cd7ae2b0a1a4ee4
+content_sha256: 739bd8507cc42f1a5a8b7aa5cbd6be9879ab6d452ef10eacac170659189a3c8c
 translated_from: content/en/dennard-1974-scaling/00_front.md
 source_content_sha256: 0883394a44b969906e2cb05cae2515821f1ebed090d6370552cff8ea2271ae7b
 translation_model: gpt-5
-translation_run: 20260914T205336Z
-glossary_version: 6
-glossary_terms_sha256: 1f83355a83baacb04f1185b8bd47b133f28d2f764f5d7ae919d5d9d0d7e083ee
+translation_run: 20260918T153717Z
+glossary_version: 7
+glossary_terms_sha256: cb514473400f65abfd1e5d09e5f82163f246175d67293cbba8eac7dbb7d7b890
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
-roundtrip: same
-roundtrip_run: 20260914T214350Z
 ---
 
-Thiết kế MOSFET được cấy ion với các kích thước vật lý rất nhỏ
+Thiết kế MOSFET cấy ion với các kích thước vật lý rất nhỏ
 
 ROBERT H. DENNARD, MEMBER, IEEE, FRITZ H. GAENSSLLEN, HWA-NIEN YU, MEMBER, IEEE, V. LEO RIDEOUT, MEMBER, IEEE, ERNEST BASSOUS, AND ANDRE R. LeBLANC, MEMBER, IEEE
 
-Tóm tắt—Bài báo này xem xét việc thiết kế, chế tạo và đặc trưng hóa các thiết bị chuyển mạch MOSFET rất nhỏ phù hợp với các mạch tích hợp số sử dụng các kích thước cỡ 1 $\mu$. Các quan hệ thu nhỏ được trình bày, cho thấy cách một MOSFET thông thường có thể được giảm kích thước. Một cấu trúc thiết bị nhỏ cải tiến được trình bày, sử dụng cấy ion để tạo ra các vùng nguồn và máng nông cùng một cấu hình pha tạp đế không đồng nhất. Các mô hình một chiều được sử dụng để dự đoán cấu hình pha tạp đế và đặc tính điện áp ngưỡng tương ứng theo điện áp nguồn. Một mô hình vận chuyển dòng điện hai chiều được sử dụng để dự đoán mức độ tương đối của các hiệu ứng kênh ngắn đối với các tổ hợp tham số thiết bị khác nhau. Các MOSFET cổng polysilicon với độ dài kênh nhỏ đến 0.5 $\mu$ đã được chế tạo, và các đặc tính thiết bị được đo, sau đó so sánh với các giá trị dự đoán. Sự cải thiện hiệu năng được kỳ vọng khi sử dụng các thiết bị rất nhỏ này trong các mạch tích hợp được thu nhỏ cao được dự đoán.
+Tóm tắt—Bài báo này xem xét thiết kế, chế tạo và đặc trưng hóa các thiết bị chuyển mạch MOSFET rất nhỏ thích hợp cho các mạch tích hợp số sử dụng các kích thước cỡ 1 $\mu$. Các quan hệ tỷ lệ được trình bày, cho thấy cách một MOSFET thông thường có thể được thu nhỏ về kích thước. Một cấu trúc thiết bị nhỏ cải tiến được trình bày, sử dụng cấy ion để tạo ra các vùng nguồn và máng nông cùng với một phân bố pha tạp đế không đồng nhất. Các mô hình một chiều được sử dụng để dự đoán phân bố pha tạp đế và đặc tính điện áp ngưỡng tương ứng theo điện áp nguồn. Một mô hình vận chuyển dòng điện hai chiều được sử dụng để dự đoán mức độ tương đối của các hiệu ứng kênh ngắn đối với các tổ hợp tham số thiết bị khác nhau. Các MOSFET cổng polysilicon với độ dài kênh nhỏ tới 0.5 $\mu$ đã được chế tạo, và các đặc tính thiết bị được đo lường, so sánh với các giá trị dự đoán. Sự cải thiện hiệu năng dự kiến từ việc sử dụng các thiết bị rất nhỏ này trong các mạch tích hợp được thu nhỏ cao được dự đoán.
 
-Bản thảo nhận ngày May 20, 1974; sửa đổi ngày July 3, 1974.
+Bản thảo nhận ngày 20 tháng 5 năm 1974; sửa đổi ngày 3 tháng 7 năm 1974.
 
-Các tác giả thuộc IBM T. J. Watson Research Center, Yorktown Heights, N.Y. 10598.
+Các tác giả thuộc Trung tâm Nghiên cứu IBM T. J. Watson, Yorktown Heights, N.Y. 10598.
 
 IEEE JOURNAL OF SOLID-STATE CIRCUITS, VOL. SC-9, NO. 5, OCTOBER 1974
 
@@ -48,14 +46,14 @@ DANH SÁCH KÝ HIỆU
 
 $\alpha$
 
-Độ dốc nghịch đảo theo bán logarit của đặc tính dưới ngưỡng.
+Độ dốc bán logarit nghịch của đặc tính dưới ngưỡng.
 
 $D$
 
-Độ rộng của cấu hình hàm bước lý tưởng hóa cho cấy kênh.
+Độ rộng của biên dạng hàm bước lý tưởng hóa cho cấy kênh.
 
 $\Delta W_f$
 
-Độ chênh lệch hàm công giữa cổng và đế.
+Hiệu điện thế hàm công giữa cổng và đế.
 
 $\epsilon_{Si}, \epsilon_{ox}$
