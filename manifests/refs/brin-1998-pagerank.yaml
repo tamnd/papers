@@ -1,0 +1,78 @@
+paper: brin-1998-pagerank
+style: bracket
+entries:
+    - key: "1"
+      raw: 'S. Abiteboul and V. Vianu, Queries and computation on the Web, in: Proceedings of the International Conference on Database Theory, Delphi, Greece, 1997.'
+      title: 'S. Abiteboul and V. Vianu, Queries and computation on the Web, in: Proceedings of the International Conference on Database Theory, Delphi, Greece, 1997'
+      year: 1997
+      resolves_to: ""
+    - key: "2"
+      raw: 'J. Cho, H. Garcia-Molina and L. Page, Efficient crawling through URL ordering, in: Proc. of the 7th International World Wide Web Conference (WWW 98), Brisbane, Australia, April 14–18, 1998; also Comput. Networks ISDN Systems. 30(1–7): 161–172 (this volume).'
+      title: 'J. Cho, H. Garcia-Molina and L. Page, Efficient crawling through URL ordering, in: Proc. of the 7th International World Wide Web Conference (WWW 98), Brisbane, Australia, April 14–18, 1998; also Comput. Networks ISDN Systems'
+      venue: '30(1–7): 161–172 (this volume)'
+      year: 1998
+      resolves_to: ""
+    - key: "3"
+      raw: 'J. Kleinberg, Authoritative sources in a hyperlinked environment, in: Proc. ACM-SIAM Symposium on Discrete Algorithms, 1998.'
+      title: 'J. Kleinberg, Authoritative sources in a hyperlinked environment, in: Proc. ACM-SIAM Symposium on Discrete Algorithms, 1998'
+      year: 1998
+      resolves_to: ""
+    - key: "4"
+      raw: 'M. Marchiori. The quest for correct information on the Web: hyper search engines, in: Proc. of the 6th International WWW Conference (WWW 97), Santa Clara, USA, April 7–11, 1997.'
+      authors:
+        - M. Marchiori
+      title: 'The quest for correct information on the Web: hyper search engines, in: Proc. of the 6th International WWW Conference (WWW 97), Santa Clara, USA, April 7–11, 1997'
+      year: 1997
+      resolves_to: ""
+    - key: "5"
+      raw: Mauldin, M.L., Lycos design choices in an Internet search service, IEEE Expert Interview, http://www.computer.org/pubs/expert/1997/trends/x1008/mauldin.htm
+      title: Mauldin, M.L., Lycos design choices in an Internet search service, IEEE Expert Interview, http://www.computer.org/pubs/expert/1997/trends/x1008/mauldin.htm
+      url: http://www.computer.org/pubs/expert/1997/trends/x1008/mauldin.htm
+      resolves_to: ""
+    - key: "6"
+      raw: 'O.A. McBryan, GENVL and WWW: tools for taming the Web, in: Proc. of the 1st International Conference on the World Wide Web, CERN, Geneva, Switzerland, May 25–27, 1994. http://www.cs.colorado.edu/home/mcbryan/mypapers/www94.ps'
+      title: 'O.A. McBryan, GENVL and WWW: tools for taming the Web, in: Proc. of the 1st International Conference on the World Wide Web, CERN, Geneva, Switzerland, May 25–27, 1994'
+      year: 1994
+      url: http://www.cs.colorado.edu/home/mcbryan/mypapers/www94.ps
+      resolves_to: ""
+    - key: "7"
+      raw: 'L. Page, S. Brin, R. Motwani and T. Winograd, The PageRank citation ranking: bringing order to the Web, Manuscript in Progress, http://google.stanford.edu/~backrub/pageranksub.ps'
+      title: 'L. Page, S. Brin, R. Motwani and T. Winograd, The PageRank citation ranking: bringing order to the Web, Manuscript in Progress, http://google.stanford.edu/~backrub/pageranksub.ps'
+      url: http://google.stanford.edu/~backrub/pageranksub.ps
+      resolves_to: ""
+    - key: "8"
+      raw: 'B. Pinkerton, Finding what people want: experiences with the WebCrawler, in: Proc. of the 2nd International WWW Conference, Chicago, USA, October 17–20, 1994, http://info.webcrawler.com/bp/WWW94.html'
+      title: 'B. Pinkerton, Finding what people want: experiences with the WebCrawler, in: Proc. of the 2nd International WWW Conference, Chicago, USA, October 17–20, 1994, http://info.webcrawler.com/bp/WWW94.html'
+      year: 1994
+      url: http://info.webcrawler.com/bp/WWW94.html
+      resolves_to: ""
+    - key: "9"
+      raw: 'E. Spertus, ParaSite: mining structural information on the Web, in: Proc. of the 6th International WWW Conference (WWW 97), Santa Clara, USA, April 7–11, 1997.'
+      title: 'E. Spertus, ParaSite: mining structural information on the Web, in: Proc. of the 6th International WWW Conference (WWW 97), Santa Clara, USA, April 7–11, 1997'
+      year: 1997
+      resolves_to: ""
+    - key: "10"
+      raw: D.K. Harman and E.M. Voorhees (Eds.), Proceedings of the Fifth Text REtrieval Conference (TREC-5), Gaithersburg, Maryland, November 20–22, 1996, Department of Commerce. National Institute of Standards and Technology, 1996; full text at http://trec.nist.gov/
+      authors:
+        - D.K. Harman
+        - E.M. Voorhees (Eds.)
+        - Proceedings of the Fifth Text REtrieval Conference (TREC-5)
+        - Gaithersburg
+        - Maryland
+        - November 20–22
+        - "1996"
+        - Department of Commerce
+      title: National Institute of Standards and Technology, 1996; full text at http://trec.nist.gov/
+      year: 1996
+      url: http://trec.nist.gov/
+      resolves_to: ""
+    - key: "11"
+      raw: 'I.H Witten, A. Moffat, and T.C. Bell, Managing Gigabytes: Compressing and Indexing Documents and Images, Van Nostrand Reinhold, New York, NY, 1994.'
+      title: 'I.H Witten, A. Moffat, and T.C. Bell, Managing Gigabytes: Compressing and Indexing Documents and Images, Van Nostrand Reinhold, New York, NY, 1994'
+      year: 1994
+      resolves_to: ""
+    - key: "12"
+      raw: 'R. Weiss, B. Velez, M.A. Sheldon, C. Manprempre, P. Szilagyi, A. Duda, and D. K. Gifford, HyPursuit: a hierarchical network search engine that exploits content-link hypertext clustering, in: Proc. of the 7th ACM Conference on Hypertext, New York, 1996. Sergey Brin received his B.S. degree in mathematics and computer science from the University of Maryland at College Park in 1993. Currently, he is a Ph.D. candidate in computer science at Stanford University where he received his M.S. in 1995. He is a recipient of a National Science Foundation Graduate Fellowship. His research interests include search engines, information extraction from unstructured sources, and data mining of large text collections and scientific data. Lawrence Page was born in East Lansing, Michigan, and received a B.S.E. in Computer Engineering at the University of Michigan Ann Arbor in 1995. He is currently a Ph.D. candidate in Computer Science at Stanford University. Some of his research interests include the link structure of the Web, human computer interaction, search engines, scalability of information access interfaces, and personal data mining.'
+      title: 'R. Weiss, B. Velez, M.A. Sheldon, C. Manprempre, P. Szilagyi, A. Duda, and D. K. Gifford, HyPursuit: a hierarchical network search engine that exploits content-link hypertext clustering, in: Proc. of the 7th ACM Conference on Hypertext, New York, 1996'
+      year: 1995
+      resolves_to: ""
