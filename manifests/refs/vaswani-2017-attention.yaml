@@ -436,7 +436,7 @@ entries:
       venue: arXiv preprint arXiv:1609.08144
       year: 2016
       arxiv: "1609.08144"
-      resolves_to: ""
+      resolves_to: wu-2016-gnmt
     - key: "39"
       raw: Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.
       authors:
