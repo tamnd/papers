@@ -1,0 +1,34 @@
+paper: mccabe-1976-complexity
+style: hanging
+entries:
+    - key: "1"
+      raw: '[1] C. Berge, Graphs and Hypergraphs. Amsterdam, The Netherlands: North-Holland, 1973.'
+      title: '[1] C. Berge, Graphs and Hypergraphs'
+      venue: 'Amsterdam, The Netherlands: North-Holland'
+      year: 1973
+      resolves_to: ""
+    - key: "2"
+      raw: Thomas J. McCabe was born in Central Falls, RI, on November 28, 1941. He received the A.B. degree in mathematics from Providence College, Providence, RI and the M.S. degree in mathematics from the University of Connecticut, Storrs, in 1964 and 1966, respectively.
+      authors:
+        - Thomas J. McCabe was born in Central Falls
+        - RI
+        - on November 28
+        - "1941"
+      title: He received the A.B. degree in mathematics from Providence College, Providence, RI and the M.S. degree in mathematics from the University of Connecticut, Storrs, in 1964 and 1966, respectively
+      year: 1966
+      resolves_to: ""
+    - key: "3"
+      raw: He has been employed since 1966 by the Department of Defense, National Security Agency, Ft. Meade, MD in various systems programming and programming management positions. He also, during a military leave, served as a Captain in the Army Security Agency engaged in large-scale compiler implementation and optimization. He has recently been active in software engineering and has developed and taught various software related courses for the Institute for Advanced Technology, the University of California, and Massachusetts State College System.
+      authors:
+        - He has been employed since 1966 by the Department of Defense
+        - National Security Agency
+        - Ft
+      title: Meade, MD in various systems programming and programming management positions
+      year: 1966
+      resolves_to: ""
+    - key: "4"
+      raw: Mr. McCabe is a member of the American Mathematical Association.
+      title: Mr. McCabe is a member of the American Mathematical Association
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry
