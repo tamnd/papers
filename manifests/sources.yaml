@@ -828,6 +828,12 @@ sources:
       sha256: 40929436cdf1c477f2318221df5d0aa71488db4a01cc448b184e0aba8bf95ddb
       pages: 30
       text_layer: none
+    - id: wu-2016-gnmt
+      access: permissive
+      licence: arXiv non-exclusive licence to distribute
+      url: https://arxiv.org/pdf/1609.08144v2
+      landing: https://arxiv.org/abs/1609.08144
+      by: pin
     - id: yeh-1991-branchprediction
       access: restricted
       url: http://classweb.ece.umd.edu/enee646/yeh+patt-adaptive-training-1991.pdf

@@ -845,7 +845,7 @@ entries:
       year: 2016
       arxiv: "1609.08144"
       url: http://arxiv.org/abs/1609.08144
-      resolves_to: ""
+      resolves_to: wu-2016-gnmt
     - key: You15
       raw: Young, C., 2015. Batch Processing in a Neural Network Processor, Patent Application No. 62/165,020.
       authors:
