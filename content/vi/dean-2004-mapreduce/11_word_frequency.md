@@ -17,17 +17,17 @@ pdf_sha256: 9cfef3ef1b8fe1a1b66c7221f56c2eeca0b15d6608ea68b0c85a38bfbffd8ce5
 pdf_pages: "13"
 extraction: vision
 extraction_model: gpt-5
-content_sha256: 28c1a25e7297324fdfc1780bc69618fd51f95329ddce52c767d2ced1601408ef
+content_sha256: 35eeed0446932294a7ecf65bd1b37dba4bb29cdc02a8c10087a95afcf5f8998a
 translated_from: content/en/dean-2004-mapreduce/11_word_frequency.md
 source_content_sha256: 26934a77f9d5110fa12721b97cde1949a5827287f2049ba8434278a774e43024
 translation_model: gpt-5
-translation_run: 20260914T163737Z
-glossary_version: 6
-glossary_terms_sha256: afc6de5d010821f75553a129f8b55d5fbabc0d9d7af198021ca9a5a496de4088
+translation_run: 20260918T153717Z
+glossary_version: 7
+glossary_terms_sha256: f834761938c11bca59f7cb79948997ed0706af48cd70392678452699c034a7ad
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
 ---
 
-Phần này chứa một chương trình đếm số lần xuất hiện của mỗi từ duy nhất trong một tập các file đầu vào được chỉ định trên dòng lệnh.
+Phần này chứa một chương trình đếm số lần xuất hiện của mỗi từ duy nhất trong một tập hợp các file đầu vào được chỉ định trên dòng lệnh.
 
 C
 
