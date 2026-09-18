@@ -15,20 +15,18 @@ pdf_sha256: 05061e836d9d7834f57f85cb06ed5fbea6c5726b0fd4ed2c4ca38d78ac1802d0
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 2c427c39342b203ad7c1fc03b6fc973d2a31269571779c374575b2de9e3e193a
+content_sha256: 5ad6628e92d6deb6d5e87fc97f47de168672450e25bbb0df360c9abc3aa7b4c2
 translated_from: content/en/dijkstra-1968-the/00_front.md
 source_content_sha256: 1d0b3a3412c6dfeea422121314dfc3b6d587a14513f3edcd04ba1028e0a60797
 translation_model: gpt-5
-translation_run: 20260914T201546Z
-glossary_version: 6
-glossary_terms_sha256: afc6de5d010821f75553a129f8b55d5fbabc0d9d7af198021ca9a5a496de4088
+translation_run: 20260918T153717Z
+glossary_version: 7
+glossary_terms_sha256: f834761938c11bca59f7cb79948997ed0706af48cd70392678452699c034a7ad
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
-roundtrip: same
-roundtrip_run: 20260914T214350Z
 ---
 
-EWD 196: Cấu trúc của hệ thống đa chương trình 'THE' được công bố trong Commun. ACM 11 (1968), 5: 341–346. Tài liệu được tái bản tại đây với sự cho phép.
+EWD 196: Cấu trúc của hệ thống đa chương trình 'THE' được xuất bản trong Commun. ACM 11 (1968), 5: 341–346. Nó được tái bản tại đây với sự cho phép.
 
 Cấu trúc của hệ thống đa chương trình THE
 
-Với các tài nguyên rất hạn chế (cụ thể là một nhóm gồm sáu người, trung bình mỗi người chỉ có thể dành một nửa thời gian) và mong muốn đóng góp cho nghệ thuật thiết kế hệ thống, bao gồm tất cả các giai đoạn hình thành ý tưởng, xây dựng và kiểm chứng, chúng tôi phải đối mặt với vấn đề làm thế nào để có được kinh nghiệm cần thiết. Để giải quyết vấn đề này, chúng tôi đã áp dụng ba nguyên tắc chỉ đạo sau đây:
+Với các tài nguyên rất hạn chế (cụ thể là một nhóm gồm sáu người có thời gian làm việc trung bình là một nửa thời gian) và mong muốn đóng góp vào nghệ thuật thiết kế hệ thống - bao gồm tất cả các giai đoạn hình thành ý tưởng, xây dựng và kiểm chứng - chúng tôi đối mặt với vấn đề làm thế nào để có được kinh nghiệm cần thiết. Để giải quyết vấn đề này, chúng tôi đã áp dụng ba nguyên tắc chỉ đạo sau:
