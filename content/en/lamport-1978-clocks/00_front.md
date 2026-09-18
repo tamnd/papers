@@ -16,7 +16,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 4b7ae7f50483519411ec5d2ce1d6efe1cc22702f57cad988b4035630cf300048
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Time, Clocks, and the Ordering of Events in a Distributed System
