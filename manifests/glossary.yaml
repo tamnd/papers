@@ -21,7 +21,7 @@
 # Bump version whenever a term is added or a rendering changes: every
 # translated file records the version it was made under, so a change here
 # makes the files it affects detectably stale.
-version: 6
+version: 7
 terms:
   - en: abstraction
     vi: trừu tượng hóa
@@ -91,7 +91,15 @@ terms:
     zh: 类
     ja: クラス
     common: true
-    note: in languages a type, in machine learning a label
+    fields: [languages, software]
+    note: the thing a program declares, not a label and not a complexity class
+  - en: class
+    vi: lớp
+    zh: 类别
+    ja: クラス
+    common: true
+    fields: [ai-ml, graphics]
+    note: the label a classifier puts on an example
   - en: classification
     vi: phân loại
     zh: 分类
@@ -118,6 +126,8 @@ terms:
     vi: độ phức tạp
     zh: 复杂度
     ja: 計算量
+    fields: [theory, algorithms, ai-ml]
+    note: how much work an algorithm is, not how complicated a system is
     common: true
   - en: computation
     vi: tính toán
@@ -266,6 +276,7 @@ terms:
     vi: suy luận
     zh: 推理
     ja: 推論
+    fields: [ai-ml, theory]
     note: in machine learning running a trained model, in theory deriving a conclusion
   - en: input
     vi: đầu vào
@@ -299,8 +310,9 @@ terms:
     vi: khóa
     zh: 键
     ja: キー
+    fields: [algorithms, databases, systems, networks, languages, architecture, theory, ai-ml, graphics, hci, software]
     common: true
-    note: 'in a store what a value is found by, in cryptography a secret; zh: cryptography中通常译为“密钥”，但此处首义是存储系统中的键'
+    note: what a value is found by, not a secret, so the security papers are not offered it
   - en: language model
     vi: mô hình ngôn ngữ
     zh: 语言模型
@@ -348,6 +360,8 @@ terms:
     vi: ánh xạ
     zh: 映射
     ja: 写像
+    fields: [theory, algorithms, ai-ml]
+    note: the mathematical map, not laying one address space over another
   - en: Markov chain
     vi: chuỗi Markov
     zh: 马尔可夫链
@@ -391,6 +405,8 @@ terms:
     vi: toán tử
     zh: 算子
     ja: 演算子
+    fields: [databases, systems, networks, ai-ml]
+    note: a step of a query plan or a function on data, not a symbol in a program
     common: true
   - en: optimization
     vi: tối ưu hóa
@@ -484,7 +500,8 @@ terms:
   - en: queue
     vi: hàng đợi
     zh: 队列
-    ja: 待ち行列
+    ja: キュー
+    note: the structure things wait in, not the theory of waiting
   - en: recursion
     vi: đệ quy
     zh: 递归
@@ -605,9 +622,10 @@ terms:
     note: the sequence of characters, not a piece of cord
   - en: switch
     vi: chuyển mạch
-    zh: 开关
+    zh: 交换机
     ja: スイッチ
     fields: [networks]
+    note: the box packets go through, not a toggle
   - en: syntax
     vi: cú pháp
     zh: 语法
