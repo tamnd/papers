@@ -17,18 +17,18 @@ pdf_sha256: e1e9d67146a1d0955a39b4fbb8e2951d6cefb4f7231a01acb9c78852280da227
 pdf_pages: "9"
 extraction: vision
 extraction_model: gpt-5
-content_sha256: f406407644bedd34f2536efced827e6f3d701b18f3bf04c86d51f44fa687ab53
+content_sha256: 9e195b29a5150c63eb6bd8477e8f22831cacea4bc9b91817a3acec93b34007c6
 translated_from: content/en/metcalfe-1976-ethernet/08_conclusion.md
 source_content_sha256: a9784380b5683f38008d289839dbccd9b65260c829a07b437f9732502bf9e2f2
 translation_model: gpt-5
-translation_run: 20260917T145710Z
-glossary_version: 6
-glossary_terms_sha256: 3a5b9dd3cd6211761c92d70db4c4910c364b1cae9e5e732eea77349f449c860b
+translation_run: 20260918T110147Z
+glossary_version: 7
+glossary_terms_sha256: 5bfb74d0e4b3e9a8237f78ceae59e221549684c174791655271c5455f7fd5e4e
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
 ---
 
-Kinh nghiệm của chúng tôi với một Ethernet đang hoạt động dẫn chúng tôi đến kết luận rằng việc nhấn mạnh vào điều khiển phân tán là hoàn toàn đúng đắn. Bằng cách giữ các thành phần dùng chung của hệ thống truyền thông ở mức tối thiểu và thụ động, chúng tôi đã đạt được mức độ tin cậy rất cao. Việc cài đặt và bảo trì Ethernet thử nghiệm của chúng tôi đã đạt mức hơn cả thỏa đáng. Tính linh hoạt trong việc kết nối các trạm do chuyển mạch gói tin quảng bá cung cấp đã khuyến khích sự phát triển của nhiều ứng dụng mạng máy tính và đa xử lý.
+Kinh nghiệm của chúng tôi với một Ethernet đang vận hành dẫn chúng tôi đến kết luận rằng việc nhấn mạnh vào điều khiển phân tán của chúng tôi là đúng đắn. Bằng cách giữ các thành phần dùng chung của hệ thống truyền thông ở mức tối thiểu và thụ động, chúng tôi đã đạt được mức độ tin cậy rất cao. Việc cài đặt và bảo trì Ethernet thử nghiệm của chúng tôi đã vượt quá mức thỏa đáng. Tính linh hoạt trong việc liên kết các trạm do chuyển mạch gói tin quảng bá cung cấp đã khuyến khích sự phát triển của nhiều ứng dụng mạng máy tính và xử lý đa nhiệm.
 
-*Lời cảm ơn.* Các đồng nghiệp của chúng tôi tại Xerox Palo Alto Research Center, đặc biệt là Tat C. Lam, Butler W. Lampson, John F. Shoch, và Charles P. Thacker, đã đóng góp theo nhiều cách vào sự phát triển của các ý tưởng Ethernet và vào việc xây dựng hệ thống thử nghiệm, nếu không có hệ thống này thì những ý tưởng như vậy chỉ là những suy đoán không có nhiều cơ sở.
+*Lời cảm ơn.* Các đồng nghiệp của chúng tôi tại Xerox Palo Alto Research Center, đặc biệt là Tat C. Lam, Butler W. Lampson, John F. Shoch và Charles P. Thacker, đã đóng góp theo nhiều cách vào sự phát triển của các ý tưởng Ethernet và vào việc xây dựng hệ thống thử nghiệm, nếu không có hệ thống này thì những ý tưởng như vậy chỉ là những suy đoán suông.
 
 Nhận tháng 5 năm 1975; sửa đổi tháng 12 năm 1975
