@@ -15,18 +15,16 @@ pdf_sha256: facf3ded36efc4a59db4b1ed5e3e635462b43803e77db1a7546c2d9934668f1f
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 0f19a1da93c6b5814e9c9fb5e1f5f34d5fe0d0303ce294391934f285dca8769f
+content_sha256: fedf22d7d1c673e6d592242bc0390c7e9e632353e9021aaaa6c086cd9e4ef6d3
 translated_from: content/en/nagle-1984-congestion/00_front.md
 source_content_sha256: 33899b3e78756f25223ca59b57a2f4666ea623515553d469faccc751608b9a2d
 translation_model: gpt-5
-translation_run: 20260914T163737Z
-glossary_version: 6
-glossary_terms_sha256: 3a5b9dd3cd6211761c92d70db4c4910c364b1cae9e5e732eea77349f449c860b
+translation_run: 20260918T122832Z
+glossary_version: 7
+glossary_terms_sha256: 5bfb74d0e4b3e9a8237f78ceae59e221549684c174791655271c5455f7fd5e4e
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
-roundtrip: same
-roundtrip_run: 20260914T214350Z
 ---
 
-Kiểm soát tắc nghẽn trong các liên mạng IP/TCP
+Điều khiển tắc nghẽn trong các liên mạng IP/TCP
 
-Bản ghi nhớ này thảo luận một số khía cạnh của kiểm soát tắc nghẽn trong các liên mạng IP/TCP. Bản ghi nhớ nhằm khuyến khích suy nghĩ và thảo luận thêm về chủ đề này. Mặc dù đưa ra một số đề xuất cụ thể nhằm cải thiện việc triển khai kiểm soát tắc nghẽn, bản ghi nhớ này không đặc tả bất kỳ tiêu chuẩn nào.
+Bản ghi nhớ này thảo luận một số khía cạnh của điều khiển tắc nghẽn trong các liên mạng IP/TCP. Nó nhằm khơi gợi suy nghĩ và thảo luận thêm về chủ đề này. Mặc dù một số đề xuất cụ thể được đưa ra để cải thiện việc triển khai điều khiển tắc nghẽn, bản ghi nhớ này không đặc tả bất kỳ tiêu chuẩn nào.
