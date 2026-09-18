@@ -17,7 +17,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 17d1d9c934a9c79dc1bf9969b26b2fdc40d089cc0cda4e05dff84776e249e10e
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Efficient String Matching: An Aid to Bibliographic Search
