@@ -3089,6 +3089,78 @@ figures:
       width: 776
       height: 876
       bytes: 482562
+    - paper: royce-1970-lifecycle
+      figure: f01
+      number: "1"
+      page: 1
+      bbox: [213.84, 295.68, 397.2, 421.68]
+      caption: Figure 1. Implementation steps to deliver a small computer program for internal operations.
+      sha256: 7cf75966c5ac579ae4dc67d4359faaa5816fa8bd71656970df838bb1ef7c2699
+      method: crop
+      page_fraction: 0.0477
+      width: 764
+      height: 525
+      bytes: 21525
+    - paper: royce-1970-lifecycle
+      figure: f02
+      number: "2"
+      page: 2
+      bbox: [56.16, 432.24, 551.04, 739.68]
+      caption: Figure 2. Implementation steps to develop a large computer program for delivery to a customer.
+      sha256: 638a286a581cb4d42751cc01edca1c39886d347fd012cb66233054539d503dc2
+      method: crop
+      page_fraction: 0.3139
+      width: 2062
+      height: 1281
+      bytes: 63441
+    - paper: royce-1970-lifecycle
+      figure: f03
+      number: "3"
+      page: 3
+      bbox: [46.56, 432.72, 551.04, 708.72]
+      caption: Figure 3. Hopefully, the ~terat=ve interact=on between the various phases is confined to successive steps.
+      sha256: 6ceb84ee10fd31256e69b78710fbd15cd62b53e1436a9fb1f34a33049b26c5fa
+      method: crop
+      page_fraction: 0.2873
+      width: 2102
+      height: 1150
+      bytes: 61433
+    - paper: royce-1970-lifecycle
+      figure: f04
+      number: "4"
+      page: 3
+      bbox: [60.24, 92.4, 566.88, 372.72]
+      caption: Figure 4. Unfortunately, for the process illustrated, the design iterations are never confined to the successive steps.
+      sha256: 7458b12cd1400f056bcf29172f566aef8d6a615955b4cbcfebe70ad8863edcad
+      method: crop
+      page_fraction: 0.293
+      width: 2111
+      height: 1168
+      bytes: 61689
+    - paper: royce-1970-lifecycle
+      figure: f05
+      number: "5"
+      page: 4
+      bbox: [102.48, 104.16, 522.48, 397.68]
+      caption: 'Figure 5. Step 1 : Insure that a preliminary program design is complete before analysis begins.'
+      sha256: 85aa2b7858517d9839390579cf4e850d571acfc084b493583e3150e22362dd77
+      method: crop
+      page_fraction: 0.2543
+      width: 1750
+      height: 1223
+      bytes: 118332
+    - paper: royce-1970-lifecycle
+      figure: f06
+      number: "7"
+      page: 7
+      bbox: [50.4, 86.64, 559.2, 443.76]
+      caption: 'Figure 7. Step 3: A t t e m p t to do the job twice - the first result provides an early simulation of the final product.'
+      sha256: 92a841babc0c7c816bbf249e09c7fb81861e2359ec7d407951bb6456c4b5b8c2
+      method: crop
+      page_fraction: 0.3749
+      width: 2120
+      height: 1488
+      bytes: 110502
     - paper: selinger-1979-accesspath
       figure: f01
       number: "1"
