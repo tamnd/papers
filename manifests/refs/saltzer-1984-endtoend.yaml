@@ -20,28 +20,32 @@ entries:
       year: 1973
       resolves_to: ""
     - key: "3"
-      raw: Corbato, F.J., et al. *The Compatible Time-Sharing System, A Programmer's Guide.* M.I.T. Press, Cambridge, Massachusetts, 1963, p.10.
-      title: Corbato, F.J., et al. *The Compatible Time-Sharing System, A Programmer's Guide.* M.I.T. Press, Cambridge, Massachusetts, 1963, p.10
+      raw: Corbato, F.J., et al. The Compatible Time-Sharing System, A Programmer's Guide. M.I.T. Press, Cambridge, Massachusetts, 1963, p.10.
+      authors:
+        - Corbato
+        - F.J
+      title: The Compatible Time-Sharing System, A Programmer's Guide
+      venue: M.I.T. Press, Cambridge, Massachusetts, 1963, p.10
       year: 1963
       resolves_to: ""
     - key: "4"
-      raw: Diffie, W., and Hellman, M.E. New directions in cryptography. *IEEE Trans. on Info. Theory,* IT-22, 6, (November, 1976), pp.644-654.
+      raw: Diffie, W., and Hellman, M.E. New directions in cryptography. IEEE Trans. on Info. Theory, IT-22, 6, (November, 1976), pp.644-654.
       authors:
         - W. Diffie
         - Hellman
         - M.E
       title: New directions in cryptography
-      venue: '*IEEE Trans. on Info. Theory,* IT-22, 6, (November, 1976), pp.644-654'
+      venue: IEEE Trans. on Info. Theory, IT-22, 6, (November, 1976), pp.644-654
       year: 1976
       pages: 644-654
       resolves_to: diffie-1976-newdirections
     - key: "5"
-      raw: 'Gray, J.N. Notes on database operating systems. In *Operating System: An Advanced Course.* Volume 60 of *Lecture Notes in Computer Science,* Springer-Verlag, 1978, pp.393-481.'
+      raw: 'Gray, J.N. Notes on database operating systems. In Operating System: An Advanced Course. Volume 60 of Lecture Notes in Computer Science, Springer-Verlag, 1978, pp.393-481.'
       authors:
         - Gray
         - J.N
       title: Notes on database operating systems
-      venue: 'In *Operating System: An Advanced Course.* Volume 60 of *Lecture Notes in Computer Science,* Springer-Verlag, 1978, pp.393-481'
+      venue: 'In Operating System: An Advanced Course. Volume 60 of Lecture Notes in Computer Science, Springer-Verlag, 1978, pp.393-481'
       year: 1978
       pages: 393-481
       resolves_to: ""
@@ -54,56 +58,53 @@ entries:
       year: 1984
       resolves_to: ""
     - key: "7"
-      raw: 'Keister, W., Ketchledge, R.W., and Vaughan, H.E.: No. 1 ESS: System organization and objectives. *Bell System Technical Journal* 53, 5 (part 1), (September, 1964) p. 1841.'
+      raw: 'Keister, W., Ketchledge, R.W., and Vaughan, H.E.: No. 1 ESS: System organization and objectives. Bell System Technical Journal 53, 5 (part 1), (September, 1964) p. 1841.'
       title: 'Keister, W., Ketchledge, R.W., and Vaughan, H.E.: No. 1 ESS: System organization and objectives'
-      venue: '*Bell System Technical Journal* 53, 5 (part 1), (September, 1964) p'
+      venue: Bell System Technical Journal 53, 5 (part 1), (September, 1964) p
       year: 1841
       resolves_to: ""
     - key: "8"
-      raw: 'Kent, S.T.: Encryption-based protection protocols for interactive user-computer communication: S.M. thesis, Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science, May, 1976. Also available as M.I.T. Laboratory for Computer Science Technical Report, TR-162, May, 1976.'
-      title: 'Kent, S.T.: Encryption-based protection protocols for interactive user-computer communication: S.M. thesis, Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science, May, 1976'
+      raw: 'Kent, S.T.: Encryption-based protection protocols for interactive user-computer communication.: S.M. thesis, Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science, May, 1976. Also available as M.I.T. Laboratory for Computer Science Technical Report, TR-162, May, 1976.'
+      title: 'Kent, S.T.: Encryption-based protection protocols for interactive user-computer communication.: S.M. thesis, Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science, May, 1976'
       venue: Also available as M.I.T. Laboratory for Computer Science Technical Report, TR-162
       year: 1976
       resolves_to: ""
     - key: "9"
-      raw: Lampson, B.W., and Sproull, R.F. An open operating system for a single-user machine. *Proc. Seventh Symposium on Operating Systems Principles, Operating Systems Review* 13, Special issue (December, 1979), pp.98-105.
+      raw: Lampson, B.W., and Sproull, R.F. An open operating system for a single-user machine. Proc. Seventh Symposium on Operating Systems Principles, Operating Systems Review 13, Special issue (December, 1979), pp.98-105.
       authors:
         - Lampson
         - B.W
         - Sproull
         - R.F
       title: An open operating system for a single-user machine
-      venue: '*Proc. Seventh Symposium on Operating Systems Principles, Operating Systems Review* 13, Special issue (December, 1979), pp.98-105'
+      venue: Proc. Seventh Symposium on Operating Systems Principles, Operating Systems Review 13, Special issue (December, 1979), pp.98-105
       year: 1979
       pages: 98-105
       resolves_to: ""
     - key: "10"
-      raw: Lampson, B., and Sturgis, H. Crash recovery in a distributed data storage system. Working paper, Xerox PARC, November, 1976 and April, 1979. Submitted to *CACM.*
-      authors:
-        - B. Lampson
-        - H. Sturgis
-      title: Crash recovery in a distributed data storage system
-      venue: Working paper, Xerox PARC, November, 1976 and April, 1979. Submitted to *CACM.*
+      raw: 'Lampson, B., and Sturgis, H: Crash recovery in a distributed data storage system. Working paper, Xerox PARC, November, 1976 and April, 1979. Submitted to CACM.'
+      title: 'Lampson, B., and Sturgis, H: Crash recovery in a distributed data storage system'
+      venue: Working paper, Xerox PARC, November, 1976 and April, 1979. Submitted to CACM
       year: 1979
       resolves_to: ""
     - key: "11"
-      raw: 'Needham, R.M., and Schroeder, M.D.: Using encryption for authentication in large networks of computers. *CACM* 21, 12, (December, 1978), pp.993-999.'
+      raw: 'Needham, R.M., and Schroeder, M.D.: Using encryption for authentication in large networks of computers. CACM 21, 12, (December, 1978), pp.993-999.'
       title: 'Needham, R.M., and Schroeder, M.D.: Using encryption for authentication in large networks of computers'
-      venue: '*CACM* 21, 12, (December, 1978), pp.993-999'
+      venue: CACM 21, 12, (December, 1978), pp.993-999
       year: 1978
       pages: 993-999
       resolves_to: ""
     - key: "12"
-      raw: 'Popek, G.J., et al.: UCLA data secure unix. *Proc. 1979 NCC,* AFIPS Press, pp.355-364.'
+      raw: 'Popek, G.J., et al.: UCLA data secure unix. Proc. 1979 NCC, AFIPS Press, pp.355-364.'
       title: 'Popek, G.J., et al.: UCLA data secure unix'
-      venue: '*Proc. 1979 NCC,* AFIPS Press, pp.355-364'
+      venue: Proc. 1979 NCC, AFIPS Press, pp.355-364
       year: 1979
       pages: 355-364
       resolves_to: ""
     - key: "13"
-      raw: 'Reed, D.P.: Implementing atomic actions on decentralized data. *ACM Transactions on Computer Systems* 1, 1 (February, 1983), pp.3-23.'
+      raw: 'Reed, D.P.: Implementing atomic actions on decentralized data. ACM Transactions on Computer Systems 1, 1 (February, 1983), pp.3-23.'
       title: 'Reed, D.P.: Implementing atomic actions on decentralized data'
-      venue: '*ACM Transactions on Computer Systems* 1, 1 (February, 1983), pp.3-23'
+      venue: ACM Transactions on Computer Systems 1, 1 (February, 1983), pp.3-23
       year: 1983
       pages: 3-23
       resolves_to: ""
@@ -113,15 +114,15 @@ entries:
       year: 1978
       resolves_to: ""
     - key: "15"
-      raw: 'Reed, D.P., and Svobodova, L.: SWALLOW: A distributed data storage system for a local network. In West, A., and Janson, P., ed. *Local Networks for Computer Communications, Proc. IFIP Working Group 6.4 International Workshop on Local Networks.* North-Holland, Amsterdam, 1981, pp.355-373.'
+      raw: 'Reed, D.P., and Svobodova, L.: SWALLOW: A distributed data storage system for a local network. In West, A., and Janson, P., ed. Local Networks for Computer Communications, Proc. IFIP Working Group 6.4 International Workshop on Local Networks. North-Holland, Amsterdam, 1981, pp.355-373.'
       title: 'Reed, D.P., and Svobodova, L.: SWALLOW: A distributed data storage system for a local network'
       year: 1981
       pages: 355-373
       resolves_to: ""
     - key: "16"
-      raw: 'Schroeder, M.D., Clark, D.D., and Saltzer, J.H.: The Multics kernel design project. *Proc. Sixth Symposium on Operating Systems Principles, Operating Systems Review* 11, 5 (November, 1977,) pp.43-56.'
+      raw: 'Schroeder, M.D., Clark, D.D., and Saltzer, J.H.: The Multics kernel design project. Proc. Sixth Symposium on Operating Systems Principles, Operating Systems Review 11, 5 (November, 1977,) pp.43-56.'
       title: 'Schroeder, M.D., Clark, D.D., and Saltzer, J.H.: The Multics kernel design project'
-      venue: '*Proc. Sixth Symposium on Operating Systems Principles, Operating Systems Review* 11, 5 (November, 1977,) pp.43-56'
+      venue: Proc. Sixth Symposium on Operating Systems Principles, Operating Systems Review 11, 5 (November, 1977,) pp.43-56
       year: 1977
       pages: 43-56
       resolves_to: ""
