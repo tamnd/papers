@@ -1,0 +1,88 @@
+paper: codd-1970-relational
+style: number
+entries:
+    - key: "1"
+      raw: Childs, D. L. Feasibility of a set-theoretical data structure—a general structure based on a reconstituted definition of relation. Proc. IFIP Cong., 1968, North Holland Pub. Co., Amsterdam, p. 162–172.
+      authors:
+        - D. L. Childs
+      title: Feasibility of a set-theoretical data structure—a general structure based on a reconstituted definition of relation
+      venue: Proc. IFIP Cong., 1968, North Holland Pub. Co., Amsterdam, p. 162–172
+      year: 1968
+      pages: 162-172
+      resolves_to: ""
+    - key: "2"
+      raw: Levein, R. E., and Maron, M. E. A computer system for inference execution and data retrieval. Comm. ACM 10, 11 (Nov. 1967), 715–721.
+      authors:
+        - R. E. Levein
+        - M. E. Maron
+      title: A computer system for inference execution and data retrieval
+      venue: Comm. ACM 10, 11 (Nov. 1967), 715–721
+      year: 1967
+      pages: 715-721
+      resolves_to: ""
+    - key: "3"
+      raw: Bachman, C. W. Software for random access processing. Datamation (Apr. 1965), 36–41.
+      authors:
+        - C. W. Bachman
+      title: Software for random access processing
+      venue: Datamation (Apr. 1965), 36–41
+      year: 1965
+      pages: 36-41
+      resolves_to: ""
+    - key: "4"
+      raw: McGee, W. C. Generalized file processing. In Annual Review in Automatic Programming 5, 13, Pergamon Press, New York, 1969, pp. 77–149.
+      authors:
+        - McGee
+        - W. C. Generalized file processing
+      title: In Annual Review in Automatic Programming 5, 13, Pergamon Press, New York, 1969, pp. 77–149
+      year: 1969
+      pages: 77-149
+      resolves_to: ""
+    - key: "5"
+      raw: Information Management System/360, Application Description Manual H20-0524-1. IBM Corp., White Plains, N. Y., July 1968.
+      authors:
+        - Information Management System/360
+        - Application Description Manual H20-0524-1
+      title: IBM Corp., White Plains, N. Y., July 1968
+      year: 1968
+      resolves_to: ""
+    - key: "6"
+      raw: GIS (Generalized Information System), Application Description Manual H20-0574. IBM Corp., White Plains, N. Y., 1965.
+      authors:
+        - GIS (Generalized Information System)
+        - Application Description Manual H20-0574
+      title: IBM Corp., White Plains, N. Y., 1965
+      year: 1965
+      resolves_to: ""
+    - key: "7"
+      raw: Bleier, R. E. Treating hierarchical data structures in the SDC time-shared data management system (TDMS). Proc. ACM 22nd Nat. Conf., 1967, MDI Publications, Wayne, Pa., pp. 41–49.
+      authors:
+        - R. E. Bleier
+      title: Treating hierarchical data structures in the SDC time-shared data management system (TDMS)
+      venue: Proc. ACM 22nd Nat. Conf., 1967, MDI Publications, Wayne, Pa., pp. 41–49
+      year: 1967
+      pages: 41-49
+      resolves_to: ""
+    - key: "8"
+      raw: IDS Reference Manual GE 625/635, GE Inform. Sys. Div., Pheonix, Ariz., CPB 1093B, Feb. 1968.
+      authors:
+        - IDS Reference Manual GE 625/635
+        - GE Inform
+      title: Sys
+      venue: Div., Pheonix, Ariz., CPB 1093B, Feb
+      year: 1968
+      resolves_to: ""
+    - key: "9"
+      raw: Church, A. An Introduction to Mathematical Logic I. Princeton U. Press, Princeton, N.J., 1956.
+      title: Church, A. An Introduction to Mathematical Logic I. Princeton U. Press, Princeton, N.J., 1956
+      year: 1956
+      resolves_to: ""
+    - key: "10"
+      raw: Feldman, J. A., and Rovner, P. D. An Algol-based associative language. Stanford Artificial Intelligence Rep. AI-66, Aug. 1, 1968.
+      authors:
+        - J. A. Feldman
+        - P. D. Rovner
+      title: An Algol-based associative language
+      venue: Stanford Artificial Intelligence Rep. AI-66, Aug. 1
+      year: 1968
+      resolves_to: ""

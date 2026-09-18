@@ -1,37 +1,38 @@
 # Resolve
 
-101 papers, 100 resolved, 1 not.
+102 papers, 99 resolved, 3 not.
 
 ## What may be published
 
-11 of these may have their text published, 89 get front matter and a short abstract only, and 1 publish nothing at all.
+This corpus publishes every paper in full, by the decision recorded in `manifests/policy.yaml`, so the table below says what each licence allows and not what is on the shelf.
+
+12 of these may have their text published, 88 get front matter and a short abstract only, and 2 publish nothing at all.
 The count that the licence work is measured by, public domain plus open, is 3.
 
 | access | papers | what it publishes |
 | --- | --- | --- |
 | public-domain | 0 | the full text, the mathematics and the figures |
 | open | 3 | the full text, the mathematics and the figures |
-| permissive | 8 | the full text, the mathematics and the figures |
-| restricted | 89 | title, authors, year, links and an abstract under 250 words |
-| unknown | 0 | nothing |
+| permissive | 9 | the full text, the mathematics and the figures |
+| restricted | 88 | title, authors, year, links and an abstract under 250 words |
+| unknown | 2 | nothing |
 
 ## Not resolved
 
 Each of these needs somebody to find the paper and put a url, doi or arxiv line in `manifests/papers.yaml`.
 The near misses are what the services offered and why it was refused.
 
+### shamir-1992-ippspace
+
+- no service had anything at all
+
+### rosenblatt-1958-perceptron
+
+- no service had anything at all
+
 ### hochreiter-1997-lstm
 
-- arxiv offered "Long Short-term Memory RNN" (2021), title 0.969, year +24, authors false: the years are more than a year apart
-- arxiv offered "Long Short-Term Memory Neuron Equalizer" (2020), title 0.913, year +23, authors false: the titles are too different
-- arxiv offered "Long Short-Term Memory Over Tree Structures" (2015), title 0.902, year +18, authors false: the titles are too different
-- arxiv offered "Grid Long Short-Term Memory" (2015), title 0.794, year +18, authors false: the titles are too different
-- arxiv offered "Quantum Long Short-Term Memory" (2020), title 0.775, year +23, authors false: the titles are too different
-- arxiv offered "Fast Weight Long Short-Term Memory" (2018), title 0.761, year +21, authors false: the titles are too different
-- arxiv offered "Lipreading with Long Short-Term Memory" (2016), title 0.758, year +19, authors true: the titles are too different
-- arxiv offered "Associative Long Short-Term Memory" (2016), title 0.754, year +19, authors false: the titles are too different
-- arxiv offered "xLSTM: Extended Long Short-Term Memory" (2024), title 0.744, year +27, authors true: the titles are too different
-- arxiv offered "Parallelizable Stack Long Short-Term Memory" (2019), title 0.533, year +22, authors false: the titles are too different
+- no service had anything at all
 
 ## Resolved
 
@@ -45,7 +46,6 @@ The near misses are what the services offered and why it was refused.
 | cook-1971-np | recorded earlier | restricted | none recorded |
 | karp-1972-reducibility | recorded earlier | restricted | none recorded |
 | goldwasser-1985-zk | recorded earlier | restricted | none recorded |
-| shamir-1992-ippspace | recorded earlier | restricted | none recorded |
 | razborov-1997-naturalproofs | recorded earlier | restricted | none recorded |
 | ford-1956-maxflow | recorded earlier | restricted | none recorded |
 | dijkstra-1959-shortestpath | recorded earlier | restricted | none recorded |
@@ -116,7 +116,6 @@ The near misses are what the services offered and why it was refused.
 | castro-1999-pbft | recorded earlier | restricted | none recorded |
 | nakamoto-2008-bitcoin | recorded earlier | open | MIT |
 | turing-1950-intelligence | recorded earlier | restricted | none recorded |
-| rosenblatt-1958-perceptron | recorded earlier | restricted | none recorded |
 | rumelhart-1986-backprop | recorded earlier | restricted | none recorded |
 | cortes-1995-svm | recorded earlier | restricted | none recorded |
 | freund-1997-adaboost | recorded earlier | restricted | none recorded |
@@ -129,6 +128,7 @@ The near misses are what the services offered and why it was refused.
 | vaswani-2017-attention | recorded earlier | permissive | arXiv non-exclusive licence to distribute |
 | devlin-2018-bert | recorded earlier | permissive | arXiv non-exclusive licence to distribute |
 | brown-2020-gpt3 | recorded earlier | permissive | arXiv non-exclusive licence to distribute |
+| wu-2016-gnmt | pin | permissive | arXiv non-exclusive licence to distribute |
 | sutherland-1963-sketchpad | recorded earlier | restricted | none recorded |
 | engelbart-1968-augmenting | recorded earlier | restricted | none recorded |
 | phong-1975-illumination | recorded earlier | restricted | none recorded |
