@@ -1403,52 +1403,208 @@ figures:
       bytes: 256172
     - paper: dewitt-1990-gamma
       figure: f01
+      number: "1"
+      page: 4
+      bbox: [194.64, 127.44, 419.52, 188.88]
+      caption: Figure 1
+      sha256: 75fe341c83e44cf3a7e13d54a6792a2c2aa4da079cb2f4eb7a7313143a22df76
+      method: vector
+      page_fraction: 0.0285
+      width: 937
+      height: 256
+      bytes: 7979
+    - paper: dewitt-1990-gamma
+      figure: f02
+      number: "2"
+      page: 10
+      bbox: [120.48, 291.36, 482.64, 409.92]
+      caption: Figure 2
+      sha256: 64b4faee1dcd9fc21172679c169801a4943ba403a8f893d4d1a595dc997a4d4b
+      method: vector
+      page_fraction: 0.0886
+      width: 1509
+      height: 494
+      bytes: 18224
+    - paper: dewitt-1990-gamma
+      figure: f03
+      number: "3"
+      page: 12
+      bbox: [136.56, 370.8, 463.68, 527.28]
+      caption: Figure 3
+      sha256: 206416f91151c3a2e43dc124c888c6d4f149d0d038637ffee34fd0cb2533a3fb
+      method: vector
+      page_fraction: 0.1056
+      width: 1363
+      height: 652
+      bytes: 40499
+    - paper: dewitt-1990-gamma
+      figure: f04
+      number: "4"
+      page: 13
+      bbox: [252, 614.88, 400.32, 701.28]
+      caption: Figure 4
+      sha256: 89ee042befc34d1b55da2f9841072bff4117698891d9965104ce9bc8986a1baa
+      method: vector
+      page_fraction: 0.0264
+      width: 618
+      height: 360
+      bytes: 40183
+    - paper: dewitt-1990-gamma
+      figure: f05
       number: "6"
       page: 14
       bbox: [107.28, 363.12, 504.24, 685.68]
       caption: Figure 6 One of the main problems with the DIRECT prototype was that every data page processed required at least one control message to a centralized scheduler. In Gamma this bottleneck is completely avoided. In fact, the number of control messages required to execute a query is approximately equal to three times the number of operators in the query times the number of processors used to execute each operator. As an example, consider Figure 7
-      sha256: 4b05f2d35762fb983ac08bce58db24d1c59f24e2ea5bb7eb83e6292425acebee
+      sha256: a15d463161f22d7ccac2531a87d2c4f91396a330c0e6a1fac698a790370e09f8
       method: vector
-      page_fraction: 0.26
+      page_fraction: 0.2642
       width: 1654
       height: 1344
-      bytes: 54060
+      bytes: 53902
     - paper: dewitt-1990-gamma
-      figure: f02
+      figure: f06
+      number: "8"
+      page: 19
+      bbox: [243.12, 443.28, 359.28, 668.4]
+      caption: Figure 8
+      sha256: b3f8eb97313f3980b80410494275255b5ae1aba2d599e803b2ba2f6273422c52
+      method: vector
+      page_fraction: 0.054
+      width: 484
+      height: 938
+      bytes: 17619
+    - paper: dewitt-1990-gamma
+      figure: f07
+      number: "9"
+      page: 21
+      bbox: [72, 429.12, 550.08, 521.76]
+      caption: Figure 9
+      sha256: d8d0bbdd62568abd4d588a324793ef3d327e1702c40830969b852a60a3a6f461
+      method: vector
+      page_fraction: 0.0914
+      width: 1992
+      height: 386
+      bytes: 45666
+    - paper: dewitt-1990-gamma
+      figure: f08
+      number: "10"
+      page: 21
+      bbox: [72, 162.24, 551.04, 299.76]
+      caption: Figure 10
+      sha256: 95eb1c4ead33e8f7374e249c596670f81e38a1eec1e575aaf4c430d9202c67bb
+      method: vector
+      page_fraction: 0.1359
+      width: 1996
+      height: 573
+      bytes: 61975
+    - paper: dewitt-1990-gamma
+      figure: f09
+      number: "11"
+      page: 22
+      bbox: [99.12, 240, 552.48, 334.32]
+      caption: Figure 11
+      sha256: 9d2ae37fd29900c962e60d696ecd8d40fb6ef18a72216dde49dece72101e3606
+      method: vector
+      page_fraction: 0.0882
+      width: 1889
+      height: 393
+      bytes: 60176
+    - paper: dewitt-1990-gamma
+      figure: f10
       number: "12"
       page: 26
-      bbox: [89.04, 420.72, 507.12, 684]
-      caption: Figure 12 Figure 13
-      sha256: f991417c7d58bf5e7f8edbb5ce2154701b0278b8e690b8ccee98b2b3ba56633e
+      bbox: [89.04, 420.72, 293.28, 681.84]
+      caption: Figure 12
+      sha256: a03f733c911c36a6fd445345f0cfee5a7ef7d6213e78d9c54d4cda02425da540
       method: vector
-      page_fraction: 0.23
-      width: 1742
-      height: 1097
-      bytes: 106079
+      page_fraction: 0.11
+      width: 851
+      height: 1088
+      bytes: 65758
     - paper: dewitt-1990-gamma
-      figure: f03
+      figure: f11
+      number: "13"
+      page: 26
+      bbox: [311.04, 420.72, 507.12, 684]
+      caption: Figure 13
+      sha256: 02c7b5aae476b59277b36941ae06acc1d1ef9e115f66bb7c9d190c97a0861b44
+      method: vector
+      page_fraction: 0.1065
+      width: 817
+      height: 1097
+      bytes: 58073
+    - paper: dewitt-1990-gamma
+      figure: f12
       number: "14"
       page: 27
-      bbox: [87.84, 422.16, 507.12, 684]
-      caption: Figure 14 Figure 15
-      sha256: 6ef3df2794e7176e15584a46c89f30d1e6b4615195dca8540aa4a9cfc09657b8
+      bbox: [87.84, 422.16, 293.28, 684]
+      caption: Figure 14
+      sha256: 03948433470baf1e6ffcef8d8335effe3b6a9133312c6d165bf846bf4309ec2e
       method: vector
-      page_fraction: 0.23
-      width: 1747
+      page_fraction: 0.111
+      width: 856
       height: 1091
-      bytes: 118368
+      bytes: 72133
     - paper: dewitt-1990-gamma
-      figure: f04
+      figure: f13
+      number: "15"
+      page: 27
+      bbox: [311.04, 422.16, 507.12, 683.04]
+      caption: Figure 15
+      sha256: e54e25d892fce9efdaa00fd69530be75a6340963eb14ca9975fc542cf7a6c689
+      method: vector
+      page_fraction: 0.1055
+      width: 817
+      height: 1087
+      bytes: 70851
+    - paper: dewitt-1990-gamma
+      figure: f14
+      number: "16"
+      page: 28
+      bbox: [192.24, 402.48, 408, 684]
+      caption: Figure 16
+      sha256: b41103ca04851ae85c04d7cd44f89b8be77bb0c4a8fa7fbc3ab0065c77f97b52
+      method: vector
+      page_fraction: 0.1253
+      width: 899
+      height: 1173
+      bytes: 78926
+    - paper: dewitt-1990-gamma
+      figure: f15
       number: "17"
       page: 30
-      bbox: [89.04, 111.84, 507.12, 373.68]
-      caption: Figure 17 Figure 18
-      sha256: a099c460834ad901f4ffdbcf6deba8539aee55f05697e9a91be5a6b9343d266a
+      bbox: [89.04, 111.84, 293.28, 373.68]
+      caption: Figure 17
+      sha256: 2fa6c1a2483704a9cc608b7bab40524f217074a7cb4046cdc9d973661774eac0
       method: vector
-      page_fraction: 0.23
-      width: 1742
+      page_fraction: 0.1103
+      width: 851
       height: 1091
-      bytes: 102704
+      bytes: 69595
+    - paper: dewitt-1990-gamma
+      figure: f16
+      number: "18"
+      page: 30
+      bbox: [311.28, 111.84, 507.12, 371.52]
+      caption: Figure 18
+      sha256: f8fe19cc491e86e448ff84499c77f49e0b7e2d807d22fa7d4b31906cf7cfb80f
+      method: vector
+      page_fraction: 0.1049
+      width: 816
+      height: 1082
+      bytes: 53878
+    - paper: dewitt-1990-gamma
+      figure: f17
+      number: "19"
+      page: 32
+      bbox: [190.56, 411.6, 396.48, 678.96]
+      caption: Figure 19
+      sha256: 1bd9274bd5f40b388b5b1e5907aa852b1776fe31f443f4473939accc0f3bee8e
+      method: vector
+      page_fraction: 0.1136
+      width: 858
+      height: 1114
+      bytes: 34677
     - paper: diffie-1976-newdirections
       figure: f01
       number: "1"
@@ -2331,6 +2487,29 @@ figures:
       width: 1655
       height: 995
       bytes: 330796
+    - paper: knuth-1977-kmp
+      figure: f01
+      page: 9
+      bbox: [68.64, 151.44, 420.48, 316.08]
+      caption: FIG.
+      sha256: 0cbd4fc136621c5fc3f40303d02b3628ca7db70502b03ad77dda9835d3909e3c
+      method: crop
+      page_fraction: 0.1655
+      width: 1466
+      height: 686
+      bytes: 35922
+    - paper: knuth-1977-kmp
+      figure: f02
+      number: "2"
+      page: 12
+      bbox: [150, 158.88, 349.92, 266.64]
+      caption: FIG. 2
+      sha256: f7ea74c4c4f0c9dfa7681c1e1db9a4160b3333b2a30ba574c08ca780741594e0
+      method: crop
+      page_fraction: 0.0616
+      width: 833
+      height: 449
+      bytes: 26754
     - paper: krizhevsky-2012-imagenet
       figure: f01
       number: "2"
@@ -2848,6 +3027,78 @@ figures:
       width: 986
       height: 664
       bytes: 32970
+    - paper: mccarthy-1960-lisp
+      figure: f01
+      number: "1"
+      page: 23
+      bbox: [88.56, 570.96, 328.8, 732]
+      caption: Fig. 1
+      sha256: 5a204b99dfce277db96b9cc7f8a5dbfc9ad13f0b12cdf85965f01dc0045c4b5b
+      method: vector
+      page_fraction: 0.0798
+      width: 1001
+      height: 671
+      bytes: 6903
+    - paper: mccarthy-1960-lisp
+      figure: f02
+      number: "2"
+      page: 24
+      bbox: [88.56, 647.28, 315.36, 732]
+      caption: Figure 2
+      sha256: 947f6c4c128e6d3ef8dbca40858479608b2fb1bfca800cac2bc4abf435121a96
+      method: vector
+      page_fraction: 0.0396
+      width: 945
+      height: 353
+      bytes: 10326
+    - paper: mccarthy-1960-lisp
+      figure: f03
+      number: "3"
+      page: 24
+      bbox: [88.56, 296.64, 235.92, 367.92]
+      caption: Figure 3
+      sha256: 6b27af8077543883b07a6ba21c9e59786ab84cf0f173fca13e009cc3837901f8
+      method: vector
+      page_fraction: 0.0217
+      width: 614
+      height: 297
+      bytes: 6359
+    - paper: mccarthy-1960-lisp
+      figure: f04
+      number: "4"
+      page: 26
+      bbox: [71.76, 528.72, 276.96, 639.36]
+      caption: Figure 4
+      sha256: 5af96c22ca868737f881aad13bdca39237015263cd0ff33737d539ab7c47521c
+      method: vector
+      page_fraction: 0.0468
+      width: 855
+      height: 461
+      bytes: 14154
+    - paper: mccarthy-1960-lisp
+      figure: f05
+      number: "5"
+      page: 32
+      bbox: [88.32, 539.52, 222.48, 732]
+      caption: Figure 5
+      sha256: b869edd1b25d3ebb7c1cd8f1b37e19d3be8d28b8f2414ec1dcd3fb51897e2c29
+      method: vector
+      page_fraction: 0.0533
+      width: 559
+      height: 802
+      bytes: 22159
+    - paper: mccarthy-1960-lisp
+      figure: f06
+      number: "6"
+      page: 33
+      bbox: [88.56, 496.32, 379.44, 685.68]
+      caption: Figure 6
+      sha256: 5547537654d53368e721883a6a113f886900b56435b36a7594edc1cc939779f7
+      method: vector
+      page_fraction: 0.1136
+      width: 1212
+      height: 789
+      bytes: 35011
     - paper: mckeown-2008-openflow
       figure: f01
       number: "1"
