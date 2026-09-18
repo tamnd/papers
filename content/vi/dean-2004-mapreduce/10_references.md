@@ -19,9 +19,9 @@ extraction_model: gpt-5
 content_sha256: 80be6782ce26b34a5ed085d747b87f98d08790075a70c463b0db70f64b8ec51b
 translated_from: content/en/dean-2004-mapreduce/10_references.md
 source_content_sha256: 80be6782ce26b34a5ed085d747b87f98d08790075a70c463b0db70f64b8ec51b
-translation_run: 20260914T163737Z
-glossary_version: 6
-glossary_terms_sha256: afc6de5d010821f75553a129f8b55d5fbabc0d9d7af198021ca9a5a496de4088
+translation_run: 20260918T153717Z
+glossary_version: 7
+glossary_terms_sha256: f834761938c11bca59f7cb79948997ed0706af48cd70392678452699c034a7ad
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
 ---
 
