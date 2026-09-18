@@ -1,0 +1,119 @@
+paper: patterson-1981-risc
+style: hanging
+entries:
+    - key: "1"
+      raw: '1W. D. Strecker. VAX-11/780: A virtual address extension to the DEC PDP-11 family. Proceedings of NCC (June 1978), 967-980.'
+      title: 1W
+      venue: 'D. Strecker. VAX-11/780: A virtual address extension to the DEC PDP-11 family. Proceedings of NCC (June 1978), 967-980'
+      year: 1978
+      pages: 967-980
+      resolves_to: ""
+    - key: "2"
+      raw: 2B. G. Utley et al. In IBM System/38 Technical Developments (GS80-0237), 1978, 1-110
+      title: 2B
+      venue: G. Utley et al. In IBM System/38 Technical Developments (GS80-0237), 1978, 1-110
+      year: 1978
+      pages: 1-110
+      resolves_to: ""
+    - key: "3"
+      raw: 3S. Colley et al. The object-based architecture of the Intel 432, COMPCON (Feb. 1981).
+      title: 3S
+      venue: Colley et al. The object-based architecture of the Intel 432, COMPCON (Feb. 1981)
+      year: 1981
+      resolves_to: ""
+    - key: "4"
+      raw: 4D. A. Patterson and D. R. Ditzel. The case for the reduced instruction set computer, Computer Architecture News, 8 (15 Oct. 1980), 25-33.
+      title: 4D
+      venue: A. Patterson and D. R. Ditzel. The case for the reduced instruction set computer, Computer Architecture News, 8 (15 Oct. 1980), 25-33
+      year: 1980
+      pages: 25-33
+      resolves_to: ""
+    - key: "5"
+      raw: 5D. A. Patterson, E. S. Fehr, and C.H. Séquin. Design considerations for the VLSI processor of X-tree. The 6th Annual International Symposium on Computer Architecture (April 1979).
+      title: 5D
+      year: 1979
+      resolves_to: ""
+    - key: "6"
+      raw: 6D. A. Patterson and C. H. Séquin. Design considerations for single-chip computers of the future, IEEE Journal of Solid-State Circuits, SC-15 (Feb. 1980), 44-52; and IEEE Transactions on Computers, C-29 (Feb. 1980), 108-116. (Joint special issue on microprocessors and microcomputers.)
+      title: 6D
+      year: 1980
+      resolves_to: ""
+    - key: "7"
+      raw: 7D. R. Ditzel and D. A. Patterson. Retrospective on high-level language computer architecture, The 7th Annual International Symposium on Computer Architecture (May 1980), 97-104.
+      title: 7D
+      year: 1980
+      pages: 97-104
+      resolves_to: ""
+    - key: "8"
+      raw: 8S. Goldwasser. Dynamic Pascal statistics (in progress, Sept. 1980).
+      title: 8S
+      venue: Goldwasser. Dynamic Pascal statistics (in progress, Sept. 1980)
+      year: 1980
+      resolves_to: ""
+    - key: "9"
+      raw: 9E. Cohen and N. Soiffer. Static and dynamic statistics of C "CS 292R Final Reports" (University of California at Berkeley, 1980), 101-140.
+      authors:
+        - 9E. Cohen
+        - N. Soiffer. Static
+        - dynamic statistics of C
+      title: CS 292R Final Reports
+      venue: (University of California at Berkeley, 1980), 101-140
+      year: 1980
+      pages: 101-140
+      resolves_to: ""
+    - key: "10"
+      raw: 10S. C. Johnson. A 32-bit processor design (Computer science technical report No. 80), Bell Laboratories, 1979.
+      title: 10S
+      venue: C. Johnson. A 32-bit processor design (Computer science technical report No. 80), Bell Laboratories
+      year: 1979
+      resolves_to: ""
+    - key: "11"
+      raw: 11F. Baskett. A VLSI Pascal machine (Public lecture), University of California, 1978.
+      title: 11F
+      venue: Baskett. A VLSI Pascal machine (Public lecture), University of California
+      year: 1978
+      resolves_to: ""
+    - key: "12"
+      raw: 12R. L Sites. How to use 1000 registers, Caltech Conference on VLSI (Jan. 1979).
+      title: 12R
+      venue: L Sites. How to use 1000 registers, Caltech Conference on VLSI (Jan. 1979)
+      year: 1979
+      resolves_to: ""
+    - key: "13"
+      raw: 13D. Halbert and P. Kessler. Windows of overlapping register frames, "CS 292R Final Reports" (University of California at Berkeley, 1980), 82-100.
+      authors:
+        - 13D. Halbert
+        - P. Kessler. Windows of overlapping register frames
+      title: CS 292R Final Reports
+      venue: (University of California at Berkeley, 1980), 82-100
+      year: 1980
+      pages: 82-100
+      resolves_to: ""
+    - key: "14"
+      raw: 14D. Morris and R. N. Ibbett. The MU-5 Computer System (Springer-Verlag, 1979).
+      title: 14D
+      venue: Morris and R. N. Ibbett. The MU-5 Computer System (Springer-Verlag, 1979)
+      year: 1979
+      resolves_to: ""
+    - key: "15"
+      raw: 15W. C. Alexander and D. B. Wortman. Static and dynamic characteristics of XPL programs, Computer, 8 (Nov. 1975), 41-46.
+      title: 15W
+      venue: C. Alexander and D. B. Wortman. Static and dynamic characteristics of XPL programs, Computer, 8 (Nov. 1975), 41-46
+      year: 1975
+      pages: 41-46
+      resolves_to: ""
+    - key: "16"
+      raw: '16S. C. Johnson. A portable compiler: Theory and practice, Proceedings of the Fifth Annual ACM Symposium of Programming Languages (Jan. 1978), 97-104.'
+      title: 16S
+      venue: 'C. Johnson. A portable compiler: Theory and practice, Proceedings of the Fifth Annual ACM Symposium of Programming Languages (Jan. 1978), 97-104'
+      year: 1978
+      pages: 97-104
+      resolves_to: ""
+    - key: "17"
+      raw: 17D. M. Ritchie. A tour through the UNIX C compiler (Unpublished), 1975.
+      title: 17D
+      venue: M. Ritchie. A tour through the UNIX C compiler (Unpublished)
+      year: 1975
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry
