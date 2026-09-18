@@ -16,7 +16,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: e23f0c2d9064fac25f81260b415860d52e72ef7f9de29d88b36d839a352006a0
-prompt_sha256: d1d840c8f9b6262a40bb8375e1e21b6c345d79a5a447b0cb52fec973a1b653ec
+prompt_sha256: 6deed113e702745ea82772457035bb281a0a0db9eb7baaa76a842f19ad073ba5
 ---
 
 A Relational Model of Data for Large Shared Data Banks

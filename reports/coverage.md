@@ -4,7 +4,7 @@ How much of each paper the corpus publishes.
 
 `full` is a paper whose body is here, section by section. `stub` is the front matter and a short abstract, which is where a paper stops until it is read in full. `none` is a paper the corpus publishes nothing of yet.
 
-102 papers: 16 full, 82 stub, 4 none, which is 16% of the corpus published in full.
+102 papers: 17 full, 81 stub, 4 none, which is 17% of the corpus published in full.
 
 ## Per field
 
@@ -15,20 +15,20 @@ How much of each paper the corpus publishes.
 | languages | 10 | 0 | 10 | 0 | 0% |
 | systems | 13 | 1 | 12 | 0 | 8% |
 | networks | 8 | 2 | 6 | 0 | 25% |
-| databases | 12 | 2 | 10 | 0 | 17% |
+| databases | 12 | 3 | 9 | 0 | 25% |
 | architecture | 7 | 2 | 5 | 0 | 29% |
 | security | 8 | 1 | 7 | 0 | 13% |
 | ai-ml | 16 | 7 | 6 | 3 | 44% |
 | graphics | 2 | 0 | 2 | 0 | 0% |
 | hci | 2 | 0 | 2 | 0 | 0% |
 | software | 4 | 0 | 4 | 0 | 0% |
-| **all** | 102 | 16 | 82 | 4 | 16% |
+| **all** | 102 | 17 | 81 | 4 | 17% |
 
 ## What the rest is waiting on
 
 | waiting on | papers |
 | --- | --: |
-| waiting on a vision model | 55 |
+| waiting on a vision model | 54 |
 | waiting on a layout tool | 25 |
 | not fetched yet | 2 |
 | nothing is known about what may be published from it | 2 |
@@ -40,14 +40,14 @@ English is extracted and the other three are translated from it. `done` is the s
 
 | language | papers | files | done | stale |
 | --- | --: | --: | --: | --: |
-| en | 98 | 245 | 100% | 0 |
-| vi | 95 | 193 | 79% | 2 |
+| en | 98 | 248 | 100% | 0 |
+| vi | 95 | 193 | 78% | 2 |
 | zh | 30 | 39 | 16% | 6 |
 | ja | 31 | 40 | 16% | 6 |
 
 ## What is left
 
-The 86 papers that are not yet as done as their licence allows, in id order.
+The 85 papers that are not yet as done as their licence allows, in id order.
 
 | paper | field | access | state | waiting on |
 | --- | --- | --- | --- | --- |
@@ -65,7 +65,6 @@ The 86 papers that are not yet as done as their licence allows, in id order.
 | cerf-1974-tcpip | networks | restricted | stub | waiting on a vision model |
 | chang-2006-bigtable | databases | restricted | stub | waiting on a layout tool |
 | chiu-1989-aimd | networks | restricted | stub | waiting on a vision model |
-| codd-1970-relational | databases | restricted | stub | waiting on a vision model |
 | cook-1971-np | theory | restricted | stub | waiting on a vision model |
 | cooley-1965-fft | algorithms | restricted | stub | waiting on a vision model |
 | cortes-1995-svm | ai-ml | restricted | stub | waiting on a vision model |
