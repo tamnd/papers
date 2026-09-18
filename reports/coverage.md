@@ -39,8 +39,8 @@ English is extracted and the other three are translated from it. `stale` is a tr
 
 | language | papers | files | stale |
 | --- | --: | --: | --: |
-| en | 98 | 289 | 0 |
-| vi | 98 | 274 | 11 |
+| en | 98 | 290 | 0 |
+| vi | 98 | 273 | 12 |
 | zh | 30 | 39 | 8 |
 | ja | 31 | 40 | 8 |
 

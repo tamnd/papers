@@ -1449,6 +1449,42 @@ figures:
       width: 1742
       height: 1091
       bytes: 102704
+    - paper: diffie-1976-newdirections
+      figure: f01
+      number: "1"
+      page: 2
+      bbox: [299.04, 644.64, 537.6, 731.04]
+      caption: Fig. 1. Flow of information in conventional cryptographic system.
+      sha256: 4d6f06dd9556fddff082c0ed635865695ba312e63cfbcc90d86c127fadf46581
+      method: vector
+      page_fraction: 0.041
+      width: 994
+      height: 360
+      bytes: 36465
+    - paper: diffie-1976-newdirections
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [331.2, 51.36, 533.76, 138]
+      caption: Fig. 2. Flow of information in public key system.
+      sha256: 39f03d931e0fb3163418931171490e3710ad78ebc965f2b267f5bb1bb71428d4
+      method: vector
+      page_fraction: 0.0348
+      width: 844
+      height: 361
+      bytes: 33622
+    - paper: diffie-1976-newdirections
+      figure: f03
+      number: "3"
+      page: 8
+      bbox: [370.56, 676.2, 477.84, 742.92]
+      caption: Fig. 3. Secure cryptosystem used as one-way function.
+      sha256: c229692619f26354c43b08b87c679e76647b85429410c0fff44ee0eed1796b09
+      method: vector
+      page_fraction: 0.0141
+      width: 447
+      height: 278
+      bytes: 11906
     - paper: engelbart-1968-augmenting
       figure: f01
       number: "1"

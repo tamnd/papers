@@ -7,14 +7,43 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: diffie-1976-newdirections
-offset: null
+offset: 643
 pages:
     - pdf: 1
       size: [587, 803]
       columns: 2
     - pdf: 2
+      printed: "645"
       size: [634, 792]
       columns: 2
     - pdf: 3
       size: [586, 799]
+      columns: 2
+    - pdf: 4
+      printed: "647"
+      size: [637, 792]
+      columns: 2
+    - pdf: 5
+      size: [582, 793]
+      columns: 2
+    - pdf: 6
+      printed: "649"
+      size: [636, 792]
+      columns: 2
+    - pdf: 7
+      size: [587, 795]
+      columns: 2
+    - pdf: 8
+      printed: "651"
+      size: [637, 795]
+      columns: 2
+    - pdf: 9
+      size: [587, 793]
+      columns: 2
+    - pdf: 10
+      printed: "653"
+      size: [640, 793]
+      columns: 2
+    - pdf: 11
+      size: [584, 793]
       columns: 2
