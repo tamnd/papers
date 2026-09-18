@@ -10,8 +10,8 @@ How much of each paper the corpus publishes.
 
 | field | papers | full | stub | none | done |
 | --- | --: | --: | --: | --: | --: |
-| theory | 10 | 1 | 8 | 1 | 10% |
-| algorithms | 10 | 1 | 9 | 0 | 10% |
+| theory | 10 | 2 | 7 | 1 | 20% |
+| algorithms | 10 | 0 | 10 | 0 | 0% |
 | languages | 10 | 1 | 9 | 0 | 10% |
 | systems | 13 | 3 | 10 | 0 | 23% |
 | networks | 8 | 3 | 5 | 0 | 38% |
@@ -39,10 +39,10 @@ English is extracted and the other three are translated from it. `stale` is a tr
 
 | language | papers | files | stale |
 | --- | --: | --: | --: |
-| en | 98 | 290 | 0 |
-| vi | 98 | 273 | 12 |
-| zh | 30 | 39 | 8 |
-| ja | 31 | 40 | 8 |
+| en | 98 | 300 | 0 |
+| vi | 95 | 193 | 8 |
+| zh | 30 | 39 | 9 |
+| ja | 31 | 40 | 9 |
 
 ## What is left
 
@@ -58,6 +58,7 @@ The 79 papers that are not yet as done as their licence allows, in id order.
 | birrell-1984-rpc | systems | restricted | stub | waiting on a vision model |
 | bloom-1970-filter | algorithms | restricted | stub | waiting on a vision model |
 | boncz-2005-x100 | databases | restricted | stub | waiting on a layout tool |
+| brin-1998-pagerank | algorithms | restricted | stub | waiting on a vision model |
 | brooks-1987-nosilverbullet | software | restricted | stub | waiting on a vision model |
 | castro-1999-pbft | security | restricted | stub | waiting on a layout tool |
 | cerf-1974-tcpip | networks | restricted | stub | waiting on a vision model |
@@ -104,7 +105,6 @@ The 79 papers that are not yet as done as their licence allows, in id order.
 | parnas-1972-modules | software | restricted | stub | waiting on a vision model |
 | patterson-1981-risc | architecture | restricted | stub | waiting on a vision model |
 | phong-1975-illumination | graphics | restricted | stub | waiting on a vision model |
-| rabin-1959-automata | theory | restricted | stub | waiting on a vision model |
 | ritchie-1974-unix | systems | restricted | stub | waiting on a layout tool |
 | rivest-1978-rsa | security | restricted | stub | waiting on a layout tool |
 | rosenblatt-1958-perceptron | ai-ml | unknown | none | nothing is known about what may be published from it |

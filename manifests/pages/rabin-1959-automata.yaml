@@ -7,14 +7,53 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: rabin-1959-automata
-offset: null
+offset: 113
 pages:
     - pdf: 1
+      printed: "114"
       size: [620.16, 796.08]
       columns: 2
     - pdf: 2
+      printed: "115"
       size: [625.92, 800.16]
       columns: 2
     - pdf: 3
+      printed: "116"
       size: [630.24, 804]
+      columns: 2
+    - pdf: 4
+      printed: "117"
+      size: [623.52, 797.76]
+      columns: 2
+    - pdf: 5
+      printed: "118"
+      size: [620.88, 795.6]
+      columns: 2
+    - pdf: 6
+      printed: "119"
+      size: [624, 799.2]
+      columns: 2
+    - pdf: 7
+      printed: "120"
+      size: [625.92, 800.16]
+      columns: 2
+    - pdf: 8
+      printed: "121"
+      size: [625.92, 800.16]
+      columns: 2
+    - pdf: 9
+      printed: "122"
+      size: [626.64, 801.6]
+      columns: 2
+    - pdf: 10
+      printed: "123"
+      size: [625.92, 800.16]
+      columns: 2
+    - pdf: 11
+      printed: "124"
+      size: [623.52, 799.2]
+      columns: 2
+    - pdf: 12
+      printed: "125"
+      size: [634.8, 806.64]
       columns: 2

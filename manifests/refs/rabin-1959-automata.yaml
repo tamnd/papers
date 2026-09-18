@@ -1,0 +1,63 @@
+paper: rabin-1959-automata
+style: number
+entries:
+    - key: "1"
+      raw: A. W. Burks and Hao Wang, “The logic of automata,” *Journal of the Association for Computing Machinery*, 4, 193-218 and 279-297 (1957).
+      authors:
+        - A. W. Burks
+        - Hao Wang
+      title: The logic of automata
+      venue: '*Journal of the Association for Computing Machinery*, 4, 193-218 and 279-297 (1957)'
+      year: 1957
+      resolves_to: ""
+    - key: "2"
+      raw: S. C. Kleene, “Representation of events in nerve nets and finite automata,” *Automata Studies*, Princeton, pp. 3-41, (1956).
+      authors:
+        - S. C. Kleene
+      title: Representation of events in nerve nets and finite automata
+      venue: '*Automata Studies*, Princeton, pp. 3-41, (1956)'
+      year: 1956
+      pages: 3-41
+      resolves_to: ""
+    - key: "3"
+      raw: W. S. McCulloch and E. Pitts, “A logical calculus of the ideas immanent in nervous activity,” *Bulletin of Mathematical Biophysics*, 5, 115-133 (1943).
+      authors:
+        - W. S. McCulloch
+        - E. Pitts
+      title: A logical calculus of the ideas immanent in nervous activity
+      venue: '*Bulletin of Mathematical Biophysics*, 5, 115-133 (1943)'
+      year: 1943
+      resolves_to: ""
+    - key: "4"
+      raw: E. F. Moore, “Gedanken-experiments on sequential machines,” *Automata Studies*, Princeton, pp. 129-153 (1956).
+      authors:
+        - E. F. Moore
+      title: Gedanken-experiments on sequential machines
+      venue: '*Automata Studies*, Princeton, pp. 129-153 (1956)'
+      year: 1956
+      pages: 129-153
+      resolves_to: ""
+    - key: "5"
+      raw: A. Nerode, “Linear automaton transformations,” *Proceedings of the American Mathematical Society*, 9, 541-544 (1958).
+      authors:
+        - A. Nerode
+      title: Linear automaton transformations
+      venue: '*Proceedings of the American Mathematical Society*, 9, 541-544 (1958)'
+      year: 1958
+      resolves_to: ""
+    - key: "6"
+      raw: E. Post, “A variant of a recursively unsolvable problem,” *Bulletin of the American Mathematical Society*, 52, 264-268 (1946).
+      authors:
+        - E. Post
+      title: A variant of a recursively unsolvable problem
+      venue: '*Bulletin of the American Mathematical Society*, 52, 264-268 (1946)'
+      year: 1946
+      resolves_to: ""
+    - key: "7"
+      raw: J. C. Shepherdson, “The reduction of two-way automata to one-way automata,” *IBM Journal*, 3, 198-200 (1959). *Revised manuscript received August 8, 1958*
+      authors:
+        - J. C. Shepherdson
+      title: The reduction of two-way automata to one-way automata
+      venue: '*IBM Journal*, 3, 198-200 (1959). *Revised manuscript received August 8, 1958*'
+      year: 1958
+      resolves_to: ""
