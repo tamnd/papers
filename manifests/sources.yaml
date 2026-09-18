@@ -694,9 +694,15 @@ sources:
       pages: 12
       text_layer: digital
     - id: shamir-1992-ippspace
-      access: unknown
+      access: restricted
+      url: http://crypto.cs.mcgill.ca/~crepeau/COMP647/2007/TOPIC01/Shamir-IP%3DPSPACE.pdf
+      landing: http://crypto.cs.mcgill.ca/~crepeau/COMP647/2007/
+      fetched: "2026-09-18"
+      sha256: 64e55264e8386142cd8821ddccb435579ecd13a50658047d488011145d5a405f
+      pages: 9
+      text_layer: ocr
       by: hand
-      note: The file the resolver found is not this paper. It is a 12 page lecture slide deck on the sumcheck protocol, with its formulas pasted in as latexit images. The paper itself is JACM 39(4) 869-877, doi 10.1145/146585.146609, and the only copy OpenAlex knows is the ACM one, which answers 403. Access is unknown rather than restricted so that nothing at all is published until somebody finds a copy the corpus may read.
+      note: Found by hand after the resolver came back with a lecture slide deck. This is the JACM paper itself, 9 pages, pages 869 to 877 of volume 39 issue 4, hosted as a course reading for McGill COMP 647. The scan carries a text layer and it is a bad one, so this reads on the vision path. No licence was read, so the record stays restricted.
     - id: shannon-1948-communication
       access: restricted
       url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
