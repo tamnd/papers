@@ -19,9 +19,9 @@ extraction_model: gpt-5
 content_sha256: 983740d96b43c8e3260b82135e93c5870033dc78636392f665fbfd10167a1dd4
 translated_from: content/en/metcalfe-1976-ethernet/09_references.md
 source_content_sha256: 983740d96b43c8e3260b82135e93c5870033dc78636392f665fbfd10167a1dd4
-translation_run: 20260917T145710Z
-glossary_version: 6
-glossary_terms_sha256: 3a5b9dd3cd6211761c92d70db4c4910c364b1cae9e5e732eea77349f449c860b
+translation_run: 20260918T110147Z
+glossary_version: 7
+glossary_terms_sha256: 5bfb74d0e4b3e9a8237f78ceae59e221549684c174791655271c5455f7fd5e4e
 prompt_sha256: f4b6a7380aba378d85a09ee39426d3b7de9063306209b1ce511a657e5551eca8
 ---
 
