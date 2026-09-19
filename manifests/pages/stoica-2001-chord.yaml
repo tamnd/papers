@@ -20,6 +20,7 @@ pages:
       printed: "3"
       size: [612, 792]
       columns: 2
+      figures: [f01, f02]
     - pdf: 4
       printed: "4"
       size: [612, 792]
@@ -28,30 +29,37 @@ pages:
       printed: "5"
       size: [612, 792]
       columns: 2
+      figures: [f03, f04]
     - pdf: 6
       printed: "6"
       size: [612, 792]
       columns: 2
+      figures: [f05, f06]
     - pdf: 7
       printed: "7"
       size: [612, 792]
       columns: 2
+      figures: [f07]
     - pdf: 8
       printed: "8"
       size: [612, 792]
       columns: 2
+      figures: [f08]
     - pdf: 9
       printed: "9"
       size: [612, 792]
       columns: 2
+      figures: [f09, f10]
     - pdf: 10
       printed: "10"
       size: [612, 792]
       columns: 2
+      figures: [f11, f12]
     - pdf: 11
       printed: "11"
       size: [612, 792]
       columns: 2
+      figures: [f13]
     - pdf: 12
       printed: "12"
       size: [612, 792]

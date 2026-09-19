@@ -1,0 +1,165 @@
+paper: knuth-1977-kmp
+style: bracket
+entries:
+    - key: "1"
+      raw: Alfred V. Aho, John E. Hopcroft and Jeffrey D. Ullman, The Design and Analysis of Computer Algorithms, Addison-Wesley, Reading, Mass., 1974.
+      title: Alfred V. Aho, John E. Hopcroft and Jeffrey D. Ullman, The Design and Analysis of Computer Algorithms, Addison-Wesley, Reading, Mass., 1974
+      year: 1974
+      resolves_to: ""
+    - key: "2"
+      raw: 'Alfred V. Aho and Margaret J. Corasick, Efficient string matching: An aid to bibliographic search, Comm. ACM, 18 (1975), pp. 333–340.'
+      title: 'Alfred V. Aho and Margaret J. Corasick, Efficient string matching: An aid to bibliographic search, Comm'
+      venue: ACM, 18 (1975), pp. 333–340
+      year: 1975
+      pages: 333-340
+      resolves_to: ""
+    - key: "3"
+      raw: M. Beeler, R. W. GOSPER AND R. SCHROEPPEL, HAKMEM, Memo No. 239, M.I.T. Artificial Intelligence Laboratory, Cambridge, Mass., 1972.
+      title: M. Beeler, R. W. GOSPER AND R. SCHROEPPEL, HAKMEM, Memo No. 239, M.I.T. Artificial Intelligence Laboratory, Cambridge, Mass., 1972
+      year: 1972
+      resolves_to: ""
+    - key: "4"
+      raw: Robert S. Boyer and J. Strother Moore, A fast string searching algorithm, manuscript dated December 29, 1975; Stanford Research Institute, Menlo Park, Calif., and Xerox Palo Alto Research Center, Palo Alto, Calif.
+      title: Robert S. Boyer and J. Strother Moore, A fast string searching algorithm, manuscript dated December 29, 1975; Stanford Research Institute, Menlo Park, Calif., and Xerox Palo Alto Research Center, Palo Alto, Calif
+      year: 1975
+      resolves_to: ""
+    - key: "5"
+      raw: S. A. Cook, Linear time simulation of deterministic two-way pushdown automata, Information Processing 71, North-Holland, Amsterdam, 1972, pp. 75–80.
+      title: S. A. Cook, Linear time simulation of deterministic two-way pushdown automata, Information Processing 71, North-Holland, Amsterdam, 1972, pp. 75–80
+      year: 1972
+      pages: 75-80
+      resolves_to: ""
+    - key: "6"
+      raw: Pascal DiethelM and Peter Roizen, An efficient linear search for a pattern in a string, unpublished manuscript dated April, 1972; World Health Organization, Geneva, Switzerland.
+      title: Pascal DiethelM and Peter Roizen, An efficient linear search for a pattern in a string, unpublished manuscript dated April, 1972; World Health Organization, Geneva, Switzerland
+      year: 1972
+      resolves_to: ""
+    - key: "7"
+      raw: N. J. Fine and H. S. Wilf, Uniqueness theorems for periodic functions, Proc. Amer. Math. Soc., 16 (1965), pp. 109–114.
+      title: N. J. Fine and H. S. Wilf, Uniqueness theorems for periodic functions, Proc. Amer. Math. Soc., 16 (1965), pp. 109–114
+      year: 1965
+      pages: 109-114
+      resolves_to: ""
+    - key: "8"
+      raw: Michael J. Fischer and Michael S. Paterson, String matching and other products, SIAM-AMS Proc., vol. 7, American Mathematical Society, Providence, R.I., 1974, pp. 113–125.
+      title: Michael J. Fischer and Michael S. Paterson, String matching and other products, SIAM-AMS Proc., vol. 7, American Mathematical Society, Providence, R.I., 1974, pp. 113–125
+      year: 1974
+      pages: 113-125
+      resolves_to: ""
+    - key: "9"
+      raw: Zvi Galil, On converting on-line algorithms into real-time and on real-time algorithms for string-matching and palindrome recognition, SIGACT News, 7 (1975), No. 4, pp. 26–30.
+      title: Zvi Galil, On converting on-line algorithms into real-time and on real-time algorithms for string-matching and palindrome recognition, SIGACT News, 7 (1975), No. 4, pp. 26–30
+      year: 1975
+      pages: 26-30
+      resolves_to: ""
+    - key: "10"
+      raw: E. N. Gilbert, Synchronization of binary messages, IRE Trans. Information Theory, IT-6 (1960), pp. 470–477.
+      title: E. N. Gilbert, Synchronization of binary messages, IRE Trans. Information Theory, IT-6 (1960), pp. 470–477
+      year: 1960
+      pages: 470-477
+      resolves_to: ""
+    - key: "11"
+      raw: Sheila A. Greibach, The hardest context-free language, this Journal, 2 (1973), pp. 304–310.
+      title: Sheila A. Greibach, The hardest context-free language, this Journal, 2 (1973), pp. 304–310
+      year: 1973
+      pages: 304-310
+      resolves_to: ""
+    - key: "12"
+      raw: Malcolm C. Harrison, Implementation of the substring test by hashing, Comm. ACM, 14 (1971), pp. 777–779.
+      authors:
+        - Malcolm C. Harrison
+        - Implementation of the substring test by hashing
+        - Comm
+      title: ACM, 14 (1971), pp. 777–779
+      year: 1971
+      pages: 777-779
+      resolves_to: ""
+    - key: "13"
+      raw: Richard M. Karp, Raymond E. Miller and Arnold L. Rosenberg, Rapid identification of repeated patterns in strings, trees, and arrays, ACM Symposium on Theory of Computing, vol. 4, Association for Computing Machinery, New York, 1972, pp. 125–136.
+      title: Richard M. Karp, Raymond E. Miller and Arnold L. Rosenberg, Rapid identification of repeated patterns in strings, trees, and arrays, ACM Symposium on Theory of Computing, vol. 4, Association for Computing Machinery, New York, 1972, pp. 125–136
+      year: 1972
+      pages: 125-136
+      resolves_to: ""
+    - key: "14"
+      raw: Donald E. Knuth, Fundamental Algorithms, The Art of Computer Programming, Vol. 1, Addison-Wesley, Reading, Mass., 1968; 2nd edition 1973.
+      title: Donald E. Knuth, Fundamental Algorithms, The Art of Computer Programming, Vol. 1, Addison-Wesley, Reading, Mass., 1968; 2nd edition 1973
+      year: 1973
+      resolves_to: ""
+    - key: "15"
+      raw: ———, Sequences with precisely k + 1 k-blocks, Solution to problem E2307, Amer. Math. Monthly, 79 (1972), pp. 773–774.
+      title: ———, Sequences with precisely k + 1 k-blocks, Solution to problem E2307, Amer. Math. Monthly, 79 (1972), pp. 773–774
+      year: 1972
+      pages: 773-774
+      resolves_to: ""
+    - key: "16"
+      raw: ———, On the translation of languages from left to right, Information and Control, 8 (1965), pp. 607–639.
+      title: ———, On the translation of languages from left to right, Information and Control, 8 (1965), pp. 607–639
+      year: 1965
+      pages: 607-639
+      resolves_to: ""
+    - key: "17"
+      raw: ———, Structured programming with go to statements, Computing Surveys, 6 (1974), pp. 261–301.
+      title: ———, Structured programming with go to statements, Computing Surveys, 6 (1974), pp. 261–301
+      year: 1974
+      pages: 261-301
+      resolves_to: ""
+    - key: "18"
+      raw: Donald E. Knuth, James H. Morris, Jr. and Vaughan R. Pratt, Fast pattern matching in strings, Tech. Rep. CS440, Computer Science Department, Stanford Univ., Stanford, Calif., 1974.
+      title: Donald E. Knuth, James H. Morris, Jr. and Vaughan R. Pratt, Fast pattern matching in strings, Tech. Rep. CS440, Computer Science Department, Stanford Univ., Stanford, Calif., 1974
+      year: 1974
+      resolves_to: ""
+    - key: "19"
+      raw: R. C. Lyndon and M. P. Schützenberger, The equation $a^M = b^N c^P$ in a free group, Michigan Math. J., 9 (1962), pp. 289–298.
+      title: R. C. Lyndon and M. P. Schützenberger, The equation $a^M = b^N c^P$ in a free group, Michigan Math. J., 9 (1962), pp. 289–298
+      year: 1962
+      pages: 289-298
+      resolves_to: ""
+    - key: "20"
+      raw: Glenn Manacher, A new linear-time on-line algorithm for finding the smallest initial palindrome of a string, J. Assoc. Comput. Mach., 22 (1975), pp. 346–351.
+      title: Glenn Manacher, A new linear-time on-line algorithm for finding the smallest initial palindrome of a string, J. Assoc. Comput. Mach., 22 (1975), pp. 346–351
+      year: 1975
+      pages: 346-351
+      resolves_to: ""
+    - key: "21"
+      raw: A. Markoff, Sur une question de Jean Bernoulli, Math. Ann., 19 (1882), pp. 27–36.
+      title: A. Markoff, Sur une question de Jean Bernoulli, Math. Ann., 19 (1882), pp. 27–36
+      year: 1882
+      pages: 27-36
+      resolves_to: ""
+    - key: "22"
+      raw: J. H. Morris, Jr. and Vaughan R. Pratt, A linear pattern-matching algorithm, Tech. Rep. 40, Univ. of California, Berkeley, 1970.
+      title: J. H. Morris, Jr. and Vaughan R. Pratt, A linear pattern-matching algorithm, Tech. Rep. 40, Univ. of California, Berkeley, 1970
+      year: 1970
+      resolves_to: ""
+    - key: "23"
+      raw: A. O. Slisenko, Recognition of palindromes by multihead Turing machines, Dokl. Steklov Math. Inst., Akad. Nauk SSSR, 129 (1973), pp. 30–202. (In Russian.)
+      authors:
+        - A. O. Slisenko
+        - Recognition of palindromes by multihead Turing machines
+        - Dokl
+      title: Steklov Math. Inst., Akad
+      venue: Nauk SSSR, 129 (1973), pp. 30–202. (In Russian.)
+      year: 1973
+      pages: 30-202
+      resolves_to: ""
+    - key: "24"
+      raw: Ken Thompson, Regular expression search algorithm, Comm. ACM, 11 (1968), pp. 419–422.
+      authors:
+        - Ken Thompson
+        - Regular expression search algorithm
+        - Comm
+      title: ACM, 11 (1968), pp. 419–422
+      year: 1968
+      pages: 419-422
+      resolves_to: ""
+    - key: "25"
+      raw: B. A. Venkov, Elementary Number Theory, Wolters-Noordhoff, Groningen, the Netherlands, 1970.
+      title: B. A. Venkov, Elementary Number Theory, Wolters-Noordhoff, Groningen, the Netherlands, 1970
+      year: 1970
+      resolves_to: ""
+    - key: "26"
+      raw: Peter Weiner, Linear pattern matching algorithms, IEEE Symposium on Switching and Automata Theory, vol. 14, IEEE, New York, 1973, pp. 1–11.
+      title: Peter Weiner, Linear pattern matching algorithms, IEEE Symposium on Switching and Automata Theory, vol. 14, IEEE, New York, 1973, pp. 1–11
+      year: 1973
+      pages: 1-11
+      resolves_to: ""

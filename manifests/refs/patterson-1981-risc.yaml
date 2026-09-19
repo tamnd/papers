@@ -1,0 +1,158 @@
+paper: patterson-1981-risc
+style: number
+entries:
+    - key: "1"
+      raw: 'W. D. Strecker. VAX-11/780: A virtual address extension to the DEC PDP-11 family. Proceedings of NCC (June 1978), 967-980.'
+      authors:
+        - W. D. Strecker
+      title: 'VAX-11/780: A virtual address extension to the DEC PDP-11 family'
+      venue: Proceedings of NCC (June 1978), 967-980
+      year: 1978
+      pages: 967-980
+      resolves_to: ""
+    - key: "2"
+      raw: B. G. Utley et al. In IBM System/38 Technical Developments (GS80-0237), 1978, 1-110
+      title: B. G. Utley et al
+      venue: In IBM System/38 Technical Developments (GS80-0237), 1978, 1-110
+      year: 1978
+      pages: 1-110
+      resolves_to: ""
+    - key: "3"
+      raw: S. Colley et al. The object-based architecture of the Intel 432, COMPCON (Feb. 1981).
+      title: S. Colley et al
+      venue: The object-based architecture of the Intel 432, COMPCON (Feb. 1981)
+      year: 1981
+      resolves_to: ""
+    - key: "4"
+      raw: D. A. Patterson and D. R. Ditzel. The case for the reduced instruction set computer, Computer Architecture News, 8 (15 Oct. 1980), 25-33.
+      authors:
+        - D. A. Patterson
+        - D. R. Ditzel
+      title: The case for the reduced instruction set computer, Computer Architecture News, 8 (15 Oct
+      year: 1980
+      pages: 25-33
+      resolves_to: ""
+    - key: "5"
+      raw: D. A. Patterson, E. S. Fehr, and C.H. Séquin. Design considerations for the VLSI processor of X-tree. The 6th Annual International Symposium on Computer Architecture (April 1979).
+      authors:
+        - D. A. Patterson
+        - E. S. Fehr
+        - C.H. Séquin
+      title: Design considerations for the VLSI processor of X-tree
+      venue: The 6th Annual International Symposium on Computer Architecture (April 1979)
+      year: 1979
+      resolves_to: ""
+    - key: "6"
+      raw: D. A. Patterson and C. H. Séquin. Design considerations for single-chip computers of the future, IEEE Journal of Solid-State Circuits, SC-15 (Feb. 1980), 44-52; and IEEE Transactions on Computers, C-29 (Feb. 1980), 108-116. (Joint special issue on microprocessors and microcomputers.)
+      authors:
+        - D. A. Patterson
+        - C. H. Séquin
+      title: Design considerations for single-chip computers of the future, IEEE Journal of Solid-State Circuits, SC-15 (Feb
+      venue: 1980), 44-52; and IEEE Transactions on Computers, C-29 (Feb. 1980), 108-116. (Joint special issue on microprocessors and microcomputers.)
+      year: 1980
+      resolves_to: ""
+    - key: "7"
+      raw: D. R. Ditzel and D. A. Patterson. Retrospective on high-level language computer architecture, The 7th Annual International Symposium on Computer Architecture (May 1980), 97-104.
+      authors:
+        - D. R. Ditzel
+        - D. A. Patterson
+      title: Retrospective on high-level language computer architecture, The 7th Annual International Symposium on Computer Architecture (May 1980), 97-104
+      year: 1980
+      pages: 97-104
+      resolves_to: ""
+    - key: "8"
+      raw: S. Goldwasser. Dynamic Pascal statistics (in progress, Sept. 1980).
+      authors:
+        - S. Goldwasser
+      title: Dynamic Pascal statistics (in progress, Sept
+      year: 1980
+      resolves_to: ""
+    - key: "9"
+      raw: E. Cohen and N. Soiffer. Static and dynamic statistics of C "CS 292R Final Reports" (University of California at Berkeley, 1980), 101-140.
+      authors:
+        - E. Cohen
+        - N. Soiffer. Static
+        - dynamic statistics of C
+      title: CS 292R Final Reports
+      venue: (University of California at Berkeley, 1980), 101-140
+      year: 1980
+      pages: 101-140
+      resolves_to: ""
+    - key: "10"
+      raw: S. C. Johnson. A 32-bit processor design (Computer science technical report No. 80), Bell Laboratories, 1979.
+      authors:
+        - S. C. Johnson
+      title: A 32-bit processor design (Computer science technical report No. 80), Bell Laboratories, 1979
+      year: 1979
+      resolves_to: ""
+    - key: "11"
+      raw: F. Baskett. A VLSI Pascal machine (Public lecture), University of California, 1978.
+      authors:
+        - F. Baskett
+      title: A VLSI Pascal machine (Public lecture), University of California, 1978
+      year: 1978
+      resolves_to: ""
+    - key: "12"
+      raw: R. L Sites. How to use 1000 registers, Caltech Conference on VLSI (Jan. 1979).
+      authors:
+        - R. L Sites
+      title: How to use 1000 registers, Caltech Conference on VLSI (Jan
+      year: 1979
+      resolves_to: ""
+    - key: "13"
+      raw: D. Halbert and P. Kessler. Windows of overlapping register frames, "CS 292R Final Reports" (University of California at Berkeley, 1980), 82-100.
+      authors:
+        - D. Halbert
+        - P. Kessler. Windows of overlapping register frames
+      title: CS 292R Final Reports
+      venue: (University of California at Berkeley, 1980), 82-100
+      year: 1980
+      pages: 82-100
+      resolves_to: ""
+    - key: "14"
+      raw: D. Morris and R. N. Ibbett. The MU-5 Computer System (Springer-Verlag, 1979).
+      authors:
+        - D. Morris
+        - R. N. Ibbett
+      title: The MU-5 Computer System (Springer-Verlag, 1979)
+      year: 1979
+      resolves_to: ""
+    - key: "15"
+      raw: W. C. Alexander and D. B. Wortman. Static and dynamic characteristics of XPL programs, Computer, 8 (Nov. 1975), 41-46.
+      authors:
+        - W. C. Alexander
+        - D. B. Wortman
+      title: Static and dynamic characteristics of XPL programs, Computer, 8 (Nov
+      year: 1975
+      pages: 41-46
+      resolves_to: ""
+    - key: "16"
+      raw: 'S. C. Johnson. A portable compiler: Theory and practice, Proceedings of the Fifth Annual ACM Symposium of Programming Languages (Jan. 1978), 97-104.'
+      authors:
+        - S. C. Johnson
+      title: 'A portable compiler: Theory and practice, Proceedings of the Fifth Annual ACM Symposium of Programming Languages (Jan'
+      year: 1978
+      pages: 97-104
+      resolves_to: ""
+    - key: "17"
+      raw: D. M. Ritchie. A tour through the UNIX C compiler (Unpublished), 1975.
+      authors:
+        - D. M. Ritchie
+      title: A tour through the UNIX C compiler (Unpublished), 1975
+      year: 1975
+      resolves_to: ""
+    - key: "18"
+      raw: R. R. Henry. Techniques to measure static and dynamic operator and operand statistics on the VAX, (Unpublished report), University of California at Berkeley, 1980.
+      authors:
+        - R. R. Henry
+      title: Techniques to measure static and dynamic operator and operand statistics on the VAX, (Unpublished report), University of California at Berkeley, 1980
+      year: 1980
+      resolves_to: ""
+    - key: "19"
+      raw: 'R. N. Faiman and A. A. Kortesoja. An optimizing Pascal compiler, IEEE Transactions of Software Engineering, (Nov. 1980), 512-519. | | C | | | | Pascal | | | | Ave | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | | C1 | C2 | C3 | C4 | P1 | P2 | P3 | P4 | Ave | | Integer Constant | 25 | 11 | 29 | 28 | 11 | 16 | 8 | 16 | 18 ± 8 | | Scalar | 37 | 45 | 66 | 62 | 70 | 72 | 62 | 63 | 60 ± 12 | | Array/Structure | 36 | 43 | 5 | 10 | 19 | 12 | 30 | 20 | 22 ± 13 | C1 PCC - The Portable C Compiler for the VAX C2 CIFPLOT - a program that plots VLSI mask layouts on a dot plotter C3 NROFF - a text formatting program C4 SORT - the UNIX sorting program P1 COMP - A Pascal P-code style compiler P2 MACRO - The macro expansion phase of the SCALD I design system P3 PRINT - A prettyprinter for Pascal P4 DIFF - A program that finds the differences between two files Figure 1. Dynamic Percentage of Operands in C and Pascal | statements† | Pascal | | | | AVERAGE | | --- | --- | --- | --- | --- | --- | | | P1 | P2 | P3 | P4 | | | assign | 32 | 42 | 29 | 40 | 36 ± 5 | | begin | 18 | 19 | 18 | 25 | 20 ± 3 | | if | 29 | 24 | 30 | 12 | 24 ± 7 | | call | 12 | 11 | 13 | 11 | 12 ± 1 | | with | 2 | 0 | 4 | 10 | 4 ± 4 | | loop | 4 | 4 | 4 | 3 | 4 ± 0 | | case | 3 | 0 | 1 | 0 | 1 ± 1 | | statements | C | | | | AVERAGE | | --- | --- | --- | --- | --- | --- | | | C1 | C2 | C3 | C4 | | | assign | 22 | 50 | 25 | 56 | 38 ± 15 | | if | 59 | 31 | 61 | 22 | 43 ± 17 | | call | 6 | 17 | 9 | 16 | 12 ± 5 | | loop | 2 | 2 | 3 | 5 | 3 ± 1 | | goto | 9 | 0 | 1 | 1 | 3 ± 4 | | case | 2 | - | - | 0 | <1 ± 1 | Figure 2. Relative Frequency of Pascal and C Statements (Because statements can be nested, we count each occurrence of a statement. Loop statements are counted once per execution rather than once per iteration. For example, if two IF statements and three assignment statements appear in a loop that iterates 5 times, we would count 26 statements with 15 assignments, 10 IF statements, and one loop. The BEGIN statement is counted only if it allocates local variables. The WITH statement qualifies a record name.) ```text statements HLL (# occurrence) WEIGHTED (# instr.) WEIGHTED (# mem. ref.) HLL P C P C P C call/return 12±1 12±5 30±3 33±14 43±4 45±19 loops 4±0 3±1 40±3 32±6 32±2 26±5 assign 36±5 38±15 12±2 13±5 14±2 15±6 if 24±7 43±17 11±3 21±8 7±2 13±5 begin 20±1 - 5±0 - 2±0 - with 4±1 - 1±0 - 1±0 - case 1±1 <1±1 1±1 1±1 1±1 1±1 goto - 3±1 - 0±0 - 0±0 ``` Figure 3. Weighted Relative Frequency of HLL Statements, Ordered by Memory References. (For the CALL statement, we counted passing parameters, saving/restoring general registers, and saving/restoring the program counter. The IF and CASE statements include instructions to evaluate expressions and to jump. For loop statements, we count all machine instructions executed during each iteration.) ```text Instruction Operands Comments ADD S1,S2,Rd Rd ← S1 + S2 integer add ADDC S1,S2,Rd Rd ← S1 + S2 + carry add with carry SUB S1,S2,Rd Rd ← S1 - S2 integer subtract SUBC S1,S2,Rd Rd ← S1 - S2 - carry subtract with carry AND S1,S2,Rd Rd ← S1 & S2 logical AND OR S1,S2,Rd Rd ← S1 | S2 logical OR XOR S1,S2,Rd Rd ← S1 xor S2 logical EXCLUSIVE OR SLA S1,S2,Rd Rd ← S1 shifted by S2 shift left arithmetic SRA S1,S2,Rd Rd ← S1 shifted by S2 shift right arithmetic SLL S1,S2,Rd Rd ← S1 shifted by S2 shift left logical SRL S1,S2,Rd Rd ← S1 shifted by S2 shift right logical LDL (Rx)X,Rd Rd ← M[Rx+X] load long LDSU (Rx)X,Rd Rd ← M[Rx+X] load short unsigned LDSS (Rx)X,Rd Rd ← M[Rx+X] load short signed LDBU (Rx)X,Rd Rd ← M[Rx+X] load byte unsigned LDBS (Rx)X,Rd Rd ← M[Rx+X] load byte signed STL Rm,(Rx)X M[Rx+X] ← Rm store long STS Rm,(Rx)X M[Rx+X] ← Rm store short STB Rm,(Rx)X M[Rx+X] ← Rm store byte JMP COND,X(Rm) pc ← X+Rm conditional jump JMPR COND,Y pc ← pc + Y conditional relative CALL Rm,X(Rn) Rm ← pc, next pc ← X+Rn, CWP-- CALLR Rm,Y Rm ← pc, next pc ← pc + Y, CWP-- RET Rm,X pc ← Rm+X, CWP++ GTLPC Rm Rm ← last pc get last pc GTIN Rm Rm ← INR get interrupt number ``` Figure 4. Assembly Language Definition for RISC (SUB and SUBC really represent two operation codes each, because the operations are not commutative.) | HIGH | R31 | | --- | --- | | | R26 | | | R25 | | LOCAL | R16 | | | R15 | | | R10 | | | R9 | | LOW | R0 | | GLOBAL | | Figure 7. Naming Within a Virtual RISC I Register Window ```text Physical # Proc A Proc B Proc C 137 HIGH_A R31_A 132 R26_A 131 R25_A 122 LOCAL_A R16_A 121 LOW_A/HIGH_B R15_A R31_B 116 LOCAL_B R10_A R26_B LOW_B/HIGH_C R25_B LOCAL_C R16_B R31_C LOW_C R15_B R26_C R10_B R25_C R16_C R15_C R10_C R9_A R9_B R9_C R0_A R0_B R0_C ``` Figure 8. Usage of Three Overlapped Register Windows | Address | (a) Normal Jump | (b) Delayed Jump | (c) Optimized Delayed Jump | | --- | --- | --- | --- | | 100 | LOAD X,A | LOAD X,A | LOAD X,A | | 101 | ADD 1,A | ADD 1,A | JUMP 105 | | 102 | JUMP 105 | JUMP 106 | ADD 1,A | | 103 | ADD A,B | NOP | ADD A.B | | 104 | SUB C,B | ADD A.B | SUB C,B | | 105 | STORE A,Z | SUB C,B | STORE A,Z | | 106 | | STORE A,Z | | Figure 9. Normal and Delayed Jumps | | Calls + Returns % instrs | Maximum Nested Depth | RISC I overflows+underflows | Data Memory Traffic RISC I # words | Data Memory Traffic VAX # words | | --- | --- | --- | --- | --- | --- | | puzzle | 43k 0.7% | 20 | 124 | 8k 0.8% | 444k 28.0% | | quicksort | 111k 8.0% | 10 | 64 | 4k 1.0% | 698k 50.0% | Figure 10. Memory Traffic Caused by CALL/Return (These are the results of the pointer version of puzzle. The subscripted versions, A and B, use 235K words and 363K words, respectively.) | | Instructions Executed | Size (bytes) | Register accesses | Data Memory accesses | | --- | --- | --- | --- | --- | | VAX 11 | 5 | 16 | 59 | 19 | | 68000 | 9 | 30 | 41 | 12 | | PDP-11 | 19 | 44 | 51 | 15 | | RISC I | 6 | 24 | 12 | 0.2 | Figure 11. Procedure CALL/Return Overhead, Including Parameter Passing | Name | VAX | VAX rel | 11/70 | 11/70 rel | RISC | RISC rel | | --- | --- | --- | --- | --- | --- | --- | | acker | 32 | 1.00 | 41 | 1.28 | 52 | 1.63 | | brelse | 30 | 1.00 | 39 | 1.30 | 63 | 2.10 | | fun | 9 | 1.00 | 15 | 1.67 | 12 | 1.33 | | qsort | 101 | 1.00 | 159 | 1.57 | 161 | 1.59 | | stats | 54 | 1.00 | 98 | 1.72 | 104 | 1.93 | | sym | 43 | 1.00 | 72 | 1.67 | 83 | 1.93 | | towers | 30 | 1.00 | 37 | 1.23 | 33 | 1.10 | | spell | 774 | 1.00 | 985 | 1.27 | 1094 | 1.41 | | sort | 1213 | 1.00 | 1395 | 1.15 | 1849 | 1.52 | | finger | 1578 | 1.00 | 1961 | 1.24 | 2588 | 1.64 | | puzzle | 381 | 1.00 | 496 | 1.30 | 617 | 1.62 | | Average | 386 | 1.0 ± .0 | 482 | 1.4 ± .2 | 605 | 1.6 ± .3 | Figure 12. Static Number of Instructions: Absolute and Ratio to VAX | Name | VAX | VAX rel | 11/70 | 11/70 rel | RISC | RISC rel | | --- | --- | --- | --- | --- | --- | --- | | acker | 120 | 1.00 | 130 | 1.08 | 208 | 1.73 | | brelse | 172 | 1.00 | 140 | 0.81 | 252 | 1.47 | | fun | 32 | 1.00 | 44 | 1.38 | 48 | 1.50 | | qsort | 436 | 1.00 | 462 | 1.06 | 644 | 1.48 | | stats | 284 | 1.00 | 316 | 1.11 | 416 | 1.46 | | sym | 204 | 1.00 | 220 | 1.08 | 332 | 1.63 | | towers | 100 | 1.00 | 124 | 1.24 | 132 | 1.32 | | spell | 2996 | 1.00 | 3106 | 1.04 | 4376 | 1.46 | | sort | 4996 | 1.00 | 4582 | 0.92 | 7396 | 1.48 | | finger | 6544 | 1.00 | 6490 | 0.99 | 10352 | 1.58 | | puzzle | 1668 | 1.00 | 2004 | 1.13 | 2468 | 1.48 | | Average | 1596 | 1.0 ± .0 | 1602 | 1.1 ± .1 | 2420 | 1.5 ± .1 | Figure 13. Program Size: Number of Bytes and Ratio to VAX | | Puzzle (Subscripts) | | | Puzzle (Pointers) | | Quicksort | | | --- | --- | --- | --- | --- | --- | --- | --- | | | A VAX | B VAX | A.B RISC | C VAX | C RISC | D VAX | D RISC | | Time (secs) | 11.3 | 9.5 | 5.2 | 4.0 | 3.6 | 1.8 | .8 | | # Internal Cycles (M) | 65 | 56 | 13 | 22 | 9 | 9 | 2.0 | | # Instr. Exec. (M) | 10 | 8.2 | 11 | 5.3 | 7.2 | 1.0 | 1.6 | | # Instr. Words (M) | 11 | 5.4 | 11 | 4 | 7.2 | .8 | 1.6 | | # Data Mem. Access (M) | 5.8 | 3.4 | 1.7 | 1.4 | 1 | 1.4 | .4 | Figure 14. Dynamic Statistics for C Programs for VAX and RISC (The number of internal cycles is the number of micro instructions executed on VAX [= time/200 nsec] and the number of basic register-to-register cycles on RISC.) | | Puzzle (Subscripts) | | | Puzzle (Pointers) | | Quicksort | | | --- | --- | --- | --- | --- | --- | --- | --- | | | A VAX | B VAX | A.B RISC | C VAX | C RISC | D VAX | D RISC | | JUMP | 2.52 25% | 1.68 20% | 1.73 17% | 1.68 32% | 1.73 24% | 0.22 21% | 0.23 14% | | NOP | - - | - - | 0.02 0.2% | - - | 0.67 8% | - - | 0.02 1.2% | | CALL | 0.02 0.2% | 0.02 0.2% | 0.02 0.2% | 0.02 0.4% | 0.02 0.3% | 0.05 4.8% | 0.06 3.7% | | RET | 0.02 0.2% | 0.02 0.2% | 0.02 0.2% | 0.02 0.4% | 0.02 0.3% | 0.05 4.8% | 0.06 3.7% | | INC/DEC | 0.80 8% | 0.75 9% | - - | 0.00 0.0% | - - | 0.06 6% | - - | | ADD | 1.53 15% | 1.53 18% | 3.32 33% | 1.54 28% | 2.47 35% | 0.02 1.8% | 0.48 28% | | SUB | - - | - - | 0.82 8% | - - | 0.85 12% | 0.04 3.8% | 0.25 15% | | CMP | 0.82 8% | 0.76 9% | - - | 0.80 15% | - - | 0.10 10% | - - | | SHF | 1.53 15% | 1.53 19% | 2.47 24% | 0.06 1.1% | 0.38 5% | 0.00 0.1% | 0.00 0.1% | | STORE | - - | - - | 0.04 0.4% | - - | 0.04 0.8% | - - | 0.15 9% | | LOAD | - - | - - | 1.67 17% | - - | 0.92 13% | - - | 0.24 15% | | TEST(mem) | 0.88 9% | 0.88 11% | - - | 0.88 17% | - - | 0.00 0.1% | - - | | MOV | 1.65 16% | 0.82 10% | - - | 0.09 1.7% | - - | 0.33 31% | - - | | PUSH | 0.04 0.4% | 0.04 0.5% | - - | 0.04 0.8% | - - | 0.12 11% | - - | | MISC | 0.20 2.0% | 0.20 2.4% | - - | 0.20 3.8% | - - | 0.06 6% | 0.14 9% | | TOTAL | 10.01 100% | 8.23 100% | 10.11 100% | 5.33 100% | 7.10 100% | 1.05 100% | 1.63 100% | Figure 15. Dynamic Instruction Mix for C Programs, Million Instructions'
+      authors:
+        - R. N. Faiman
+        - A. A. Kortesoja
+      title: An optimizing Pascal compiler, IEEE Transactions of Software Engineering, (Nov
+      year: 1602
+      resolves_to: ""

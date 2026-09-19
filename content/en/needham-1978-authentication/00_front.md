@@ -17,7 +17,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: adc3900214932c69617b19eb6439f7cbe07908e3e4b71675d86210c8683b57fc
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Using Encryption for Authentication in Large Networks of Computers

@@ -1,0 +1,179 @@
+paper: aho-1975-corasick
+style: number
+entries:
+    - key: "1"
+      raw: Aho, A.V., Hopcroft, J.E., and Ullman, J.D. The Design and Analysis of Computer Algorithms. Addison-Wesley, Reading, Mass., 1974.
+      authors:
+        - Aho
+        - A.V
+        - Hopcroft
+        - J.E
+        - Ullman
+        - J.D
+      title: The Design and Analysis of Computer Algorithms
+      venue: Addison-Wesley, Reading, Mass
+      year: 1974
+      resolves_to: ""
+    - key: "2"
+      raw: Booth, T.L. Sequential Machines and Automata Theory. Wiley, New York, 1967.
+      authors:
+        - Booth
+        - T.L
+      title: Sequential Machines and Automata Theory
+      venue: Wiley, New York
+      year: 1967
+      resolves_to: ""
+    - key: "3"
+      raw: Brzozowski, J.A. Derivatives of regular expressions. J. ACM 11:4 (October 1964), 481-494.
+      authors:
+        - Brzozowski
+        - J.A
+      title: Derivatives of regular expressions
+      venue: J. ACM 11:4 (October 1964), 481-494
+      year: 1964
+      pages: 481-494
+      resolves_to: ""
+    - key: "4"
+      raw: Bullen, R.H., Jr., and Millen, J.K. Microtext - the design of a microprogrammed finite state search machine for full-text retrieval. Proc. Fall Joint Computer Conference, 1972, pp. 479-488.
+      authors:
+        - Bullen
+        - R.H
+        - Jr
+        - Millen
+        - J.K
+      title: Microtext - the design of a microprogrammed finite state search machine for full-text retrieval
+      venue: Proc. Fall Joint Computer Conference, 1972, pp. 479-488
+      year: 1972
+      pages: 479-488
+      resolves_to: ""
+    - key: "5"
+      raw: Fischer, M.J., and Paterson, M.S. String matching and other products. Technical Report 41, Project MAC, M.I.T., 1974.
+      authors:
+        - Fischer
+        - M.J
+        - Paterson
+        - M.S
+      title: String matching and other products
+      venue: Technical Report 41, Project MAC, M.I.T
+      year: 1974
+      resolves_to: ""
+    - key: "6"
+      raw: Gimpel, J.A. A theory of discrete patterns and their implementation in SNOBOL4. Comm. ACM 16:2 (February 1973), 91-100.
+      authors:
+        - Gimpel
+        - J.A
+      title: A theory of discrete patterns and their implementation in SNOBOL4
+      venue: Comm. ACM 16:2 (February 1973), 91-100
+      year: 1973
+      pages: 91-100
+      resolves_to: ""
+    - key: "7"
+      raw: Harrison, M.C. Implementation of the substring test by hashing. Comm. ACM 14:12 (December 1971), 777-779.
+      authors:
+        - Harrison
+        - M.C
+      title: Implementation of the substring test by hashing
+      venue: Comm. ACM 14:12 (December 1971), 777-779
+      year: 1971
+      pages: 777-779
+      resolves_to: ""
+    - key: "8"
+      raw: Johnson, W.L., Porter, J.H., Ackley, S.I., and Ross, D.T. Automatic generation of efficient lexical processors using finite state techniques. Comm. ACM 11:12 (December 1968), 805-813.
+      authors:
+        - Johnson
+        - W.L
+        - Porter
+        - J.H
+        - Ackley
+        - S.I
+        - Ross
+        - D.T
+      title: Automatic generation of efficient lexical processors using finite state techniques
+      venue: Comm. ACM 11:12 (December 1968), 805-813
+      year: 1968
+      pages: 805-813
+      resolves_to: ""
+    - key: "9"
+      raw: Kernighan, B.W., and Cherry, L.L. A system for typesetting mathematics. Comm. ACM 18:3 (March 1975), 151-156.
+      authors:
+        - Kernighan
+        - B.W
+        - Cherry
+        - L.L
+      title: A system for typesetting mathematics
+      venue: Comm. ACM 18:3 (March 1975), 151-156
+      year: 1975
+      pages: 151-156
+      resolves_to: ""
+    - key: "10"
+      raw: Kleene, S.C. Representation of events in nerve nets. In Automata Studies, C.E. Shannon and J. McCarthy (eds.), Princeton University Press, 1956, pp. 3-40.
+      authors:
+        - Kleene
+        - S.C
+      title: Representation of events in nerve nets
+      venue: In Automata Studies, C.E. Shannon and J. McCarthy (eds.), Princeton University Press, 1956, pp. 3-40
+      year: 1956
+      pages: 3-40
+      resolves_to: ""
+    - key: "11"
+      raw: Knuth, D.E. Fundamental Algorithms, second edition, The Art of Computer Programming 1, Addison-Wesley, Reading, Mass., 1973.
+      title: Knuth, D.E. Fundamental Algorithms, second edition, The Art of Computer Programming 1, Addison-Wesley, Reading, Mass., 1973
+      year: 1973
+      resolves_to: ""
+    - key: "12"
+      raw: Knuth, D.E. Sorting and Searching, The Art of Computer Programming 3, Addison-Wesley, Reading, Mass., 1973.
+      title: Knuth, D.E. Sorting and Searching, The Art of Computer Programming 3, Addison-Wesley, Reading, Mass., 1973
+      year: 1973
+      resolves_to: ""
+    - key: "13"
+      raw: Knuth, D.E., Morris, J.H., Jr., and Pratt, V.R. Fast pattern matching in strings. TR CS-74-440, Stanford University, Stanford, California, 1974.
+      authors:
+        - Knuth
+        - D.E
+        - Morris
+        - J.H
+        - Jr
+        - Pratt
+        - V.R
+      title: Fast pattern matching in strings
+      venue: TR CS-74-440, Stanford University, Stanford, California
+      year: 1974
+      resolves_to: ""
+    - key: "14"
+      raw: Kohavi, Z. Switching and Finite Automata Theory. McGraw-Hill, New York, 1970.
+      authors:
+        - Z. Kohavi
+      title: Switching and Finite Automata Theory
+      venue: McGraw-Hill, New York
+      year: 1970
+      resolves_to: ""
+    - key: "15"
+      raw: McNaughton, R., and Yamada, H. Regular expressions and state graphs for automata. IRE Trans. Electronic Computers 9:1 (1960), 39-47.
+      authors:
+        - R. McNaughton
+        - H. Yamada
+      title: Regular expressions and state graphs for automata
+      venue: IRE Trans. Electronic Computers 9:1 (1960), 39-47
+      year: 1960
+      pages: 39-47
+      resolves_to: ""
+    - key: "16"
+      raw: Rabin, M.O., and Scott, D. Finite automata and their decision problems. IBM J. Research and Development 3, (1959), 114-125.
+      authors:
+        - Rabin
+        - M.O
+        - D. Scott
+      title: Finite automata and their decision problems
+      venue: IBM J. Research and Development 3, (1959), 114-125
+      year: 1959
+      pages: 114-125
+      resolves_to: rabin-1959-automata
+    - key: "17"
+      raw: Thompson, K. Regular search expression algorithm. Comm. ACM 11:6 (June 1968), 419-422.
+      authors:
+        - K. Thompson
+      title: Regular search expression algorithm
+      venue: Comm. ACM 11:6 (June 1968), 419-422
+      year: 1968
+      pages: 419-422
+      resolves_to: ""

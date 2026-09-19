@@ -7,7 +7,7 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: sutherland-1963-sketchpad
-offset: null
+offset: 1952
 pages:
     - pdf: 1
       size: [595, 842]
@@ -19,6 +19,7 @@ pages:
       size: [595, 842]
       columns: 1
     - pdf: 4
+      printed: "4"
       size: [595, 842]
       columns: 1
     - pdf: 5
@@ -28,6 +29,7 @@ pages:
       size: [595, 842]
       columns: 1
     - pdf: 7
+      printed: "1959"
       size: [595, 842]
       columns: 1
     - pdf: 8
@@ -66,18 +68,23 @@ pages:
     - pdf: 19
       size: [595, 842]
       columns: 1
+      figures: [f01]
     - pdf: 20
       size: [595, 842]
       columns: 1
+      figures: [f02]
     - pdf: 21
       size: [595, 842]
       columns: 1
+      figures: [f03]
     - pdf: 22
       size: [595, 842]
       columns: 1
+      figures: [f04]
     - pdf: 23
       size: [595, 842]
       columns: 1
+      figures: [f05]
     - pdf: 24
       size: [595, 842]
       columns: 1
@@ -87,9 +94,11 @@ pages:
     - pdf: 26
       size: [595, 842]
       columns: 1
+      figures: [f06]
     - pdf: 27
       size: [595, 842]
       columns: 1
+      figures: [f07]
     - pdf: 28
       size: [595, 842]
       columns: 1
@@ -126,6 +135,7 @@ pages:
     - pdf: 39
       size: [595, 842]
       columns: 1
+      figures: [f08]
     - pdf: 40
       size: [595, 842]
       columns: 1
@@ -135,18 +145,22 @@ pages:
     - pdf: 42
       size: [595, 842]
       columns: 1
+      figures: [f09]
     - pdf: 43
       size: [595, 842]
       columns: 1
+      figures: [f10, f11]
     - pdf: 44
       size: [595, 842]
       columns: 1
     - pdf: 45
       size: [595, 842]
       columns: 1
+      figures: [f12]
     - pdf: 46
       size: [595, 842]
       columns: 1
+      figures: [f13]
     - pdf: 47
       size: [595, 842]
       columns: 1
@@ -156,9 +170,11 @@ pages:
     - pdf: 49
       size: [595, 842]
       columns: 1
+      figures: [f14]
     - pdf: 50
       size: [595, 842]
       columns: 1
+      figures: [f15]
     - pdf: 51
       size: [595, 842]
       columns: 1
@@ -171,24 +187,29 @@ pages:
     - pdf: 54
       size: [595, 842]
       columns: 1
+      figures: [f16, f17]
     - pdf: 55
       size: [595, 842]
       columns: 1
     - pdf: 56
       size: [595, 842]
       columns: 1
+      figures: [f18]
     - pdf: 57
       size: [595, 842]
       columns: 1
+      figures: [f19]
     - pdf: 58
       size: [595, 842]
       columns: 1
+      figures: [f20]
     - pdf: 59
       size: [595, 842]
       columns: 1
     - pdf: 60
       size: [595, 842]
       columns: 1
+      figures: [f21]
     - pdf: 61
       size: [595, 842]
       columns: 1
@@ -204,12 +225,14 @@ pages:
     - pdf: 65
       size: [595, 842]
       columns: 1
+      figures: [f22]
     - pdf: 66
       size: [595, 842]
       columns: 1
     - pdf: 67
       size: [595, 842]
       columns: 1
+      figures: [f23]
     - pdf: 68
       size: [595, 842]
       columns: 1
@@ -231,9 +254,11 @@ pages:
     - pdf: 74
       size: [595, 842]
       columns: 1
+      figures: [f24]
     - pdf: 75
       size: [595, 842]
       columns: 1
+      figures: [f25]
     - pdf: 76
       size: [595, 842]
       columns: 1
@@ -252,6 +277,7 @@ pages:
     - pdf: 81
       size: [595, 842]
       columns: 1
+      figures: [f26]
     - pdf: 82
       size: [595, 842]
       columns: 1
@@ -279,6 +305,7 @@ pages:
     - pdf: 90
       size: [595, 842]
       columns: 1
+      figures: [f27]
     - pdf: 91
       size: [595, 842]
       columns: 1
@@ -309,45 +336,55 @@ pages:
     - pdf: 100
       size: [595, 842]
       columns: 1
+      figures: [f28]
     - pdf: 101
       size: [595, 842]
       columns: 1
+      figures: [f29]
     - pdf: 102
       size: [595, 842]
       columns: 1
     - pdf: 103
       size: [595, 842]
       columns: 1
+      figures: [f30, f31]
     - pdf: 104
       size: [595, 842]
       columns: 1
     - pdf: 105
       size: [595, 842]
       columns: 1
+      figures: [f32]
     - pdf: 106
       size: [595, 842]
       columns: 1
+      figures: [f33]
     - pdf: 107
       size: [595, 842]
       columns: 1
     - pdf: 108
       size: [595, 842]
       columns: 1
+      figures: [f34]
     - pdf: 109
       size: [595, 842]
       columns: 1
+      figures: [f35]
     - pdf: 110
       size: [595, 842]
       columns: 1
     - pdf: 111
       size: [595, 842]
       columns: 1
+      figures: [f36]
     - pdf: 112
       size: [595, 842]
       columns: 1
+      figures: [f37]
     - pdf: 113
       size: [595, 842]
       columns: 1
+      figures: [f38]
     - pdf: 114
       size: [595, 842]
       columns: 1
@@ -399,12 +436,14 @@ pages:
     - pdf: 130
       size: [595, 842]
       columns: 1
+      figures: [f39]
     - pdf: 131
       size: [595, 842]
       columns: 1
     - pdf: 132
       size: [595, 842]
       columns: 1
+      figures: [f40]
     - pdf: 133
       size: [595, 842]
       columns: 1

@@ -1,0 +1,301 @@
+paper: astrahan-1976-systemr
+style: number
+entries:
+    - key: "1"
+      raw: ASTRAHAN, M.M., AND CHAMBERLIN, D.D. Implementation of a structured English query language. Comm. ACM 18, 10 (Oct. 1975), 580–588.
+      authors:
+        - ASTRAHAN
+        - M.M
+        - CHAMBERLIN
+        - D.D
+      title: Implementation of a structured English query language
+      venue: Comm. ACM 18, 10 (Oct. 1975), 580–588
+      year: 1975
+      pages: 580-588
+      resolves_to: ""
+    - key: "2"
+      raw: 'ASTRAHAN, M.M., AND LORIE, R.A. SEQUEL-XRM: A relational system. Proc. ACM Pacific Conf., San Francisco, Calif., April 1975, pp. 34–38.'
+      title: 'ASTRAHAN, M.M., AND LORIE, R.A. SEQUEL-XRM: A relational system'
+      venue: Proc. ACM Pacific Conf., San Francisco, Calif., April 1975, pp. 34–38
+      year: 1975
+      pages: 34-38
+      resolves_to: ""
+    - key: "3"
+      raw: BAYER, R., AND McCREIGHT, E.M. Organization and maintenance of large ordered indexes. Acta Informatica 1 (1972), 173–189.
+      authors:
+        - R. BAYER
+        - McCREIGHT
+        - E.M
+      title: Organization and maintenance of large ordered indexes
+      venue: Acta Informatica 1 (1972), 173–189
+      year: 1972
+      pages: 173-189
+      resolves_to: bayer-1972-btree
+    - key: "4"
+      raw: BOYCE, R.F., AND CHAMBERLIN, D.D. Using a structured English query language as a data definition facility. Res. Rep. RJ 1318, IBM Res. Lab., San Jose, Calif., Dec. 1973.
+      authors:
+        - BOYCE
+        - R.F
+        - CHAMBERLIN
+        - D.D
+      title: Using a structured English query language as a data definition facility
+      venue: Res. Rep. RJ 1318, IBM Res. Lab., San Jose, Calif., Dec
+      year: 1973
+      resolves_to: ""
+    - key: "5"
+      raw: 'CHAMBERLIN, D.D., AND BOYCE, R.F. SEQUEL: A structured English query language. Proc. ACM SIGFIDET Workshop, Ann Arbor, Mich., May 1974, pp. 249–264.'
+      title: 'CHAMBERLIN, D.D., AND BOYCE, R.F. SEQUEL: A structured English query language'
+      venue: Proc. ACM SIGFIDET Workshop, Ann Arbor, Mich., May 1974, pp. 249–264
+      year: 1974
+      pages: 249-264
+      resolves_to: ""
+    - key: "6"
+      raw: CODASYL DATA BASE TASK GROUP. April 1971 Rep. (Available from ACM, New York.)
+      title: CODASYL DATA BASE TASK GROUP
+      venue: April 1971 Rep. (Available from ACM, New York.)
+      year: 1971
+      resolves_to: ""
+    - key: "7"
+      raw: CODD, E.F. A relational model of data for large shared data banks. Comm. ACM 13, 6 (June 1970), 377–387.
+      authors:
+        - CODD
+        - E.F
+      title: A relational model of data for large shared data banks
+      venue: Comm. ACM 13, 6 (June 1970), 377–387
+      year: 1970
+      pages: 377-387
+      resolves_to: codd-1970-relational
+    - key: "8"
+      raw: 'CODD, E.F. Relational completeness of data base sublanguages. In Courant Computer Science Symposia, Vol. 6: Data Base Systems, G. Forsythe, Ed., Prentice-Hall, Engelwood Cliffs, N.J., 1971, pp. 65–98.'
+      authors:
+        - CODD
+        - E.F
+      title: Relational completeness of data base sublanguages
+      venue: 'In Courant Computer Science Symposia, Vol. 6: Data Base Systems, G. Forsythe, Ed., Prentice-Hall, Engelwood Cliffs, N.J., 1971, pp. 65–98'
+      year: 1971
+      pages: 65-98
+      resolves_to: ""
+    - key: "9"
+      raw: DONOVAN, J.J., FESSEL, R., GREENBERG, S.S., AND GUTENTAG, L.M. An experimental VM/370 based information system. Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 549–553. (Available from ACM, New York.)
+      authors:
+        - DONOVAN
+        - J.J
+        - R. FESSEL
+        - GREENBERG
+        - S.S
+        - GUTENTAG
+        - L.M
+      title: An experimental VM/370 based information system
+      venue: Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 549–553. (Available from ACM, New York.)
+      year: 1975
+      pages: 549-553
+      resolves_to: ""
+    - key: "10"
+      raw: ESWARAN, K.P., AND CHAMBERLIN, D.D. Functional specifications of a subsystem for data base integrity. Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 48–68. (Available from ACM, New York.)
+      authors:
+        - ESWARAN
+        - K.P
+        - CHAMBERLIN
+        - D.D
+      title: Functional specifications of a subsystem for data base integrity
+      venue: Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 48–68. (Available from ACM, New York.)
+      year: 1975
+      pages: 48-68
+      resolves_to: ""
+    - key: "11"
+      raw: Feature analysis of generalized data base management systems. CODASYL Systems Committee Tech. Rep., May 1971. (Available from ACM, New York.)
+      title: Feature analysis of generalized data base management systems
+      venue: CODASYL Systems Committee Tech. Rep., May 1971. (Available from ACM, New York.)
+      year: 1971
+      resolves_to: ""
+    - key: "12"
+      raw: GOLDSTEIN, R.C., AND STRNAD, A.L. The MACAIMS data management system. Proc. ACM SIGFIDET Workshop on Data Description and Access, Houston, Tex., Nov. 1970, pp. 201–229.
+      authors:
+        - GOLDSTEIN
+        - R.C
+        - STRNAD
+        - A.L
+      title: The MACAIMS data management system
+      venue: Proc. ACM SIGFIDET Workshop on Data Description and Access, Houston, Tex., Nov. 1970, pp. 201–229
+      year: 1970
+      pages: 201-229
+      resolves_to: ""
+    - key: "13"
+      raw: GRAY, J.N., LORIE, R.A., PUTZOLU, G.R., AND TRAIGER, I.L. Granularity of locks and degrees of consistency in a shared data base. Proc. IFIP Working Conf. on Modelling of Data Base Management Systems, Freudenstadt, Germany, Jan. 1976, pp. 695–723.
+      authors:
+        - GRAY
+        - J.N
+        - LORIE
+        - R.A
+        - PUTZOLU
+        - G.R
+        - TRAIGER
+        - I.L
+      title: Granularity of locks and degrees of consistency in a shared data base
+      venue: Proc. IFIP Working Conf. on Modelling of Data Base Management Systems, Freudenstadt, Germany, Jan. 1976, pp. 695–723
+      year: 1976
+      pages: 695-723
+      resolves_to: ""
+    - key: "14"
+      raw: GRAY, J.N., AND WATSON, V. A shared segment and inter-process communication facility for VM/370. Res. Rep. RJ 1579, IBM Res. Lab., San Jose, Calif., Feb. 1975.
+      authors:
+        - GRAY
+        - J.N
+        - V. WATSON
+      title: A shared segment and inter-process communication facility for VM/370
+      venue: Res. Rep. RJ 1579, IBM Res. Lab., San Jose, Calif., Feb
+      year: 1975
+      resolves_to: ""
+    - key: "15"
+      raw: GRIFFITHS, P.P., AND WADE, B.W. An authorization mechanism for a relational data base system. Proc. ACM SIGMOD Conf., Washington, D.C., June 1976 (to appear).
+      authors:
+        - GRIFFITHS
+        - P.P
+        - WADE
+        - B.W
+      title: An authorization mechanism for a relational data base system
+      venue: Proc. ACM SIGMOD Conf., Washington, D.C., June 1976 (to appear)
+      year: 1976
+      resolves_to: ""
+    - key: "16"
+      raw: 'HELD, G.D., STONEBRAKER, M.R., AND WONG, E. INGRES: A relational data base system. Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 409–416.'
+      title: 'HELD, G.D., STONEBRAKER, M.R., AND WONG, E. INGRES: A relational data base system'
+      venue: Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 409–416
+      year: 1975
+      pages: 409-416
+      resolves_to: ""
+    - key: "17"
+      raw: Information Management System, General Information Manual. IBM Pub. No. GH20-1260, IBM Corp., White Plains, N.Y., 1975.
+      authors:
+        - Information Management System
+        - General Information Manual
+      title: IBM Pub
+      venue: No. GH20-1260, IBM Corp., White Plains, N.Y
+      year: 1975
+      resolves_to: ""
+    - key: "18"
+      raw: Introduction to VM/370. Pub. No. GC20-1800, IBM Corp., White Plains, N.Y., Jan. 1975.
+      title: Introduction to VM/370
+      venue: Pub. No. GC20-1800, IBM Corp., White Plains, N.Y., Jan
+      year: 1975
+      resolves_to: ""
+    - key: "19"
+      raw: LORIE, R.A. XRM—An extended (n-ary) relational memory. IBM Scientific Center Rep. G320-2096, Cambridge, Mass., Jan. 1974.
+      authors:
+        - LORIE
+        - R.A
+      title: XRM—An extended (n-ary) relational memory
+      venue: IBM Scientific Center Rep. G320-2096, Cambridge, Mass., Jan
+      year: 1974
+      resolves_to: ""
+    - key: "20"
+      raw: 'LORIE, R.A., AND SYMONDS, A.J. A relational access method for interactive applications. In Courant Computer Science Symposia, Vol. 6: Data Base Systems, G. Forsythe, Ed., Prentice-Hall, Engelwood Cliffs, N.J., 1971, pp. 99–124.'
+      authors:
+        - LORIE
+        - R.A
+        - SYMONDS
+        - A.J
+      title: A relational access method for interactive applications
+      venue: 'In Courant Computer Science Symposia, Vol. 6: Data Base Systems, G. Forsythe, Ed., Prentice-Hall, Engelwood Cliffs, N.J., 1971, pp. 99–124'
+      year: 1971
+      pages: 99-124
+      resolves_to: ""
+    - key: "21"
+      raw: MYLOPOULOS, J., SCHUSTER, S.A., AND TSICHRTZIS, D. A multi-level relational system. Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 403–408.
+      authors:
+        - J. MYLOPOULOS
+        - SCHUSTER
+        - S.A
+        - D. TSICHRTZIS
+      title: A multi-level relational system
+      venue: Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 403–408
+      year: 1975
+      pages: 403-408
+      resolves_to: ""
+    - key: "22"
+      raw: NOTLEY, M.G. The Peterlee IS/1 System. IBM UK Scientific Center Rep. UKSC-0018, March 1972.
+      authors:
+        - NOTLEY
+        - M.G
+      title: The Peterlee IS/1 System
+      venue: IBM UK Scientific Center Rep. UKSC-0018
+      year: 1972
+      resolves_to: ""
+    - key: "23"
+      raw: Planning for Enhanced VSAM under OS/VS. Pub. No. GC26-3842, IBM Corp., White Plains, N.Y., 1975.
+      title: Planning for Enhanced VSAM under OS/VS
+      venue: Pub. No. GC26-3842, IBM Corp., White Plains, N.Y
+      year: 1975
+      resolves_to: ""
+    - key: "24"
+      raw: REISNER, P. Use of psychological experimentation as an aid to development of a query language. Res. Rep. RJ 1707, IBM Res. Lab., San Jose, Calif., Jan. 1976.
+      authors:
+        - P. REISNER
+      title: Use of psychological experimentation as an aid to development of a query language
+      venue: Res. Rep. RJ 1707, IBM Res. Lab., San Jose, Calif., Jan
+      year: 1976
+      resolves_to: ""
+    - key: "25"
+      raw: 'REISNER, P., BOYCE, R.F., AND CHAMBERLIN, D.D. Human factors evaluation of two data base query languages: SQUARE and SEQUEL. Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 447–452. ACM Transactions on Database Systems, Vol. 1, No. 2, June 1976.'
+      title: 'REISNER, P., BOYCE, R.F., AND CHAMBERLIN, D.D. Human factors evaluation of two data base query languages: SQUARE and SEQUEL'
+      venue: Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 447–452. ACM Transactions on Database Systems, Vol. 1, No. 2
+      year: 1976
+      pages: 447-452
+      resolves_to: ""
+    - key: "26"
+      raw: Schmid, H.A., and Bernstein, P.A. A multi-level architecture for relational data base systems. Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 202–226. (Available from ACM, New York.)
+      authors:
+        - Schmid
+        - H.A
+        - Bernstein
+        - P.A
+      title: A multi-level architecture for relational data base systems
+      venue: Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 202–226. (Available from ACM, New York.)
+      year: 1975
+      pages: 202-226
+      resolves_to: ""
+    - key: "27"
+      raw: Smith, J.M., and Chang, P.Y. Optimizing the performance of a relational algebra database interface. Comm. ACM 18, 10 (Oct. 1975), 568–579.
+      authors:
+        - Smith
+        - J.M
+        - Chang
+        - P.Y
+      title: Optimizing the performance of a relational algebra database interface
+      venue: Comm. ACM 18, 10 (Oct. 1975), 568–579
+      year: 1975
+      pages: 568-579
+      resolves_to: ""
+    - key: "28"
+      raw: Stonebraker, M. Implementation of integrity constraints and views by query modification. Proc. ACM SIGMOD Conf., San Jose, Calif., May 1975, pp. 65–78.
+      authors:
+        - M. Stonebraker
+      title: Implementation of integrity constraints and views by query modification
+      venue: Proc. ACM SIGMOD Conf., San Jose, Calif., May 1975, pp. 65–78
+      year: 1975
+      pages: 65-78
+      resolves_to: ""
+    - key: "29"
+      raw: 'Todd, S. PRTV: An efficient implementation for large relational data bases. Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 554–556. (Available from ACM, New York.)'
+      title: 'Todd, S. PRTV: An efficient implementation for large relational data bases'
+      venue: Proc. Internat. Conf. on Very Large Data Bases, Framingham, Mass., Sept. 1975, pp. 554–556. (Available from ACM, New York.)
+      year: 1975
+      pages: 554-556
+      resolves_to: ""
+    - key: "30"
+      raw: 'Whitney, V.K.M. RDMS: A relational data management system. Proc. Fourth Internat. Symp. on Computer and Information Sciences, Miami Beach, Fla., Dec. 1972, pp. 55–66.'
+      title: 'Whitney, V.K.M. RDMS: A relational data management system'
+      venue: Proc. Fourth Internat. Symp. on Computer and Information Sciences, Miami Beach, Fla., Dec. 1972, pp. 55–66
+      year: 1972
+      pages: 55-66
+      resolves_to: ""
+    - key: "31"
+      raw: Zloof, M.M. Query by Example. Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 431–437. Received November 1975; revised February 1976
+      authors:
+        - Zloof
+        - M.M. Query by Example
+      title: Proc. AFIPS 1975 NCC, Vol. 44, AFIPS Press, Montvale, N.J., pp. 431–437
+      venue: Received November 1975; revised
+      year: 1976
+      pages: 431-437
+      resolves_to: ""

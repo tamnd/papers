@@ -15,6 +15,81 @@ pages:
     - pdf: 2
       size: [612, 792]
       columns: 1
+      figures: [f01]
     - pdf: 3
       size: [612, 792]
+      columns: 1
+      figures: [f02]
+    - pdf: 4
+      size: [612, 792]
+      columns: 1
+    - pdf: 5
+      size: [612, 792]
+      columns: 1
+      figures: [f03]
+    - pdf: 6
+      size: [612, 792]
+      columns: 1
+      figures: [f04]
+    - pdf: 7
+      size: [612, 792]
+      columns: 1
+    - pdf: 8
+      size: [613, 792]
+      columns: 1
+    - pdf: 9
+      size: [612, 792]
+      columns: 1
+    - pdf: 10
+      size: [612, 792]
+      columns: 1
+    - pdf: 11
+      size: [612, 792]
+      columns: 1
+    - pdf: 12
+      size: [612, 792]
+      columns: 1
+    - pdf: 13
+      size: [613, 793]
+      columns: 1
+    - pdf: 14
+      size: [612, 792]
+      columns: 1
+      figures: [f05]
+    - pdf: 15
+      size: [612, 792]
+      columns: 1
+      figures: [f06]
+    - pdf: 16
+      size: [612, 792]
+      columns: 1
+    - pdf: 17
+      size: [612, 792]
+      columns: 1
+      figures: [f07]
+    - pdf: 18
+      size: [612, 792]
+      columns: 1
+      figures: [f08, f09]
+    - pdf: 19
+      size: [612, 792]
+      columns: 1
+    - pdf: 20
+      size: [612, 792]
+      columns: 1
+    - pdf: 21
+      size: [612, 792]
+      columns: 1
+    - pdf: 22
+      printed: "53"
+      size: [613, 793]
+      columns: 1
+    - pdf: 23
+      size: [612, 792]
+      columns: 1
+    - pdf: 24
+      size: [612, 792]
+      columns: 1
+    - pdf: 25
+      size: [613, 792]
       columns: 1

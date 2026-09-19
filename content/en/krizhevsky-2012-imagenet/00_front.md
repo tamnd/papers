@@ -18,7 +18,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 6761a061caa974bed1a941937be4fe121ac8195721788db15baa7a4d506c4884
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 ImageNet Classification with Deep Convolutional Neural Networks

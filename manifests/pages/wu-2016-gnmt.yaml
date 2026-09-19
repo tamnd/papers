@@ -1,0 +1,103 @@
+# Which page of the file is which page of the paper.
+#
+# Written by `papers pagemap`, one file per paper.
+#
+# `offset` is what to add to a page of the file to get the page the paper prints. It is null for a paper whose pages print no numbers, and zero for a preprint that starts at one.
+# `printed` is the folio the page itself printed, and is absent for a page that printed none.
+# `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
+
+paper: wu-2016-gnmt
+offset: 0
+pages:
+    - pdf: 1
+      printed: "1"
+      size: [612, 792]
+      columns: 1
+    - pdf: 2
+      printed: "2"
+      size: [612, 792]
+      columns: 1
+    - pdf: 3
+      printed: "3"
+      size: [612, 792]
+      columns: 1
+    - pdf: 4
+      printed: "4"
+      size: [612, 792]
+      columns: 1
+    - pdf: 5
+      printed: "5"
+      size: [612, 792]
+      columns: 1
+    - pdf: 6
+      printed: "6"
+      size: [612, 792]
+      columns: 1
+    - pdf: 7
+      printed: "7"
+      size: [612, 792]
+      columns: 1
+    - pdf: 8
+      printed: "8"
+      size: [612, 792]
+      columns: 1
+    - pdf: 9
+      printed: "9"
+      size: [612, 792]
+      columns: 1
+    - pdf: 10
+      printed: "10"
+      size: [612, 792]
+      columns: 1
+    - pdf: 11
+      printed: "11"
+      size: [612, 792]
+      columns: 1
+    - pdf: 12
+      printed: "12"
+      size: [612, 792]
+      columns: 1
+    - pdf: 13
+      printed: "13"
+      size: [612, 792]
+      columns: 1
+    - pdf: 14
+      printed: "14"
+      size: [612, 792]
+      columns: 1
+    - pdf: 15
+      printed: "15"
+      size: [612, 792]
+      columns: 1
+    - pdf: 16
+      printed: "16"
+      size: [612, 792]
+      columns: 1
+    - pdf: 17
+      printed: "17"
+      size: [612, 792]
+      columns: 1
+    - pdf: 18
+      printed: "18"
+      size: [612, 792]
+      columns: 1
+    - pdf: 19
+      printed: "19"
+      size: [612, 792]
+      columns: 1
+    - pdf: 20
+      printed: "20"
+      size: [612, 792]
+      columns: 1
+    - pdf: 21
+      printed: "21"
+      size: [612, 792]
+      columns: 1
+    - pdf: 22
+      printed: "22"
+      size: [612, 792]
+      columns: 1
+    - pdf: 23
+      printed: "23"
+      size: [612, 792]
+      columns: 1

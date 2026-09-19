@@ -1,0 +1,127 @@
+paper: rivest-1978-rsa
+style: number
+entries:
+    - key: "1"
+      raw: Diffie, W., and Hellman, M. New directions in cryptography. IEEE Trans. Inform. Theory IT-22, (Nov. 1976), 644-654.
+      authors:
+        - W. Diffie
+        - M. Hellman
+      title: New directions in cryptography
+      venue: IEEE Trans. Inform. Theory IT-22, (Nov. 1976), 644-654
+      year: 1976
+      pages: 644-654
+      resolves_to: diffie-1976-newdirections
+    - key: "2"
+      raw: Diffie, W., and Hellman, M. Exhaustive cryptanalysis of the NBS data encryption standard. Computer 10 (June 1977), 74-84.
+      authors:
+        - W. Diffie
+        - M. Hellman
+      title: Exhaustive cryptanalysis of the NBS data encryption standard
+      venue: Computer 10 (June 1977), 74-84
+      year: 1977
+      pages: 74-84
+      resolves_to: ""
+    - key: "3"
+      raw: 'Knuth, D. E. The Art of Computer Programming, Vol 2: Seminumerical Algorithms. Addison-Wesley, Reading, Mass., 1969.'
+      title: 'Knuth, D. E. The Art of Computer Programming, Vol 2: Seminumerical Algorithms'
+      venue: Addison-Wesley, Reading, Mass
+      year: 1969
+      resolves_to: ""
+    - key: "4"
+      raw: Levine, J., and Brawley, J.V. Some cryptographic applications of permutation polynomials. Cryptologia 1 (Jan. 1977), 76-92.
+      authors:
+        - J. Levine
+        - Brawley
+        - J.V
+      title: Some cryptographic applications of permutation polynomials
+      venue: Cryptologia 1 (Jan. 1977), 76-92
+      year: 1977
+      pages: 76-92
+      resolves_to: ""
+    - key: "5"
+      raw: Merkle, R. Secure communications over an insecure channel. Submitted to Comm. ACM.
+      authors:
+        - R. Merkle
+      title: Secure communications over an insecure channel
+      venue: Submitted to Comm. ACM
+      resolves_to: ""
+    - key: "6"
+      raw: Miller, G.L. Riemann’s hypothesis and tests for primality. Proc. Seventh Annual ACM Symp. on the Theory of Comptng. Albuquerque, New Mex., May 1975, pp. 234-239; extended vers. available as Res. Rep. CS-75-27, Dept. of Comptr. Sci., U. of Waterloo, Waterloo, Ont., Canada, Oct. 1975.
+      authors:
+        - Miller
+        - G.L
+      title: Riemann’s hypothesis and tests for primality
+      year: 1975
+      pages: 234-239
+      resolves_to: ""
+    - key: "7"
+      raw: Niven, I., and Zuckerman, H.S. An Introduction to the Theory of Numbers. Wiley, New York, 1972.
+      authors:
+        - I. Niven
+        - Zuckerman
+        - H.S
+      title: An Introduction to the Theory of Numbers
+      venue: Wiley, New York
+      year: 1972
+      resolves_to: ""
+    - key: "8"
+      raw: Pohlig, S.C., and Hellman, M.E. An improved algorithm for computing logarithms over $GF(p)$ and its cryptographic significance. To appear in IEEE Trans. Inform. Theory, 1978.
+      authors:
+        - Pohlig
+        - S.C
+        - Hellman
+        - M.E
+      title: An improved algorithm for computing logarithms over $GF(p)$ and its cryptographic significance
+      venue: To appear in IEEE Trans. Inform. Theory
+      year: 1978
+      resolves_to: ""
+    - key: "9"
+      raw: Pollard, J.M. Theorems on factorization and primality testing. *Proc. Camb. Phil. Soc.* 76 (1974), 521-528.
+      authors:
+        - Pollard
+        - J.M
+      title: Theorems on factorization and primality testing
+      venue: '*Proc. Camb. Phil. Soc.* 76 (1974), 521-528'
+      year: 1974
+      pages: 521-528
+      resolves_to: ""
+    - key: "10"
+      raw: Potter, R.J., Electronic mail. *Science* 195, 4283 (March 1977), 1160-1164.
+      authors:
+        - Potter
+        - R.J
+        - Electronic mail
+      title: '*Science* 195, 4283 (March 1977), 1160-1164'
+      year: 1977
+      pages: 1160-1164
+      resolves_to: ""
+    - key: "11"
+      raw: Rabin, M.O., Probabilistic algorithms. In *Algorithms and Complexity*, J. F. Traub, Ed., Academic Press, New York, 1976, pp. 21-40.
+      authors:
+        - Rabin
+        - M.O
+        - Probabilistic algorithms
+      title: In *Algorithms and Complexity*, J. F. Traub, Ed., Academic Press, New York, 1976, pp. 21-40
+      year: 1976
+      pages: 21-40
+      resolves_to: ""
+    - key: "12"
+      raw: Solovay, R., and Strassen, V. A Fast Monte-Carlo test for primality. *SIAM J. Comptng*. (March 1977), 84-85.
+      authors:
+        - R. Solovay
+        - V. Strassen
+      title: A Fast Monte-Carlo test for primality
+      venue: '*SIAM J. Comptng*. (March 1977), 84-85'
+      year: 1977
+      pages: 84-85
+      resolves_to: ""
+    - key: "13"
+      raw: '*Federal Register, Vol. 40*, No. 52, March 17, 1975.'
+      title: '*Federal Register, Vol. 40*, No. 52, March 17, 1975'
+      year: 1975
+      resolves_to: ""
+    - key: "14"
+      raw: '*Federal Register, Vol. 40*, No. 149, August 1, 1975.'
+      title: '*Federal Register, Vol. 40*, No. 149, August 1, 1975'
+      year: 1975
+      resolves_to: ""

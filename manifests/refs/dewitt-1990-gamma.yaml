@@ -189,7 +189,7 @@ entries:
       year: 1989
       resolves_to: ""
     - key: GHAN90
-      raw: Ghandeharizadeh, S., and D.J. DeWitt, "Performance Analysis of Alternative Declustering Strategies", Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
+      raw: Ghandeharizadeh, S., and D.J. DeWitt, “Performance Analysis of Alternative Declustering Strategies”, Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
       authors:
         - S. Ghandeharizadeh
         - D.J. DeWitt
@@ -206,7 +206,7 @@ entries:
       year: 1981
       resolves_to: ""
     - key: GRAE89
-      raw: 'Graefe, G., "Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System", Working Paper, Oregon Graduate Center, Portland, OR, February 1989.'
+      raw: 'Graefe, G., “Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System”, Working Paper, Oregon Graduate Center, Portland, OR, February 1989.'
       authors:
         - G. Graefe
       title: 'Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System'
@@ -214,7 +214,7 @@ entries:
       year: 1989
       resolves_to: ""
     - key: GRAY78
-      raw: Gray, J., "Notes on Database Operating Systems," RJ 2188, IBM Research Laboratory, San Jose, California, February 1978.
+      raw: Gray, J., "Notes on Database Operating Systems", RJ 2188, IBM Research Laboratory, San Jose, California, February 1978.
       authors:
         - J. Gray
       title: Notes on Database Operating Systems
@@ -232,7 +232,7 @@ entries:
       year: 1988
       resolves_to: ""
     - key: HSIA90
-      raw: 'Hsiao, H. I. and D. J. DeWitt, "Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines," Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.'
+      raw: 'Hsiao, H. I. and D. J. DeWitt, "Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines", Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.'
       authors:
         - H. I. Hsiao
         - D. J. DeWitt
@@ -241,7 +241,7 @@ entries:
       year: 1990
       resolves_to: ""
     - key: JARK84
-      raw: Jarke, M. and J. Koch, "Query Optimization in Database System," ACM Computing Surveys, Vol. 16, No. 2, June 1984.
+      raw: Jarke, M. and J. Koch, "Query Optimization in Database System," ACM Computing Surveys, Vol. 16, No. 2, June, 1984.
       authors:
         - M. Jarke
         - J. Koch
@@ -278,11 +278,11 @@ entries:
       year: 1987
       resolves_to: ""
     - key: MOHA89
-      raw: 'Mohan, C., D. Haderle, B. Lindsay, H. Pirahesh, and P. Schwarz, "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging", RJ 6649, IBM Almaden Research Center, San Jose, California, January 1989.'
+      raw: 'Mohan, C., D. Haderle, B. Linsay, H. Pirahesh, and P. Schwarz, "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging", RJ 6649, IBM Almaden Research Center, San Jose, California, January 1989.'
       authors:
         - C. Mohan
         - D. Haderle
-        - B. Lindsay
+        - B. Linsay
         - H. Pirahesh
         - P. Schwarz
       title: 'ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging'
@@ -349,14 +349,14 @@ entries:
       year: 1986
       resolves_to: ""
     - key: STON88
-      raw: Stonebraker, M., R. Katz, D. Patterson, and J. Ousterhout, “The Design of XPRS”, Proceedings of the Fourteenth International Conference on Very Large Data Bases, Los Angeles, CA, August 1988.
+      raw: Stonebraker, M., R. Katz, D. Patterson, and J. Ousterhout, “The Design of XPRS”, Proceedings of the Fourteenth International Conference on Very Large Data Bases", Los Angeles, CA, August, 1988.
       authors:
         - M. Stonebraker
         - R. Katz
         - D. Patterson
         - J. Ousterhout
       title: The Design of XPRS
-      venue: Proceedings of the Fourteenth International Conference on Very Large Data Bases, Los Angeles, CA
+      venue: Proceedings of the Fourteenth International Conference on Very Large Data Bases", Los Angeles, CA
       year: 1988
       resolves_to: ""
     - key: TAND88

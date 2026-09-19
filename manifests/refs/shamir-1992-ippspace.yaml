@@ -1,0 +1,118 @@
+paper: shamir-1992-ippspace
+style: number
+entries:
+    - key: "1"
+      raw: BABAI, L. Trading group theory for randomness. In Proceedings of the 17th ACM Symposium on Theory of Computing (Providence, R.I., May 6–8). ACM, New York, 1985, pp. 421–429.
+      authors:
+        - L. BABAI
+      title: Trading group theory for randomness
+      venue: In Proceedings of the 17th ACM Symposium on Theory of Computing (Providence, R.I., May 6–8). ACM, New York, 1985, pp. 421–429
+      year: 1985
+      pages: 421-429
+      resolves_to: ""
+    - key: "2"
+      raw: BEAVER, D., AND FEIGENBAUM, J. Hiding instances in multioracle queries. In Proceedings of the 7th Annual Symposium on Theoretical Aspects of Computer Science. Springer-Verlag, New York, 1990, pp. 37–48.
+      authors:
+        - D. BEAVER
+        - J. FEIGENBAUM
+      title: Hiding instances in multioracle queries
+      venue: In Proceedings of the 7th Annual Symposium on Theoretical Aspects of Computer Science. Springer-Verlag, New York, 1990, pp. 37–48
+      year: 1990
+      pages: 37-48
+      resolves_to: ""
+    - key: "3"
+      raw: BOPPANA, R., HASTAD, J., AND ZACHOS, S. Does co-NP have short interactive proofs? Inf. Proc. Lett. 25 (1987), 127–132.
+      title: BOPPANA, R., HASTAD, J., AND ZACHOS, S. Does co-NP have short interactive proofs? Inf
+      venue: Proc. Lett. 25 (1987), 127–132
+      year: 1987
+      pages: 127-132
+      resolves_to: ""
+    - key: "4"
+      raw: FORTNOW, L., AND SIPSER, M. Interactive proof systems with a log space verifier. Unpublished manuscript, 1988.
+      authors:
+        - L. FORTNOW
+        - M. SIPSER
+      title: Interactive proof systems with a log space verifier
+      venue: Unpublished manuscript
+      year: 1988
+      resolves_to: ""
+    - key: "5"
+      raw: Garey, M., and Johnson, D. Computers and intractability, A guide to the theory of NP-completeness. W. H. Freeman, San Francisco, Calif. 1979.
+      authors:
+        - M. Garey
+        - Johnson
+        - D. Computers
+        - intractability
+        - A guide to the theory of NP-completeness
+      title: W. H. Freeman, San Francisco, Calif
+      year: 1979
+      resolves_to: ""
+    - key: "6"
+      raw: Goldreich, O., Micali, S., and Wigderson, A. Proofs that yield nothing but the validity of the assertion and a methodology of cryptographic protocol design. In Proceedings of 27th Symposium on Foundations of Computer Science. IEEE, New York, 1986, pp. 174–187.
+      authors:
+        - O. Goldreich
+        - S. Micali
+        - A. Wigderson
+      title: Proofs that yield nothing but the validity of the assertion and a methodology of cryptographic protocol design
+      venue: In Proceedings of 27th Symposium on Foundations of Computer Science. IEEE, New York, 1986, pp. 174–187
+      year: 1986
+      pages: 174-187
+      resolves_to: ""
+    - key: "7"
+      raw: Goldwasser, S., and Sipser, M. Private coins versus public coins in interactive proof systems. In Proceedings of the 18th Annual ACM Symposium on Theory of Computing (Berkeley, Calif., May 28–30). ACM, New York, 1986, pp. 59–68.
+      authors:
+        - S. Goldwasser
+        - M. Sipser
+      title: Private coins versus public coins in interactive proof systems
+      venue: In Proceedings of the 18th Annual ACM Symposium on Theory of Computing (Berkeley, Calif., May 28–30). ACM, New York, 1986, pp. 59–68
+      year: 1986
+      pages: 59-68
+      resolves_to: ""
+    - key: "8"
+      raw: Goldwasser, S., Micali, S., and Rackoff, C. The knowledge complexity of interactive proof-systems. In Proceedings of 17th Annual ACM Symposium on Theory of Computing (Providence, R.I., May 6–8). ACM, New York, 1985, pp. 291–304.
+      authors:
+        - S. Goldwasser
+        - S. Micali
+        - C. Rackoff
+      title: The knowledge complexity of interactive proof-systems
+      venue: In Proceedings of 17th Annual ACM Symposium on Theory of Computing (Providence, R.I., May 6–8). ACM, New York, 1985, pp. 291–304
+      year: 1985
+      pages: 291-304
+      resolves_to: goldwasser-1985-zk
+    - key: "9"
+      raw: Lipton, R. New directions in testing. Unpublished manuscript, 1989.
+      authors:
+        - R. Lipton
+      title: New directions in testing
+      venue: Unpublished manuscript
+      year: 1989
+      resolves_to: ""
+    - key: "10"
+      raw: Lund, C., Fortnow, L., Karloff, H., and Nisan, N. Algebraic methods for interactive proof systems. In Proceedings of 31st Symposium on Foundations of Computer Science. IEEE, New York, 1990, pp. 2–90.
+      authors:
+        - C. Lund
+        - L. Fortnow
+        - H. Karloff
+        - N. Nisan
+      title: Algebraic methods for interactive proof systems
+      venue: In Proceedings of 31st Symposium on Foundations of Computer Science. IEEE, New York, 1990, pp. 2–90
+      year: 1990
+      pages: 2-90
+      resolves_to: ""
+    - key: "11"
+      raw: Toda, S. On the computational power of PP and ⊕P. In Proceedings of 30th Symposium on Foundations of Computer Science. IEEE, New York, 1989, pp. 514–519.
+      authors:
+        - S. Toda
+      title: On the computational power of PP and ⊕P
+      venue: In Proceedings of 30th Symposium on Foundations of Computer Science. IEEE, New York, 1989, pp. 514–519
+      year: 1989
+      pages: 514-519
+      resolves_to: ""
+    - key: "12"
+      raw: Valiant, L. The complexity of computing the permanent. Theoret. Comput. Sci. 8 (1979), 189–201. RECEIVED NOVEMBER 1990; REVISED AUGUST 1991; ACCEPTED SEPTEMBER 1991
+      authors:
+        - L. Valiant
+      title: The complexity of computing the permanent
+      venue: Theoret. Comput. Sci. 8 (1979), 189–201. RECEIVED NOVEMBER 1990; REVISED AUGUST 1991; ACCEPTED
+      year: 1991
+      resolves_to: ""

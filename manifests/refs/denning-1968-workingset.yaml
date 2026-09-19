@@ -1,0 +1,152 @@
+paper: denning-1968-workingset
+style: number
+entries:
+    - key: "1"
+      raw: Dennis, J. B., and Van Horn, E. C. Programming semantics for multiprogrammed computations. Comm. ACM 9 (Mar. 1966), 143–155.
+      authors:
+        - J. B. Dennis
+        - E. C. Van Horn
+      title: Programming semantics for multiprogrammed computations
+      venue: Comm. ACM 9 (Mar. 1966), 143–155
+      year: 1966
+      pages: 143-155
+      resolves_to: ""
+    - key: "2"
+      raw: Ramamoorthy, C. V. The analytic design of a dynamic look ahead and program segmenting system for multiprogrammed computers. Proc. ACM 21st Nat. Conf. 1966. Thompson Book Co., Washington, D.C., pp. 229–239.
+      authors:
+        - C. V. Ramamoorthy
+      title: The analytic design of a dynamic look ahead and program segmenting system for multiprogrammed computers
+      venue: Proc. ACM 21st Nat. Conf. 1966. Thompson Book Co., Washington, D.C., pp. 229–239
+      year: 1966
+      pages: 229-239
+      resolves_to: ""
+    - key: "3"
+      raw: Fano, R. M., and David, E. E. On the social implications of accessible computing. Proc. AFIPS 1965 Fall Joint Comput. Conf., Vol. 27, Part 2. Thompson Book Co., Washington, D.C., pp. 243–247.
+      authors:
+        - R. M. Fano
+        - E. E. David
+      title: On the social implications of accessible computing
+      venue: Proc. AFIPS 1965 Fall Joint Comput. Conf., Vol. 27, Part 2. Thompson Book Co., Washington, D.C., pp. 243–247
+      year: 1965
+      pages: 243-247
+      resolves_to: ""
+    - key: "4"
+      raw: Selwyn, L. L. The information utility. Indust. Man. Rev. 7, 2 (spring, 1966).
+      authors:
+        - Selwyn
+        - L. L. The information utility
+      title: Indust
+      venue: Man. Rev. 7, 2 (spring, 1966)
+      year: 1966
+      resolves_to: ""
+    - key: "5"
+      raw: Parkhill, D. The Challenge of the Computer Utility. Addison-Wesley, Reading, Mass., 1966.
+      authors:
+        - D. Parkhill
+      title: The Challenge of the Computer Utility
+      venue: Addison-Wesley, Reading, Mass
+      year: 1966
+      resolves_to: ""
+    - key: "6"
+      raw: Dennis, J. B. Segmentation and the design of multiprogrammed computer systems. J. ACM 12, 4 (Oct. 1965), 589–602.
+      authors:
+        - J. B. Dennis
+      title: Segmentation and the design of multiprogrammed computer systems
+      venue: J. ACM 12, 4 (Oct. 1965), 589–602
+      year: 1965
+      pages: 589-602
+      resolves_to: ""
+    - key: "7"
+      raw: Arden, B. W., et al. Program and address structure in a time-sharing environment. J. ACM 13, 1 (Jan. 1966), 1–16.
+      authors:
+        - B. W. Arden
+      title: Program and address structure in a time-sharing environment
+      venue: J. ACM 13, 1 (Jan. 1966), 1–16
+      year: 1966
+      pages: 1-16
+      resolves_to: ""
+    - key: "8"
+      raw: Saltzer, J. H. Traffic control in a multiplexed computer system. M.I.T. Project MAC Tech. Rep. MAC-TR-30, M.I.T., Cambridge, Mass., July 1966.
+      authors:
+        - J. H. Saltzer
+      title: Traffic control in a multiplexed computer system
+      venue: M.I.T. Project MAC Tech. Rep. MAC-TR-30, M.I.T., Cambridge, Mass
+      year: 1966
+      resolves_to: ""
+    - key: "9"
+      raw: Dennis, J. B. Program structure in a multi-access computer. Project MAC Tech. Rep. MAC-TR-11, M.I.T., Cambridge, Mass.
+      authors:
+        - J. B. Dennis
+      title: Program structure in a multi-access computer
+      venue: Project MAC Tech. Rep. MAC-TR-11, M.I.T., Cambridge, Mass
+      resolves_to: ""
+    - key: "10"
+      raw: Fine, G. H., McIsaac, P. V., and Jackson, C. W. Dynamic program behavior under paging. Proc. ACM 21st Nat. Conf. 1966. Thompson Book Co., Washington, D.C., pp. 223–228.
+      authors:
+        - G. H. Fine
+        - P. V. McIsaac
+        - C. W. Jackson
+      title: Dynamic program behavior under paging
+      venue: Proc. ACM 21st Nat. Conf. 1966. Thompson Book Co., Washington, D.C., pp. 223–228
+      year: 1966
+      pages: 223-228
+      resolves_to: ""
+    - key: "11"
+      raw: Varian, L., and Coffman, E. An empirical study of the behavior of programs in a paging environment. Proc. ACM Symp. on Operating Principles, Gatlinburg, Tenn., Oct. 1967.
+      authors:
+        - L. Varian
+        - E. Coffman
+      title: An empirical study of the behavior of programs in a paging environment
+      venue: Proc. ACM Symp. on Operating Principles, Gatlinburg, Tenn., Oct
+      year: 1967
+      resolves_to: ""
+    - key: "12"
+      raw: Kilburn, T., et al. One-level storage system. IRE Trans. EC-11, 2 (Apr. 1962).
+      authors:
+        - T. Kilburn
+      title: One-level storage system
+      venue: IRE Trans. EC-11, 2 (Apr. 1962)
+      year: 1962
+      resolves_to: ""
+    - key: "13"
+      raw: Belady, L. A. A study of replacement algorithms for a virtual storage computer. IBM Systems J. 5, 2 (1966), 78–101.
+      authors:
+        - L. A. Belady
+      title: A study of replacement algorithms for a virtual storage computer
+      venue: IBM Systems J. 5, 2 (1966), 78–101
+      year: 1966
+      pages: 78-101
+      resolves_to: ""
+    - key: "14"
+      raw: Progress Report III, M.I.T. Project MAC, 1965–66, pp. 63–66.
+      title: Progress Report III, M.I.T. Project MAC, 1965–66, pp. 63–66
+      year: 1965
+      pages: 63-66
+      resolves_to: ""
+    - key: "15"
+      raw: Denning, P. J. Memory allocation in multiprogrammed computers. Project MAC Computation Structures Group Memo 24, M.I.T., Cambridge, Mass., Mar. 1966.
+      authors:
+        - P. J. Denning
+      title: Memory allocation in multiprogrammed computers
+      venue: Project MAC Computation Structures Group Memo 24, M.I.T., Cambridge, Mass., Mar
+      year: 1966
+      resolves_to: ""
+    - key: "16"
+      raw: Fife, D. W. An optimization model for time-sharing. Proc. AFIPS 1966 Spring Joint Comput. Conf., Vol. 28. Spartan Books, New York, pp. 97–104.
+      authors:
+        - D. W. Fife
+      title: An optimization model for time-sharing
+      venue: Proc. AFIPS 1966 Spring Joint Comput. Conf., Vol. 28. Spartan Books, New York, pp. 97–104
+      year: 1966
+      pages: 97-104
+      resolves_to: ""
+    - key: "17"
+      raw: Oppenheimer, G., and Weizer, N. Resource management for a medium scale time-sharing operating system. Comm. ACM 11, 5 (May 1968), 313–322.
+      authors:
+        - G. Oppenheimer
+        - N. Weizer
+      title: Resource management for a medium scale time-sharing operating system
+      venue: Comm. ACM 11, 5 (May 1968), 313–322
+      year: 1968
+      pages: 313-322
+      resolves_to: ""

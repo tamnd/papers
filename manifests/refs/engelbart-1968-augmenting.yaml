@@ -1,0 +1,35 @@
+paper: engelbart-1968-augmenting
+style: hanging
+entries:
+    - key: "1"
+      raw: 6a (English 1) W K ENGLISH D C ENGELBART B HUDDART Computer-aided display control Final Report Contract NAS 1-3988 SRI Project 5061 Stanford Research Institute Menlo Park California July 1965
+      title: 6a (English 1) W K ENGLISH D C ENGELBART B HUDDART Computer-aided display control Final Report Contract NAS 1-3988 SRI Project 5061 Stanford Research Institute Menlo Park California July 1965
+      year: 1965
+      resolves_to: ""
+    - key: "2"
+      raw: 6b (English2) W K ENGLISH D C ENGELBART M L BERMAN Display-selection techniques for text manipulation IEEE Trans on Human Factors in Electronics Vol HFE-8 No 1 1967
+      title: 6b (English2) W K ENGLISH D C ENGELBART M L BERMAN Display-selection techniques for text manipulation IEEE Trans on Human Factors in Electronics Vol HFE-8 No 1 1967
+      year: 1967
+      resolves_to: ""
+    - key: "3"
+      raw: '6c (Engelbart1) D C ENGLEBART Augmenting human intellect: A conceptual framework Summary Report Contract AF 49 638 1024 SRI Project 3578 Stanford Research Institute Menlo Park California October 1962'
+      title: '6c (Engelbart1) D C ENGLEBART Augmenting human intellect: A conceptual framework Summary Report Contract AF 49 638 1024 SRI Project 3578 Stanford Research Institute Menlo Park California October 1962'
+      year: 1962
+      resolves_to: ""
+    - key: "4"
+      raw: 6d (Engelbart2) D C ENGELBART A conceptual framework for the augmentation of man's intellect In Vistas in Information Handling Vol 1 D W Howerton and D C Weeks eds Spartan Books Washington D C 1963
+      title: 6d (Engelbart2) D C ENGELBART A conceptual framework for the augmentation of man's intellect In Vistas in Information Handling Vol 1 D W Howerton and D C Weeks eds Spartan Books Washington D C 1963
+      year: 1963
+      resolves_to: ""
+    - key: "5"
+      raw: 6e (Hay1) R E HAY J F RULIFSON MOL940 Preliminary specifications for an ALGOL like machine-oriented language for the SDS 940 Interim Technical Report Contract NAS 1-5940 SRI Project 5890 Stanford Research Institute Menlo Park California March 1968
+      title: 6e (Hay1) R E HAY J F RULIFSON MOL940 Preliminary specifications for an ALGOL like machine-oriented language for the SDS 940 Interim Technical Report Contract NAS 1-5940 SRI Project 5890 Stanford Research Institute Menlo Park California March 1968
+      year: 1968
+      resolves_to: ""
+    - key: "6"
+      raw: 6f (Pirtle1) M PIRTLE Intercommunication of Processors and memory Proc Fall Joint Computer Conference Anaheim California November 1967
+      title: 6f (Pirtle1) M PIRTLE Intercommunication of Processors and memory Proc Fall Joint Computer Conference Anaheim California November 1967
+      year: 1967
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

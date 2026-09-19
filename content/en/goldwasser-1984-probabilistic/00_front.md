@@ -17,7 +17,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 8839b494950cc1130da7485f4cc359a4a1c26fa3c4a664708685caa192b01a67
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Probabilistic Encryption*

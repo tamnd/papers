@@ -15,9 +15,13 @@ pdf_sha256: facf3ded36efc4a59db4b1ed5e3e635462b43803e77db1a7546c2d9934668f1f
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 33899b3e78756f25223ca59b57a2f4666ea623515553d469faccc751608b9a2d
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: 4cb536f68c3016a22b93144656def83a686a11dbe1b29195fd878703935764a4
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
+
+Network Working Group
+Request For Comments: 896
+Ford Aerospace and Communications Corporation
 
 Congestion Control in IP/TCP Internetworks
 

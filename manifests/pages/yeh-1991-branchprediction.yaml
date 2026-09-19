@@ -21,3 +21,40 @@ pages:
       printed: "53"
       size: [619, 795]
       columns: 2
+      figures: [f01, f02]
+    - pdf: 4
+      printed: "54"
+      size: [615, 795]
+      columns: 2
+    - pdf: 5
+      printed: "55"
+      size: [623, 797]
+      columns: 2
+      figures: [f03, f04]
+    - pdf: 6
+      printed: "56"
+      size: [615, 792]
+      columns: 2
+    - pdf: 7
+      printed: "57"
+      size: [624, 800]
+      columns: 2
+      figures: [f05]
+    - pdf: 8
+      printed: "58"
+      size: [617, 793]
+      columns: 2
+      figures: [f06]
+    - pdf: 9
+      printed: "59"
+      size: [614, 792]
+      columns: 2
+      figures: [f07, f08, f09]
+    - pdf: 10
+      printed: "60"
+      size: [630, 803]
+      columns: 2
+    - pdf: 11
+      printed: "61"
+      size: [631, 803]
+      columns: 2

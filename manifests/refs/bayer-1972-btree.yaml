@@ -1,0 +1,48 @@
+paper: bayer-1972-btree
+style: hanging
+entries:
+    - key: "1"
+      raw: Adelson-Velskii, G. M. and Landis, E. M. An Information Organization Algorithm. DANSSSR, No. 2, 1962.
+      authors:
+        - G. M. Adelson-Velskii
+        - E. M. Landis
+      title: An Information Organization Algorithm
+      venue: DANSSSR, No. 2
+      year: 1962
+      resolves_to: ""
+    - key: "2"
+      raw: Foster, C. C. Information Storage and Retrieval Using AVL Trees. Proc. ACM 20th Nat'l. Conf. (1965), pp. 192-205.
+      authors:
+        - C. C. Foster
+      title: Information Storage and Retrieval Using AVL Trees
+      venue: Proc. ACM 20th Nat'l. Conf. (1965), pp. 192-205
+      year: 1965
+      pages: 192-205
+      resolves_to: ""
+    - key: "3"
+      raw: Gladun, V. P. Storage Organization for Key Search and Recording. Cybernetics, Vol. 1, No. 4, August 1965.
+      authors:
+        - V. P. Gladun
+      title: Storage Organization for Key Search and Recording
+      venue: Cybernetics, Vol. 1, No. 4
+      year: 1965
+      resolves_to: ""
+    - key: "4"
+      raw: Landauer, W. I. The Balanced Tree and Its Utilization in Information Retrieval. IEEE Trans. on Electronic Computers, Vol. EC-12, No. 6, December 1963.
+      authors:
+        - W. I. Landauer
+      title: The Balanced Tree and Its Utilization in Information Retrieval
+      venue: IEEE Trans. on Electronic Computers, Vol. EC-12, No. 6
+      year: 1963
+      resolves_to: ""
+    - key: "5"
+      raw: Sussenguth, E. H., Jr. The Use of Tree Structures for Processing Files. Comm. ACM, Vol. 6, No. 5, May 1963.
+      authors:
+        - E. H. Sussenguth
+        - Jr. The Use of Tree Structures for Processing Files
+      title: Comm
+      venue: ACM, Vol. 6, No. 5
+      year: 1963
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

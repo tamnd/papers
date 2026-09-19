@@ -1,0 +1,92 @@
+paper: savitch-1970-tape
+style: number
+entries:
+    - key: "1"
+      raw: M. Blum, A machine-independent theory of the complexity of recursive functions, J. Assoc. Comput. Mach. 14 (1967), 322–336.
+      authors:
+        - M. Blum
+        - A machine-independent theory of the complexity of recursive functions
+        - J. Assoc. Comput. Mach
+      title: 14 (1967), 322–336
+      year: 1967
+      pages: 322-336
+      resolves_to: ""
+    - key: "2"
+      raw: A. Cobham, “The Recognition Problem for the Set of Perfect Squares.” IEEE Conference Record of the Seventh Annual Symposium on Switching and Automata Theory, Berkeley, Calif., 1966, pp. 78–87.
+      authors:
+        - A. Cobham
+      title: The Recognition Problem for the Set of Perfect Squares
+      venue: IEEE Conference Record of the Seventh Annual Symposium on Switching and Automata Theory, Berkeley, Calif., 1966, pp. 78–87
+      year: 1966
+      pages: 78-87
+      resolves_to: ""
+    - key: "3"
+      raw: J. E. Hopcroft and J. D. Ullman, “Formal Languages and Their Relation to Automata.” Addison-Wesley, Reading, Mass., 1969.
+      authors:
+        - J. E. Hopcroft
+        - J. D. Ullman
+      title: Formal Languages and Their Relation to Automata
+      venue: Addison-Wesley, Reading, Mass
+      year: 1969
+      resolves_to: ""
+    - key: "4"
+      raw: J. E. Hopcroft and J. D. Ullman, Relations between time and tape complexities. J. Assoc. Comput. Mach. 15 (1968), 414–427.
+      authors:
+        - J. E. Hopcroft
+        - J. D. Ullman
+        - Relations between time
+        - tape complexities
+      title: J. Assoc. Comput. Mach
+      year: 1968
+      pages: 414-427
+      resolves_to: ""
+    - key: "5"
+      raw: S. Y. Kuroda, Classes of languages and linear-bound automata. Information and Control 7 (1964), 207–223. (The relevant material also appears in [3], pp. 115–119.)
+      authors:
+        - S. Y. Kuroda
+        - Classes of languages
+        - linear-bound automata
+      title: Information and Control 7 (1964), 207–223
+      venue: (The relevant material also appears in [3], pp. 115–119.)
+      year: 1964
+      pages: 115-119
+      resolves_to: ""
+    - key: "6"
+      raw: P. S. Landweber, Three theorems on phrase structure grammars of type 1. Information and Control 6 (1963), 131–136. (The relevant material also appears in [3], pp. 115–119.)
+      authors:
+        - P. S. Landweber
+        - Three theorems on phrase structure grammars of type 1
+      title: Information and Control 6 (1963), 131–136
+      venue: (The relevant material also appears in [3], pp. 115–119.)
+      year: 1963
+      pages: 115-119
+      resolves_to: ""
+    - key: "7"
+      raw: P. M. Lewis II, R. E. Stearns, and J. Hartmanis, “Memory Bounds for the Recognition of Context-Free and Context-Sensitive Languages.” IEEE Conference Record on Switching Circuit Theory and Logical Design, Ann Arbor, Mich., 1965, pp. 191–202. (The relevant material also appears in [3], pp. 162–164.)
+      authors:
+        - P. M. Lewis II
+        - R. E. Stearns
+        - J. Hartmanis
+      title: Memory Bounds for the Recognition of Context-Free and Context-Sensitive Languages
+      year: 1965
+      pages: 191-202
+      resolves_to: ""
+    - key: "8"
+      raw: 'E. M. McCreight and A. R. Meyer, “Classes of Computable Functions Defined by Bounds on Computation: Preliminary Report.” Conference Record of ACM Symposium on Theory of Computing, Marina del Rey, Calif., May 1969, pp. 79–88.'
+      authors:
+        - E. M. McCreight
+        - A. R. Meyer
+      title: 'Classes of Computable Functions Defined by Bounds on Computation: Preliminary Report'
+      venue: Conference Record of ACM Symposium on Theory of Computing, Marina del Rey, Calif., May 1969, pp. 79–88
+      year: 1969
+      pages: 79-88
+      resolves_to: ""
+    - key: "9"
+      raw: W. J. Savitch, “Deterministic Simulation of Non-deterministic Turing Machines (Detailed Abstract). Conference Record of ACM Symposium on Theory of Computing, Marina del Rey, Calif., May 1969, pp. 247–248.
+      authors:
+        - W. J. Savitch
+        - “Deterministic Simulation of Non-deterministic Turing Machines (Detailed Abstract)
+      title: Conference Record of ACM Symposium on Theory of Computing, Marina del Rey, Calif., May 1969, pp. 247–248
+      year: 1969
+      pages: 247-248
+      resolves_to: ""

@@ -16,20 +16,17 @@ pdf_sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: bef6df3d4dd857698abefe1e5ba415e93976475582859bd5331e67415f388fb2
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+content_sha256: 23d9e89b6d9021d9642d570af8edbdbedce2950be2da329fee1a054c781d9880
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks
 
 Dah-Ming CHIU and Raj JAIN
-
 Digital Equipment Corporation, 550 King Street (LKG1-2/A19),
-
 Littleton, MA 01460-1289, U.S.A.
 
 New Address: Raj Jain, Washington University in Saint Louis,
-
 jain@cse.wustl.edu, http://www.cse.wustl.edu/~jain
 
 Abstract. Congestion avoidance mechanisms allow a network to operate in the optimal region of low delay and high throughput, thereby, preventing the network from becoming congested. This is different from the traditional congestion control mechanisms that allow the network to recover from the congested state of high delay and low throughput. Both congestion avoidance and congestion control mechanisms are basically resource management problems. They can be formulated as system control problems in which the system senses its state and feeds this back to its users who adjust their controls.
@@ -38,4 +35,4 @@ The key component of any congestion avoidance scheme is the algorithm (or contro
 
 It is shown that a simple additive increase and multiplicative decrease algorithm satisfies the sufficient conditions for convergence to an efficient and fair state regardless of the starting state of the network. This is the algorithm finally chosen for implementation in the congestion avoidance scheme recommended for Digital Networking Architecture and OSI Transport Class 4 Networks.
 
-Keywords.
+Keywords. Computer Network, Network Performance, Resource Management, Congestion Control, Congestion Avoidance, Flow Control, Fairness.

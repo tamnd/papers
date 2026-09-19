@@ -2,27 +2,31 @@ paper: metcalfe-1976-ethernet
 style: number
 entries:
     - key: "1"
-      raw: Abramson, N. The Aloha system. *AFIPS Conf. Proc.*, Vol. 37, 1970 FJCC, AFIPS Press, Montvale, N.J., 1970, pp. 281-285.
+      raw: Abramson, N. The Aloha system. AFIPS Conf. Proc., Vol. 37, 1970 FJCC, AFIPS Press, Montvale, N.J., 1970, pp. 281–285.
       authors:
         - Abramson
         - N. The Aloha system
-      title: '*AFIPS Conf. Proc.*, Vol. 37, 1970 FJCC, AFIPS Press, Montvale, N.J., 1970, pp. 281-285'
+      title: AFIPS Conf. Proc., Vol. 37, 1970 FJCC, AFIPS Press, Montvale, N.J., 1970, pp. 281–285
       year: 1970
       pages: 281-285
       resolves_to: ""
     - key: "2"
-      raw: Abramson, N. and Kuo, F.F. *Computer-Communication Networks.* Prentice-Hall, Englewood Cliffs, N.J., 1975.
-      title: Abramson, N. and Kuo, F.F. *Computer-Communication Networks.* Prentice-Hall, Englewood Cliffs, N.J., 1975
+      raw: Abramson, N. and Kuo, F.F. Computer-Communication Networks. Prentice-Hall, Englewood Cliffs, N.J., 1975.
+      authors:
+        - N. Abramson
+        - Kuo
+        - F.F. Computer-Communication Networks
+      title: Prentice-Hall, Englewood Cliffs, N.J., 1975
       year: 1975
       resolves_to: ""
     - key: "3"
-      raw: Ashenhurst, R.L., and Vonderohe, R.H. A hierarchical network. *Datamation* 21, 2 (Feb. 1975), 40-44.
+      raw: Ashenhurst, R.L., and Vonderohe, R.H. A hierarchical network. Datamation 21, 2 (Feb. 1975), 40–44.
       authors:
         - Ashenhurst
         - R.L
         - Vonderohe
         - R.H. A hierarchical network
-      title: '*Datamation* 21, 2 (Feb'
+      title: Datamation 21, 2 (Feb
       year: 1975
       pages: 40-44
       resolves_to: ""
@@ -36,7 +40,7 @@ entries:
       year: 1964
       resolves_to: ""
     - key: "5"
-      raw: Barnes, G.H., Brown, R.M., Kato, M., Kuck, D.J., Slotnick, D.L., and Stokes, R.A. The Illiac IV Computer. *IEEE Trans. Computers* C-17, 8 (Aug. 1968), 758-770.
+      raw: Barnes, G.H., Brown, R.M., Kato, M., Kuck, D.J., Slotnick, D.L., and Stokes, R.A. The Illiac IV Computer. IEEE Trans. Computers C-17, 8 (Aug. 1968), 758–770.
       authors:
         - Barnes
         - G.H
@@ -50,12 +54,12 @@ entries:
         - Stokes
         - R.A
       title: The Illiac IV Computer
-      venue: '*IEEE Trans. Computers* C-17, 8 (Aug. 1968), 758-770'
+      venue: IEEE Trans. Computers C-17, 8 (Aug. 1968), 758–770
       year: 1968
       pages: 758-770
       resolves_to: ""
     - key: "6"
-      raw: Binder, R., Abramson, N., Kuo, F., Okinaka, A., and Wax, D. Aloha packet broadcasting—a retrospect. *AFIPS Conf. Proc.*, Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975.
+      raw: Binder, R., Abramson, N., Kuo, F., Okinaka, A., and Wax, D. Aloha packet broadcasting—a retrospect. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975.
       authors:
         - R. Binder
         - N. Abramson
@@ -63,35 +67,35 @@ entries:
         - A. Okinaka
         - D. Wax
       title: Aloha packet broadcasting—a retrospect
-      venue: '*AFIPS Conf. Proc.*, Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J'
+      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J
       year: 1975
       resolves_to: ""
     - key: "7"
-      raw: Cerf, V.G., and Kahn, R.E. A protocol for packet network intercommunication. *IEEE Trans. Comm.* COMM-22, 5 (May 1974), 637-648.
+      raw: Cerf, V.G., and Kahn, R.E. A protocol for packet network intercommunication. IEEE Trans. Comm. COMM-22, 5 (May 1974), 637–648.
       authors:
         - Cerf
         - V.G
         - Kahn
         - R.E
       title: A protocol for packet network intercommunication
-      venue: '*IEEE Trans. Comm.* COMM-22, 5 (May 1974), 637-648'
+      venue: IEEE Trans. Comm. COMM-22, 5 (May 1974), 637–648
       year: 1974
       pages: 637-648
       resolves_to: cerf-1974-tcpip
     - key: "8"
-      raw: 'The shrinking world: computer networks and communications. *Computer* 7, 2 (Feb. 1974).'
+      raw: 'The shrinking world: computer networks and communications. Computer 7, 2 (Feb. 1974).'
       title: 'The shrinking world: computer networks and communications'
-      venue: '*Computer* 7, 2 (Feb. 1974)'
+      venue: Computer 7, 2 (Feb. 1974)
       year: 1974
       resolves_to: ""
     - key: "9"
-      raw: Distributed-function computer architectures. *Computer* 7, 3 (March 1974).
+      raw: Distributed-function computer architectures. Computer 7, 3 (March 1974).
       title: Distributed-function computer architectures
-      venue: '*Computer* 7, 3 (March 1974)'
+      venue: Computer 7, 3 (March 1974)
       year: 1974
       resolves_to: ""
     - key: "10"
-      raw: Crocker, S.D., Heafner, J.F., Metcalfe, R.M., and Postel, J.B. Function-oriented protocols for the Arpa computer network. *AFIPS Conf. Proc.*, Vol. 40, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 271-279.
+      raw: Crocker, S.D., Heafner, J.F., Metcalfe, R.M., and Postel, J.B. Function-oriented protocols for the Arpa computer network. AFIPS Conf. Proc., Vol. 40, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 271–279.
       authors:
         - Crocker
         - S.D
@@ -102,12 +106,12 @@ entries:
         - Postel
         - J.B
       title: Function-oriented protocols for the Arpa computer network
-      venue: '*AFIPS Conf. Proc.*, Vol. 40, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 271-279'
+      venue: AFIPS Conf. Proc., Vol. 40, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 271–279
       year: 1972
       pages: 271-279
       resolves_to: ""
     - key: "11"
-      raw: Crowther, W.R., Heart, F.E., McKenzie, A.A., McQuillan, J.M., and Walden, D.C. Issues in packet-switching network design. *AFIPS Conf. Proc.*, Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 161-175.
+      raw: Crowther, W.R., Heart, F.E., McKenzie, A.A., McQuillan, J.M., and Walden, D.C. Issues in packet-switching network design. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 161–175.
       authors:
         - Crowther
         - W.R
@@ -120,46 +124,48 @@ entries:
         - Walden
         - D.C
       title: Issues in packet-switching network design
-      venue: '*AFIPS Conf. Proc.*, Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 161-175'
+      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 161–175
       year: 1975
       pages: 161-175
       resolves_to: ""
     - key: "12"
-      raw: Farber, D.J., et al. The distributed computing system. *Proc. 7th Ann. IEEE Computer Soc. International Conf.*, Feb. 1973, pp. 31-34.
+      raw: Farber, D.J., et al. The distributed computing system. Proc. 7th Ann. IEEE Computer Soc. International Conf., Feb. 1973, pp. 31–34.
       authors:
         - Farber
         - D.J
       title: The distributed computing system
-      venue: '*Proc. 7th Ann. IEEE Computer Soc. International Conf.*, Feb. 1973, pp. 31-34'
+      venue: Proc. 7th Ann. IEEE Computer Soc. International Conf., Feb. 1973, pp. 31–34
       year: 1973
       pages: 31-34
       resolves_to: ""
     - key: "13"
-      raw: Farber, D.J. A ring network. *Datamation* 21, 2 (Feb. 1975), 44-46.
+      raw: Farber, D.J., A ring network. Datamation 21, 2 (Feb. 1975), 44–46.
       authors:
         - Farber
-        - D.J. A ring network
-      title: '*Datamation* 21, 2 (Feb'
+        - D.J
+        - A ring network
+      title: Datamation 21, 2 (Feb
       year: 1975
       pages: 44-46
       resolves_to: ""
     - key: "14"
-      raw: Fraser, A.G. A virtual channel network. *Datamation* 21, 2 (Feb. 1975), 51-53. Communications of the ACM July 1976 Volume 19
+      raw: Fraser, A.G. A virtual channel network. Datamation 21, 2 (Feb. 1975), 51–53.
       authors:
         - Fraser
         - A.G
       title: A virtual channel network
-      venue: '*Datamation* 21, 2 (Feb. 1975), 51-53. Communications of the ACM July 1976 Volume 19'
-      year: 1976
+      venue: Datamation 21, 2 (Feb. 1975), 51–53
+      year: 1975
+      pages: 51-53
       resolves_to: ""
     - key: "15"
-      raw: Heart, F.E., Kahn, R.E., Ornstein, S.M., Crowther, W.R., and Walden, D.C. The interface message processor for the Arpa computer network, AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 551-567.
-      title: Heart, F.E., Kahn, R.E., Ornstein, S.M., Crowther, W.R., and Walden, D.C. The interface message processor for the Arpa computer network, AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 551-567
+      raw: Heart, F.E., Kahn, R.E., Ornstein, S.M., Crowther, W.R., and Walden, D.C. The interface message processor for the Arpa computer network, AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 551–567.
+      title: Heart, F.E., Kahn, R.E., Ornstein, S.M., Crowther, W.R., and Walden, D.C. The interface message processor for the Arpa computer network, AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 551–567
       year: 1970
       pages: 551-567
       resolves_to: ""
     - key: "16"
-      raw: Heart, F.E., Ornstein, S.M., Crowther, W.R., and Barker, W.B. A new minicomputer-multiprocessor for the Arpa network. AFIPS Conf. Proc., Vol. 42, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 529-537.
+      raw: Heart, F.E., Ornstein, S.M., Crowther, W.R., and Barker, W.B. A new minicomputer-multiprocessor for the Arpa network. AFIPS Conf. Proc., Vol. 42, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 529–537.
       authors:
         - Heart
         - F.E
@@ -170,17 +176,17 @@ entries:
         - Barker
         - W.B
       title: A new minicomputer-multiprocessor for the Arpa network
-      venue: AFIPS Conf. Proc., Vol. 42, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 529-537
+      venue: AFIPS Conf. Proc., Vol. 42, 1972 SJCC, AFIPS Press, Montvale, N.J., 1972, pp. 529–537
       year: 1972
       pages: 529-537
       resolves_to: ""
     - key: "17"
-      raw: Kahn, R.R. The organization of computer resources into a packet ratio network. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 177-186.
+      raw: Kahn, R.R. The organization of computer resources into a packet ratio network. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 177–186.
       authors:
         - Kahn
         - R.R
       title: The organization of computer resources into a packet ratio network
-      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 177-186
+      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1975, pp. 177–186
       year: 1975
       pages: 177-186
       resolves_to: ""
@@ -194,18 +200,18 @@ entries:
       year: 1972
       resolves_to: ""
     - key: "19"
-      raw: Metcalfe, R.M. Strategies for Operating Systems in Computer Networks, Proc. ACM National Conf., August 1972, pp. 278-281.
-      title: Metcalfe, R.M. Strategies for Operating Systems in Computer Networks, Proc. ACM National Conf., August 1972, pp. 278-281
+      raw: Metcalfe, R.M. Strategies for Operating Systems in Computer Networks, Proc. ACM National Conf., August 1972, pp. 278–281.
+      title: Metcalfe, R.M. Strategies for Operating Systems in Computer Networks, Proc. ACM National Conf., August 1972, pp. 278–281
       year: 1972
       pages: 278-281
       resolves_to: ""
     - key: "20"
-      raw: Metcalfe, R.M. Steady-state analysis of a slotted and controlled aloha system with blocking. Proc. 6th Hawaii Conf. on System Sci. Jan. 1973, pp. 375-380.
+      raw: Metcalfe, R.M. Steady-state analysis of a slotted and controlled aloha system with blocking. Proc. 6th Hawaii Conf. on System Sci. Jan. 1973, pp. 375–380.
       authors:
         - Metcalfe
         - R.M
       title: Steady-state analysis of a slotted and controlled aloha system with blocking
-      venue: Proc. 6th Hawaii Conf. on System Sci. Jan. 1973, pp. 375-380
+      venue: Proc. 6th Hawaii Conf. on System Sci. Jan. 1973, pp. 375–380
       year: 1973
       pages: 375-380
       resolves_to: ""
@@ -235,7 +241,7 @@ entries:
       year: 1975
       resolves_to: ""
     - key: "24"
-      raw: Ornstein, S.M., Crowther, W.R., Kraley, M.F., Bressler, R.D. Michel, A., and Heart, F.E. Pluribus—a reliable multiprocessor. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 551-559.
+      raw: Ornstein, S.M., Crowther, W.R., Kraley, M.F., Bressler, R.D., Michel, A., and Heart, F.E. Pluribus—a reliable multiprocessor. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 551–559.
       authors:
         - Ornstein
         - S.M
@@ -244,30 +250,31 @@ entries:
         - Kraley
         - M.F
         - Bressler
-        - A. R.D. Michel
+        - R.D
+        - A. Michel
         - Heart
         - F.E. Pluribus—a reliable multiprocessor
-      title: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 551-559
+      title: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 551–559
       year: 1970
       pages: 551-559
       resolves_to: ""
     - key: "25"
-      raw: Retz, D.L. Operating system design considerations for the packet switching environment. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 155-160.
+      raw: Retz, D.L. Operating system design considerations for the packet switching environment. AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 155–160.
       authors:
         - Retz
         - D.L
       title: Operating system design considerations for the packet switching environment
-      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 155-160
+      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J., 1970, pp. 155–160
       year: 1970
       pages: 155-160
       resolves_to: ""
     - key: "26"
-      raw: Roberts, L., and Wessler, B. Computer network development to achieve resource sharing. AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 543-549.
+      raw: Roberts, L., and Wessler, B. Computer network development to achieve resource sharing. AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 543–549.
       authors:
         - L. Roberts
         - B. Wessler
       title: Computer network development to achieve resource sharing
-      venue: AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 543-549
+      venue: AFIPS Conf. Proc., Vol. 36, 1970 SJCC, AFIPS Press, Montvale, N.J., 1970, pp. 543–549
       year: 1970
       pages: 543-549
       resolves_to: ""
@@ -294,39 +301,40 @@ entries:
       year: 1970
       resolves_to: ""
     - key: "30"
-      raw: '*IBM synchronous data link control—general information.* IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C., 1974.'
-      title: '*IBM synchronous data link control—general information.* IBM Systems Development Div., Pub'
-      venue: Center, Research Triangle Park, N.C
+      raw: IBM synchronous data link control—general information. IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C., 1974.
+      title: IBM synchronous data link control—general information
+      venue: IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C
       year: 1974
       resolves_to: ""
     - key: "31"
-      raw: '*IBM system network architecture—general information.* IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C., 1975.'
-      title: '*IBM system network architecture—general information.* IBM Systems Development Div., Pub'
-      venue: Center, Research Triangle Park, N.C
+      raw: IBM system network architecture—general information. IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C., 1975.
+      title: IBM system network architecture—general information
+      venue: IBM Systems Development Div., Pub. Center, Research Triangle Park, N.C
       year: 1975
       resolves_to: ""
     - key: "32"
-      raw: Thomas, R.H. A resource sharing executive for the Arpanet. AFIPS Conf. Proc., Vol. 42, 1973 NCC, AFIPS Press, Montvale, N.J., 1973, pp. 155-163.
+      raw: Thomas, R.H. A resource sharing executive for the Arpanet. AFIPS Conf. Proc., Vol. 42, 1973 NCC, AFIPS Press, Montvale, N.J., 1973, pp. 155–163.
       authors:
         - Thomas
         - R.H
       title: A resource sharing executive for the Arpanet
-      venue: AFIPS Conf. Proc., Vol. 42, 1973 NCC, AFIPS Press, Montvale, N.J., 1973, pp. 155-163
+      venue: AFIPS Conf. Proc., Vol. 42, 1973 NCC, AFIPS Press, Montvale, N.J., 1973, pp. 155–163
       year: 1973
       pages: 155-163
       resolves_to: ""
     - key: "33"
-      raw: 'Thornton, J.E. *Design of a Computer: the Control Data 6600.* Scott Foresman and Co., Glenview, Ill. 1970.'
-      title: 'Thornton, J.E. *Design of a Computer: the Control Data 6600.* Scott Foresman and Co., Glenview, Ill'
+      raw: 'Thornton, J.E. Design of a Computer: the Control Data 6600. Scott Foresman and Co., Glenview, Ill. 1970.'
+      title: 'Thornton, J.E. Design of a Computer: the Control Data 6600'
+      venue: Scott Foresman and Co., Glenview, Ill
       year: 1970
       resolves_to: ""
     - key: "34"
-      raw: Walden, D.C. A system for interprocess communication in a resource sharing computer network. *Comm. ACM*, 15, 4 (April 1972), 221-230.
+      raw: Walden, D.C. A system for interprocess communication in a resource sharing computer network. Comm. ACM, 15, 4 (April 1972), 221–230.
       authors:
         - Walden
         - D.C
       title: A system for interprocess communication in a resource sharing computer network
-      venue: '*Comm. ACM*, 15, 4 (April 1972), 221-230'
+      venue: Comm. ACM, 15, 4 (April 1972), 221–230
       year: 1972
       pages: 221-230
       resolves_to: ""
@@ -336,7 +344,7 @@ entries:
       year: 1973
       resolves_to: ""
     - key: "36"
-      raw: 'Wulf, W., and Levin, R. C.mmp—a multi-mini-processor, AFIPS Conf. Proc., Vol. 41, 1972 FJCC, AFIPS Press, Montvale, N.J., 1972. Management Applications H. Morgan Editor # Synthesis of Decision Rules Cheng-Wen Cheng and Jonas Rabin Western Electric **Decision tables can be used as an effective tool during an interview to record the logic of processes to be automated. The result of such an interview is not a structure of complete decision tables but rather sets of decision rules. The purpose of this paper is to provide a procedure for synthesizing the decision rules and thus provide an aid in developing a structure of complete decision tables.** **Key Words and Phrases:** decision rules, decision tables, logical tables, logical design, system design, specification language **CR Categories:** 3.50, 4.33 ## 1. Introduction One of the most important stages in the systems development process is fact finding. Fact finding is an investigation and recording of current procedures and future requirements. The most effective method of fact finding is interviewing. Decision tables are an effective tool for recording the logic during the interview process, as discussed by London [1]. The primary objective of the interview is Copyright © 1976, Association for Computing Machinery, Inc. General permission to republish, but not for profit, all or part of this material is granted provided that ACM’s copyright notice is given and that reference is made to the publication, to its date of issue, and to the fact that reprinting privileges were granted by permission of the Association for Computing Machinery. Authors’ present addresses: C. W. Cheng, Western Electric, Engineering Research Center, P.O. Box 900, Princeton, NJ 08540. J. Rabin, Bell Laboratories, Naperville, IL 08540. Communications of the ACM July 1976 Volume 19'
+      raw: 'Wulf, W., and Levin, R. C.mmp—a multi-mini-processor, AFIPS Conf. Proc., Vol. 41, 1972 FJCC, AFIPS Press, Montvale, N.J., 1972. Management Applications H. Morgan Editor Synthesis of Decision Rules Cheng-Wen Cheng and Jonas Rabin Western Electric Decision tables can be used as an effective tool during an interview to record the logic of processes to be automated. The result of such an interview is not a structure of complete decision tables but rather sets of decision rules. The purpose of this paper is to provide a procedure for synthesizing the decision rules and thus provide an aid in developing a structure of complete decision tables. Key Words and Phrases: decision rules, decision tables, logical tables, logical design, system design, specification language CR Categories: 3.50, 4.33 1. Introduction One of the most important stages in the systems development process is fact finding. Fact finding is an investigation and recording of current procedures and future requirements. The most effective method of fact finding is interviewing. Decision tables are an effective tool for recording the logic during the interview process, as discussed by London [1]. The primary objective of the interview is'
       authors:
         - W. Wulf
         - Levin
@@ -348,6 +356,6 @@ entries:
         - Montvale
         - N.J
         - "1972"
-      title: 'Management Applications H. Morgan Editor # Synthesis of Decision Rules Cheng-Wen Cheng and Jonas Rabin Western Electric **Decision tables can be used as an effective tool during an interview to record the logic of processes to be automated'
-      year: 1976
+      title: Management Applications H. Morgan Editor Synthesis of Decision Rules Cheng-Wen Cheng and Jonas Rabin Western Electric Decision tables can be used as an effective tool during an interview to record the logic of processes to be automated
+      year: 1972
       resolves_to: ""

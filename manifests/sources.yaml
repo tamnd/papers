@@ -414,9 +414,14 @@ sources:
     - id: hochreiter-1997-lstm
       access: restricted
       licence: all rights reserved
-      landing: https://doi.org/10.1162/neco.1997.9.8.1735
+      url: https://www.bioinf.jku.at/publications/older/2604.pdf
+      landing: https://www.bioinf.jku.at/publications/older/
+      fetched: "2026-09-18"
+      sha256: ceb9e53dbc0493f5b3bf5520ed940f3e6b526064d17b2118d77e51f79c0edcc6
+      pages: 32
+      text_layer: digital
       by: hand
-      note: Neural Computation is MIT Press and Unpaywall reports no open location for this DOI, so nothing is fetched and only the front matter is published. The record exists because other papers in the corpus cite this one.
+      note: Neural Computation is MIT Press and Unpaywall reports no open location for this DOI, so the resolver found nothing. The copy fetched here is the authors' own, from the publications page of Hochreiter's group at JKU Linz, which is where they have posted it since the paper came out. The licence is unchanged and still all rights reserved.
     - id: jacobson-1988-congestion
       access: restricted
       url: https://ee.lbl.gov/papers/congavoid.pdf
@@ -639,9 +644,11 @@ sources:
       pages: 15
       text_layer: digital
     - id: rosenblatt-1958-perceptron
-      access: unknown
+      access: restricted
+      licence: all rights reserved
+      landing: https://doi.org/10.1037/h0042519
       by: hand
-      note: 'The file the resolver found is not this paper. It is a 38 page slide deck, "Presented by Manu Reddy, Sep 9 2015", about the paper. The paper itself is Psychological Review 65(6) 386-408, doi 10.1037/h0042519, and it is closed: OpenAlex and Semantic Scholar both report no open access copy, the seed link at ling.upenn.edu answers 403 and so does psycnet. Access is unknown rather than restricted so that nothing at all is published until somebody finds a copy the corpus may read.'
+      note: 'The file the resolver found is not this paper. It is a 38 page slide deck, "Presented by Manu Reddy, Sep 9 2015", about the paper. The paper itself is Psychological Review 65(6) 386-408, doi 10.1037/h0042519, published by the American Psychological Association, and it is closed. Unpaywall says the DOI is not open access, Semantic Scholar reports the record as CLOSED, the seed link at ling.upenn.edu answers 403 and so does psycnet. Restricted and not unknown, because unknown means nothing was found and this paper was found: what is known is that it is all rights reserved and that there is no copy anybody has put where the corpus may read it. There is no url for the same reason, so the download passes over it and nothing is extracted or published.'
     - id: royce-1970-lifecycle
       access: restricted
       url: https://raw.githubusercontent.com/tpn/pdfs/master/Managing%20the%20Development%20of%20Large%20Software%20Systems%20-%201970%20(waterfall).pdf
@@ -839,6 +846,8 @@ sources:
       licence: arXiv non-exclusive licence to distribute
       url: https://arxiv.org/pdf/1609.08144v2
       landing: https://arxiv.org/abs/1609.08144
+      fetched: "2026-09-18"
+      sha256: 285fb4323972464ba0be4f7c76a0db1a3cc196d5e44be542152f085d47fe5812
       by: pin
     - id: yeh-1991-branchprediction
       access: restricted

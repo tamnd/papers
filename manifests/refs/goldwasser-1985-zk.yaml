@@ -1,0 +1,205 @@
+paper: goldwasser-1985-zk
+style: hanging
+entries:
+    - key: "1"
+      raw: '[AGH] B. Aiello, S. Goldwasser, and J. Hastad, On the power of interaction, in Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, 1986, pp. 368-379.'
+      title: '[AGH] B. Aiello, S. Goldwasser, and J. Hastad, On the power of interaction, in Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, 1986, pp. 368-379'
+      year: 1986
+      pages: 368-379
+      resolves_to: ""
+    - key: "2"
+      raw: '[AH] B. Aiello and J. Hastad, Perfect zero-knowledge languages can be recognized in two rounds, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 439-448.'
+      title: '[AH] B. Aiello and J. Hastad, Perfect zero-knowledge languages can be recognized in two rounds, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 439-448'
+      year: 1987
+      pages: 439-448
+      resolves_to: ""
+    - key: "3"
+      raw: '[BGGHKRM] M. Ben-Or, O. Goldreich, S. Goldwasser, J. Hastad, J. Kilian, P. Rogaway, and S. Micali, Everything provable is provable in zero-knowledge, in Proc. Crypto88, to appear.'
+      title: '[BGGHKRM] M. Ben-Or, O. Goldreich, S. Goldwasser, J. Hastad, J. Kilian, P. Rogaway, and S. Micali, Everything provable is provable in zero-knowledge, in Proc. Crypto88, to appear'
+      resolves_to: ""
+    - key: "4"
+      raw: '[Bl] M. Blum, Coin flipping by telephone, IEEE COMPCON 1982, pp. 133-137.'
+      title: '[Bl] M. Blum, Coin flipping by telephone, IEEE COMPCON 1982, pp. 133-137'
+      year: 1982
+      pages: 133-137
+      resolves_to: ""
+    - key: "5"
+      raw: '[BHZ] R. Boppana, J. Hastad, and S. Zachos, Does co-NP have short interactive proofs?, Inform. Process. Lett., 25 (1987) pp. 127-132.'
+      title: '[BHZ] R. Boppana, J. Hastad, and S. Zachos, Does co-NP have short interactive proofs?, Inform'
+      venue: Process. Lett., 25 (1987) pp. 127-132
+      year: 1987
+      pages: 127-132
+      resolves_to: ""
+    - key: "6"
+      raw: '[Ba] L. Babai, Trading group theory for randomness, in Proc. 17th ACM Annual Symposium on Theory of Computation, 1975, pp. 421-429.'
+      title: '[Ba] L. Babai, Trading group theory for randomness, in Proc. 17th ACM Annual Symposium on Theory of Computation, 1975, pp. 421-429'
+      year: 1975
+      pages: 421-429
+      resolves_to: ""
+    - key: "7"
+      raw: '[BM] L. Babai and S. Moran, Arthur-Merlin games: A randomized proof system, and a hierarchy of complexity classes, J. Comput. Sci. Systems; a previous version was entitled Trading group theory for randomness, in Proc. 17th Annual ACM Symposium on Theory of Computing, 1985, pp. 421-429.'
+      title: '[BM] L. Babai and S. Moran, Arthur-Merlin games: A randomized proof system, and a hierarchy of complexity classes, J. Comput. Sci. Systems; a previous version was entitled Trading group theory for randomness, in Proc. 17th Annual ACM Symposium on Theory of Computing, 1985, pp. 421-429'
+      year: 1985
+      pages: 421-429
+      resolves_to: ""
+    - key: "8"
+      raw: '[BS] L. Babai and E. Szemeredi, On the complexity of matrix group problems, in Proc. 25th Annual IEEE Symposium on Foundations of Computer Science, pp. 229-240.'
+      title: '[BS] L. Babai and E. Szemeredi, On the complexity of matrix group problems, in Proc. 25th Annual IEEE Symposium on Foundations of Computer Science, pp. 229-240'
+      pages: 229-240
+      resolves_to: ""
+    - key: "9"
+      raw: '[BC] G. Brassard and C. Crepeau, Non-transitive transfer of confidence: A perfect zero-knowledge interactive protocol for SAT and beyond, Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, October 1986.'
+      title: '[BC] G. Brassard and C. Crepeau, Non-transitive transfer of confidence: A perfect zero-knowledge interactive protocol for SAT and beyond, Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, October 1986'
+      year: 1986
+      resolves_to: ""
+    - key: "10"
+      raw: '[Ch] D. Chaum, Demonstrating the public predicate can be satisfied without revealing any information how, in Proc. Crypto86.'
+      title: '[Ch] D. Chaum, Demonstrating the public predicate can be satisfied without revealing any information how, in Proc. Crypto86'
+      resolves_to: ""
+    - key: "11"
+      raw: '[Co] J. Cohen (Benaloh), Cryptographic capsules, in Proc. Crypto86.'
+      title: '[Co] J. Cohen (Benaloh), Cryptographic capsules, in Proc. Crypto86'
+      resolves_to: ""
+    - key: "12"
+      raw: '[CKS] A. Chandra, D. Kozen, and L. Stockmeyer, Alternation, J. Assoc. Comput. Mach., 28 (1981), pp. 114-133.'
+      title: '[CKS] A. Chandra, D. Kozen, and L. Stockmeyer, Alternation, J. Assoc. Comput. Mach., 28 (1981), pp. 114-133'
+      year: 1981
+      pages: 114-133
+      resolves_to: ""
+    - key: "13"
+      raw: '[C] S. Cook, The complexity of theorem-proving procedures, in Proc. 3rd Annual ACM Symposium of Theory of Computation, 1971, pp. 151-158.'
+      title: '[C] S. Cook, The complexity of theorem-proving procedures, in Proc. 3rd Annual ACM Symposium of Theory of Computation, 1971, pp. 151-158'
+      year: 1971
+      pages: 151-158
+      resolves_to: ""
+    - key: "14"
+      raw: '[CR] S. Cook and R. Reckhow, The relative efficiency of propositional proof systems, J. Symbolic Logic, 44 (1979).'
+      title: '[CR] S. Cook and R. Reckhow, The relative efficiency of propositional proof systems, J. Symbolic Logic, 44 (1979)'
+      year: 1979
+      resolves_to: ""
+    - key: "15"
+      raw: '[F] P. Feldman, private communication.'
+      title: '[F] P. Feldman, private communication'
+      resolves_to: ""
+    - key: "16"
+      raw: '[FMRW] M. Fischer, S. Micali, C. Rackoff, and D. Witenberg, *A secure protocol for the oblivious transfer*, unpublished manuscript, 1986.'
+      title: '[FMRW] M. Fischer, S. Micali, C. Rackoff, and D. Witenberg, *A secure protocol for the oblivious transfer*, unpublished manuscript, 1986'
+      year: 1986
+      resolves_to: ""
+    - key: "17"
+      raw: '[FFS] U. Feige, A. Fiat, and A. Shamir, *Zero knowledge proofs of identity*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 210–217.'
+      title: '[FFS] U. Feige, A. Fiat, and A. Shamir, *Zero knowledge proofs of identity*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 210–217'
+      year: 1987
+      pages: 210-217
+      resolves_to: ""
+    - key: "18"
+      raw: '[Fo] L. Fortnow, *The complexity of perfect zero-knowledge*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 204–209.'
+      title: '[Fo] L. Fortnow, *The complexity of perfect zero-knowledge*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 204–209'
+      year: 1987
+      pages: 204-209
+      resolves_to: ""
+    - key: "19"
+      raw: '[FH] R. Fagin and J. Halpern, *Belief, awareness, and limited reasoning*, in Proc. 9th International Joint Conference on Artificial Intelligence, 1985, pp. 491–501.'
+      title: '[FH] R. Fagin and J. Halpern, *Belief, awareness, and limited reasoning*, in Proc. 9th International Joint Conference on Artificial Intelligence, 1985, pp. 491–501'
+      year: 1985
+      pages: 491-501
+      resolves_to: ""
+    - key: "20"
+      raw: '[FHV] R. Fagin, J. Halpern, and M. Vardi, *A model theoretic analysis of knowledge*, in Proc. 25th Annual IEEE Symposium on Foundations of Computer Science, 1984, pp. 268–278.'
+      title: '[FHV] R. Fagin, J. Halpern, and M. Vardi, *A model theoretic analysis of knowledge*, in Proc. 25th Annual IEEE Symposium on Foundations of Computer Science, 1984, pp. 268–278'
+      year: 1984
+      pages: 268-278
+      resolves_to: ""
+    - key: "21"
+      raw: '[GM] S. Goldwasser and S. Micali, *Probabilistic encryption*, J. Comput. Science and Systems, 28 (1984), pp. 270–299.'
+      title: '[GM] S. Goldwasser and S. Micali, *Probabilistic encryption*, J. Comput. Science and Systems, 28 (1984), pp. 270–299'
+      year: 1984
+      pages: 270-299
+      resolves_to: ""
+    - key: "22"
+      raw: '[GM1] ———, *Proofs with untrusted oracles*, unpublished manuscript (submitted to STOC, 1984). Revised version: *The information content of proof systems*, unpublished manuscript (submitted to STOC, 1984).'
+      title: '[GM1] ———, *Proofs with untrusted oracles*, unpublished manuscript (submitted to STOC, 1984)'
+      venue: 'Revised version: *The information content of proof systems*, unpublished manuscript (submitted to STOC, 1984)'
+      year: 1984
+      resolves_to: ""
+    - key: "23"
+      raw: '[GMS] O. Goldreich, Y. Mansour, and M. Sipser, *Interactive proof systems: Provers that never fail and random selection*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 449–460.'
+      title: '[GMS] O. Goldreich, Y. Mansour, and M. Sipser, *Interactive proof systems: Provers that never fail and random selection*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 449–460'
+      year: 1987
+      pages: 449-460
+      resolves_to: ""
+    - key: "24"
+      raw: '[GMR] S. Goldwasser, S. Micali, and C. Rackoff, *The knowledge complexity of interactive proof systems*, in Proc. 27th Annual Symposium on Foundations of Computer Science, 1985, pp. 291–304. Earlier version: *Knowledge complexity*, unpublished manuscript, (submitted to FOCS, 1984).'
+      title: '[GMR] S. Goldwasser, S. Micali, and C. Rackoff, *The knowledge complexity of interactive proof systems*, in Proc. 27th Annual Symposium on Foundations of Computer Science, 1985, pp. 291–304'
+      venue: 'Earlier version: *Knowledge complexity*, unpublished manuscript, (submitted to FOCS, 1984)'
+      year: 1984
+      pages: 291-304
+      resolves_to: ""
+    - key: "25"
+      raw: '[GS] S. Goldwasser and M. Sipser, *Private coins versus public coins in interactive proof-systems*, in Proc. 18th Annual Symposium on Theory of Computing, 1986, pp. 59–68.'
+      title: '[GS] S. Goldwasser and M. Sipser, *Private coins versus public coins in interactive proof-systems*, in Proc. 18th Annual Symposium on Theory of Computing, 1986, pp. 59–68'
+      year: 1986
+      pages: 59-68
+      resolves_to: ""
+    - key: "26"
+      raw: '[GHY] Z. Galil, S. Haber, and M. Yung, *A private interactive test of a Boolean predicate and minimum-knowledge public-key cryptosystems*, in Proc. 26th Annual IEEE Symposium on Foundations of Computer Science, 1985, pp. 360–371.'
+      title: '[GHY] Z. Galil, S. Haber, and M. Yung, *A private interactive test of a Boolean predicate and minimum-knowledge public-key cryptosystems*, in Proc. 26th Annual IEEE Symposium on Foundations of Computer Science, 1985, pp. 360–371'
+      year: 1985
+      pages: 360-371
+      resolves_to: ""
+    - key: "27"
+      raw: '[GMW] O. Goldreich, S. Micali, and A. Wigderson, *Proofs that yield nothing but their validity and a methodology of cryptographic protocol design*, in Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, 1986, pp. 174–187.'
+      title: '[GMW] O. Goldreich, S. Micali, and A. Wigderson, *Proofs that yield nothing but their validity and a methodology of cryptographic protocol design*, in Proc. 27th Annual IEEE Symposium on Foundations of Computer Science, 1986, pp. 174–187'
+      year: 1986
+      pages: 174-187
+      resolves_to: ""
+    - key: "28"
+      raw: ———, *How to play any mental game*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 218–229.
+      title: ———, *How to play any mental game*, in Proc. 19th Annual ACM Symposium on Theory of Computing, 1987, pp. 218–229
+      year: 1987
+      pages: 218-229
+      resolves_to: ""
+    - key: "29"
+      raw: '[HM] J. Halpern and Y. Moses, *Knowledge and common knowledge in a distributed environment*, in Proc. 3rd Principles of Distributed Computing Conference, 1984, pp. 50–61.'
+      title: '[HM] J. Halpern and Y. Moses, *Knowledge and common knowledge in a distributed environment*, in Proc. 3rd Principles of Distributed Computing Conference, 1984, pp. 50–61'
+      year: 1984
+      pages: 50-61
+      resolves_to: ""
+    - key: "30"
+      raw: '[LMR] M. Luby, S. Micali, and C. Rackoff, *How to simultaneously exchange a secret bit by flipping a symmetrically-biased coin*, in Proc. 24th Annual IEEE Symposium on Foundations of Computer Science, 1983, pp. 11–22.'
+      title: '[LMR] M. Luby, S. Micali, and C. Rackoff, *How to simultaneously exchange a secret bit by flipping a symmetrically-biased coin*, in Proc. 24th Annual IEEE Symposium on Foundations of Computer Science, 1983, pp. 11–22'
+      year: 1983
+      pages: 11-22
+      resolves_to: ""
+    - key: "31"
+      raw: '[O] Y. Oren, *On the cunning power of cheating verifiers: some observations of zero-knowledge proofs*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 462–471.'
+      title: '[O] Y. Oren, *On the cunning power of cheating verifiers: some observations of zero-knowledge proofs*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 462–471'
+      year: 1987
+      pages: 462-471
+      resolves_to: ""
+    - key: "32"
+      raw: '[P] C. Papadimitriou, *Games against nature*, in Proc. 24th Annual IEEE Symposium on Foundations of Computer Science, 1983, pp. 446–450.'
+      title: '[P] C. Papadimitriou, *Games against nature*, in Proc. 24th Annual IEEE Symposium on Foundations of Computer Science, 1983, pp. 446–450'
+      year: 1983
+      pages: 446-450
+      resolves_to: ""
+    - key: "33"
+      raw: '[TW] M. Tompa and H. Woll, *Random self reducibility and zero knowledge interactive proofs of possession of information*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 472–482.'
+      title: '[TW] M. Tompa and H. Woll, *Random self reducibility and zero knowledge interactive proofs of possession of information*, in Proc. 28th Annual IEEE Symposium on Foundations of Computer Science, 1987, pp. 472–482'
+      year: 1987
+      pages: 472-482
+      resolves_to: ""
+    - key: "34"
+      raw: '[ZF] S. Zachos and M. Furer, *Probabilistic quantifiers vs. distrustful adversaries*, in Proc. Structure of Complexity Classes Conference, 1986.'
+      title: '[ZF] S. Zachos and M. Furer, *Probabilistic quantifiers vs'
+      venue: distrustful adversaries*, in Proc. Structure of Complexity Classes Conference
+      year: 1986
+      resolves_to: ""
+    - key: "35"
+      raw: '[Y] A. Yao, *Theory and application of trapdoor functions*, in Proc. 23rd Annual IEEE Symposium on Foundations of Computer Science, November 1982, pp. 80–91.'
+      title: '[Y] A. Yao, *Theory and application of trapdoor functions*, in Proc. 23rd Annual IEEE Symposium on Foundations of Computer Science, November 1982, pp. 80–91'
+      year: 1982
+      pages: 80-91
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

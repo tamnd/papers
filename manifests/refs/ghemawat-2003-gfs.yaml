@@ -1,0 +1,141 @@
+paper: ghemawat-2003-gfs
+style: bracket
+entries:
+    - key: "1"
+      raw: Thomas Anderson, Michael Dahlin, Jeanna Neefe, David Patterson, Drew Roselli, and Randolph Wang. Serverless network file systems. In Proceedings of the 15th ACM Symposium on Operating System Principles, pages 109–126, Copper Mountain Resort, Colorado, December 1995.
+      authors:
+        - Thomas Anderson
+        - Michael Dahlin
+        - Jeanna Neefe
+        - David Patterson
+        - Drew Roselli
+        - Randolph Wang
+      title: Serverless network file systems
+      venue: In Proceedings of the 15th ACM Symposium on Operating System Principles, pages 109–126, Copper Mountain Resort, Colorado
+      year: 1995
+      pages: 109-126
+      resolves_to: ""
+    - key: "2"
+      raw: 'Remzi H. Arpaci-Dusseau, Eric Anderson, Noah Treuhaft, David E. Culler, Joseph M. Hellerstein, David Patterson, and Kathy Yelick. Cluster I/O with River: Making the fast case common. In Proceedings of the Sixth Workshop on Input/Output in Parallel and Distributed Systems (IOPADS ’99), pages 10–22, Atlanta, Georgia, May 1999.'
+      authors:
+        - Remzi H. Arpaci-Dusseau
+        - Eric Anderson
+        - Noah Treuhaft
+        - David E. Culler
+        - Joseph M. Hellerstein
+        - David Patterson
+        - Kathy Yelick
+      title: 'Cluster I/O with River: Making the fast case common'
+      venue: In Proceedings of the Sixth Workshop on Input/Output in Parallel and Distributed Systems (IOPADS ’99), pages 10–22, Atlanta, Georgia
+      year: 1999
+      pages: 10-22
+      resolves_to: ""
+    - key: "3"
+      raw: 'Luis-Felipe Cabrera and Darrell D. E. Long. Swift: Using distributed disk striping to provide high I/O data rates. Computer Systems, 4(4):405–436, 1991.'
+      authors:
+        - Luis-Felipe Cabrera
+        - Darrell D. E. Long
+      title: 'Swift: Using distributed disk striping to provide high I/O data rates'
+      venue: Computer Systems, 4(4):405–436
+      year: 1991
+      resolves_to: ""
+    - key: "4"
+      raw: Garth A. Gibson, David F. Nagle, Khalil Amiri, Jeff Butler, Fay W. Chang, Howard Gobioff, Charles Hardin, Erik Riedel, David Rochberg, and Jim Zelenka. A cost-effective, high-bandwidth storage architecture. In Proceedings of the 8th Architectural Support for Programming Languages and Operating Systems, pages 92–103, San Jose, California, October 1998.
+      authors:
+        - Garth A. Gibson
+        - David F. Nagle
+        - Khalil Amiri
+        - Jeff Butler
+        - Fay W. Chang
+        - Howard Gobioff
+        - Charles Hardin
+        - Erik Riedel
+        - David Rochberg
+        - Jim Zelenka
+      title: A cost-effective, high-bandwidth storage architecture
+      venue: In Proceedings of the 8th Architectural Support for Programming Languages and Operating Systems, pages 92–103, San Jose, California
+      year: 1998
+      pages: 92-103
+      resolves_to: ""
+    - key: "5"
+      raw: John Howard, Michael Kazar, Sherri Menees, David Nichols, Mahadev Satyanarayanan, Robert Sidebotham, and Michael West. Scale and performance in a distributed file system. ACM Transactions on Computer Systems, 6(1):51–81, February 1988.
+      authors:
+        - John Howard
+        - Michael Kazar
+        - Sherri Menees
+        - David Nichols
+        - Mahadev Satyanarayanan
+        - Robert Sidebotham
+        - Michael West
+      title: Scale and performance in a distributed file system
+      venue: ACM Transactions on Computer Systems, 6(1):51–81
+      year: 1988
+      resolves_to: ""
+    - key: "6"
+      raw: InterMezzo. http://www.inter-mezzo.org, 2003.
+      title: InterMezzo
+      year: 2003
+      url: http://www.inter-mezzo.org
+      resolves_to: ""
+    - key: "7"
+      raw: Barbara Liskov, Sanjay Ghemawat, Robert Gruber, Paul Johnson, Liuba Shrira, and Michael Williams. Replication in the Harp file system. In 13th Symposium on Operating System Principles, pages 226–238, Pacific Grove, CA, October 1991.
+      authors:
+        - Barbara Liskov
+        - Sanjay Ghemawat
+        - Robert Gruber
+        - Paul Johnson
+        - Liuba Shrira
+        - Michael Williams
+      title: Replication in the Harp file system
+      venue: In 13th Symposium on Operating System Principles, pages 226–238, Pacific Grove, CA
+      year: 1991
+      pages: 226-238
+      resolves_to: ""
+    - key: "8"
+      raw: Lustre. http://www.lustreorg, 2003.
+      title: Lustre
+      year: 2003
+      url: http://www.lustreorg
+      resolves_to: ""
+    - key: "9"
+      raw: David A. Patterson, Garth A. Gibson, and Randy H. Katz. A case for redundant arrays of inexpensive disks (RAID). In Proceedings of the 1988 ACM SIGMOD International Conference on Management of Data, pages 109–116, Chicago, Illinois, September 1988.
+      authors:
+        - David A. Patterson
+        - Garth A. Gibson
+        - Randy H. Katz
+      title: A case for redundant arrays of inexpensive disks (RAID)
+      venue: In Proceedings of the 1988 ACM SIGMOD International Conference on Management of Data, pages 109–116, Chicago, Illinois
+      year: 1988
+      pages: 109-116
+      resolves_to: ""
+    - key: "10"
+      raw: 'Frank Schmuck and Roger Haskin. GPFS: A shared-disk file system for large computing clusters. In Proceedings of the First USENIX Conference on File and Storage Technologies, pages 231–244, Monterey, California, January 2002.'
+      authors:
+        - Frank Schmuck
+        - Roger Haskin
+      title: 'GPFS: A shared-disk file system for large computing clusters'
+      venue: In Proceedings of the First USENIX Conference on File and Storage Technologies, pages 231–244, Monterey, California
+      year: 2002
+      pages: 231-244
+      resolves_to: ""
+    - key: "11"
+      raw: Steven R. Soltis, Thomas M. Ruwart, and Matthew T. O’Keefe. The Gobal File System. In Proceedings of the Fifth NASA Goddard Space Flight Center Conference on Mass Storage Systems and Technologies, College Park, Maryland, September 1996.
+      authors:
+        - Steven R. Soltis
+        - Thomas M. Ruwart
+        - Matthew T. O’Keefe
+      title: The Gobal File System
+      venue: In Proceedings of the Fifth NASA Goddard Space Flight Center Conference on Mass Storage Systems and Technologies, College Park, Maryland
+      year: 1996
+      resolves_to: ""
+    - key: "12"
+      raw: 'Chandramohan A. Thekkath, Timothy Mann, and Edward K. Lee. Frangipani: A scalable distributed file system. In Proceedings of the 16th ACM Symposium on Operating System Principles, pages 224–237, Saint-Malo, France, October 1997.'
+      authors:
+        - Chandramohan A. Thekkath
+        - Timothy Mann
+        - Edward K. Lee
+      title: 'Frangipani: A scalable distributed file system'
+      venue: In Proceedings of the 16th ACM Symposium on Operating System Principles, pages 224–237, Saint-Malo, France
+      year: 1997
+      pages: 224-237
+      resolves_to: ""

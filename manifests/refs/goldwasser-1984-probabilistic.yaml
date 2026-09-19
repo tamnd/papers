@@ -1,0 +1,238 @@
+paper: goldwasser-1984-probabilistic
+style: number
+entries:
+    - key: "1"
+      raw: L. Adleman, K. Manders, and G. Miller, On taking roots in finite fields, in “Proceedings of the 18th Annual IEEE Symposium on Foundations of Computer Science,” pp. 175–177, 1977.
+      authors:
+        - L. Adleman
+        - K. Manders
+        - G. Miller
+        - On taking roots in finite fields
+        - in
+      title: Proceedings of the 18th Annual IEEE Symposium on Foundations of Computer Science
+      venue: pp. 175–177
+      year: 1977
+      pages: 175-177
+      resolves_to: ""
+    - key: "2"
+      raw: L. Adleman, On distinguishing prime numbers from composite numbers, in “Proceedings of the 21st IEEE Symposium on the Foundations of Computer Science,” pp. 387–408, Syracuse, N.Y., 1980.
+      authors:
+        - L. Adleman
+        - On distinguishing prime numbers from composite numbers
+        - in
+      title: Proceedings of the 21st IEEE Symposium on the Foundations of Computer Science
+      venue: pp. 387–408, Syracuse, N.Y
+      year: 1980
+      pages: 387-408
+      resolves_to: ""
+    - key: "3"
+      raw: M. BLUM, Coin flipping by telephone, in "Proceedings of the IEEE, Spring Comp-Con, pp. 133-137, 1982.
+      title: M. BLUM, Coin flipping by telephone, in "Proceedings of the IEEE, Spring Comp-Con, pp. 133-137, 1982
+      year: 1982
+      pages: 133-137
+      resolves_to: ""
+    - key: "4"
+      raw: L. BLUM, M. BLUM, AND M. SHUB, "A Simple Secure Pseudo-Random Number Generator," CRYPTO, 1982.
+      authors:
+        - L. BLUM
+        - M. BLUM
+        - M. SHUB
+      title: A Simple Secure Pseudo-Random Number Generator
+      venue: CRYPTO
+      year: 1982
+      resolves_to: ""
+    - key: "5"
+      raw: M. BLUM AND S. MICALI, How to generate cryptographically strong sequences of pseudo random bits, in "Proceedings of the 23rd IEEE on the Foundations of Computer Science," Chicago, Ill., 1982.
+      authors:
+        - M. BLUM
+        - S. MICALI
+        - How to generate cryptographically strong sequences of pseudo random bits
+        - in
+      title: Proceedings of the 23rd IEEE on the Foundations of Computer Science
+      venue: Chicago, Ill
+      year: 1982
+      resolves_to: ""
+    - key: "6"
+      raw: G. BRASSARD, Relativized cryptography, in "Proceedings of the 20th IEEE Symposium on the Foundations of Computer Science," pp. 383-391, San Juan, Puerto Rico, 1979.
+      authors:
+        - G. BRASSARD
+        - Relativized cryptography
+        - in
+      title: Proceedings of the 20th IEEE Symposium on the Foundations of Computer Science
+      venue: pp. 383-391, San Juan, Puerto Rico
+      year: 1979
+      pages: 383-391
+      resolves_to: ""
+    - key: "7"
+      raw: G. BRASSARD, On computationally secure authentication tags requiring short secret shared keys, CRYPTO, 1982.
+      title: G. BRASSARD, On computationally secure authentication tags requiring short secret shared keys, CRYPTO, 1982
+      year: 1982
+      resolves_to: ""
+    - key: "8"
+      raw: C. F. GAUSS, "Disquisitiones Arithmeticae," 1801, translated by A. Arthur and S. J. Clark, Yale Univ. Press, New Haven, 1966.
+      authors:
+        - C. F. GAUSS
+      title: Disquisitiones Arithmeticae
+      venue: 1801, translated by A. Arthur and S. J. Clark, Yale Univ. Press, New Haven
+      year: 1966
+      resolves_to: ""
+    - key: "9"
+      raw: W. DIFFIE AND M. E. HELLMAN, New direction in cryptography, IEEE Trans. Inform. Theory IT-22 (6) (1976), 644-654.
+      authors:
+        - W. DIFFIE
+        - M. E. HELLMAN
+        - New direction in cryptography
+        - IEEE Trans. Inform
+      title: Theory IT-22 (6) (1976), 644-654
+      year: 1976
+      pages: 644-654
+      resolves_to: ""
+    - key: "10"
+      raw: S. GOLDWASSER AND S. MICALI, "A Bit by Bit Secure Public Key Cryptosystem," Memorandum No. UCB/ERL M81/88, University of California, Berkeley, December 1981.
+      authors:
+        - S. GOLDWASSER
+        - S. MICALI
+      title: A Bit by Bit Secure Public Key Cryptosystem
+      venue: Memorandum No. UCB/ERL M81/88, University of California, Berkeley
+      year: 1981
+      resolves_to: ""
+    - key: "11"
+      raw: S. GOLDWASSER AND S. MICALI, Probabilistic encryption & how to play mental poker, keeping secret all partial information, in "Proceeding of 14th STOC Conference," San Francisco, 1982.
+      authors:
+        - S. GOLDWASSER
+        - S. MICALI
+        - Probabilistic encryption
+        - how to play mental poker
+        - keeping secret all partial information
+        - in
+      title: Proceeding of 14th STOC Conference
+      venue: San Francisco
+      year: 1982
+      resolves_to: ""
+    - key: "12"
+      raw: S. GOLDWASSER, S. MICALI, AND P. TONG, Why and how to establish a private code in a public network, in "Proceedings of the 23rd Symposium on Foundations of Computer Science," Chicago, Ill., 1982.
+      authors:
+        - S. GOLDWASSER
+        - S. MICALI
+        - P. TONG
+        - Why
+        - how to establish a private code in a public network
+        - in
+      title: Proceedings of the 23rd Symposium on Foundations of Computer Science
+      venue: Chicago, Ill
+      year: 1982
+      resolves_to: ""
+    - key: "13"
+      raw: 'S. GOLDWASSER, "Probabilistic Encryption: Theory and Applications," Ph.D. thesis, Univ. of California at Berkeley, 1983.'
+      authors:
+        - S. GOLDWASSER
+      title: 'Probabilistic Encryption: Theory and Applications'
+      venue: Ph.D. thesis, Univ. of California at Berkeley
+      year: 1983
+      resolves_to: ""
+    - key: "14"
+      raw: S. GOLDWASSER, S. MICALI, AND A. YAO, Strong signature schemes and authentication, in "Proceedings, 15th STOC," Boston, Mass., 1983.
+      authors:
+        - S. GOLDWASSER
+        - S. MICALI
+        - A. YAO
+        - Strong signature schemes
+        - authentication
+        - in
+      title: Proceedings, 15th STOC
+      venue: Boston, Mass
+      year: 1983
+      resolves_to: ""
+    - key: "15"
+      raw: K. R. GUY, How to factor a number, in "Proceedings of Fifth Manitoba Conference on Numerical Math.," pp. 49-89, 1975.
+      authors:
+        - K. R. GUY
+        - How to factor a number
+        - in
+      title: Proceedings of Fifth Manitoba Conference on Numerical Math
+      venue: pp. 49-89
+      year: 1975
+      pages: 49-89
+      resolves_to: ""
+    - key: "16"
+      raw: D. KNUTH, "The Art of Computer Programming," Vol. 2, 2nd ed., Addison-Wellesley, Reading, Mass., 1981.
+      authors:
+        - D. KNUTH
+      title: The Art of Computer Programming
+      venue: Vol. 2, 2nd ed., Addison-Wellesley, Reading, Mass
+      year: 1981
+      resolves_to: ""
+    - key: "17"
+      raw: R. LIPTON, How to cheat at mental poker, in "Proceeding of the AMS Short Course on Cryptology," January 1981.
+      authors:
+        - R. LIPTON
+        - How to cheat at mental poker
+        - in
+      title: Proceeding of the AMS Short Course on Cryptology
+      year: 1981
+      resolves_to: ""
+    - key: "18"
+      raw: G. MILLER, Riemann's hypothesis and tests for primality, Ph.D. thesis, U.C. Berkeley, 1975.
+      title: G. MILLER, Riemann's hypothesis and tests for primality, Ph.D. thesis, U.C. Berkeley, 1975
+      year: 1975
+      resolves_to: ""
+    - key: "19"
+      raw: M. LUBY, S. MICALI, AND C. RACKOFF, How to simultaneously exchange a secret bit by flipping a symmetrically-biased coin, FOCS 1983.
+      title: M. LUBY, S. MICALI, AND C. RACKOFF, How to simultaneously exchange a secret bit by flipping a symmetrically-biased coin, FOCS 1983
+      year: 1983
+      resolves_to: ""
+    - key: "20"
+      raw: M. RABIN, Digitalized signatures and public-key functions as intractable as factorization, MIT/LCS/TR-212, Technical Memo MIT, 1979.
+      title: M. RABIN, Digitalized signatures and public-key functions as intractable as factorization, MIT/LCS/TR-212, Technical Memo MIT, 1979
+      year: 1979
+      resolves_to: ""
+    - key: "21"
+      raw: R. RIVEST, A. SHAMIR, AND L. ADLEMAN, A method for obtaining digital signatures and public key cryptosystems, Communications of the ACM, February 1978.
+      title: R. RIVEST, A. SHAMIR, AND L. ADLEMAN, A method for obtaining digital signatures and public key cryptosystems, Communications of the ACM, February 1978
+      year: 1978
+      resolves_to: ""
+    - key: "22"
+      raw: A. SHAMIR, R. RIVEST, AND L. ADLEMAN, "Mental Poker," MIT Technical Report, 1978.
+      authors:
+        - A. SHAMIR
+        - R. RIVEST
+        - L. ADLEMAN
+      title: Mental Poker
+      venue: MIT Technical Report
+      year: 1978
+      resolves_to: ""
+    - key: "23"
+      raw: C. E. SHANNON, Communication theory of secrecy systems, Bell System Tech. J. 28 (1949), 656-715.
+      title: C. E. SHANNON, Communication theory of secrecy systems, Bell System Tech. J. 28 (1949), 656-715
+      year: 1949
+      pages: 656-715
+      resolves_to: ""
+    - key: "24"
+      raw: D. SHANKS, "Solved and Unsolved Problems in Number Theory," Chelsea, New York, 1978.
+      authors:
+        - D. SHANKS
+      title: Solved and Unsolved Problems in Number Theory
+      venue: Chelsea, New York
+      year: 1978
+      resolves_to: ""
+    - key: "25"
+      raw: V. VAZIRANI AND U. VAZIRANI, Secure one-bit disclosures using a pseudo random number generator, in "Proceedings, FOCS," 1983.
+      authors:
+        - V. VAZIRANI
+        - U. VAZIRANI
+        - Secure one-bit disclosures using a pseudo random number generator
+        - in
+      title: Proceedings, FOCS
+      year: 1983
+      resolves_to: ""
+    - key: "26"
+      raw: A. YAO, On the theory and application of trapdoor functions, in "Proceedings of the 23rd Symposium on the Foundations of Computer Science," Chicago, Ill., November 1982.
+      authors:
+        - A. YAO
+        - On the theory
+        - application of trapdoor functions
+        - in
+      title: Proceedings of the 23rd Symposium on the Foundations of Computer Science
+      venue: Chicago, Ill
+      year: 1982
+      resolves_to: ""

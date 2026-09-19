@@ -21,6 +21,7 @@ pages:
       printed: "217"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 4
       printed: "218"
       size: [612, 792]
@@ -33,22 +34,27 @@ pages:
       printed: "220"
       size: [612, 792]
       columns: 2
+      figures: [f02]
     - pdf: 7
       printed: "221"
       size: [612, 792]
       columns: 2
+      figures: [f03]
     - pdf: 8
       printed: "222"
       size: [612, 792]
       columns: 2
+      figures: [f04]
     - pdf: 9
       printed: "223"
       size: [612, 792]
       columns: 2
+      figures: [f05]
     - pdf: 10
       printed: "224"
       size: [612, 792]
       columns: 2
+      figures: [f06]
     - pdf: 11
       printed: "225"
       size: [612, 792]

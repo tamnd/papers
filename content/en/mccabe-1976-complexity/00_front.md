@@ -14,10 +14,12 @@ source: http://www.literateprogramming.com/mccabe.pdf
 pdf_sha256: be2ac1035940dfc7fa231e23b33bfa3c2f3e3d8ef3112e20cf92a35a7af537f6
 pdf_pages: "1"
 extraction: vision
-extraction_model: gpt-5
-content_sha256: de0c8f3f12115ce84af61d9a6d62f2192b1a75afb199b686166359d8f27c2ff4
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: 58dda0a567c5f2db68c54ab4bf1af78e8aca578bcc91fcc09e586bd8c364c291
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
+
+IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, VOL. SE-2, NO. 4, DECEMBER 1976
 
 A Complexity Measure
 

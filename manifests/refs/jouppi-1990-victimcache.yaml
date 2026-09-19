@@ -20,8 +20,12 @@ entries:
       year: 1989
       resolves_to: ""
     - key: "3"
-      raw: Digital Equipment Corporation, Inc. *VAX Hardware Handbook, volume 1 - 1984.* Maynard, Massachusetts, 1984.
-      title: Digital Equipment Corporation, Inc. *VAX Hardware Handbook, volume 1 - 1984.* Maynard, Massachusetts, 1984
+      raw: Digital Equipment Corporation, Inc. VAX Hardware Handbook, volume 1 - 1984. Maynard, Massachusetts, 1984.
+      authors:
+        - Digital Equipment Corporation
+        - Inc. VAX Hardware Handbook
+        - volume 1 - 1984
+      title: Maynard, Massachusetts, 1984
       year: 1984
       resolves_to: ""
     - key: "4"
@@ -54,8 +58,12 @@ entries:
       pages: 234-241
       resolves_to: ""
     - key: "7"
-      raw: Hill, Mark D. *Aspects of Cache Memory and Instruction Buffer Performance.* Ph.D. Th., University of California, Berkeley, 1987.
-      title: Hill, Mark D. *Aspects of Cache Memory and Instruction Buffer Performance.* Ph.D. Th., University of California, Berkeley, 1987
+      raw: Hill, Mark D. Aspects of Cache Memory and Instruction Buffer Performance. Ph.D. Th., University of California, Berkeley, 1987.
+      authors:
+        - Hill
+        - Mark D. Aspects of Cache Memory
+        - Instruction Buffer Performance
+      title: Ph.D. Th., University of California, Berkeley, 1987
       year: 1987
       resolves_to: ""
     - key: "8"
@@ -90,31 +98,31 @@ entries:
       year: 1986
       resolves_to: ""
     - key: "11"
-      raw: Ousterhout, John. Why Aren't Operating Systems Getting Faster As Fast As Hardware? Tech. Rept. Technote 11, Digital Equipment Corporation Western Research Laboratory, October, 1989.
+      raw: Ousterhout, John. Why Aren’t Operating Systems Getting Faster As Fast As Hardware? Tech. Rept. Technote 11, Digital Equipment Corporation Western Research Laboratory, October, 1989.
       authors:
         - Ousterhout
         - John
-      title: Why Aren't Operating Systems Getting Faster As Fast As Hardware? Tech. Rept
+      title: Why Aren’t Operating Systems Getting Faster As Fast As Hardware? Tech. Rept
       venue: Technote 11, Digital Equipment Corporation Western Research Laboratory
       year: 1989
       resolves_to: ""
     - key: "12"
-      raw: Smith, Alan J. “Sequential program prefetching in memory hierarchies.” *IEEE Computer* 11, 12 (December 1978), 7-21.
+      raw: Smith, Alan J. “Sequential program prefetching in memory hierarchies.” IEEE Computer 11, 12 (December 1978), 7-21.
       authors:
         - Smith
         - Alan J
       title: Sequential program prefetching in memory hierarchies
-      venue: '*IEEE Computer* 11, 12 (December 1978), 7-21'
+      venue: IEEE Computer 11, 12 (December 1978), 7-21
       year: 1978
       pages: 7-21
       resolves_to: ""
     - key: "13"
-      raw: Smith, Alan J. “Cache Memories.” *Computing Surveys* (September 1982), 473-530.
+      raw: Smith, Alan J. “Cache Memories.” Computing Surveys (September 1982), 473-530.
       authors:
         - Smith
         - Alan J
       title: Cache Memories
-      venue: '*Computing Surveys* (September 1982), 473-530'
+      venue: Computing Surveys (September 1982), 473-530
       year: 1982
       pages: 473-530
       resolves_to: ""

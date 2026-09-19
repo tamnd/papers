@@ -16,9 +16,9 @@ source: https://www.cidrdb.org/cidr2005/papers/P19.pdf
 pdf_sha256: c509153c876aee8706e298d43e2fa93ade2696cc3102643b439af0f508bb52fc
 pdf_pages: "1"
 extraction: vision
-extraction_model: gpt-5
+extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: e6bada5be532f712f7962f9ac5553fd3773e9bb929695abc3914536d55226ffd
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 MonetDB/X100: Hyper-Pipelining Query Execution

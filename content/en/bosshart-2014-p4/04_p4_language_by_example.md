@@ -26,7 +26,7 @@ pdf_sha256: 2bb0ccb7b5410868efdecc9ef5208d235c6f3aa75dee84aa992751aed117a42f
 pdf_pages: 4-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 38febf1d6dc10fb4a818de5f4c83b224e6407fbf26b752bb33e90de845423d9d
+content_sha256: 3e51a390a01afc36f294f48d1807c5487f1bd552ef71d5ae72cb266ac74f041f
 prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
 ---
 
@@ -133,8 +133,9 @@ In our simple $mTag$ example, the edge switch matches on the L2 destination and 
 
 The table specification allows a compiler to decide how much memory it needs, and the memory type (e.g., TCAM or SRAM) to implement the table.
 
-```text
 table mTag_table {
+
+```text
 reads {
         ethernet.dst_addr : exact;
         vlan.vid : exact;

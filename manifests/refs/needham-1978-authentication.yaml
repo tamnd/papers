@@ -1,0 +1,79 @@
+paper: needham-1978-authentication
+style: number
+entries:
+    - key: "1"
+      raw: Branstad, D. Security aspects of computer networks, Proc. AIAA Comprr. Network Syst. Conf., April 1973, paper 73-427.
+      authors:
+        - Branstad
+        - D. Security aspects of computer networks
+        - Proc. AIAA Comprr
+      title: Network Syst. Conf., April 1973, paper 73-427
+      year: 1973
+      resolves_to: ""
+    - key: "2"
+      raw: Branstad, D. Encryption protection in computer data communications. Proc. Fourth Data Communications Symp., Oct. 1975, pp. 8.1–8.7 (available from ACM, New York).
+      authors:
+        - D. Branstad
+      title: Encryption protection in computer data communications
+      venue: Proc. Fourth Data Communications Symp., Oct. 1975, pp. 8.1–8.7 (available from ACM, New York)
+      year: 1975
+      resolves_to: ""
+    - key: "3"
+      raw: Diffie, W., and Hellman, M. Multiuser Cryptographic Techniques, Proc AFIPS 1976 NCC, AFIPS Press, Montvale, N.J., pp. 109–112.
+      title: Diffie, W., and Hellman, M. Multiuser Cryptographic Techniques, Proc AFIPS 1976 NCC, AFIPS Press, Montvale, N.J., pp. 109–112
+      year: 1976
+      pages: 109-112
+      resolves_to: ""
+    - key: "4"
+      raw: Feistel, H. Cryptographic coding for data bank privacy. Res. Rep. RC2827, IBM T.J. Watson Res. Ctr., Yorktown Heights, N.Y., March 1970.
+      authors:
+        - H. Feistel
+      title: Cryptographic coding for data bank privacy
+      venue: Res. Rep. RC2827, IBM T.J. Watson Res. Ctr., Yorktown Heights, N.Y
+      year: 1970
+      resolves_to: ""
+    - key: "5"
+      raw: Kent, S. Encryption-based protection protocols for interactive user-computer communication, M.S. Th., EECS Dept., M.I.T., 1976; also available as Tech. Rep. 162, Lab. for Comprr. Sci., M.I.T., Cambridge, Mass., 1976.
+      authors:
+        - Kent
+        - S. Encryption-based protection protocols for interactive user-computer communication
+        - M.S. Th
+        - EECS Dept
+        - M.I.T
+        - 1976; also available as Tech. Rep. 162
+        - Lab
+      title: for Comprr
+      venue: Sci., M.I.T., Cambridge, Mass
+      year: 1976
+      resolves_to: ""
+    - key: "6"
+      raw: Kent, S. Encryption-based protection for interactive user/computer communication. Proc. Fifth Data Communication Symp., Sept. 1977, pp. 5–7–5–13 (available from ACM, New York).
+      authors:
+        - S. Kent
+      title: Encryption-based protection for interactive user/computer communication
+      venue: Proc. Fifth Data Communication Symp., Sept. 1977, pp. 5–7–5–13 (available from ACM, New York)
+      year: 1977
+      pages: 5-7
+      resolves_to: ""
+    - key: "7"
+      raw: National Bureau of Standards. Data Encryption Standard. Fed. Inform. Processing Standards Pub. 46, NBS, Washington, D.C., Jan. 1977.
+      title: National Bureau of Standards
+      venue: Data Encryption Standard. Fed. Inform. Processing Standards Pub. 46, NBS, Washington, D.C., Jan
+      year: 1977
+      resolves_to: ""
+    - key: "8"
+      raw: Pohlig, S. Algebraic and combinatoric aspects of cryptography. Tech. Rep. No. 6602-1, Stanford Electron. Labs., Stanford, Calif., Oct. 1977.
+      authors:
+        - S. Pohlig
+      title: Algebraic and combinatoric aspects of cryptography
+      venue: Tech. Rep. No. 6602-1, Stanford Electron. Labs., Stanford, Calif., Oct
+      year: 1977
+      resolves_to: ""
+    - key: "9"
+      raw: 'Rivest, R.L., et al. A method for obtaining digital signatures and public-key cryptosystems. Comm. ACM 21, 2 (Feb. 1978), 120–126. Programming Techniques S. L. Graham Editor A Linear Sieve Algorithm for Finding Prime Numbers David Gries Cornell University Jayadev Misra University of Texas at Austin A new algorithm is presented for finding all primes between 2 and $n$. The algorithm executes in time proportional to $n$ (assuming that multiplication of integers not larger than $n$ can be performed in unit time). The method has the same arithmetic complexity as the algorithm presented by Mairson [6]; however, our version is perhaps simpler and more elegant. It is also easily extended to find the prime factorization of all integers between 2 and $n$ in time proportional to $n$. Key Words and Phrases: primes, algorithms, data structures CR Categories: 5.25, 5.24, 5.29 1. Introduction An algorithm is presented for finding all primes between 2 and $n$, for $n \geq 4$, that executes in time proportional to $n$. Like the sieve of Eratosthenes, it works by removing nonprimes from the set $\{2, ..., n\}$. Unlike the sieve of Eratosthenes, no attempt is ever made to remove a nonprime that was removed earlier; this allows us to develop a linear algorithm. The algorithm deals with sets $S$ satisfying $S \subset \{2, ..., n\}$. Two operations will be required on such sets: Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct commercial advantage, the ACM copyright notice and the title of the publication and its date appear, and notice is given that copying is by permission of the Association for Computing Machinery. To copy otherwise, or to republish, requires a fee and/or specific permission. This research was partially supported by the National Science Foundation under Grants DCR75-09842 and MCS76-22360. Authors’ addresses: D. Gries, Computer Science Department, Cornell University, Ithaca, NY 14853; J. Misra, Computer Science Department, University of Texas at Austin, Austin, TX 78712. © 1978 ACM 0001-0782/78/1200–0999 \$00.75 Communications of the ACM December 1978 Volume 21 Number 12'
+      authors:
+        - Rivest
+        - R.L
+      title: A method for obtaining digital signatures and public-key cryptosystems
+      year: 1978
+      resolves_to: rivest-1978-rsa

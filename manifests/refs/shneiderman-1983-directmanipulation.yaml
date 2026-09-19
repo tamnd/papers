@@ -1,0 +1,233 @@
+paper: shneiderman-1983-directmanipulation
+style: number
+entries:
+    - key: "1"
+      raw: Teresa L. Roberts, "Evaluation of Computer Text Editors," PhD dissertation, Stanford University, 1980. Available from University Microfilms, Ann Arbor, Michigan, order number AAD 80-11699.
+      authors:
+        - Teresa L. Roberts
+      title: Evaluation of Computer Text Editors
+      venue: PhD dissertation, Stanford University, 1980. Available from University Microfilms, Ann Arbor, Michigan, order number AAD 80-11699
+      year: 1980
+      resolves_to: ""
+    - key: "2"
+      raw: John M. Carroll, "Learning, Using and Designing Command Paradigms," Human Learning, Vol. 1, No. 1, 1982, pp. 31-62.
+      authors:
+        - John M. Carroll
+      title: Learning, Using and Designing Command Paradigms
+      venue: Human Learning, Vol. 1, No. 1, 1982, pp. 31-62
+      year: 1982
+      pages: 31-62
+      resolves_to: ""
+    - key: "3"
+      raw: Christopher F. Herot, "Spatial Management of Data," ACM Trans. Database Systems, Vol. 5, No. 4, Dec. 1980, pp. 493-513.
+      authors:
+        - Christopher F. Herot
+      title: Spatial Management of Data
+      venue: ACM Trans. Database Systems, Vol. 5, No. 4, Dec. 1980, pp. 493-513
+      year: 1980
+      pages: 493-513
+      resolves_to: ""
+    - key: "4"
+      raw: Thomas W. Malone, "What Makes Computer Games Fun?" Byte, Vol. 6, No. 12, Dec. 1981, pp. 258-277.
+      authors:
+        - Thomas W. Malone
+      title: What Makes Computer Games Fun?
+      venue: Byte, Vol. 6, No. 12, Dec. 1981, pp. 258-277
+      year: 1981
+      pages: 258-277
+      resolves_to: ""
+    - key: "5"
+      raw: John M. Carroll and John C. Thomas, "Metaphor and the Cognitive Representation of Computing Systems, IEEE Trans. Systems, Man, and Cybernetics, Vol. SMC-12, No. 2, Mar./Apr. 1982, pp. 107-116.
+      title: John M. Carroll and John C. Thomas, "Metaphor and the Cognitive Representation of Computing Systems, IEEE Trans. Systems, Man, and Cybernetics, Vol. SMC-12, No. 2, Mar./Apr. 1982, pp. 107-116
+      year: 1982
+      pages: 107-116
+      resolves_to: ""
+    - key: "6"
+      raw: Moshe M. Zloof, "Query-by-Example," AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J. 1975.
+      authors:
+        - Moshe M. Zloof
+      title: Query-by-Example
+      venue: AFIPS Conf. Proc., Vol. 44, 1975 NCC, AFIPS Press, Montvale, N.J
+      year: 1975
+      resolves_to: ""
+    - key: "7"
+      raw: 'Moshe M. Zloof, "Office-by-Example: A Business Language that Unifies Data and Word Processing and Electronic Mail, IBM Sys. J., Vol. 21, No. 3, 1982, pp. 272-304.'
+      title: 'Moshe M. Zloof, "Office-by-Example: A Business Language that Unifies Data and Word Processing and Electronic Mail, IBM Sys'
+      venue: J., Vol. 21, No. 3, 1982, pp. 272-304
+      year: 1982
+      pages: 272-304
+      resolves_to: ""
+    - key: "8"
+      raw: Cranfield Smith et al., "Designing the Star User Interface," Byte, Vol. 7, No. 4, Apr. 1982, pp. 242-282.
+      authors:
+        - Cranfield Smith et al
+      title: Designing the Star User Interface
+      venue: Byte, Vol. 7, No. 4, Apr. 1982, pp. 242-282
+      year: 1982
+      pages: 242-282
+      resolves_to: ""
+    - key: "9"
+      raw: Laura Yedwab, Christopher F. Herot, and Ronni L. Rosenberg, "The Automated Desk," Sigsmall Newsletter, Vol. 7, No. 2, Oct. 1981, pp. 102-108.
+      authors:
+        - Laura Yedwab
+        - Christopher F. Herot
+        - Ronni L. Rosenberg
+      title: The Automated Desk
+      venue: Sigsmall Newsletter, Vol. 7, No. 2, Oct. 1981, pp. 102-108
+      year: 1981
+      pages: 102-108
+      resolves_to: ""
+    - key: "10"
+      raw: Ted Nelson, "Interactive Systems and the Design of Virtuality," Creative Computing, Vol. 6, No. 11, Nov. 1980, pp. 56 ff., and Vol. 6, No. 12, Dec. 1980, pp. 94 ff.
+      authors:
+        - Ted Nelson
+      title: Interactive Systems and the Design of Virtuality
+      venue: Creative Computing, Vol. 6, No. 11, Nov. 1980, pp. 56 ff., and Vol. 6, No. 12, Dec. 1980, pp. 94 ff
+      year: 1980
+      resolves_to: ""
+    - key: "11"
+      raw: 'Chris Rutkowski, "An Introduction to the Human Applications Standard Computer Interface, Part 1: Theory and Principles," Byte, Vol. 7, No. 11, Oct. 1982, pp. 291-310.'
+      authors:
+        - Chris Rutkowski
+      title: 'An Introduction to the Human Applications Standard Computer Interface, Part 1: Theory and Principles'
+      venue: Byte, Vol. 7, No. 11, Oct. 1982, pp. 291-310
+      year: 1982
+      pages: 291-310
+      resolves_to: ""
+    - key: "12"
+      raw: Alan MacDonald, "Visual Programming," Datamation, Vol. 28, No. 11, Oct. 1982, pp. 132-140.
+      authors:
+        - Alan MacDonald
+      title: Visual Programming
+      venue: Datamation, Vol. 28, No. 11, Oct. 1982, pp. 132-140
+      year: 1982
+      pages: 132-140
+      resolves_to: ""
+    - key: "13"
+      raw: George Polya, How to Solve It, Doubleday, New York, 1957.
+      title: George Polya, How to Solve It, Doubleday, New York, 1957
+      year: 1957
+      resolves_to: ""
+    - key: "14"
+      raw: Maria Montessori, The Montessori Method. Schocken, New York, 1964.
+      authors:
+        - Maria Montessori
+        - The Montessori Method
+      title: Schocken, New York, 1964
+      year: 1964
+      resolves_to: ""
+    - key: "15"
+      raw: James Bruner, Toward a Theory of Instruction, Harvard University Press, Cambridge, Mass., 1966.
+      title: James Bruner, Toward a Theory of Instruction, Harvard University Press, Cambridge, Mass., 1966
+      year: 1966
+      resolves_to: ""
+    - key: "16"
+      raw: John M. Carroll, J. C. Thomas, and A. Malhotra, "Presentation and Representation in Design Problem-Solving," British J. Psych., Vol. 71, 1980, pp. 143-153.
+      authors:
+        - John M. Carroll
+        - J. C. Thomas
+        - A. Malhotra
+      title: Presentation and Representation in Design Problem-Solving
+      venue: British J. Psych., Vol. 71, 1980, pp. 143-153
+      year: 1980
+      pages: 143-153
+      resolves_to: ""
+    - key: "17"
+      raw: Rudolf Arnheim, Visual Thinking, University of California Press, Berkeley, Calif., 1972.
+      title: Rudolf Arnheim, Visual Thinking, University of California Press, Berkeley, Calif., 1972
+      year: 1972
+      resolves_to: ""
+    - key: "18"
+      raw: Robert H. McKim, Experiences in Visual Thinking, Brooks/Cole Publishing Co., Monterey, Calif., 1972.
+      title: Robert H. McKim, Experiences in Visual Thinking, Brooks/Cole Publishing Co., Monterey, Calif., 1972
+      year: 1972
+      resolves_to: ""
+    - key: "19"
+      raw: Max Wertheimer, Productive Thinking, Harper and Row, New York, 1959.
+      title: Max Wertheimer, Productive Thinking, Harper and Row, New York, 1959
+      year: 1959
+      resolves_to: ""
+    - key: "20"
+      raw: 'Seymour Papert, Mindstorms: Children, Computers, and Powerful Ideas, Basic Books, Inc., New York, 1980.'
+      title: 'Seymour Papert, Mindstorms: Children, Computers, and Powerful Ideas, Basic Books, Inc., New York, 1980'
+      year: 1980
+      resolves_to: ""
+    - key: "21"
+      raw: Ben Shneiderman, R. Mayer, D. McKay, and P. Heller, "Experimental Investigations of the Utility of Detailed Flowcharts in Programming," Comm. ACM, Vol. 20, No. 6, June 1977, pp. 373-381.
+      authors:
+        - Ben Shneiderman
+        - R. Mayer
+        - D. McKay
+        - P. Heller
+      title: Experimental Investigations of the Utility of Detailed Flowcharts in Programming
+      venue: Comm. ACM, Vol. 20, No. 6, June 1977, pp. 373-381
+      year: 1977
+      pages: 373-381
+      resolves_to: ""
+    - key: "22"
+      raw: 'Ben Shneiderman, "Control Flow and Data Structure Documentation: Two Experiments," Comm. ACM, Vol. 25, No. 1, Jan. 1982, pp. 55-63.'
+      authors:
+        - Ben Shneiderman
+      title: 'Control Flow and Data Structure Documentation: Two Experiments'
+      venue: Comm. ACM, Vol. 25, No. 1, Jan. 1982, pp. 55-63
+      year: 1982
+      pages: 55-63
+      resolves_to: ""
+    - key: "23"
+      raw: Michael L. Schneider, "Models for the Design of Static Software User Assistance," Directions in Human-Computer Interaction, Albert Badre and Ben Shneiderman, eds., Ablex Publishing Co., Norwood, N.J., 1982.
+      authors:
+        - Michael L. Schneider
+      title: Models for the Design of Static Software User Assistance
+      venue: Directions in Human-Computer Interaction, Albert Badre and Ben Shneiderman, eds., Ablex Publishing Co., Norwood, N.J
+      year: 1982
+      resolves_to: ""
+    - key: "24"
+      raw: 'Ben Shneiderman and Richard Mayer, "Syntactic/Semantic Interactions in Programmer Behavior: A Model and Experimental Results," Int''l J. Computer and Information Sciences, Vol. 8, No. 3, 1979, pp. 219-239.'
+      authors:
+        - Ben Shneiderman
+        - Richard Mayer
+      title: 'Syntactic/Semantic Interactions in Programmer Behavior: A Model and Experimental Results'
+      venue: Int'l J. Computer and Information Sciences, Vol. 8, No. 3, 1979, pp. 219-239
+      year: 1979
+      pages: 219-239
+      resolves_to: ""
+    - key: "25"
+      raw: 'Ben Shneiderman, Software Psychology: Human Factors in Computer and Information Systems, Little, Brown and Co., Boston, Mass., 1980.'
+      title: 'Ben Shneiderman, Software Psychology: Human Factors in Computer and Information Systems, Little, Brown and Co., Boston, Mass., 1980'
+      year: 1980
+      resolves_to: ""
+    - key: "26"
+      raw: Ben Shneiderman, "A Note on Human Factors Issues of Natural Language Interaction with Database Systems," Information Systems, Vol. 6, No. 2, Feb. 1981, pp. 125-129.
+      authors:
+        - Ben Shneiderman
+      title: A Note on Human Factors Issues of Natural Language Interaction with Database Systems
+      venue: Information Systems, Vol. 6, No. 2, Feb. 1981, pp. 125-129
+      year: 1981
+      pages: 125-129
+      resolves_to: ""
+    - key: "27"
+      raw: 'D. P. Ausubel, Educational Psychology: A Cognitive Approach, Holt, Rinehart and Winston, New York, 1968.'
+      title: 'D. P. Ausubel, Educational Psychology: A Cognitive Approach, Holt, Rinehart and Winston, New York, 1968'
+      year: 1968
+      resolves_to: ""
+    - key: "28"
+      raw: Richard W. Copeland, How Children Learn Mathematics, third ed., MacMillan, New York, 1979.
+      title: Richard W. Copeland, How Children Learn Mathematics, third ed., MacMillan, New York, 1979
+      year: 1979
+      resolves_to: ""
+    - key: "29"
+      raw: Nancy McDonald, "Multi-media Approach to User Interface," Human Factors in Interactive Computer Systems, Yannis Vassiliou, ed., Ablex Publishing Co., Norwood, N.J., to appear in 1983.
+      authors:
+        - Nancy McDonald
+      title: Multi-media Approach to User Interface
+      venue: Human Factors in Interactive Computer Systems, Yannis Vassiliou, ed., Ablex Publishing Co., Norwood, N.J., to appear in
+      year: 1983
+      resolves_to: ""
+    - key: "30"
+      raw: 'Ben Shneiderman, "A Computer Graphics System for Polynomials," The Mathematics Teacher, Vol. 67, No. 2, Feb. 1974, pp. 111-113. Ben Shneiderman is an associate professor of computer science at the University of Maryland, where he is pursuing research in the design of interactive computer systems. He is the head of the recently formed Laboratory for Human-Computer Interaction within the Center for Automation Research. Shneiderman is the author of Software Psychology: Human Factors in Computer and Information Systems, the coauthor of several textbooks, and the editor of three collections of papers. He has published more than 80 research journal and conference articles.'
+      authors:
+        - Ben Shneiderman
+      title: A Computer Graphics System for Polynomials
+      year: 1974
+      pages: 111-113
+      resolves_to: ""

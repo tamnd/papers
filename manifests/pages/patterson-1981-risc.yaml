@@ -21,3 +21,57 @@ pages:
       printed: "218"
       size: [618, 797]
       columns: 2
+    - pdf: 4
+      printed: "219"
+      size: [615, 795]
+      columns: 2
+    - pdf: 5
+      printed: "220"
+      size: [615, 795]
+      columns: 2
+    - pdf: 6
+      printed: "221"
+      size: [614, 794]
+      columns: 2
+    - pdf: 7
+      printed: "222"
+      size: [618, 797]
+      columns: 2
+    - pdf: 8
+      printed: "223"
+      size: [615, 795]
+      columns: 1
+    - pdf: 9
+      printed: "224"
+      size: [614, 794]
+      columns: 1
+      figures: [f01, f02]
+    - pdf: 10
+      printed: "225"
+      size: [613, 793]
+      columns: 2
+      figures: [f03, f04]
+    - pdf: 11
+      printed: "226"
+      size: [620, 798]
+      columns: 1
+      figures: [f05]
+    - pdf: 12
+      printed: "227"
+      size: [613, 793]
+      columns: 2
+      figures: [f06, f07]
+    - pdf: 13
+      printed: "228"
+      size: [612, 793]
+      columns: 2
+      figures: [f08, f09]
+    - pdf: 14
+      printed: "229"
+      size: [620, 800]
+      columns: 6
+    - pdf: 15
+      printed: "230"
+      size: [615, 795]
+      columns: 2
+      figures: [f10, f11]

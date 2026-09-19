@@ -1,0 +1,165 @@
+paper: gal-2009-tracejit
+style: bracket
+entries:
+    - key: "1"
+      raw: LuaJIT roadmap 2008 - http://lua-users.org/lists/lua-l/2008-02/msg00051.html.
+      title: LuaJIT roadmap 2008 - http://lua-users.org/lists/lua-l/2008-02/msg00051.html
+      year: 2008
+      url: http://lua-users.org/lists/lua-l/2008-02/msg00051.html
+      resolves_to: ""
+    - key: "2"
+      raw: Mozilla — Firefox web browser and Thunderbird email client - http://www.mozilla.com.
+      title: Mozilla — Firefox web browser and Thunderbird email client - http://www.mozilla.com
+      url: http://www.mozilla.com
+      resolves_to: ""
+    - key: "3"
+      raw: SPECJVM98 - http://www.spec.org/jvm98/.
+      title: SPECJVM98 - http://www.spec.org/jvm98/
+      url: http://www.spec.org/jvm98/
+      resolves_to: ""
+    - key: "4"
+      raw: SpiderMonkey (JavaScript-C) Engine - http://www.mozilla.org/js/spidermonkey/.
+      title: SpiderMonkey (JavaScript-C) Engine - http://www.mozilla.org/js/spidermonkey/
+      url: http://www.mozilla.org/js/spidermonkey/
+      resolves_to: ""
+    - key: "5"
+      raw: Surfin’ Safari - Blog Archive - Announcing SquirrelFish Extreme - http://webkit.org/blog/214/introducing-squirrelfish-extreme/.
+      title: Surfin’ Safari - Blog Archive - Announcing SquirrelFish Extreme - http://webkit.org/blog/214/introducing-squirrelfish-extreme/
+      url: http://webkit.org/blog/214/introducing-squirrelfish-extreme/
+      resolves_to: ""
+    - key: "6"
+      raw: 'A. Aho, R. Sethi, J. Ullman, and M. Lam. Compilers: Principles, techniques, and tools, 2006.'
+      authors:
+        - A. Aho
+        - R. Sethi
+        - J. Ullman
+        - M. Lam
+      title: 'Compilers: Principles, techniques, and tools, 2006'
+      year: 2006
+      resolves_to: ""
+    - key: "7"
+      raw: 'V. Bala, E. Duesterwald, and S. Banerjia. Dynamo: A transparent dynamic optimization system. In Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation, pages 1–12. ACM Press, 2000.'
+      authors:
+        - V. Bala
+        - E. Duesterwald
+        - S. Banerjia
+      title: 'Dynamo: A transparent dynamic optimization system'
+      venue: In Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation, pages 1–12. ACM Press
+      year: 2000
+      pages: 1-12
+      resolves_to: ""
+    - key: "8"
+      raw: 'M. Berndl, B. Vitale, M. Zaleski, and A. Brown. Context Threading: a Flexible and Efficient Dispatch Technique for Virtual Machine Interpreters. In Code Generation and Optimization, 2005. CGO 2005. International Symposium on, pages 15–26, 2005.'
+      authors:
+        - M. Berndl
+        - B. Vitale
+        - M. Zaleski
+        - A. Brown
+      title: 'Context Threading: a Flexible and Efficient Dispatch Technique for Virtual Machine Interpreters'
+      venue: In Code Generation and Optimization, 2005. CGO 2005. International Symposium on, pages 15–26
+      year: 2005
+      pages: 15-26
+      resolves_to: ""
+    - key: "9"
+      raw: 'C. Chambers and D. Ungar. Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented Programming Language. In Proceedings of the ACM SIGPLAN 1989 Conference on Programming Language Design and Implementation, pages 146–160. ACM New York, NY, USA, 1989.'
+      authors:
+        - C. Chambers
+        - D. Ungar
+      title: 'Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented Programming Language'
+      venue: In Proceedings of the ACM SIGPLAN 1989 Conference on Programming Language Design and Implementation, pages 146–160. ACM New York, NY, USA
+      year: 1989
+      pages: 146-160
+      resolves_to: ""
+    - key: "10"
+      raw: A. Gal. Efficient Bytecode Verification and Compilation in a Virtual Machine Dissertation. PhD thesis, University Of California, Irvine, 2006.
+      authors:
+        - A. Gal
+      title: Efficient Bytecode Verification and Compilation in a Virtual Machine Dissertation
+      venue: PhD thesis, University Of California, Irvine
+      year: 2006
+      resolves_to: ""
+    - key: "11"
+      raw: 'A. Gal, C. W. Probst, and M. Franz. HotpathVM: An effective JIT compiler for resource-constrained devices. In Proceedings of the International Conference on Virtual Execution Environments, pages 144–153. ACM Press, 2006.'
+      authors:
+        - A. Gal
+        - C. W. Probst
+        - M. Franz
+      title: 'HotpathVM: An effective JIT compiler for resource-constrained devices'
+      venue: In Proceedings of the International Conference on Virtual Execution Environments, pages 144–153. ACM Press
+      year: 2006
+      pages: 144-153
+      resolves_to: ""
+    - key: "12"
+      raw: C. Garrett, J. Dean, D. Grove, and C. Chambers. Measurement and Application of Dynamic Receiver Class Distributions. 1994.
+      authors:
+        - C. Garrett
+        - J. Dean
+        - D. Grove
+        - C. Chambers
+      title: Measurement and Application of Dynamic Receiver Class Distributions
+      year: 1994
+      resolves_to: ""
+    - key: "13"
+      raw: J. Ha, M. R. Haghighat, S. Cong, and K. S. McKinley. A concurrent trace-based just-in-time compiler for javascript. Dept.of Computer Sciences, The University of Texas at Austin, TR-09-06, 2009.
+      authors:
+        - J. Ha
+        - M. R. Haghighat
+        - S. Cong
+        - K. S. McKinley
+      title: A concurrent trace-based just-in-time compiler for javascript
+      venue: Dept.of Computer Sciences, The University of Texas at Austin, TR-09-06
+      year: 2009
+      resolves_to: ""
+    - key: "14"
+      raw: B. McCloskey. Personal communication.
+      authors:
+        - B. McCloskey
+      title: Personal communication
+      resolves_to: ""
+    - key: "15"
+      raw: I. Piumarta and F. Riccardi. Optimizing direct threaded code by selective inlining. In Proceedings of the ACM SIGPLAN 1998 conference on Programming language design and implementation, pages 291–300. ACM New York, NY, USA, 1998.
+      authors:
+        - I. Piumarta
+        - F. Riccardi
+      title: Optimizing direct threaded code by selective inlining
+      venue: In Proceedings of the ACM SIGPLAN 1998 conference on Programming language design and implementation, pages 291–300. ACM New York, NY, USA
+      year: 1998
+      pages: 291-300
+      resolves_to: ""
+    - key: "16"
+      raw: A. Rigo. Representation-Based Just-In-time Specialization and the Psyco Prototype for Python. In PEPM, 2004.
+      authors:
+        - A. Rigo
+      title: Representation-Based Just-In-time Specialization and the Psyco Prototype for Python
+      venue: In PEPM
+      year: 2004
+      resolves_to: ""
+    - key: "17"
+      raw: 'M. Salib. Starkiller: A Static Type Inferencer and Compiler for Python. In Master’s Thesis, 2004.'
+      authors:
+        - M. Salib
+      title: 'Starkiller: A Static Type Inferencer and Compiler for Python'
+      venue: In Master’s Thesis
+      year: 2004
+      resolves_to: ""
+    - key: "18"
+      raw: T. Suganuma, T. Yasue, and T. Nakatani. A Region-Based Compilation Technique for Dynamic Compilers. ACM Transactions on Programming Languages and Systems (TOPLAS), 28(1):134–174, 2006.
+      authors:
+        - T. Suganuma
+        - T. Yasue
+        - T. Nakatani
+      title: A Region-Based Compilation Technique for Dynamic Compilers
+      venue: ACM Transactions on Programming Languages and Systems (TOPLAS), 28(1):134–174
+      year: 2006
+      resolves_to: ""
+    - key: "19"
+      raw: 'M. Zaleski, A. D. Brown, and K. Stoodley. YETI: A gradually Extensible Trace Interpreter. In Proceedings of the International Conference on Virtual Execution Environments, pages 83–93. ACM Press, 2007.'
+      authors:
+        - M. Zaleski
+        - A. D. Brown
+        - K. Stoodley
+      title: 'YETI: A gradually Extensible Trace Interpreter'
+      venue: In Proceedings of the International Conference on Virtual Execution Environments, pages 83–93. ACM Press
+      year: 2007
+      pages: 83-93
+      resolves_to: ""

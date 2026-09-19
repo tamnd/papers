@@ -18,18 +18,21 @@ pages:
     - pdf: 3
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 4
       size: [612, 792]
       columns: 2
     - pdf: 5
       size: [612, 792]
       columns: 2
+      figures: [f02]
     - pdf: 6
       size: [612, 792]
       columns: 2
     - pdf: 7
       size: [612, 792]
       columns: 2
+      figures: [f03]
     - pdf: 8
       size: [612, 792]
       columns: 2
@@ -39,15 +42,19 @@ pages:
     - pdf: 10
       size: [612, 792]
       columns: 2
+      figures: [f04, f05]
     - pdf: 11
       size: [612, 792]
       columns: 2
+      figures: [f06]
     - pdf: 12
       size: [612, 792]
       columns: 2
+      figures: [f07]
     - pdf: 13
       size: [612, 792]
       columns: 2
+      figures: [f08]
     - pdf: 14
       size: [612, 792]
       columns: 2

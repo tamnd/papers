@@ -9,6 +9,15 @@
 paper: brooks-1987-nosilverbullet
 offset: -3
 pages:
+    - pdf: 1
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 2
+      size: [612.36, 790.92]
+      columns: 1
+    - pdf: 3
+      size: [616.68, 794.52]
+      columns: 1
     - pdf: 4
       printed: "1"
       size: [616.68, 794.52]
@@ -20,4 +29,64 @@ pages:
     - pdf: 6
       printed: "3"
       size: [616.68, 794.52]
+      columns: 1
+    - pdf: 7
+      printed: "4"
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 8
+      printed: "5"
+      size: [616.68, 794.52]
+      columns: 1
+    - pdf: 9
+      printed: "6"
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 10
+      printed: "7"
+      size: [616.68, 794.52]
+      columns: 1
+    - pdf: 11
+      printed: "8"
+      size: [621.36, 798.12]
+      columns: 1
+    - pdf: 12
+      printed: "9"
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 13
+      printed: "10"
+      size: [621.36, 798.12]
+      columns: 1
+    - pdf: 14
+      printed: "11"
+      size: [615.24, 793.08]
+      columns: 1
+    - pdf: 15
+      printed: "12"
+      size: [621.36, 798.12]
+      columns: 1
+    - pdf: 16
+      printed: "13"
+      size: [618.48, 795.6]
+      columns: 1
+    - pdf: 17
+      printed: "14"
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 18
+      printed: "15"
+      size: [616.68, 794.52]
+      columns: 1
+    - pdf: 19
+      printed: "16"
+      size: [619.92, 796.68]
+      columns: 1
+    - pdf: 20
+      printed: "17"
+      size: [616.68, 794.52]
+      columns: 1
+    - pdf: 21
+      printed: "18"
+      size: [621.36, 798.12]
       columns: 1

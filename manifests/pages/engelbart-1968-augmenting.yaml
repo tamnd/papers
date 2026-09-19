@@ -18,9 +18,11 @@ pages:
     - pdf: 3
       size: [595, 842]
       columns: 1
+      figures: [f01]
     - pdf: 4
       size: [595, 842]
       columns: 1
+      figures: [f02]
     - pdf: 5
       size: [595, 842]
       columns: 1
@@ -33,12 +35,15 @@ pages:
     - pdf: 8
       size: [595, 842]
       columns: 1
+      figures: [f03]
     - pdf: 9
       size: [595, 842]
       columns: 1
+      figures: [f04, f05]
     - pdf: 10
       size: [595, 842]
       columns: 1
+      figures: [f06]
     - pdf: 11
       size: [595, 842]
       columns: 1
@@ -54,18 +59,21 @@ pages:
     - pdf: 15
       size: [595, 842]
       columns: 1
+      figures: [f07]
     - pdf: 16
       size: [595, 842]
       columns: 1
     - pdf: 17
       size: [595, 842]
       columns: 1
+      figures: [f08]
     - pdf: 18
       size: [595, 842]
       columns: 1
     - pdf: 19
       size: [595, 842]
       columns: 1
+      figures: [f09]
     - pdf: 20
       size: [595, 842]
       columns: 1

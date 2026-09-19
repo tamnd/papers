@@ -1,0 +1,171 @@
+paper: deutsch-1984-smalltalk
+style: hanging
+entries:
+    - key: "1"
+      raw: '[Ammann 75] Ammann, U., Nori, Jensen, K., Nageli, H., "The Pascal (P) Compiler Implementation Notes." Institut Fur Informatik, Eidgenossische Technische Hochschule, Zurich, 1975.'
+      authors:
+        - U. [Ammann 75] Ammann
+        - Nori
+        - K. Jensen
+        - H. Nageli
+      title: The Pascal (P) Compiler Implementation Notes
+      venue: Institut Fur Informatik, Eidgenossische Technische Hochschule, Zurich
+      year: 1975
+      resolves_to: ""
+    - key: "2"
+      raw: '[Ammann 77] Ammann, U., "On code generation in a Pascal compiler." Software Practice and Experience v7 #3, June/July 1977, pp. 391-423.'
+      authors:
+        - U. [Ammann 77] Ammann
+      title: On code generation in a Pascal compiler
+      venue: 'Software Practice and Experience v7 #3, June/July 1977, pp. 391-423'
+      year: 1977
+      pages: 391-423
+      resolves_to: ""
+    - key: "3"
+      raw: '[Bell 73] Bell, J. R., "Threaded Code." Communications of the ACM, v16 (1973) pp. 370-372.'
+      authors:
+        - J. R. [Bell 73] Bell
+      title: Threaded Code
+      venue: Communications of the ACM, v16 (1973) pp. 370-372
+      year: 1973
+      pages: 370-372
+      resolves_to: ""
+    - key: "4"
+      raw: '[Deutsch & Bobrow 76] Deutsch, L. P., Bobrow, D. G., "An efficient, incremental, real-time garbage collector." Communications of the ACM, October 1976.'
+      authors:
+        - '[Deutsch'
+        - L. P. Bobrow 76] Deutsch
+        - D. G. Bobrow
+      title: An efficient, incremental, real-time garbage collector
+      venue: Communications of the ACM
+      year: 1976
+      resolves_to: ""
+    - key: "5"
+      raw: '[Goldberg 83] Goldberg, A., Robson, D., "Smalltalk-80: The Language and its Implementation." Addison-Wesley, Reading, MA, 1983.'
+      authors:
+        - A. [Goldberg 83] Goldberg
+        - D. Robson
+      title: 'Smalltalk-80: The Language and its Implementation'
+      venue: Addison-Wesley, Reading, MA
+      year: 1983
+      resolves_to: ""
+    - key: "6"
+      raw: '[Goldberg 84] Goldberg, A., "Smalltalk-80: The Interactive Programming Environment." Addison-Wesley, Reading, MA, 1984.'
+      authors:
+        - A. [Goldberg 84] Goldberg
+      title: 'Smalltalk-80: The Interactive Programming Environment'
+      venue: Addison-Wesley, Reading, MA
+      year: 1984
+      resolves_to: ""
+    - key: "7"
+      raw: '[Krasner 83] Krasner, Glenn, Ed., "Smalltalk-80: Bits of History, Words of Advice." Addison-Wesley, Reading, MA, 1983.'
+      authors:
+        - '[Krasner 83] Krasner'
+        - Glenn
+        - Ed
+      title: 'Smalltalk-80: Bits of History, Words of Advice'
+      venue: Addison-Wesley, Reading, MA
+      year: 1983
+      resolves_to: ""
+    - key: "8"
+      raw: '[Lampson 81] Lampson, B. W., Ed., "The Dorado: A High-Performance Personal Computer." Xerox PARC Report CSL-81-1, Palo Alto, CA, January 1981.'
+      authors:
+        - B. W. [Lampson 81] Lampson
+        - Ed
+      title: 'The Dorado: A High-Performance Personal Computer'
+      venue: Xerox PARC Report CSL-81-1, Palo Alto, CA
+      year: 1981
+      resolves_to: ""
+    - key: "9"
+      raw: '[Mitchell 71] Mitchell, J. G., "The Design and Construction of Flexible and Efficient Interactive Programming Systems." Ph.D. dissertation, 1971, NTIS AD 712-721, in Outstanding Dissertations in the Computer Sciences, Garland Publishing, New York (1978).'
+      authors:
+        - J. G. [Mitchell 71] Mitchell
+      title: The Design and Construction of Flexible and Efficient Interactive Programming Systems
+      venue: Ph.D. dissertation, 1971, NTIS AD 712-721, in Outstanding Dissertations in the Computer Sciences, Garland Publishing, New York (1978)
+      year: 1978
+      resolves_to: ""
+    - key: "10"
+      raw: '[Moon 73] Moon D., Ed., MacLisp Manual pp. 3-75 to 3-77, MIT AI Laboratory Technical Report (1973).'
+      title: '[Moon 73] Moon D., Ed., MacLisp Manual pp. 3-75 to 3-77, MIT AI Laboratory Technical Report (1973)'
+      year: 1973
+      pages: 3-75
+      resolves_to: ""
+    - key: "11"
+      raw: '[Moore 74] Moore, C. H., "FORTH: a New Way to Program a Computer." Astronomy and Astrophysics Supplement, #15 (1974) pp 497-511.'
+      authors:
+        - C. H. [Moore 74] Moore
+      title: 'FORTH: a New Way to Program a Computer'
+      venue: 'Astronomy and Astrophysics Supplement, #15 (1974) pp 497-511'
+      year: 1974
+      pages: 497-511
+      resolves_to: ""
+    - key: "12"
+      raw: '[Patterson 83] Patterson, D., Ed., "Smalltalk on a RISC: Architectural Investigations (Proceedings of CS 292R)." University of California, Berkeley, April 1983.'
+      authors:
+        - D. [Patterson 83] Patterson
+        - Ed
+      title: 'Smalltalk on a RISC: Architectural Investigations (Proceedings of CS 292R)'
+      venue: University of California, Berkeley
+      year: 1983
+      resolves_to: ""
+    - key: "13"
+      raw: '[Perkins 79] Perkins, D. R., Sites, R. I., "Machine independent Pascal code optimization." ACM SIGPLAN Notices v14 #8 (August 1979) pp. 201-207.'
+      authors:
+        - D. R. [Perkins 79] Perkins
+        - R. I. Sites
+      title: Machine independent Pascal code optimization
+      venue: 'ACM SIGPLAN Notices v14 #8 (August 1979) pp. 201-207'
+      year: 1979
+      pages: 201-207
+      resolves_to: ""
+    - key: "14"
+      raw: '[Pittman 80] Pittman, T.J., "A Practical Optimizer: Zero-Address to Multi-Address Code." M.S. thesis, University of California, Santa Cruz, June 1980.'
+      authors:
+        - '[Pittman 80] Pittman'
+        - T.J
+      title: 'A Practical Optimizer: Zero-Address to Multi-Address Code'
+      venue: M.S. thesis, University of California, Santa Cruz
+      year: 1980
+      resolves_to: ""
+    - key: "15"
+      raw: '[Rau 78] Rau, B. R., "Levels of Representation of Programs and the Architecture of Universal Host Machines." Proceedings of Micro-11, Asilomar, CA, November 1978.'
+      authors:
+        - B. R. [Rau 78] Rau
+      title: Levels of Representation of Programs and the Architecture of Universal Host Machines
+      venue: Proceedings of Micro-11, Asilomar, CA
+      year: 1978
+      resolves_to: ""
+    - key: "16"
+      raw: '[Richards 75] Richards, M., "The portability of the BCPL compiler." Software, Practice and Experience v1 (1971) pp. 135-146.'
+      authors:
+        - M. [Richards 75] Richards
+      title: The portability of the BCPL compiler
+      venue: Software, Practice and Experience v1 (1971) pp. 135-146
+      year: 1971
+      pages: 135-146
+      resolves_to: ""
+    - key: "17"
+      raw: '[SCG 81] Software Concepts Group, special issue on Smalltalk. BYTE Magazine, volume 6, number 8, August 1981.'
+      title: '[SCG 81] Software Concepts Group, special issue on Smalltalk'
+      venue: BYTE Magazine, volume 6, number 8
+      year: 1981
+      resolves_to: ""
+    - key: "18"
+      raw: '[XSIS 83] Masinter, L. M., Ed., "Interlisp Reference Manual." Xerox Special Information Systems, Pasadena, CA, 1983.'
+      authors:
+        - L. M. [XSIS 83] Masinter
+        - Ed
+      title: Interlisp Reference Manual
+      venue: Xerox Special Information Systems, Pasadena, CA
+      year: 1983
+      resolves_to: ""
+    - key: "19"
+      raw: '[Zellweger 79] Zellweger, P. T., "Machine-Independent Optimization in SOPAIPII.LA." The S-1 Project 1979 Annual Report (Chapter 8), Lawrence Livermore Laboratory (1979).'
+      authors:
+        - P. T. [Zellweger 79] Zellweger
+      title: Machine-Independent Optimization in SOPAIPII.LA
+      venue: The S-1 Project 1979 Annual Report (Chapter 8), Lawrence Livermore Laboratory (1979)
+      year: 1979
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

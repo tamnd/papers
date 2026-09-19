@@ -1,0 +1,166 @@
+paper: dennard-1974-scaling
+style: bracket
+entries:
+    - key: "1"
+      raw: F. Fang, M. Hatzakis, and C. H. Ting, "Electron-beam fabrication of ion implanted high-performance FET circuits," J. Vac. Sci. Technol., vol. 10, p. 1082, 1973.
+      authors:
+        - F. Fang
+        - M. Hatzakis
+        - C. H. Ting
+      title: Electron-beam fabrication of ion implanted high-performance FET circuits
+      venue: J. Vac. Sci. Technol., vol. 10, p. 1082
+      year: 1973
+      resolves_to: ""
+    - key: "2"
+      raw: J. M. Pankrantz, H. T. Yuan, and L. T. Creagh, "A high-gain, low-noise transistor fabricated with electron beam lithography," in Tech. Dig. Int. Electron Devices Meeting, Dec. 1973, pp. 44–46.
+      authors:
+        - J. M. Pankrantz
+        - H. T. Yuan
+        - L. T. Creagh
+      title: A high-gain, low-noise transistor fabricated with electron beam lithography
+      venue: in Tech. Dig. Int. Electron Devices Meeting, Dec. 1973, pp. 44–46
+      year: 1973
+      pages: 44-46
+      resolves_to: ""
+    - key: "3"
+      raw: H. N. Yu, R. H. Dennard, T. H. P. Chang, and M. Hatzakis, "An experimental high-density memory array fabricated with electron beam," in ISSCC Dig. Tech. Papers, Feb. 1973, pp. 98–99.
+      authors:
+        - H. N. Yu
+        - R. H. Dennard
+        - T. H. P. Chang
+        - M. Hatzakis
+      title: An experimental high-density memory array fabricated with electron beam
+      venue: in ISSCC Dig. Tech. Papers, Feb. 1973, pp. 98–99
+      year: 1973
+      pages: 98-99
+      resolves_to: ""
+    - key: "4"
+      raw: R. C. Henderson, R. F. W. Pease, A. M. Voshchenkow, P. Mallery, and R. L. Wadsack, "A high speed p-channel random access 1024-bit memory made with electron lithography," in Tech. Dig. Int. Electron Devices Meeting, Dec. 1973, pp. 138–140.
+      authors:
+        - R. C. Henderson
+        - R. F. W. Pease
+        - A. M. Voshchenkow
+        - P. Mallery
+        - R. L. Wadsack
+      title: A high speed p-channel random access 1024-bit memory made with electron lithography
+      venue: in Tech. Dig. Int. Electron Devices Meeting, Dec. 1973, pp. 138–140
+      year: 1973
+      pages: 138-140
+      resolves_to: ""
+    - key: "5"
+      raw: D. L. Spears and H. I. Smith, "X-Ray lithography—a new high resolution replication process," Solid State Technol., vol. 15, p. 21, 1972.
+      authors:
+        - D. L. Spears
+        - H. I. Smith
+      title: X-Ray lithography—a new high resolution replication process
+      venue: Solid State Technol., vol. 15, p. 21
+      year: 1972
+      resolves_to: ""
+    - key: "6"
+      raw: S. Middlehoek, "Projection masking, thin photoresist layers and interference effects," IBM J. Res. Develop., vol. 14, p. 117, 1970.
+      authors:
+        - S. Middlehoek
+      title: Projection masking, thin photoresist layers and interference effects
+      venue: IBM J. Res. Develop., vol. 14, p. 117
+      year: 1970
+      resolves_to: ""
+    - key: "7"
+      raw: R. H. Dennard, F. H. Gaensslen, L. Kuhn, and H. N. Yu, "Design of micron MOS switching devices," presented at the IEEE Int. Electron Devices Meeting, Washington, D.C., Dec. 1972.
+      authors:
+        - R. H. Dennard
+        - F. H. Gaensslen
+        - L. Kuhn
+        - H. N. Yu
+      title: Design of micron MOS switching devices
+      venue: presented at the IEEE Int. Electron Devices Meeting, Washington, D.C., Dec
+      year: 1972
+      resolves_to: ""
+    - key: "8"
+      raw: A. N. Broers and R. H. Dennard, "Impact of electron beam technology on silicon device fabrication," Semicond. Silicon (Electrochem. Soc. Publication), H. R. Huff and R. R. Burgess, eds., pp. 830–841, 1973.
+      authors:
+        - A. N. Broers
+        - R. H. Dennard
+      title: Impact of electron beam technology on silicon device fabrication
+      venue: Semicond. Silicon (Electrochem. Soc. Publication), H. R. Huff and R. R. Burgess, eds., pp. 830–841
+      year: 1973
+      pages: 830-841
+      resolves_to: ""
+    - key: "9"
+      raw: D. L. Critchlow, R. H. Dennard, and S. E. Schuster, "Design characteristics of n-channel insulated-gate field-effect transistors," IBM J. Res. Develop., vol. 17, p. 430, 1973.
+      authors:
+        - D. L. Critchlow
+        - R. H. Dennard
+        - S. E. Schuster
+      title: Design characteristics of n-channel insulated-gate field-effect transistors
+      venue: IBM J. Res. Develop., vol. 17, p. 430
+      year: 1973
+      resolves_to: ""
+    - key: "10"
+      raw: R. M. Swanson and J. D. Meindl, "Ion-implanted complementary MOS transistors in low-voltage circuits," IEEE J. Solid-State Circuits, vol. SC-7, pp. 146–153, April 1972.
+      authors:
+        - R. M. Swanson
+        - J. D. Meindl
+      title: Ion-implanted complementary MOS transistors in low-voltage circuits
+      venue: IEEE J. Solid-State Circuits, vol. SC-7, pp. 146–153
+      year: 1972
+      pages: 146-153
+      resolves_to: ""
+    - key: "11"
+      raw: V. L. Rideout, F. H. Gaensslen, and A. LeBlanc, "Device design considerations for ion implanted n-channel MOS-FET's," IBM J. Res. Develop., to be published.
+      authors:
+        - V. L. Rideout
+        - F. H. Gaensslen
+        - A. LeBlanc
+      title: Device design considerations for ion implanted n-channel MOS-FET's
+      venue: IBM J. Res. Develop., to be published
+      resolves_to: ""
+    - key: "12"
+      raw: F. F. Fang and A. B. Fowler, "Transport properties of electrons in inverted Si surfaces," Phys. Rev. vol. 169, p. 619, 1968.
+      authors:
+        - F. F. Fang
+        - A. B. Fowler
+      title: Transport properties of electrons in inverted Si surfaces
+      venue: Phys. Rev. vol. 169, p. 619
+      year: 1968
+      resolves_to: ""
+    - key: "13"
+      raw: W. S. Johnson, IBM System Products Division, E. Fishkill, N. Y., private communication.
+      title: W. S. Johnson, IBM System Products Division, E. Fishkill, N. Y., private communication
+      resolves_to: ""
+    - key: "14"
+      raw: H. S. Lee, "An analysis of the threshold voltage for short channel IGFET's," Solid-State Electron., vol. 16, p. 1407, 1973.
+      authors:
+        - H. S. Lee
+      title: An analysis of the threshold voltage for short channel IGFET's
+      venue: Solid-State Electron., vol. 16, p. 1407
+      year: 1973
+      resolves_to: ""
+    - key: "15"
+      raw: D. P. Kennedy and P. C. Murley, "Steady state mathematical theory for the insulated gate field effect transistor," IBM J. Res. Develop., vol. 17, p. 1, 1973.
+      authors:
+        - D. P. Kennedy
+        - P. C. Murley
+      title: Steady state mathematical theory for the insulated gate field effect transistor
+      venue: IBM J. Res. Develop., vol. 17, p. 1
+      year: 1973
+      resolves_to: ""
+    - key: "16"
+      raw: M. S. Mock, "A two-dimensional mathematical model of the insulated-gate field-effect transistor," Solid-State Electron., vol. 16, p. 601, 1973.
+      authors:
+        - M. S. Mock
+      title: A two-dimensional mathematical model of the insulated-gate field-effect transistor
+      venue: Solid-State Electron., vol. 16, p. 601
+      year: 1973
+      resolves_to: ""
+    - key: "17"
+      raw: W. Chang and P. Hwang, IBM System Products Division, Essex Junction, Vt., private communication.
+      title: W. Chang and P. Hwang, IBM System Products Division, Essex Junction, Vt., private communication
+      resolves_to: ""
+    - key: "18"
+      raw: R. R. Troutman, "Subthreshold design considerations for insulated gate field-effect transistors," IEEE J. Solid-State Circuits, vol. SC-9, p. 55, April 1974.
+      authors:
+        - R. R. Troutman
+      title: Subthreshold design considerations for insulated gate field-effect transistors
+      venue: IEEE J. Solid-State Circuits, vol. SC-9, p. 55
+      year: 1974
+      resolves_to: ""

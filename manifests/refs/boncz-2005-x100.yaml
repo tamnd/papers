@@ -1,0 +1,208 @@
+paper: boncz-2005-x100
+style: bracket
+entries:
+    - key: "1"
+      raw: 'The STREAM Benchmark: Computer Memory Bandwidth. http://www.streambench.org.'
+      title: 'The STREAM Benchmark: Computer Memory Bandwidth'
+      url: http://www.streambench.org
+      resolves_to: ""
+    - key: "2"
+      raw: A. Ailamaki, D. DeWitt, M. Hill, and M. Skounakis. Weaving Relations for Cache Performance. In Proc. VLDB, Rome, Italy, 2001.
+      authors:
+        - A. Ailamaki
+        - D. DeWitt
+        - M. Hill
+        - M. Skounakis
+      title: Weaving Relations for Cache Performance
+      venue: In Proc. VLDB, Rome, Italy
+      year: 2001
+      resolves_to: ""
+    - key: "3"
+      raw: 'A. Ailamaki, D. J. DeWitt, M. D. Hill, and D. A. Wood. DBMSs on a Modern Processor: Where Does Time Go? In Proc. VLDB, Edinburgh, 1999.'
+      authors:
+        - A. Ailamaki
+        - D. J. DeWitt
+        - M. D. Hill
+        - D. A. Wood
+      title: 'DBMSs on a Modern Processor: Where Does Time Go? In Proc. VLDB, Edinburgh, 1999'
+      year: 1999
+      resolves_to: ""
+    - key: "4"
+      raw: 'P. A. Boncz. Monet: A Next-Generation DBMS Kernel For Query-Intensive Applications. Ph.d. thesis, Universiteit van Amsterdam, Amsterdam, The Netherlands, May 2002.'
+      authors:
+        - P. A. Boncz
+      title: 'Monet: A Next-Generation DBMS Kernel For Query-Intensive Applications'
+      venue: Ph.d. thesis, Universiteit van Amsterdam, Amsterdam, The Netherlands
+      year: 2002
+      resolves_to: ""
+    - key: "5"
+      raw: P. A. Boncz and M. L. Kersten. MIL Primitives for Querying a Fragmented World. VLDB J., 8(2):101–119, 1999.
+      authors:
+        - P. A. Boncz
+        - M. L. Kersten
+      title: MIL Primitives for Querying a Fragmented World
+      venue: VLDB J., 8(2):101–119
+      year: 1999
+      resolves_to: ""
+    - key: "6"
+      raw: Q. Cao, J. Torrellas, P. Trancoso, J.-L. Larriba-Pey, B. Knighten, and Y. Won. Detailed characterization of a quad pentium pro server running tpc-d. In Proc. ICCD, Austin, USA, 1999.
+      authors:
+        - Q. Cao
+        - J. Torrellas
+        - P. Trancoso
+        - J.-L. Larriba-Pey
+        - B. Knighten
+        - Y. Won
+      title: Detailed characterization of a quad pentium pro server running tpc-d
+      venue: In Proc. ICCD, Austin, USA
+      year: 1999
+      resolves_to: ""
+    - key: "7"
+      raw: S. Chen, P. B. Gibbons, and T. C. Mowry. Improving index performance through prefetching. In Proc. SIGMOD, Santa Barbara, USA, 2001.
+      authors:
+        - S. Chen
+        - P. B. Gibbons
+        - T. C. Mowry
+      title: Improving index performance through prefetching
+      venue: In Proc. SIGMOD, Santa Barbara, USA
+      year: 2001
+      resolves_to: ""
+    - key: "8"
+      raw: G. P. Copeland and S. Khoshafian. A Decomposition Storage Model. In Proc. SIGMOD, Austin, USA, 1985.
+      authors:
+        - G. P. Copeland
+        - S. Khoshafian
+      title: A Decomposition Storage Model
+      venue: In Proc. SIGMOD, Austin, USA
+      year: 1985
+      resolves_to: ""
+    - key: "9"
+      raw: R. Cornacchia, A. van Ballegooij, and A. P. de Vries. A case study on array query optimisation. In Proc. CVDB, 2004.
+      authors:
+        - R. Cornacchia
+        - A. van Ballegooij
+        - A. P. de Vries
+      title: A case study on array query optimisation
+      venue: In Proc. CVDB
+      year: 2004
+      resolves_to: ""
+    - key: "10"
+      raw: G. Graefe. Volcano - an extensible and parallel query evaluation system. IEEE Trans. Knowl. Data Eng., 6(1):120–135, 1994.
+      authors:
+        - G. Graefe
+      title: Volcano - an extensible and parallel query evaluation system
+      venue: IEEE Trans. Knowl. Data Eng., 6(1):120–135
+      year: 1994
+      resolves_to: graefe-1994-volcano
+    - key: "11"
+      raw: S. Manegold, P. A. Boncz, and M. L. Kersten. Optimizing Main-Memory Join On Modern Hardware. IEEE Transactions on Knowledge and Data Eng., 14(4):709–730, 2002.
+      authors:
+        - S. Manegold
+        - P. A. Boncz
+        - M. L. Kersten
+      title: Optimizing Main-Memory Join On Modern Hardware
+      venue: IEEE Transactions on Knowledge and Data Eng., 14(4):709–730
+      year: 2002
+      resolves_to: ""
+    - key: "12"
+      raw: 'G. Moerkotte. Small Materialized Aggregates: A Light Weight Index Structure for Data Warehousing. In Proc. VLDB, New York, USA, 1998.'
+      authors:
+        - G. Moerkotte
+      title: 'Small Materialized Aggregates: A Light Weight Index Structure for Data Warehousing'
+      venue: In Proc. VLDB, New York, USA
+      year: 1998
+      resolves_to: ""
+    - key: "13"
+      raw: G. Moore. Cramming more components onto integrated circuits. Electronics, 38(8), Apr. 1965.
+      authors:
+        - G. Moore
+      title: Cramming more components onto integrated circuits
+      venue: Electronics, 38(8), Apr
+      year: 1965
+      resolves_to: ""
+    - key: "14"
+      raw: S. Padmanabhan, T. Malkemus, R. Agarwal, and A. Jhingran. Block oriented processing of relational database operations in modern computer architectures. In Proc. ICDE, Heidelberg, Germany, 2001.
+      authors:
+        - S. Padmanabhan
+        - T. Malkemus
+        - R. Agarwal
+        - A. Jhingran
+      title: Block oriented processing of relational database operations in modern computer architectures
+      venue: In Proc. ICDE, Heidelberg, Germany
+      year: 2001
+      resolves_to: ""
+    - key: "15"
+      raw: R. Ramamurthy, D. J. DeWitt, and Q. Su. A case for fractured mirrors. In Proc. VLDB, Hong Kong, 2002.
+      authors:
+        - R. Ramamurthy
+        - D. J. DeWitt
+        - Q. Su
+      title: A case for fractured mirrors
+      venue: In Proc. VLDB, Hong Kong
+      year: 2002
+      resolves_to: ""
+    - key: "16"
+      raw: J. Rao and K. A. Ross. Making B+-Trees Cache Conscious in Main Memory. In Proc. SIGMOD, Madison, USA, 2000.
+      authors:
+        - J. Rao
+        - K. A. Ross
+      title: Making B+-Trees Cache Conscious in Main Memory
+      venue: In Proc. SIGMOD, Madison, USA
+      year: 2000
+      resolves_to: ""
+    - key: "17"
+      raw: K. A. Ross. Conjunctive selection conditions in main memory. In Proc. PODS, Madison, USA, 2002.
+      authors:
+        - K. A. Ross
+      title: Conjunctive selection conditions in main memory
+      venue: In Proc. PODS, Madison, USA
+      year: 2002
+      resolves_to: ""
+    - key: "18"
+      raw: A. Shatdal, C. Kant, and J. F. Naughton. Cache conscious algorithms for relational query processing. In Proc. VLDB, Santiago, 1994.
+      authors:
+        - A. Shatdal
+        - C. Kant
+        - J. F. Naughton
+      title: Cache conscious algorithms for relational query processing
+      venue: In Proc. VLDB, Santiago
+      year: 1994
+      resolves_to: ""
+    - key: "19"
+      raw: M. Stonebraker, J. Anton, and M. Hirohama. Extendability in POSTGRES. IEEE Data Eng. Bull., 10(2):16–23, 1987.
+      authors:
+        - M. Stonebraker
+        - J. Anton
+        - M. Hirohama
+      title: Extendability in POSTGRES
+      venue: IEEE Data Eng. Bull., 10(2):16–23
+      year: 1987
+      resolves_to: ""
+    - key: "20"
+      raw: A. Wilschut, J. Flokstra, and P. Apers. Parallel Evaluation of Multi-Join Queries. In San Jose, USA, San Jose, CA, USA, May 1995.
+      authors:
+        - A. Wilschut
+        - J. Flokstra
+        - P. Apers
+      title: Parallel Evaluation of Multi-Join Queries
+      venue: In San Jose, USA, San Jose, CA, USA
+      year: 1995
+      resolves_to: ""
+    - key: "21"
+      raw: J. Zhou and K. A. Ross. Buffering accesses to memory-resident index structures. In Proc. VLDB, Toronto, Canada, 2003.
+      authors:
+        - J. Zhou
+        - K. A. Ross
+      title: Buffering accesses to memory-resident index structures
+      venue: In Proc. VLDB, Toronto, Canada
+      year: 2003
+      resolves_to: ""
+    - key: "22"
+      raw: J. Zhou and K. A. Ross. Buffering database operations for enhanced instruction cache performance. In Proc. SIGMOD, Paris, France, 2004.
+      authors:
+        - J. Zhou
+        - K. A. Ross
+      title: Buffering database operations for enhanced instruction cache performance
+      venue: In Proc. SIGMOD, Paris, France
+      year: 2004
+      resolves_to: ""

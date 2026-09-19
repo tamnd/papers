@@ -20,8 +20,8 @@ source: http://db.cs.berkeley.edu/cs286/papers/gamma-tkde1990.pdf
 pdf_sha256: 420d33f44b8e050f33517cdff1299a58838b4ad826d80a6617200332ea02be5e
 pdf_pages: 35-37
 extraction: vision
-extraction_model: gpt-5
-content_sha256: c654d102f62e34c76c724e0cb7c9f21ab72debbddd6dcdd346513d4074d04c14
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: 9c36a5d2b4b3d11c64ac6331af83f6beb06fde6f67ae6dd2bd0076ee80109ebb
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -63,19 +63,19 @@ prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 
 [GHAN89] Ghandeharizadeh, S. and D. J. DeWitt, "A Multiuser Performance Evaluation of Selection Queries in a Single Processor Database Machine", July 1989, submitted for publication.
 
-[GHAN90] Ghandeharizadeh, S., and D.J. DeWitt, "Performance Analysis of Alternative Declustering Strategies", Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
+[GHAN90] Ghandeharizadeh, S., and D.J. DeWitt, “Performance Analysis of Alternative Declustering Strategies”, Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
 
 [GOOD81] Goodman, J. R., "An Investigation of Multiprocessor Structures and Algorithms for Database Management", University of California at Berkeley, Technical Report UCB/ERL, M81/33, May, 1981.
 
-[GRAE89] Graefe, G., "Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System", Working Paper, Oregon Graduate Center, Portland, OR, February 1989.
+[GRAE89] Graefe, G., “Volcano: A Compact, Extensible, Dynamic, and Parallel Dataflow Query Evaluation System”, Working Paper, Oregon Graduate Center, Portland, OR, February 1989.
 
-[GRAY78] Gray, J., "Notes on Database Operating Systems," RJ 2188, IBM Research Laboratory, San Jose, California, February 1978.
+[GRAY78] Gray, J., "Notes on Database Operating Systems", RJ 2188, IBM Research Laboratory, San Jose, California, February 1978.
 
 [GRAY88] Gray, J., H. Sammer, and S. Whitford, "Shortest Seek vs Shortest Service Time Scheduling of Mirrored Disks," Tandem Computers, December 1988.
 
-[HSIA90] Hsiao, H. I. and D. J. DeWitt, "Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines," Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
+[HSIA90] Hsiao, H. I. and D. J. DeWitt, "Chained Declustering: A New Availability Strategy for Multiprocessor Database Machines", Proceedings of the 6th International Conference on Data Engineering, Los Angeles, CA, February 1990.
 
-[JARK84] Jarke, M. and J. Koch, "Query Optimization in Database System," ACM Computing Surveys, Vol. 16, No. 2, June 1984.
+[JARK84] Jarke, M. and J. Koch, "Query Optimization in Database System," ACM Computing Surveys, Vol. 16, No. 2, June, 1984.
 
 [KIM86] Kim, M., "Synchronized Disk Interleaving," IEEE Transactions on Computers, Vol. C-35, No. 11, November 1986.
 
@@ -83,7 +83,7 @@ prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 
 [LIVN87] Livny, M., S. Khoshafian, and H. Boral, “Multi-Disk Management Algorithms”, Proceedings of the 1987 SIGMETRICS Conference, Banff, Alberta, Canada, May, 1987.
 
-[MOHA89] Mohan, C., D. Haderle, B. Lindsay, H. Pirahesh, and P. Schwarz, "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging", RJ 6649, IBM Almaden Research Center, San Jose, California, January 1989.
+[MOHA89] Mohan, C., D. Haderle, B. Linsay, H. Pirahesh, and P. Schwarz, "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging", RJ 6649, IBM Almaden Research Center, San Jose, California, January 1989.
 
 [PATT88] Patterson, D. A., G. Gibson, and R. H. Katz, "A Case for Redundant Arrays of Inexpensive Disks (RAID)," Proceedings of the ACM-SIGMOD International Conference on Management of Data, Chicago, May 1988.
 
@@ -99,7 +99,7 @@ prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 
 [STON86] Stonebraker, M., "The Case for Shared Nothing," Database Engineering, Vol. 9, No. 1, 1986.
 
-[STON88] Stonebraker, M., R. Katz, D. Patterson, and J. Ousterhout, “The Design of XPRS”, Proceedings of the Fourteenth International Conference on Very Large Data Bases, Los Angeles, CA, August 1988.
+[STON88] Stonebraker, M., R. Katz, D. Patterson, and J. Ousterhout, “The Design of XPRS”, Proceedings of the Fourteenth International Conference on Very Large Data Bases", Los Angeles, CA, August, 1988.
 
 [TAND88] Tandem Performance Group, “A Benchmark of Non-Stop SQL on the Debit Credit Transaction,” Proceedings of the 1988 SIGMOD Conference, Chicago, IL, June 1988.
 

@@ -18,3 +18,127 @@ pages:
     - pdf: 3
       size: [623, 796]
       columns: 1
+      figures: [f01, f02]
+    - pdf: 4
+      size: [618, 795]
+      columns: 1
+    - pdf: 5
+      size: [617, 794]
+      columns: 1
+    - pdf: 6
+      size: [620, 796]
+      columns: 1
+      figures: [f03]
+    - pdf: 7
+      size: [614, 792]
+      columns: 1
+    - pdf: 8
+      size: [622, 797]
+      columns: 1
+      figures: [f04]
+    - pdf: 9
+      size: [618, 795]
+      columns: 1
+    - pdf: 10
+      size: [617, 793]
+      columns: 1
+    - pdf: 11
+      size: [617, 793]
+      columns: 1
+      figures: [f05]
+    - pdf: 12
+      size: [617, 794]
+      columns: 1
+    - pdf: 13
+      size: [617, 793]
+      columns: 1
+    - pdf: 14
+      size: [618, 795]
+      columns: 1
+      figures: [f06]
+    - pdf: 15
+      size: [614, 792]
+      columns: 1
+    - pdf: 16
+      size: [622, 797]
+      columns: 1
+      figures: [f07]
+    - pdf: 17
+      size: [617, 794]
+      columns: 1
+    - pdf: 18
+      size: [623, 798]
+      columns: 1
+    - pdf: 19
+      size: [618, 795]
+      columns: 1
+    - pdf: 20
+      size: [630, 801]
+      columns: 1
+    - pdf: 21
+      size: [616, 793]
+      columns: 1
+    - pdf: 22
+      size: [622, 798]
+      columns: 1
+    - pdf: 23
+      size: [617, 793]
+      columns: 1
+    - pdf: 24
+      size: [622, 800]
+      columns: 1
+    - pdf: 25
+      size: [617, 793]
+      columns: 1
+      figures: [f08]
+    - pdf: 26
+      size: [622, 796]
+      columns: 1
+    - pdf: 27
+      size: [616, 793]
+      columns: 1
+      figures: [f09, f10]
+    - pdf: 28
+      size: [622, 796]
+      columns: 1
+    - pdf: 29
+      size: [614, 792]
+      columns: 1
+      figures: [f11]
+    - pdf: 30
+      size: [626, 799]
+      columns: 1
+      figures: [f12]
+    - pdf: 31
+      size: [616, 793]
+      columns: 1
+    - pdf: 32
+      size: [623, 798]
+      columns: 1
+      figures: [f13]
+    - pdf: 33
+      size: [614, 792]
+      columns: 1
+      figures: [f14]
+    - pdf: 34
+      size: [622, 797]
+      columns: 1
+    - pdf: 35
+      size: [617, 793]
+      columns: 1
+    - pdf: 36
+      size: [622, 797]
+      columns: 1
+      figures: [f15]
+    - pdf: 37
+      size: [618, 795]
+      columns: 1
+    - pdf: 38
+      size: [622, 800]
+      columns: 1
+    - pdf: 39
+      size: [616, 793]
+      columns: 1
+    - pdf: 40
+      size: [623, 798]
+      columns: 1

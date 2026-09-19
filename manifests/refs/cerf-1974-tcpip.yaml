@@ -1,0 +1,175 @@
+paper: cerf-1974-tcpip
+style: bracket
+entries:
+    - key: "1"
+      raw: 'L. Roberts and B. Wessler, “Computer network development to achieve resource sharing,” in 1970 Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N. J.: AFIPS Press, 1970, pp. 543—549.'
+      authors:
+        - L. Roberts
+        - B. Wessler
+      title: Computer network development to achieve resource sharing
+      venue: 'in 1970 Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N. J.: AFIPS Press, 1970, pp. 543—549'
+      year: 1970
+      pages: 543-549
+      resolves_to: ""
+    - key: "2"
+      raw: L. Pouzin, “Presentation and major design aspects of the CYCLADES computer network,” in Proc. 3rd Data Communications Symp., 1973.
+      authors:
+        - L. Pouzin
+      title: Presentation and major design aspects of the CYCLADES computer network
+      venue: in Proc. 3rd Data Communications Symp
+      year: 1973
+      resolves_to: ""
+    - key: "3"
+      raw: F. R. E. Dell, “Features of a proposed synchronous data network,” in Proc. 2nd Symp. Problems in the Optimization of Data Communications Systems, 1971, pp. 50—57.
+      authors:
+        - F. R. E. Dell
+      title: Features of a proposed synchronous data network
+      venue: in Proc. 2nd Symp. Problems in the Optimization of Data Communications Systems, 1971, pp. 50—57
+      year: 1971
+      pages: 50-57
+      resolves_to: ""
+    - key: "4"
+      raw: R. A. Scantlebury and P. T. Wilkinson, “The design of a switching system to allow remote access to computer services by other computers and terminal devices,” in Proc. 2nd Symp. Problems in the Optimization of Data Communications Systems, 1971, pp. 160-167.
+      authors:
+        - R. A. Scantlebury
+        - P. T. Wilkinson
+      title: The design of a switching system to allow remote access to computer services by other computers and terminal devices
+      venue: in Proc. 2nd Symp. Problems in the Optimization of Data Communications Systems, 1971, pp. 160-167
+      year: 1971
+      pages: 160-167
+      resolves_to: ""
+    - key: "5"
+      raw: 'D. L. A. Barber, “The European computer network project,” in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington , D.C., 1972, pp. 192-200.'
+      authors:
+        - D. L. A. Barber
+      title: The European computer network project
+      venue: 'in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington , D.C., 1972, pp. 192-200'
+      year: 1972
+      pages: 192-200
+      resolves_to: ""
+    - key: "6"
+      raw: 'R. Despres, “A packet switching network with graceful saturated operation,” in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington, D.C., 1972, pp. 345-351.'
+      authors:
+        - R. Despres
+      title: A packet switching network with graceful saturated operation
+      venue: 'in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington, D.C., 1972, pp. 345-351'
+      year: 1972
+      pages: 345-351
+      resolves_to: ""
+    - key: "7"
+      raw: R. E. Kahn and W. R. Crowther, “Flow control in a resource-shaping computer network,” IEEE Trans. Commun., vol. COM-20, pp. 539-546, June 1972.
+      authors:
+        - R. E. Kahn
+        - W. R. Crowther
+      title: Flow control in a resource-shaping computer network
+      venue: IEEE Trans. Commun., vol. COM-20, pp. 539-546
+      year: 1972
+      pages: 539-546
+      resolves_to: ""
+    - key: "8"
+      raw: J. F. Chambon, M. Elie, J. Le Bihan, G. LeLann, and H. Zimmerman, “Functional specification of transmission station in the CYCLADES network. ST-ST protocol” (in French), I.R.I.A. Tech. Rep. SCH502.3, May 1973.
+      authors:
+        - J. F. Chambon
+        - M. Elie
+        - J. Le Bihan
+        - G. LeLann
+        - H. Zimmerman
+      title: Functional specification of transmission station in the CYCLADES network. ST-ST protocol
+      venue: (in French), I.R.I.A. Tech. Rep. SCH502.3
+      year: 1973
+      resolves_to: ""
+    - key: "9"
+      raw: 'S. Carr, S. Crocker, and V. Cerf, “HOST-HOST Communication Protocol In the ARPA Network,” in Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N.J.: AFIPS Press, 1970, pp. 589-597.'
+      authors:
+        - S. Carr
+        - S. Crocker
+        - V. Cerf
+      title: HOST-HOST Communication Protocol In the ARPA Network
+      venue: 'in Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N.J.: AFIPS Press, 1970, pp. 589-597'
+      year: 1970
+      pages: 589-597
+      resolves_to: ""
+    - key: "10"
+      raw: A. McKenzie, “HOST/HOST protocol for the ARPA network,” in Current Network Protocols, Network Information Cen., Menlo Park, Calif., NIC 8246, Jan. 1972.
+      authors:
+        - A. McKenzie
+      title: HOST/HOST protocol for the ARPA network
+      venue: in Current Network Protocols, Network Information Cen., Menlo Park, Calif., NIC 8246, Jan
+      year: 1972
+      resolves_to: ""
+    - key: "11"
+      raw: L. Pouzin, “Address format in Mitranet,” NIC 14497, INWG 20, Jan. 1973.
+      authors:
+        - L. Pouzin
+      title: Address format in Mitranet
+      venue: NIC 14497, INWG 20, Jan
+      year: 1973
+      resolves_to: ""
+    - key: "12"
+      raw: D. Walden, “A system for interprocess communication in a resource sharing computer network,” Commun. Ass. Comput. Mach., vol. 15, pp. 221-230, Apr. 1972.
+      authors:
+        - D. Walden
+      title: A system for interprocess communication in a resource sharing computer network
+      venue: Commun. Ass. Comput. Mach., vol. 15, pp. 221-230, Apr
+      year: 1972
+      pages: 221-230
+      resolves_to: ""
+    - key: "13"
+      raw: B. Lampson, “A scheduling philosophy for multiprocessing system,” Commun. Ass. Comput. Mach., vol. 11, pp. 347-360, May 1968.
+      authors:
+        - B. Lampson
+      title: A scheduling philosophy for multiprocessing system
+      venue: Commun. Ass. Comput. Mach., vol. 11, pp. 347-360
+      year: 1968
+      pages: 347-360
+      resolves_to: ""
+    - key: "14"
+      raw: 'F. E. Heart, R. E. Kahn, S. Ornstein, W. Crowther, and D. Walden, “The interface message processor for the ARPA computer network,” in Proc. Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N.J.: AFIPS Press, 1970, pp. 551-567.'
+      authors:
+        - F. E. Heart
+        - R. E. Kahn
+        - S. Ornstein
+        - W. Crowther
+        - D. Walden
+      title: The interface message processor for the ARPA computer network
+      venue: 'in Proc. Spring Joint Computer Conf., AFIPS Conf. Proc., vol. 36. Montvale, N.J.: AFIPS Press, 1970, pp. 551-567'
+      year: 1970
+      pages: 551-567
+      resolves_to: ""
+    - key: "15"
+      raw: 'N. G. Anslow and J. Hanscoff, “Implementation of international data exchange networks,” in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington, D. C., 1972, pp. 181-184.'
+      authors:
+        - N. G. Anslow
+        - J. Hanscoff
+      title: Implementation of international data exchange networks
+      venue: 'in Computer Communications: Impacts and Implications, S. Winkler, Ed. Washington, D. C., 1972, pp. 181-184'
+      year: 1972
+      pages: 181-184
+      resolves_to: ""
+    - key: "16"
+      raw: A. McKenzie, “HOST/HOST protocol design considerations,” INWG Note 16, NIC 13879, Jan. 1973.
+      authors:
+        - A. McKenzie
+      title: HOST/HOST protocol design considerations
+      venue: INWG Note 16, NIC 13879, Jan
+      year: 1973
+      resolves_to: ""
+    - key: "17"
+      raw: R. E. Kahn, “Resource-sharing computer communication networks”, Proc. IEEE, vol. 60, pp. 1397-1407, Nov. 1972.
+      authors:
+        - R. E. Kahn
+      title: Resource-sharing computer communication networks
+      venue: Proc. IEEE, vol. 60, pp. 1397-1407, Nov
+      year: 1972
+      pages: 1397-1407
+      resolves_to: ""
+    - key: "18"
+      raw: Bolt, Beranek, and Newman, “Specification for the interconnection of a host and an IMP,” Bolt Beranek and Newman, Inc., Cambridge, Mass., BBN Rep. 1822 (revised), Apr. 1973.
+      authors:
+        - Bolt
+        - Beranek
+        - Newman
+      title: Specification for the interconnection of a host and an IMP
+      venue: Bolt Beranek and Newman, Inc., Cambridge, Mass., BBN Rep. 1822 (revised), Apr
+      year: 1973
+      resolves_to: ""

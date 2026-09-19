@@ -1,0 +1,76 @@
+paper: chiu-1989-aimd
+style: bracket
+entries:
+    - key: "1"
+      raw: D.P. Bertsekas, Distributed Asynchronous Computation of Fixed Points, Mathematical Programming 27 (1983) 107–120.
+      title: D.P. Bertsekas, Distributed Asynchronous Computation of Fixed Points, Mathematical Programming 27 (1983) 107–120
+      year: 1983
+      resolves_to: ""
+    - key: "2"
+      raw: 'E. Gafni and D. Bertsekas, Dynamic Control of Session Input Rates in Communication Networks, in: Proc. MILCOM ''82, Boston, MA, MIT Technical Report LIDS-P-1228, 1982.'
+      title: 'E. Gafni and D. Bertsekas, Dynamic Control of Session Input Rates in Communication Networks, in: Proc. MILCOM ''82, Boston, MA, MIT Technical Report LIDS-P-1228, 1982'
+      year: 1982
+      resolves_to: ""
+    - key: "3"
+      raw: H. Hayden, Voice Flow Control in Integrated Packet Networks, MIT, M.S. Thesis, MIT Technical Report LIDS-TH-1152, 1981.
+      title: H. Hayden, Voice Flow Control in Integrated Packet Networks, MIT, M.S. Thesis, MIT Technical Report LIDS-TH-1152, 1981
+      year: 1981
+      resolves_to: ""
+    - key: "4"
+      raw: 'ISO 8073: Information Processing Systems — Open Systems Interconnection — Connection Oriented Transport Protocol Specification, International Organization for Standardization, Ref. no. ISO 8073-1986 (E)), 1986.'
+      title: 'ISO 8073: Information Processing Systems — Open Systems Interconnection — Connection Oriented Transport Protocol Specification, International Organization for Standardization, Ref'
+      venue: no. ISO 8073-1986 (E))
+      year: 1986
+      resolves_to: ""
+    - key: "5"
+      raw: J.M. Jaffe, Bottleneck Flow Control, IEEE Transactions on Communications 29 (7) (1981) 954–962.
+      title: J.M. Jaffe, Bottleneck Flow Control, IEEE Transactions on Communications 29 (7) (1981) 954–962
+      year: 1981
+      resolves_to: ""
+    - key: "6"
+      raw: R. Jain, D.M. Chiu and W. Hawe. A Quantitative Measure of Fairness and Discrimination for Resource Allocation in Shared Systems, Technical Report, Digital Equipment Corporation, DEC-TR-301, 1984.
+      authors:
+        - R. Jain
+        - D.M. Chiu
+        - W. Hawe
+      title: A Quantitative Measure of Fairness and Discrimination for Resource Allocation in Shared Systems, Technical Report, Digital Equipment Corporation, DEC-TR-301, 1984
+      year: 1984
+      resolves_to: ""
+    - key: "7"
+      raw: 'R. Jain and K.K. Ramakrishnan, Congestion Avoidance in Computer Networks with a Connectionless Network Layer: Concepts, Goals and Methodology, in: Proc. Computer Networking Symposium, Washington, DC (1988) 134–143.'
+      title: 'R. Jain and K.K. Ramakrishnan, Congestion Avoidance in Computer Networks with a Connectionless Network Layer: Concepts, Goals and Methodology, in: Proc. Computer Networking Symposium, Washington, DC (1988) 134–143'
+      year: 1988
+      resolves_to: ""
+    - key: "8"
+      raw: 'R. Jain, K.K. Ramakrishnan and D.M. Chiu, Congestion Avoidance in Computer Networks with a Connectionless Network Layer, Technical Report DEC-TR-506, Digital Equipment Corporation, 1987. Also in: C. Partridge, ed., Innovations in Internetworking (Artech House, Norwood, MA, 1988) 140–156.'
+      authors:
+        - R. Jain
+        - K.K. Ramakrishnan
+        - D.M. Chiu
+        - Congestion Avoidance in Computer Networks with a Connectionless Network Layer
+        - Technical Report DEC-TR-506
+        - Digital Equipment Corporation
+        - "1987"
+      title: 'Also in: C. Partridge, ed., Innovations in Internetworking (Artech House, Norwood, MA, 1988) 140–156'
+      year: 1988
+      resolves_to: ""
+    - key: "9"
+      raw: J. Mosely, Asynchronous Distributed Flow Control Algorithms, MIT, Ph.D. Thesis, MIT Technical Report LIDS-TH-1415, 1984.
+      title: J. Mosely, Asynchronous Distributed Flow Control Algorithms, MIT, Ph.D. Thesis, MIT Technical Report LIDS-TH-1415, 1984
+      year: 1984
+      resolves_to: ""
+    - key: "10"
+      raw: K.K. Ramakrishnan, D.M. Chiu and R. Jain, Congestion Avoidance in Computer Networks with a Connectionless Network Layer, Part IV-A Selective Binary Feedback Scheme for General Topologies, Technical Report DEC-TR-509, Digital Equipment Corporation, 1987.
+      title: K.K. Ramakrishnan, D.M. Chiu and R. Jain, Congestion Avoidance in Computer Networks with a Connectionless Network Layer, Part IV-A Selective Binary Feedback Scheme for General Topologies, Technical Report DEC-TR-509, Digital Equipment Corporation, 1987
+      year: 1987
+      resolves_to: ""
+    - key: "11"
+      raw: 'K.K. Ramakrishnan and R. Jain, A Binary Feedback Scheme for Congestion Avoidance in Computer Networks with a Connectionless Network Layer, in: Proc. ACM SIGCOMM''88 (1988).'
+      title: 'K.K. Ramakrishnan and R. Jain, A Binary Feedback Scheme for Congestion Avoidance in Computer Networks with a Connectionless Network Layer, in: Proc. ACM SIGCOMM''88 (1988)'
+      year: 1988
+      resolves_to: ""
+    - key: "12"
+      raw: B.A. Sanders, An Incentive Compatible Flow Control Algorithm for Fair Rate Allocation in Computer/Communication Networks, 6th International Conference on Distributed Computing Systems, Cambridge, MA (1986).
+      title: B.A. Sanders, An Incentive Compatible Flow Control Algorithm for Fair Rate Allocation in Computer/Communication Networks, 6th International Conference on Distributed Computing Systems, Cambridge, MA (1986)
+      year: 1986
+      resolves_to: ""

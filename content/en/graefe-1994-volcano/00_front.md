@@ -15,8 +15,8 @@ pdf_sha256: 61e9ce81f84d66797c95db711fb593adcf1dbbf95fea53eba44a9b9e2239d6ca
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: f3f5216d0b9ee8e1b96dbdbc385a4acb4d80a53b9dc3b71ce8d91c9a06d95e85
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: d798ba7281ca1a5f0e11bf8ed68db355aec57a4e597700119d847a7058bf3e2f
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Volcano—An Extensible and Parallel Query Evaluation System
@@ -30,3 +30,5 @@ Volcano uses a standard interface between algebra operators, allowing easy addit
 Volcano includes two novel meta-operators. The choose-plan meta-operator supports dynamic query evaluation plans that allow delaying selected optimization decisions until run-time, e.g., for embedded queries with free variables. The exchange meta-operator supports intra-operator parallelism on partitioned datasets and both vertical and horizontal inter-operator parallelism, translating between demand-driven dataflow within processes and data-driven dataflow between processes.
 
 All operators, with the exception of the exchange operator, have been designed and implemented in a single-process environment, and parallelized using the exchange operator. Even operators not yet designed can be parallelized using this new operator if they use and provide the interator interface. Thus, the issues of data manipulation and parallelism have become orthogonal, making Volcano the first implemented query execution engine that effectively combines extensibility and parallelism.
+
+Index Terms—Dynamic query evaluation plans, extensible database systems, iterators, operator model of parallelization, query execution.

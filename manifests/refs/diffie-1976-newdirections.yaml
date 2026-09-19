@@ -1,0 +1,128 @@
+paper: diffie-1976-newdirections
+style: bracket
+entries:
+    - key: "1"
+      raw: R. Merkle, “Secure communication over an insecure channel,” submitted to Communications of the ACM.
+      authors:
+        - R. Merkle
+      title: Secure communication over an insecure channel
+      venue: submitted to Communications of the ACM
+      resolves_to: ""
+    - key: "2"
+      raw: 'D. Kahn, The Codebreakers, The Story of Secret Writing. New York: Macmillan, 1967.'
+      authors:
+        - D. Kahn
+        - The Codebreakers
+        - The Story of Secret Writing
+      title: 'New York: Macmillan, 1967'
+      year: 1967
+      resolves_to: ""
+    - key: "3"
+      raw: C. E. Shannon, “Communication theory of secrecy systems,” Bell Syst. Tech. J., vol. 28, pp. 656–715, Oct. 1949.
+      authors:
+        - C. E. Shannon
+      title: Communication theory of secrecy systems
+      venue: Bell Syst. Tech. J., vol. 28, pp. 656–715, Oct
+      year: 1949
+      pages: 656-715
+      resolves_to: ""
+    - key: "4"
+      raw: M. E. Hellman, “An extension of the Shannon theory approach to cryptography,” submitted to IEEE Trans. Inform. Theory, Sept. 1975.
+      authors:
+        - M. E. Hellman
+      title: An extension of the Shannon theory approach to cryptography
+      venue: submitted to IEEE Trans. Inform. Theory, Sept
+      year: 1975
+      resolves_to: ""
+    - key: "5"
+      raw: W. Diffie and M. E. Hellman, “Multiuser cryptographic techniques,” presented at National Computer Conference, New York, June 7–10, 1976.
+      authors:
+        - W. Diffie
+        - M. E. Hellman
+      title: Multiuser cryptographic techniques
+      venue: presented at National Computer Conference, New York, June 7–10
+      year: 1976
+      resolves_to: ""
+    - key: "6"
+      raw: 'D. Knuth, The Art of Computer Programming, Vol. 2, Semi-Numerical Algorithms. Reading, MA.: Addison–Wesley, 1969.'
+      authors:
+        - D. Knuth
+        - The Art of Computer Programming
+        - Vol. 2
+        - Semi-Numerical Algorithms
+      title: 'Reading, MA.: Addison–Wesley, 1969'
+      year: 1969
+      resolves_to: ""
+    - key: "7"
+      raw: '——, The Art of Computer Programming, Vol. 3, Sorting and Searching. Reading, MA.: Addison–Wesley, 1973.'
+      title: ——, The Art of Computer Programming, Vol. 3, Sorting and Searching
+      venue: 'Reading, MA.: Addison–Wesley'
+      year: 1973
+      resolves_to: ""
+    - key: "8"
+      raw: S. Pohlig and M. E. Hellman, “An improved algorithm for computing algorithms in $GF(p)$ and its cryptographic significance,” submitted to IEEE Trans. Inform. Theory.
+      authors:
+        - S. Pohlig
+        - M. E. Hellman
+      title: An improved algorithm for computing algorithms in $GF(p)$ and its cryptographic significance
+      venue: submitted to IEEE Trans. Inform. Theory
+      resolves_to: ""
+    - key: "9"
+      raw: 'M. V. Wilkes, Time-Sharing Computer Systems. New York: Elsevier, 1972.'
+      authors:
+        - M. V. Wilkes
+        - Time-Sharing Computer Systems
+      title: 'New York: Elsevier, 1972'
+      year: 1972
+      resolves_to: ""
+    - key: "10"
+      raw: A. Evans, Jr., W. Kantrowitz, and E. Weiss, “A user authentication system not requiring secrecy in the computer,” Communications of the ACM, vol. 17, pp. 437–442, Aug. 1974.
+      authors:
+        - A. Evans
+        - Jr
+        - W. Kantrowitz
+        - E. Weiss
+      title: A user authentication system not requiring secrecy in the computer
+      venue: Communications of the ACM, vol. 17, pp. 437–442, Aug
+      year: 1974
+      pages: 437-442
+      resolves_to: ""
+    - key: "11"
+      raw: G. B. Purdy, “A high security log-in procedure,” Communications of the ACM, vol. 17, pp. 442–445, Aug. 1974.
+      authors:
+        - G. B. Purdy
+      title: A high security log-in procedure
+      venue: Communications of the ACM, vol. 17, pp. 442–445, Aug
+      year: 1974
+      pages: 442-445
+      resolves_to: ""
+    - key: "12"
+      raw: W. Diffie and M. E. Hellman, “Cryptanalysis of the NBS data encryption standard” submitted to Computer, May 1976.
+      authors:
+        - W. Diffie
+        - M. E. Hellman
+      title: Cryptanalysis of the NBS data encryption standard
+      venue: submitted to Computer
+      year: 1976
+      resolves_to: ""
+    - key: "13"
+      raw: 'A. V. Aho, J. E. Hopcroft, and J. D. Ullman, The Design and Analysis of Computer Algorithms. Reading, MA.: Addison–Wesley, 1974.'
+      authors:
+        - A. V. Aho
+        - J. E. Hopcroft
+        - J. D. Ullman
+        - The Design
+        - Analysis of Computer Algorithms
+      title: 'Reading, MA.: Addison–Wesley, 1974'
+      year: 1974
+      resolves_to: ""
+    - key: "14"
+      raw: 'R. M, Karp, “Reducibility among combinatorial problems,” in Complexity of Computer Computations. R. E. Miller and J. W. Thatcher, Eds. New York: Plenum, 1972, pp. 85–104.'
+      authors:
+        - R. M
+        - Karp
+      title: Reducibility among combinatorial problems
+      venue: 'in Complexity of Computer Computations. R. E. Miller and J. W. Thatcher, Eds. New York: Plenum, 1972, pp. 85–104'
+      year: 1972
+      pages: 85-104
+      resolves_to: karp-1972-reducibility

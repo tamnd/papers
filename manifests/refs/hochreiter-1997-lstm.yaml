@@ -1,0 +1,351 @@
+paper: hochreiter-1997-lstm
+style: author-year
+entries:
+    - key: Almeida 1987
+      raw: Almeida, L. B. (1987). A learning rule for asynchronous perceptrons with feedback in a combinatorial environment. In IEEE 1st International Conference on Neural Networks, San Diego, volume 2, pages 609–618.
+      authors:
+        - L. B. Almeida
+      title: A learning rule for asynchronous perceptrons with feedback in a combinatorial environment
+      venue: In IEEE 1st International Conference on Neural Networks, San Diego, volume 2, pages 609–618
+      year: 1987
+      pages: 609-618
+      resolves_to: ""
+    - key: Baldi 1991
+      raw: Baldi, P. and Pineda, F. (1991). Contrastive learning and neural oscillator. Neural Computation, 3:526–545.
+      authors:
+        - P. Baldi
+        - F. Pineda
+      title: Contrastive learning and neural oscillator
+      venue: Neural Computation, 3:526–545
+      year: 1991
+      resolves_to: ""
+    - key: Bengio 1994
+      raw: 'Bengio, Y. and Frasconi, P. (1994). Credit assignment through time: Alternatives to backpropagation. In Cowan, J. D., Tesauro, G., and Alspector, J., editors, Advances in Neural Information Processing Systems 6, pages 75–82. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - Y. Bengio
+        - P. Frasconi
+      title: 'Credit assignment through time: Alternatives to backpropagation'
+      venue: 'In Cowan, J. D., Tesauro, G., and Alspector, J., editors, Advances in Neural Information Processing Systems 6, pages 75–82. San Mateo, CA: Morgan Kaufmann'
+      year: 1994
+      pages: 75-82
+      resolves_to: ""
+    - key: Bengio 1994
+      raw: Bengio, Y., Simard, P., and Frasconi, P. (1994). Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2):157–166.
+      authors:
+        - Y. Bengio
+        - P. Simard
+        - P. Frasconi
+      title: Learning long-term dependencies with gradient descent is difficult
+      venue: IEEE Transactions on Neural Networks, 5(2):157–166
+      year: 1994
+      resolves_to: ""
+    - key: Cleeremans 1989
+      raw: 'Cleeremans, A., Servan-Schreiber, D., and McClelland, J. L. (1989). Finite-state automata and simple recurrent networks. Neural Computation, 1:372–381. de Vries, B. and Principe, J. C. (1991). A theory for neural networks with time delays. In Lippmann, R. P., Moody, J. E., and Touretzky, D. S., editors, Advances in Neural Information Processing Systems 3, pages 162–168. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - A. Cleeremans
+        - D. Servan-Schreiber
+        - J. L. McClelland
+      title: Finite-state automata and simple recurrent networks
+      year: 1989
+      pages: 162-168
+      resolves_to: ""
+    - key: Doya 1992
+      raw: Doya, K. (1992). Bifurcations in the learning of recurrent neural networks. In Proceedings of 1992 IEEE International Symposium on Circuits and Systems, pages 2777–2780.
+      authors:
+        - K. Doya
+      title: Bifurcations in the learning of recurrent neural networks
+      venue: In Proceedings of 1992 IEEE International Symposium on Circuits and Systems, pages 2777–2780
+      year: 1992
+      pages: 2777-2780
+      resolves_to: ""
+    - key: Doya 1989
+      raw: Doya, K. and Yoshizawa, S. (1989). Adaptive neural oscillator using continuous-time back-propagation learning. Neural Networks, 2:375–385.
+      authors:
+        - K. Doya
+        - S. Yoshizawa
+      title: Adaptive neural oscillator using continuous-time back-propagation learning
+      venue: Neural Networks, 2:375–385
+      year: 1989
+      resolves_to: ""
+    - key: Elman 1988
+      raw: Elman, J. L. (1988). Finding structure in time. Technical Report CRL Technical Report 8801, Center for Research in Language, University of California, San Diego.
+      authors:
+        - J. L. Elman
+      title: Finding structure in time
+      venue: Technical Report CRL Technical Report 8801, Center for Research in Language, University of California, San Diego
+      year: 1988
+      resolves_to: ""
+    - key: Fahlman 1991
+      raw: 'Fahlman, S. E. (1991). The recurrent cascade-correlation learning algorithm. In Lippmann, R. P., Moody, J. E., and Touretzky, D. S., editors, Advances in Neural Information Processing Systems 3, pages 190–196. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - S. E. Fahlman
+      title: The recurrent cascade-correlation learning algorithm
+      year: 1991
+      pages: 190-196
+      resolves_to: ""
+    - key: Hochreiter 1991
+      raw: Hochreiter, J. (1991). Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, Institut für Informatik, Lehrstuhl Prof. Brauer, Technische Universität München. See www7.informatik.tu-muenchen.de/~hochreit.
+      authors:
+        - J. Hochreiter
+      title: Untersuchungen zu dynamischen neuronalen Netzen
+      venue: Diploma thesis, Institut für Informatik, Lehrstuhl Prof. Brauer, Technische Universität München. See www7.informatik.tu-muenchen.de/~hochreit
+      year: 1991
+      resolves_to: ""
+    - key: Hochreiter 1995
+      raw: Hochreiter, S. and Schmidhuber, J. (1995). Long short-term memory. Technical Report FKI-207-95, Fakultät für Informatik, Technische Universität München.
+      authors:
+        - S. Hochreiter
+        - J. Schmidhuber
+      title: Long short-term memory
+      venue: Technical Report FKI-207-95, Fakultät für Informatik, Technische Universität München
+      year: 1995
+      resolves_to: ""
+    - key: Hochreiter 1996
+      raw: 'Hochreiter, S. and Schmidhuber, J. (1996). Bridging long time lags by weight guessing and “Long Short-Term Memory”. In Silva, F. L., Principe, J. C., and Almeida, L. B., editors, Spatiotemporal models in biological and artificial systems, pages 65–72. IOS Press, Amsterdam, Netherlands. Serie: Frontiers in Artificial Intelligence and Applications, Volume 37.'
+      authors:
+        - S. Hochreiter
+        - J. Schmidhuber
+      title: Bridging long time lags by weight guessing and “Long Short-Term Memory”
+      year: 1996
+      pages: 65-72
+      resolves_to: ""
+    - key: Hochreiter 1997
+      raw: Hochreiter, S. and Schmidhuber, J. (1997). LSTM can solve hard long time lag problems. In Advances in Neural Information Processing Systems 9. MIT Press, Cambridge MA. Presented at NIPS 96.
+      authors:
+        - S. Hochreiter
+        - J. Schmidhuber
+      title: LSTM can solve hard long time lag problems
+      venue: In Advances in Neural Information Processing Systems 9. MIT Press, Cambridge MA. Presented at NIPS 96
+      year: 1997
+      resolves_to: ""
+    - key: Lang 1990
+      raw: Lang, K., Waibel, A., and Hinton, G. E. (1990). A time-delay neural network architecture for isolated word recognition. Neural Networks, 3:23–43.
+      authors:
+        - K. Lang
+        - A. Waibel
+        - G. E. Hinton
+      title: A time-delay neural network architecture for isolated word recognition
+      venue: Neural Networks, 3:23–43
+      year: 1990
+      resolves_to: ""
+    - key: Miller 1993
+      raw: Miller, C. B. and Giles, C. L. (1993). Experimental comparison of the effect of order in recurrent neural networks. International Journal of Pattern Recognition and Artificial Intelligence, 7(4):849–872.
+      authors:
+        - C. B. Miller
+        - C. L. Giles
+      title: Experimental comparison of the effect of order in recurrent neural networks
+      venue: International Journal of Pattern Recognition and Artificial Intelligence, 7(4):849–872
+      year: 1993
+      resolves_to: ""
+    - key: Mozer 1989
+      raw: Mozer, M. C. (1989). A focused back-propagation algorithm for temporal sequence recognition. Complex Systems, 3:349–381.
+      authors:
+        - M. C. Mozer
+      title: A focused back-propagation algorithm for temporal sequence recognition
+      venue: Complex Systems, 3:349–381
+      year: 1989
+      resolves_to: ""
+    - key: Mozer 1992
+      raw: 'Mozer, M. C. (1992). Induction of multiscale temporal structure. In Lippman, D. S., Moody, J. E., and Touretzky, D. S., editors, Advances in Neural Information Processing Systems 4, pages 275–282. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - M. C. Mozer
+      title: Induction of multiscale temporal structure
+      year: 1992
+      pages: 275-282
+      resolves_to: ""
+    - key: Pearlmutter 1989
+      raw: Pearlmutter, B. A. (1989). Learning state space trajectories in recurrent neural networks. Neural Computation, 1(2):263–269.
+      authors:
+        - B. A. Pearlmutter
+      title: Learning state space trajectories in recurrent neural networks
+      venue: Neural Computation, 1(2):263–269
+      year: 1989
+      resolves_to: ""
+    - key: Pearlmutter 1995
+      raw: 'Pearlmutter, B. A. (1995). Gradient calculations for dynamic recurrent neural networks: A survey. IEEE Transactions on Neural Networks, 6(5):1212–1228.'
+      authors:
+        - B. A. Pearlmutter
+      title: 'Gradient calculations for dynamic recurrent neural networks: A survey'
+      venue: IEEE Transactions on Neural Networks, 6(5):1212–1228
+      year: 1995
+      resolves_to: ""
+    - key: Pineda 1987
+      raw: Pineda, F. J. (1987). Generalization of back-propagation to recurrent neural networks. Physical Review Letters, 19(59):2229–2232.
+      authors:
+        - F. J. Pineda
+      title: Generalization of back-propagation to recurrent neural networks
+      venue: Physical Review Letters, 19(59):2229–2232
+      year: 1987
+      resolves_to: ""
+    - key: Pineda 1988
+      raw: Pineda, F. J. (1988). Dynamics and architecture for neural computation. Journal of Complexity, 4:216–245.
+      authors:
+        - F. J. Pineda
+      title: Dynamics and architecture for neural computation
+      venue: Journal of Complexity, 4:216–245
+      year: 1988
+      resolves_to: ""
+    - key: Plate 1993
+      raw: 'Plate, T. A. (1993). Holographic recurrent networks. In S. J. Hanson, J. D. C. and Giles, C. L., editors, Advances in Neural Information Processing Systems 5, pages 34–41. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - T. A. Plate
+      title: Holographic recurrent networks
+      venue: 'In S. J. Hanson, J. D. C. and Giles, C. L., editors, Advances in Neural Information Processing Systems 5, pages 34–41. San Mateo, CA: Morgan Kaufmann'
+      year: 1993
+      pages: 34-41
+      resolves_to: ""
+    - key: Pollack 1991
+      raw: 'Pollack, J. B. (1991). Language induction by phase transition in dynamical recognizers. In Lippmann, R. P., Moody, J. E., and Touretzky, D. S., editors, Advances in Neural Information Processing Systems 3, pages 619–626. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - J. B. Pollack
+      title: Language induction by phase transition in dynamical recognizers
+      year: 1991
+      pages: 619-626
+      resolves_to: ""
+    - key: Puskorius 1994
+      raw: Puskorius, G. V. and Feldkamp, L. A. (1994). Neurocontrol of nonlinear dynamical systems with Kalman filter trained recurrent networks. IEEE Transactions on Neural Networks, 5(2):279–297.
+      authors:
+        - G. V. Puskorius
+        - L. A. Feldkamp
+      title: Neurocontrol of nonlinear dynamical systems with Kalman filter trained recurrent networks
+      venue: IEEE Transactions on Neural Networks, 5(2):279–297
+      year: 1994
+      resolves_to: ""
+    - key: Ring 1993
+      raw: Ring, M. B. (1993). Learning sequential tasks by incrementally adding higher orders. In S. J. Hanson, J. D. C. and Giles, C. L., editors, Advances in Neural Information Processing Systems 5, pages 115–122. Morgan Kaufmann.
+      authors:
+        - M. B. Ring
+      title: Learning sequential tasks by incrementally adding higher orders
+      venue: In S. J. Hanson, J. D. C. and Giles, C. L., editors, Advances in Neural Information Processing Systems 5, pages 115–122. Morgan Kaufmann
+      year: 1993
+      pages: 115-122
+      resolves_to: ""
+    - key: Robinson 1987
+      raw: Robinson, A. J. and Fallside, F. (1987). The utility driven dynamic error propagation network. Technical Report CUED/F-INFENG/TR.1, Cambridge University Engineering Department.
+      authors:
+        - A. J. Robinson
+        - F. Fallside
+      title: The utility driven dynamic error propagation network
+      venue: Technical Report CUED/F-INFENG/TR.1, Cambridge University Engineering Department
+      year: 1987
+      resolves_to: ""
+    - key: Schmidhuber 1989
+      raw: 'Schmidhuber, J. (1989). The Neural Bucket Brigade: A local learning algorithm for dynamic feedforward and recurrent networks. Connection Science, 1(4):403–412.'
+      authors:
+        - J. Schmidhuber
+      title: 'The Neural Bucket Brigade: A local learning algorithm for dynamic feedforward and recurrent networks'
+      venue: Connection Science, 1(4):403–412
+      year: 1989
+      resolves_to: ""
+    - key: Schmidhuber 1992a
+      raw: Schmidhuber, J. (1992a). A fixed size storage $O(n^3)$ time complexity learning algorithm for fully recurrent continually running networks. *Neural Computation*, 4(2):243–248.
+      authors:
+        - J. Schmidhuber
+      title: A fixed size storage $O(n^3)$ time complexity learning algorithm for fully recurrent continually running networks
+      venue: '*Neural Computation*, 4(2):243–248'
+      resolves_to: ""
+    - key: Schmidhuber 1992b
+      raw: Schmidhuber, J. (1992b). Learning complex, extended sequences using the principle of history compression. *Neural Computation*, 4(2):234–242.
+      authors:
+        - J. Schmidhuber
+      title: Learning complex, extended sequences using the principle of history compression
+      venue: '*Neural Computation*, 4(2):234–242'
+      resolves_to: ""
+    - key: Schmidhuber 1992c
+      raw: 'Schmidhuber, J. (1992c). Learning unambiguous reduced sequence descriptions. In Moody, J. E., Hanson, S. J., and Lippman, R. P., editors, *Advances in Neural Information Processing Systems 4*, pages 291–298. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - J. Schmidhuber
+      title: Learning unambiguous reduced sequence descriptions
+      pages: 291-298
+      resolves_to: ""
+    - key: Schmidhuber 1993
+      raw: Schmidhuber, J. (1993). Netzwerkarchitekturen, Zielfunktionen und Kettenregel. Habilitationschrift, Institut für Informatik, Technische Universität München.
+      authors:
+        - J. Schmidhuber
+      title: Netzwerkarchitekturen, Zielfunktionen und Kettenregel
+      venue: Habilitationschrift, Institut für Informatik, Technische Universität München
+      year: 1993
+      resolves_to: ""
+    - key: Schmidhuber 1996
+      raw: Schmidhuber, J. and Hochreiter, S. (1996). Guessing can outperform many long time lag algorithms. Technical Report IDSIA-19-96, IDSIA.
+      authors:
+        - J. Schmidhuber
+        - S. Hochreiter
+      title: Guessing can outperform many long time lag algorithms
+      venue: Technical Report IDSIA-19-96, IDSIA
+      year: 1996
+      resolves_to: ""
+    - key: Silva 1996
+      raw: 'Silva, G. X., Amaral, J. D., Langlois, T., and Almeida, L. B. (1996). Faster training of recurrent networks. In Silva, F. L., Principe, J. C., and Almeida, L. B., editors, *Spatiotemporal models in biological and artificial systems*, pages 168–175. IOS Press, Amsterdam, Netherlands. Serie: Frontiers in Artificial Intelligence and Applications, Volume 37.'
+      authors:
+        - G. X. Silva
+        - J. D. Amaral
+        - T. Langlois
+        - L. B. Almeida
+      title: Faster training of recurrent networks
+      year: 1996
+      pages: 168-175
+      resolves_to: ""
+    - key: Smith 1989
+      raw: Smith, A. W. and Zipser, D. (1989). Learning sequential structures with the real-time recurrent learning algorithm. *International Journal of Neural Systems*, 1(2):125–131.
+      authors:
+        - A. W. Smith
+        - D. Zipser
+      title: Learning sequential structures with the real-time recurrent learning algorithm
+      venue: '*International Journal of Neural Systems*, 1(2):125–131'
+      year: 1989
+      resolves_to: ""
+    - key: Sun 1993
+      raw: 'Sun, G., Chen, H., and Lee, Y. (1993). Time warping invariant neural networks. In S. J. Hanson, J. D. C. and Giles, C. L., editors, *Advances in Neural Information Processing Systems 5*, pages 180–187. San Mateo, CA: Morgan Kaufmann.'
+      authors:
+        - G. Sun
+        - H. Chen
+        - Y. Lee
+      title: Time warping invariant neural networks
+      venue: 'In S. J. Hanson, J. D. C. and Giles, C. L., editors, *Advances in Neural Information Processing Systems 5*, pages 180–187. San Mateo, CA: Morgan Kaufmann'
+      year: 1993
+      pages: 180-187
+      resolves_to: ""
+    - key: Watrous 1992
+      raw: Watrous, R. L. and Kuhn, G. M. (1992). Induction of finite-state languages using second-order recurrent networks. *Neural Computation*, 4:406–414.
+      authors:
+        - R. L. Watrous
+        - G. M. Kuhn
+      title: Induction of finite-state languages using second-order recurrent networks
+      venue: '*Neural Computation*, 4:406–414'
+      year: 1992
+      resolves_to: ""
+    - key: Werbos 1988
+      raw: Werbos, P. J. (1988). Generalization of backpropagation with application to a recurrent gas market model. *Neural Networks*, 1.
+      authors:
+        - P. J. Werbos
+      title: Generalization of backpropagation with application to a recurrent gas market model
+      venue: '*Neural Networks*, 1'
+      year: 1988
+      resolves_to: ""
+    - key: Williams 1989
+      raw: 'Williams, R. J. (1989). Complexity of exact gradient computation algorithms for recurrent neural networks. Technical Report Technical Report NU-CCS-89-27, Boston: Northeastern University, College of Computer Science.'
+      authors:
+        - R. J. Williams
+      title: Complexity of exact gradient computation algorithms for recurrent neural networks
+      venue: 'Technical Report Technical Report NU-CCS-89-27, Boston: Northeastern University, College of Computer Science'
+      year: 1989
+      resolves_to: ""
+    - key: Williams 1990
+      raw: Williams, R. J. and Peng, J. (1990). An efficient gradient-based algorithm for on-line training of recurrent network trajectories. *Neural Computation*, 4:491–501.
+      authors:
+        - R. J. Williams
+        - J. Peng
+      title: An efficient gradient-based algorithm for on-line training of recurrent network trajectories
+      venue: '*Neural Computation*, 4:491–501'
+      year: 1990
+      resolves_to: ""
+    - key: Williams 1992
+      raw: 'Williams, R. J. and Zipser, D. (1992). Gradient-based learning algorithms for recurrent networks and their computational complexity. In *Back-propagation: Theory, Architectures and Applications*. Hillsdale, NJ: Erlbaum.'
+      authors:
+        - R. J. Williams
+        - D. Zipser
+      title: Gradient-based learning algorithms for recurrent networks and their computational complexity
+      venue: 'In *Back-propagation: Theory, Architectures and Applications*. Hillsdale, NJ: Erlbaum'
+      year: 1992
+      resolves_to: ""

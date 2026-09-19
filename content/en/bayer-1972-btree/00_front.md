@@ -13,12 +13,14 @@ kind: front
 lang: en
 source: https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf
 pdf_sha256: 69826c036d7948fe5b02f7498620c90cc6a8de2504251a57994d13dc7b14e470
-pdf_pages: 1-3
+pdf_pages: 1-2
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 7c93793b3f151d03a0aa9a66f01c36b220f01eb08bb461b0fa0bcdf149fd0a81
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: 596e498479a33f84ad87b56266c27ee5310f550eb694ab4368f21f2c798ff06f
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
+
+D1-82-0989
 
 ORGANIZATION AND MAINTENANCE OF LARGE ORDERED INDICES by
 
@@ -27,11 +29,8 @@ R. Bayer and
 E. McCreight
 
 Mathematical and Information Sciences Report No. 20
-
 Mathematical and Information Sciences Laboratory
-
 BOEING SCIENTIFIC RESEARCH LABORATORIES
-
 July 1970
 
 ABSTRACT
@@ -41,7 +40,3 @@ Organization and maintenance of an index for a dynamic random access file is con
 Key Words and Phrases: Data structures, random access files, dynamic index maintenance, key insertion, key deletion, key retrieval, paging, information retrieval.
 
 CR Categories: 3.70, 3.73, 3.74.
-
-1. Introduction
-
-In this paper we consider the problem of organizing and maintaining an index for a dynamically changing random access file.

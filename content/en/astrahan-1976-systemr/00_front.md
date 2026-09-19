@@ -29,7 +29,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 1b22b54193ecc4e2dd2e8ba8daa11408a82861c8a8d49655273f9c452dc0978b
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 System R: Relational Approach to Database Management

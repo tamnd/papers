@@ -1,0 +1,103 @@
+paper: parnas-1972-modules
+style: number
+entries:
+    - key: "1"
+      raw: Gauthier, Richard, and Pont, Stephen. Designing Systems Programs, (C), Prentice-Hall, Englewood Cliffs, N.J., 1970.
+      authors:
+        - Gauthier
+        - Richard
+        - Pont
+        - Stephen
+      title: Designing Systems Programs, (C), Prentice-Hall, Englewood Cliffs, N.J., 1970
+      year: 1970
+      resolves_to: ""
+    - key: "2"
+      raw: Hoare, C. A. R. Proof of a program, FIND. Comm. ACM 14, 1 (Jan. 1971), 39–45.
+      authors:
+        - Hoare
+        - C. A. R. Proof of a program
+        - FIND
+      title: Comm
+      venue: ACM 14, 1 (Jan. 1971), 39–45
+      year: 1971
+      pages: 39-45
+      resolves_to: ""
+    - key: "3"
+      raw: Parnas, D. L. A technique for software module specification with examples. Comm. ACM 15, 5 (May, 1972), 330–336.
+      authors:
+        - D. L. Parnas
+      title: A technique for software module specification with examples
+      venue: Comm. ACM 15, 5 (May, 1972), 330–336
+      year: 1972
+      pages: 330-336
+      resolves_to: ""
+    - key: "4"
+      raw: Parnas, D. L. Information distribution aspects of design methodology. Tech. Rept., Depart. Computer Science, Carnegie-Mellon U., Pittsburgh, Pa., 1971. Also presented at the IFIP Congress 1971, Ljubljana, Yugoslavia.
+      authors:
+        - D. L. Parnas
+      title: Information distribution aspects of design methodology
+      venue: Tech. Rept., Depart. Computer Science, Carnegie-Mellon U., Pittsburgh, Pa., 1971. Also presented at the IFIP Congress 1971, Ljubljana, Yugoslavia
+      year: 1971
+      resolves_to: ""
+    - key: "5"
+      raw: Dijkstra, E. W. The structure of "THE"-multiprogramming system. Comm. ACM 11, 5 (May 1968), 341–346.
+      authors:
+        - Dijkstra
+        - E. W. The structure of
+      title: THE
+      venue: -multiprogramming system. Comm. ACM 11, 5 (May 1968), 341–346
+      year: 1968
+      pages: 341-346
+      resolves_to: ""
+    - key: "6"
+      raw: Galler, B., and Perlis, A. J. A View of Programming Languages, Addison-Wesley, Reading, Mass., 1970.
+      title: Galler, B., and Perlis, A. J. A View of Programming Languages, Addison-Wesley, Reading, Mass., 1970
+      year: 1970
+      resolves_to: ""
+    - key: "7"
+      raw: Parnas, D. L. A course on software engineering. Proc. SIGCSE Technical Symposium, Mar. 1972.
+      authors:
+        - D. L. Parnas
+      title: A course on software engineering
+      venue: Proc. SIGCSE Technical Symposium, Mar
+      year: 1972
+      resolves_to: ""
+    - key: "8"
+      raw: Parnas, D. L. On the criteria to be used in decomposing systems into modules. Tech. Rept., Depart. Computer Science, Carnegie-Mellon U., Pittsburgh, Pa., 1971.
+      authors:
+        - D. L. Parnas
+      title: On the criteria to be used in decomposing systems into modules
+      venue: Tech. Rept., Depart. Computer Science, Carnegie-Mellon U., Pittsburgh, Pa
+      year: 1971
+      resolves_to: ""
+    - key: "9"
+      raw: Balzer, R. M. Dataless programming. Proc. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, N.J., pp. 535–544.
+      authors:
+        - Balzer
+        - R. M. Dataless programming
+      title: Proc. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, N.J., pp. 535–544
+      year: 1967
+      pages: 535-544
+      resolves_to: ""
+    - key: "10"
+      raw: Mealy, G. H. Another look at data. Proc. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, N.J., pp. 525–534.
+      authors:
+        - G. H. Mealy
+      title: Another look at data
+      venue: Proc. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, N.J., pp. 525–534
+      year: 1967
+      pages: 525-534
+      resolves_to: ""
+    - key: "11"
+      raw: Wulf, W. A., Russell, D. B., and Habermann, A. N. BLISS, A language for systems programming. Comm. ACM 14, 12 (Dec. 1971), 780–790.
+      authors:
+        - W. A. Wulf
+        - D. B. Russell
+        - Habermann
+        - A. N. BLISS
+        - A language for systems programming
+      title: Comm
+      venue: ACM 14, 12 (Dec. 1971), 780–790
+      year: 1971
+      pages: 780-790
+      resolves_to: ""

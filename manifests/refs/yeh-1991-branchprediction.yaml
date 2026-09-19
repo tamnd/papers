@@ -1,0 +1,180 @@
+paper: yeh-1991-branchprediction
+style: bracket
+entries:
+    - key: "1"
+      raw: M. Butler, T-Y Yeh, Y.N. Patt, M. Alsup, H. Scales, and M. Shebanow, “Instruction Level Parallelism is Greater Than Two”, Proceedings of the 18th International Symposium on Computer Architecture, (May 1991), pp. 276–286.
+      authors:
+        - M. Butler
+        - T-Y Yeh
+        - Y.N. Patt
+        - M. Alsup
+        - H. Scales
+        - M. Shebanow
+      title: Instruction Level Parallelism is Greater Than Two
+      venue: Proceedings of the 18th International Symposium on Computer Architecture, (May 1991), pp. 276–286
+      year: 1991
+      pages: 276-286
+      resolves_to: ""
+    - key: "2"
+      raw: D. R. Kaeli and P. G. Emma, “Branch History Table Prediction of Moving Target Branches Due to Subroutine Returns”, Proceedings of the 18th International Symposium on Computer Architecture, (May 1991), pp. 34–42.
+      authors:
+        - D. R. Kaeli
+        - P. G. Emma
+      title: Branch History Table Prediction of Moving Target Branches Due to Subroutine Returns
+      venue: Proceedings of the 18th International Symposium on Computer Architecture, (May 1991), pp. 34–42
+      year: 1991
+      pages: 34-42
+      resolves_to: ""
+    - key: "3"
+      raw: Tse-Yu Yeh, “Two-Level Adaptive Training Branch Prediction”, Technical Report, University of Michigan, (1991).
+      authors:
+        - Tse-Yu Yeh
+      title: Two-Level Adaptive Training Branch Prediction
+      venue: Technical Report, University of Michigan, (1991)
+      year: 1991
+      resolves_to: ""
+    - key: "4"
+      raw: Motorola Inc., “M88100 User’s Manual”, Phoenix, Arizona, (March 13, 1989).
+      authors:
+        - Motorola Inc
+      title: M88100 User’s Manual
+      venue: Phoenix, Arizona, (March 13, 1989)
+      year: 1989
+      resolves_to: ""
+    - key: "5"
+      raw: W.W. Hwu, T.M.Conte, and P.P.Chang, “Comparing Software and Hardware Schemes for Reducing the Cost of Branches”, Proceedings of the 16th International Symposium on Computer Architecture, (May 1989).
+      authors:
+        - W.W. Hwu
+        - T.M.Conte
+        - P.P.Chang
+      title: Comparing Software and Hardware Schemes for Reducing the Cost of Branches
+      venue: Proceedings of the 16th International Symposium on Computer Architecture, (May 1989)
+      year: 1989
+      resolves_to: ""
+    - key: "6"
+      raw: N.P. Jouppi and D. Wall, “Available Instruction-Level Parallelism for Superscalar and Superpipelined Machines.”, Proceedings of the Third International Conference on Architectural Support for Programming Languages and Operating Systems, (April 1989), pp. 272-282.
+      authors:
+        - N.P. Jouppi
+        - D. Wall
+      title: Available Instruction-Level Parallelism for Superscalar and Superpipelined Machines
+      venue: Proceedings of the Third International Conference on Architectural Support for Programming Languages and Operating Systems, (April 1989), pp. 272-282
+      year: 1989
+      pages: 272-282
+      resolves_to: ""
+    - key: "7"
+      raw: D. J. Lilja, “Reducing the Branch Penalty in Pipelined Processors ”, IEEE Computer, (July 1988), pp.47-55.
+      authors:
+        - D. J. Lilja
+      title: Reducing the Branch Penalty in Pipelined Processors
+      venue: IEEE Computer, (July 1988), pp.47-55
+      year: 1988
+      pages: 47-55
+      resolves_to: ""
+    - key: "8"
+      raw: W.W. Hwu and Y.N. Patt, “Checkpoint Repair for Out-of-order Execution Machines”, IEEE Transactions on Computers, (December 1987), pp.1496-1514.
+      authors:
+        - W.W. Hwu
+        - Y.N. Patt
+      title: Checkpoint Repair for Out-of-order Execution Machines
+      venue: IEEE Transactions on Computers, (December 1987), pp.1496-1514
+      year: 1987
+      pages: 1496-1514
+      resolves_to: ""
+    - key: "9"
+      raw: P. G. Emma and E. S. Davidson, “Characterization of Branch and Data Dependencies in Programs for Evaluating Pipeline Performance” , IEEE Transactions on Computers, (July 1987), pp.859-876.
+      authors:
+        - P. G. Emma
+        - E. S. Davidson
+      title: Characterization of Branch and Data Dependencies in Programs for Evaluating Pipeline Performance
+      venue: IEEE Transactions on Computers, (July 1987), pp.859-876
+      year: 1987
+      pages: 859-876
+      resolves_to: ""
+    - key: "10"
+      raw: J. A. DeRosa and H. M. Levy, “An Evaluation of Branch Architectures ”, Proceedings of the 14th International Symposium on Computer Architecture, (June 1987), pp.10-16.
+      authors:
+        - J. A. DeRosa
+        - H. M. Levy
+      title: An Evaluation of Branch Architectures
+      venue: Proceedings of the 14th International Symposium on Computer Architecture, (June 1987), pp.10-16
+      year: 1987
+      pages: 10-16
+      resolves_to: ""
+    - key: "11"
+      raw: 'D.R. Ditzel and H.R. McLellan, “Branch Folding in the CRISP Microprocessor: Reducing Branch Delay to Zero”, Proceedings of the 14th International Symposium on Computer Architecture, (June 1987), pp.2-9.'
+      authors:
+        - D.R. Ditzel
+        - H.R. McLellan
+      title: 'Branch Folding in the CRISP Microprocessor: Reducing Branch Delay to Zero'
+      venue: Proceedings of the 14th International Symposium on Computer Architecture, (June 1987), pp.2-9
+      year: 1987
+      pages: 2-9
+      resolves_to: ""
+    - key: "12"
+      raw: S. McFarling and J. Hennessy, "Reducing the Cost of Branches", Proceedings of the 13th International Symposium on Computer Architecture, (1986), pp.396-403.
+      authors:
+        - S. McFarling
+        - J. Hennessy
+      title: Reducing the Cost of Branches
+      venue: Proceedings of the 13th International Symposium on Computer Architecture, (1986), pp.396-403
+      year: 1986
+      pages: 396-403
+      resolves_to: ""
+    - key: "13"
+      raw: J. Lee and A. J. Smith, "Branch Prediction Strategies and Branch Target Buffer Design", IEEE Computer, (January 1984), pp.6-22.
+      authors:
+        - J. Lee
+        - A. J. Smith
+      title: Branch Prediction Strategies and Branch Target Buffer Design
+      venue: IEEE Computer, (January 1984), pp.6-22
+      year: 1984
+      pages: 6-22
+      resolves_to: ""
+    - key: "14"
+      raw: T.R. Gross and J. Hennessy, "Optimizing Delayed Branches", Proceedings of the 15th Annual Workshop on Microprogramming, (Oct. 1982), pp.114-120.
+      authors:
+        - T.R. Gross
+        - J. Hennessy
+      title: Optimizing Delayed Branches
+      venue: Proceedings of the 15th Annual Workshop on Microprogramming, (Oct. 1982), pp.114-120
+      year: 1982
+      pages: 114-120
+      resolves_to: ""
+    - key: "15"
+      raw: 'D.A. Patterson and C.H. Sequin, "RISC-I: A Reduced Instruction Set VLSI Computer", Proceedings of the 8th International Symposium on Computer Architecture, (May. 1981), pp.443-458.'
+      authors:
+        - D.A. Patterson
+        - C.H. Sequin
+      title: 'RISC-I: A Reduced Instruction Set VLSI Computer'
+      venue: Proceedings of the 8th International Symposium on Computer Architecture, (May. 1981), pp.443-458
+      year: 1981
+      pages: 443-458
+      resolves_to: patterson-1981-risc
+    - key: "16"
+      raw: J.E. Smith, "A Study of Branch Prediction Strategies", Proceedings of the 8th International Symposium on Computer Architecture, (May. 1981), pp.443-458.
+      authors:
+        - J.E. Smith
+      title: A Study of Branch Prediction Strategies
+      venue: Proceedings of the 8th International Symposium on Computer Architecture, (May. 1981), pp.443-458
+      year: 1981
+      pages: 443-458
+      resolves_to: ""
+    - key: "17"
+      raw: L.E. Shar and E.S. Davidson, "A Multiminiprocessor System Implemented Through Pipelining.", IEEE Computer, (Feb. 1974), pp.42-51.
+      authors:
+        - L.E. Shar
+        - E.S. Davidson
+      title: A Multiminiprocessor System Implemented Through Pipelining
+      venue: IEEE Computer, (Feb. 1974), pp.42-51
+      year: 1974
+      pages: 42-51
+      resolves_to: ""
+    - key: "18"
+      raw: T. C. Chen, "Parallelism, Pipelining and Computer Efficiency", Computer Design, Vol. 10, No. 1, (Jan. 1971), pp.69-74.
+      authors:
+        - T. C. Chen
+      title: Parallelism, Pipelining and Computer Efficiency
+      venue: Computer Design, Vol. 10, No. 1, (Jan. 1971), pp.69-74
+      year: 1971
+      pages: 69-74
+      resolves_to: ""

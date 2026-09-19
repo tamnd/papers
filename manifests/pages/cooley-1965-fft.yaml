@@ -18,3 +18,9 @@ pages:
     - pdf: 3
       size: [476.2, 718.6]
       columns: 1
+    - pdf: 4
+      size: [480, 719.2]
+      columns: 1
+    - pdf: 5
+      size: [476.2, 717.7]
+      columns: 1

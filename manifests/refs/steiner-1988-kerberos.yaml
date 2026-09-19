@@ -1,0 +1,76 @@
+paper: steiner-1988-kerberos
+style: number
+entries:
+    - key: "1"
+      raw: 'S. P. Miller, B. C. Neuman, J. I. Schiller, and J. H. Saltzer, Section E.2.1: Kerberos Authentication and Authorization System, M.I.T. Project Athena, Cambridge, Massachusetts (December 21, 1987).'
+      title: 'S. P. Miller, B. C. Neuman, J. I. Schiller, and J. H. Saltzer, Section E.2.1: Kerberos Authentication and Authorization System, M.I.T. Project Athena, Cambridge, Massachusetts (December 21, 1987)'
+      year: 1987
+      resolves_to: ""
+    - key: "2"
+      raw: 'E. Balkovich, S. R. Lerman, and R. P. Parmelee, “Computing in Higher Education: The Athena Experience,” Communications of the ACM 28(11), pp. 1214-1224, ACM (November, 1985).'
+      authors:
+        - E. Balkovich
+        - S. R. Lerman
+        - R. P. Parmelee
+      title: 'Computing in Higher Education: The Athena Experience'
+      venue: Communications of the ACM 28(11), pp. 1214-1224, ACM (November, 1985)
+      year: 1985
+      pages: 1214-1224
+      resolves_to: ""
+    - key: "3"
+      raw: R. M. Needham and M. D. Schroeder, “Using Encryption for Authentication in Large Networks of Computers,” Communications of the ACM 21(12), pp. 993-999 (December, 1978).
+      authors:
+        - R. M. Needham
+        - M. D. Schroeder
+      title: Using Encryption for Authentication in Large Networks of Computers
+      venue: Communications of the ACM 21(12), pp. 993-999 (December, 1978)
+      year: 1978
+      pages: 993-999
+      resolves_to: needham-1978-authentication
+    - key: "4"
+      raw: V. L. Voydock and S. T. Kent, “Security Mechanisms in High-Level Network Protocols,” Computing Surveys 15(2), ACM (June 1983).
+      authors:
+        - V. L. Voydock
+        - S. T. Kent
+      title: Security Mechanisms in High-Level Network Protocols
+      venue: Computing Surveys 15(2), ACM (June 1983)
+      year: 1983
+      resolves_to: ""
+    - key: "5"
+      raw: National Bureau of Standards, ‘Data Encryption Standard,' Federal Information Processing Standards Publication 46, Government Printing Office, Washington, D.C. (1977).
+      title: National Bureau of Standards, ‘Data Encryption Standard,' Federal Information Processing Standards Publication 46, Government Printing Office, Washington, D.C. (1977)
+      year: 1977
+      resolves_to: ""
+    - key: "6"
+      raw: S. P. Dyer, 'Hesiod,' in Usenix Conference Proceedings (Winter, 1988).
+      title: S. P. Dyer, 'Hesiod,' in Usenix Conference Proceedings (Winter, 1988)
+      year: 1988
+      resolves_to: ""
+    - key: "7"
+      raw: W. J. Bryant, Kerberos Programmer's Tutorial, M.I.T. Project Athena (In preparation).
+      title: W. J. Bryant, Kerberos Programmer's Tutorial, M.I.T. Project Athena (In preparation)
+      resolves_to: ""
+    - key: "8"
+      raw: W. J. Bryant, Kerberos Administrator's Manual, M.I.T. Project Athena (In preparation).
+      title: W. J. Bryant, Kerberos Administrator's Manual, M.I.T. Project Athena (In preparation)
+      resolves_to: ""
+    - key: "9"
+      raw: 'G. W. Treese, ''Berkeley Unix on 1000 Workstations: Athena Changes to 4.3BSD,'' in Usenix Conference Proceedings (Winter, 1988).'
+      title: 'G. W. Treese, ''Berkeley Unix on 1000 Workstations: Athena Changes to 4.3BSD,'' in Usenix Conference Proceedings (Winter, 1988)'
+      year: 1988
+      resolves_to: ""
+    - key: "10"
+      raw: C. A. DellaFera, M. W. Eichin, R. S. French, D. C. Jedlinsky, J. T. Kohl, and W. E. Sommerfeld, 'The Zephyr Notification System,' in Usenix Conference Proceedings (Winter, 1988).
+      title: C. A. DellaFera, M. W. Eichin, R. S. French, D. C. Jedlinsky, J. T. Kohl, and W. E. Sommerfeld, 'The Zephyr Notification System,' in Usenix Conference Proceedings (Winter, 1988)
+      year: 1988
+      resolves_to: ""
+    - key: "11"
+      raw: M. A. Rosenstein, D. E. Geer, and P. J. Levine, in Usenix Conference Proceedings (Winter, 1988).
+      title: M. A. Rosenstein, D. E. Geer, and P. J. Levine, in Usenix Conference Proceedings (Winter, 1988)
+      year: 1988
+      resolves_to: ""
+    - key: "12"
+      raw: R. Sandberg, D. Goldberg, S. Kleiman, D. Walsh, and B. Lyon, 'Design and Implementation of the Sun Network Filesystem,' in Usenix Conference Proceedings (Summer, 1985).
+      title: R. Sandberg, D. Goldberg, S. Kleiman, D. Walsh, and B. Lyon, 'Design and Implementation of the Sun Network Filesystem,' in Usenix Conference Proceedings (Summer, 1985)
+      year: 1985
+      resolves_to: ""

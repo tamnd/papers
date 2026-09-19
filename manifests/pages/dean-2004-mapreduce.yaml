@@ -7,46 +7,61 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: dean-2004-mapreduce
-offset: null
+offset: 136
 pages:
     - pdf: 1
+      printed: "137"
       size: [612, 792]
       columns: 2
     - pdf: 2
+      printed: "138"
       size: [612, 792]
       columns: 2
     - pdf: 3
-      size: [612, 792]
-      columns: 1
-    - pdf: 4
-      size: [612, 792]
-      columns: 2
-    - pdf: 5
-      size: [612, 792]
-      columns: 2
-    - pdf: 6
-      size: [612, 792]
-      columns: 2
-    - pdf: 7
-      size: [612, 792]
-      columns: 2
-    - pdf: 8
+      printed: "139"
       size: [612, 792]
       columns: 2
       figures: [f01]
-    - pdf: 9
+    - pdf: 4
+      printed: "140"
       size: [612, 792]
       columns: 2
-    - pdf: 10
+    - pdf: 5
+      printed: "141"
+      size: [612, 792]
+      columns: 2
+    - pdf: 6
+      printed: "142"
+      size: [612, 792]
+      columns: 2
+    - pdf: 7
+      printed: "143"
+      size: [612, 792]
+      columns: 2
+    - pdf: 8
+      printed: "144"
       size: [612, 792]
       columns: 2
       figures: [f02]
+    - pdf: 9
+      printed: "145"
+      size: [612, 792]
+      columns: 2
+      figures: [f03]
+    - pdf: 10
+      printed: "146"
+      size: [612, 792]
+      columns: 2
+      figures: [f04]
     - pdf: 11
+      printed: "147"
       size: [612, 792]
       columns: 2
     - pdf: 12
+      printed: "148"
       size: [612, 792]
       columns: 2
     - pdf: 13
+      printed: "149"
       size: [612, 792]
       columns: 2

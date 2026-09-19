@@ -22,7 +22,6 @@ pages:
       size: [612, 792]
       columns: 2
     - pdf: 4
-      printed: "398"
       size: [612, 792]
       columns: 2
     - pdf: 5
@@ -30,15 +29,14 @@ pages:
       size: [612, 792]
       columns: 2
     - pdf: 6
-      printed: "400"
       size: [612, 792]
       columns: 2
     - pdf: 7
       printed: "401"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 8
-      printed: "402"
       size: [612, 792]
       columns: 2
     - pdf: 9

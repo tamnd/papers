@@ -1,0 +1,20 @@
+paper: ford-1956-maxflow
+style: number
+entries:
+    - key: "1"
+      raw: 'G. B. Dantzig, *Maximization of a linear function of variables subject to linear inequalities: Activity analysis of production and allocation* (Cowles Commission, 1951).'
+      title: 'G. B. Dantzig, *Maximization of a linear function of variables subject to linear inequalities: Activity analysis of production and allocation* (Cowles Commission, 1951)'
+      year: 1951
+      resolves_to: ""
+    - key: "2"
+      raw: H. Whitney, *Non-separable and planar graphs*, Trans. Amer. Math. Soc., *34* (1932), 339–362.
+      title: H. Whitney, *Non-separable and planar graphs*, Trans. Amer. Math. Soc., *34* (1932), 339–362
+      year: 1932
+      pages: 339-362
+      resolves_to: ""
+    - key: "3"
+      raw: ———, *Planar graphs*, Fundamenta Mathematicae, *21* (1933), 73–84. Rand Corporation, Santi Monica, California
+      title: ———, *Planar graphs*, Fundamenta Mathematicae, *21* (1933), 73–84
+      venue: Rand Corporation, Santi Monica, California
+      year: 1933
+      resolves_to: ""

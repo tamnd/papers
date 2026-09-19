@@ -1,0 +1,74 @@
+paper: brooks-1987-nosilverbullet
+style: hanging
+entries:
+    - key: "1"
+      raw: '{1} Parnas, D.L., Designing Software for Ease of Extension and Contraction, IEEE Trans. on SE, vol. 5, no. 2, March, 1979, 128-138.'
+      title: '{1} Parnas, D.L., Designing Software for Ease of Extension and Contraction, IEEE Trans. on SE, vol. 5, no. 2, March, 1979, 128-138'
+      year: 1979
+      pages: 128-138
+      resolves_to: ""
+    - key: "2"
+      raw: '{2} Booch, G., Object-Oriented Design, Software Engineering with Ada, Benjamin/Cummings, Menlo Park, CA, 1983.'
+      title: '{2} Booch, G., Object-Oriented Design, Software Engineering with Ada, Benjamin/Cummings, Menlo Park, CA, 1983'
+      year: 1983
+      resolves_to: ""
+    - key: "3"
+      raw: '{3} Mostow, J., editor, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985.'
+      title: '{3} Mostow, J., editor, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985'
+      year: 1985
+      resolves_to: ""
+    - key: "4"
+      raw: '{4} Parnas, D.L., Software Aspects of Strategic Defense Systems, American Scientist, November, 1985.'
+      title: '{4} Parnas, D.L., Software Aspects of Strategic Defense Systems, American Scientist, November, 1985'
+      year: 1985
+      resolves_to: ""
+    - key: "5"
+      raw: '{5} Balzer, R., A 15-Year Perspective on Automatic Programming, in Mostow, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985, 1257-1267.'
+      title: '{5} Balzer, R., A 15-Year Perspective on Automatic Programming, in Mostow, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985, 1257-1267'
+      year: 1985
+      pages: 1257-1267
+      resolves_to: ""
+    - key: "6"
+      raw: '{6} Mostow, J., editor, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November 1985.'
+      title: '{6} Mostow, J., editor, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November 1985'
+      year: 1985
+      resolves_to: ""
+    - key: "7"
+      raw: '{7} Balzer, R., A 15-Year Perspective on Automatic Programming, in Mostow, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985, 1257-1267.'
+      title: '{7} Balzer, R., A 15-Year Perspective on Automatic Programming, in Mostow, Special Issue on Artificial Intelligence and Software Engineering, IEEE Trans. on SE, vol. 11, no. 11, November, 1985, 1257-1267'
+      year: 1985
+      pages: 1257-1267
+      resolves_to: ""
+    - key: "8"
+      raw: '{8} Parnas, D.L., Software Aspects of Strategic Defense Systems, American Scientist, November, 1985.'
+      title: '{8} Parnas, D.L., Software Aspects of Strategic Defense Systems, American Scientist, November, 1985'
+      year: 1985
+      resolves_to: ""
+    - key: "9"
+      raw: '{9} Graphton, R.B. & T. Ichikawa, eds., Special Issue on Visual Programming, Computer, vol. 18, no. 8, August, 1985.'
+      title: '{9} Graphton, R.B. & T. Ichikawa, eds., Special Issue on Visual Programming, Computer, vol. 18, no. 8, August, 1985'
+      year: 1985
+      resolves_to: ""
+    - key: "10"
+      raw: '{10} Raeder, G., A Survey of Current Graphical Programming Techniques, in Grafton & Ichikawa, eds., Special Issue on Visual Programming, Computer, vol. 18, no. 8, August, 1985, 11-25.'
+      title: '{10} Raeder, G., A Survey of Current Graphical Programming Techniques, in Grafton & Ichikawa, eds., Special Issue on Visual Programming, Computer, vol. 18, no. 8, August, 1985, 11-25'
+      year: 1985
+      pages: 11-25
+      resolves_to: ""
+    - key: "11"
+      raw: '{11} Brooks, F.P., The Mythical Man-Month, Addison Wesley Publishing Co., New York, 1975, Chapter 14.'
+      title: '{11} Brooks, F.P., The Mythical Man-Month, Addison Wesley Publishing Co., New York, 1975, Chapter 14'
+      year: 1975
+      resolves_to: ""
+    - key: "12"
+      raw: '{12} Mills, H.D., Top-Down Programming in Large Systems, in Debugging Techniques in Large Systems, R. Ruskin ed., Prentice-Hall, 1971.'
+      title: '{12} Mills, H.D., Top-Down Programming in Large Systems, in Debugging Techniques in Large Systems, R. Ruskin ed., Prentice-Hall, 1971'
+      year: 1971
+      resolves_to: ""
+    - key: "13"
+      raw: '{13} Boehm, B.W., A Spiral Model of Software Development and Enhancement, TRW Technical Report, 1985.'
+      title: '{13} Boehm, B.W., A Spiral Model of Software Development and Enhancement, TRW Technical Report, 1985'
+      year: 1985
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

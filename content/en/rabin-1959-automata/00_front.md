@@ -17,7 +17,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: b7d12158758647a28be9aa2a2ac84f81d28039d20a194f0ea8872073065d98c6
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Finite Automata and Their Decision Problems†

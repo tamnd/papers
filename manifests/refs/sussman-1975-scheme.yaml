@@ -1,0 +1,140 @@
+paper: sussman-1975-scheme
+style: hanging
+entries:
+    - key: "1"
+      raw: '[Bobrow and Wegbreit] Bobrow, Daniel G. and Wegbreit, Ben. "A Model and Stack Implementation of Multiple Environments." CACM 16, 10 (October 1973) pp. 591-603.'
+      authors:
+        - '[Bobrow'
+        - Wegbreit] Bobrow
+        - Daniel G
+        - Wegbreit
+        - Ben
+      title: A Model and Stack Implementation of Multiple Environments
+      venue: CACM 16, 10 (October 1973) pp. 591-603
+      year: 1973
+      pages: 591-603
+      resolves_to: ""
+    - key: "2"
+      raw: '[Church] Church, Alonzo: The Calculi of Lambda Conversion. Annals of Mathematics Studies Number 6. Princeton University Press (Princeton, 1941). Reprinted by Klaus Reprint Corp. (New York, 1965).'
+      title: '[Church] Church, Alonzo: The Calculi of Lambda Conversion'
+      venue: Annals of Mathematics Studies Number 6. Princeton University Press (Princeton, 1941). Reprinted by Klaus Reprint Corp. (New York, 1965)
+      year: 1965
+      resolves_to: ""
+    - key: "3"
+      raw: '[Dijkstra] Dijkstra, Edsger W. "Solution of a Problem in Concurrent Programming Control." CACM 8,9 (September 1965) p. 569.'
+      authors:
+        - '[Dijkstra] Dijkstra'
+        - Edsger W
+      title: Solution of a Problem in Concurrent Programming Control
+      venue: CACM 8,9 (September 1965) p. 569
+      year: 1965
+      resolves_to: ""
+    - key: "4"
+      raw: '[Fischer] Fischer, Michael J. "Lambda Calculus Schemata." Proceedings of ACM Conference on Proving Assertions about Programs. SIGPLAN Notices (January 1972).'
+      authors:
+        - '[Fischer] Fischer'
+        - Michael J
+      title: Lambda Calculus Schemata
+      venue: Proceedings of ACM Conference on Proving Assertions about Programs. SIGPLAN Notices (January 1972)
+      year: 1972
+      resolves_to: ""
+    - key: "5"
+      raw: '[Galley and Pfister] Galley, S.W. and Pfister, Greg. The MDL Language. Programming Technology Division Document SYS.11.01. Project MAC, MIT (Cambridge, November 1975).'
+      title: '[Galley and Pfister] Galley, S.W. and Pfister, Greg'
+      venue: The MDL Language. Programming Technology Division Document SYS.11.01. Project MAC, MIT (Cambridge, November 1975)
+      year: 1975
+      resolves_to: ""
+    - key: "6"
+      raw: '[Greif] Greif, Irene: Semantics of Communicating Parallel Processes. Ph.D. thesis. MAC-TR-154, Project MAC, MIT (Cambrudge, September 1975).'
+      title: '[Greif] Greif, Irene: Semantics of Communicating Parallel Processes'
+      venue: Ph.D. thesis. MAC-TR-154, Project MAC, MIT (Cambrudge, September 1975)
+      year: 1975
+      resolves_to: ""
+    - key: "7"
+      raw: '[Greif and Hewitt] Greif, Irene and Hewitt, Carl. Actor Semantics of Planner-73. Working Paper 81, MIT AI Lab (Cambridge, 1975).'
+      title: '[Greif and Hewitt] Greif, Irene and Hewitt, Carl'
+      venue: Actor Semantics of Planner-73. Working Paper 81, MIT AI Lab (Cambridge, 1975)
+      year: 1975
+      resolves_to: ""
+    - key: "8"
+      raw: '[Ingerman] Ingerman, P. Z. "Thunks -- A Way of Compiling Procedure Statements with Some Comments on Procedure Declarations." CACM 4,1 (January 1961) pp. 55-58.'
+      authors:
+        - P. Z. [Ingerman] Ingerman
+      title: Thunks -- A Way of Compiling Procedure Statements with Some Comments on Procedure Declarations
+      venue: CACM 4,1 (January 1961) pp. 55-58
+      year: 1961
+      pages: 55-58
+      resolves_to: ""
+    - key: "9"
+      raw: '[Knuth] Knuth, Donald E. "Additional Comments on a Problem in Concurrent Programming Control." CACM 9,5 (May 1966) pp. 321-322.'
+      authors:
+        - '[Knuth] Knuth'
+        - Donald E
+      title: Additional Comments on a Problem in Concurrent Programming Control
+      venue: CACM 9,5 (May 1966) pp. 321-322
+      year: 1966
+      pages: 321-322
+      resolves_to: ""
+    - key: "10"
+      raw: '[Lamport] Lamport, Leslie. "A New Solution of Dijkstra''s Concurrent Programming Problem." CACM 17,8 (August 1974) pp. 453-455.'
+      authors:
+        - '[Lamport] Lamport'
+        - Leslie
+      title: A New Solution of Dijkstra's Concurrent Programming Problem
+      venue: CACM 17,8 (August 1974) pp. 453-455
+      year: 1974
+      pages: 453-455
+      resolves_to: ""
+    - key: "11"
+      raw: '[MAC] Project MAC Progress Report XI (July 1973 - July 1974). Project MAC, MIT (Cambridge, 1974).'
+      title: '[MAC] Project MAC Progress Report XI (July 1973 - July 1974)'
+      venue: Project MAC, MIT (Cambridge, 1974)
+      year: 1974
+      resolves_to: ""
+    - key: "12"
+      raw: '[McCarthy] McCarthy, John, et al. LISP 1.5 Programmer''s Manual. The MIT Press (Cambridge, 1965).'
+      title: '[McCarthy] McCarthy, John, et al'
+      venue: LISP 1.5 Programmer's Manual. The MIT Press (Cambridge, 1965)
+      year: 1965
+      resolves_to: ""
+    - key: "13"
+      raw: '[McDermott and Sussman] McDermott, Drew V. and Sussman, Gerald Jay. The CONNIVER Reference Manual. AI Memo 295a. MIT AI Lab (Cambridge, January 1974).'
+      title: '[McDermott and Sussman] McDermott, Drew V. and Sussman, Gerald Jay'
+      venue: The CONNIVER Reference Manual. AI Memo 295a. MIT AI Lab (Cambridge, January 1974)
+      year: 1974
+      resolves_to: ""
+    - key: "14"
+      raw: '[Moon] Moon, David A. MACLISP Reference Manual, Revision 0. Project MAC, MIT (Cambridge, April 1974).'
+      title: '[Moon] Moon, David A. MACLISP Reference Manual, Revision 0'
+      venue: Project MAC, MIT (Cambridge, April 1974)
+      year: 1974
+      resolves_to: ""
+    - key: "15"
+      raw: '[Moses] Moses, Joel. The Function of FUNCTION in LISP. AI Memo 199, MIT AI Lab (Cambridge, June 1970).'
+      title: '[Moses] Moses, Joel'
+      venue: The Function of FUNCTION in LISP. AI Memo 199, MIT AI Lab (Cambridge, June 1970)
+      year: 1970
+      resolves_to: ""
+    - key: "16"
+      raw: '[Reynolds] Reynolds, John C. "Definitional Interpreters for Higher Order Programming Languages." ACM Conference Proceedings 1972.'
+      authors:
+        - '[Reynolds] Reynolds'
+        - John C
+      title: Definitional Interpreters for Higher Order Programming Languages
+      venue: ACM Conference Proceedings
+      year: 1972
+      resolves_to: ""
+    - key: "17"
+      raw: '[Smith and Hewitt] Smith, Brian C. and Hewitt, Carl. A PLASMA Primer (draft). MIT AI Lab (Cambridge, October 1975).'
+      title: '[Smith and Hewitt] Smith, Brian C. and Hewitt, Carl'
+      venue: A PLASMA Primer (draft). MIT AI Lab (Cambridge, October 1975)
+      year: 1975
+      resolves_to: ""
+    - key: "18"
+      raw: '[Sussman] Sussman, Gerald Jay, Winograd, Terry, and Charniak, Eugene. Micro-PLANNER Reference Manual. AI Memo 203A. MIT AI Lab (Cambridge, December 1971).'
+      title: '[Sussman] Sussman, Gerald Jay, Winograd, Terry, and Charniak, Eugene'
+      venue: Micro-PLANNER Reference Manual. AI Memo 203A. MIT AI Lab (Cambridge, December 1971)
+      year: 1971
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

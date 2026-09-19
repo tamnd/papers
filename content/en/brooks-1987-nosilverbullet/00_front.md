@@ -12,12 +12,42 @@ kind: front
 lang: en
 source: https://www.cs.unc.edu/techreports/86-020.pdf
 pdf_sha256: a4a11dcb6ff7dcdfcc680e27760126d86c568cbb99a53a2bf58dc9041fbb190e
-pdf_pages: "4"
+pdf_pages: 1-4
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: b8d52437e312b8895e5ee368ca2be85b3e69bd30441b95294890ef00fbdbc283
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: 585daa89d8f31fd25e34504a78cc3a4694aa6d6684c68e41d88f1862fca53f89
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
+
+No Silver Bullet
+Essence and Accidents
+of Software Engineering
+
+TR86-020
+
+September 1986
+
+Frederick P. Brooks, Jr.
+
+The University of North Carolina at Chapel Hill
+Department of Computer Science
+CB#3175, Sitterson Hall
+Chapel Hill, NC 27599-3175
+
+UNC is an Equal Opportunity/Affirmative Action Institution.
+
+No Silver Bullet
+Essence and Accidents of Software Engineering
+
+September, 1986
+Doc. 860905 fpb
+TR86-020
+
+Frederick P. Brooks, Jr.
+
+Department of Computer Science
+University of North Carolina
+Chapel Hill, North Carolina 27514
 
 NO SILVER BULLET –
 

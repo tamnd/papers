@@ -18,6 +18,7 @@ pages:
     - pdf: 3
       size: [556, 761]
       columns: 2
+      figures: [f01, f02]
     - pdf: 4
       size: [559, 762]
       columns: 2
@@ -30,12 +31,15 @@ pages:
     - pdf: 7
       size: [555, 761]
       columns: 2
+      figures: [f03, f04, f05, f06]
     - pdf: 8
       size: [560, 764]
       columns: 2
+      figures: [f07, f08]
     - pdf: 9
       size: [555, 761]
       columns: 2
+      figures: [f09, f10]
     - pdf: 10
       size: [557, 763]
       columns: 2

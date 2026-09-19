@@ -18,9 +18,9 @@ source: https://doi.org/10.1145/582095.582099
 pdf_sha256: d8c02d475b49fc90b9ee2b9e15a686a320b4b537272b8a5a661642db6c800d13
 pdf_pages: "1"
 extraction: vision
-extraction_model: gpt-5
+extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 1ba3c0bbcb667fd25d36b5e88011b020a1b89feecd89318d21fc7fd1655ff1cf
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Access Path Selection
