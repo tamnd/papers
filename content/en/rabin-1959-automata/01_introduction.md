@@ -15,7 +15,8 @@ pdf_sha256: 508c4c091d32b809ff5a75d91f4f313aa7f88b02e533dceb2146f34b196fdc03
 pdf_pages: 1-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: a3556679b14fb3956ad568c11926b391f55f5f53d6f5d76dfb25339e5a836029
+content_sha256: f49884d56002070ff60929f3de4de894e4850fb157d851320d3e201d75020601
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -31,13 +32,11 @@ We center our discussions around the application of automata as devices for defi
 
 After defining and explaining the basic notions we give, continuing work by Nerode,5 Myhill, and Shepherdson,7 an intrinsic mathematical characterization of definable sets. This characterization turns out to be a useful tool for both proving that certain sets are definable by an automaton and for proving that certain other sets are not.
 
-In Section 4 we discuss decision problems concerning automata. We consider the three problems of deciding whether an automaton accepts any tapes, whether it ac-
+In Section 4 we discuss decision problems concerning automata. We consider the three problems of deciding whether an automaton accepts any tapes, whether it accepts an infinite number of different tapes, and whether two automata accept precisely the same tapes. All three problems are shown to be solvable by effective algorithms.
 
 *Now at the Department of Mathematics, Hebrew University in Jerusalem.
 †Now at the Department of Mathematics, University of Chicago.
 ‡The bulk of this work was done while the authors were associated with the IBM Research Center during the summer of 1957.
-
-cepts an infinite number of different tapes, and whether two automata accept precisely the same tapes. All three problems are shown to be solvable by effective algorithms.
 
 In Chapter II we consider possible generalizations of the notion of an automaton. A nondeterministic automaton has, at each stage of its operation, several choices of possible actions. This versatility enables us to construct very powerful automata using only a small number of internal states. Nondeterministic automata, however, turn out to be equivalent to the usual automata. This fact is utilized for showing quickly that certain sets are definable by automata.
 

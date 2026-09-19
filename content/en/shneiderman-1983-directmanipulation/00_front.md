@@ -15,7 +15,8 @@ pdf_sha256: 4dc29926c05033d1cdb702444158bf8d154d8a152cad1b4a430ffd0403d3af33
 pdf_pages: 1-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 5ac29785960dd01f1ad02e24984b40312982281f77d7f8205a5acbdce6063b5a
+content_sha256: 900840cb12841a6d62add6e2688f04e85b68ab29d287ead3ccf5706be6caa59f
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -64,7 +65,7 @@ Cursor action that is visible to the user. Seeing an arrow, underscore, or blink
 
 Cursor motion through physically obvious and intuitively natural means. Arrow keys or devices such as a mouse, joystick, or graphics tablet provide natural physical mechanisms for moving the cursor. This is in marked contrast with commands such as UP 6, which require an operator to convert the physical action into correct syntactic form and which may be difficult to learn, hard to recall, and a source of frustrating errors.
 
-Labeled buttons for action. Many display editors have buttons etched with commands such as INSERT, DELETE, CENTER, UNDERLINE, SUPERSCRIPT, BOLD, or LOCATE. They act as a permanent menu selection display, reminding the operator of the features and obviating memorization of a complex command-lan-
+Labeled buttons for action. Many display editors have buttons etched with commands such as INSERT, DELETE, CENTER, UNDERLINE, SUPERSCRIPT, BOLD, or LOCATE. They act as a permanent menu selection display, reminding the operator of the features and obviating memorization of a complex command-language syntax. Some editors provide basic functionality with only 10 or 15 labeled buttons, and a specially marked button may be the gateway to advanced or infrequently used features offered on the screen in menu form.
 
 EDIT --- SPFDEMO.MYLIB.PLI(COINS) - 01.04 ---------------------- COLUMNS 001 072
 COMMAND INPUT ===>
@@ -114,7 +115,7 @@ COMMAND INPUT ===>
 001700 END;
 001800 END;
 001900 END COINS;
-******** ******************************* BOTTOM OF DATA ******************************* guage syntax. Some editors provide basic functionality with only 10 or 15 labeled buttons, and a specially marked button may be the gateway to advanced or infrequently used features offered on the screen in menu form.
+******** ******************************* BOTTOM OF DATA *******************************
 
 Figure 1. This example from the IBM SPF display editor shows 19 lines of a PL/I program. The commands to insert three lines (I3) and to delete one line (D or D1) are typed on the appropriate lines in the first screen display. Pressing ENTER causes commands to be executed and the cursor to be placed at the beginning of the inserted line. New program statements can be typed directly in their required positions. Control keys move the cursor around the text to positions where changes are made by overstriking. A delete key causes the character under the cursor to be deleted and the text to the left to be shifted over. After pressing an insert key, the user can type text in place. Programmed function keys allow movement of the window forwards, backwards, left, and right over the text. (Examples courtesy of IBM.) {#shneiderman-1983-directmanipulation-fig-1 .figure tag=03B2}
 
@@ -156,7 +157,7 @@ Contemporary games such as Missile Command, Donkey Kong, Pac Man, Tempest, Tron,
 
 Because their fields of action are abstractions of reality, these games are easily understood—learning is by analogy. A general idea of the game can be gained by watching the on-line automatic demonstration that runs continuously on the screen, and the basic principles can be learned in a few minutes by watching a knowledgeable player. But there are ample complexities to entice many hours and quarters from experts. The range of skill accommodated is admirable.
 
-The commands are physical actions, such as button presses, joystick motions, or knob rotations, whose results appear immediately on the screen. Since there is no syntax, there are no syntax error messages. If users move their spaceships too far left, then they merely use the natural inverse operation of moving back to the right. Error messages are unnecessary because the results of ac-
+The commands are physical actions, such as button presses, joystick motions, or knob rotations, whose results appear immediately on the screen. Since there is no syntax, there are no syntax error messages. If users move their spaceships too far left, then they merely use the natural inverse operation of moving back to the right. Error messages are unnecessary because the results of actions are so obvious and easily reversed. These principles can be applied to office automation, personal computing, and other interactive environments.
 
 Donkey Kong, Space Invaders, and Tron (clockwise from above) exemplify the lively variety of video games now inviting the user’s loose change. As of mid-1981, according to Steve Bloom, author of Video Invaders, more than four billion quarters had been dropped into Space Invaders games around the world—that’s roughly “one game per earthling.”
 

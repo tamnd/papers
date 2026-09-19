@@ -24,7 +24,8 @@ pdf_sha256: 9126cf3b930fd7be2de6248f82565c9b970482eb063bdc30be8c1b29c86b2167
 pdf_pages: 8-9
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 365c3edf8cc3357685359c40ba22c9dea51fc44d5f0e01754d67b79f9f8ef594
+content_sha256: 065256f869eb3dfcb608b7a2c61f96e383ac6b0d23f1fec582e8b020ff2ac922
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -34,7 +35,7 @@ The tablet servers and master, test clients, and GFS servers all ran on the same
 
 $R$ is the distinct number of Bigtable row keys involved in the test. $R$ was chosen so that each benchmark read or wrote approximately 1 GB of data per tablet server.
 
-The *sequential write* benchmark used row keys with names 0 to $R - 1$. This space of row keys was partitioned into $10N$ equal-sized ranges. These ranges were assigned to the $N$ clients by a central scheduler that as-
+The *sequential write* benchmark used row keys with names 0 to $R - 1$. This space of row keys was partitioned into $10N$ equal-sized ranges. These ranges were assigned to the $N$ clients by a central scheduler that assigned the next available range to a client as soon as the client finished processing the previous range assigned to it. This dynamic assignment helped mitigate the effects of performance variations caused by other processes running on the client machines. We wrote a single string under each row key. Each string was generated randomly and was therefore uncompressible. In addition, strings under different row key were distinct, so no cross-row compression was possible. The random write benchmark was similar except that the row key was hashed modulo R immediately before writing so that the write load was spread roughly uniformly across the entire row space for the entire duration of the benchmark.
 
 | Experiment | # of Tablet Servers |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -47,8 +48,6 @@ The *sequential write* benchmark used row keys with names 0 to $R - 1$. This spa
 | scans | 15385 | 10526 | 9524 | 7843 |
 
 Figure 6: Number of 1000-byte values read/written per second. The table shows the rate per tablet server; the graph shows the aggregate rate. {#chang-2006-bigtable-fig-6 .figure tag=0790}
-
-signed the next available range to a client as soon as the client finished processing the previous range assigned to it. This dynamic assignment helped mitigate the effects of performance variations caused by other processes running on the client machines. We wrote a single string under each row key. Each string was generated randomly and was therefore uncompressible. In addition, strings under different row key were distinct, so no cross-row compression was possible. The random write benchmark was similar except that the row key was hashed modulo R immediately before writing so that the write load was spread roughly uniformly across the entire row space for the entire duration of the benchmark.
 
 The sequential read benchmark generated row keys in exactly the same way as the sequential write benchmark, but instead of writing under the row key, it read the string stored under the row key (which was written by an earlier invocation of the sequential write benchmark). Similarly, the random read benchmark shadowed the operation of the random write benchmark.
 

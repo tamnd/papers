@@ -16,7 +16,8 @@ pdf_sha256: 3cd7c57944b7b53f18fb2a7c014fe2367f3576696a1d024c840151459da2f24e
 pdf_pages: 4-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 349d171a8390a9cde7d4c5d1d57ca59945880344824e3b71d0036885c46a1dee
+content_sha256: 5d090e438c654adb79dd47717a9d23e2424ff83ed569e78b52241181edadf567
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -36,7 +37,7 @@ The executive unit is the part which carries out the various individual operatio
 
 We have mentioned that the "book of rules" supplied to the computer is replaced in the machine by a part of the store. It is then called the "table of instructions." It is the duty of the control to see that these instructions are obeyed correctly and in the right order. The control is so constructed that this necessarily happens.
 
-The information in the store is usually broken up into packets of moderately small size. In one machine, for instance, a packet might consist of ten decimal digits. Numbers are assigned to the parts of the store in which the various packets of information are stored, in some systematic manner. A typical instruction might say-
+The information in the store is usually broken up into packets of moderately small size. In one machine, for instance, a packet might consist of ten decimal digits. Numbers are assigned to the parts of the store in which the various packets of information are stored, in some systematic manner. A typical instruction might say—
 
 "Add the number stored in position 6809 to that in 4302 and put the result back into the latter storage position."
 

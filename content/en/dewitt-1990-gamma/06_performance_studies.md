@@ -21,7 +21,8 @@ pdf_sha256: 420d33f44b8e050f33517cdff1299a58838b4ad826d80a6617200332ea02be5e
 pdf_pages: 23-34
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 1c2360df7cc59c53ea7ed7d5d342134b87a85376cb364781240839de2345c52d
+content_sha256: 4ec8fed7e4bcbe6ec06b2ecc9a809b8d67885f8c8a344861b6028004754745df
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -65,11 +66,9 @@ Speedup Experiments
 
 In this section we examine how the response time for both the nonindexed and indexed selection queries on the 1 million tuple relation$^7$ is affected by the number of processors used to execute the query. Ideally, one would like to see a linear improvement in performance as the number of processors is increased from 1 to 30. Increasing the number of processors increases both the aggregate CPU power and I/O bandwidth available, while reducing the number of tuples that must be processed by each processor.
 
-In Figure 12, the average response times for the non-indexed 1% and 10% selection queries on the one million tuple relation are presented. As expected, the response time for each query decreases as the number of nodes is increased. The response time is higher for the 10% selection due to the cost of declustering and storing the result relation. While one could always store result tuples locally, by partitioning all result relations in a round-robin (or hashed) fashion one can ensure that the fragments of every result relation each contain approximately the same number of tuples. The speedup curves corresponding to Figure 12 are presented in Figure 13. In Figure 14, the average response time is presented as a function of the number of processors for the following three queries: a 1% selection through a clustered index, a 10% selection through a clustered index, and a 1% selection through a non-
+In Figure 12, the average response times for the non-indexed 1% and 10% selection queries on the one million tuple relation are presented. As expected, the response time for each query decreases as the number of nodes is increased. The response time is higher for the 10% selection due to the cost of declustering and storing the result relation. While one could always store result tuples locally, by partitioning all result relations in a round-robin (or hashed) fashion one can ensure that the fragments of every result relation each contain approximately the same number of tuples. The speedup curves corresponding to Figure 12 are presented in Figure 13. In Figure 14, the average response time is presented as a function of the number of processors for the following three queries: a 1% selection through a clustered index, a 10% selection through a clustered index, and a 1% selection through a non-clustered index, all accessing the 1 million tuple relation. The corresponding speedup curves are presented in Figure 15.
 
 \footnotetext{7 The 1 million tuple relation was used for these experiments because the 10 million tuple relation would not fit on 1 disk drive.}
-
-clustered index, all accessing the 1 million tuple relation. The corresponding speedup curves are presented in Figure 15.
 
 Of the speedup curves presented in Figures 13 and 14, three queries are superlinear, one is slightly sublinear, and one is significantly sublinear. Consider first the 10% selection via a relation scan, the 1% selection through a non-clustered index, and the 10% selection through a clustered index. As discussed above, the source of the superlinear speedups exhibited by these queries is due to significant differences in the time the various configurations spend seeking. With one processor, the 1 million tuple relation occupies approximately 66% of the disk. When the same relation is declustered over 30 disk drives, it occupies about 2% of each disk. In the case of the 1% non-clustered index selection, each tuple selected requires a random seek. With one processor, the range of the each random seek is approximately 800 cylinders while with 30 processors the range of the seek is limited to about 27 cylinders. Since the seek time is proportional to the square root of the distance traveled by the disk head [GRAY88], reducing the size of the relation fragment on each disk significantly reduces the amount of time that the query spends seeking.
 

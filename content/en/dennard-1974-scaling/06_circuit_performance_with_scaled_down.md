@@ -19,13 +19,14 @@ pdf_sha256: fe83e914e79d8bf4271ea55de8f78a47a254fd7093a7ab073b80f956089d5690
 pdf_pages: 9-11
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 5aba9c19f11fbb986ddedc2c2784fe28caeb60b354b1a9f53fae4516b4c864f6
+content_sha256: f6f4f010a7e52e4ca95d311e60edecda4c3450886aaf1d8041842c4f3a5bf6eb
+edited: true
 prompt_sha256: c5c47cae65ffa93ca979b448f43adf142f13a9820bcd1d77a3ff1aa1babe667b
 ---
 
 The performance improvement expected from using very small MOSFET's in integrated circuits of comparably small dimensions is discussed in this section. First, the performance changes due to size reduction alone are obtained from the scaling considerations given earlier. The influence on the circuit performance due to the structural changes of the ion-implanted design is then discussed.
 
-Table I lists the changes in integrated circuit performance which follow from scaling the circuit dimensions, voltages, and substrate doping in the same manner as the device changes described with respect to Fig. 1. These changes are indicated in terms of the dimensionless scal-
+Table I lists the changes in integrated circuit performance which follow from scaling the circuit dimensions, voltages, and substrate doping in the same manner as the device changes described with respect to Fig. 1. These changes are indicated in terms of the dimensionless scaling factor $\kappa$. Justifying these results here in great detail would be tedious, so only a simplified treatment is given. It is argued that all nodal voltages are reduced in the miniaturized circuits in proportion to the reduced supply voltages. This follows because the quiescent voltage levels in digital MOSFET circuits are either the supply levels or some intermediate level given by a voltage divider consisting of two or more devices, and because the resistance $V/I$ of each device is unchanged by scaling. An assumption is made that parasitic resistance elements are either negligible or unchanged by scaling, which will be examined subsequently. The circuits operate properly at lower voltages because the device threshold voltage $V_t$ scales as shown in (2), and furthermore because the tolerance spreads on $V_t$ should be proportionately reduced as well if each parameter in (2) is controlled to the same percentage accuracy. Noise margins are reduced, but at the same time internally generated noise coupling voltages are reduced by the lower signal voltage swings.
 
 Fig. 13. Calculated and experimental subthreshold turn-on characteristics for ion-implanted zero substrate bias design. {#dennard-1974-scaling-fig-13 .figure tag=03A5}
 
@@ -39,8 +40,6 @@ Fig. 13. Calculated and experimental subthreshold turn-on characteristics for io
 | Delay time/circuit $VC/I$ | $1/\kappa$ |
 | Power dissipation/circuit $VI$ | $1/\kappa^2$ |
 | Power density $VI/A$ | 1 |
-
-ing factor $\kappa$. Justifying these results here in great detail would be tedious, so only a simplified treatment is given. It is argued that all nodal voltages are reduced in the miniaturized circuits in proportion to the reduced supply voltages. This follows because the quiescent voltage levels in digital MOSFET circuits are either the supply levels or some intermediate level given by a voltage divider consisting of two or more devices, and because the resistance $V/I$ of each device is unchanged by scaling. An assumption is made that parasitic resistance elements are either negligible or unchanged by scaling, which will be examined subsequently. The circuits operate properly at lower voltages because the device threshold voltage $V_t$ scales as shown in (2), and furthermore because the tolerance spreads on $V_t$ should be proportionately reduced as well if each parameter in (2) is controlled to the same percentage accuracy. Noise margins are reduced, but at the same time internally generated noise coupling voltages are reduced by the lower signal voltage swings.
 
 Due to the reduction in dimensions, all circuit elements (i.e., interconnection lines as well as devices) will have their capacitances reduced by a factor of $\kappa$. This occurs because of the reduction by $\kappa^2$ in the area of these components, which is partially cancelled by the decrease in the electrode spacing by $\kappa$ due to thinner insulating films and reduced depletion layer widths. These reduced capacitances are driven by the unchanged device resistances $V/I$ giving decreased transition times with a resultant reduction in the delay time of each circuit by a factor of $\kappa$. The power dissipation of each circuit is reduced by $\kappa^2$ due to the reduced voltage and current levels, so the power-delay product is improved by $\kappa^3$. Since the area of a given device or circuit is also reduced by $\kappa^2$, the power density remains constant. Thus, even if many more circuits are placed on a given integrated circuit chip, the cooling problem is essentially unchanged.
 

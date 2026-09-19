@@ -17,7 +17,8 @@ pdf_sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
 pdf_pages: 3-7
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: db6b30bcce013dbf6553ef009f9b6e815e3f1d72f8295f072b41e40105ae0b05
+content_sha256: 377cb9f3e35979d19f0bdcf170be01f37066fc4a18c4f55acd5a471a045e9289
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -73,9 +74,7 @@ It is easy and useful to extend the de nition of natural proof to a more general
 
 Let ? and be complexity classes. Call a combinatorial property C n ?- natural with density n if it contains C n C n with the following two conditions:
 
-Constructivity: The predicate f n 2 C n is computable in ? (recall, C n is a set of truth-
-
-? tables with 2 n bits);
+Constructivity: The predicate f n 2 C n is computable in ? (recall, C n is a set of truth-tables with 2 n bits);
 
 Largeness: j C n j n j F n j .
 
