@@ -17,7 +17,8 @@ pdf_sha256: cf3391d85e2456f8242a3dc4a88e7cdead9a419b52890bb4b8a31433e9659dcb
 pdf_pages: 1-27
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 89d2f3a7c4a94c44934a1382ca023e33e4ec421b94caf407bbf5ed091106faa3
+content_sha256: 2f6728e1c1322f0a6bc1d0362834bd89d9064b65d9b84cd8c268434de68b2ae6
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -268,7 +269,6 @@ A fully-matched pattern can be accounted for by setting $pattern[m + 1] = "@"$ f
 The following form of the algorithm incorporates these refinements.
 
 ```text
-\[
 a := pattern[1];
 pattern[m + 1] := '@'; next[m + 1] := -1;
 text[n + 1] := '\bot'; text[n + 2] := a;
