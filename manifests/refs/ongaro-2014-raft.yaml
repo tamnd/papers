@@ -1,0 +1,342 @@
+paper: ongaro-2014-raft
+style: bracket
+entries:
+    - key: "1"
+      raw: BOLOSKY, W. J., BRADSHAW, D., HAAGENS, R. B., KUSTERS, N. P., AND LI, P. Paxos replicated state machines as the basis of a high-performance data store. In Proc. NSDI’11, USENIX Conference on Networked Systems Design and Implementation (2011), USENIX, pp. 141–154.
+      authors:
+        - W. J. BOLOSKY
+        - D. BRADSHAW
+        - R. B. HAAGENS
+        - N. P. KUSTERS
+        - P. LI
+      title: Paxos replicated state machines as the basis of a high-performance data store
+      venue: In Proc. NSDI’11, USENIX Conference on Networked Systems Design and Implementation (2011), USENIX, pp. 141–154
+      year: 2011
+      pages: 141-154
+      resolves_to: ""
+    - key: "2"
+      raw: BURROWS, M. The Chubby lock service for loosely-coupled distributed systems. In Proc. OSDI’06, Symposium on Operating Systems Design and Implementation (2006), USENIX, pp. 335–350.
+      authors:
+        - M. BURROWS
+      title: The Chubby lock service for loosely-coupled distributed systems
+      venue: In Proc. OSDI’06, Symposium on Operating Systems Design and Implementation (2006), USENIX, pp. 335–350
+      year: 2006
+      pages: 335-350
+      resolves_to: ""
+    - key: "3"
+      raw: CAMARGOS, L. J., SCHMIDT, R. M., AND PEDONE, F. Multicoordinated Paxos. In Proc. PODC’07, ACM Symposium on Principles of Distributed Computing (2007), ACM, pp. 316–317.
+      authors:
+        - L. J. CAMARGOS
+        - R. M. SCHMIDT
+        - PEDONE
+        - F. Multicoordinated Paxos
+      title: In Proc. PODC’07, ACM Symposium on Principles of Distributed Computing (2007), ACM, pp. 316–317
+      year: 2007
+      pages: 316-317
+      resolves_to: ""
+    - key: "4"
+      raw: 'CHANDRA, T. D., GRIESEMER, R., AND REDSTONE, J. Paxos made live: an engineering perspective. In Proc. PODC’07, ACM Symposium on Principles of Distributed Computing (2007), ACM, pp. 398–407.'
+      title: 'CHANDRA, T. D., GRIESEMER, R., AND REDSTONE, J. Paxos made live: an engineering perspective'
+      venue: In Proc. PODC’07, ACM Symposium on Principles of Distributed Computing (2007), ACM, pp. 398–407
+      year: 2007
+      pages: 398-407
+      resolves_to: ""
+    - key: "5"
+      raw: 'CHANG, F., DEAN, J., GHEMAWAT, S., HSIEH, W. C., WALLACH, D. A., BURROWS, M., CHANDRA, T., FIKES, A., AND GRUBER, R. E. Bigtable: a distributed storage system for structured data. In Proc. OSDI’06, USENIX Symposium on Operating Systems Design and Implementation (2006), USENIX, pp. 205–218.'
+      title: 'CHANG, F., DEAN, J., GHEMAWAT, S., HSIEH, W. C., WALLACH, D. A., BURROWS, M., CHANDRA, T., FIKES, A., AND GRUBER, R. E. Bigtable: a distributed storage system for structured data'
+      venue: In Proc. OSDI’06, USENIX Symposium on Operating Systems Design and Implementation (2006), USENIX, pp. 205–218
+      year: 2006
+      pages: 205-218
+      resolves_to: ""
+    - key: "6"
+      raw: 'CORBETT, J. C., DEAN, J., EPSTEIN, M., FIKES, A., FROST, C., FURMAN, J. J., GHEMAWAT, S., GUBAREV, A., HEISER, C., HOCHSCHILD, P., HSIEH, W., KANTHAK, S., KOGAN, E., LI, H., LLOYD, A., MELNIK, S., MWURA, D., NAGLE, D., QUINLAN, S., RAO, R., ROLIG, L., SAITO, Y., SZYMANIAK, M., TAYLOR, C., WANG, R., AND WOODFORD, D. Spanner: Google’s globally-distributed database. In Proc. OSDI’12, USENIX Conference on Operating Systems Design and Implementation (2012), USENIX, pp. 251–264.'
+      title: 'CORBETT, J. C., DEAN, J., EPSTEIN, M., FIKES, A., FROST, C., FURMAN, J. J., GHEMAWAT, S., GUBAREV, A., HEISER, C., HOCHSCHILD, P., HSIEH, W., KANTHAK, S., KOGAN, E., LI, H., LLOYD, A., MELNIK, S., MWURA, D., NAGLE, D., QUINLAN, S., RAO, R., ROLIG, L., SAITO, Y., SZYMANIAK, M., TAYLOR, C., WANG, R., AND WOODFORD, D. Spanner: Google’s globally-distributed database'
+      venue: In Proc. OSDI’12, USENIX Conference on Operating Systems Design and Implementation (2012), USENIX, pp. 251–264
+      year: 2012
+      pages: 251-264
+      resolves_to: ""
+    - key: "7"
+      raw: COUSINEAU, D., DOLIGEZ, D., LAMPORT, L., MERZ, S., RICKETTS, D., AND VANZETTO, H. TLA+ proofs. In Proc. FM’12, Symposium on Formal Methods (2012), D. Giannakopoulou and D. Méry, Eds., vol. 7436 of Lecture Notes in Computer Science, Springer, pp. 147–154.
+      authors:
+        - D. COUSINEAU
+        - D. DOLIGEZ
+        - L. LAMPORT
+        - S. MERZ
+        - D. RICKETTS
+        - VANZETTO
+        - H. TLA+ proofs
+      title: In Proc. FM’12, Symposium on Formal Methods (2012), D. Giannakopoulou and D. Méry, Eds., vol. 7436 of Lecture Notes in Computer Science, Springer, pp. 147–154
+      year: 2012
+      pages: 147-154
+      resolves_to: ""
+    - key: "8"
+      raw: GHEMAWAT, S., GOBIOFF, H., AND LEUNG, S.-T. The Google file system. In Proc. SOSP’03, ACM Symposium on Operating Systems Principles (2003), ACM, pp. 29–43.
+      authors:
+        - S. GHEMAWAT
+        - H. GOBIOFF
+        - LEUNG
+        - S.-T. The Google file system
+      title: In Proc. SOSP’03, ACM Symposium on Operating Systems Principles (2003), ACM, pp. 29–43
+      year: 2003
+      pages: 29-43
+      resolves_to: ""
+    - key: "9"
+      raw: 'GRAY, C., AND CHERITON, D. Leases: An efficient fault-tolerant mechanism for distributed file cache consistency. In Proceedings of the 12th ACM Symposium on Operating Systems Principles (1989), pp. 202–210.'
+      title: 'GRAY, C., AND CHERITON, D. Leases: An efficient fault-tolerant mechanism for distributed file cache consistency'
+      venue: In Proceedings of the 12th ACM Symposium on Operating Systems Principles (1989), pp. 202–210
+      year: 1989
+      pages: 202-210
+      resolves_to: ""
+    - key: "10"
+      raw: 'HERLIHY, M. P., AND WING, J. M. Linearizability: a correctness condition for concurrent objects. ACM Transactions on Programming Languages and Systems 12 (July 1990), 463–492.'
+      title: 'HERLIHY, M. P., AND WING, J. M. Linearizability: a correctness condition for concurrent objects'
+      venue: ACM Transactions on Programming Languages and Systems 12 (July 1990), 463–492
+      year: 1990
+      pages: 463-492
+      resolves_to: ""
+    - key: "11"
+      raw: 'HUNT, P., KONAR, M., JUNQUEIRA, F. P., AND REED, B. ZooKeeper: wait-free coordination for internet-scale systems. In Proc ATC’10, USENIX Annual Technical Conference (2010), USENIX, pp. 145–158.'
+      title: 'HUNT, P., KONAR, M., JUNQUEIRA, F. P., AND REED, B. ZooKeeper: wait-free coordination for internet-scale systems'
+      venue: In Proc ATC’10, USENIX Annual Technical Conference (2010), USENIX, pp. 145–158
+      year: 2010
+      pages: 145-158
+      resolves_to: ""
+    - key: "12"
+      raw: 'JUNQUEIRA, F. P., REED, B. C., AND SERAFINI, M. Zab: High-performance broadcast for primary-backup systems. In Proc. DSN’11, IEEE/IFIP Int’l Conf. on Dependable Systems & Networks (2011), IEEE Computer Society, pp. 245–256.'
+      title: 'JUNQUEIRA, F. P., REED, B. C., AND SERAFINI, M. Zab: High-performance broadcast for primary-backup systems'
+      venue: In Proc. DSN’11, IEEE/IFIP Int’l Conf. on Dependable Systems & Networks (2011), IEEE Computer Society, pp. 245–256
+      year: 2011
+      pages: 245-256
+      resolves_to: ""
+    - key: "13"
+      raw: KIRSCH, J., AND AMIR, Y. Paxos for system builders. Tech. Rep. CNDS-2008-2, Johns Hopkins University, 2008.
+      authors:
+        - J. KIRSCH
+        - Y. AMIR
+      title: Paxos for system builders
+      venue: Tech. Rep. CNDS-2008-2, Johns Hopkins University
+      year: 2008
+      resolves_to: ""
+    - key: "14"
+      raw: LAMPORT, L. Time, clocks, and the ordering of events in a distributed system. Communications of the ACM 21, 7 (July 1978), 558–565.
+      authors:
+        - LAMPORT
+        - L. Time
+        - clocks
+        - the ordering of events in a distributed system
+      title: Communications of the ACM 21, 7 (July 1978), 558–565
+      year: 1978
+      pages: 558-565
+      resolves_to: ""
+    - key: "15"
+      raw: LAMPORT, L. The part-time parliament. ACM Transactions on Computer Systems 16, 2 (May 1998), 133–169.
+      authors:
+        - LAMPORT
+        - L. The part-time parliament
+      title: ACM Transactions on Computer Systems 16, 2 (May 1998), 133–169
+      year: 1998
+      pages: 133-169
+      resolves_to: ""
+    - key: "16"
+      raw: LAMPORT, L. Paxos made simple. ACM SIGACT News 32, 4 (Dec. 2001), 18–25.
+      authors:
+        - LAMPORT
+        - L. Paxos made simple
+      title: ACM SIGACT News 32, 4 (Dec
+      year: 2001
+      pages: 18-25
+      resolves_to: ""
+    - key: "17"
+      raw: LAMPORT, L. Specifying Systems, The TLA+ Language and Tools for Hardware and Software Engineers. Addison-Wesley, 2002.
+      authors:
+        - LAMPORT
+        - L. Specifying Systems
+        - The TLA+ Language
+        - Tools for Hardware
+        - Software Engineers
+      title: Addison-Wesley, 2002
+      year: 2002
+      resolves_to: ""
+    - key: "18"
+      raw: LAMPORT, L. Generalized consensus and Paxos. Tech. Rep. MSR-TR-2005-33, Microsoft Research, 2005.
+      authors:
+        - L. LAMPORT
+      title: Generalized consensus and Paxos
+      venue: Tech. Rep. MSR-TR-2005-33, Microsoft Research
+      year: 2005
+      resolves_to: ""
+    - key: "19"
+      raw: LAMPORT, L. Fast paxos. Distributed Computing 19, 2 (2006), 79–103.
+      authors:
+        - LAMPORT
+        - L. Fast paxos
+      title: Distributed Computing 19, 2 (2006), 79–103
+      year: 2006
+      pages: 79-103
+      resolves_to: ""
+    - key: "20"
+      raw: LAMPSON, B. W. How to build a highly available system using consensus. In Distributed Algorithms, O. Baboaglu and K. Marzullo, Eds. Springer-Verlag, 1996, pp. 1–17.
+      authors:
+        - B. W. LAMPSON
+      title: How to build a highly available system using consensus
+      venue: In Distributed Algorithms, O. Baboaglu and K. Marzullo, Eds. Springer-Verlag, 1996, pp. 1–17
+      year: 1996
+      pages: 1-17
+      resolves_to: ""
+    - key: "21"
+      raw: LAMPSON, B. W. The ABCD’s of Paxos. In Proc. PODC’01, ACM Symposium on Principles of Distributed Computing (2001), ACM, pp. 13–13.
+      authors:
+        - B. W. LAMPSON
+      title: The ABCD’s of Paxos
+      venue: In Proc. PODC’01, ACM Symposium on Principles of Distributed Computing (2001), ACM, pp. 13–13
+      year: 2001
+      pages: 13-13
+      resolves_to: ""
+    - key: "22"
+      raw: LISKOv, B., AND COWLING, J. Viewstamped replication revisited. Tech. Rep. MIT-CSAIL-TR-2012-021, MIT, July 2012.
+      authors:
+        - B. LISKOv
+        - COWLING
+        - J. Viewstamped replication revisited
+      title: Tech. Rep. MIT-CSAIL-TR-2012-021, MIT, July 2012
+      year: 2012
+      resolves_to: ""
+    - key: "23"
+      raw: LogCabin source code. http://github.com/logcabin/logcabin.
+      title: LogCabin source code
+      url: http://github.com/logcabin/logcabin
+      resolves_to: ""
+    - key: "24"
+      raw: Lorch, J. R., Adya, A., Bolosky, W. J., ChaiKen, R., Douceur, J. R., and Howell, J. The SMART way to migrate replicated stateful services. In Proc. EuroSys’06, ACM SIGOPS/EuroSys European Conference on Computer Systems (2006), ACM, pp. 103–115.
+      authors:
+        - J. R. Lorch
+        - A. Adya
+        - W. J. Bolosky
+        - R. ChaiKen
+        - J. R. Douceur
+        - J. Howell
+      title: The SMART way to migrate replicated stateful services
+      venue: In Proc. EuroSys’06, ACM SIGOPS/EuroSys European Conference on Computer Systems (2006), ACM, pp. 103–115
+      year: 2006
+      pages: 103-115
+      resolves_to: ""
+    - key: "25"
+      raw: 'Mao, Y., Junqueira, F. P., and Marzullo, K. Mencius: building efficient replicated state machines for WANs. In Proc. OSDI’08, USENIX Conference on Operating Systems Design and Implementation (2008), USENIX, pp. 369–384.'
+      title: 'Mao, Y., Junqueira, F. P., and Marzullo, K. Mencius: building efficient replicated state machines for WANs'
+      venue: In Proc. OSDI’08, USENIX Conference on Operating Systems Design and Implementation (2008), USENIX, pp. 369–384
+      year: 2008
+      pages: 369-384
+      resolves_to: ""
+    - key: "26"
+      raw: Mazieres, D. Paxos made practical. http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf, Jan. 2007.
+      authors:
+        - Mazieres
+        - D. Paxos made practical
+      title: http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf, Jan
+      year: 2007
+      url: http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf
+      resolves_to: ""
+    - key: "27"
+      raw: Moraru, I., Andersen, D. G., and Kaminsky, M. There is more consensus in egalitarian parliaments. In Proc. SOSP’13, ACM Symposium on Operating System Principles (2013), ACM.
+      authors:
+        - I. Moraru
+        - D. G. Andersen
+        - M. Kaminsky
+      title: There is more consensus in egalitarian parliaments
+      venue: In Proc. SOSP’13, ACM Symposium on Operating System Principles (2013), ACM
+      year: 2013
+      resolves_to: ""
+    - key: "28"
+      raw: Raft user study. http://ramcloud.stanford.edu/~ongaro/userstudy/.
+      title: Raft user study
+      url: http://ramcloud.stanford.edu/~ongaro/userstudy/
+      resolves_to: ""
+    - key: "29"
+      raw: 'Oki, B. M., and Liskov, B. H. Viewstamped replication: A new primary copy method to support highly-available distributed systems. In Proc. PODC’88, ACM Symposium on Principles of Distributed Computing (1988), ACM, pp. 8–17.'
+      title: 'Oki, B. M., and Liskov, B. H. Viewstamped replication: A new primary copy method to support highly-available distributed systems'
+      venue: In Proc. PODC’88, ACM Symposium on Principles of Distributed Computing (1988), ACM, pp. 8–17
+      year: 1988
+      pages: 8-17
+      resolves_to: ""
+    - key: "30"
+      raw: O’Neil, P., Cheng, E., Gawlick, D., and O’Neil, E. The log-structured merge-tree (LSM-tree). Acta Informatica 33, 4 (1996), 351–385.
+      authors:
+        - P. O’Neil
+        - E. Cheng
+        - D. Gawlick
+        - E. O’Neil
+      title: The log-structured merge-tree (LSM-tree)
+      venue: Acta Informatica 33, 4 (1996), 351–385
+      year: 1996
+      pages: 351-385
+      resolves_to: ""
+    - key: "31"
+      raw: 'Ongaro, D. Consensus: Bridging Theory and Practice. PhD thesis, Stanford University, 2014 (work in progress). http://ramcloud.stanford.edu/~ongaro/thesis.pdf.'
+      title: 'Ongaro, D. Consensus: Bridging Theory and Practice'
+      venue: PhD thesis, Stanford University, 2014 (work in progress)
+      year: 2014
+      url: http://ramcloud.stanford.edu/~ongaro/thesis.pdf
+      resolves_to: ""
+    - key: "32"
+      raw: Ongaro, D., and Ousterhout, J. In search of an understandable consensus algorithm. In Proc ATC’14, USENIX Annual Technical Conference (2014), USENIX.
+      authors:
+        - D. Ongaro
+        - J. Ousterhout
+      title: In search of an understandable consensus algorithm
+      venue: In Proc ATC’14, USENIX Annual Technical Conference (2014), USENIX
+      year: 2014
+      resolves_to: ""
+    - key: "33"
+      raw: Ousterhout, J., Agrawal, P., Erickson, D., Kozyrakis, C., Leverich, J., Mazieres, D., Mitra, S., Narayanan, A., Ongaro, D., Parulkar, G., Rosenblum, M., Rumble, S. M., Stratmann, E., and Stutsmann, R. The case for RAMCloud. Communications of the ACM 54 (July 2011), 121–130.
+      title: Ousterhout, J., Agrawal, P., Erickson, D., Kozyrakis, C., Leverich, J., Mazieres, D., Mitra, S., Narayanan, A., Ongaro, D., Parulkar, G., Rosenblum, M., Rumble, S. M., Stratmann, E., and Stutsmann, R. The case for RAMCloud
+      venue: Communications of the ACM 54 (July 2011), 121–130
+      year: 2011
+      pages: 121-130
+      resolves_to: ""
+    - key: "34"
+      raw: Raft consensus algorithm website. http://raftconsensus.github.io.
+      title: Raft consensus algorithm website
+      url: http://raftconsensus.github.io
+      resolves_to: ""
+    - key: "35"
+      raw: Reed, B. Personal communications, May 17, 2013.
+      title: Reed, B. Personal communications, May 17, 2013
+      year: 2013
+      resolves_to: ""
+    - key: "36"
+      raw: Rosenblum, M., and Ousterhout, J. K. The design and implementation of a log-structured file system. ACM Trans. Comput. Syst. 10 (February 1992), 26–52.
+      authors:
+        - M. Rosenblum
+        - J. K. Ousterhout
+      title: The design and implementation of a log-structured file system
+      venue: ACM Trans. Comput. Syst. 10 (February 1992), 26–52
+      year: 1992
+      pages: 26-52
+      resolves_to: ""
+    - key: "37"
+      raw: 'Schneider, F. B. Implementing fault-tolerant services using the state machine approach: a tutorial. ACM Computing Surveys 22, 4 (Dec. 1990), 299–319.'
+      title: 'Schneider, F. B. Implementing fault-tolerant services using the state machine approach: a tutorial'
+      venue: ACM Computing Surveys 22, 4 (Dec. 1990), 299–319
+      year: 1990
+      pages: 299-319
+      resolves_to: ""
+    - key: "38"
+      raw: Shvachko, K., Kuang, H., Radia, S., and Chansler, R. The Hadoop distributed file system. In Proc. MSST’10, Symposium on Mass Storage Systems and Technologies (2010), IEEE Computer Society, pp. 1–10.
+      authors:
+        - K. Shvachko
+        - H. Kuang
+        - S. Radia
+        - R. Chansler
+      title: The Hadoop distributed file system
+      venue: In Proc. MSST’10, Symposium on Mass Storage Systems and Technologies (2010), IEEE Computer Society, pp. 1–10
+      year: 2010
+      pages: 1-10
+      resolves_to: ""
+    - key: "39"
+      raw: Van Renesse, R. Paxos made moderately complex. Tech. rep., Cornell University, 2012.
+      authors:
+        - R. Van Renesse
+      title: Paxos made moderately complex
+      venue: Tech. rep., Cornell University
+      year: 2012
+      resolves_to: ""

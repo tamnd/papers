@@ -1,0 +1,94 @@
+paper: sutherland-1963-sketchpad
+style: bracket
+entries:
+    - key: "1"
+      raw: Clark, W. A., Frankovich, J. M., Peterson, H. P., Forgie, J. W., Best, R. L., Olsen, K. H., “The Lincoln TX-2 Computer,” Technical Report 6M-4968, Massachusetts Institute of Technology, Lincoln Laboratory, Lexington, Mass., April 1, 1957, Proceedings of the Western Joint Computer Conference, Los Angeles, California, February, 1957.
+      authors:
+        - W. A. Clark
+        - J. M. Frankovich
+        - H. P. Peterson
+        - J. W. Forgie
+        - R. L. Best
+        - K. H. Olsen
+      title: The Lincoln TX-2 Computer
+      year: 1957
+      resolves_to: ""
+    - key: "2"
+      raw: Coons, S. A., Notes on Graphical Input Methods, Memorandum 8436-M-17, Dynamic Analysis and Control Laboratory, Massachusetts Institute of Technology, Department of Mechanical Engineering, Cambridge, Mass., May 4, 1960.
+      title: Coons, S. A., Notes on Graphical Input Methods, Memorandum 8436-M-17, Dynamic Analysis and Control Laboratory, Massachusetts Institute of Technology, Department of Mechanical Engineering, Cambridge, Mass., May 4, 1960
+      year: 1960
+      resolves_to: ""
+    - key: "3"
+      raw: Johnston, L. E., A Graphical Input Device and Shape Description Interpretation Routines, Memorandum to Prof. Mann, Massachusetts Institute of Technology, Department of Mechanical Engineering, Cambridge, Mass., May 4, 1960.
+      title: Johnston, L. E., A Graphical Input Device and Shape Description Interpretation Routines, Memorandum to Prof. Mann, Massachusetts Institute of Technology, Department of Mechanical Engineering, Cambridge, Mass., May 4, 1960
+      year: 1960
+      resolves_to: ""
+    - key: "4"
+      raw: Licklider, J. C. R., “Man–Computer Symbiosis,” I.R.E. Trans. on Human Factors in Electronics, vol. HFE, pp. 4–10, March 1960.
+      authors:
+        - J. C. R. Licklider
+      title: Man–Computer Symbiosis
+      venue: I.R.E. Trans. on Human Factors in Electronics, vol. HFE, pp. 4–10
+      year: 1960
+      pages: 4-10
+      resolves_to: ""
+    - key: "5"
+      raw: Licklider, J. C. R., and Clark, W., “On-Line Man-Computer Communication,” Proceedings of the Spring Joint Computer Conference, San Francisco, California, May 1–3, 1962, vol. 21, pp. 113–128.
+      authors:
+        - J. C. R. Licklider
+        - W. Clark
+      title: On-Line Man-Computer Communication
+      venue: Proceedings of the Spring Joint Computer Conference, San Francisco, California, May 1–3, 1962, vol. 21, pp. 113–128
+      year: 1962
+      pages: 113-128
+      resolves_to: ""
+    - key: "6"
+      raw: Loomis, H. H. Jr., Graphical Manipulation Techniques Using the Lincoln TX-2 Computer, Group Report 51G-0017, Massachusetts Institute of Technology, Lincoln Laboratory, Lexington, Mass., November 10, 1960.
+      title: Loomis, H. H. Jr., Graphical Manipulation Techniques Using the Lincoln TX-2 Computer, Group Report 51G-0017, Massachusetts Institute of Technology, Lincoln Laboratory, Lexington, Mass., November 10, 1960
+      year: 1960
+      resolves_to: ""
+    - key: "7"
+      raw: Moore, E. F., “On the Shortest Path Through a Maze,” Proceedings of the International Symposium on the Theory of Switching, Harvard University, Harvard Annals, vol. 3, pp. 285–292, 1959.
+      authors:
+        - E. F. Moore
+      title: On the Shortest Path Through a Maze
+      venue: Proceedings of the International Symposium on the Theory of Switching, Harvard University, Harvard Annals, vol. 3, pp. 285–292
+      year: 1959
+      pages: 285-292
+      resolves_to: ""
+    - key: "8"
+      raw: Roberts, L. G., Machine Perception of Three Dimensional Solids, Ph.D. Thesis, Massachusetts Institute of Technology, Electrical Engineering Department, Cambridge, Mass., February, 1963.
+      title: Roberts, L. G., Machine Perception of Three Dimensional Solids, Ph.D. Thesis, Massachusetts Institute of Technology, Electrical Engineering Department, Cambridge, Mass., February, 1963
+      year: 1963
+      resolves_to: ""
+    - key: "9"
+      raw: Southwell, R. V., Relaxation Methods in Engineering Science, Oxford University Press, 1940.
+      title: Southwell, R. V., Relaxation Methods in Engineering Science, Oxford University Press, 1940
+      year: 1940
+      resolves_to: ""
+    - key: "10"
+      raw: Vanderburgh, A. Jr., TX-2 Users Handbook, Lincoln Manual No. 45, Massachusetts Institute of Technology, Lincoln Laboratory, Lexington, Mass., July, 1961.
+      title: Vanderburgh, A. Jr., TX-2 Users Handbook, Lincoln Manual No. 45, Massachusetts Institute of Technology, Lincoln Laboratory, Lexington, Mass., July, 1961
+      year: 1961
+      resolves_to: ""
+    - key: "11"
+      raw: Walsh, J. F., and Smith A. F., “Computer Utilization,” Interim Engineering Report 6873-IR-10 and 11, Electronic Systems Laboratory, Massachusetts Institute of Technology, Cambridge, Mass., pp. 57–70, November 30, 1959.
+      authors:
+        - J. F. Walsh
+        - Smith A. F
+      title: Computer Utilization
+      venue: Interim Engineering Report 6873-IR-10 and 11, Electronic Systems Laboratory, Massachusetts Institute of Technology, Cambridge, Mass., pp. 57–70, November 30
+      year: 1959
+      pages: 57-70
+      resolves_to: ""
+    - key: "12"
+      raw: Handbook for Variplotter Models 205S and 205T, PACE, Electronic Associates Incorporated. Long Branch, New Jersey, June 15, 1959. Biographical Note
+      authors:
+        - Handbook for Variplotter Models 205S
+        - 205T
+        - PACE
+        - Electronic Associates Incorporated
+      title: Long Branch, New Jersey, June 15, 1959
+      venue: Biographical Note
+      year: 1959
+      resolves_to: ""

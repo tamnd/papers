@@ -1,0 +1,210 @@
+paper: stoica-2001-chord
+style: bracket
+entries:
+    - key: "1"
+      raw: Andersen, D. Resilient overlay networks. Master’s thesis, Department of EECS, MIT, May 2001. http://nms.lcs.mit.edu/projects/ron/.
+      authors:
+        - Andersen
+        - D. Resilient overlay networks
+      title: Master’s thesis, Department of EECS, MIT, May 2001
+      year: 2001
+      url: http://nms.lcs.mit.edu/projects/ron/
+      resolves_to: ""
+    - key: "2"
+      raw: Bakker, A., Amade, E., Ballintijn, G., Kuz, I., Verkaik, P., van der Wijk, I., van Steen, M., and Tanenbaum., A. The Globe distribution network. In Proc. 2000 USENIX Annual Conf. (FREENIX Track) (San Diego, CA, June 2000), pp. 141–152.
+      authors:
+        - A. Bakker
+        - E. Amade
+        - G. Ballintijn
+        - I. Kuz
+        - P. Verkaik
+        - I. van der Wijk
+        - M. van Steen
+        - A. Tanenbaum
+      title: The Globe distribution network
+      venue: In Proc. 2000 USENIX Annual Conf. (FREENIX Track) (San Diego, CA, June 2000), pp. 141–152
+      year: 2000
+      pages: 141-152
+      resolves_to: ""
+    - key: "3"
+      raw: CHEN, Y., ELDLER, J., GOLDBERG, A., GOTTLIEB, A., SOBTI, S., AND YIANILOS, P. A prototype implementation of archival intermemory. In Proceedings of the 4th ACM Conference on Digital libraries (Berkeley, CA, Aug. 1999), pp. 28–37.
+      authors:
+        - Y. CHEN
+        - J. ELDLER
+        - A. GOLDBERG
+        - A. GOTTLIEB
+        - S. SOBTI
+        - P. YIANILOS
+      title: A prototype implementation of archival intermemory
+      venue: In Proceedings of the 4th ACM Conference on Digital libraries (Berkeley, CA, Aug. 1999), pp. 28–37
+      year: 1999
+      pages: 28-37
+      resolves_to: ""
+    - key: "4"
+      raw: CLARKE, I. A distributed decentralised information storage and retrieval system. Master’s thesis, University of Edinburgh, 1999.
+      authors:
+        - I. CLARKE
+      title: A distributed decentralised information storage and retrieval system
+      venue: Master’s thesis, University of Edinburgh
+      year: 1999
+      resolves_to: ""
+    - key: "5"
+      raw: 'CLARKE, I., SANDBERG, O., WILEY, B., AND HONG, T. W. Freenet: A distributed anonymous information storage and retrieval system. In Proceedings of the ICSI Workshop on Design Issues in Anonymity and Unobservability (Berkeley, California, June 2000). http://freenet.sourceforge.net.'
+      title: 'CLARKE, I., SANDBERG, O., WILEY, B., AND HONG, T. W. Freenet: A distributed anonymous information storage and retrieval system'
+      venue: In Proceedings of the ICSI Workshop on Design Issues in Anonymity and Unobservability (Berkeley, California, June 2000)
+      year: 2000
+      url: http://freenet.sourceforge.net
+      resolves_to: ""
+    - key: "6"
+      raw: DABEK, F., BRUNSKILL, E., KAASHOEK, M. F., KARGER, D., MORRIS, R., STOICA, I., AND BALAKRISHNAN, H. Building peer-to-peer systems with Chord, a distributed location service. In Proceedings of the 8th IEEE Workshop on Hot Topics in Operating Systems (HotOS-VIII) (Elmau/Oberbayern, Germany, May 2001), pp. 71–76.
+      authors:
+        - F. DABEK
+        - E. BRUNSKILL
+        - M. F. KAASHOEK
+        - D. KARGER
+        - R. MORRIS
+        - I. STOICA
+        - BALAKRISHNAN
+        - H. Building peer-to-peer systems with Chord
+        - a distributed location service
+      title: In Proceedings of the 8th IEEE Workshop on Hot Topics in Operating Systems (HotOS-VIII) (Elmau/Oberbayern, Germany, May 2001), pp. 71–76
+      year: 2001
+      pages: 71-76
+      resolves_to: ""
+    - key: "7"
+      raw: DABEK, F., KAASHOEK, M. F., KARGER, D., MORRIS, R., AND STOICA, I. Wide-area cooperative storage with CFS. In Proceedings of the 18th ACM Symposium on Operating Systems Principles (SOSP ’01) (To appear; Banff, Canada, Oct. 2001).
+      authors:
+        - F. DABEK
+        - M. F. KAASHOEK
+        - D. KARGER
+        - R. MORRIS
+        - I. STOICA
+      title: Wide-area cooperative storage with CFS
+      venue: In Proceedings of the 18th ACM Symposium on Operating Systems Principles (SOSP ’01) (To appear; Banff, Canada, Oct. 2001)
+      year: 2001
+      resolves_to: ""
+    - key: "8"
+      raw: 'DRUSCHEL, P., AND ROWSTRON, A. Past: Persistent and anonymous storage in a peer-to-peer networking environment. In Proceedings of the 8th IEEE Workshop on Hot Topics in Operating Systems (HotOS 2001) (Elmau/Oberbayern, Germany, May 2001), pp. 65–70.'
+      title: 'DRUSCHEL, P., AND ROWSTRON, A. Past: Persistent and anonymous storage in a peer-to-peer networking environment'
+      venue: In Proceedings of the 8th IEEE Workshop on Hot Topics in Operating Systems (HotOS 2001) (Elmau/Oberbayern, Germany, May 2001), pp. 65–70
+      year: 2001
+      pages: 65-70
+      resolves_to: ""
+    - key: "9"
+      raw: FIPS 180-1. Secure Hash Standard. U.S. Department of Commerce/NIST, National Technical Information Service, Springfield, VA, Apr. 1995.
+      title: FIPS 180-1
+      venue: Secure Hash Standard. U.S. Department of Commerce/NIST, National Technical Information Service, Springfield, VA, Apr
+      year: 1995
+      resolves_to: ""
+    - key: "10"
+      raw: Gnutella. http://gnutella.wego.com/.
+      title: Gnutella
+      url: http://gnutella.wego.com/
+      resolves_to: ""
+    - key: "11"
+      raw: 'KARGER, D., LEHMAN, E., LEIGHTON, F., LEVINE, M., LEWIN, D., AND PANIGRAHY, R. Consistent hashing and random trees: Distributed caching protocols for relieving hot spots on the World Wide Web. In Proceedings of the 29th Annual ACM Symposium on Theory of Computing (El Paso, TX, May 1997), pp. 654–663.'
+      title: 'KARGER, D., LEHMAN, E., LEIGHTON, F., LEVINE, M., LEWIN, D., AND PANIGRAHY, R. Consistent hashing and random trees: Distributed caching protocols for relieving hot spots on the World Wide Web'
+      venue: In Proceedings of the 29th Annual ACM Symposium on Theory of Computing (El Paso, TX, May 1997), pp. 654–663
+      year: 1997
+      pages: 654-663
+      resolves_to: ""
+    - key: "12"
+      raw: 'KUBIATOWICZ, J., BINDEL, D., CHEN, Y., CZERWINSKI, S., EATON, P., GEELS, D., GUMMADI, R., RHEA, S., WEATHERSPOON, H., WEIMER, W., WELLS, C., AND ZHAO, B. OceanStore: An architecture for global-scale persistent storage. In Proceedings of the Ninth international Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2000) (Boston, MA, November 2000), pp. 190–201.'
+      title: 'KUBIATOWICZ, J., BINDEL, D., CHEN, Y., CZERWINSKI, S., EATON, P., GEELS, D., GUMMADI, R., RHEA, S., WEATHERSPOON, H., WEIMER, W., WELLS, C., AND ZHAO, B. OceanStore: An architecture for global-scale persistent storage'
+      year: 2000
+      pages: 190-201
+      resolves_to: ""
+    - key: "13"
+      raw: 'LEWIN, D. Consistent hashing and random trees: Algorithms for caching in distributed networks. Master’s thesis, Department of EECS, MIT, 1998. Available at the MIT Library, http://thesis.mit.edu/.'
+      title: 'LEWIN, D. Consistent hashing and random trees: Algorithms for caching in distributed networks'
+      venue: Master’s thesis, Department of EECS, MIT, 1998. Available at the MIT Library
+      year: 1998
+      url: http://thesis.mit.edu/
+      resolves_to: ""
+    - key: "14"
+      raw: LI, J., JANNOTTI, J., DE COUTO, D., KARGER, D., AND MORRIS, R. A scalable location service for geographic ad hoc routing. In Proceedings of the 6th ACM International Conference on Mobile Computing and Networking (Boston, Massachusetts, August 2000), pp. 120–130.
+      authors:
+        - J. LI
+        - J. JANNOTTI
+        - D. DE COUTO
+        - D. KARGER
+        - R. MORRIS
+      title: A scalable location service for geographic ad hoc routing
+      venue: In Proceedings of the 6th ACM International Conference on Mobile Computing and Networking (Boston, Massachusetts, August 2000), pp. 120–130
+      year: 2000
+      pages: 120-130
+      resolves_to: ""
+    - key: "15"
+      raw: MOCKAPETRIS, P., AND DUNLAP, K. J. Development of the Domain Name System. In Proc. ACM SIGCOMM (Stanford, CA, 1988), pp. 123–133.
+      authors:
+        - P. MOCKAPETRIS
+        - K. J. DUNLAP
+      title: Development of the Domain Name System
+      venue: In Proc. ACM SIGCOMM (Stanford, CA, 1988), pp. 123–133
+      year: 1988
+      pages: 123-133
+      resolves_to: ""
+    - key: "16"
+      raw: MOTWANI, R., AND RAGHAVAN, P. Randomized Algorithms. Cambridge University Press, New York, NY, 1995.
+      authors:
+        - R. MOTWANI
+        - RAGHAVAN
+        - P. Randomized Algorithms
+      title: Cambridge University Press, New York, NY, 1995
+      year: 1995
+      resolves_to: ""
+    - key: "17"
+      raw: Napster. http://www.napster.com/.
+      title: Napster
+      url: http://www.napster.com/
+      resolves_to: ""
+    - key: "18"
+      raw: Ohaha, Smart decentralized peer-to-peer sharing. http://www.ohaha.com/design.html.
+      authors:
+        - Ohaha
+        - Smart decentralized peer-to-peer sharing
+      title: http://www.ohaha.com/design.html
+      url: http://www.ohaha.com/design.html
+      resolves_to: ""
+    - key: "19"
+      raw: PLAXTON, C., RAJARAMAN, R., AND RICHA, A. Accessing nearby copies of replicated objects in a distributed environment. In Proceedings of the ACM SPAA (Newport, Rhode Island, June 1997), pp. 311–320.
+      authors:
+        - C. PLAXTON
+        - R. RAJARAMAN
+        - A. RICHA
+      title: Accessing nearby copies of replicated objects in a distributed environment
+      venue: In Proceedings of the ACM SPAA (Newport, Rhode Island, June 1997), pp. 311–320
+      year: 1997
+      pages: 311-320
+      resolves_to: ""
+    - key: "20"
+      raw: RATNASAMY, S., FRANCIS, P., HANDLEY, M., KARP, R., AND SHENKER, S. A scalable content-addressable network. In Proc. ACM SIGCOMM (San Diego, CA, August 2001).
+      authors:
+        - S. RATNASAMY
+        - P. FRANCIS
+        - M. HANDLEY
+        - R. KARP
+        - S. SHENKER
+      title: A scalable content-addressable network
+      venue: In Proc. ACM SIGCOMM (San Diego, CA, August 2001)
+      year: 2001
+      resolves_to: ""
+    - key: "21"
+      raw: 'STOICA, I., MORRIS, R., KARGER, D., KAASHOEK, M. F., AND BALAKRISHNAN, H. Chord: A scalable peer-to-peer lookup service for internet applications. Tech. Rep. TR-819, MIT LCS, March 2001. http://www.pdos.lcs.mit.edu/chord/papers/.'
+      title: 'STOICA, I., MORRIS, R., KARGER, D., KAASHOEK, M. F., AND BALAKRISHNAN, H. Chord: A scalable peer-to-peer lookup service for internet applications'
+      venue: Tech. Rep. TR-819, MIT LCS
+      year: 2001
+      url: http://www.pdos.lcs.mit.edu/chord/papers/
+      resolves_to: ""
+    - key: "22"
+      raw: VAN STEEN, M., HAUCK, F., BALLINTIJN, G., AND TANENBAUM, A. Algorithmic design of the Globe wide-area location service. The Computer Journal 41, 5 (1998), 297–310.
+      authors:
+        - M. VAN STEEN
+        - F. HAUCK
+        - G. BALLINTIJN
+        - A. TANENBAUM
+      title: Algorithmic design of the Globe wide-area location service
+      venue: The Computer Journal 41, 5 (1998), 297–310
+      year: 1998
+      pages: 297-310
+      resolves_to: ""

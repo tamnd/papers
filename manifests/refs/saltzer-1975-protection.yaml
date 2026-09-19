@@ -1,0 +1,930 @@
+paper: saltzer-1975-protection
+style: bracket
+entries:
+    - key: "1"
+      raw: 'A. Westin, Privacy and Freedom. New York: Atheneum, 1967. (I-A1, SFR)'
+      authors:
+        - A. Westin
+        - Privacy
+        - Freedom
+      title: 'New York: Atheneum, 1967'
+      venue: (I-A1, SFR)
+      year: 1967
+      resolves_to: ""
+    - key: "2"
+      raw: 'A. Miller, The Assault on Privacy. Ann Arbor, Mich.: Univ. of Mich. Press, 1971; also New York: Signet, 1972, Paperback W4934. (I-A1, SFR)'
+      authors:
+        - A. Miller
+        - The Assault on Privacy
+      title: 'Ann Arbor, Mich.: Univ. of Mich'
+      venue: 'Press, 1971; also New York: Signet, 1972, Paperback W4934. (I-A1, SFR)'
+      year: 1972
+      resolves_to: ""
+    - key: "3"
+      raw: 'Dept. of Health, Education, and Welfare, Records, Computers, and the Rights of citizens. Cambridge, Mass.: M.I.T. Press, 1973. (I-A1, SFR)'
+      authors:
+        - Dept. of Health
+        - Education
+        - Welfare
+        - Records
+        - Computers
+        - the Rights of citizens
+      title: 'Cambridge, Mass.: M.I.T. Press, 1973'
+      venue: (I-A1, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "4"
+      raw: R. Turn and W. Ware, "Privacy and security in computer systems," I-A1 Amer. Scientist, voL 63, pp. 196-203, Mar.-Apr. 1975. (I-A1)
+      authors:
+        - R. Turn
+        - W. Ware
+      title: Privacy and security in computer systems
+      venue: I-A1 Amer. Scientist, voL 63, pp. 196-203, Mar.-Apr. 1975. (I-A1)
+      year: 1975
+      pages: 196-203
+      resolves_to: ""
+    - key: "5"
+      raw: W. Ware, "Security and privacy in computer systems," in 1967 S,CC, AFIPS Cont. Proc., vol. 30, pp. 287-290. (I-A1)
+      authors:
+        - W. Ware
+      title: Security and privacy in computer systems
+      venue: in 1967 S,CC, AFIPS Cont. Proc., vol. 30, pp. 287-290. (I-A1)
+      year: 1967
+      pages: 287-290
+      resolves_to: ""
+    - key: "6"
+      raw: 'J. Anderson, "Information security in a multi-user computer environment," in Advances in Computers, vol. 12. New York: Academic Press, 1973, pp. 1-35. (I A1, SFR)'
+      authors:
+        - J. Anderson
+      title: Information security in a multi-user computer environment
+      venue: 'in Advances in Computers, vol. 12. New York: Academic Press, 1973, pp. 1-35. (I A1, SFR)'
+      year: 1973
+      pages: 1-35
+      resolves_to: ""
+    - key: "7"
+      raw: 'J. Martin, Scurity. Accuracy, and Primey in Computer Systems. Englewood Cliffs, N.J.: Prentice-Hall, 1973. (I-A1, SFR) I'
+      authors:
+        - J. Martin
+        - Scurity
+      title: Accuracy, and Primey in Computer Systems
+      venue: 'Englewood Cliffs, N.J.: Prentice-Hall, 1973. (I-A1, SFR) I'
+      year: 1973
+      resolves_to: ""
+    - key: "8"
+      raw: 'R. Patrick, Security Systems Review Manual. Montvale, N.J.: AFIPS Press, 1974. (I-A1, SFR)'
+      authors:
+        - R. Patrick
+        - Security Systems Review Manual
+      title: 'Montvale, N.J.: AFIPS Press, 1974'
+      venue: (I-A1, SFR)
+      year: 1974
+      resolves_to: ""
+    - key: "9"
+      raw: G. Bender, D. Freeman, and J. Smith, "Function and design of DOS/360 and TOS/360," IBM Syst. J., vol. 6, pp. 2-21, 1967. (I-A2)
+      authors:
+        - G. Bender
+        - D. Freeman
+        - J. Smith
+      title: Function and design of DOS/360 and TOS/360
+      venue: IBM Syst. J., vol. 6, pp. 2-21, 1967. (I-A2)
+      year: 1967
+      pages: 2-21
+      resolves_to: ""
+    - key: "10"
+      raw: R. Hargraves and A. Stephenson, "Dodge considerations for an educational time-sharing system," in 1969 SJCC, AFIPS ConJ. Proc., vol. 34, pp. 657-664. (I-A2)
+      authors:
+        - R. Hargraves
+        - A. Stephenson
+      title: Dodge considerations for an educational time-sharing system
+      venue: in 1969 SJCC, AFIPS ConJ. Proc., vol. 34, pp. 657-664. (I-A2)
+      year: 1969
+      pages: 657-664
+      resolves_to: ""
+    - key: "11"
+      raw: R. Meyer and L. Seawright, "A virtual machine time-sharing system," IBM Syst. J., vol. 9, pp. 199-218, 1970. (I-A2, IB3, III-A)
+      authors:
+        - R. Meyer
+        - L. Seawright
+      title: A virtual machine time-sharing system
+      venue: IBM Syst. J., vol. 9, pp. 199-218, 1970. (I-A2, IB3, III-A)
+      year: 1970
+      pages: 199-218
+      resolves_to: ""
+    - key: "12"
+      raw: 'M I.T. Computation Center, CTSS Programmer''s Cuide, 2nd ed. Cambridge, Mass.: M.I.T. Press, 1965. (I-A2, III-A)'
+      title: 'M I.T. Computation Center, CTSS Programmer''s Cuide, 2nd ed. Cambridge, Mass.: M.I.T. Press, 1965'
+      venue: (I-A2, III-A)
+      year: 1965
+      resolves_to: ""
+    - key: "13"
+      raw: 'D. Stone,"PDP-I0system concepts end capabilities," in PDP10 Applicanons in Science, vol. II. Maynard, Mass: Digital Equipment Corp., undated (ca. 1970), pp. 32-55. (I-A2)'
+      authors:
+        - D. Stone
+      title: PDP-I0system concepts end capabilities
+      venue: 'in PDP10 Applicanons in Science, vol. II. Maynard, Mass: Digital Equipment Corp., undated (ca. 1970), pp. 32-55. (I-A2)'
+      year: 1970
+      pages: 32-55
+      resolves_to: ""
+    - key: "14"
+      raw: C. Weissman,"Security controls in the ADEPT-SO time-sharing system " in 1969 FJCC, AFIPS Conf. Proc., vol. 3S, pp. 119-133. (I-A2, II-C5, III-A, III-B, SFR)
+      authors:
+        - C. Weissman
+      title: Security controls in the ADEPT-SO time-sharing system
+      venue: in 1969 FJCC, AFIPS Conf. Proc., vol. 3S, pp. 119-133. (I-A2, II-C5, III-A, III-B, SFR)
+      year: 1969
+      pages: 119-133
+      resolves_to: ""
+    - key: "15"
+      raw: D. Bobrow et al., "TENEX, a paged time sharing system for the PDP-10," Commun. ACM, vol. 15, pp. 135-143, Mar. 1972. (I-A2, II-C3)
+      authors:
+        - D. Bobrow et al
+      title: TENEX, a paged time sharing system for the PDP-10
+      venue: Commun. ACM, vol. 15, pp. 135-143, Mar. 1972. (I-A2, II-C3)
+      year: 1972
+      pages: 135-143
+      resolves_to: ""
+    - key: "16"
+      raw: F. Corbato, 1. Saltzer, and C. Clingen, "Multics--The first seven years" in 1972 SJCC, AFIPS Conf. Proc., vol. 40, pp. 571-583. (I-A2)
+      authors:
+        - F. Corbato
+        - 1. Saltzer
+        - C. Clingen
+      title: Multics--The first seven years
+      venue: in 1972 SJCC, AFIPS Conf. Proc., vol. 40, pp. 571-583. (I-A2)
+      year: 1972
+      pages: 571-583
+      resolves_to: ""
+    - key: "17"
+      raw: H. Sturgis, "A postmortem for a time sharing system," Ph.D. dissertation, Univ. of Calif., Berkeley, 1973. (Also available as Xerox Palo Alto Res. Center Tech. Rep. CSL74-1.) (I-A2, II-C2, II-E, III-A, SFR)
+      authors:
+        - H. Sturgis
+      title: A postmortem for a time sharing system
+      venue: Ph.D. dissertation, Univ. of Calif., Berkeley, 1973. (Also available as Xerox Palo Alto Res. Center Tech. Rep. CSL74-1.) (I-A2, II-C2, II-E, III-A, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "18"
+      raw: D. Ritchie and K. Thompson, "The UNIX time-sharing system," Commun. ACM, vol. 17, pp. 365-375, July 1974. (I-A2, II-C3)
+      authors:
+        - D. Ritchie
+        - K. Thompson
+      title: The UNIX time-sharing system
+      venue: Commun. ACM, vol. 17, pp. 365-375, July 1974. (I-A2, II-C3)
+      year: 1974
+      pages: 365-375
+      resolves_to: ritchie-1974-unix
+    - key: "19"
+      raw: B. Lampson, "Dynamic protection structures," in 1969 FJCC, AFIPS Conf. Proc., vol. 35, pp. 27-38. (I-A2, II-E, III-A)
+      authors:
+        - B. Lampson
+      title: Dynamic protection structures
+      venue: in 1969 FJCC, AFIPS Conf. Proc., vol. 35, pp. 27-38. (I-A2, II-E, III-A)
+      year: 1969
+      pages: 27-38
+      resolves_to: ""
+    - key: "20"
+      raw: R. Needham, "Protection systems and protection implementations," in 1972 FJCC, AFIPS Conf. Proc., vol. 41, pt. 1, pp. 571-578. (I-A2, II-B3, II-E, III-A, SFR)
+      authors:
+        - R. Needham
+      title: Protection systems and protection implementations
+      venue: in 1972 FJCC, AFIPS Conf. Proc., vol. 41, pt. 1, pp. 571-578. (I-A2, II-B3, II-E, III-A, SFR)
+      year: 1972
+      pages: 571-578
+      resolves_to: ""
+    - key: "21"
+      raw: 'W. Wulf etal., "HYDRA: The kernel of a multiprocessor operating system," Commun. ACM, vol. 17, pp. 337-345, June 1974. (I-A2, II-B3, III-A)'
+      authors:
+        - W. Wulf etal
+      title: 'HYDRA: The kernel of a multiprocessor operating system'
+      venue: Commun. ACM, vol. 17, pp. 337-345, June 1974. (I-A2, II-B3, III-A)
+      year: 1974
+      pages: 337-345
+      resolves_to: ""
+    - key: "22"
+      raw: R. Conway, W. Maxwell and H. Morgan, "On the implementation of security measuies in information systems," Commun. ACM, vol. 15, pp. 211-220, Apr. 1972. (I-A2)
+      authors:
+        - R. Conway
+        - W. Maxwell
+        - H. Morgan
+      title: On the implementation of security measuies in information systems
+      venue: Commun. ACM, vol. 15, pp. 211-220, Apr. 1972. (I-A2)
+      year: 1972
+      pages: 211-220
+      resolves_to: ""
+    - key: "23"
+      raw: 1. Reed, "The application of information theory to privacy in data banks," Rand Corp., Tech. Rep. R-1282-NSF, 1973. (I-A2)
+      authors:
+        - 1. Reed
+      title: The application of information theory to privacy in data banks
+      venue: Rand Corp., Tech. Rep. R-1282-NSF, 1973. (I-A2)
+      year: 1973
+      resolves_to: ""
+    - key: "24"
+      raw: D. Hsiso, D. Kerr, and F. Stahl, "Research on data secme systems," in 1974 NCC, AFIPS Conf. Proc., vol. 43, pp. 994-996. (I-A2 )
+      authors:
+        - D. Hsiso
+        - D. Kerr
+        - F. Stahl
+      title: Research on data secme systems
+      venue: in 1974 NCC, AFIPS Conf. Proc., vol. 43, pp. 994-996. (I-A2 )
+      year: 1974
+      pages: 994-996
+      resolves_to: ""
+    - key: "25"
+      raw: L. Hoffman and W. Miller, "Getting a petsonal dossier from a statistical data bank," Datamation, vol. 16, pp. 74-75, May 1970. (I-A2)
+      authors:
+        - L. Hoffman
+        - W. Miller
+      title: Getting a petsonal dossier from a statistical data bank
+      venue: Datamation, vol. 16, pp. 74-75, May 1970. (I-A2)
+      year: 1970
+      pages: 74-75
+      resolves_to: ""
+    - key: "26"
+      raw: J. Saltzer, "Protection and the control of information sharing in Multics," Commun. ACM, vol. 17, pp. 388-402, July 1974. (I-A3, 1-B4, III-A, SFR)
+      authors:
+        - J. Saltzer
+      title: Protection and the control of information sharing in Multics
+      venue: Commun. ACM, vol. 17, pp. 388-402, July 1974. (I-A3, 1-B4, III-A, SFR)
+      year: 1974
+      pages: 388-402
+      resolves_to: ""
+    - key: "27"
+      raw: P. Baran, "Security, secrecy, and tamper-free considerations,' On Distributed Communications, no. 9, Rand Corp. Tech. Rep. RM-3765-PR, 1964. (I-A3, III-B)
+      authors:
+        - P. Baran
+        - '"Security'
+        - secrecy
+        - tamper-free considerations
+        - ''' On Distributed Communications'
+        - no. 9
+        - Rand Corp
+      title: Tech. Rep. RM-3765-PR, 1964
+      venue: (I-A3, III-B)
+      year: 1964
+      resolves_to: ""
+    - key: "28"
+      raw: G. Popek, "A principle of kernel design," in l974 NCC, AFIPS Conf. Proc., vol. 43, pp. 977-978. (I-A3)
+      authors:
+        - G. Popek
+      title: A principle of kernel design
+      venue: in l974 NCC, AFIPS Conf. Proc., vol. 43, pp. 977-978. (I-A3)
+      pages: 977-978
+      resolves_to: ""
+    - key: "29"
+      raw: D. Hollingsworth, "Enhancing computer system security," Rand Corp. Paper P-S064, 1973. (I-A3)
+      authors:
+        - D. Hollingsworth
+      title: Enhancing computer system security
+      venue: Rand Corp. Paper P-S064, 1973. (I-A3)
+      year: 1973
+      resolves_to: ""
+    - key: "30"
+      raw: B. Lampson, "Protection," in Proc. 5th Princeton Symp. Informanon Science and Systems (Mar. 1971), pp. 437-443. (Reprinted in ACM Operating Syst. Rev., vol. 8, pp. 18-24, Jan. 1974.) (I-B1, II-B2, II-E, SFR)
+      authors:
+        - B. Lampson
+      title: Protection
+      year: 1974
+      pages: 437-443
+      resolves_to: ""
+    - key: "31"
+      raw: 'E. Codd etal., "Multiprogramming Stretch: Feasibility considerations," Commun. ACM, vol. 2, pp. 13-17, Nov. 1959. (I-B3)'
+      authors:
+        - E. Codd etal
+      title: 'Multiprogramming Stretch: Feasibility considerations'
+      venue: Commun. ACM, vol. 2, pp. 13-17, Nov. 1959. (I-B3)
+      year: 1959
+      pages: 13-17
+      resolves_to: ""
+    - key: "32"
+      raw: W. Lonergan and P. King, "Design of the B5000 system," Datamation, vol. 7, pp. 28-32, May 1961. (I-B3, I-B5)
+      authors:
+        - W. Lonergan
+        - P. King
+      title: Design of the B5000 system
+      venue: Datamation, vol. 7, pp. 28-32, May 1961. (I-B3, I-B5)
+      year: 1961
+      pages: 28-32
+      resolves_to: ""
+    - key: "33"
+      raw: G. Popek and R. Goldberg, "Formal requirements for virtualizable third generation architectures," Commun. ACM, vol. 17, pp. 412-421, July 1974. (I-B3)
+      authors:
+        - G. Popek
+        - R. Goldberg
+      title: Formal requirements for virtualizable third generation architectures
+      venue: Commun. ACM, vol. 17, pp. 412-421, July 1974. (I-B3)
+      year: 1974
+      pages: 412-421
+      resolves_to: ""
+    - key: "34"
+      raw: R. Goldberg, "Architecture of virtual machines," in 1973 NCC, AFIPS Conf. Proc., vol. 42, pp. 309-318. (I-B3)
+      authors:
+        - R. Goldberg
+      title: Architecture of virtual machines
+      venue: in 1973 NCC, AFIPS Conf. Proc., vol. 42, pp. 309-318. (I-B3)
+      year: 1973
+      pages: 309-318
+      resolves_to: ""
+    - key: "35"
+      raw: G. Purdy, "A high security log-in procedure," Commun. ACM, vol. 17, pp. 442-445, Aug. 1974. (I-B4)
+      authors:
+        - G. Purdy
+      title: A high security log-in procedure
+      venue: Commun. ACM, vol. 17, pp. 442-445, Aug. 1974. (I-B4)
+      year: 1974
+      pages: 442-445
+      resolves_to: ""
+    - key: "36"
+      raw: A. Evans, W. Kantrowitz and E. Weiss, "A user authontication scheme not requiring secr;cy in the computer," Commun. ACM, vol. 17, pp. 437-442, Aug. 1974. (I-B4)
+      authors:
+        - A. Evans
+        - W. Kantrowitz
+        - E. Weiss
+      title: A user authontication scheme not requiring secr;cy in the computer
+      venue: Commun. ACM, vol. 17, pp. 437-442, Aug. 1974. (I-B4)
+      year: 1974
+      pages: 437-442
+      resolves_to: ""
+    - key: "37"
+      raw: 'M. Wilkes, Time-Sharing Computer Systems, 2nd ed. New York: American-Elsevier, 1972. (I-B4, I-B5, II-A)'
+      title: 'M. Wilkes, Time-Sharing Computer Systems, 2nd ed. New York: American-Elsevier, 1972'
+      venue: (I-B4, I-B5, II-A)
+      year: 1972
+      resolves_to: ""
+    - key: "38"
+      raw: J. Smith, W. Notz, and P. Osseck, "An experimental application of cryptography to a remotely accessed data system," in Proc. ACM 25th Nat. Conf., pp. 282-298, 1972. (I-B4, III-B, SFR)
+      authors:
+        - J. Smith
+        - W. Notz
+        - P. Osseck
+      title: An experimental application of cryptography to a remotely accessed data system
+      venue: in Proc. ACM 25th Nat. Conf., pp. 282-298, 1972. (I-B4, III-B, SFR)
+      year: 1972
+      pages: 282-298
+      resolves_to: ""
+    - key: "39"
+      raw: H. Feistel, "Cryptographic coding for data bank privacy," IBM Corp. Res. Rep. RC 2827, Mar. 1970. (I-B4, III-B, SFR)
+      authors:
+        - H. Feistel
+      title: Cryptographic coding for data bank privacy
+      venue: IBM Corp. Res. Rep. RC 2827, Mar. 1970. (I-B4, III-B, SFR)
+      year: 1970
+      resolves_to: ""
+    - key: "40"
+      raw: D. Branstad, "Security aspects of computer networks," in AIAA Computer Network Systems Conf. (Apr. 1973), Paper 73-427. (I-B4, I-B5, III-B, SFR)
+      authors:
+        - D. Branstad
+      title: Security aspects of computer networks
+      venue: in AIAA Computer Network Systems Conf. (Apr. 1973), Paper 73-427. (I-B4, I-B5, III-B, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "41"
+      raw: J. Dennis and E. Van Horn, "Programming semantics for multiprogrammed computations," Commun. ACM, vol. 9, pp. 143155, Mar. 1966. (I-B5, II-B1, II-E)
+      authors:
+        - J. Dennis
+        - E. Van Horn
+      title: Programming semantics for multiprogrammed computations
+      venue: Commun. ACM, vol. 9, pp. 143155, Mar. 1966. (I-B5, II-B1, II-E)
+      year: 1966
+      resolves_to: ""
+    - key: "42"
+      raw: J. Dennis, "Segmentation and the design of multiprogrammed computer systems," J. ACM, vol. 12, pp. 589-602, Oct. 1965. (I-B5, II-A)
+      authors:
+        - J. Dennis
+      title: Segmentation and the design of multiprogrammed computer systems
+      venue: J. ACM, vol. 12, pp. 589-602, Oct. 1965. (I-B5, II-A)
+      year: 1965
+      pages: 589-602
+      resolves_to: ""
+    - key: "43"
+      raw: R. Daley and J. Dennis, "Virtual memory, processes, and sharing in Multics," Commun. ACM, vol. 11, pp. 306-312, May 1968. (I-B5)
+      authors:
+        - R. Daley
+        - J. Dennis
+      title: Virtual memory, processes, and sharing in Multics
+      venue: Commun. ACM, vol. 11, pp. 306-312, May 1968. (I-B5)
+      year: 1968
+      pages: 306-312
+      resolves_to: ""
+    - key: "44"
+      raw: 'R. Watson, Timesharing System Design Concepts. New York: McGraw-Hill, 1970. (II-A)'
+      authors:
+        - R. Watson
+        - Timesharing System Design Concepts
+      title: 'New York: McGraw-Hill, 1970'
+      venue: (II-A)
+      year: 1970
+      resolves_to: ""
+    - key: "45"
+      raw: R. Fabry, "Capabilitybased addressing," Commun. ACM, voL 17, pp. 403-412, July 1974. (II-A, SFR)
+      authors:
+        - R. Fabry
+      title: Capabilitybased addressing
+      venue: Commun. ACM, voL 17, pp. 403-412, July 1974. (II-A, SFR)
+      year: 1974
+      pages: 403-412
+      resolves_to: ""
+    - key: "46"
+      raw: 'E. Organick, The Multics System: An Examinanon of its Structure. Cambridge, Mass.: M.I.T. Press, 1971. (II-A)'
+      title: 'E. Organick, The Multics System: An Examinanon of its Structure'
+      venue: 'Cambridge, Mass.: M.I.T. Press, 1971. (II-A)'
+      year: 1971
+      resolves_to: ""
+    - key: "47"
+      raw: '---, Computer System Organization. TheB5700/B6700Serics. New York: Academic Press, 1973. (II-A, II-B3)'
+      title: '---, Computer System Organization'
+      venue: 'TheB5700/B6700Serics. New York: Academic Press, 1973. (II-A, II-B3)'
+      year: 1973
+      resolves_to: ""
+    - key: "48"
+      raw: W. Ackerman and W. Plummer, "An implementation of a multiprocessing computer system," in Proc. ACM Symp. Operanag System Principles (Oct. 1967), Paper D-3. (II-B1)
+      authors:
+        - W. Ackerman
+        - W. Plummer
+      title: An implementation of a multiprocessing computer system
+      venue: in Proc. ACM Symp. Operanag System Principles (Oct. 1967), Paper D-3. (II-B1)
+      year: 1967
+      resolves_to: ""
+    - key: "49"
+      raw: R. Fabry, "Preliminary description of a supervisor for a machine oriented around capabilities," Inst. Comput. Res. Quart. Rep., vol. 18, sec. IB, Univ. of Chicago, Aug. 1968. (II-B1)
+      authors:
+        - R. Fabry
+      title: Preliminary description of a supervisor for a machine oriented around capabilities
+      venue: Inst. Comput. Res. Quart. Rep., vol. 18, sec. IB, Univ. of Chicago, Aug. 1968. (II-B1)
+      year: 1968
+      resolves_to: ""
+    - key: "50"
+      raw: J. Iliffe and J. Jodeit, "A dynamic storage allocation scheme," Comput. J., vol. 5, pp. 200-209, Oct. 1962. (II-B1)
+      authors:
+        - J. Iliffe
+        - J. Jodeit
+      title: A dynamic storage allocation scheme
+      venue: Comput. J., vol. 5, pp. 200-209, Oct. 1962. (II-B1)
+      year: 1962
+      pages: 200-209
+      resolves_to: ""
+    - key: "51"
+      raw: E. A. Feustel, "On the advantages of tagged architecture," IEEE Trans. Comput.. vol. C-22, pp. 644-656, July 1973. (II-B1)
+      authors:
+        - E. A. Feustel
+      title: On the advantages of tagged architecture
+      venue: IEEE Trans. Comput.. vol. C-22, pp. 644-656, July 1973. (II-B1)
+      year: 1973
+      pages: 644-656
+      resolves_to: ""
+    - key: "52"
+      raw: L. Robinson et al., "On attaining reliable software for a secure operating system," in Int. Conf. Reliable Software (Apr. 1975), pp. 267-284. (II-B3, III-B)
+      authors:
+        - L. Robinson et al
+      title: On attaining reliable software for a secure operating system
+      venue: in Int. Conf. Reliable Software (Apr. 1975), pp. 267-284. (II-B3, III-B)
+      year: 1975
+      pages: 267-284
+      resolves_to: ""
+    - key: "53"
+      raw: D. England, "Capability concept mechanism and structure in system 2s0," in IRIA Int. Workshop Protection in Operating Systems (Aug. 1974), pp. 63-82. (II-B3, III-A)
+      authors:
+        - D. England
+      title: Capability concept mechanism and structure in system 2s0
+      venue: in IRIA Int. Workshop Protection in Operating Systems (Aug. 1974), pp. 63-82. (II-B3, III-A)
+      year: 1974
+      pages: 63-82
+      resolves_to: ""
+    - key: "54"
+      raw: D. Redell, "Naming and protection in extendible operating systems," Ph.D. dissertation, Univ. of Calif., Berkeley, 1974. (Available as M.I.T. Proj. MAC Tech. Rep. TR-140.) (II-B3, III-A, SFR)
+      authors:
+        - D. Redell
+      title: Naming and protection in extendible operating systems
+      venue: Ph.D. dissertation, Univ. of Calif., Berkeley, 1974. (Available as M.I.T. Proj. MAC Tech. Rep. TR-140.) (II-B3, III-A, SFR)
+      year: 1974
+      resolves_to: ""
+    - key: "55"
+      raw: 'A. Bensoussan, C. Clingen, and R. Daley, "The Multics virtual memory: Concepts and design," Commun. ACM, vol. 15, pp. 308-318, May 1972. (II-B3, II-C3)'
+      authors:
+        - A. Bensoussan
+        - C. Clingen
+        - R. Daley
+      title: 'The Multics virtual memory: Concepts and design'
+      venue: Commun. ACM, vol. 15, pp. 308-318, May 1972. (II-B3, II-C3)
+      year: 1972
+      pages: 308-318
+      resolves_to: ""
+    - key: "56"
+      raw: B. W. Lampson, W. W. Lichtenberger, and M. W. Pirtle, "A user machine in a time-sharing system," Proc. IEEE, vol. 54, pp. 1766-1774, Dec. 1966. (II-C3)
+      authors:
+        - B. W. Lampson
+        - W. W. Lichtenberger
+        - M. W. Pirtle
+      title: A user machine in a time-sharing system
+      venue: Proc. IEEE, vol. 54, pp. 1766-1774, Dec. 1966. (II-C3)
+      year: 1966
+      pages: 1766-1774
+      resolves_to: ""
+    - key: "57"
+      raw: H. Bingham, "Access controls in Burroughs large systems," Privacy and Security in Computer Systems, Nat. Bur. Stand. Special Pub. 404, pp. 42-45, Sept. 1974. (II-C3)
+      authors:
+        - H. Bingham
+      title: Access controls in Burroughs large systems
+      venue: Privacy and Security in Computer Systems, Nat. Bur. Stand. Special Pub. 404, pp. 42-45, Sept. 1974. (II-C3)
+      year: 1974
+      pages: 42-45
+      resolves_to: ""
+    - key: "58"
+      raw: R. Daley and P. Neumann, "A general-purpose file system for secondary storage," in 1965 FJCC, AFIPS Conf. Proc., vol. 27, pt. I, pp. 213-229. (II-C4)
+      authors:
+        - R. Daley
+        - P. Neumann
+      title: A general-purpose file system for secondary storage
+      venue: in 1965 FJCC, AFIPS Conf. Proc., vol. 27, pt. I, pp. 213-229. (II-C4)
+      year: 1965
+      pages: 213-229
+      resolves_to: ""
+    - key: "59"
+      raw: L. Rotenberg, "Making computers keep secrets," Ph.D. dissertation, M.I.T., Cambridge, Mass., 1973. (Also available as M.I.T. Proj. MAC Tech. Rep. TR-115.) (II-C4, II-C5, II-E, III-A, III-B, SFR)
+      authors:
+        - L. Rotenberg
+      title: Making computers keep secrets
+      venue: Ph.D. dissertation, M.I.T., Cambridge, Mass., 1973. (Also available as M.I.T. Proj. MAC Tech. Rep. TR-115.) (II-C4, II-C5, II-E, III-A, III-B, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "60"
+      raw: K Walters et al., "Structured specification of a security kernel," in Int. Conf. Reliable Software, Los Angeles, Calif., pp. 285-293, Apr. 1975. (ii-C5)
+      authors:
+        - K Walters et al
+      title: Structured specification of a security kernel
+      venue: in Int. Conf. Reliable Software, Los Angeles, Calif., pp. 285-293, Apr. 1975. (ii-C5)
+      year: 1975
+      pages: 285-293
+      resolves_to: ""
+    - key: "61"
+      raw: B. Lampson, "A note on the confinement problem," Commun. ACM, vol. 16, pp. 613-615, Oct. 1973. (II-C5)
+      authors:
+        - B. Lampson
+      title: A note on the confinement problem
+      venue: Commun. ACM, vol. 16, pp. 613-615, Oct. 1973. (II-C5)
+      year: 1973
+      pages: 613-615
+      resolves_to: ""
+    - key: "62"
+      raw: D. Bell and L. LaPadula, "Secure computer systems," Air Force Elec. Syst. Div. Rep. ESD-TR-73-278, vols. 1, 11, and III, Nov. 1973. (II-C5, III-B)
+      authors:
+        - D. Bell
+        - L. LaPadula
+      title: Secure computer systems
+      venue: Air Force Elec. Syst. Div. Rep. ESD-TR-73-278, vols. 1, 11, and III, Nov. 1973. (II-C5, III-B)
+      year: 1973
+      resolves_to: ""
+    - key: "63"
+      raw: M. Schroeder and J. Saltzer, "A hardware architecture for implementing protection rings," Commun. ACM, vol. 15, pp. 157-170, Mar. 1972. (II-C5, III-A, SFR)
+      authors:
+        - M. Schroeder
+        - J. Saltzer
+      title: A hardware architecture for implementing protection rings
+      venue: Commun. ACM, vol. 15, pp. 157-170, Mar. 1972. (II-C5, III-A, SFR)
+      year: 1972
+      pages: 157-170
+      resolves_to: ""
+    - key: "64"
+      raw: J. Fenton, "Memoryless subsystems," Comput. J., vol. 17, pp. 143-147, May 1974. (II-C5)
+      authors:
+        - J. Fenton
+      title: Memoryless subsystems
+      venue: Comput. J., vol. 17, pp. 143-147, May 1974. (II-C5)
+      year: 1974
+      pages: 143-147
+      resolves_to: ""
+    - key: "65"
+      raw: 'O. Dahl and C. Hoare, "Hierarchical program structures," in Structured Programming. New York: Academic Press, 1972, pp. 175-220. (II-E)'
+      authors:
+        - O. Dahl
+        - C. Hoare
+      title: Hierarchical program structures
+      venue: 'in Structured Programming. New York: Academic Press, 1972, pp. 175-220. (II-E)'
+      year: 1972
+      pages: 175-220
+      resolves_to: ""
+    - key: "66"
+      raw: D. Branstad, "Privacy and protection in operating systems," Computer, vol. 6, pp. 43-46, Jan. 1973. (II-E)
+      authors:
+        - D. Branstad
+      title: Privacy and protection in operating systems
+      venue: Computer, vol. 6, pp. 43-46, Jan. 1973. (II-E)
+      year: 1973
+      pages: 43-46
+      resolves_to: ""
+    - key: "67"
+      raw: P. Brinch-Hansen, "The nucleus of a multiprogramming system," Commun. ACM, vol. 13, pp. 238-250, Apr. 1970. (II-E)
+      authors:
+        - P. Brinch-Hansen
+      title: The nucleus of a multiprogramming system
+      venue: Commun. ACM, vol. 13, pp. 238-250, Apr. 1970. (II-E)
+      year: 1970
+      pages: 238-250
+      resolves_to: ""
+    - key: "68"
+      raw: J. LeClerc, "Memory structures for interactive computers," Ph.D. dissertation, Univ. of Calif., Berkeley, May 1966. (II-E)
+      authors:
+        - J. LeClerc
+      title: Memory structures for interactive computers
+      venue: Ph.D. dissertation, Univ. of Calif., Berkeley, May 1966. (II-E)
+      year: 1966
+      resolves_to: ""
+    - key: "69"
+      raw: D. Evans and J. LeClerc, "Address mapping and the control of access in an interactive computer," in 1967 SJCC, AFIPS Conf. Proc., vol. 30, pp. 23-30. (II-E)
+      authors:
+        - D. Evans
+        - J. LeClerc
+      title: Address mapping and the control of access in an interactive computer
+      venue: in 1967 SJCC, AFIPS Conf. Proc., vol. 30, pp. 23-30. (II-E)
+      year: 1967
+      pages: 23-30
+      resolves_to: ""
+    - key: "70"
+      raw: M. Schroeder, "Cooperation of mutually suspicious subsystems in a computer utility," Ph.D. dissertation, M.I.T., Cambridge, Mass., 1972. (Also available as M.I.T. Proj. MAC Tech. Rep. TR-104.) (II-E, III-A, SFR)
+      authors:
+        - M. Schroeder
+      title: Cooperation of mutually suspicious subsystems in a computer utility
+      venue: Ph.D. dissertation, M.I.T., Cambridge, Mass., 1972. (Also available as M.I.T. Proj. MAC Tech. Rep. TR-104.) (II-E, III-A, SFR)
+      year: 1972
+      resolves_to: ""
+    - key: "71"
+      raw: A. Jones, "Protection in programmed systems," Ph.D. dissertation, Carnegie-Mellon Univ., Pittsburgh, Pa.. 1973. (II-E, SFR)
+      authors:
+        - A. Jones
+      title: Protection in programmed systems
+      venue: Ph.D. dissertation, Carnegie-Mellon Univ., Pittsburgh, Pa.. 1973. (II-E, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "72"
+      raw: J. Morris, "Protection in programming languages," Commun. ACM, vol. 16, pp. 15-21, Jan. 1973. (II-E, SFR)
+      authors:
+        - J. Morris
+      title: Protection in programming languages
+      venue: Commun. ACM, vol. 16, pp. 15-21, Jan. 1973. (II-E, SFR)
+      year: 1973
+      pages: 15-21
+      resolves_to: ""
+    - key: "73"
+      raw: G. Amdahl, G. Blaauw, and F. Brooks, "Architecture of the IBM System/360," IBM J. Res Develop., vol 8, pp. 87-101, Apr. 1964. (III-A)
+      authors:
+        - G. Amdahl
+        - G. Blaauw
+        - F. Brooks
+      title: Architecture of the IBM System/360
+      venue: IBM J. Res Develop., vol 8, pp. 87-101, Apr. 1964. (III-A)
+      year: 1964
+      pages: 87-101
+      resolves_to: ""
+    - key: "74"
+      raw: IBM Corp., "System 370/Principles of operation," IBM Corp. Syst. Ref. Lib. GA22-7000-3, 1973. (III-A)
+      authors:
+        - IBM Corp
+      title: System 370/Principles of operation
+      venue: IBM Corp. Syst. Ref. Lib. GA22-7000-3, 1973. (III-A)
+      year: 1973
+      resolves_to: ""
+    - key: "75"
+      raw: 'R. Bisbey, II, and G. Popek, "Encapsulation: An approach to operating system security," in Proc. ACM 1974 Annul Conf., pp. 666-675. (III-A)'
+      authors:
+        - R. Bisbey
+        - II
+        - G. Popek
+      title: 'Encapsulation: An approach to operating system security'
+      venue: in Proc. ACM 1974 Annul Conf., pp. 666-675. (III-A)
+      year: 1974
+      pages: 666-675
+      resolves_to: ""
+    - key: "76"
+      raw: Dept. of Defense, Manual of Techniques and Procedures for Implementing, Deactivating, Testing, and Evaluating Secure Resource-Sharing ADP Systems, DOD5200.28-M, Aug. 1972. (III-A)
+      authors:
+        - Dept. of Defense
+        - Manual of Techniques
+        - Procedures for Implementing
+        - Deactivating
+        - Testing
+        - Evaluating Secure Resource-Sharing ADP Systems
+        - DOD5200.28-M
+        - Aug
+      title: (III-A)
+      year: 1972
+      resolves_to: ""
+    - key: "77"
+      raw: R. Graham, "Protection in an information processing utility," Commun ACM, vol. 11, pp. 36s-369, May 1968. (III-A)
+      authors:
+        - R. Graham
+      title: Protection in an information processing utility
+      venue: Commun ACM, vol. 11, pp. 36s-369, May 1968. (III-A)
+      year: 1968
+      resolves_to: ""
+    - key: "78"
+      raw: S. Motobayashi, T. Masuda, and N. Takahashi, "The Hitac 5020 time-sharing system," in Proc. ACM 24th Nat. Conf., pp. 419-429, 1969. (III-A)
+      authors:
+        - S. Motobayashi
+        - T. Masuda
+        - N. Takahashi
+      title: The Hitac 5020 time-sharing system
+      venue: in Proc. ACM 24th Nat. Conf., pp. 419-429, 1969. (III-A)
+      year: 1969
+      pages: 419-429
+      resolves_to: ""
+    - key: "79"
+      raw: M. Spier, T. Hastings, and D. Cutler, "An experimental implementation of the kernel/domain architecture," ACM Operating Syst. Rev., vol. 7, pp 8-21, Oct. 1973. (III-A)
+      authors:
+        - M. Spier
+        - T. Hastings
+        - D. Cutler
+      title: An experimental implementation of the kernel/domain architecture
+      venue: ACM Operating Syst. Rev., vol. 7, pp 8-21, Oct. 1973. (III-A)
+      year: 1973
+      pages: 8-21
+      resolves_to: ""
+    - key: "80"
+      raw: 'M.I.T. Proj. MAC, "Computer systems research," in Project MAC Progress Reporr XI: July 1973 to June 1974, pp. 155-183. (III-B)'
+      authors:
+        - M.I.T. Proj. MAC
+      title: Computer systems research
+      venue: 'in Project MAC Progress Reporr XI: July 1973 to June 1974, pp. 155-183. (III-B)'
+      year: 1974
+      pages: 155-183
+      resolves_to: ""
+    - key: "81"
+      raw: E. Burke, "Synthesis of a software security system," in Proc. ACM 1974 Annu. Conf., pp. 648-650. (III-B)
+      authors:
+        - E. Burke
+      title: Synthesis of a software security system
+      venue: in Proc. ACM 1974 Annu. Conf., pp. 648-650. (III-B)
+      year: 1974
+      pages: 648-650
+      resolves_to: ""
+    - key: "82"
+      raw: W. Schiller, "Design of a security kernel for the PDP-11/45," Air Force Elec. Syst. Div. Rep. ESD-TR-73-294, Dec. 1973. (III-B, SFR)
+      authors:
+        - W. Schiller
+      title: Design of a security kernel for the PDP-11/45
+      venue: Air Force Elec. Syst. Div. Rep. ESD-TR-73-294, Dec. 1973. (III-B, SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "83"
+      raw: L. Molho, "Hardware aspects of secure computing," in 1970 SJCC, AFIPS Conf. Proc., vol. 36, pp. 135-141. (III-B, SFR) 199
+      authors:
+        - L. Molho
+      title: Hardware aspects of secure computing
+      venue: in 1970 SJCC, AFIPS Conf. Proc., vol. 36, pp. 135-141. (III-B, SFR) 199
+      year: 1970
+      pages: 135-141
+      resolves_to: ""
+    - key: "84"
+      raw: R. Fabry, "Dynamic verification of operating system decisions," Commun. ACM, vol. 16, pp. 659-668, Nov. 1973. (III-B, SFR)
+      authors:
+        - R. Fabry
+      title: Dynamic verification of operating system decisions
+      venue: Commun. ACM, vol. 16, pp. 659-668, Nov. 1973. (III-B, SFR)
+      year: 1973
+      pages: 659-668
+      resolves_to: ""
+    - key: "85"
+      raw: C. Shannon, "Communication theory of secrecy systems," Bell Syst. Tech. J., vol. 28, pp. 656-715, Oct. 1949. (III-B)
+      authors:
+        - C. Shannon
+      title: Communication theory of secrecy systems
+      venue: Bell Syst. Tech. J., vol. 28, pp. 656-715, Oct. 1949. (III-B)
+      year: 1949
+      pages: 656-715
+      resolves_to: ""
+    - key: "86"
+      raw: S. Lipner, Chm., "A panel session--Security kernels," in 1974 NCC, AFIPS Conf. Proc., vol. 43, pp. 973-980. (III-B, SFR)
+      authors:
+        - S. Lipner
+        - Chm
+      title: A panel session--Security kernels
+      venue: in 1974 NCC, AFIPS Conf. Proc., vol. 43, pp. 973-980. (III-B, SFR)
+      year: 1974
+      pages: 973-980
+      resolves_to: ""
+    - key: "87"
+      raw: R. Mathis, Chm., "A panel session--Research in data security--Policies and projects," in 1974 NCC, AFIPS Conf. Proc., vol. 43 pp. 993-999. (III-B, SFR)
+      authors:
+        - R. Mathis
+        - Chm
+      title: A panel session--Research in data security--Policies and projects
+      venue: in 1974 NCC, AFIPS Conf. Proc., vol. 43 pp. 993-999. (III-B, SFR)
+      year: 1974
+      pages: 993-999
+      resolves_to: ""
+    - key: "88"
+      raw: 'Institut de Recherche d''Informatique et d''Automatique (IRIA), Int. Workshop Protection in Operating Systems. Rocquencourt, France: IRIA, Aug. 1974. (III-B, SFR)'
+      authors:
+        - Institut de Recherche d'Informatique et d'Automatique (IRIA)
+        - Int. Workshop Protection in Operating Systems
+      title: 'Rocquencourt, France: IRIA, Aug'
+      venue: 1974. (III-B, SFR)
+      year: 1974
+      resolves_to: ""
+    - key: "89"
+      raw: J. Saltzer, "Ongoing research and development on information protection," ACM Operating Syst. Rev., vol. 8, pp. 8-24, July 1974. (III-B, SFR)
+      authors:
+        - J. Saltzer
+      title: Ongoing research and development on information protection
+      venue: ACM Operating Syst. Rev., vol. 8, pp. 8-24, July 1974. (III-B, SFR)
+      year: 1974
+      pages: 8-24
+      resolves_to: ""
+    - key: "90"
+      raw: 'L. Hoffman Ed., Security and Privacy in Computer Systems. Los Angeles, Calif.: Melville Pub. Co., 1973. (SFR)'
+      authors:
+        - L. Hoffman Ed
+        - Security
+        - Privacy in Computer Systems
+      title: 'Los Angeles, Calif.: Melville Pub'
+      venue: Co., 1973. (SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "91"
+      raw: C. W. Beardsley, "Is your computer insecure?" IEEE Spectrum, vol. 9, pp. 67-78, Jan. 1972. (SFR)
+      authors:
+        - C. W. Beardsley
+      title: Is your computer insecure?
+      venue: IEEE Spectrum, vol. 9, pp. 67-78, Jan. 1972. (SFR)
+      year: 1972
+      pages: 67-78
+      resolves_to: ""
+    - key: "92"
+      raw: D. Parker, S. Nycom, and S. Oura, "Computer abuse," Stanford Res. Inst. Proj. ISU 2501, Nov. 1973. (SFR)
+      authors:
+        - D. Parker
+        - S. Nycom
+        - S. Oura
+      title: Computer abuse
+      venue: Stanford Res. Inst. Proj. ISU 2501, Nov. 1973. (SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "93"
+      raw: 'D. Kahn, The Codebreakers. New York: Macmillan, 1967. (SFR)'
+      authors:
+        - D. Kahn
+        - The Codebreakers
+      title: 'New York: Macmillan, 1967'
+      venue: (SFR)
+      year: 1967
+      resolves_to: ""
+    - key: "94"
+      raw: G. Mellen, "Cryptology, computers, and common sense," in 1973 NCC, AFIPS Conf. Proc. ,vol.42, pp.569-579. (SFR)
+      authors:
+        - G. Mellen
+      title: Cryptology, computers, and common sense
+      venue: in 1973 NCC, AFIPS Conf. Proc. ,vol.42, pp.569-579. (SFR)
+      year: 1973
+      pages: 569-579
+      resolves_to: ""
+    - key: "95"
+      raw: J. Anderson, "Computer security technology planning study," Air Force Elec. Syst. Div. Rep. ESD-TR-73-51, Oct. 1972. (SFR)
+      authors:
+        - J. Anderson
+      title: Computer security technology planning study
+      venue: Air Force Elec. Syst. Div. Rep. ESD-TR-73-51, Oct. 1972. (SFR)
+      year: 1972
+      resolves_to: ""
+    - key: "96"
+      raw: W. Ware et al., "Security controls for computer systems," Rand Corp. Tech. Rep. R-609, 1970. (Classified confidential.) (SFR)
+      authors:
+        - W. Ware et al
+      title: Security controls for computer systems
+      venue: Rand Corp. Tech. Rep. R-609, 1970. (Classified confidential.) (SFR)
+      year: 1970
+      resolves_to: ""
+    - key: "97"
+      raw: 'R. Anderson and E. Fagerlund, "Privacy end the computer: An annotated bibliography," ACM Compur. Rev., vol. 13, pp. 551-559, Nov. 1972. (SFR)'
+      authors:
+        - R. Anderson
+        - E. Fagerlund
+      title: 'Privacy end the computer: An annotated bibliography'
+      venue: ACM Compur. Rev., vol. 13, pp. 551-559, Nov. 1972. (SFR)
+      year: 1972
+      pages: 551-559
+      resolves_to: ""
+    - key: "98"
+      raw: J. Bergart, M. Denicoff, and D. Hsiao, "An annotated and cross-referenced bibliography on computer security and access control in computer systems," Ohio State Univ., Computer and Information Science Res. Center Rep. OSU-CISRC-T072-12, 1972. (SFR)
+      authors:
+        - J. Bergart
+        - M. Denicoff
+        - D. Hsiao
+      title: An annotated and cross-referenced bibliography on computer security and access control in computer systems
+      venue: Ohio State Univ., Computer and Information Science Res. Center Rep. OSU-CISRC-T072-12, 1972. (SFR)
+      year: 1972
+      resolves_to: ""
+    - key: "99"
+      raw: S. Reed and M. Gray, "Controlled accessibility bibliography," Nat. Bur. Stand. Tech. Note 780, June 1973. (SFR)
+      authors:
+        - S. Reed
+        - M. Gray
+      title: Controlled accessibility bibliography
+      venue: Nat. Bur. Stand. Tech. Note 780, June 1973. (SFR)
+      year: 1973
+      resolves_to: ""
+    - key: "100"
+      raw: 'J. Scherf, "Computer and data base security: A comprehensive annotated bibliography," M.I.T. Proj. MAC Tech. Rep. TR-122, Jan. 1974. (SFR)'
+      authors:
+        - J. Scherf
+      title: 'Computer and data base security: A comprehensive annotated bibliography'
+      venue: M.I.T. Proj. MAC Tech. Rep. TR-122, Jan. 1974. (SFR)
+      year: 1974
+      resolves_to: ""

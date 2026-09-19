@@ -1,0 +1,56 @@
+paper: cook-1971-np
+style: number
+entries:
+    - key: "1"
+      raw: 'D. L. Kreider and R. W. Ritchie: Predictably Computable Functionals and Definitions by Recursion. Zeitschrift für math. Logik und Grundlagen der Math., Vol. 10, 65-80 (1964).'
+      title: 'D. L. Kreider and R. W. Ritchie: Predictably Computable Functionals and Definitions by Recursion'
+      venue: Zeitschrift für math. Logik und Grundlagen der Math., Vol. 10, 65-80 (1964)
+      year: 1964
+      resolves_to: ""
+    - key: "2"
+      raw: 'S. A. Cook: Characterizations of Pushdown Machines in terms of Time-Bounded Computers. J. Assoc. Computing Machinery, Vol. 18, No. 1, Jan. 1971, pp 4-18.'
+      title: 'S. A. Cook: Characterizations of Pushdown Machines in terms of Time-Bounded Computers'
+      venue: J. Assoc. Computing Machinery, Vol. 18, No. 1, Jan. 1971, pp 4-18
+      year: 1971
+      pages: 4-18
+      resolves_to: ""
+    - key: "3"
+      raw: 'Cobham, Alan: The intrinsic computational difficulty of functions. Proc. of the 1964 International Congress for Logic, Methodology, and the Philosophy of Science, North Holland Publishing Co., Amsterdam, pp. 24-30.'
+      title: 'Cobham, Alan: The intrinsic computational difficulty of functions'
+      venue: Proc. of the 1964 International Congress for Logic, Methodology, and the Philosophy of Science, North Holland Publishing Co., Amsterdam, pp. 24-30
+      year: 1964
+      pages: 24-30
+      resolves_to: ""
+    - key: "4"
+      raw: 'D. G. Corneil and C. C. Gotlieb: An Efficient Algorithm for Graph Isomorphism. J. Assoc Computing Machinery Vol. 17, No. 1, Jan. 1970, pp 51-64.'
+      title: 'D. G. Corneil and C. C. Gotlieb: An Efficient Algorithm for Graph Isomorphism'
+      venue: J. Assoc Computing Machinery Vol. 17, No. 1, Jan. 1970, pp 51-64
+      year: 1970
+      pages: 51-64
+      resolves_to: ""
+    - key: "5"
+      raw: 'M. Davis and H. Putnam: A Computing Procedure for Quantification Theory. J. Assoc. Computing Machinery, 1960, pp. 201-215.'
+      title: 'M. Davis and H. Putnam: A Computing Procedure for Quantification Theory'
+      venue: J. Assoc. Computing Machinery, 1960, pp. 201-215
+      year: 1960
+      pages: 201-215
+      resolves_to: ""
+    - key: "6"
+      raw: 'J. H. Bennett: On Spectra. Doctoral Dissertation, Princeton University, 1962.'
+      title: 'J. H. Bennett: On Spectra'
+      venue: Doctoral Dissertation, Princeton University
+      year: 1962
+      resolves_to: ""
+    - key: "7"
+      raw: 'Hao Wang: Dominoes and the AEA case of the decision problems. Proc. of the Symposium on Mathematical Theory of Automata, at Polytechnic Institute of Brooklyn, 1962. pp. 23-55.'
+      title: 'Hao Wang: Dominoes and the AEA case of the decision problems'
+      venue: Proc. of the Symposium on Mathematical Theory of Automata, at Polytechnic Institute of Brooklyn, 1962. pp. 23-55
+      year: 1962
+      pages: 23-55
+      resolves_to: ""
+    - key: "8"
+      raw: 'John Hopcroft and Jeffrey Ullman: Formal Languages and their Relation to Automata. Addison-Wesley, 1969.'
+      title: 'John Hopcroft and Jeffrey Ullman: Formal Languages and their Relation to Automata'
+      venue: Addison-Wesley
+      year: 1969
+      resolves_to: ""

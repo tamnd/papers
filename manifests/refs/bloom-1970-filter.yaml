@@ -1,0 +1,39 @@
+paper: bloom-1970-filter
+style: number
+entries:
+    - key: "1"
+      raw: Batson, A. The organization of symbol tables. Comm. ACM 8, 2 (Feb. 1965), 111–112.
+      authors:
+        - A. Batson
+      title: The organization of symbol tables
+      venue: Comm. ACM 8, 2 (Feb. 1965), 111–112
+      year: 1965
+      pages: 111-112
+      resolves_to: ""
+    - key: "2"
+      raw: Maurer, W. D. An improved hash code for scatter storage. Comm. ACM 11, 1 (Jan. 1968), 35–38.
+      authors:
+        - W. D. Maurer
+      title: An improved hash code for scatter storage
+      venue: Comm. ACM 11, 1 (Jan. 1968), 35–38
+      year: 1968
+      pages: 35-38
+      resolves_to: ""
+    - key: "3"
+      raw: Morris, R. Scatter storage techniques. Comm. ACM 11, 1 (Jan. 1968), 38–44. | TABLE I. SUMMARY OF EXPECTED PERFORMANCE OF HYPHENATION APPLICATION OF HASH CODING USING METHOD 2 FOR VARIOUS VALUES OF ALLOWABLE FRACTION OF ERRORS | | | | --- | --- | --- | | P = Allowable Fraction of Errors | N = Size of Hash Area (Bits) | Disk Accesses Saved | | $\frac{1}{2}$ | 72,800 | 45.0% | | $\frac{1}{4}$ | 145,600 | 67.5% | | $\frac{1}{8}$ | 218,400 | 78.7% | | $\frac{1}{16}$ | 291,200 | 84.4% | | $\frac{1}{32}$ | 364,000 |
+      authors:
+        - Morris
+        - R. Scatter storage techniques
+      title: Comm
+      year: 1968
+      resolves_to: ""
+    - key: "87"
+      raw: 2% | | $\frac{1}{64}$ | 509,800 |
+      title: 2% | | $\frac{1}{64}$ | 509,800 |
+      resolves_to: ""
+    - key: "88"
+      raw: 5% |
+      title: 5% |
+      resolves_to: ""
+notes:
+    - the bibliography skips 4 to 86

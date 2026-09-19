@@ -1,0 +1,160 @@
+paper: cortes-1995-svm
+style: author-year
+entries:
+    - key: Aizerman 1964
+      raw: Aizerman, M., Braverman, E., & Rozonoer, L. (1964). Theoretical foundations of the potential function method in pattern recognition learning. Automation and Remote Control, 25:821–837.
+      authors:
+        - M. Aizerman
+        - E. Braverman
+        - L. Rozonoer
+      title: Theoretical foundations of the potential function method in pattern recognition learning
+      venue: Automation and Remote Control, 25:821–837
+      year: 1964
+      resolves_to: ""
+    - key: Anderson 1966
+      raw: Anderson, T.W., & Bahadur, R.R. (1966). Classification into two multivariate normal distributions with different covariance matrices. Ann. Math. Stat., 33:420–431.
+      authors:
+        - Anderson
+        - T.W
+        - Bahadur
+        - R.R
+      title: Classification into two multivariate normal distributions with different covariance matrices
+      venue: Ann. Math. Stat., 33:420–431
+      year: 1966
+      resolves_to: ""
+    - key: Boser 1992
+      raw: Boser, B.E., Guyon, I., & Vapnik, V.N. (1992). A training algorithm for optimal margin classifiers. In Proceedings of the Fifth Annual Workshop of Computational Learning Theory, 5, 144–152, Pittsburgh, ACM.
+      authors:
+        - Boser
+        - B.E
+        - I. Guyon
+        - Vapnik
+        - V.N
+      title: A training algorithm for optimal margin classifiers
+      venue: In Proceedings of the Fifth Annual Workshop of Computational Learning Theory, 5, 144–152, Pittsburgh, ACM
+      year: 1992
+      resolves_to: ""
+    - key: Bottou 1994
+      raw: 'Bottou, L., Cortes, C., Denker, J.S., Drucker, H., Guyon, I., Jackel, L.D., LeCun, Y., Sackinger, E., Simard, P., Vapnik, V., & Miller, U.A. (1994). Comparison of classifier methods: A case study in handwritten digit recognition. Proceedings of 12th International Conference on Pattern Recognition and Neural Network.'
+      authors:
+        - L. Bottou
+        - C. Cortes
+        - Denker
+        - J.S
+        - H. Drucker
+        - I. Guyon
+        - Jackel
+        - L.D
+        - Y. LeCun
+        - E. Sackinger
+        - P. Simard
+        - V. Vapnik
+        - Miller
+        - U.A
+      title: 'Comparison of classifier methods: A case study in handwritten digit recognition'
+      venue: Proceedings of 12th International Conference on Pattern Recognition and Neural Network
+      year: 1994
+      resolves_to: ""
+    - key: Bromley 1991
+      raw: Bromley, J., & Sackinger, E. (1991). Neural-network and k-nearest-neighbor classifiers. Technical Report 11359-910819-16TM, AT&T.
+      authors:
+        - J. Bromley
+        - E. Sackinger
+      title: Neural-network and k-nearest-neighbor classifiers
+      venue: Technical Report 11359-910819-16TM, AT&T
+      year: 1991
+      resolves_to: ""
+    - key: Courant 1953
+      raw: Courant, R., & Hilbert, D. (1953). Methods of Mathematical Physics, Interscience, New York.
+      authors:
+        - R. Courant
+        - D. Hilbert
+      title: Methods of Mathematical Physics, Interscience, New York
+      year: 1953
+      resolves_to: ""
+    - key: Fisher 1936
+      raw: Fisher, R.A. (1936). The use of multiple measurements in taxonomic problems. Ann. Eugenics, 7:111–132.
+      authors:
+        - Fisher
+        - R.A
+      title: The use of multiple measurements in taxonomic problems
+      venue: Ann. Eugenics, 7:111–132
+      year: 1936
+      resolves_to: ""
+    - key: LeCun 1985
+      raw: 'LeCun, Y. (1985). Une procedure d’apprentissage pour reseau a seuil assymetrique. Cognitiva 85: A la Frontiere de l’Intelligence Artificielle des Sciences de la Connaissance des Neurosciences, 599–604, Paris.'
+      authors:
+        - Y. LeCun
+      title: Une procedure d’apprentissage pour reseau a seuil assymetrique
+      venue: 'Cognitiva 85: A la Frontiere de l’Intelligence Artificielle des Sciences de la Connaissance des Neurosciences, 599–604, Paris'
+      year: 1985
+      resolves_to: ""
+    - key: LeCun 1990
+      raw: LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., & Jackel, L.D. (1990). Handwritten digit recognition with a back-propagation network. Advances in Neural Information Processing Systems, 2, 396–404, Morgan Kaufman.
+      authors:
+        - Y. LeCun
+        - B. Boser
+        - Denker
+        - J.S
+        - D. Henderson
+        - Howard
+        - R.E
+        - W. Hubbard
+        - Jackel
+        - L.D
+      title: Handwritten digit recognition with a back-propagation network
+      venue: Advances in Neural Information Processing Systems, 2, 396–404, Morgan Kaufman
+      year: 1990
+      resolves_to: ""
+    - key: Parker 1985
+      raw: Parker, D.B. (1985). Learning logic. Technical Report TR-47, Center for Computational Research in Economics and Management Science, Massachusetts Institute of Technology, Cambridge, MA.
+      authors:
+        - Parker
+        - D.B
+      title: Learning logic
+      venue: Technical Report TR-47, Center for Computational Research in Economics and Management Science, Massachusetts Institute of Technology, Cambridge, MA
+      year: 1985
+      resolves_to: ""
+    - key: Rosenblatt 1962
+      raw: Rosenblatt, F. (1962). Principles of Neurodynamics, Spartan Books, New York. SUPPORT-VECTOR NETWORKS
+      authors:
+        - F. Rosenblatt
+      title: Principles of Neurodynamics, Spartan Books, New York
+      venue: SUPPORT-VECTOR NETWORKS
+      year: 1962
+      resolves_to: ""
+    - key: Rumelhart 1986
+      raw: Rumelhart, D.E., Hinton, G.E., & Williams, R.J. (1986). Learning internal representations by backpropagating errors. Nature, 323:533–536.
+      authors:
+        - Rumelhart
+        - D.E
+        - Hinton
+        - G.E
+        - Williams
+        - R.J
+      title: Learning internal representations by backpropagating errors
+      venue: Nature, 323:533–536
+      year: 1986
+      resolves_to: ""
+    - key: Rumelhart 1987
+      raw: Rumelhart, D.E., Hinton, G.E., & Williams, R.J. (1987). Learning internal representations by error propagation. In James L. McClelland & David E. Rumelhart (Eds.), Parallel Distributed Processing, 1, 318–362, MIT Press.
+      authors:
+        - Rumelhart
+        - D.E
+        - Hinton
+        - G.E
+        - Williams
+        - R.J
+      title: Learning internal representations by error propagation
+      venue: In James L. McClelland & David E. Rumelhart (Eds.), Parallel Distributed Processing, 1, 318–362, MIT Press
+      year: 1987
+      resolves_to: ""
+    - key: Vapnik 1982
+      raw: 'Vapnik, V.N. (1982). Estimation of Dependences Based on Empirical Data, Addendum 1, New York: Springer-Verlag. Received May 15, 1993 Accepted February 20, 1995 Final Manuscript March 8, 1995'
+      authors:
+        - Vapnik
+        - V.N
+      title: 'Estimation of Dependences Based on Empirical Data, Addendum 1, New York: Springer-Verlag'
+      venue: Received May 15, 1993 Accepted February 20, 1995 Final Manuscript March 8
+      year: 1982
+      resolves_to: ""

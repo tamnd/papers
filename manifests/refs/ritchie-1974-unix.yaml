@@ -1,0 +1,93 @@
+paper: ritchie-1974-unix
+style: number
+entries:
+    - key: "1"
+      raw: Digital Equipment Corporation. PDP-11/40 Processor Handbook, 1972, and PDP-11/45 Processor Handbook. 1971.
+      authors:
+        - Digital Equipment Corporation
+      title: PDP-11/40 Processor Handbook, 1972, and PDP-11/45 Processor Handbook
+      year: 1971
+      resolves_to: ""
+    - key: "2"
+      raw: Deutsch, L.P., and Lampson, B.W. An online editor. Comm. ACM 10, 12 (Dec, 1967) 793–799, 803.
+      authors:
+        - Deutsch
+        - L.P
+        - Lampson
+        - B.W. An online editor
+      title: Comm
+      venue: ACM 10, 12 (Dec, 1967) 793–799, 803
+      year: 1967
+      resolves_to: ""
+    - key: "3"
+      raw: 'Richards, M. BCPL: A tool for compiler writing and system programming. Proc. AFIPS 1969 SJCC, Vol. 34, AFIPS Press, Montvale, N.J., pp. 557–566.'
+      title: 'Richards, M. BCPL: A tool for compiler writing and system programming'
+      venue: Proc. AFIPS 1969 SJCC, Vol. 34, AFIPS Press, Montvale, N.J., pp. 557–566
+      year: 1969
+      pages: 557-566
+      resolves_to: ""
+    - key: "4"
+      raw: McClure, R.M. TMG—A syntax directed compiler. Proc. ACM 20th Nat. Conf., ACM, 1965, New York, pp. 262–274.
+      authors:
+        - McClure
+        - R.M
+      title: TMG—A syntax directed compiler
+      venue: Proc. ACM 20th Nat. Conf., ACM, 1965, New York, pp. 262–274
+      year: 1965
+      pages: 262-274
+      resolves_to: ""
+    - key: "5"
+      raw: 'Hall. A.D. The M6 macroprocessor. Computing Science Tech. Rep. #2, Bell Telephone Laboratories, 1969.'
+      title: Hall
+      venue: 'A.D. The M6 macroprocessor. Computing Science Tech. Rep. #2, Bell Telephone Laboratories'
+      year: 1969
+      resolves_to: ""
+    - key: "6"
+      raw: Ritchie, D.M. C reference manual. Unpublished memorandum, Bell Telephone Laboratories, 1973.
+      authors:
+        - Ritchie
+        - D.M. C reference manual
+      title: Unpublished memorandum, Bell Telephone Laboratories, 1973
+      year: 1973
+      resolves_to: ""
+    - key: "7"
+      raw: Aleph-null. Computer Recreations. Software Practice and Experience 1, 2 (Apr.–June 1971), 201–204.
+      title: Aleph-null
+      venue: Computer Recreations. Software Practice and Experience 1, 2 (Apr.–June 1971), 201–204
+      year: 1971
+      pages: 201-204
+      resolves_to: ""
+    - key: "8"
+      raw: Deutsch, L.P., and Lampson, B.W. SDS 930 time-sharing system preliminary reference manual. Doc. 30.10.10, Project GENIE, U of California at Berkeley, Apr. 1965.
+      authors:
+        - Deutsch
+        - L.P
+        - Lampson
+        - B.W
+      title: SDS 930 time-sharing system preliminary reference manual
+      venue: Doc. 30.10.10, Project GENIE, U of California at Berkeley, Apr
+      year: 1965
+      resolves_to: ""
+    - key: "9"
+      raw: Feiertag. R.J., and Organick, E.I. The Multics input-output system. Proc. Third Symp. on Oper. Syst. Princ., Oct. 18–20, 1971, ACM, New York, pp. 35–41.
+      title: Feiertag
+      venue: R.J., and Organick, E.I. The Multics input-output system. Proc. Third Symp. on Oper. Syst. Princ., Oct. 18–20, 1971, ACM, New York, pp. 35–41
+      year: 1971
+      pages: 35-41
+      resolves_to: ""
+    - key: "10"
+      raw: Bobrow, D.C., Burchfiel, J.D., Murphy, D.L., and Tomlinson, R.S. TENEX, a paged time sharing system for the PDP-10. Comm. ACM 15, 3 (Mar. 1972) 135–143.
+      authors:
+        - Bobrow
+        - D.C
+        - Burchfiel
+        - J.D
+        - Murphy
+        - D.L
+        - Tomlinson
+        - R.S. TENEX
+        - a paged time sharing system for the PDP-10
+      title: Comm
+      venue: ACM 15, 3 (Mar. 1972) 135–143
+      year: 1972
+      resolves_to: ""

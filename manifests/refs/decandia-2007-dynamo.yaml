@@ -1,0 +1,287 @@
+paper: decandia-2007-dynamo
+style: bracket
+entries:
+    - key: "1"
+      raw: 'Adya, A., Bolosky, W. J., Castro, M., Cermak, G., Chaiken, R., Douceur, J. R., Howell, J., Lorch, J. R., Theimer, M., and Wattenhofer, R. P. 2002. Farsite: federated, available, and reliable storage for an incompletely trusted environment. SIGOPS Oper. Syst. Rev. 36, SI (Dec. 2002), 1-14.'
+      authors:
+        - A. Adya
+        - W. J. Bolosky
+        - M. Castro
+        - G. Cermak
+        - R. Chaiken
+        - J. R. Douceur
+        - J. Howell
+        - J. R. Lorch
+        - M. Theimer
+        - Wattenhofer
+        - R. P. 2002
+      title: 'Farsite: federated, available, and reliable storage for an incompletely trusted environment'
+      venue: SIGOPS Oper. Syst. Rev. 36, SI (Dec. 2002), 1-14
+      year: 2002
+      pages: 1-14
+      resolves_to: ""
+    - key: "2"
+      raw: Bernstein, P.A., and Goodman, N. An algorithm for concurrency control and recovery in replicated distributed databases. ACM Trans. on Database Systems, 9(4):596-615, December 1984
+      authors:
+        - Bernstein
+        - P.A
+        - N. Goodman
+      title: An algorithm for concurrency control and recovery in replicated distributed databases
+      venue: ACM Trans. on Database Systems, 9(4):596-615
+      year: 1984
+      resolves_to: ""
+    - key: "3"
+      raw: 'Chang, F., Dean, J., Ghemawat, S., Hsieh, W. C., Wallach, D. A., Burrows, M., Chandra, T., Fikes, A., and Gruber, R. E. 2006. Bigtable: a distributed storage system for structured data. In Proceedings of the 7th Conference on USENIX Symposium on Operating Systems Design and Implementation - Volume 7 (Seattle, WA, November 06 - 08, 2006). USENIX Association, Berkeley, CA, 15-15.'
+      authors:
+        - F. Chang
+        - J. Dean
+        - S. Ghemawat
+        - W. C. Hsieh
+        - D. A. Wallach
+        - M. Burrows
+        - T. Chandra
+        - A. Fikes
+        - Gruber
+        - R. E. 2006
+      title: 'Bigtable: a distributed storage system for structured data'
+      year: 2006
+      pages: 15-15
+      resolves_to: chang-2006-bigtable
+    - key: "4"
+      raw: Douceur, J. R. and Bolosky, W. J. 2000. Process-based regulation of low-importance processes. SIGOPS Oper. Syst. Rev. 34, 2 (Apr. 2000), 26-27.
+      authors:
+        - J. R. Douceur
+        - Bolosky
+        - W. J. 2000
+      title: Process-based regulation of low-importance processes
+      venue: SIGOPS Oper. Syst. Rev. 34, 2 (Apr. 2000), 26-27
+      year: 2000
+      pages: 26-27
+      resolves_to: ""
+    - key: "5"
+      raw: Fox, A., Gribble, S. D., Chawathe, Y., Brewer, E. A., and Gauthier, P. 1997. Cluster-based scalable network services. In Proceedings of the Sixteenth ACM Symposium on Operating Systems Principles (Saint Malo, France, October 05 - 08, 1997). W. M. Waite, Ed. SOSP '97. ACM Press, New York, NY, 78-91.
+      authors:
+        - A. Fox
+        - S. D. Gribble
+        - Y. Chawathe
+        - E. A. Brewer
+        - Gauthier
+        - P. 1997
+      title: Cluster-based scalable network services
+      year: 1997
+      pages: 78-91
+      resolves_to: ""
+    - key: "6"
+      raw: Ghemawat, S., Gobioff, H., and Leung, S. 2003. The Google file system. In Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles (Bolton Landing, NY, USA, October 19 - 22, 2003). SOSP '03. ACM Press, New York, NY, 29-43.
+      authors:
+        - S. Ghemawat
+        - H. Gobioff
+        - Leung
+        - S. 2003
+      title: The Google file system
+      year: 2003
+      pages: 29-43
+      resolves_to: ghemawat-2003-gfs
+    - key: "7"
+      raw: Gray, J., Helland, P., O'Neil, P., and Shasha, D. 1996. The dangers of replication and a solution. In Proceedings of the 1996 ACM SIGMOD international Conference on Management of Data (Montreal, Quebec, Canada, June 04 - 06, 1996). J. Widom, Ed. SIGMOD '96. ACM Press, New York, NY, 173-182.
+      authors:
+        - J. Gray
+        - P. Helland
+        - P. O'Neil
+        - Shasha
+        - D. 1996
+      title: The dangers of replication and a solution
+      year: 1996
+      pages: 173-182
+      resolves_to: ""
+    - key: "8"
+      raw: Gupta, I., Chandra, T. D., and Goldszmidt, G. S. 2001. On scalable and efficient distributed failure detectors. In Proceedings of the Twentieth Annual ACM Symposium on Principles of Distributed Computing (Newport, Rhode Island, United States). PODC '01. ACM Press, New York, NY, 170-179.
+      authors:
+        - I. Gupta
+        - T. D. Chandra
+        - Goldszmidt
+        - G. S. 2001
+      title: On scalable and efficient distributed failure detectors
+      year: 2001
+      pages: 170-179
+      resolves_to: ""
+    - key: "9"
+      raw: 'Kubiatowicz, J., Bindel, D., Chen, Y., Czerwinski, S., Eaton, P., Geels, D., Gummadi, R., Rhea, S., Weatherspoon, H., Wells, C., and Zhao, B. 2000. OceanStore: an architecture for global-scale persistent storage. SIGARCH Comput. Archit. News 28, 5 (Dec. 2000), 190-201.'
+      authors:
+        - J. Kubiatowicz
+        - D. Bindel
+        - Y. Chen
+        - S. Czerwinski
+        - P. Eaton
+        - D. Geels
+        - R. Gummadi
+        - S. Rhea
+        - H. Weatherspoon
+        - C. Wells
+        - Zhao
+        - B. 2000
+      title: 'OceanStore: an architecture for global-scale persistent storage'
+      venue: SIGARCH Comput. Archit. News 28, 5 (Dec. 2000), 190-201
+      year: 2000
+      pages: 190-201
+      resolves_to: ""
+    - key: "10"
+      raw: 'Karger, D., Lehman, E., Leighton, T., Panigrahy, R., Levine, M., and Lewin, D. 1997. Consistent hashing and random trees: distributed caching protocols for relieving hot spots on the World Wide Web. In Proceedings of the Twenty-Ninth Annual ACM Symposium on theory of Computing (El Paso, Texas, United States, May 04 - 06, 1997). STOC ''97. ACM Press, New York, NY, 654-663.'
+      authors:
+        - D. Karger
+        - E. Lehman
+        - T. Leighton
+        - R. Panigrahy
+        - M. Levine
+        - Lewin
+        - D. 1997
+      title: 'Consistent hashing and random trees: distributed caching protocols for relieving hot spots on the World Wide Web'
+      year: 1997
+      pages: 654-663
+      resolves_to: ""
+    - key: "11"
+      raw: Lindsay, B.G., et. al., “Notes on Distributed Databases”, Research Report RJ2571(33471), IBM Research, July 1979
+      authors:
+        - Lindsay
+        - B.G
+        - et. al
+      title: Notes on Distributed Databases
+      venue: Research Report RJ2571(33471), IBM Research
+      year: 1979
+      resolves_to: ""
+    - key: "12"
+      raw: Lamport, L. Time, clocks, and the ordering of events in a distributed system. ACM Communications, 21(7), pp. 558-565, 1978.
+      authors:
+        - Lamport
+        - L. Time
+        - clocks
+        - the ordering of events in a distributed system
+      title: ACM Communications, 21(7), pp. 558-565, 1978
+      year: 1978
+      pages: 558-565
+      resolves_to: ""
+    - key: "13"
+      raw: Merkle, R. A digital signature based on a conventional encryption function. Proceedings of CRYPTO, pages 369–378. Springer-Verlag, 1988.
+      authors:
+        - R. Merkle
+      title: A digital signature based on a conventional encryption function
+      venue: Proceedings of CRYPTO, pages 369–378. Springer-Verlag
+      year: 1988
+      pages: 369-378
+      resolves_to: ""
+    - key: "14"
+      raw: 'Ramasubramanian, V., and Sirer, E. G. Beehive: O(1)lookup performance for power-law query distributions in peer-to-peer overlays. In Proceedings of the 1st Conference on Symposium on Networked Systems Design and Implementation, San Francisco, CA, March 29 - 31, 2004.'
+      title: 'Ramasubramanian, V., and Sirer, E. G. Beehive: O(1)lookup performance for power-law query distributions in peer-to-peer overlays'
+      venue: In Proceedings of the 1st Conference on Symposium on Networked Systems Design and Implementation, San Francisco, CA, March 29 - 31
+      year: 2004
+      resolves_to: ""
+    - key: "15"
+      raw: Reiher, P., Heidemann, J., Ratner, D., Skinner, G., and Popek, G. 1994. Resolving file conflicts in the Ficus file system. In Proceedings of the USENIX Summer 1994 Technical Conference on USENIX Summer 1994 Technical Conference - Volume 1 (Boston, Massachusetts, June 06 - 10, 1994). USENIX Association, Berkeley, CA, 12-12..
+      authors:
+        - P. Reiher
+        - J. Heidemann
+        - D. Ratner
+        - G. Skinner
+        - Popek
+        - G. 1994
+      title: Resolving file conflicts in the Ficus file system
+      year: 1994
+      resolves_to: ""
+    - key: "16"
+      raw: 'Rowstron, A., and Druschel, P. Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems. Proceedings of Middleware, pages 329-350, November, 2001.'
+      title: 'Rowstron, A., and Druschel, P. Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems'
+      venue: Proceedings of Middleware, pages 329-350
+      year: 2001
+      pages: 329-350
+      resolves_to: ""
+    - key: "17"
+      raw: Rowstron, A., and Druschel, P. Storage management and caching in PAST, a large-scale, persistent peer-to-peer storage utility. Proceedings of Symposium on Operating Systems Principles, October 2001.
+      authors:
+        - A. Rowstron
+        - Druschel
+        - P. Storage management
+        - caching in PAST
+        - a large-scale
+        - persistent peer-to-peer storage utility
+      title: Proceedings of Symposium on Operating Systems Principles, October 2001
+      year: 2001
+      resolves_to: ""
+    - key: "18"
+      raw: 'Saito, Y., Frølund, S., Veitch, A., Merchant, A., and Spence, S. 2004. FAB: building distributed enterprise disk arrays from commodity components. SIGOPS Oper. Syst. Rev. 38, 5 (Dec. 2004), 48-58.'
+      authors:
+        - Y. Saito
+        - S. Frølund
+        - A. Veitch
+        - A. Merchant
+        - Spence
+        - S. 2004
+      title: 'FAB: building distributed enterprise disk arrays from commodity components'
+      venue: SIGOPS Oper. Syst. Rev. 38, 5 (Dec. 2004), 48-58
+      year: 2004
+      pages: 48-58
+      resolves_to: ""
+    - key: "19"
+      raw: 'Satyanarayanan, M., Kistler, J.J., Siegel, E.H. Coda: A Resilient Distributed File System. IEEE Workshop on Workstation Operating Systems, Nov. 1987.'
+      title: 'Satyanarayanan, M., Kistler, J.J., Siegel, E.H. Coda: A Resilient Distributed File System'
+      venue: IEEE Workshop on Workstation Operating Systems, Nov
+      year: 1987
+      resolves_to: ""
+    - key: "20"
+      raw: 'Stoica, I., Morris, R., Karger, D., Kaashoek, M. F., and Balakrishnan, H. 2001. Chord: A scalable peer-to-peer lookup service for internet applications. In Proceedings of the 2001 Conference on Applications, Technologies, Architectures, and Protocols For Computer Communications (San Diego, California, United States). SIGCOMM ''01. ACM Press, New York, NY, 149-160.'
+      authors:
+        - I. Stoica
+        - R. Morris
+        - D. Karger
+        - M. F. Kaashoek
+        - Balakrishnan
+        - H. 2001
+      title: 'Chord: A scalable peer-to-peer lookup service for internet applications'
+      year: 2001
+      pages: 149-160
+      resolves_to: stoica-2001-chord
+    - key: "21"
+      raw: Terry, D. B., Theimer, M. M., Petersen, K., Demers, A. J., Spreitzer, M. J., and Hauser, C. H. 1995. Managing update conflicts in Bayou, a weakly connected replicated storage system. In Proceedings of the Fifteenth ACM Symposium on Operating Systems Principles (Copper Mountain, Colorado, United States, December 03 - 06, 1995). M. B. Jones, Ed. SOSP '95. ACM Press, New York, NY, 172-182.
+      authors:
+        - D. B. Terry
+        - M. M. Theimer
+        - K. Petersen
+        - A. J. Demers
+        - M. J. Spreitzer
+        - Hauser
+        - C. H. 1995
+      title: Managing update conflicts in Bayou, a weakly connected replicated storage system
+      year: 1995
+      pages: 172-182
+      resolves_to: ""
+    - key: "22"
+      raw: 'Thomas, R. H. A majority consensus approach to concurrency control for multiple copy databases. ACM Transactions on Database Systems 4 (2): 180-209, 1979.'
+      authors:
+        - R. H. Thomas
+      title: A majority consensus approach to concurrency control for multiple copy databases
+      venue: 'ACM Transactions on Database Systems 4 (2): 180-209'
+      year: 1979
+      resolves_to: ""
+    - key: "23"
+      raw: 'Weatherspoon, H., Eaton, P., Chun, B., and Kubiatowicz, J. 2007. Antiquity: exploiting a secure log for wide-area distributed storage. SIGOPS Oper. Syst. Rev. 41, 3 (Jun. 2007), 371-384.'
+      authors:
+        - H. Weatherspoon
+        - P. Eaton
+        - B. Chun
+        - Kubiatowicz
+        - J. 2007
+      title: 'Antiquity: exploiting a secure log for wide-area distributed storage'
+      venue: SIGOPS Oper. Syst. Rev. 41, 3 (Jun. 2007), 371-384
+      year: 2007
+      pages: 371-384
+      resolves_to: ""
+    - key: "24"
+      raw: 'Welsh, M., Culler, D., and Brewer, E. 2001. SEDA: an architecture for well-conditioned, scalable internet services. In Proceedings of the Eighteenth ACM Symposium on Operating Systems Principles (Banff, Alberta, Canada, October 21 - 24, 2001). SOSP ''01. ACM Press, New York, NY, 230-243.'
+      authors:
+        - M. Welsh
+        - D. Culler
+        - Brewer
+        - E. 2001
+      title: 'SEDA: an architecture for well-conditioned, scalable internet services'
+      year: 2001
+      pages: 230-243
+      resolves_to: ""

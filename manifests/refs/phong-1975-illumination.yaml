@@ -1,0 +1,110 @@
+paper: phong-1975-illumination
+style: number
+entries:
+    - key: "1"
+      raw: MAGI, Mathematical Applications Group Inc. 3-D simulated graphics. Datamation 14 (Feb. 1968), 69.
+      authors:
+        - MAGI
+        - Mathematical Applications Group Inc. 3-D simulated graphics
+      title: Datamation 14 (Feb
+      year: 1968
+      resolves_to: ""
+    - key: "2"
+      raw: Comba, P.G. A procedure of detecting intersections of three-dimensional objects. Rep. 39,020, IBM New York Scientific Center, Jan. 1967.
+      authors:
+        - Comba
+        - P.G
+      title: A procedure of detecting intersections of three-dimensional objects
+      venue: Rep. 39,020, IBM New York Scientific Center, Jan
+      year: 1967
+      resolves_to: ""
+    - key: "3"
+      raw: Weiss, R.A. BE VISION, a package of IBM 7090 FORTRAN programs to draw orthographic views of combinations of plane and quadric surfaces. J. ACM 13, 2 (Apr. 1966), 194–204.
+      authors:
+        - Weiss
+        - R.A. BE VISION
+        - a package of IBM 7090 FORTRAN programs to draw orthographic views of combinations of plane
+        - quadric surfaces
+      title: J. ACM 13, 2 (Apr
+      year: 1966
+      pages: 194-204
+      resolves_to: ""
+    - key: "4"
+      raw: Mahl, R. Visible surface algorithm for quadric patches. IEEE Trans. C-21, (Jan. 1972), 1–4.
+      authors:
+        - R. Mahl
+      title: Visible surface algorithm for quadric patches
+      venue: IEEE Trans. C-21, (Jan. 1972), 1–4
+      year: 1972
+      pages: 1-4
+      resolves_to: ""
+    - key: "5"
+      raw: Catmull, E.E. A subdivision algorithm for computer display of curved surfaces. Ph.D th., Dep. of Comput. Sci., U. of Utah.
+      authors:
+        - Catmull
+        - E.E
+      title: A subdivision algorithm for computer display of curved surfaces
+      venue: Ph.D th., Dep. of Comput. Sci., U. of Utah
+      resolves_to: ""
+    - key: "6"
+      raw: Sutherland, I.E., Sproull, R.F., and Schumacker, R.A. A characterization of ten-hidden surface algorithms. Computing Surveys 6 (Mar. 1974), 1–56.
+      authors:
+        - Sutherland
+        - I.E
+        - Sproull
+        - R.F
+        - Schumacker
+        - R.A
+      title: A characterization of ten-hidden surface algorithms
+      venue: Computing Surveys 6 (Mar. 1974), 1–56
+      year: 1974
+      pages: 1-56
+      resolves_to: ""
+    - key: "7"
+      raw: Bui Tuong Phong and Crow, F.C. Improved rendition of polygonal models of curved surfaces. To be presented at the joint USA-Japan Computer Conference.
+      authors:
+        - Bui Tuong Phong
+        - Crow
+        - F.C. Improved rendition of polygonal models of curved surfaces
+      title: To be presented at the joint USA-Japan Computer Conference
+      resolves_to: ""
+    - key: "8"
+      raw: Warnock, J.E. A hidden-line algorithm for halftone picture representation. Dep. of Comput. Sci., U. of Utah, TR 4–15, 1969.
+      authors:
+        - Warnock
+        - J.E
+      title: A hidden-line algorithm for halftone picture representation
+      venue: Dep. of Comput. Sci., U. of Utah, TR 4–15
+      year: 1969
+      resolves_to: ""
+    - key: "9"
+      raw: Watkins, G.S. A real-time visible surface algorithm. Dep. of Comput. Sci., U. of Utah, UTEC-CSc-70-101, June 1970.
+      authors:
+        - Watkins
+        - G.S
+      title: A real-time visible surface algorithm
+      venue: Dep. of Comput. Sci., U. of Utah, UTEC-CSc-70-101
+      year: 1970
+      resolves_to: ""
+    - key: "10"
+      raw: Newell, M.E., Newell, R.G., and Sancha, T.L. A new approach to the shaded picture problem. Proc. ACM 1973 Nat. Conf.
+      authors:
+        - Newell
+        - M.E
+        - Newell
+        - R.G
+        - Sancha
+        - T.L
+      title: A new approach to the shaded picture problem
+      venue: Proc. ACM 1973 Nat. Conf
+      year: 1973
+      resolves_to: ""
+    - key: "11"
+      raw: Gouraud, H. Computer display of curved surfaces. Dep. of Comput. Sci., U. of Utah, UTEC-CSc-71-113, June 1971. Also in IEEE Trans. C-20 (June 1971), 623–629.
+      authors:
+        - H. Gouraud
+      title: Computer display of curved surfaces
+      venue: Dep. of Comput. Sci., U. of Utah, UTEC-CSc-71-113, June 1971. Also in IEEE Trans. C-20 (June 1971), 623–629
+      year: 1971
+      pages: 623-629
+      resolves_to: ""

@@ -27,8 +27,8 @@ entries:
       year: 1957
       resolves_to: ""
     - key: "3"
-      raw: A. CHURCH, The Calculi of Lambda-Conversion (Princeton University Press, Princeton, N. J., 1941).
-      title: A. CHURCH, The Calculi of Lambda-Conversion (Princeton University Press, Princeton, N. J., 1941)
+      raw: A. CHURCH, *The Calculi of Lambda-Conversion* (Princeton University Press, Princeton, N. J., 1941).
+      title: A. CHURCH, *The Calculi of Lambda-Conversion* (Princeton University Press, Princeton, N. J., 1941)
       year: 1941
       resolves_to: ""
     - key: "4"
@@ -42,14 +42,14 @@ entries:
       year: 1956
       resolves_to: ""
     - key: "5"
-      raw: A. J. PERLIS AND K. SAMELS0N, International algebraic language, Preliminary Report, Comm. Assoc. Comp. Mach., Dec. 1958.
+      raw: A. J. PERLIS AND K. SAMELS0N, International algebraic language, Preliminary Report, *Comm. Assoc. Comp. Mach.*, Dec. 1958.
       authors:
         - A. J. PERLIS
         - K. SAMELS0N
         - International algebraic language
         - Preliminary Report
-        - Comm
+        - '*Comm'
       title: Assoc. Comp
-      venue: Mach., Dec
+      venue: Mach.*, Dec
       year: 1958
       resolves_to: ""

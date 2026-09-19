@@ -1,0 +1,19 @@
+paper: tomasulo-1967-algorithm
+style: hanging
+entries:
+    - key: "1"
+      raw: '1. D. W. Anderson, F. J. Sparacio and R. M. Tomasulo, "The System/360 Model 91: Machine Philosophy and Instruction Handling," IBM Journal 11, 8 (1967) (this issue). 2. S. F. Anderson, J. Earle, R. E. Goldschmidt and D. M. Powers, "The System/360 Model 91 Floating-Point Execution Unit," IBM Journal 11, 34 (1967) (this issue).'
+      authors:
+        - 1. D. W. Anderson
+        - F. J. Sparacio
+        - R. M. Tomasulo
+      title: 'The System/360 Model 91: Machine Philosophy and Instruction Handling'
+      year: 1967
+      resolves_to: ""
+    - key: "2"
+      raw: Received September 16, 1965.
+      title: Received September 16, 1965
+      year: 1965
+      resolves_to: ""
+notes:
+    - the bibliography has no labels that count up, so each paragraph is read as one entry

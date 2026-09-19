@@ -163,11 +163,9 @@ entries:
       year: 1993
       resolves_to: ""
     - key: "19"
-      raw: J. Krajicek. Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic. Submitted to Journal of Symbolic Logic , 1994.
-      authors:
-        - J. Krajicek
-      title: Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic
-      venue: Submitted to Journal of Symbolic Logic
+      raw: J. Kraji c ek. Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic. Submitted to Journal of Symbolic Logic , 1994.
+      title: J. Kraji c ek
+      venue: Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic. Submitted to Journal of Symbolic Logic
       year: 1994
       resolves_to: ""
     - key: "20"

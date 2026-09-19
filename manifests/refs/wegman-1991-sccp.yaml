@@ -1,0 +1,409 @@
+paper: wegman-1991-sccp
+style: number
+entries:
+    - key: "1"
+      raw: 'Aho, A. V., Sethi, R., and Ullman, J. D. Compilers: Principles, Techniques, and Tools. Addison-Wesley, Reading, Mass., 1986.'
+      title: 'Aho, A. V., Sethi, R., and Ullman, J. D. Compilers: Principles, Techniques, and Tools'
+      venue: Addison-Wesley, Reading, Mass
+      year: 1986
+      resolves_to: ""
+    - key: "2"
+      raw: Allen, F. E. A catalogue of optimizing transformations. In Design and Optimization of Compilers. R. Rustin, Ed., Prentice Hall, Englewood Cliffs, N.J., 1972, pp. 1–30. ACM Transactions on Programming Languages and Systems, Vol. 13, No 2, April 1991.
+      authors:
+        - F. E. Allen
+      title: A catalogue of optimizing transformations
+      year: 1991
+      pages: 1-30
+      resolves_to: ""
+    - key: "3"
+      raw: Allen, F. E. Interprocedural data flow analysis. Inf. Proc. 74 (1974), 398–402.
+      authors:
+        - F. E. Allen
+      title: Interprocedural data flow analysis
+      venue: Inf. Proc. 74 (1974), 398–402
+      year: 1974
+      pages: 398-402
+      resolves_to: ""
+    - key: "4"
+      raw: Allen, F. E., Carter, J. L., Fabri, J., Ferrante, J., Harrison, W. H., Loewner, P. G., and Trevillyan, L. H. The experimental compiling system. IBM J. Res. Dev. 24, 6 (Nov. 1980), 695–715.
+      authors:
+        - F. E. Allen
+        - J. L. Carter
+        - J. Fabri
+        - J. Ferrante
+        - W. H. Harrison
+        - P. G. Loewner
+        - L. H. Trevillyan
+      title: The experimental compiling system
+      venue: IBM J. Res. Dev. 24, 6 (Nov. 1980), 695–715
+      year: 1980
+      pages: 695-715
+      resolves_to: ""
+    - key: "5"
+      raw: Alpern, B., Wegman, M. N., and Zadeck, F. K. Detecting equality of values in programs. In Conference Recordings of the Fifteenth ACM Symposium on Principles of Programming Languages. (Jan. 1988), pp. 1–11.
+      authors:
+        - B. Alpern
+        - M. N. Wegman
+        - F. K. Zadeck
+      title: Detecting equality of values in programs
+      venue: In Conference Recordings of the Fifteenth ACM Symposium on Principles of Programming Languages. (Jan. 1988), pp. 1–11
+      year: 1988
+      pages: 1-11
+      resolves_to: ""
+    - key: "6"
+      raw: Appel, A. W., and Jim, T. Continuation-passing, closure-passing style. In Conference Recordings of the Sixteenth ACM Symposium on Principles of Programming Languages. (Jan. 1989), pp. 293–302.
+      authors:
+        - A. W. Appel
+        - Jim
+        - T. Continuation-passing
+        - closure-passing style
+      title: In Conference Recordings of the Sixteenth ACM Symposium on Principles of Programming Languages
+      venue: (Jan. 1989), pp. 293–302
+      year: 1989
+      pages: 293-302
+      resolves_to: ""
+    - key: "7"
+      raw: Ball, J. E. Predicting the effects of optimization on a procedure body. In Proceedings of the SIGPLAN’79 Symposium on Compiler Construction. (Aug. 1979), pp. 214–220. Published as SIGPLAN Not. 14,
+      authors:
+        - J. E. Ball
+      title: Predicting the effects of optimization on a procedure body
+      venue: In Proceedings of the SIGPLAN’79 Symposium on Compiler Construction. (Aug. 1979), pp. 214–220. Published as SIGPLAN Not. 14
+      year: 1979
+      pages: 214-220
+      resolves_to: ""
+    - key: "8"
+      raw: 8. Banning, J. B. An efficient way to find the side effects of procedure calls and the aliases of variables. In Conference Recordings of the Sixth ACM Symposium on Principles of Programming Languages. (Jan. 1979), pp. 29–41.
+      title: "8"
+      year: 1979
+      pages: 29-41
+      resolves_to: ""
+    - key: "9"
+      raw: Barth, J. M. An interprocedural data flow analysis algorithm. In Conference Recordings of the Fourth ACM Symposium on Principles of Programming Languages. (Jan. 1977), pp. 119–131.
+      authors:
+        - J. M. Barth
+      title: An interprocedural data flow analysis algorithm
+      venue: In Conference Recordings of the Fourth ACM Symposium on Principles of Programming Languages. (Jan. 1977), pp. 119–131
+      year: 1977
+      pages: 119-131
+      resolves_to: ""
+    - key: "10"
+      raw: Burke, M. An interval approach toward interprocedural analysis. Tech. Rep. RC 10640 47724, IBM, July 1984.
+      authors:
+        - M. Burke
+      title: An interval approach toward interprocedural analysis
+      venue: Tech. Rep. RC 10640 47724, IBM
+      year: 1984
+      resolves_to: ""
+    - key: "11"
+      raw: Burke, M., and Cytron, R. Interprocedural dependence analysis and parallelization. In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction. (June 1986), pp. 162–175. Published as SIGPLAN Not. 21, 7.
+      authors:
+        - M. Burke
+        - R. Cytron
+      title: Interprocedural dependence analysis and parallelization
+      venue: In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction. (June 1986), pp. 162–175. Published as SIGPLAN Not. 21, 7
+      year: 1986
+      pages: 162-175
+      resolves_to: ""
+    - key: "12"
+      raw: Callahan, D., Cooper, K. D., Kennedy, K. W., and Torczon, L. M. Interprocedural constant propagation. In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction. (June 1986), pp. 152–161. Published as SIGPLAN Not. 21, 7.
+      authors:
+        - D. Callahan
+        - K. D. Cooper
+        - K. W. Kennedy
+        - Torczon
+        - L. M. Interprocedural constant propagation
+      title: In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction
+      venue: (June 1986), pp. 152–161. Published as SIGPLAN Not. 21, 7
+      year: 1986
+      pages: 152-161
+      resolves_to: ""
+    - key: "13"
+      raw: Chow, F. C. A portable machine-independent global optimizer—Design and measurements. Tech. Rep. 83-254 (Ph.D. thesis), Computer Systems Laboratory, Stanford Univ., Palo Alto, Calif., Dec. 1983.
+      authors:
+        - F. C. Chow
+      title: A portable machine-independent global optimizer—Design and measurements
+      venue: Tech. Rep. 83-254 (Ph.D. thesis), Computer Systems Laboratory, Stanford Univ., Palo Alto, Calif., Dec
+      year: 1983
+      resolves_to: ""
+    - key: "14"
+      raw: 'Cocke, J. and Schwartz, T. Programming Languages and Their Compilers: Preliminary Notes. Courant Institute of Mathematical Sciences, New York Univ., April 1970.'
+      title: 'Cocke, J. and Schwartz, T. Programming Languages and Their Compilers: Preliminary Notes'
+      venue: Courant Institute of Mathematical Sciences, New York Univ
+      year: 1970
+      resolves_to: ""
+    - key: "15"
+      raw: Cooper, K. D. Interprocedural data flow analysis in a programming environment. Ph.D. thesis, Dept. of Mathematical Sciences, Rice Univ., 1983.
+      authors:
+        - K. D. Cooper
+      title: Interprocedural data flow analysis in a programming environment
+      venue: Ph.D. thesis, Dept. of Mathematical Sciences, Rice Univ
+      year: 1983
+      resolves_to: ""
+    - key: "16"
+      raw: Cytron, R., Ferrante, J., Rosen, B. K., Wegman, M. N., and Zadeck, F. K. Efficiently computing static single assignment form and the control dependence graph. Tech. Rep. RC 14756, IBM, revised Mar. 1991.
+      authors:
+        - R. Cytron
+        - J. Ferrante
+        - B. K. Rosen
+        - M. N. Wegman
+        - F. K. Zadeck
+      title: Efficiently computing static single assignment form and the control dependence graph
+      venue: Tech. Rep. RC 14756, IBM, revised Mar
+      year: 1991
+      resolves_to: cytron-1991-ssa
+    - key: "17"
+      raw: 'Ellis, J. R. Bulldog: A compiler for VLIW architectures. Ph.D. thesis, Dept. of Computer Science, Yale Univ., New Haven, Conn., Feb. 1985.'
+      title: 'Ellis, J. R. Bulldog: A compiler for VLIW architectures'
+      venue: Ph.D. thesis, Dept. of Computer Science, Yale Univ., New Haven, Conn., Feb
+      year: 1985
+      resolves_to: ""
+    - key: "18"
+      raw: Ershov, A. P. On the essence of compilation. In IFIP Working Conference on Formal Description of Programming Concepts. (Aug. 1977).
+      authors:
+        - A. P. Ershov
+      title: On the essence of compilation
+      venue: In IFIP Working Conference on Formal Description of Programming Concepts. (Aug. 1977)
+      year: 1977
+      resolves_to: ""
+    - key: "19"
+      raw: Ferrante, J. and Ottensstein, K. J. A program form based on data dependency in predicate regions. In Conference Recordings of the Tenth ACM Symposium on Principles of Programming Languages. (Jan. 1983).
+      authors:
+        - J. Ferrante
+        - K. J. Ottensstein
+      title: A program form based on data dependency in predicate regions
+      venue: In Conference Recordings of the Tenth ACM Symposium on Principles of Programming Languages. (Jan. 1983)
+      year: 1983
+      resolves_to: ""
+    - key: "20"
+      raw: Furtney, M. and Pratt, T. W. Kernel-control tailoring of sequential programs for parallel execution. In Proceedings of the 1982 International Conference on Parallel Processing. (Aug. 1982), pp. 245–247.
+      authors:
+        - M. Furtney
+        - T. W. Pratt
+      title: Kernel-control tailoring of sequential programs for parallel execution
+      venue: In Proceedings of the 1982 International Conference on Parallel Processing. (Aug. 1982), pp. 245–247
+      year: 1982
+      pages: 245-247
+      resolves_to: ""
+    - key: "21"
+      raw: Graham, S. L. and Wegman, M. N. A fast and usually linear algorithm for global flow analysis. J. ACM 23, 1 (Jan. 1976), 172–202.
+      authors:
+        - S. L. Graham
+        - M. N. Wegman
+      title: A fast and usually linear algorithm for global flow analysis
+      venue: J. ACM 23, 1 (Jan. 1976), 172–202
+      year: 1976
+      pages: 172-202
+      resolves_to: ""
+    - key: "22"
+      raw: Harrison, W. H. Compiler analysis of the value ranges for variables. IEEE Trans. Softw. Eng. SE-3, 3 (May 1977), 243–250.
+      authors:
+        - W. H. Harrison
+      title: Compiler analysis of the value ranges for variables
+      venue: IEEE Trans. Softw. Eng. SE-3, 3 (May 1977), 243–250
+      year: 1977
+      pages: 243-250
+      resolves_to: ""
+    - key: "23"
+      raw: Holley, L. H. and Rosen, B. K. Qualified data flow problems. IEEE Trans. Softw. Eng. SE-7, 1 (Jan. 1981), 60–78.
+      authors:
+        - L. H. Holley
+        - B. K. Rosen
+      title: Qualified data flow problems
+      venue: IEEE Trans. Softw. Eng. SE-7, 1 (Jan. 1981), 60–78
+      year: 1981
+      pages: 60-78
+      resolves_to: ""
+    - key: "24"
+      raw: Johnson, H. Dataflow analysis for intractable systems software. In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction. (June 1986), pp. 109–117. Published as SIGPLAN Not. 21, 7.
+      authors:
+        - H. Johnson
+      title: Dataflow analysis for intractable systems software
+      venue: In Proceedings of the SIGPLAN’86 Symposium on Compiler Construction. (June 1986), pp. 109–117. Published as SIGPLAN Not. 21, 7
+      year: 1986
+      pages: 109-117
+      resolves_to: ""
+    - key: "25"
+      raw: Kam, J. B. and Ullman, J. D. Monotone data flow analysis frameworks. Acta Inf. 7 (1977), 305–317.
+      authors:
+        - J. B. Kam
+        - J. D. Ullman
+      title: Monotone data flow analysis frameworks
+      venue: Acta Inf. 7 (1977), 305–317
+      year: 1977
+      pages: 305-317
+      resolves_to: ""
+    - key: "26"
+      raw: Kildall, G. A. A unified approach to global program optimization. In Conference Recordings of the First ACM Symposium on Principles of Programming Languages. (Oct. 1973), pp. 194–206.
+      authors:
+        - G. A. Kildall
+      title: A unified approach to global program optimization
+      venue: In Conference Recordings of the First ACM Symposium on Principles of Programming Languages. (Oct. 1973), pp. 194–206
+      year: 1973
+      pages: 194-206
+      resolves_to: ""
+    - key: "27"
+      raw: Morel, E. and Renvoise, C. Global optimization by suppression of partial redundancies. Commun. ACM 22, 2 (Feb. 1979), 96–103.
+      authors:
+        - E. Morel
+        - C. Renvoise
+      title: Global optimization by suppression of partial redundancies
+      venue: Commun. ACM 22, 2 (Feb. 1979), 96–103
+      year: 1979
+      pages: 96-103
+      resolves_to: ""
+    - key: "28"
+      raw: Muchnick, S. S. and Jones, N. D, Eds. Program Flow Analysis. Prentice-Hall, Englewood Cliffs, N.J., 1981.
+      authors:
+        - S. S. Muchnick
+        - N. D Jones
+        - Eds. Program Flow Analysis
+      title: Prentice-Hall, Englewood Cliffs, N.J., 1981
+      year: 1981
+      resolves_to: ""
+    - key: "29"
+      raw: Myers, E. W. A precise interprocedural data flow algorithm. In Conference Recordings of the Eighth ACM Symposium on Principles of Programming Languages. (Jan. 1981), pp. 219–230.
+      authors:
+        - E. W. Myers
+      title: A precise interprocedural data flow algorithm
+      venue: In Conference Recordings of the Eighth ACM Symposium on Principles of Programming Languages. (Jan. 1981), pp. 219–230
+      year: 1981
+      pages: 219-230
+      resolves_to: ""
+    - key: "30"
+      raw: Ottenstein, K. J. Data-flow graphs as an intermediate form. Ph.D. thesis, Dept. of Computer Science, Purdue Univ., Aug. 1978.
+      authors:
+        - K. J. Ottenstein
+      title: Data-flow graphs as an intermediate form
+      venue: Ph.D. thesis, Dept. of Computer Science, Purdue Univ., Aug
+      year: 1978
+      resolves_to: ""
+    - key: "31"
+      raw: Pratt, T. W. Program analysis and optimization through kernel-control decomposition. Acta Inf. 9 (1978), 195–216.
+      authors:
+        - T. W. Pratt
+      title: Program analysis and optimization through kernel-control decomposition
+      venue: Acta Inf. 9 (1978), 195–216
+      year: 1978
+      pages: 195-216
+      resolves_to: ""
+    - key: "32"
+      raw: Reif, J. H. and Lewis, H R Symbolic evaluation and the global value graph. In Conference Recordings of the Fourth ACM Symposium on Principles of Programming Languages. (Jan. 1977), pp. 104–118.
+      authors:
+        - J. H. Reif
+        - Lewis
+        - H R Symbolic evaluation
+        - the global value graph
+      title: In Conference Recordings of the Fourth ACM Symposium on Principles of Programming Languages
+      venue: (Jan. 1977), pp. 104–118
+      year: 1977
+      pages: 104-118
+      resolves_to: ""
+    - key: "33"
+      raw: Reif, J. H. and Lewis, H. R. Efficient symbolic analysis of programs J. Comput. Syst. Sci. 32, 3 (June 1986), 280–313.
+      title: Reif, J. H. and Lewis, H. R. Efficient symbolic analysis of programs J. Comput. Syst. Sci. 32, 3 (June 1986), 280–313
+      year: 1986
+      pages: 280-313
+      resolves_to: ""
+    - key: "34"
+      raw: Reif, J. H. and Tarjan, R. E. Symbolic program analysis in almost linear time. SIAM J. Comput. 11, 1 (Feb. 1982), 81–93.
+      authors:
+        - J. H. Reif
+        - R. E. Tarjan
+      title: Symbolic program analysis in almost linear time
+      venue: SIAM J. Comput. 11, 1 (Feb. 1982), 81–93
+      year: 1982
+      pages: 81-93
+      resolves_to: ""
+    - key: "35"
+      raw: Richardson, S. and Ganapathi, M. Interprocedural analysis vs. procedure integration. Inf. Process. Lett. 32, 3 (Aug. 1989), 137–142.
+      authors:
+        - S. Richardson
+        - Ganapathi
+        - M. Interprocedural analysis vs
+      title: procedure integration
+      venue: Inf. Process. Lett. 32, 3 (Aug. 1989), 137–142
+      year: 1989
+      pages: 137-142
+      resolves_to: ""
+    - key: "36"
+      raw: Richardson, S. and Ganapathi, M. Code optimization across procedures. IEEE Comput. 22, 2 (Feb. 1989), 42–51.
+      authors:
+        - S. Richardson
+        - M. Ganapathi
+      title: Code optimization across procedures
+      venue: IEEE Comput. 22, 2 (Feb. 1989), 42–51
+      year: 1989
+      pages: 42-51
+      resolves_to: ""
+    - key: "37"
+      raw: Rosen, B. K. Data flow analysis for procedural languages. J. ACM 26, 2 (April 1979), 322–344.
+      authors:
+        - B. K. Rosen
+      title: Data flow analysis for procedural languages
+      venue: J. ACM 26, 2 (April 1979), 322–344
+      year: 1979
+      pages: 322-344
+      resolves_to: ""
+    - key: "38"
+      raw: Rosen, B. K., Wegman, M. N., and Zadeck, F. K. Global value numbers and redundant computations. In Conference Recordings of the Fifteenth ACM Symposium on Principles of Programming Languages. (Jan. 1988), pp. 12–27.
+      authors:
+        - B. K. Rosen
+        - M. N. Wegman
+        - F. K. Zadeck
+      title: Global value numbers and redundant computations
+      venue: In Conference Recordings of the Fifteenth ACM Symposium on Principles of Programming Languages. (Jan. 1988), pp. 12–27
+      year: 1988
+      pages: 12-27
+      resolves_to: ""
+    - key: "39"
+      raw: Scheifler, R. W. An analysis of inline substitution for a structured programming language. Commun. ACM 20, 9 (Sept. 1977), 647–654.
+      authors:
+        - R. W. Scheifler
+      title: An analysis of inline substitution for a structured programming language
+      venue: Commun. ACM 20, 9 (Sept. 1977), 647–654
+      year: 1977
+      pages: 647-654
+      resolves_to: ""
+    - key: "40"
+      raw: Shapiro, R. M. and Saint, H. The representation of algorithms. Tech. Rep. CA-7002-1432, Massachusetts Computer Associates, Feb. 1970.
+      authors:
+        - R. M. Shapiro
+        - H. Saint
+      title: The representation of algorithms
+      venue: Tech. Rep. CA-7002-1432, Massachusetts Computer Associates, Feb
+      year: 1970
+      resolves_to: ""
+    - key: "41"
+      raw: Tenenbaum, A. M. Type determination for very high level languages. Ph.D. thesis, Courant Institute of Mathematical Sciences, New York Univ., Oct. 1974.
+      authors:
+        - A. M. Tenenbaum
+      title: Type determination for very high level languages
+      venue: Ph.D. thesis, Courant Institute of Mathematical Sciences, New York Univ., Oct
+      year: 1974
+      resolves_to: ""
+    - key: "42"
+      raw: Wegbreit, B. Property extraction in well-founded property sets IEEE Trans. Softw. Eng SE-1, 3 (Sept 1975), 270–285.
+      authors:
+        - B. Wegbreit
+      title: Property extraction in well-founded property sets IEEE Trans. Softw
+      venue: Eng SE-1, 3 (Sept 1975), 270–285
+      year: 1975
+      pages: 270-285
+      resolves_to: ""
+    - key: "43"
+      raw: Wegman, M. N. General and efficient methods for global code improvement. Ph.D. thesis, Computer Science Dept., Univ. of California at Berkeley, Berkeley, 1981.
+      authors:
+        - M. N. Wegman
+      title: General and efficient methods for global code improvement
+      venue: Ph.D. thesis, Computer Science Dept., Univ. of California at Berkeley, Berkeley
+      year: 1981
+      resolves_to: ""
+    - key: "44"
+      raw: Wegman, M. N. and Zadeck, F. K. Constant propagation with conditional branches. In Conference Recordings of the Twelfth ACM Symposium on Principles of Programming Languages. (Jan. 1985), pp. 291–299. Received February 1988; revised June 1989; accepted October 1990
+      authors:
+        - M. N. Wegman
+        - F. K. Zadeck
+      title: Constant propagation with conditional branches
+      year: 1990
+      pages: 291-299
+      resolves_to: ""

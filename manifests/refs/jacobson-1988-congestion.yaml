@@ -1,0 +1,220 @@
+paper: jacobson-1988-congestion
+style: bracket
+entries:
+    - key: "1"
+      raw: Aldous, D. J. Ultimate instability of exponential back-off protocol for acknowledgment based transmission control of random access communication channels. IEEE Transactions on Information Theory IT-33, 2 (Mar. 1987).
+      authors:
+        - D. J. Aldous
+      title: Ultimate instability of exponential back-off protocol for acknowledgment based transmission control of random access communication channels
+      venue: IEEE Transactions on Information Theory IT-33, 2 (Mar. 1987)
+      year: 1987
+      resolves_to: ""
+    - key: "2"
+      raw: ARPANET Working Group Requests for Comment, DDN Network Information Center. Transmission Control Protocol Specification. SRI International, Menlo Park, CA, Sept. 1981. RFC-793.
+      authors:
+        - ARPANET Working Group Requests for Comment
+        - DDN Network Information Center
+      title: Transmission Control Protocol Specification
+      venue: SRI International, Menlo Park, CA, Sept. 1981. RFC-793
+      year: 1981
+      resolves_to: ""
+    - key: "3"
+      raw: Borrelli, R., and Coleman, C. Differential Equations. Prentice-Hall Inc., 1987.
+      authors:
+        - R. Borrelli
+        - Coleman
+        - C. Differential Equations
+      title: Prentice-Hall Inc., 1987
+      year: 1987
+      resolves_to: ""
+    - key: "4"
+      raw: 'Chiu, D.-M., and Jain, R. Networks with a connectionless network layer; part iii: Analysis of the increase and decrease algorithms. Tech. Rep. DEC-TR-509, Digital Equipment Corporation, Stanford, CA, Aug. 1987.'
+      title: 'Chiu, D.-M., and Jain, R. Networks with a connectionless network layer; part iii: Analysis of the increase and decrease algorithms'
+      venue: Tech. Rep. DEC-TR-509, Digital Equipment Corporation, Stanford, CA, Aug
+      year: 1987
+      resolves_to: ""
+    - key: "5"
+      raw: Clark, D. Window and Acknowledgement Strategy in TCP. ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, July 1982. RFC-813.
+      authors:
+        - D. Clark
+      title: Window and Acknowledgement Strategy in TCP
+      venue: ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, July 1982. RFC-813
+      year: 1982
+      resolves_to: ""
+    - key: "6"
+      raw: EDGE, S. W. An adaptive timeout algorithm for retransmission across a packet switching network. In Proceedings of SIGCOMM ’83 (Mar. 1983), ACM.
+      authors:
+        - S. W. EDGE
+      title: An adaptive timeout algorithm for retransmission across a packet switching network
+      venue: In Proceedings of SIGCOMM ’83 (Mar. 1983), ACM
+      year: 1983
+      resolves_to: ""
+    - key: "7"
+      raw: FELLER, W. Probability Theory and its Applications, second ed., vol. II. John Wiley & Sons, 1971.
+      authors:
+        - FELLER
+        - W. Probability Theory
+        - its Applications
+        - second ed
+        - vol. II
+      title: John Wiley & Sons, 1971
+      year: 1971
+      resolves_to: ""
+    - key: "8"
+      raw: HAJEK, B. Stochastic approximation methods for decentralized control of multi-access communications. IEEE Transactions on Information Theory IT-31, 2 (Mar. 1985).
+      authors:
+        - B. HAJEK
+      title: Stochastic approximation methods for decentralized control of multi-access communications
+      venue: IEEE Transactions on Information Theory IT-31, 2 (Mar. 1985)
+      year: 1985
+      resolves_to: ""
+    - key: "9"
+      raw: HAJEK, B., AND VAN LOON, T. Decentralized dynamic control of a multiaccess broadcast channel. IEEE Transactions on Automatic Control AC-27, 3 (June 1982).
+      authors:
+        - B. HAJEK
+        - T. VAN LOON
+      title: Decentralized dynamic control of a multiaccess broadcast channel
+      venue: IEEE Transactions on Automatic Control AC-27, 3 (June 1982)
+      year: 1982
+      resolves_to: ""
+    - key: "10"
+      raw: Proceedings of the Sixth Internet Engineering Task Force (Boston, MA, Apr. 1987). Proceedings available as NIC document IETF-87/2P from DDN Network Information Center, SRI International, Menlo Park, CA.
+      authors:
+        - Proceedings of the Sixth Internet Engineering Task Force (Boston
+        - MA
+        - Apr
+      title: 1987)
+      venue: Proceedings available as NIC document IETF-87/2P from DDN Network Information Center, SRI International, Menlo Park, CA
+      year: 1987
+      resolves_to: ""
+    - key: "11"
+      raw: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO International Standard 8473, Information Processing Systems — Open Systems Interconnection — Connectionless-mode Network Service Protocol Specification, Mar. 1986.
+      authors:
+        - INTERNATIONAL ORGANIZATION FOR STANDARDIZATION
+      title: ISO International Standard 8473, Information Processing Systems — Open Systems Interconnection — Connectionless-mode Network Service Protocol Specification, Mar
+      year: 1986
+      resolves_to: ""
+    - key: "12"
+      raw: JACOBSON, V. Congestion avoidance and control. In Proceedings of SIGCOMM ’88 (Stanford, CA, Aug. 1988), ACM.
+      authors:
+        - V. JACOBSON
+      title: Congestion avoidance and control
+      venue: In Proceedings of SIGCOMM ’88 (Stanford, CA, Aug. 1988), ACM
+      year: 1988
+      resolves_to: ""
+    - key: "13"
+      raw: JAIN, R. Divergence of timeout algorithms for packet retransmissions. In Proceedings Fifth Annual International Phoenix Conference on Computers and Communications (Scottsdale, AZ, Mar. 1986).
+      authors:
+        - R. JAIN
+      title: Divergence of timeout algorithms for packet retransmissions
+      venue: In Proceedings Fifth Annual International Phoenix Conference on Computers and Communications (Scottsdale, AZ, Mar. 1986)
+      year: 1986
+      resolves_to: ""
+    - key: "14"
+      raw: JAIN, R. A timeout-based congestion control scheme for window flow-controlled networks. IEEE Journal on Selected Areas in Communications SAC-4, 7 (Oct. 1986).
+      authors:
+        - R. JAIN
+      title: A timeout-based congestion control scheme for window flow-controlled networks
+      venue: IEEE Journal on Selected Areas in Communications SAC-4, 7 (Oct. 1986)
+      year: 1986
+      resolves_to: ""
+    - key: "15"
+      raw: JAIN, R., RAMAKRISHNAN, K., AND CHIU, D.-M. Congestion avoidance in computer networks with a connectionless network layer. Tech. Rep. DEC-TR-506, Digital Equipment Corporation, Aug. 1987.
+      authors:
+        - R. JAIN
+        - K. RAMAKRISHNAN
+        - CHIU
+        - D.-M. Congestion avoidance in computer networks with a connectionless network layer
+      title: Tech. Rep. DEC-TR-506, Digital Equipment Corporation, Aug
+      year: 1987
+      resolves_to: ""
+    - key: "16"
+      raw: KARN, P., AND PARTRIDGE, C. Estimating round-trip times in reliable transport protocols. In Proceedings of SIGCOMM ’87 (Aug. 1987), ACM.
+      authors:
+        - P. KARN
+        - C. PARTRIDGE
+      title: Estimating round-trip times in reliable transport protocols
+      venue: In Proceedings of SIGCOMM ’87 (Aug. 1987), ACM
+      year: 1987
+      resolves_to: ""
+    - key: "17"
+      raw: KELLY, F. P. Stochastic models of computer communication systems. Journal of the Royal Statistical Society B 47, 3 (1985), 379–395.
+      authors:
+        - F. P. KELLY
+      title: Stochastic models of computer communication systems
+      venue: Journal of the Royal Statistical Society B 47, 3 (1985), 379–395
+      year: 1985
+      pages: 379-395
+      resolves_to: ""
+    - key: "18"
+      raw: KLEINROCK, L. Queueing Systems, vol. II. John Wiley & Sons, 1976.
+      authors:
+        - KLEINROCK
+        - L. Queueing Systems
+        - vol. II
+      title: John Wiley & Sons, 1976
+      year: 1976
+      resolves_to: ""
+    - key: "19"
+      raw: 'KLINE, C. Supercomputers on the Internet: A case study. In Proceedings of SIGCOMM ’87 (Aug. 1987), ACM.'
+      title: 'KLINE, C. Supercomputers on the Internet: A case study'
+      venue: In Proceedings of SIGCOMM ’87 (Aug. 1987), ACM
+      year: 1987
+      resolves_to: ""
+    - key: "20"
+      raw: LJUNG, L., AND SÖDERSTRÖM, T. Theory and Practice of Recursive Identification. MIT Press, 1983.
+      authors:
+        - L. LJUNG
+        - T. SÖDERSTRÖM
+      title: Theory and Practice of Recursive Identification
+      venue: MIT Press
+      year: 1983
+      resolves_to: ""
+    - key: "21"
+      raw: LUENBERGER, D. G. Introduction to Dynamic Systems. John Wiley & Sons, 1979.
+      authors:
+        - D. G. LUENBERGER
+      title: Introduction to Dynamic Systems
+      venue: John Wiley & Sons
+      year: 1979
+      resolves_to: ""
+    - key: "22"
+      raw: MILLS, D. Internet Delay Experiments. ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, Dec. 1983. RFC-889.
+      authors:
+        - MILLS
+        - D. Internet Delay Experiments
+      title: ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, Dec
+      venue: 1983. RFC-889
+      year: 1983
+      resolves_to: ""
+    - key: "23"
+      raw: NAGLE, J. Congestion Control in IP/TCP Internetworks. ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, Jan. 1984. RFC-896.
+      authors:
+        - J. NAGLE
+      title: Congestion Control in IP/TCP Internetworks
+      venue: ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, Jan. 1984. RFC-896
+      year: 1984
+      resolves_to: nagle-1984-congestion
+    - key: "24"
+      raw: PRUE, W., AND POSTEL, J. Something A Host Could Do with Source Quench. ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, July 1987. RFC-1016.
+      authors:
+        - W. PRUE
+        - J. POSTEL
+      title: Something A Host Could Do with Source Quench
+      venue: ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, July 1987. RFC-1016
+      year: 1987
+      resolves_to: ""
+    - key: "25"
+      raw: 'ROMKEY, J. A Nonstandard for Transmission of IP Datagrams Over Serial Lines: Slip. ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, June 1988. RFC-1055.'
+      title: 'ROMKEY, J. A Nonstandard for Transmission of IP Datagrams Over Serial Lines: Slip'
+      venue: ARPANET Working Group Requests for Comment, DDN Network Information Center, SRI International, Menlo Park, CA, June 1988. RFC-1055
+      year: 1988
+      resolves_to: ""
+    - key: "26"
+      raw: ZHANG, L. Why TCP timers don’t work well. In Proceedings of SIGCOMM ’86 (Aug. 1986), ACM.
+      authors:
+        - L. ZHANG
+      title: Why TCP timers don’t work well
+      venue: In Proceedings of SIGCOMM ’86 (Aug. 1986), ACM
+      year: 1986
+      resolves_to: ""

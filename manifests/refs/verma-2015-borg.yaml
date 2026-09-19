@@ -1,0 +1,859 @@
+paper: verma-2015-borg
+style: bracket
+entries:
+    - key: "1"
+      raw: 'O. A. Abdul-Rahman and K. Aida. Towards understanding the usage behavior of Google cloud users: the mice and elephants phenomenon. In Proc. IEEE Int’l Conf. on Cloud Computing Technology and Science (CloudCom), pages 272–277, Singapore, Dec. 2014.'
+      authors:
+        - O. A. Abdul-Rahman
+        - K. Aida
+      title: 'Towards understanding the usage behavior of Google cloud users: the mice and elephants phenomenon'
+      venue: In Proc. IEEE Int’l Conf. on Cloud Computing Technology and Science (CloudCom), pages 272–277, Singapore, Dec
+      year: 2014
+      pages: 272-277
+      resolves_to: ""
+    - key: "2"
+      raw: Adaptive Computing Enterprises Inc., Provo, UT. Maui Scheduler Administrator’s Guide, 3.2 edition, 2011.
+      authors:
+        - Adaptive Computing Enterprises Inc
+        - Provo
+        - UT
+      title: Maui Scheduler Administrator’s Guide, 3.2 edition, 2011
+      year: 2011
+      resolves_to: ""
+    - key: "3"
+      raw: 'T. Akidau, A. Balikov, K. Bekiroğlu, S. Chernyak, J. Haberman, R. Lax, S. McVeety, D. Mills, P. Nordstrom, and S. Whittle. MillWheel: fault-tolerant stream processing at internet scale. In Proc. Int’l Conf. on Very Large Data Bases (VLDB), pages 734–746, Riva del Garda, Italy, Aug. 2013.'
+      authors:
+        - T. Akidau
+        - A. Balikov
+        - K. Bekiroğlu
+        - S. Chernyak
+        - J. Haberman
+        - R. Lax
+        - S. McVeety
+        - D. Mills
+        - P. Nordstrom
+        - S. Whittle
+      title: 'MillWheel: fault-tolerant stream processing at internet scale'
+      venue: In Proc. Int’l Conf. on Very Large Data Bases (VLDB), pages 734–746, Riva del Garda, Italy, Aug
+      year: 2013
+      pages: 734-746
+      resolves_to: ""
+    - key: "4"
+      raw: Y. Amir, B. Awerbuch, A. Barak, R. S. Borgstrom, and A. Keren. An opportunity cost approach for job assignment in a scalable computing cluster. IEEE Trans. Parallel Distrib. Syst., 11(7):760–768, July 2000.
+      authors:
+        - Y. Amir
+        - B. Awerbuch
+        - A. Barak
+        - R. S. Borgstrom
+        - A. Keren
+      title: An opportunity cost approach for job assignment in a scalable computing cluster
+      venue: IEEE Trans. Parallel Distrib. Syst., 11(7):760–768
+      year: 2000
+      resolves_to: ""
+    - key: "5"
+      raw: Apache Aurora. http://aurora.incubator.apache.org/, 2014.
+      authors:
+        - Apache Aurora
+      title: http://aurora.incubator.apache.org/, 2014
+      year: 2014
+      url: http://aurora.incubator.apache.org/
+      resolves_to: ""
+    - key: "6"
+      raw: Aurora Configuration Tutorial. https://aurora.incubator.apache.org/documentation/latest/configuration-tutorial/, 2014.
+      authors:
+        - Aurora Configuration Tutorial
+      title: https://aurora.incubator.apache.org/documentation/latest/configuration-tutorial/, 2014
+      year: 2014
+      url: https://aurora.incubator.apache.org/documentation/latest/configuration-tutorial/
+      resolves_to: ""
+    - key: "7"
+      raw: AWS. Amazon Web Services VM Instances. http://aws.amazon.com/ec2/instance-types/, 2014.
+      title: AWS
+      venue: Amazon Web Services VM Instances
+      year: 2014
+      url: http://aws.amazon.com/ec2/instance-types/
+      resolves_to: ""
+    - key: "8"
+      raw: 'J. Baker, C. Bond, J. Corbett, J. Furman, A. Khorlin, J. Larson, J.-M. Leon, Y. Li, A. Lloyd, and V. Yushprakh. Megastore: Providing scalable, highly available storage for interactive services. In Proc. Conference on Innovative Data Systems Research (CIDR), pages 223–234, Asilomar, CA, USA, Jan. 2011.'
+      authors:
+        - J. Baker
+        - C. Bond
+        - J. Corbett
+        - J. Furman
+        - A. Khorlin
+        - J. Larson
+        - J.-M. Leon
+        - Y. Li
+        - A. Lloyd
+        - V. Yushprakh
+      title: 'Megastore: Providing scalable, highly available storage for interactive services'
+      venue: In Proc. Conference on Innovative Data Systems Research (CIDR), pages 223–234, Asilomar, CA, USA, Jan
+      year: 2011
+      pages: 223-234
+      resolves_to: ""
+    - key: "9"
+      raw: M. Baker and J. Ousterhout. Availability in the Sprite distributed file system. Operating Systems Review, 25(2):95–98, Apr. 1991.
+      authors:
+        - M. Baker
+        - J. Ousterhout
+      title: Availability in the Sprite distributed file system
+      venue: Operating Systems Review, 25(2):95–98, Apr
+      year: 1991
+      resolves_to: ""
+    - key: "10"
+      raw: 'L. A. Barroso, J. Clidaras, and U. Hölzle. The datacenter as a computer: an introduction to the design of warehouse-scale machines. Morgan Claypool Publishers, 2nd edition, 2013.'
+      authors:
+        - L. A. Barroso
+        - J. Clidaras
+        - U. Hölzle
+      title: 'The datacenter as a computer: an introduction to the design of warehouse-scale machines'
+      venue: Morgan Claypool Publishers, 2nd edition
+      year: 2013
+      resolves_to: ""
+    - key: "11"
+      raw: 'L. A. Barroso, J. Dean, and U. Holzle. Web search for a planet: the Google cluster architecture. In IEEE Micro, pages 22–28, 2003.'
+      authors:
+        - L. A. Barroso
+        - J. Dean
+        - U. Holzle
+      title: 'Web search for a planet: the Google cluster architecture'
+      venue: In IEEE Micro, pages 22–28
+      year: 2003
+      pages: 22-28
+      resolves_to: ""
+    - key: "12"
+      raw: 'I. Bokharouss. GCL Viewer: a study in improving the understanding of GCL programs. Technical report, Eindhoven Univ. of Technology, 2008. MS thesis.'
+      authors:
+        - I. Bokharouss
+      title: 'GCL Viewer: a study in improving the understanding of GCL programs'
+      venue: Technical report, Eindhoven Univ. of Technology, 2008. MS thesis
+      year: 2008
+      resolves_to: ""
+    - key: "13"
+      raw: 'E. Boutin, J. Ekanayake, W. Lin, B. Shi, J. Zhou, Z. Qian, M. Wu, and L. Zhou. Apollo: scalable and coordinated scheduling for cloud-scale computing. In Proc. USENIX Symp. on Operating Systems Design and Implementation (OSDI), Oct. 2014.'
+      authors:
+        - E. Boutin
+        - J. Ekanayake
+        - W. Lin
+        - B. Shi
+        - J. Zhou
+        - Z. Qian
+        - M. Wu
+        - L. Zhou
+      title: 'Apollo: scalable and coordinated scheduling for cloud-scale computing'
+      venue: In Proc. USENIX Symp. on Operating Systems Design and Implementation (OSDI), Oct
+      year: 2014
+      resolves_to: ""
+    - key: "14"
+      raw: M. Burrows. The Chubby lock service for loosely-coupled distributed systems. In Proc. USENIX Symp. on Operating Systems Design and Implementation (OSDI), pages 335–350, Seattle, WA, USA, 2006.
+      authors:
+        - M. Burrows
+      title: The Chubby lock service for loosely-coupled distributed systems
+      venue: In Proc. USENIX Symp. on Operating Systems Design and Implementation (OSDI), pages 335–350, Seattle, WA, USA
+      year: 2006
+      pages: 335-350
+      resolves_to: ""
+    - key: "15"
+      raw: cAdvisor. https://github.com/google/cadvisor, 2014.
+      title: cAdvisor
+      year: 2014
+      url: https://github.com/google/cadvisor
+      resolves_to: ""
+    - key: "16"
+      raw: CFS per-entity load patches. http://lwn.net/Articles/531853, 2013.
+      title: CFS per-entity load patches
+      year: 2013
+      url: http://lwn.net/Articles/531853
+      resolves_to: ""
+    - key: "17"
+      raw: cgroups. http://en.wikipedia.org/wiki/Cgroups, 2014.
+      title: cgroups
+      year: 2014
+      url: http://en.wikipedia.org/wiki/Cgroups
+      resolves_to: ""
+    - key: "18"
+      raw: 'C. Chambers, A. Raniwala, F. Perry, S. Adams, R. R. Henry, R. Bradshaw, and N. Weizenbaum. FlumeJava: easy, efficient data-parallel pipelines. In Proc. ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI), pages 363–375, Toronto, Ontario, Canada, 2010.'
+      authors:
+        - C. Chambers
+        - A. Raniwala
+        - F. Perry
+        - S. Adams
+        - R. R. Henry
+        - R. Bradshaw
+        - N. Weizenbaum
+      title: 'FlumeJava: easy, efficient data-parallel pipelines'
+      venue: In Proc. ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI), pages 363–375, Toronto, Ontario, Canada
+      year: 2010
+      pages: 363-375
+      resolves_to: ""
+    - key: "19"
+      raw: 'F. Chang, J. Dean, S. Ghemawat, W. C. Hsieh, D. A. Wallach, M. Burrows, T. Chandra, A. Fikes, and R. E. Gruber. Bigtable: a distributed storage system for structured data. ACM Trans. on Computer Systems, 26(2):4:1–4:26, June 2008.'
+      authors:
+        - F. Chang
+        - J. Dean
+        - S. Ghemawat
+        - W. C. Hsieh
+        - D. A. Wallach
+        - M. Burrows
+        - T. Chandra
+        - A. Fikes
+        - R. E. Gruber
+      title: 'Bigtable: a distributed storage system for structured data'
+      venue: ACM Trans. on Computer Systems, 26(2):4:1–4:26
+      year: 2008
+      resolves_to: ""
+    - key: "20"
+      raw: Y. Chen, S. Alspaugh, and R. H. Katz. Design insights for MapReduce from diverse production workloads. Technical Report UCB/EECS–2012–17, UC Berkeley, Jan. 2012.
+      authors:
+        - Y. Chen
+        - S. Alspaugh
+        - R. H. Katz
+      title: Design insights for MapReduce from diverse production workloads
+      venue: Technical Report UCB/EECS–2012–17, UC Berkeley, Jan
+      year: 2012
+      resolves_to: ""
+    - key: "21"
+      raw: 'C. Curino, D. E. Difallah, C. Douglas, S. Krishnan, R. Ramakrishnan, and S. Rao. Reservation-based scheduling: if you’re late don’t blame us! In Proc. ACM Symp. on Cloud Computing (SoCC), pages 2:1–2:14, Seattle, WA, USA, 2014.'
+      authors:
+        - C. Curino
+        - D. E. Difallah
+        - C. Douglas
+        - S. Krishnan
+        - R. Ramakrishnan
+        - S. Rao
+      title: 'Reservation-based scheduling: if you’re late don’t blame us! In Proc. ACM Symp. on Cloud Computing (SoCC), pages 2:1–2:14, Seattle, WA, USA, 2014'
+      year: 2014
+      resolves_to: ""
+    - key: "22"
+      raw: J. Dean and L. A. Barroso. The tail at scale. Communications of the ACM, 56(2):74–80, Feb. 2012.
+      authors:
+        - J. Dean
+        - L. A. Barroso
+      title: The tail at scale
+      venue: Communications of the ACM, 56(2):74–80, Feb
+      year: 2012
+      resolves_to: ""
+    - key: "23"
+      raw: 'J. Dean and S. Ghemawat. MapReduce: simplified data processing on large clusters. Communications of the ACM, 51(1):107–113, 2008.'
+      authors:
+        - J. Dean
+        - S. Ghemawat
+      title: 'MapReduce: simplified data processing on large clusters'
+      venue: Communications of the ACM, 51(1):107–113
+      year: 2008
+      resolves_to: ""
+    - key: "24"
+      raw: 'C. Delimitrou and C. Kozyrakis. Paragon: QoS-aware scheduling for heterogeneous datacenters. In Proc. Int’l Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Mar. 201.'
+      authors:
+        - C. Delimitrou
+        - C. Kozyrakis
+      title: 'Paragon: QoS-aware scheduling for heterogeneous datacenters'
+      venue: In Proc. Int’l Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Mar. 201
+      resolves_to: ""
+    - key: "25"
+      raw: 'C. Delimitrou and C. Kozyrakis. Quasar: resource-efficient and QoS-aware cluster management. In Proc. Int’l Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS), pages 127–144, Salt Lake City, UT, USA, 2014.'
+      authors:
+        - C. Delimitrou
+        - C. Kozyrakis
+      title: 'Quasar: resource-efficient and QoS-aware cluster management'
+      venue: In Proc. Int’l Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS), pages 127–144, Salt Lake City, UT, USA
+      year: 2014
+      pages: 127-144
+      resolves_to: ""
+    - key: "26"
+      raw: S. Di, D. Kondo, and W. Cirne. Characterization and comparison of cloud versus Grid workloads. In International Conference on Cluster Computing (IEEE CLUSTER), pages 230–238, Beijing, China, Sept. 2012.
+      authors:
+        - S. Di
+        - D. Kondo
+        - W. Cirne
+      title: Characterization and comparison of cloud versus Grid workloads
+      venue: In International Conference on Cluster Computing (IEEE CLUSTER), pages 230–238, Beijing, China, Sept
+      year: 2012
+      pages: 230-238
+      resolves_to: ""
+    - key: "27"
+      raw: S. Di, D. Kondo, and C. Franck. Characterizing cloud applications on a Google data center. In Proc. Int’l Conf. on Parallel Processing (ICPP), Lyon, France, Oct. 2013.
+      authors:
+        - S. Di
+        - D. Kondo
+        - C. Franck
+      title: Characterizing cloud applications on a Google data center
+      venue: In Proc. Int’l Conf. on Parallel Processing (ICPP), Lyon, France, Oct
+      year: 2013
+      resolves_to: ""
+    - key: "28"
+      raw: Docker Project. https://www.docker.io/, 2014.
+      authors:
+        - Docker Project
+      title: https://www.docker.io/, 2014
+      year: 2014
+      url: https://www.docker.io/
+      resolves_to: ""
+    - key: "29"
+      raw: 'D. Dolev, D. G. Feitelson, J. Y. Halpern, R. Kupferman, and N. Linial. No justified complaints: on fair sharing of multiple resources. In Proc. Innovations in Theoretical Computer Science (ITCS), pages 68–75, Cambridge, MA, USA, 2012.'
+      authors:
+        - D. Dolev
+        - D. G. Feitelson
+        - J. Y. Halpern
+        - R. Kupferman
+        - N. Linial
+      title: 'No justified complaints: on fair sharing of multiple resources'
+      venue: In Proc. Innovations in Theoretical Computer Science (ITCS), pages 68–75, Cambridge, MA, USA
+      year: 2012
+      pages: 68-75
+      resolves_to: ""
+    - key: "30"
+      raw: ElasticSearch. http://www.elasticsearch.org, 2014.
+      title: ElasticSearch
+      year: 2014
+      url: http://www.elasticsearch.org
+      resolves_to: ""
+    - key: "31"
+      raw: D. G. Feitelson. Workload Modeling for Computer Systems Performance Evaluation. Cambridge University Press, 2014.
+      authors:
+        - D. G. Feitelson
+      title: Workload Modeling for Computer Systems Performance Evaluation
+      venue: Cambridge University Press
+      year: 2014
+      resolves_to: ""
+    - key: "32"
+      raw: Fluentd. http://www.fluentd.org/, 2014.
+      title: Fluentd
+      year: 2014
+      url: http://www.fluentd.org/
+      resolves_to: ""
+    - key: "33"
+      raw: GCE. Google Compute Engine. http://cloud.google.com/products/compute-engine/, 2014.
+      title: GCE
+      venue: Google Compute Engine
+      year: 2014
+      url: http://cloud.google.com/products/compute-engine/
+      resolves_to: ""
+    - key: "34"
+      raw: S. Ghemawat, H. Gobioff, and S.-T. Leung. The Google File System. In Proc. ACM Symp. on Operating Systems Principles (SOSP), pages 29–43, Bolton Landing, NY, USA, 2003. ACM.
+      authors:
+        - S. Ghemawat
+        - H. Gobioff
+        - S.-T. Leung
+      title: The Google File System
+      venue: In Proc. ACM Symp. on Operating Systems Principles (SOSP), pages 29–43, Bolton Landing, NY, USA, 2003. ACM
+      year: 2003
+      pages: 29-43
+      resolves_to: ghemawat-2003-gfs
+    - key: "35"
+      raw: 'A. Ghodsi, M. Zaharia, B. Hindman, A. Konwinski, S. Shenker, and I. Stoica. Dominant Resource Fairness: fair allocation of multiple resource types. In Proc. USENIX Symp. on Networked Systems Design and Implementation (NSDI), pages 323–326, 2011.'
+      authors:
+        - A. Ghodsi
+        - M. Zaharia
+        - B. Hindman
+        - A. Konwinski
+        - S. Shenker
+        - I. Stoica
+      title: 'Dominant Resource Fairness: fair allocation of multiple resource types'
+      venue: In Proc. USENIX Symp. on Networked Systems Design and Implementation (NSDI), pages 323–326
+      year: 2011
+      pages: 323-326
+      resolves_to: ""
+    - key: "36"
+      raw: 'A. Ghodsi, M. Zaharia, S. Shenker, and I. Stoica. Choosy: max-min fair sharing for datacenter jobs with constraints. In Proc. European Conf. on Computer Systems (EuroSys), pages 365–378, Prague, Czech Republic, 2013.'
+      authors:
+        - A. Ghodsi
+        - M. Zaharia
+        - S. Shenker
+        - I. Stoica
+      title: 'Choosy: max-min fair sharing for datacenter jobs with constraints'
+      venue: In Proc. European Conf. on Computer Systems (EuroSys), pages 365–378, Prague, Czech Republic
+      year: 2013
+      pages: 365-378
+      resolves_to: ""
+    - key: "37"
+      raw: D. Gmach, J. Rolia, and L. Cherkasova. Selling T-shirts and time shares in the cloud. In Proc. IEEE/ACM Int’l Symp. on Cluster, Cloud and Grid Computing (CCGrid), pages 539–546, Ottawa, Canada, 2012.
+      authors:
+        - D. Gmach
+        - J. Rolia
+        - L. Cherkasova
+      title: Selling T-shirts and time shares in the cloud
+      venue: In Proc. IEEE/ACM Int’l Symp. on Cluster, Cloud and Grid Computing (CCGrid), pages 539–546, Ottawa, Canada
+      year: 2012
+      pages: 539-546
+      resolves_to: ""
+    - key: "38"
+      raw: Google App Engine. http://cloud.google.com/AppEngine, 2014.
+      authors:
+        - Google App Engine
+      title: http://cloud.google.com/AppEngine, 2014
+      year: 2014
+      url: http://cloud.google.com/AppEngine
+      resolves_to: ""
+    - key: "39"
+      raw: Google Container Engine (GKE). https://cloud.google.com/container-engine/, 2015.
+      title: Google Container Engine (GKE)
+      year: 2015
+      url: https://cloud.google.com/container-engine/
+      resolves_to: ""
+    - key: "40"
+      raw: R. Grandl, G. Ananthanarayanan, S. Kandula, S. Rao, and A. Akella. Multi-resource packing for cluster schedulers. In Proc. ACM SIGCOMM, Aug. 2014.
+      authors:
+        - R. Grandl
+        - G. Ananthanarayanan
+        - S. Kandula
+        - S. Rao
+        - A. Akella
+      title: Multi-resource packing for cluster schedulers
+      venue: In Proc. ACM SIGCOMM, Aug
+      year: 2014
+      resolves_to: ""
+    - key: "41"
+      raw: Apache Hadoop Project. http://hadoop.apache.org/, 2009.
+      authors:
+        - Apache Hadoop Project
+      title: http://hadoop.apache.org/, 2009
+      year: 2009
+      url: http://hadoop.apache.org/
+      resolves_to: ""
+    - key: "42"
+      raw: Hadoop MapReduce Next Generation – Capacity Scheduler. http://hadoop.apache.org/docs/r2.2.0/hadoop-yarn/hadoop-yarn-site/CapacityScheduler.html, 2013.
+      title: Hadoop MapReduce Next Generation – Capacity Scheduler
+      year: 2013
+      url: http://hadoop.apache.org/docs/r2.2.0/hadoop-yarn/hadoop-yarn-site/CapacityScheduler.html
+      resolves_to: ""
+    - key: "43"
+      raw: J. Hamilton. On designing and deploying internet-scale services. In Proc. Large Installation System Administration Conf. (LISA), pages 231–242, Dallas, TX, USA, Nov. 2007.
+      authors:
+        - J. Hamilton
+      title: On designing and deploying internet-scale services
+      venue: In Proc. Large Installation System Administration Conf. (LISA), pages 231–242, Dallas, TX, USA, Nov
+      year: 2007
+      pages: 231-242
+      resolves_to: ""
+    - key: "44"
+      raw: 'P. Helland. Cosmos: big data and big challenges. http://research.microsoft.com/en-us/events/fs2011/helland\_cosmos\_big\_data\_and\_big\_challenges.pdf, 2011.'
+      authors:
+        - P. Helland
+      title: 'Cosmos: big data and big challenges'
+      year: 2011
+      url: http://research.microsoft.com/en-us/events/fs2011/helland\_cosmos\_big\_data\_and\_big\_challenges.pdf
+      resolves_to: ""
+    - key: "45"
+      raw: 'B. Hindman, A. Konwinski, M. Zaharia, A. Ghodsi, A. Joseph, R. Katz, S. Shenker, and I. Stoica. Mesos: a platform for fine-grained resource sharing in the data center. In Proc. USENIX Symp. on Networked Systems Design and Implementation (NSDI), 2011.'
+      authors:
+        - B. Hindman
+        - A. Konwinski
+        - M. Zaharia
+        - A. Ghodsi
+        - A. Joseph
+        - R. Katz
+        - S. Shenker
+        - I. Stoica
+      title: 'Mesos: a platform for fine-grained resource sharing in the data center'
+      venue: In Proc. USENIX Symp. on Networked Systems Design and Implementation (NSDI)
+      year: 2011
+      resolves_to: ""
+    - key: "46"
+      raw: IBM Platform Computing. http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/clustermanager/index.html.
+      authors:
+        - IBM Platform Computing
+      title: http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/clustermanager/index.html
+      url: http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/clustermanager/index.html
+      resolves_to: ""
+    - key: "47"
+      raw: S. Iqbal, R. Gupta, and Y.-C. Fang. Planning considerations for job scheduling in HPC clusters. Dell Power Solutions, Feb. 2005.
+      authors:
+        - S. Iqbal
+        - R. Gupta
+        - Y.-C. Fang
+      title: Planning considerations for job scheduling in HPC clusters
+      venue: Dell Power Solutions, Feb
+      year: 2005
+      resolves_to: ""
+    - key: "48"
+      raw: 'M. Isaard. Autopilot: Automatic data center management. ACM SIGOPS Operating Systems Review, 41(2), 2007.'
+      authors:
+        - M. Isaard
+      title: 'Autopilot: Automatic data center management'
+      venue: ACM SIGOPS Operating Systems Review, 41(2)
+      year: 2007
+      resolves_to: ""
+    - key: "49"
+      raw: 'M. Isard, V. Prabhakaran, J. Currey, U. Wieder, K. Talwar, and A. Goldberg. Quincy: fair scheduling for distributed computing clusters. In Proc. ACM Symp. on Operating Systems Principles (SOSP), 2009.'
+      authors:
+        - M. Isard
+        - V. Prabhakaran
+        - J. Currey
+        - U. Wieder
+        - K. Talwar
+        - A. Goldberg
+      title: 'Quincy: fair scheduling for distributed computing clusters'
+      venue: In Proc. ACM Symp. on Operating Systems Principles (SOSP)
+      year: 2009
+      resolves_to: ""
+    - key: "50"
+      raw: D. B. Jackson, Q. Snell, and M. J. Clement. Core algorithms of the Maui scheduler. In Proc. Int’l Workshop on Job Scheduling Strategies for Parallel Processing, pages 87–102. Springer-Verlag, 2001.
+      authors:
+        - D. B. Jackson
+        - Q. Snell
+        - M. J. Clement
+      title: Core algorithms of the Maui scheduler
+      venue: In Proc. Int’l Workshop on Job Scheduling Strategies for Parallel Processing, pages 87–102. Springer-Verlag
+      year: 2001
+      pages: 87-102
+      resolves_to: ""
+    - key: "51"
+      raw: M. Kambadur, T. Moseley, R. Hank, and M. A. Kim. Measuring interference between live datacenter applications. In Proc. Int’l Conf. for High Performance Computing, Networking, Storage and Analysis (SC), Salt Lake City, UT, Nov. 2012.
+      authors:
+        - M. Kambadur
+        - T. Moseley
+        - R. Hank
+        - M. A. Kim
+      title: Measuring interference between live datacenter applications
+      venue: In Proc. Int’l Conf. for High Performance Computing, Networking, Storage and Analysis (SC), Salt Lake City, UT, Nov
+      year: 2012
+      resolves_to: ""
+    - key: "52"
+      raw: S. Kavulya, J. Tan, R. Gandhi, and P. Narasimhan. An analysis of traces from a production MapReduce cluster. In Proc. IEEE/ACM Int’l Symp. on Cluster, Cloud and Grid Computing (CCGrid), pages 94–103, 2010.
+      authors:
+        - S. Kavulya
+        - J. Tan
+        - R. Gandhi
+        - P. Narasimhan
+      title: An analysis of traces from a production MapReduce cluster
+      venue: In Proc. IEEE/ACM Int’l Symp. on Cluster, Cloud and Grid Computing (CCGrid), pages 94–103
+      year: 2010
+      pages: 94-103
+      resolves_to: ""
+    - key: "53"
+      raw: Kubernetes. http://kubernetes.io, Aug. 2014.
+      title: Kubernetes
+      venue: Aug
+      year: 2014
+      url: http://kubernetes.io
+      resolves_to: ""
+    - key: "54"
+      raw: Kernel Based Virtual Machine. http://www.linux-kvm.org.
+      authors:
+        - Kernel Based Virtual Machine
+      title: http://www.linux-kvm.org
+      url: http://www.linux-kvm.org
+      resolves_to: ""
+    - key: "55"
+      raw: L. Lamport. The part-time parliament. ACM Trans. on Computer Systems, 16(2):133–169, May 1998.
+      authors:
+        - L. Lamport
+      title: The part-time parliament
+      venue: ACM Trans. on Computer Systems, 16(2):133–169
+      year: 1998
+      resolves_to: lamport-1998-paxos
+    - key: "56"
+      raw: J. Leverich and C. Kozyrakis. Reconciling high server utilization and sub-millisecond quality-of-service. In Proc. European Conf. on Computer Systems (EuroSys), page 4, 2014.
+      authors:
+        - J. Leverich
+        - C. Kozyrakis
+      title: Reconciling high server utilization and sub-millisecond quality-of-service
+      venue: In Proc. European Conf. on Computer Systems (EuroSys), page 4
+      year: 2014
+      resolves_to: ""
+    - key: "57"
+      raw: Z. Liu and S. Cho. Characterizing machines and workloads on a Google cluster. In Proc. Int’l Workshop on Scheduling and Resource Management for Parallel and Distributed Systems (SRMPDS), Pittsburgh, PA, USA, Sept. 2012.
+      authors:
+        - Z. Liu
+        - S. Cho
+      title: Characterizing machines and workloads on a Google cluster
+      venue: In Proc. Int’l Workshop on Scheduling and Resource Management for Parallel and Distributed Systems (SRMPDS), Pittsburgh, PA, USA, Sept
+      year: 2012
+      resolves_to: ""
+    - key: "58"
+      raw: Google LMCTFY project (let me contain that for you). http://github.com/google/lmctfy, 2014.
+      title: Google LMCTFY project (let me contain that for you)
+      year: 2014
+      url: http://github.com/google/lmctfy
+      resolves_to: ""
+    - key: "59"
+      raw: 'G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, and G. Czajkowski. Pregel: a system for large-scale graph processing. In Proc. ACM SIGMOD Conference, pages 135–146, Indianapolis, IA, USA, 2010.'
+      authors:
+        - G. Malewicz
+        - M. H. Austern
+        - A. J. Bik
+        - J. C. Dehnert
+        - I. Horn
+        - N. Leiser
+        - G. Czajkowski
+      title: 'Pregel: a system for large-scale graph processing'
+      venue: In Proc. ACM SIGMOD Conference, pages 135–146, Indianapolis, IA, USA
+      year: 2010
+      pages: 135-146
+      resolves_to: ""
+    - key: "60"
+      raw: 'J. Mars, L. Tang, R. Hundt, K. Skadron, and M. L. Soffa. Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations. In Proc. Int’l Symp. on Microarchitecture (Micro), Porto Alegre, Brazil, 2011.'
+      authors:
+        - J. Mars
+        - L. Tang
+        - R. Hundt
+        - K. Skadron
+        - M. L. Soffa
+      title: 'Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations'
+      venue: In Proc. Int’l Symp. on Microarchitecture (Micro), Porto Alegre, Brazil
+      year: 2011
+      resolves_to: ""
+    - key: "61"
+      raw: 'S. Melnik, A. Gubarev, J. J. Long, G. Romer, S. Shivakumar, M. Tolton, and T. Vassilakis. Dremel: interactive analysis of web-scale datasets. In Proc. Int’l Conf. on Very Large Data Bases (VLDB), pages 330–339, Singapore, Sept. 2010.'
+      authors:
+        - S. Melnik
+        - A. Gubarev
+        - J. J. Long
+        - G. Romer
+        - S. Shivakumar
+        - M. Tolton
+        - T. Vassilakis
+      title: 'Dremel: interactive analysis of web-scale datasets'
+      venue: In Proc. Int’l Conf. on Very Large Data Bases (VLDB), pages 330–339, Singapore, Sept
+      year: 2010
+      pages: 330-339
+      resolves_to: ""
+    - key: "62"
+      raw: P. Menage. Linux control groups. http://www.kernel.org/doc/Documentation/cgroups/cgroups.txt, 2007–2014.
+      authors:
+        - P. Menage
+      title: Linux control groups
+      year: 2014
+      url: http://www.kernel.org/doc/Documentation/cgroups/cgroups.txt
+      resolves_to: ""
+    - key: "63"
+      raw: 'A. K. Mishra, J. L. Hellerstein, W. Cirne, and C. R. Das. Towards characterizing cloud backend workloads: insights from Google compute clusters. ACM SIGMETRICS Performance Evaluation Review, 37:34–41, Mar. 2010.'
+      authors:
+        - A. K. Mishra
+        - J. L. Hellerstein
+        - W. Cirne
+        - C. R. Das
+      title: 'Towards characterizing cloud backend workloads: insights from Google compute clusters'
+      venue: ACM SIGMETRICS Performance Evaluation Review, 37:34–41, Mar
+      year: 2010
+      resolves_to: ""
+    - key: "64"
+      raw: 'A. Narayanan. Tupperware: containerized deployment at Facebook. http://www.slideshare.net/dotCloud/tupperware-containerized-deployment-at-facebook, June 2014.'
+      authors:
+        - A. Narayanan
+      title: 'Tupperware: containerized deployment at Facebook'
+      year: 2014
+      url: http://www.slideshare.net/dotCloud/tupperware-containerized-deployment-at-facebook
+      resolves_to: ""
+    - key: "65"
+      raw: 'K. Ousterhout, P. Wendell, M. Zaharia, and I. Stoica. Sparrow: distributed, low latency scheduling. In Proc. ACM Symp. on Operating Systems Principles (SOSP), pages 69–84, Farminton, PA, USA, 2013.'
+      authors:
+        - K. Ousterhout
+        - P. Wendell
+        - M. Zaharia
+        - I. Stoica
+      title: 'Sparrow: distributed, low latency scheduling'
+      venue: In Proc. ACM Symp. on Operating Systems Principles (SOSP), pages 69–84, Farminton, PA, USA
+      year: 2013
+      pages: 69-84
+      resolves_to: ""
+    - key: "66"
+      raw: 'D. C. Parkes, A. D. Procaccia, and N. Shah. Beyond Dominant Resource Fairness: extensions, limitations, and indivisibilities. In *Proc. Electronic Commerce*, pages 808–825, Valencia, Spain, 2012.'
+      authors:
+        - D. C. Parkes
+        - A. D. Procaccia
+        - N. Shah
+      title: 'Beyond Dominant Resource Fairness: extensions, limitations, and indivisibilities'
+      venue: In *Proc. Electronic Commerce*, pages 808–825, Valencia, Spain
+      year: 2012
+      pages: 808-825
+      resolves_to: ""
+    - key: "67"
+      raw: Protocol buffers. https://developers.google.com/protocol-buffers/, and https://github.com/google/protobuf/., 2014.
+      title: Protocol buffers
+      venue: and
+      year: 2014
+      url: https://developers.google.com/protocol-buffers/
+      resolves_to: ""
+    - key: "68"
+      raw: 'C. Reiss, A. Tumanov, G. Ganger, R. Katz, and M. Kozuch. Heterogeneity and dynamicity of clouds at scale: Google trace analysis. In *Proc. ACM Symp. on Cloud Computing (SoCC)*, San Jose, CA, USA, Oct. 2012.'
+      authors:
+        - C. Reiss
+        - A. Tumanov
+        - G. Ganger
+        - R. Katz
+        - M. Kozuch
+      title: 'Heterogeneity and dynamicity of clouds at scale: Google trace analysis'
+      venue: In *Proc. ACM Symp. on Cloud Computing (SoCC)*, San Jose, CA, USA, Oct
+      year: 2012
+      resolves_to: ""
+    - key: "69"
+      raw: 'M. Schwarzkopf, A. Konwinski, M. Abd-El-Malek, and J. Wilkes. Omega: flexible, scalable schedulers for large compute clusters. In *Proc. European Conf. on Computer Systems (EuroSys)*, Prague, Czech Republic, 2013.'
+      authors:
+        - M. Schwarzkopf
+        - A. Konwinski
+        - M. Abd-El-Malek
+        - J. Wilkes
+      title: 'Omega: flexible, scalable schedulers for large compute clusters'
+      venue: In *Proc. European Conf. on Computer Systems (EuroSys)*, Prague, Czech Republic
+      year: 2013
+      resolves_to: ""
+    - key: "70"
+      raw: B. Sharma, V. Chudnovsky, J. L. Hellerstein, R. Rifaat, and C. R. Das. Modeling and synthesizing task placement constraints in Google compute clusters. In *Proc. ACM Symp. on Cloud Computing (SoCC)*, pages 3:1–3:14, Cascais, Portugal, Oct. 2011.
+      authors:
+        - B. Sharma
+        - V. Chudnovsky
+        - J. L. Hellerstein
+        - R. Rifaat
+        - C. R. Das
+      title: Modeling and synthesizing task placement constraints in Google compute clusters
+      venue: In *Proc. ACM Symp. on Cloud Computing (SoCC)*, pages 3:1–3:14, Cascais, Portugal, Oct
+      year: 2011
+      resolves_to: ""
+    - key: "71"
+      raw: 'E. Shmueli and D. G. Feitelson. On simulation and design of parallel-systems schedulers: are we doing the right thing? *IEEE Trans. on Parallel and Distributed Systems*, 20(7):983–996, July 2009.'
+      authors:
+        - E. Shmueli
+        - D. G. Feitelson
+      title: 'On simulation and design of parallel-systems schedulers: are we doing the right thing? *IEEE Trans. on Parallel and Distributed Systems*, 20(7):983–996, July 2009'
+      year: 2009
+      resolves_to: ""
+    - key: "72"
+      raw: 'A. Singh, M. Korupolu, and D. Mohapatra. Server-storage virtualization: integration and load balancing in data centers. In *Proc. Int’l Conf. for High Performance Computing, Networking, Storage and Analysis (SC)*, pages 53:1–53:12, Austin, TX, USA, 2008.'
+      authors:
+        - A. Singh
+        - M. Korupolu
+        - D. Mohapatra
+      title: 'Server-storage virtualization: integration and load balancing in data centers'
+      venue: In *Proc. Int’l Conf. for High Performance Computing, Networking, Storage and Analysis (SC)*, pages 53:1–53:12, Austin, TX, USA
+      year: 2008
+      resolves_to: ""
+    - key: "73"
+      raw: Apache Spark Project. http://spark.apache.org/, 2014.
+      authors:
+        - Apache Spark Project
+      title: http://spark.apache.org/, 2014
+      year: 2014
+      url: http://spark.apache.org/
+      resolves_to: ""
+    - key: "74"
+      raw: 'A. Tumanov, J. Cipar, M. A. Kozuch, and G. R. Ganger. Alsched: algebraic scheduling of mixed workloads in heterogeneous clouds. In *Proc. ACM Symp. on Cloud Computing (SoCC)*, San Jose, CA, USA, Oct. 2012.'
+      authors:
+        - A. Tumanov
+        - J. Cipar
+        - M. A. Kozuch
+        - G. R. Ganger
+      title: 'Alsched: algebraic scheduling of mixed workloads in heterogeneous clouds'
+      venue: In *Proc. ACM Symp. on Cloud Computing (SoCC)*, San Jose, CA, USA, Oct
+      year: 2012
+      resolves_to: ""
+    - key: "75"
+      raw: P. Turner, B. Rao, and N. Rao. CPU bandwidth control for CFS. In *Proc. Linux Symposium*, pages 245–254, July 2010.
+      authors:
+        - P. Turner
+        - B. Rao
+        - N. Rao
+      title: CPU bandwidth control for CFS
+      venue: In *Proc. Linux Symposium*, pages 245–254
+      year: 2010
+      pages: 245-254
+      resolves_to: ""
+    - key: "76"
+      raw: 'V. K. Vavilapalli, A. C. Murthy, C. Douglas, S. Agarwal, M. Konar, R. Evans, T. Graves, J. Lowe, H. Shah, S. Seth, B. Saha, C. Curino, O. O’Malley, S. Radia, B. Reed, and E. Baldeschwieler. Apache Hadoop YARN: Yet Another Resource Negotiator. In *Proc. ACM Symp. on Cloud Computing (SoCC)*, Santa Clara, CA, USA, 2013.'
+      authors:
+        - V. K. Vavilapalli
+        - A. C. Murthy
+        - C. Douglas
+        - S. Agarwal
+        - M. Konar
+        - R. Evans
+        - T. Graves
+        - J. Lowe
+        - H. Shah
+        - S. Seth
+        - B. Saha
+        - C. Curino
+        - O. O’Malley
+        - S. Radia
+        - B. Reed
+        - E. Baldeschwieler
+      title: 'Apache Hadoop YARN: Yet Another Resource Negotiator'
+      venue: In *Proc. ACM Symp. on Cloud Computing (SoCC)*, Santa Clara, CA, USA
+      year: 2013
+      resolves_to: ""
+    - key: "77"
+      raw: VMware VCloud Suite. http://www.vmware.com/products/vcloud-suite/.
+      authors:
+        - VMware VCloud Suite
+      title: http://www.vmware.com/products/vcloud-suite/
+      url: http://www.vmware.com/products/vcloud-suite/
+      resolves_to: ""
+    - key: "78"
+      raw: A. Verma, M. Korupolu, and J. Wilkes. Evaluating job packing in warehouse-scale computing. In *IEEE Cluster*, pages 48–56, Madrid, Spain, Sept. 2014.
+      authors:
+        - A. Verma
+        - M. Korupolu
+        - J. Wilkes
+      title: Evaluating job packing in warehouse-scale computing
+      venue: In *IEEE Cluster*, pages 48–56, Madrid, Spain, Sept
+      year: 2014
+      pages: 48-56
+      resolves_to: ""
+    - key: "79"
+      raw: W. Whitt. Open and closed models for networks of queues. *AT&T Bell Labs Technical Journal*, 63(9), Nov. 1984.
+      authors:
+        - W. Whitt
+      title: Open and closed models for networks of queues
+      venue: '*AT&T Bell Labs Technical Journal*, 63(9), Nov'
+      year: 1984
+      resolves_to: ""
+    - key: "80"
+      raw: J. Wilkes. More Google cluster data. http://googleresearch.blogspot.com/2011/11/more-google-cluster-data.html, Nov. 2011.
+      authors:
+        - J. Wilkes
+      title: More Google cluster data
+      venue: Nov
+      year: 2011
+      url: http://googleresearch.blogspot.com/2011/11/more-google-cluster-data.html
+      resolves_to: ""
+    - key: "81"
+      raw: 'Y. Zhai, X. Zhang, S. Eranian, L. Tang, and J. Mars. HaPPy: Hyperthread-aware power profiling dynamically. In *Proc. USENIX Annual Technical Conf. (USENIX ATC)*, pages 211–217, Philadelphia, PA, USA, June 2014. USENIX Association.'
+      authors:
+        - Y. Zhai
+        - X. Zhang
+        - S. Eranian
+        - L. Tang
+        - J. Mars
+      title: 'HaPPy: Hyperthread-aware power profiling dynamically'
+      venue: In *Proc. USENIX Annual Technical Conf. (USENIX ATC)*, pages 211–217, Philadelphia, PA, USA, June 2014. USENIX Association
+      year: 2014
+      pages: 211-217
+      resolves_to: ""
+    - key: "82"
+      raw: Q. Zhang, J. Hellerstein, and R. Boutaba. Characterizing task usage shapes in Google’s compute clusters. In *Proc. Int’l Workshop on Large-Scale Distributed Systems and Middleware (LADIS)*, 2011.
+      authors:
+        - Q. Zhang
+        - J. Hellerstein
+        - R. Boutaba
+      title: Characterizing task usage shapes in Google’s compute clusters
+      venue: In *Proc. Int’l Workshop on Large-Scale Distributed Systems and Middleware (LADIS)*
+      year: 2011
+      resolves_to: ""
+    - key: "83"
+      raw: 'X. Zhang, E. Tune, R. Hagmann, R. Jnagal, V. Gokhale, and J. Wilkes. CPI^2: CPU performance isolation for shared compute clusters. In *Proc. European Conf. on Computer Systems (EuroSys)*, Prague, Czech Republic, 2013.'
+      authors:
+        - X. Zhang
+        - E. Tune
+        - R. Hagmann
+        - R. Jnagal
+        - V. Gokhale
+        - J. Wilkes
+      title: 'CPI^2: CPU performance isolation for shared compute clusters'
+      venue: In *Proc. European Conf. on Computer Systems (EuroSys)*, Prague, Czech Republic
+      year: 2013
+      resolves_to: ""
+    - key: "84"
+      raw: 'Z. Zhang, C. Li, Y. Tao, R. Yang, H. Tang, and J. Xu. Fuxi: a fault-tolerant resource management and job scheduling system at internet scale. In *Proc. Int’l Conf. on Very Large Data Bases (VLDB)*, pages 1393–1404. VLDB Endowment Inc., Sept. 2014.'
+      authors:
+        - Z. Zhang
+        - C. Li
+        - Y. Tao
+        - R. Yang
+        - H. Tang
+        - J. Xu
+      title: 'Fuxi: a fault-tolerant resource management and job scheduling system at internet scale'
+      venue: In *Proc. Int’l Conf. on Very Large Data Bases (VLDB)*, pages 1393–1404. VLDB Endowment Inc., Sept
+      year: 2014
+      pages: 1393-1404
+      resolves_to: ""

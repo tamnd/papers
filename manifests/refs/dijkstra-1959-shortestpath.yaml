@@ -1,0 +1,28 @@
+paper: dijkstra-1959-shortestpath
+style: bracket
+entries:
+    - key: "1"
+      raw: 'Kruskal jr., J. B.: On the Shortest Spanning Subtree of a Graph and the Travelling Salesman Problem. Proc. Amer. Math. Soc. 7, 48—50 (1956).'
+      title: 'Kruskal jr., J. B.: On the Shortest Spanning Subtree of a Graph and the Travelling Salesman Problem'
+      venue: Proc. Amer. Math. Soc. 7, 48—50 (1956)
+      year: 1956
+      resolves_to: ""
+    - key: "2"
+      raw: 'Loberman, H., and A. Weinberger: Formal Procedures for Connecting Terminals with a Minimum Total Wire Length. J. Ass. Comp. Mach. 4, 428—437 (1957).'
+      title: 'Loberman, H., and A. Weinberger: Formal Procedures for Connecting Terminals with a Minimum Total Wire Length'
+      venue: J. Ass. Comp. Mach. 4, 428—437 (1957)
+      year: 1957
+      resolves_to: ""
+    - key: "3"
+      raw: 'Ford, L. R.: Network flow theory. Rand Corp. Paper, P-923, 1956.'
+      title: 'Ford, L. R.: Network flow theory'
+      venue: Rand Corp. Paper, P-923
+      year: 1956
+      resolves_to: ""
+    - key: "4"
+      raw: 'Berge, C.: Théorie des graphes et ses applications, pp. 68—69. Paris: Dunod 1958. Mathematisch Centrum 2e Boerhaavestraat 49 Amsterdam-O (Received June 11, 1959)'
+      title: 'Berge, C.: Théorie des graphes et ses applications, pp. 68—69'
+      venue: 'Paris: Dunod 1958. Mathematisch Centrum 2e Boerhaavestraat 49 Amsterdam-O (Received June 11, 1959)'
+      year: 1959
+      pages: 68-69
+      resolves_to: ""

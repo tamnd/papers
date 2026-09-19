@@ -1,0 +1,218 @@
+paper: backus-1978-vonneumann
+style: number
+entries:
+    - key: "1"
+      raw: Arvind, and Gostelow, K.P. A new interpreter for data flow schemas and its implications for computer architecture. Tech. Rep. No. 72, Dept. Comptr. Sci., U. of California, Irvine, Oct. 1975.
+      authors:
+        - Arvind
+        - Gostelow
+        - K.P
+      title: A new interpreter for data flow schemas and its implications for computer architecture
+      venue: Tech. Rep. No. 72, Dept. Comptr. Sci., U. of California, Irvine, Oct
+      year: 1975
+      resolves_to: ""
+    - key: "2"
+      raw: Backus, J. Programming language semantics and closed applicative languages. Conf. Record ACM Symp. on Principles of Programming Languages, Boston, Oct. 1973, 71–86.
+      authors:
+        - J. Backus
+      title: Programming language semantics and closed applicative languages
+      venue: Conf. Record ACM Symp. on Principles of Programming Languages, Boston, Oct. 1973, 71–86
+      year: 1973
+      pages: 71-86
+      resolves_to: ""
+    - key: "3"
+      raw: Berkling, K.J. Reduction languages for reduction machines. Interner Bericht ISF-76-8, Gesellschaft für Mathematik und Datenverarbeitung MBH, Bonn, Sept. 1976.
+      authors:
+        - Berkling
+        - K.J
+      title: Reduction languages for reduction machines
+      venue: Interner Bericht ISF-76-8, Gesellschaft für Mathematik und Datenverarbeitung MBH, Bonn, Sept
+      year: 1976
+      resolves_to: ""
+    - key: "4"
+      raw: Burge, W.H. Recursive Programming Techniques. Addison-Wesley, Reading, Mass., 1975.
+      authors:
+        - Burge
+        - W.H. Recursive Programming Techniques
+      title: Addison-Wesley, Reading, Mass., 1975
+      year: 1975
+      resolves_to: ""
+    - key: "5"
+      raw: Church, A. The Calculi of Lambda-Conversion. Princeton U. Press, Princeton, N.J., 1941.
+      authors:
+        - A. Church
+      title: The Calculi of Lambda-Conversion
+      venue: Princeton U. Press, Princeton, N.J
+      year: 1941
+      resolves_to: ""
+    - key: "6"
+      raw: Curry, H.B., and Feys, R. Combinatory Logic, Vol. 1. North-Holland Pub. Co., Amsterdam, 1958.
+      authors:
+        - Curry
+        - H.B
+        - Feys
+        - R. Combinatory Logic
+        - Vol. 1
+      title: North-Holland Pub
+      venue: Co., Amsterdam
+      year: 1958
+      resolves_to: ""
+    - key: "7"
+      raw: Dennis, J.B. First version of a data flow procedure language. Tech. Mem. No. 61, Lab. for Comptr. Sci., M.I.T., Cambridge, Mass., May 1973.
+      authors:
+        - Dennis
+        - J.B
+      title: First version of a data flow procedure language
+      venue: Tech. Mem. No. 61, Lab. for Comptr. Sci., M.I.T., Cambridge, Mass
+      year: 1973
+      resolves_to: ""
+    - key: "8"
+      raw: Dijkstra, E.W. A Discipline of Programming. Prentice-Hall, Englewood Cliffs, N.J., 1976.
+      authors:
+        - Dijkstra
+        - E.W
+      title: A Discipline of Programming
+      venue: Prentice-Hall, Englewood Cliffs, N.J
+      year: 1976
+      resolves_to: ""
+    - key: "9"
+      raw: Friedman, D.P., and Wise, D.S. CONS should not evaluate its arguments. In Automata, Languages and Programming, S. Michaelson and R. Milner, Eds., Edinburgh U. Press, Edinburgh, 1976, pp. 257–284.
+      authors:
+        - Friedman
+        - D.P
+        - Wise
+        - D.S
+      title: CONS should not evaluate its arguments
+      venue: In Automata, Languages and Programming, S. Michaelson and R. Milner, Eds., Edinburgh U. Press, Edinburgh, 1976, pp. 257–284
+      year: 1976
+      pages: 257-284
+      resolves_to: ""
+    - key: "10"
+      raw: Henderson, P., and Morris, J.H. Jr. A lazy evaluator. Conf. Record Third ACM Symp. on Principles of Programming Languages, Atlanta, Ga., Jan. 1976, pp. 95–103.
+      authors:
+        - P. Henderson
+        - Morris
+        - J.H
+      title: Jr. A lazy evaluator
+      venue: Conf. Record Third ACM Symp. on Principles of Programming Languages, Atlanta, Ga., Jan. 1976, pp. 95–103
+      year: 1976
+      pages: 95-103
+      resolves_to: ""
+    - key: "11"
+      raw: Hoare, C.A.R. An axiomatic basis for computer programming. Comm. ACM 12, 10 (Oct. 1969), 576–583.
+      authors:
+        - Hoare
+        - C.A.R
+      title: An axiomatic basis for computer programming
+      venue: Comm. ACM 12, 10 (Oct. 1969), 576–583
+      year: 1969
+      pages: 576-583
+      resolves_to: hoare-1969-axiomatic
+    - key: "12"
+      raw: Iverson, K. A Programming Language. Wiley, New York, 1962.
+      authors:
+        - Iverson
+        - K. A Programming Language
+      title: Wiley, New York, 1962
+      year: 1962
+      resolves_to: ""
+    - key: "13"
+      raw: Kosinski, P. A data flow programming language. Rep. RC 4264, IBM T.J. Watson Research Ctr., Yorktown Heights, N.Y., March 1973.
+      authors:
+        - P. Kosinski
+      title: A data flow programming language
+      venue: Rep. RC 4264, IBM T.J. Watson Research Ctr., Yorktown Heights, N.Y
+      year: 1973
+      resolves_to: ""
+    - key: "14"
+      raw: Landin, P.J. The mechanical evaluation of expressions. Computer J. 6, 4 (1964), 308–320.
+      authors:
+        - Landin
+        - P.J
+      title: The mechanical evaluation of expressions
+      venue: Computer J. 6, 4 (1964), 308–320
+      year: 1964
+      pages: 308-320
+      resolves_to: ""
+    - key: "15"
+      raw: Magó, G.A. A network of microprocessors to execute reduction languages. To appear in Int. J. Comptr. and Inform. Sci.
+      authors:
+        - Magó
+        - G.A
+      title: A network of microprocessors to execute reduction languages
+      venue: To appear in Int. J. Comptr. and Inform. Sci
+      resolves_to: ""
+    - key: "16"
+      raw: Manna, Z., Ness, S., and Vuillemin, J. Inductive methods for proving properties of programs. Comm. ACM 16, 8 (Aug. 1973) 491–502.
+      authors:
+        - Z. Manna
+        - S. Ness
+        - J. Vuillemin
+      title: Inductive methods for proving properties of programs
+      venue: Comm. ACM 16, 8 (Aug. 1973) 491–502
+      year: 1973
+      resolves_to: ""
+    - key: "17"
+      raw: McCarthy, J. Recursive functions of symbolic expressions and their computation by machine, Pt. 1. Comm. ACM 3, 4 (April 1960), 184–195.
+      authors:
+        - McCarthy
+        - J. Recursive functions of symbolic expressions
+        - their computation by machine
+        - Pt
+      title: "1"
+      venue: Comm. ACM 3, 4 (April 1960), 184–195
+      year: 1960
+      pages: 184-195
+      resolves_to: ""
+    - key: "18"
+      raw: McJones, P. A Church-Rosser property of closed applicative languages. Rep. RJ 1589, IBM Res. Lab., San Jose, Calif., May 1975.
+      authors:
+        - P. McJones
+      title: A Church-Rosser property of closed applicative languages
+      venue: Rep. RJ 1589, IBM Res. Lab., San Jose, Calif
+      year: 1975
+      resolves_to: ""
+    - key: "19"
+      raw: Reynolds, J.C. GEDANKEN—a simple typeless language based on the principle of completeness and the reference concept. Comm. ACM 13, 5 (May 1970), 308–318.
+      authors:
+        - Reynolds
+        - J.C
+      title: GEDANKEN—a simple typeless language based on the principle of completeness and the reference concept
+      venue: Comm. ACM 13, 5 (May 1970), 308–318
+      year: 1970
+      pages: 308-318
+      resolves_to: ""
+    - key: "20"
+      raw: Reynolds, J.C. Notes on a lattice-theoretic approach to the theory of computation. Dept. Syst. and Inform. Sci., Syracuse U., Syracuse, N.Y., 1972.
+      authors:
+        - Reynolds
+        - J.C
+      title: Notes on a lattice-theoretic approach to the theory of computation
+      venue: Dept. Syst. and Inform. Sci., Syracuse U., Syracuse, N.Y
+      year: 1972
+      resolves_to: ""
+    - key: "21"
+      raw: Scott, D. Outline of a mathematical theory of computation. Proc. 4th Princeton Conf. on Inform. Sci. and Syst., 1970.
+      authors:
+        - D. Scott
+      title: Outline of a mathematical theory of computation
+      venue: Proc. 4th Princeton Conf. on Inform. Sci. and Syst
+      year: 1970
+      resolves_to: ""
+    - key: "22"
+      raw: Scott, D. Lattice-theoretic models for various type-free calculi. Proc. Fourth Int. Congress for Logic, Methodology, and the Philosophy of Science, Bucharest, 1972.
+      authors:
+        - D. Scott
+      title: Lattice-theoretic models for various type-free calculi
+      venue: Proc. Fourth Int. Congress for Logic, Methodology, and the Philosophy of Science, Bucharest
+      year: 1972
+      resolves_to: ""
+    - key: "23"
+      raw: Scott, D., and Strachey, C. Towards a mathematical semantics for computer languages. Proc. Symp. on Comptrs. and Automata, Polytechnic Inst. of Brooklyn, 1971.
+      authors:
+        - D. Scott
+        - C. Strachey
+      title: Towards a mathematical semantics for computer languages
+      venue: Proc. Symp. on Comptrs. and Automata, Polytechnic Inst. of Brooklyn
+      year: 1971
+      resolves_to: ""

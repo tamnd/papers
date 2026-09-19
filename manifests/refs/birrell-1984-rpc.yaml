@@ -1,0 +1,127 @@
+paper: birrell-1984-rpc
+style: number
+entries:
+    - key: "1"
+      raw: 'BIRRELL, A. D., LEVIN, R., NEEDHAM, R. M. AND SCHROEDER, M. D. Grapevine: an exercise in distributed computing. Commun. ACM 25, 4 (April 1982), 260–274.'
+      title: 'BIRRELL, A. D., LEVIN, R., NEEDHAM, R. M. AND SCHROEDER, M. D. Grapevine: an exercise in distributed computing'
+      venue: Commun. ACM 25, 4 (April 1982), 260–274
+      year: 1982
+      pages: 260-274
+      resolves_to: ""
+    - key: "2"
+      raw: BOGGS, D. R. Internet Broadcasting. PhD dissertation, Department of Electrical Engineering, Stanford University, Jan. 1982.
+      authors:
+        - BOGGS
+        - D. R. Internet Broadcasting
+      title: PhD dissertation, Department of Electrical Engineering, Stanford University, Jan
+      year: 1982
+      resolves_to: ""
+    - key: "3"
+      raw: 'BOGGS, D. R., SHOCH, J. R., TAFT, E. A. AND METCALF, R. M. PUP: An internetwork architecture. IEEE Trans. Commun. 28, 4 (April 1980), 612–634.'
+      title: 'BOGGS, D. R., SHOCH, J. R., TAFT, E. A. AND METCALF, R. M. PUP: An internetwork architecture'
+      venue: IEEE Trans. Commun. 28, 4 (April 1980), 612–634
+      year: 1980
+      pages: 612-634
+      resolves_to: ""
+    - key: "4"
+      raw: 'Courier: the remote procedure call protocol. Xerox System Integration Standard XSIS-038112, Xerox Corporation, Stamford, Connecticut, Dec. 1981.'
+      title: 'Courier: the remote procedure call protocol'
+      venue: Xerox System Integration Standard XSIS-038112, Xerox Corporation, Stamford, Connecticut, Dec
+      year: 1981
+      resolves_to: ""
+    - key: "5"
+      raw: DATA ENCRYPTION STANDARD. FIPS Publication 46. National Bureau of Standards, U.S. Department of Commerce, Washington D.C., January 1977.
+      authors:
+        - DATA ENCRYPTION STANDARD
+      title: FIPS Publication 46
+      venue: National Bureau of Standards, U.S. Department of Commerce, Washington D.C
+      year: 1977
+      resolves_to: ""
+    - key: "6"
+      raw: DEUTSCH, L. P. AND TAFT, E. A. Requirements for an exceptional programming environment. Tech. Rep. CSL-80-10, Xerox Palo Alto Research Center, Palo Alto, Calif., 1980.
+      authors:
+        - L. P. DEUTSCH
+        - E. A. TAFT
+      title: Requirements for an exceptional programming environment
+      venue: Tech. Rep. CSL-80-10, Xerox Palo Alto Research Center, Palo Alto, Calif
+      year: 1980
+      resolves_to: ""
+    - key: "7"
+      raw: 'Ethernet, a local area network: data link layer and physical layer specifications version 1.0. Digital Equipment Corporation, Intel Corporation, Xerox Corporation, Sept. 1980.'
+      title: 'Ethernet, a local area network: data link layer and physical layer specifications version 1.0. Digital Equipment Corporation, Intel Corporation, Xerox Corporation, Sept'
+      year: 1980
+      resolves_to: ""
+    - key: "8"
+      raw: LAMPSON, B. W. AND PIER, K. A. A processor for a high-performance personal computer. In Proc 7th IEEE Symposium on Computer Architecture, (May 1980), IEEE, New York, pp. 146–160.
+      authors:
+        - B. W. LAMPSON
+        - K. A. PIER
+      title: A processor for a high-performance personal computer
+      venue: In Proc 7th IEEE Symposium on Computer Architecture, (May 1980), IEEE, New York, pp. 146–160
+      year: 1980
+      pages: 146-160
+      resolves_to: ""
+    - key: "9"
+      raw: LAMPSON, B. W. AND SCHMIDT, E. E. Practical use of a polymorphic applicative language. In Proc. Tenth Annual ACM Symposium on Principles of Programming Languages (Austin, Texas, Jan. 24–26), ACM, New York (1983), pp. 237–255.
+      authors:
+        - B. W. LAMPSON
+        - E. E. SCHMIDT
+      title: Practical use of a polymorphic applicative language
+      venue: In Proc. Tenth Annual ACM Symposium on Principles of Programming Languages (Austin, Texas, Jan. 24–26), ACM, New York (1983), pp. 237–255
+      year: 1983
+      pages: 237-255
+      resolves_to: ""
+    - key: "10"
+      raw: LISKOv, B. Primitives for distributed computing. Oper. Syst. Rev. 13, 5 (Dec. 1979), 33–42.
+      authors:
+        - B. LISKOv
+      title: Primitives for distributed computing
+      venue: Oper. Syst. Rev. 13, 5 (Dec. 1979), 33–42
+      year: 1979
+      pages: 33-42
+      resolves_to: ""
+    - key: "11"
+      raw: 'METCALFE, R. M. AND BOGGS, D. R. Ethernet: Distributed packet switching for local computer networks. Commun. ACM 19, 7 (July 1976), 395–404.'
+      title: 'METCALFE, R. M. AND BOGGS, D. R. Ethernet: Distributed packet switching for local computer networks'
+      venue: Commun. ACM 19, 7 (July 1976), 395–404
+      year: 1976
+      pages: 395-404
+      resolves_to: ""
+    - key: "12"
+      raw: MITCHELL, J. G., MAYBURY, W. AND SWEET, R. Mesa language manual (Version 5.0). Tech. Rep. CSL-79-3, Xerox Palo Alto Research Center, Palo Alto, Calif. 1979.
+      authors:
+        - J. G. MITCHELL
+        - W. MAYBURY
+        - SWEET
+        - R. Mesa language manual (Version 5.0). Tech. Rep. CSL-79-3
+        - Xerox Palo Alto Research Center
+        - Palo Alto
+        - Calif
+      title: "1979"
+      year: 1979
+      resolves_to: ""
+    - key: "13"
+      raw: NELSON, B. J. Remote procedure call. Tech. Rep. CSL-81-9, Xerox Palo Alto Research Center, Palo Alto, Calif. 1981.
+      authors:
+        - NELSON
+        - B. J. Remote procedure call
+      title: Tech. Rep. CSL-81-9, Xerox Palo Alto Research Center, Palo Alto, Calif
+      year: 1981
+      resolves_to: ""
+    - key: "14"
+      raw: SPECTOR, A. Z. Performing remote operations efficiently on a local computer network. Commun. ACM 25, 4 (April 1982), 246–260.
+      authors:
+        - A. Z. SPECTOR
+      title: Performing remote operations efficiently on a local computer network
+      venue: Commun. ACM 25, 4 (April 1982), 246–260
+      year: 1982
+      pages: 246-260
+      resolves_to: ""
+    - key: "15"
+      raw: WHITE, J. E. A high-level framework for network-based resource sharing. In Proc. National Computer Conference, (June 1976). Received March 1983; revised November 1983; accepted November 1983
+      authors:
+        - J. E. WHITE
+      title: A high-level framework for network-based resource sharing
+      venue: In Proc. National Computer Conference, (June 1976). Received March 1983; revised November 1983; accepted
+      year: 1983
+      resolves_to: ""
