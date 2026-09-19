@@ -16,7 +16,8 @@ pdf_sha256: 2e412a7986c7fd1bdd060d90d035faa9ecc8a29675f99206c243da90954ca423
 pdf_pages: 4-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: e0db407a24867c2561e8ec545bb15b6286dd7858924fdd852040c89f9398de12
+content_sha256: 10d815e75480061a272c135b6f4a1f36c49d2929f08bef42e4774a6118d70245
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -50,10 +51,12 @@ Def IP ≡ (/+)∘(α×)∘Trans.
 
 Composition (∘), Insert (/), and ApplyToAll (α) are functional forms that combine existing functions to form new ones. Thus f∘g is the function obtained by applying first g and then f, and αf is the function obtained by applying f to every member of the argument. If we write f:x for the result of applying f to the object x, then we can explain each step in evaluating Innerproduct applied to the pair of vectors <<1, 2, 3>, <6, 5, 4>> as follows:
 
+```text
 IP:<<1,2,3>, <6,5,4>> =
 Definition of IP      ⇒ (/+)∘(α×)∘Trans: <<1,2,3>, <6,5,4>>
 Effect of composition, ∘   ⇒ (/+):((α×):(Trans:
                                     <<1,2,3>, <6,5,4>>))
+```
 
 Applying Transpose      $\Rightarrow (/+):((\alpha\times): <<1,6>, <2,5>, <3,4>>)$
 Effect of ApplyToAll, $\alpha$    $\Rightarrow (/+): <\times: <1,6>, \times: <2,5>, \times: <3,4>>$

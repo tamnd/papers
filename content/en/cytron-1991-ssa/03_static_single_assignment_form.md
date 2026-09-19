@@ -20,7 +20,8 @@ pdf_sha256: 307512bb537628c2b326b23aa02109e7562bfc619509e942e015054ab58eb9ab
 pdf_pages: 7-13
 extraction: vision
 extraction_model: gpt-5
-content_sha256: b13d1b781bf9d70d2ec0ce8a40abb0e1f66550e120af4ad38f2412d71df303f3
+content_sha256: e04f985c7e5d786576003192c0f32fb480e50cdc77cd7faec2afe5fa298f687c
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -121,7 +122,7 @@ If the source program computes expressions using constants and scalar variables 
 
 If **A** and **B** are array variables, then array assignment statements like **A** \leftarrow **B** or **A** \leftarrow **0**, if allowed by the source language, can be treated just like assignments to scalar variables. Many of the mentions of **A(i)** for some index **i**, which may be taken to be an integer variable. Treating **A(i)** as a variable would be awkward, both because an assignment to **A(i)** may or may not change the value of **A(j)** and because the value of **A(i)** could be changed by assigning to **i** rather than to **A(i)**. An easier approach is illustrated in Figure 7. The entire array is treated like a single scalar variable, which may be one of the operands of **Access** or **Update**.$^3$ The expression **Access(A, i)** evaluates to the ith component of **A**; the expression **Update(A, j, V)** evaluates to an array value that is of the same size as **A** and has the same component values, except for **V** as the value of the jth component. Assigning a scalar value **V** to **A(j)** is equivalent to assigning an array value to the entire array **A**, where the new array value depends on the old one, as well as on the index **j** and on the new scalar value **V**. The translation to SSA form is unconcerned with whether the values of variables are large objects or what the operators mean.
 
-As with scalars, translation of array references to SSA form removes some anti- and output-dependences [32]. In the program in Figure 7a, dependence analysis may prohibit reordering the use of **A(i)** by the first statement and the definition of **A(j)** by the second statement. After translation to SSA form, the two references to **A** have been renamed, and reordering is then possible. For example, the two statements can execute concurrently. Where optimization does not reorder the two references, Section 7.2 describes how transla-
+As with scalars, translation of array references to SSA form removes some anti- and output-dependences [32]. In the program in Figure 7a, dependence analysis may prohibit reordering the use of **A(i)** by the first statement and the definition of **A(j)** by the second statement. After translation to SSA form, the two references to **A** have been renamed, and reordering is then possible. For example, the two statements can execute concurrently. Where optimization does not reorder the two references, Section 7.2 describes how translation out of SSA form reclaims storage that would otherwise be necessary to maintain distinct variables.
 
 \footnotetext{
 $^2$In typical cases, paths originating at $\phi$-functions add nothing beyond the contributions from paths originating at ordinary assignments. The straightforward iteration is still too slow, even in typical cases
@@ -137,7 +138,7 @@ $$
 \end{array}
 $$
 
-(a) (b) (c) tion out of SSA form reclaims storage that would otherwise be necessary to maintain distinct variables.
+(a) (b) (c)
 
 Fig. 7. Source code with array component references (a) is equivalent to code with explicit Access and Update operators that treat the array A just like a scalar (b). Transformation to SSA form proceeds as usual (c). {#cytron-1991-ssa-fig-7 .figure tag=0589}
 
@@ -145,7 +146,7 @@ Consider the loop shown in Figure 8a, which assigns to every component of array 
 
 One reasonable response to the crudeness of the Update operator is to accept it. Address calculations and other genuine scalar calculations can still be optimized extensively. Another response is to perform dependence analysis [3, 10, 32, 51], which can sometimes determine that no subsequent accesses of A require values produced by any other assignment to A. Such is the case for each execution of the assignment to $\mathbf{A}(i)$ in Figure 8a. The assignment statement can then be viewed as an initialization of A. The problem for us, or for anyone who uses Update to make arrays look like scalars, is to communicate some of the results of dependence analysis to optimizations (like dead code elimination) that are usually formulated in terms of "scalar" variables. A simple solution to this formal problem is shown in Figure 8c, where the HiddenUpdate operator does not mention the assigned array operand. The actual code generated for an assignment from a HiddenUpdate expression is exactly the same as for an assignment from the corresponding Update expression, where the hidden operand is supplied by the target of the assignment.
 
-3.1.2 Structures. A structure can be generally regarded as an array, where references to structure fields are treated as references to elements of the array. Thus, an assignment to a structure field is translated into an Update of the structure, and a use of a structure field is translated into an Access of the structure. In the prevalent case of simple structure field references, this treatment results in arrays whose elements are indexed by constants. Dependence analysis can often determine independence among such accesses, so that optimizations may move an assignment to one field far from an assignment to another field. If analysis or language semantics reveals a structure whose n fields are always accessed disjointly, then the
+3.1.2 Structures. A structure can be generally regarded as an array, where references to structure fields are treated as references to elements of the array. Thus, an assignment to a structure field is translated into an Update of the structure, and a use of a structure field is translated into an Access of the structure. In the prevalent case of simple structure field references, this treatment results in arrays whose elements are indexed by constants. Dependence analysis can often determine independence among such accesses, so that optimizations may move an assignment to one field far from an assignment to another field. If analysis or language semantics reveals a structure whose n fields are always accessed disjointly, then the structure can be decomposed into $n$ distinct variables. The elements of such structures are united in the source program only for organizational reasons, and the expression of the structure's decomposition in SSA form makes the program's actual use of the structure more apparent to subsequent optimization.
 
 ```text
 integer A(1:100)
@@ -163,7 +164,9 @@ repeat
 until i ≥ 100
 ```
 
-(a) integer A_0(1:100)
+```text
+(a)
+integer A_0(1:100)
 integer A_1(1:100)
 integer A_2(1:100)
 i_1 ← 1
@@ -174,7 +177,8 @@ repeat
     i_3 ← i_2 + 1
 until i_3 ≥ 100
 
-(b) integer A_0(1:100)
+(b)
+integer A_0(1:100)
 integer A_1(1:100)
 integer A_2(1:100)
 i_1 ← 1
@@ -184,8 +188,8 @@ repeat
     A_2 ← HiddenUpdate(i_2, i_2)
     i_3 ← i_2 + 1
 until i_3 ≥ 100
-
-(c) structure can be decomposed into $n$ distinct variables. The elements of such structures are united in the source program only for organizational reasons, and the expression of the structure's decomposition in SSA form makes the program's actual use of the structure more apparent to subsequent optimization.
+(c)
+```
 
 Fig. 8. Source loop with array assignment (a) is equivalent to code with an Update operator that treats the array A just like a scalar (b). As Section 7.2 explains, the eventual translation out of SSA form will leave just one array here. Using HiddenUpdate (c) is a purely formal way to summarize some results of dependency analysis, if available. {#cytron-1991-ssa-fig-8 .figure tag=058A}
 

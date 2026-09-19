@@ -27,7 +27,8 @@ pdf_sha256: e66b9412f77f7dc2599908c627e49e92e2949832e64a94f12652ab0915a8a1b5
 pdf_pages: 34-38
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: c7a2c54defcae331083e0d247dac4677c0cd7cf8ffd6ea1476f8f5303410366f
+content_sha256: d344b7b10f8cc597788ad091a8087116b2ff81a8f80e310a946bca898f5bf16c
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -77,6 +78,7 @@ boolean ::= boolean-term
     | boolean-term AND boolean-factor
 ```
 
+```text
 boolean-factor ::= [ NOT ] boolean-primary boolean-primary ::= predicate
     | ( boolean ) predicate ::= expr comparison expr
     | expr BETWEEN expr AND expr
@@ -171,3 +173,4 @@ boolean-factor ::= [ NOT ] boolean-primary boolean-primary ::= predicate
     | LINK
     | CONTROL revoke ::= REVOKE [ operation-list ON ] table-name
     FROM user-list
+```

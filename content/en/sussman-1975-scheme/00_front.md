@@ -16,7 +16,8 @@ pdf_sha256: c2961e078943a26ae1f752b202290f561578b7ecf8b24b8929e3c1f99e6b2c52
 pdf_pages: 1-31
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 3d86b04ac85d09aa600e7eccd79b6affa96d5fafc7003b3279a4eda73e66abbb
+content_sha256: bd25caf6c49b7464b1b3d141b086832668d965f7ac045667e36a1b2665a60947
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -368,6 +369,7 @@ We are being very informal -- lambda calculus as presented by [Church] does not 
 
 Now let's reduce the expression (FACT 3). We will perform the expression reductions, except for the IF primitive, in Applicative Order (call by value), though this is not necessary, as we will discuss later. We display a "trace" of the substitutions:
 
+```text
 =>   (FACT 3)
 =>   (IF (= 3 0) 1 (* 3 (FACT (- 3 1))))
 =>   (* 3 (FACT (- 3 1)))
@@ -383,6 +385,7 @@ Now let's reduce the expression (FACT 3). We will perform the expression reducti
 =>   (* 3 (* 2 1))
 =>   (* 3 2)
 =>   6
+```
 
 You will note that we have calculated (fact 3) by a process wherein each expression is replaced by an expression which is provably equivalent to it via an axiom or which is produced by application of a primitive function.
 
@@ -400,6 +403,7 @@ Consider the "iterative" definition of FACT. Although it appears to be recursive
 
 Let us now compute (fact 3).
 
+```text
 =>   (FACT 3)
 =>   (FACT1 3 1)
 =>   (IF (= 3 0) 1
@@ -420,6 +424,7 @@ Let us now compute (fact 3).
 =>   (IF (= 0 0) 6
         (FACT1 (- 0 1) (* 0 6)))
 =>   6
+```
 
 Notice that the expressions involved have a fixed maximum size independent of the argument to FACT! In fact, as Marvin Minsky pointed out, successive reductions produce a cycle of expressions which are identical except for the numerical quantities involved. Looking back, we may note by way of comparison that the recursive version caused creation of expressions proportional in size to the argument. This is why we think that this version of FACT is iterative rather than recursive. At each stage of the iterative version the "state" of the computation is summarized in two variables, the counter and the answer accumulator, while at each stage of the recursive version the "state" contains a chain of pieces each of which contains a component of the state. In the recursive version of FACT, for example, the state contains the sequence of multiplications to be performed upon return from the bottom. It is true that the iterative factorial also can produce expressions of arbitrary size, since the number of bits needed to express factorial of n grows with n; but this is a property of the numbers calculated by the function which is implemented in iterative style, and not of the iterative control structure itself. A recursive control structure *inherently* creates expressions of unbounded size as a function of the recursion depth, while an iterative control structure produces a cycle of equivalent expressions, and so the expressions are of approximately the same size no matter how many iteration steps are taken. This is the essence of the difference between the notions of iteration and recursion. Hewitt [MAC, p. 234] made a similar observation in passing, expressing the difference in terms of storage used in program execution rather than in terms of intermediate expressions produced by substitution semantics.
 

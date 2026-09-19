@@ -20,7 +20,8 @@ pdf_sha256: 307512bb537628c2b326b23aa02109e7562bfc619509e942e015054ab58eb9ab
 pdf_pages: 28-32
 extraction: vision
 extraction_model: gpt-5
-content_sha256: f846f7e04aba83e7bfd53f37dc031797747f2115419a03c411dc3836f8266d0d
+content_sha256: 148f255c17043f1fed00517dde9bd9797232eab97a3c05b15921c337d1c05eaa
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -34,7 +35,12 @@ The original source program may have *dead code* (i.e., code that has no effect 
 
 Translation to SSA form is one of the compilation steps that may introduce dead code. Suppose that $V$ is assigned and then used along each branch of an if...then...else..., but that $V$ is never used after the join point. The original assignments to $V$ are live, but the added assignment by the $\phi$-function is dead. Often, such dead $\phi$-functions are useful, as in the equivalencing and redundancy elimination algorithms that are based on SSA form [5, 43]. One such use is shown in Figure 16. Although others have avoided placement of dead $\phi$-functions in translating to SSA form [16, 52], we prefer to include the dead $\phi$-functions to increase optimization opportunities.
 
-There are many different definitions of dead code in the literature. Dead code is sometimes defined to be unreachable code and sometimes defined (as it is here) to be ineffectual code. In both cases, it is desirable to use the broadest possible definition, subject to the correctness condition that "dead" code really can be safely removed.\footnote{The definition used here is broader than the usual one [1, p 595] and similar to that of "faint" variables [25, p. 489].} A procedural version of the definition is if P₁
+There are many different definitions of dead code in the literature. Dead code is sometimes defined to be unreachable code and sometimes defined (as it is here) to be ineffectual code. In both cases, it is desirable to use the broadest possible definition, subject to the correctness condition that "dead" code really can be safely removed.\footnote{The definition used here is broader than the usual one [1, p 595] and similar to that of "faint" variables [25, p. 489].} A procedural version of the definition is more intuitive than a recursive version, so we prefer the procedural style.
+
+Initially, all statements are tentatively marked dead. Some statements, however, need to be marked live because of the conditions listed below. Marking these statements live may cause others to be marked live. When the natural worklist eventually empties, any statements that are still marked dead are truly dead and can be safely removed from the code.
+
+```text
+if P₁
 then do
     Y₁ ← 1
     use of Y₁
@@ -60,7 +66,8 @@ else do
 end
 Y₃ ← φ(Y₁, Y₂)
 ...
-use of Y₃ more intuitive than a recursive version, so we prefer the procedural style. Initially, all statements are tentatively marked dead. Some statements, however, need to be marked live because of the conditions listed below. Marking these statements live may cause others to be marked live. When the natural worklist eventually empties, any statements that are still marked dead are truly dead and can be safely removed from the code.
+use of Y₃
+```
 
 Fig. 16. On the left is an unoptimized program containing a dead φ-function that assigns to Y₃. The value numbering technique in [5] can determine that Y₃ and Z₃ have the same value. Thus, Z₃ and many of the computations that produce it can be eliminated. The dead φ-function is brought to life by using Y₃ in place of Z₃. {#cytron-1991-ssa-fig-16 .figure tag=05AC}
 
@@ -136,7 +143,7 @@ At first, it might seem possible simply to map all occurrences of $V_i$ back to 
 
 Any graph coloring algorithm [12, 13, 17, 18, 21] can be used to reduce the number of variables needed and thereby can remove most of the associated assignment statements. The choice of coloring technique should be guided by the eventual use of the output. If the goal is to produce readable source code, then it is desirable to consider each original variable $V$ separately, coloring just the SSA variables derived from $V$. If the goal is machine code, then all of the SSA variables should be considered at once. In both cases, the process of coloring changes most of the assignments that were inserted to model the $\phi$-functions into identity assignments, that is, assignments of the form $V \leftarrow V$. These identity assignments can all be deleted.
 
-Storage savings are especially noticeable for arrays. If optimization does not perturb the order of the first two statements in Figure 7, then arrays $A_8$ and $A_9$ can be assigned the same color and, hence, can share the same storage. The array $A_9$ is then assigned an Update from an identically colored array. Such operations can be implemented inexpensively by
+Storage savings are especially noticeable for arrays. If optimization does not perturb the order of the first two statements in Figure 7, then arrays $A_8$ and $A_9$ can be assigned the same color and, hence, can share the same storage. The array $A_9$ is then assigned an Update from an identically colored array. Such operations can be implemented inexpensively by assigning to just one component if the arrays share storage. In particular, the actual operation performed by HiddenUpdate is always of this form.
 
 $^{11}$A conditional branch can be deleted by transforming it to an unconditional branch to any one of its prior targets.
 
@@ -145,13 +152,12 @@ while (...) do    while (...) do    while (...) do
     W₃ ← φ(W₀, W₂)
     V₃ ← φ(V₀, V₂)
 read V
-```
-
 read V_1
 W \leftarrow V + W   W_1 \leftarrow V_1 + W_3
 V \leftarrow 6      V_2 \leftarrow 6
 W \leftarrow V + W   W_2 \leftarrow V_2 + W_1
 end               end               end
-(a)                (b)                (c) assigning to just one component if the arrays share storage. In particular, the actual operation performed by HiddenUpdate is always of this form.
+(a)                (b)                (c)
+```
 
 Fig 18. Program that really uses two instances for a variable after code motion. (a) Source program; (b) unoptimized SSA form; (c) result of code motion.
