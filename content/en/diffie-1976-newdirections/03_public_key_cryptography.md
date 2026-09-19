@@ -17,7 +17,8 @@ pdf_sha256: 03fa2f493a1448a309586b9cf9e5c3a4dfd14735e0786cc94674519570b890ff
 pdf_pages: 4-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 764a3022188e498d562cbe8fe0ec806bb9e01397bf8ddff9dbca5313687ca0da
+content_sha256: d587797305d6a94e722a94556ef28fcdedd37fa993eed1c7346fda3b01a8b8c4
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -25,13 +26,11 @@ As shown in Fig. 1, cryptography has been a derivative security measure. Once a 
 
 In order to develop large, secure, telecommunications systems, this must be changed. A large number of users $n$ results in an even larger number, $(n^2 - n)/2$ potential pairs who may wish to communicate privately from all others. It is unrealistic to assume either that a pair of users with no prior acquaintance will be able to wait for a key to be sent by some secure physical means, or that keys for all $(n^2 - n)/2$ pairs can be arranged in advance. In another paper [5], the authors have considered a conservative approach requiring no new development in cryptography itself, but this involves diminished security, inconvenience, and restriction of the network to a starlike configuration with respect to initial connection protocol.
 
-We propose that it is possible to develop systems of the type shown in Fig. 2, in which two parties communicating solely over a public channel and using only publicly known techniques can create a secure connection. We examine two approaches to this problem, called public key cryptosys-
+We propose that it is possible to develop systems of the type shown in Fig. 2, in which two parties communicating solely over a public channel and using only publicly known techniques can create a secure connection. We examine two approaches to this problem, called public key cryptosystems and public key distribution systems, respectively. The first are more powerful, lending themselves to the solution of the authentication problems treated in the next section, while the second are much closer to realization.
 
 Figure.
 
 Fig. 2. Flow of information in public key system. {#diffie-1976-newdirections-fig-2 .figure tag=0374}
-
-tems and public key distribution systems, respectively. The first are more powerful, lending themselves to the solution of the authentication problems treated in the next section, while the second are much closer to realization.
 
 A *public key cryptosystem* is a pair of families $\{E_K\}_{K \in \{K\}}$ and $\{D_K\}_{K \in \{K\}}$ of algorithms representing invertible transformations,
 

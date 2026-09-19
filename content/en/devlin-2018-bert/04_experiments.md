@@ -19,7 +19,8 @@ pdf_sha256: 5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e
 pdf_pages: 5-7
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: b104c30c89a128ae5db4f88fe20faadcee0f6c4eee194dd1e69c3560711048e7
+content_sha256: 937885b76a065a0e7240d7982cca7a558c6a4867dd79a5f6375b6e0cf59f59e1
+edited: true
 prompt_sha256: d53a8bfa14d5deec1eabb71e8a2ea2db8c42f516778942c09f3051aa50a9397f
 ---
 
@@ -59,7 +60,7 @@ As shown in Figure 1, in the question answering task, we represent the input que
 
 Table 2 shows top leaderboard entries as well as results from top published systems (Seo et al., 2017; Clark and Gardner, 2018; Peters et al., 2018a; Hu et al., 2018). The top results from the SQuAD leaderboard do not have up-to-date public system descriptions available,[^4] and are allowed to use any public data when training their systems. We therefore use modest data augmentation in our system by first fine-tuning on TriviaQA (Joshi et al., 2017) before fine-tuning on SQuAD.
 
-Our best performing system outperforms the top leaderboard system by +1.5 F1 in ensembling and +1.3 F1 as a single system. In fact, our single BERT model outperforms the top ensemble system in terms of F1 score. Without TriviaQA fine-
+Our best performing system outperforms the top leaderboard system by +1.5 F1 in ensembling and +1.3 F1 as a single system. In fact, our single BERT model outperforms the top ensemble system in terms of F1 score. Without TriviaQA fine-tuning data, we only lose 0.1-0.4 F1, still outperforming all existing systems by a wide margin.[^1]
 
 [^2]: The GLUE data set distribution does not include the Test labels, and we only made a single GLUE evaluation server submission for each $\mathrm{BERT}_{\mathrm{BASE}}$ and $\mathrm{BERT}_{\mathrm{LARGE}}$.
 [^3]: https://gluebenchmark.com/leaderboard
@@ -108,8 +109,6 @@ BERTLARGE (Single)            78.7  81.9  80.0  83.1
 ```
 
 Table 3: SQuAD 2.0 results. We exclude entries that use BERT as one of their components. {#devlin-2018-bert-tab-3 .table tag=0154}
-
-tuning data, we only lose 0.1-0.4 F1, still outperforming all existing systems by a wide margin.[^1]
 
 ### 4.3 SQuAD v2.0 {#devlin-2018-bert-s4-3 .section tag=0155}
 

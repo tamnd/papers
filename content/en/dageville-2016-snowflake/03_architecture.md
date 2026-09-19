@@ -33,7 +33,8 @@ pdf_sha256: b635081104c3647561a476ab5947f5782b2a5c4be5af43b48cea90dba1b9e332
 pdf_pages: 3-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 987f39519485a85957da408d8f02b69ce2cc24c465797ee971146abc8a7efa3f
+content_sha256: 96d3db1936060758decfa8f6f0d84731142765220343fdc97e2f2137c1492596
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -144,10 +145,8 @@ An alternative technique has recently gained popularity for large-scale data pro
 
 Pruning nicely matches the design principles of Snowflake: it does not rely on user input; it scales well; and it is easy to maintain. What is more, it works well for sequential access of large chunks of data, and it adds little overhead to loading, query optimization, and query execution times.
 
-Snowflake keeps pruning-related metadata for every indi-
+Snowflake keeps pruning-related metadata for every individual table file. The metadata not only covers plain relational columns, but also a selection of auto-detected columns inside of semi-structured data, see Section 4.3.2. During optimization, the metadata is checked against the query predicates to reduce ("prune") the set of input files for query execution. The optimizer performs pruning not only for simple base-value predicates, but also for more complex expressions such as WEEKDAY(orderdate) IN (6, 7).
 
 3It would certainly be possible to defer changes to table files through the introduction of a redo-undo log, perhaps in combination with a delta store [32], but we are currently not pursuing this idea for reasons of complexity and scalability.
-
-vidual table file. The metadata not only covers plain relational columns, but also a selection of auto-detected columns inside of semi-structured data, see Section 4.3.2. During optimization, the metadata is checked against the query predicates to reduce ("prune") the set of input files for query execution. The optimizer performs pruning not only for simple base-value predicates, but also for more complex expressions such as WEEKDAY(orderdate) IN (6, 7).
 
 Besides this static pruning, Snowflake also performs dynamic pruning during execution. For example, as part of hash join processing, Snowflake collects statistics on the distribution of join keys in the build-side records. This information is then pushed to the probe side and used to filter and possibly skip entire files on the probe side. This is in addition to other well-known techniques such as bloom joins [40].

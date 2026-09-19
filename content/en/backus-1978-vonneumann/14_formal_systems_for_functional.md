@@ -16,7 +16,8 @@ pdf_sha256: 2e412a7986c7fd1bdd060d90d035faa9ecc8a29675f99206c243da90954ca423
 pdf_pages: 19-22
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 2e2c8679083900f35fd006efae8ab692b0915c17d57056f9b5c66e99822703f6
+content_sha256: 2d1e903cfb41924987b55e5fd74573249a92b0f40bec1fb4866fb17627b68193
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -80,7 +81,7 @@ where the $x_i$'s and y are objects. Here $\rho x_1$ determines what functional 
 $$(\rho<CONST,x>):y = (\rho CONST):<<CONST,x>,y> \\
 = 2 \circ 1:<<CONST,x>,y> = x.$$
 
-Here we can see that the first, controlling, operator of a sequence or form, CONST in this case, always has as its operand, after metacomposition, a pair whose first element is the sequence itself and whose second element is the original operand of the sequence, y in this case. The controlling operator can then rearrange and reapply the elements of the sequence and original operand in a great variety of ways. The significant point about metacom-
+Here we can see that the first, controlling, operator of a sequence or form, CONST in this case, always has as its operand, after metacomposition, a pair whose first element is the sequence itself and whose second element is the original operand of the sequence, y in this case. The controlling operator can then rearrange and reapply the elements of the sequence and original operand in a great variety of ways. The significant point about metacomposition is that it permits the definition of new functional forms, in effect, merely by defining new functions. It also permits one to write recursive functions without a definition.
 
 Store and push, pop, purge
 

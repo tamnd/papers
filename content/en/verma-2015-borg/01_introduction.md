@@ -21,13 +21,14 @@ pdf_sha256: 2fdacd3b69f8af91477412fc91d1d858a43e764929a4edb646bd517ededdad94
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 7b546f02e2e50b9b05f68107f38ad14397270d79772f2d1ca01cfde7ba8286de
+content_sha256: 5c6a26306f291eac2765257ee88cc7538367f38fea2e788af86e2e22d3fe4308
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 The cluster management system we internally call Borg admits, schedules, starts, restarts, and monitors the full range of applications that Google runs. This paper explains how.
 
-Borg provides three main benefits: it (1) hides the details of resource management and failure handling so its users can focus on application development instead; (2) operates with very high reliability and availability, and supports applications that do the same; and (3) lets us run workloads across tens of thousands of machines effectively. Borg is not the first system to address these issues, but it’s one of the few operating at this scale, with this degree of resiliency and completeness. This paper is organized around these topics, con-
+Borg provides three main benefits: it (1) hides the details of resource management and failure handling so its users can focus on application development instead; (2) operates with very high reliability and availability, and supports applications that do the same; and (3) lets us run workloads across tens of thousands of machines effectively. Borg is not the first system to address these issues, but it’s one of the few operating at this scale, with this degree of resiliency and completeness. This paper is organized around these topics, concluding with a set of qualitative observations we have made from operating Borg in production for more than a decade.
 
 † Work done while author was at Google.
 ‡ Currently at University of Southern California.
@@ -41,5 +42,3 @@ http://dx.doi.org/10.1145/2741948.2741964
 Figure.
 
 Figure 1: The high-level architecture of Borg. Only a tiny fraction of the thousands of worker nodes are shown. {#verma-2015-borg-fig-1 .figure tag=0454}
-
-cluding with a set of qualitative observations we have made from operating Borg in production for more than a decade.

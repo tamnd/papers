@@ -18,7 +18,8 @@ pdf_sha256: c509153c876aee8706e298d43e2fa93ade2696cc3102643b439af0f508bb52fc
 pdf_pages: 7-10
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 19c8adab3affbf55670801eced4a948a615fcf6066ed57433a4a6f50aa18bfa3
+content_sha256: d842626199b0276583c715cd0aea8ce884635735edf4af3ce86393597cc5dc56
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -81,7 +82,7 @@ The inclusion of these fetch-joins in X100 is no coincidence. In MIL, the “pos
 
 ### 4.2 Vectorized Primitives {#boncz-2005-x100-s4-2 .section tag=0779}
 
-The primary reason for using the column-wise vector layout is not to optimize memory layout in the cache (X100 is supposed to operate on cached data anyway). Rather, vectorized execution primitives have the advantage of a low degree of freedom (as discussed in Section 3.2). In a vertically fragmented data model, the execution primitives only know about the columns they operate on without having to know about the overall table layout (e.g. record offsets). When compil-
+The primary reason for using the column-wise vector layout is not to optimize memory layout in the cache (X100 is supposed to operate on cached data anyway). Rather, vectorized execution primitives have the advantage of a low degree of freedom (as discussed in Section 3.2). In a vertically fragmented data model, the execution primitives only know about the columns they operate on without having to know about the overall table layout (e.g. record offsets). When compiling X100, the C compiler sees that the X100 *vectorized primitives* operate on restricted (independent) arrays of fixed shape. This allows it to apply aggressive loop pipelining, critical for modern CPU performance (see Section 2). As an example, we show the (generated) code for vectorized floating-point addition:
 
 ```text
 Table(ID) : Table  +(double*, double*) +(double, double*) +(double*, double) +(double, double)
@@ -96,8 +97,6 @@ Order(Table, List, List) : Table
 ```
 
 Figure 7: X100 Query Algebra {#boncz-2005-x100-fig-7 .figure tag=077A}
-
-ing X100, the C compiler sees that the X100 *vectorized primitives* operate on restricted (independent) arrays of fixed shape. This allows it to apply aggressive loop pipelining, critical for modern CPU performance (see Section 2). As an example, we show the (generated) code for vectorized floating-point addition:
 
 ```text
 map_plus_double_col_double_col(int n,
@@ -141,11 +140,9 @@ A slight variation on the map primitives are the select_* primitives (see also F
 
 Similarly, there are the aggr_* primitives that calculate aggregates like count, sum, min, and max. For each, an initialization, an update, and an epilogue pattern need to be specified. The primitive generator then generates the relevant routines for the various implementations of aggregation in X100.
 
-The X100 mechanism of allowing database extension developers to provide (source-)code patterns in-
+The X100 mechanism of allowing database extension developers to provide (source-)code patterns instead of compiled code, allows all ADTs to get first-class-citizen treatment during query execution. This was also a weak point of MIL (and most extensible DBMSs [19]), as its main algebraic operators were only optimized for the built-in types.
 
 ⁴If X100 is used in resource-restricted environments, the size of the X100 binary (less than a MB now) could be further reduced by omitting the column-versions of (certain) execution primitives. X100 will still be able to process those primitives although more slowly, with a vector size of 1.
-
-stead of compiled code, allows all ADTs to get first-class-citizen treatment during query execution. This was also a weak point of MIL (and most extensible DBMSs [19]), as its main algebraic operators were only optimized for the built-in types.
 
 ### 4.3 Data Storage {#boncz-2005-x100-s4-3 .section tag=077B}
 

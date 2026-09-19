@@ -17,7 +17,8 @@ pdf_sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
 pdf_pages: 6-10
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 0ae39af4a99f833869cc800e52f7e204c4c3794d9596462f2f67c1dbdb19c847
+content_sha256: c57f72d7c25986c945d7ae26ebe90737119fb2a99abecf129ae7df01795024a1
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -147,11 +148,9 @@ where $a_1$ and $b_1$ cannot be both zero, else it would imply zero increase; an
 
 ### 2.4. Distributedness {#chiu-1989-aimd-s2-4 .section tag=03CB}
 
-The requirement of having no information about system state other than the feedback $y(t)$ further limits the set of feasible linear controls. Since the fairness requirements (Equation (8) or (9)) do not involve any system state, it already satisfies the distributedness criterion. The ef-
+The requirement of having no information about system state other than the feedback $y(t)$ further limits the set of feasible linear controls. Since the fairness requirements (Equation (8) or (9)) do not involve any system state, it already satisfies the distributedness criterion. The efficiency convergence conditions stated in (3), however, require knowledge of $\Sigma x_i(t)$ and $n$ at each user. In the absence of such knowledge, each user must try to satisfy the negative feedback condition by itself. This means a stronger condition to guarantee convergence to efficiency:
 
 2 Note that satisfying the negative feedback condition alone only guarantees that the system will oscillate about the efficiency point, but says nothing about the size of oscillation. So this is strictly speaking weaker than the efficiency condition. We will, however, explore how the oscillation size can be minimized when we talk about the optimality of a policy in the next section.
-
-ficiency convergence conditions stated in (3), however, require knowledge of $\Sigma x_i(t)$ and $n$ at each user. In the absence of such knowledge, each user must try to satisfy the negative feedback condition by itself. This means a stronger condition to guarantee convergence to efficiency:
 
 $$
 y(t) = 0 \implies x_i(t+1) > x_i(t) \quad \forall i,

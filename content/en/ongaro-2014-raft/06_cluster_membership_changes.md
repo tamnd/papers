@@ -17,7 +17,8 @@ pdf_sha256: 5a5c679b6a7c88007faeff8c3eef19a77e9e5caa8bd7390922584fe8ecf0ce1f
 pdf_pages: 10-17
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: c7e2ca6e377a87471e0077757e60d5fba1580600debcbf5b9616a2b0934d0d4c
+content_sha256: b17fe591332543367aea30b08f6c30b7ec3c625f9760fa7a6407586cc88be4cc
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -41,7 +42,7 @@ Although servers normally take snapshots independently, the leader must occasion
 
 The leader uses a new RPC called InstallSnapshot to send snapshots to followers that are too far behind; see Figure 13. When a follower receives a snapshot with this RPC, it must decide what to do with its existing log entries. Usually the snapshot will contain new information not already in the recipient’s log. In this case, the follower discards its entire log; it is all superseded by the snapshot and may possibly have uncommitted entries that conflict with the snapshot. If instead the follower receives a snapshot that describes a prefix of its log (due to retransmission or by mistake), then log entries covered by the snapshot are deleted but entries following the snapshot are still valid and must be retained.
 
-This snapshotting approach departs from Raft’s strong leader principle, since followers can take snapshots without the knowledge of the leader. However, we think this departure is justified. While having a leader helps avoid conflicting decisions in reaching consensus, consensus has already been reached when snapshotting, so no decisions conflict. Data still only flows from leaders to fol-
+This snapshotting approach departs from Raft’s strong leader principle, since followers can take snapshots without the knowledge of the leader. However, we think this departure is justified. While having a leader helps avoid conflicting decisions in reaching consensus, consensus has already been reached when snapshotting, so no decisions conflict. Data still only flows from leaders to followers, just followers can now reorganize their data.
 
 InstallSnapshot RPC
 
@@ -67,7 +68,7 @@ Receiver implementation:
 5. Save snapshot file, discard any existing or partial snapshot with a smaller index
 6. If existing log entry has same index and term as snapshot’s last included entry, retain log entries following it and reply
 7. Discard the entire log
-8. Reset state machine using snapshot contents (and load snapshot’s cluster configuration) lowers, just followers can now reorganize their data.
+8. Reset state machine using snapshot contents (and load snapshot’s cluster configuration)
 
 Figure 13: A summary of the InstallSnapshot RPC. Snapshots are split into chunks for transmission; this gives the follower a sign of life with each chunk, so it can reset its election timer. {#ongaro-2014-raft-fig-13 .figure tag=06B2}
 

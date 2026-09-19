@@ -20,7 +20,8 @@ pdf_sha256: cca4ae7873ac128b7b9034b2c3fbf32f7d84541a88b5e70d0c7c1ce1d6381fe8
 pdf_pages: 3-7
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 203445ec8345b3ee182fc76e606b15fdcb3193dba33f3ef1012af6cedacb43c9
+content_sha256: 454d2eda7f32f247df8a7fec2e4415f192e70cf624aa1c322452749beffa732b
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -148,7 +149,7 @@ Figure 6 shows the pseudocode of the update_finger_table function that updates e
 
 We show in the technical report [21] that the number of nodes that need to be updated when a node joins the network is $O(\log N)$ with high probability. Finding and updating these nodes takes $O(\log^2 N)$ time. A more sophisticated scheme can reduce this time to $O(\log N)$; however, we do not present it as we expect implementations to use the algorithm of the following section.
 
-Transferring keys: The last operation that has to be performed when a node $n$ joins the network is to move responsibility for all the keys for which node $n$ is now the successor. Exactly what this entails depends on the higher-layer software using Chord, but typically it would involve moving the data associated with each key to the new node. Node $n$ can become the successor only for keys that were previously the responsibility of the node immediately follow-
+Transferring keys: The last operation that has to be performed when a node $n$ joins the network is to move responsibility for all the keys for which node $n$ is now the successor. Exactly what this entails depends on the higher-layer software using Chord, but typically it would involve moving the data associated with each key to the new node. Node $n$ can become the successor only for keys that were previously the responsibility of the node immediately following $n$, so $n$ only needs to contact that one node to transfer responsibility for all relevant keys.
 
 #define successor finger[1].node
 
@@ -199,5 +200,3 @@ n.update_finger_table(s, i)
 p.update_finger_table(s, i);
 
 Figure 6: Pseudocode for the node join operation. {#stoica-2001-chord-fig-6 .figure tag=06D8}
-
-ing $n$, so $n$ only needs to contact that one node to transfer responsibility for all relevant keys.

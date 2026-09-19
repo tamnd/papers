@@ -19,7 +19,8 @@ pdf_sha256: 5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e
 pdf_pages: 14-16
 extraction: vision
 extraction_model: gpt-6-astra
-content_sha256: 30a72f0120b7e27e6f2cef8038c5de54d92853381380dd64c53bfb227acd6611
+content_sha256: 6f1f2df0d2a385ac0ca0d1e1b94b6b070823d5869766441d4d187c6e9a612541
+edited: true
 prompt_sha256: d53a8bfa14d5deec1eabb71e8a2ea2db8c42f516778942c09f3051aa50a9397f
 ---
 
@@ -45,7 +46,7 @@ Figure 4: Illustrations of Fine-tuning BERT on Different Tasks. {#devlin-2018-be
 
 **RTE** Recognizing Textual Entailment is a binary entailment task similar to MNLI, but with much less training data (Bentivogli et al., 2009).[^1]
 
-**WNLI** Winograd NLI is a small natural language inference dataset (Levesque et al., 2011). The GLUE webpage notes that there are issues with the construction of this dataset,[^2] and every trained system that’s been submitted to GLUE has performed worse than the 65.1 baseline accuracy of predicting the majority class. We therefore exclude this set to be fair to OpenAI GPT. For our GLUE submission, we always predicted the ma-
+**WNLI** Winograd NLI is a small natural language inference dataset (Levesque et al., 2011). The GLUE webpage notes that there are issues with the construction of this dataset,[^2] and every trained system that’s been submitted to GLUE has performed worse than the 65.1 baseline accuracy of predicting the majority class. We therefore exclude this set to be fair to OpenAI GPT. For our GLUE submission, we always predicted the majority class.
 
 [^1]: Note that we only report single-task fine-tuning results in this paper. A multitask fine-tuning approach could potentially push the performance even further. For example, we did observe substantial improvements on RTE from multi-task training with MNLI.
-[^2]: https://gluebenchmark.com/faq jority class.
+[^2]: https://gluebenchmark.com/faq
