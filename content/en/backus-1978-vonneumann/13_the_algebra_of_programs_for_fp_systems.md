@@ -16,7 +16,8 @@ pdf_sha256: 2e412a7986c7fd1bdd060d90d035faa9ecc8a29675f99206c243da90954ca423
 pdf_pages: 12-19
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: d1e6871f033e3fe6e500c311d0b34545895d314e71d1d952d01008e0766f1694
+content_sha256: b27df568a60a2ab8421d4df997e0b53759fe2d1eb80b436e3a9cfeae9c6ec0cb
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -98,6 +99,7 @@ It is easy to verify that ≤ is a partial ordering, that f≤g means g is an ex
 
 I  Composition and construction
 
+```text
 I.1   [f_1, ..., f_n]°g ≡ [f_1°g, ..., f_n°g]
 I.2   αf°[g_1, ..., g_n] ≡ [f°g_1, ..., f°g_n]
 I.3   /f°[g_1, ..., g_n]
@@ -115,6 +117,7 @@ I.6   tl°[f_1] ≤ φ and
       tl°[f_1, ..., f_n] ≤ [f_2, ..., f_n]   for n≥2
       defined°f_1 →→ tl°[f_1] ≡ φ
       and tl°[f_1, ..., f_n] ≡ [f_2, ..., f_n] for n≥2
+```
 I.7   distl°[f, [g_1, ..., g_n]] ≡ [[f,g_1], ..., [f,g_n]]
       defined°f →→ distl°[f,φ] ≡φ
       The analogous law holds for distr.
@@ -423,8 +426,10 @@ by I.5 □
 
 12.6.1 Example: Correctness proof for an iterative factorial function. Let f be the solution of f ≡ eq0°1 → 2; f°[s°1, ×] where Def s ≡ −°[id, \bar{I}] (substract 1). We want to prove that f:<x,1> = x! iff x is a nonnegative integer. Let p ≡ eq0°1, g ≡ 2, h ≡ id, k ≡ [s°1, ×]. Then f ≡ p → g; h°f°k and so f ≡ p → g; ... ; p°k^n → g°k^n; ...
 
+```text
 by the iteration theorem, since h^n ≡ id. We want to show that pair →→ k^n ≡ [a_n, b_n] holds for every n ≥ 1, where a_n ≡ s^n°1      (3)
 b_n ≡ /× ° [s^{n-1}°1, ..., s°1, 1, 2]      (4)
+```
 
 Now (2) holds for n = 1 by definition of k. We assume it holds for some n ≥ 1 and prove it then holds for n + 1. Now pair →→ k^{n+1} ≡ k°k^n ≡ [s°1, ×]°[a_n, b_n]      (5) since (2) holds for n. And so pair $\longrightarrow k^{n+1} \equiv [s^o a_n, \times^o[a_n, b_n]]$ by I.1 and I.5 (6)
 

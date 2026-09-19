@@ -16,7 +16,8 @@ pdf_sha256: d49afdf3db5a8374fbc757059fab0562b9a517b3ff7abec17c2e6b88c48f03e1
 pdf_pages: 7-15
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 2d1f612d87d3be0ce819e362ce4b54284d941a0766e9d4ed6dd84a180dd59696
+content_sha256: 0f7bd222bc8116de26bc3aa44fbccbddae0ff8f6cb1a855886bbb0c05922cafa
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -65,6 +66,7 @@ prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 | Scalar | 37 | 45 | 66 | 62 | 70 | 72 | 62 | 63 | 60 ± 12 |
 | Array/Structure | 36 | 43 | 5 | 10 | 19 | 12 | 30 | 20 | 22 ± 13 |
 
+```text
 C1      PCC - The Portable C Compiler for the VAX
 C2      CIFPLOT - a program that plots VLSI mask layouts on a dot plotter
 C3      NROFF - a text formatting program
@@ -73,6 +75,7 @@ P1      COMP - A Pascal P-code style compiler
 P2      MACRO - The macro expansion phase of the SCALD I design system
 P3      PRINT - A prettyprinter for Pascal
 P4      DIFF - A program that finds the differences between two files
+```
 
 Figure 1. Dynamic Percentage of Operands in C and Pascal {#patterson-1981-risc-fig-1 .figure tag=07B4}
 

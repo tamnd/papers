@@ -16,7 +16,8 @@ pdf_sha256: a126650c315e998ba96ea8248a60bde0afe60fec3e810acfc2b6c70d3b0e9f36
 pdf_pages: 4-36
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 129d2492540bd210614a19a54c2d53f724857b274c15d27d1f31b65a9d34ad50
+content_sha256: 86a483ee931c8c8ade1c40f843d989969a6f36561586bf4780405794e0cd513d
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -81,34 +82,48 @@ Further examples.
 
 (In the explanations the symbol “→” is used to signify “the machine goes into the m-configuration. . . .”)
 
+```text
 e(ε, β, α)      f(e₁(ε, β, α), β, α)
 c₁(ε, β, α)    E        ε
 e(β, α)         c(e(β, α), β, α)
+```
 
 From e(ε, β, α) the first α is erased and → ε. If there is no α→β.
 
 From c(β, α) all letters α are erased and → β.
 
-The last example seems somewhat more difficult to interpret than most. Let us suppose that in the list of m-configurations of some machine there appears e(b, x) (= q, say). The table is c(b, x)        e(c(b, x), b, x)
+The last example seems somewhat more difficult to interpret than most. Let us suppose that in the list of m-configurations of some machine there appears e(b, x) (= q, say). The table is
+
+```text
+c(b, x)        e(c(b, x), b, x)
 or             q                e(q, b, x).
+```
 
 Or, in greater detail:
 
+```text
 q c(q, b, x)
 c(q, b, x)       f(c₁(q, b, x), b, x)
 c₁(q, b, x)      E q.
+```
 
 In this we could replace c₁(q, b, x) by q' and then give the table for f (with the right substitutions) and eventually reach a table in which no m-functions appeared.
 
-pe(ε, β) f(pe₁(ε, β), ε, θ)
-pe₁(ε, β)   { Any   R, R   pe₁(ε, β)   From pe (ε, β) the machine prints β at the end of the sequence of symbols and → ε.
-              None   Pβ   ε
+```text
+pe(ε, β)        f(pe₁(ε, β), ε, θ)
+pe₁(ε, β)   { Any    R, R    pe₁(ε, β)
+              None   Pβ      ε
 l(ε)            L        ε
 r(ε)            R        ε
 f'(ε, β, α)     f(l(ε), β, α)
 f''(ε, β, α)    f(r(ε), β, α)
 c(ε, β, α)      f'(c₁(ε), β, α)
-c₁(ε) β pe(ε, β)      c(ε, β, α). The machine writes at the end the first symbol marked α and → ε.
+c₁(ε) β pe(ε, β)      c(ε, β, α)
+```
+
+From pe(ε, β) the machine prints β at the end of the sequence of symbols and → ε.
+
+The machine writes at the end the first symbol marked α and → ε.
 
 q(\mathcal{E}) \begin{cases}
 Any & R \\
@@ -336,6 +351,7 @@ $\text{kmp}$. The machine compares the sequences marked $x$ and $y$. It erases a
 
 ON COMPUTABLE NUMBERS.
 
+```text
 sim
 f'(sim₁, sim₁, z)
 sim₁
@@ -402,6 +418,7 @@ sh₅
 pe₂(inst, 0, :)
 inst
 pe₂(inst, 1, :)
+```
 
 sim. The machine marks out the instructions. That part of the instructions which refers to operations to be carried out is marked with u, and the final m-configuration with y. The letters z are erased.
 
@@ -409,13 +426,16 @@ mf. The last complete configuration is marked out into four sections. The config
 
 sh. The instructions (marked u) are examined. If it is found that they involve "Print 0" or "Print 1", then 0: or 1: is printed at the end.
 
-inst      g(l(inst₁), u)    inst. The next complete configuration is written down, carrying out the marked instructions. The letters u, v, w, x, y are erased. → anf.
-
+```text
+inst      g(l(inst₁), u)
 inst₁   a   R, E   inst₁(a)
 inst₁(L)   ce₅(ov, v, y, x, u, w)
 inst₁(R)   ce₅(ov, v, x, u, y, w)
 inst₁(N)   cc₅(ov, v, x, y, u, w)
 ov e(anf)
+```
+
+inst. The next complete configuration is written down, carrying out the marked instructions. The letters u, v, w, x, y are erased. → anf.
 
 8. Application of the diagonal process.
 

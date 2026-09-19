@@ -14,7 +14,8 @@ pdf_sha256: e052281b553622badc8dd308003c127617aa5723e4ec3dbfa79b781d8e712742
 pdf_pages: 11-17
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 048b2063279adafffe840056f842249afc21448f916b782cef1ed1f9b04efd17
+content_sha256: acc27f239a6a4a28db048e0db042c3f17ccf6d24800a98099227c240f13294a1
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -30,6 +31,7 @@ Finally, I wish to thank Lawrence G. Roberts who was a constant source of answer
 
 Contents
 
+```text
 I    INTRODUCTION                                                                                                    17
 II   HISTORY OF SKETCHPAD                                                                                         31
 III  RING STRUCTURE                                                                                              37
@@ -46,6 +48,7 @@ D    RING OPERATION MACRO INSTRUCTIONS                                          
 E    PROPOSAL FOR AN INCREMENTAL CURVE DRAWING DISPLAY                                                           129
 F    MATHEMATICS OF LEAST MEAN SQUARE FIT                                                                         135
 G    A BRIEF DESCRIPTION OF TX-2                                                                                 137
+```
 
 CONTENTS
 

@@ -16,7 +16,8 @@ pdf_sha256: 6e4e3411984f3edf99dbfe8b941cb5e8a321379ff0cae6ae5c1f592ad8882ca8
 pdf_pages: 4-7
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: bf2dbcd6b49c0f8fe70f2e3dd36d0a0a3a4247c8edb5c639c540acdf36eabfda
+content_sha256: 34c9bed8dd547406153919800f27037740e973536463746cfcd5169c1f7e6057
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -77,10 +78,12 @@ The next increase in complexity would involve trigram frequencies but no more. T
 
 (D) Stochastic processes can also be defined which produce a text consisting of a sequence of "words." Suppose there are five letters A, B, C, D, E and 16 "words" in the language with associated probabilities:
 
+```text
 .10 A   .16 BEBE   .11 CABED   .04 DEB
 .04 ADEB   .04 BED   .05 CEED   .15 DEED
 .05 ADEE   .02 BEED   .08 DAB   .01 EAB
 .01 BADD   .05 CA   .04 DAD   .05 EE
+```
 
 Suppose successive "words" are chosen independently and are separated by a space. A typical message might be:
 DAB EE A BEBE DEED DEB ADEE ADEE EE DEB BEBE BEBE BEBE ADEE BED DEED DEED CEED ADEE A DEED DEED BEBE CABED BEBE BED DAB DEED ADEB.

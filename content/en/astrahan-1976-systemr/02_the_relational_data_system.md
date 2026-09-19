@@ -29,7 +29,8 @@ pdf_sha256: e66b9412f77f7dc2599908c627e49e92e2949832e64a94f12652ab0915a8a1b5
 pdf_pages: 4-21
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 1183700c58ec995efd978b84743ab854c3d441f82473226f359fde2d8e409e7f
+content_sha256: 0e5cd601229ca88c66d96b0b3c76edc0ae3dd35fa44a39febf19fb89faa7e46b
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -203,11 +204,14 @@ The SEQUEL assignment statement allows the result of a query to be copied into a
 
 Example 9 (Assignment). Create a new table UNDERPAID consisting of names and salaries of programmers who earn less than \$10,000. {#astrahan-1976-systemr-ex-9 .statement tag=070D}
 
+```sql
 CALL SEQUEL('UNDERPAID(NAME, SAL) ←
     SELECT NAME, SAL
     FROM EMP
     WHERE JOB = 'PROGRAMMER'
     AND SAL < 10,000');
+```
+
 The new table UNDERPAID represents a snapshot taken from EMP at the moment the assignment was executed. UNDERPAID then becomes an independent relation and does not reflect any later changes to EMP.
 
 Data Definition Facilities
@@ -267,6 +271,7 @@ DEFINE TRIGGER EMPINS
             SET NEMPS = NEMPS + 1
             WHERE DNO = NEW EMP.DNO)
 
+```sql
 DEFINE TRIGGER EMPDEL
     ON DELETION OF EMP:
         (UPDATE DEPT
@@ -280,6 +285,7 @@ DEFINE TRIGGER EMPUPD
             UPDATE DEPT
                 SET      NEMPS = NEMPS + 1
                 WHERE   DNO = NEW EMP.DNO)
+```
 
 The RDS automatically maintains a set of catalog relations which describe the other relations, views, images, links, assertions, and triggers known to the system. Each user may access a set of views of the system catalogs which contain information pertinent to him. Access to catalog relations is made in exactly the same way as other relations are accessed (i.e. by SEQUEL queries). Of course, no user is authorized to modify the contents of a catalog directly, but any authorized user may modify a catalog indirectly by actions such as creating a table. In addition, a user may enter comments into his various catalog entries by means of the COMMENT statement (see syntax in Appendix II).
 
@@ -297,18 +303,22 @@ Example 11 will be used to describe the decision process for a query involving a
 
 Example 11. List the names and salaries of programmers who earn more than \$10,000. {#astrahan-1976-systemr-ex-11-2 .statement tag=0710}
 
+```sql
 SELECT NAME, SAL
 FROM EMP
 WHERE JOB = 'PROGRAMMER'
 AND SAL > 10,000
+```
 
 In planning the execution of this example, the optimizer must choose whether to access the EMP relation via an image (on JOB, SAL or some other field) or via a relation scan. The following parameters, available in the system catalogs, are taken into account:
 
+```text
 R    relation cardinality (number of tuples in the relation)
 D    number of data pages occupied by the relation
 T    average number of tuples per data page (equal to R/D)
 I    image cardinality (number of distinct sort field values in a given image)
 H    coefficient of CPU cost (1/H is the number of tuple comparisons which are considered equivalent in cost to one disk page access).
+```
 
 An image is said to "match" a predicate if the sort field of the image is the field which is tested by the predicate. For example, an image on the EMP relation ordered by JOB (which we will refer to as an "image on EMP.JOB") would match the predicate JOB = 'PROGRAMMER' in Example 11. In order for an image to match a predicate, the predicate must be a simple comparison of a field with a value. More complicated predicates, such as EMP.DNO = DEPT.DNO, cannot be matched by an image.
 

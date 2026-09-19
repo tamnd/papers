@@ -14,7 +14,8 @@ pdf_sha256: b62a6bc6a0b22d9acf08415f9f95f89d6a0b5c9ce46ee9a42563eb9228695be7
 pdf_pages: 1-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 795b9ba4c79988fbc96141d6c01919c0ae76153ed2d075483bb34efa676cd5f7
+content_sha256: 56e57521e250ec3ec636f2b97fd96a6a2630c3784d3dd996eff59f0b6dcaa75e
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -42,9 +43,11 @@ In the pseudo-register-to-register format "seen" by the FLOS the R2 field can ha
 
 The distinction between source and sink will become quite important during the discussion of precedence and should be fixed firmly in mind. All of the instructions (except store and compare) have the following form:
 
+```text
 R1   op   R2   →   R1
 Register   Register   Register or buffer
 source   source   sink
+```
 
 * Compares do not, of course, alter the contents of R1.
 
@@ -103,6 +106,7 @@ This scheme easily meets the first two requirements. The third is met with the h
 
 Example 2 {#tomasulo-1967-algorithm-ex-2 .statement tag=034E}
 
+```text
 LD F0, D      F0 = D
 LD F2, C      F2 = C
 LD F4, B      F4 = B
@@ -110,6 +114,7 @@ MD F0, E      F0 = D * E
 AD F2, F0     F2 = C + D * E
 AD F4, A      F4 = A + B
 AD F2, F4     F2 = A + B + C + D * E
+```
 
 The busy bit scheme should allow the second add and the multiply to be executed simultaneously (really, in any order) since they use different sinks. Unfortunately, the timing chart of Fig. 3a shows not only that the expected overlap does not occur but also that many cycles are lost to transmission time. The overlap fails to materialize because the first add uses the result of the multiply, and the adder must wait for that result. Cycles are lost to control because so many of the instructions use the adder. The FLOS cannot decode an instruction unless a unit is available to execute it. When an assigned unit finishes execution, it takes one cycle to transmit the fact to the FLOS so that it can decode a waiting instruction. Similarly, when the FLOS is held up because of a busy sink register, it cannot begin to decode until the result has been entered into the register.
 
