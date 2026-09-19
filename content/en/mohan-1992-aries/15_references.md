@@ -19,7 +19,8 @@ pdf_sha256: 1007fcedb6b8b465f97ee1c4e4d88420450b50b18ff5ad400a130b21e4961817
 pdf_pages: 32-35
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: ca443eff25902b497a96ff52698d295188d6fdf15d0e18ed6b2c09ccddcc14a0
+content_sha256: 78568d38163fd4165e42fa7f748456508c266059080e3167f120257c01038908
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -138,7 +139,7 @@ ARIES: A Transaction Recovery Method
 
 56. MOSS, E., GRIFFETH, N., AND GRAHAM, M. Abstraction in recovery management. In Proceedings ACM SIGMOD International Conference on Management of Data (Washington, D.C., May 1986).
 
-57. MOHAN, C. ARIES/KVI: A key-value locking method for concurrency control of multiac- tion transactions operating on B-tree indexes. In Proceedings 16th International Conference on Very Large Data Bases (Brisbane, Aug. 1990). Another version of this paper is available as IBM Res. Rep. RJ7008, IBM Almaden Research Center, Sept. 1989.
+57. MOHAN, C. ARIES/KVI: A key-value locking method for concurrency control of multiaction transactions operating on B-tree indexes. In Proceedings 16th International Conference on Very Large Data Bases (Brisbane, Aug. 1990). Another version of this paper is available as IBM Res. Rep. RJ7008, IBM Almaden Research Center, Sept. 1989.
 
 58. MOHAN, C. Commit-LSN: A novel and simple method for reducing locking and latching in transaction processing systems. In Proceedings 16th International Conference on Very Large Data Bases (Brisbane, Aug. 1990). Also available as IBM Res. Rep. RJ7344, IBM Almaden Research Center, Feb. 1990.
 

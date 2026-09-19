@@ -16,7 +16,8 @@ pdf_sha256: 2e412a7986c7fd1bdd060d90d035faa9ecc8a29675f99206c243da90954ca423
 pdf_pages: 7-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 92d02d3c3ee98e87d92a2de2bb11a9ec0646a0d12920823d0ae55b30e5a96961
+content_sha256: e13b09cbd803c2fb0b77447e87dc5e462d76f9234dd0614c730416ecaa65aafc
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -217,9 +218,9 @@ $\to f:<x_1,/f:<x_2,\ldots,x_n>>;\bot$
 
 If $f$ has a unique right unit $u_f\ne\bot$, where $f:<x,u_f>\in\{x,\bot\}$ for all objects $x$, then the above definition is extended: $/f:\phi=u_f$. Thus
 
-$ /+:<4,5,6> = +:<4, +:<5,/+:<6>>>>$
+$/+:<4,5,6> = +:<4, +:<5,/+:<6>>>$
 
-$=+ :<4,+:<5,6>>=15$
+$= +:<4,+:<5,6>> = 15$
 
 $/+:\phi=0$
 
