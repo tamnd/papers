@@ -16,7 +16,8 @@ pdf_sha256: ae57cf641ae4f1924bdc4d7ef865edb2411c44e3040e8e546d01f1545e288e89
 pdf_pages: 17-22
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 86f22940f72d8f2253c59ef5b41d2257adc090418c120ce659a97a8befb08c26
+content_sha256: 7c149b9df80d49a09e45a8391c2e6febd08da55d0032888e98d2cbd1b5ee728c
+edited: true
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -56,6 +57,7 @@ k = p, \text{ the number of clauses.}
 $$
 
 CLIQUE $\propto$ SET PACKING
+
 Assume $N = \{1, 2, \ldots, n\}$. The elements of the sets $S_1, S_2, \ldots, S_n$ are those two-element sets of nodes $\{i, j\}$ not in $A$.
 
 $$
