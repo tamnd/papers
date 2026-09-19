@@ -203,14 +203,14 @@ figures:
     - paper: bloom-1970-filter
       figure: f01
       page: 5
-      bbox: [43.68, 345.36, 297.84, 705.36]
+      bbox: [43.68, 345.36, 297.84, 594.24]
       caption: FIG. i
-      sha256: d01202327f2196c109d5ba759ab30cbd1f75786ea2bcb2d6609d277896d3149b
+      sha256: f31e6a60d127b865138a50a3a59c87aa48bf3414212eec5acf23df1b1849f17e
       method: crop
-      page_fraction: 0.1888
+      page_fraction: 0.1305
       width: 1059
-      height: 1500
-      bytes: 253230
+      height: 1037
+      bytes: 141739
     - paper: boncz-2005-x100
       figure: f01
       number: "1"
@@ -239,38 +239,38 @@ figures:
       figure: f03
       number: "3"
       page: 4
-      bbox: [64.56, 94.32, 312.96, 426.48]
+      bbox: [64.56, 111.6, 272.4, 245.76]
       caption: 'Figure 3: TPC-H Query 1'
-      sha256: 913c845696d4d434db27d942f11464eb2024d741ce968ca7bf66379d84c86695
+      sha256: 315da93c5f7a2c46488f9cdefff8050fc136e3633038e6d80cc8fa174deeea9c
       method: vector
-      page_fraction: 0.1702
-      width: 1035
-      height: 1384
-      bytes: 267363
+      page_fraction: 0.0575
+      width: 866
+      height: 559
+      bytes: 106505
     - paper: boncz-2005-x100
       figure: f04
       number: "4"
       page: 6
-      bbox: [316.08, 285.12, 552.24, 735.84]
+      bbox: [316.32, 285.12, 552.24, 491.04]
       caption: 'Figure 4: Hard-Coded UDF for Query 1 in C'
-      sha256: 02a9c94ed3886bb9147e09bade33a28490bce3984878c8f9911485822c5df9e0
+      sha256: 8fdf794f2b16e16c1362c8eaf83cec987297ab5cf8c2b9ac1ecd85c23cd04cfb
       method: vector
-      page_fraction: 0.2196
-      width: 984
-      height: 1878
-      bytes: 361947
+      page_fraction: 0.1002
+      width: 983
+      height: 858
+      bytes: 163277
     - paper: boncz-2005-x100
       figure: f05
       number: "5"
       page: 7
-      bbox: [316.32, 330.48, 551.04, 552]
+      bbox: [320.64, 330.48, 543.36, 525.6]
       caption: 'Figure 5: X100 Software Architecture'
-      sha256: 2c5f941ed5e748d47d7f0601c49f44969ad8d1103c0d1c5e287e73fc4c795392
+      sha256: 4f27d1ebbcf557a2f46ce5e4150a2c1b3bd6fdda1db0daed6646d849ab547f07
       method: vector
-      page_fraction: 0.1073
-      width: 978
-      height: 923
-      bytes: 128744
+      page_fraction: 0.0897
+      width: 928
+      height: 813
+      bytes: 113278
     - paper: boncz-2005-x100
       figure: f06
       number: "6"
@@ -888,26 +888,26 @@ figures:
       figure: f01
       number: "1"
       page: 5
-      bbox: [71.76, 165.12, 297.84, 716.88]
+      bbox: [73.44, 165.12, 295.68, 264]
       caption: 'Figure 1: Normal Case Operation'
-      sha256: fdcf3c2503fa7c667d276f153f8148be1b8787024977756492ddb5c5587ae48a
+      sha256: 0c86546e73e9ce7ede7d8cc5c40c8f68d02f44a13594e72b278c1c1fe2b0cd8e
       method: vector
-      page_fraction: 0.2574
-      width: 942
-      height: 2299
-      bytes: 343785
+      page_fraction: 0.0453
+      width: 926
+      height: 412
+      bytes: 30714
     - paper: castro-1999-pbft
       figure: f02
       number: "2"
       page: 9
-      bbox: [314.16, 316.56, 540.48, 605.52]
+      bbox: [335.76, 316.56, 519.84, 469.2]
       caption: 'Figure 2: Replicated File System Architecture.'
-      sha256: 721220c0f878873c4a4d957cc8144c44f26bad9f6aa77501c18b638acf5a1ce7
+      sha256: 52de6ea86db06b47adb4bc1d02a36f5dda45394da4c22f5956898a5cfc1e78b7
       method: vector
-      page_fraction: 0.1349
-      width: 943
-      height: 1204
-      bytes: 164342
+      page_fraction: 0.058
+      width: 767
+      height: 636
+      bytes: 61662
     - paper: cerf-1974-tcpip
       figure: f01
       number: "1"
@@ -1068,26 +1068,26 @@ figures:
       figure: f04
       number: "4"
       page: 4
-      bbox: [314.16, 232.8, 540.24, 717.84]
+      bbox: [314.4, 232.8, 538.8, 347.52]
       caption: 'Figure 4: Tablet location hierarchy.'
-      sha256: f833f0fc26cbc86d64a57064b843cd7803fc65587565f347f00839f330273c19
+      sha256: c5d8a68e96be26b726628d5e73a20f1e125cff74ee21e8d68b4b0b0d4db75f6d
       method: vector
-      page_fraction: 0.2262
-      width: 942
-      height: 2021
-      bytes: 268637
+      page_fraction: 0.0531
+      width: 935
+      height: 478
+      bytes: 36722
     - paper: chang-2006-bigtable
       figure: f05
       number: "5"
       page: 6
-      bbox: [71.76, 409.44, 297.6, 717.84]
+      bbox: [71.76, 409.44, 296.64, 532.08]
       caption: 'Figure 5: Tablet Representation'
-      sha256: 2fb7d1dd6ae711c729347dd001a955c56ef4017f8f963bcaf8fcbfc1c7c0502c
+      sha256: c5c7732d88b17e97902b1cd78dce0071ebac20d25264b6d68131c5dc1b2c979c
       method: vector
-      page_fraction: 0.1437
-      width: 941
-      height: 1285
-      bytes: 140502
+      page_fraction: 0.0569
+      width: 937
+      height: 511
+      bytes: 31630
     - paper: chang-2006-bigtable
       figure: f06
       number: "6"
@@ -1116,62 +1116,62 @@ figures:
       figure: f02
       number: "2"
       page: 3
-      bbox: [17.76, 198.92, 542.16, 743.24]
+      bbox: [17.76, 198.92, 542.16, 448.52]
       caption: FIG. 2. A relation with-two identical domains
-      sha256: 964854a24a0a9815432a67a787b1a0591aecec35559e47d655eba93045a323e1
+      sha256: f0f75d6350dc4e7a6a4da94d8f6814dd29f3c7f17e2261636a612763f383ac5f
       method: vector
-      page_fraction: 0.6746
+      page_fraction: 0.3093
       width: 2185
-      height: 2268
-      bytes: 458362
+      height: 1040
+      bytes: 205740
     - paper: codd-1970-relational
       figure: f03
       number: "4"
       page: 7
-      bbox: [285.84, 398.84, 540.96, 738.44]
+      bbox: [298.32, 398.84, 526.56, 484.52]
       caption: FIG. 4. A permuted projection of the relation in Figure 1
-      sha256: 550a5599c2480012b9e1f507594eccd237efa2a14eec0802ae9e6a935f923120
+      sha256: 5f9aae70e0add850eef43ac0047870fadcb71ed2273c39cd48852b7589c7b012
       method: vector
-      page_fraction: 0.2051
-      width: 1063
-      height: 1415
-      bytes: 284191
+      page_fraction: 0.0463
+      width: 951
+      height: 357
+      bytes: 9320
     - paper: codd-1970-relational
       figure: f04
       number: "5"
       page: 7
-      bbox: [275.76, 315.56, 540.96, 738.44]
+      bbox: [276, 315.56, 527.04, 384.2]
       caption: FIG. 5. Two joinable relations
-      sha256: e8adbd24fcc9a452646da57e68c4459173782b00a9424f2e1c1704b5303f5d2b
+      sha256: 0cb9b339f8ba9f310ee1a43e41a2550646c7ec5bfc6531d07a20e58cc2921c37
       method: vector
-      page_fraction: 0.2655
-      width: 1105
-      height: 1762
-      bytes: 317769
+      page_fraction: 0.0408
+      width: 1046
+      height: 286
+      bytes: 11366
     - paper: codd-1970-relational
       figure: f05
       number: "6"
       page: 7
-      bbox: [275.76, 212.12, 540.96, 738.44]
+      bbox: [330.96, 212.12, 498.24, 300.92]
       caption: FIG. 6. The natural join of R with S (from Figure 5)
-      sha256: 7dcb4b256c2dce7f87d8f49a9702afdb271f740bec454d1ba59616da96b1f30c
+      sha256: 4f64a582a0fefa8c0956c1108443c031405d0455dbe95fdf3cd07ebef79d04e9
       method: vector
-      page_fraction: 0.3305
-      width: 1105
-      height: 2193
-      bytes: 344043
+      page_fraction: 0.0352
+      width: 697
+      height: 370
+      bytes: 22571
     - paper: codd-1970-relational
       figure: f06
       number: "7"
       page: 7
-      bbox: [275.76, 130.76, 540.96, 738.44]
+      bbox: [306, 130.76, 518.64, 197.48]
       caption: FIG. 7. Another join of R with S (from Figure 5)
-      sha256: da094deb36a380b4874c406d491f2e2ffc803ab40ab573130748c213c5e8308e
+      sha256: 7710029e65020658b1bca8160a420e0ccdffea256b23f123b6209b10b5e27268
       method: vector
-      page_fraction: 0.3816
-      width: 1105
-      height: 2532
-      bytes: 371956
+      page_fraction: 0.0336
+      width: 886
+      height: 278
+      bytes: 25176
     - paper: codd-1970-relational
       figure: f07
       number: "8"
@@ -1188,14 +1188,14 @@ figures:
       figure: f08
       number: "9"
       page: 8
-      bbox: [22.56, 145.04, 259.92, 295.52]
+      bbox: [75.12, 145.04, 217.44, 207.68]
       caption: FIG. 9. Two cyclic 3-joins of the relations in Figure 8
-      sha256: e52ad603c8d9db4d3062d518e88b06ea7b0f8262ccabee6fa798cd1a9c263352
+      sha256: 8d8918ef3673240a3c0ff6c3975d7006732ed8e5bdedddee64a1b96520bdf159
       method: vector
-      page_fraction: 0.0835
-      width: 989
-      height: 627
-      bytes: 12264
+      page_fraction: 0.0208
+      width: 593
+      height: 261
+      bytes: 4301
     - paper: codd-1970-relational
       figure: f09
       number: "10"
@@ -1212,14 +1212,14 @@ figures:
       figure: f10
       number: "13"
       page: 9
-      bbox: [286.08, 460.52, 539.04, 731.24]
+      bbox: [326.4, 460.52, 537.12, 526.52]
       caption: FIG. 13. Example of restriction
-      sha256: 416f825f21bf26ed6a64ab416bb07b44f76e23be23042402cd1a5bedf077912d
+      sha256: 2d7cf7c1b41cb3b1f647e0e9e99578cf2c2249775730b423b5bae3c0cdc486c3
       method: vector
-      page_fraction: 0.1621
-      width: 1054
-      height: 1128
-      bytes: 105894
+      page_fraction: 0.0329
+      width: 878
+      height: 275
+      bytes: 12960
     - paper: corbett-2012-spanner
       figure: f01
       number: "1"
@@ -1633,14 +1633,14 @@ figures:
       figure: f05
       number: "5"
       page: 9
-      bbox: [316.8, 621.6, 556.08, 738]
+      bbox: [322.08, 621.6, 556.08, 677.52]
       caption: 'Figure 5: Encryption Key Hierarchy'
-      sha256: 79f4d76455a48cd58742637c3d6a1add013d68bdc8079e0126021b07197ea182
+      sha256: a09d3bb0789dbd38048bdbe5618db1b44ef82f8074668a7fc4b0e90b15a4a791
       method: vector
-      page_fraction: 0.0575
-      width: 997
-      height: 485
-      bytes: 59179
+      page_fraction: 0.027
+      width: 975
+      height: 233
+      bytes: 26861
     - paper: dageville-2016-snowflake
       figure: f06
       number: "6"
@@ -1789,14 +1789,14 @@ figures:
       figure: f08
       number: "8"
       page: 13
-      bbox: [52.08, 569.28, 287.28, 718.8]
+      bbox: [52.08, 569.28, 287.28, 673.2]
       caption: 'Figure 8: Comparison of the load distribution efficiency of different strategies for system with 30 nodes and N=3 with equal amount of metadata maintained at each node. The values of the system size and number of replicas are based on the typical configuration deployed for majority of our services.'
-      sha256: 7dbaf4f01419fffc05d0b8671459fc3a8988d45e1b0eaee43e7cdcf9b779f257
+      sha256: 29fca1fa9d16ecb4393caa9d9f311c4e7984ccc5aeb2a14b6673dcca33979984
       method: vector
-      page_fraction: 0.0726
+      page_fraction: 0.0504
       width: 980
-      height: 623
-      bytes: 44552
+      height: 433
+      bytes: 32206
     - paper: dennard-1974-scaling
       figure: f01
       number: "1"
@@ -1969,15 +1969,14 @@ figures:
       figure: f02
       number: "5"
       page: 6
-      bbox: [291.57, 74.38, 567.37, 729.22]
+      bbox: [289.92, 74.4, 563.52, 287.52]
       caption: FIG. 5. ['age table entries for detecting W(t, IQ)
-      sha256: 4dea9a6088e216d27c860b15b2a7a43198b9fe85c081f7385e45988932df8087
+      sha256: b6dcf2ae0dc7152208ce281ccb87321c54ff6b06ef15a11005c7bed0af70a8b2
       method: crop
-      page_fraction: 0.3726
-      scale: 0.81
-      width: 927
-      height: 2201
-      bytes: 144797
+      page_fraction: 0.1203
+      width: 1140
+      height: 888
+      bytes: 88004
     - paper: denning-1968-workingset
       figure: f03
       number: "4"
@@ -1994,14 +1993,14 @@ figures:
       figure: f04
       number: "8"
       page: 8
-      bbox: [247.68, 123.84, 569.04, 338.64]
+      bbox: [247.68, 123.84, 536.88, 314.16]
       caption: FIG. 8. P r o b a b i l i t y density function for q
-      sha256: 1de75d08f1241f634d48c0ad53ab3f625ee71d297ce67874726e1f881bf2cf48
+      sha256: c3d4f14dc39a4f4d79c32ecaebbdecbe979d45c676149a3d91ec3eb7ff79e7f2
       method: crop
-      page_fraction: 0.1424
-      width: 1339
-      height: 895
-      bytes: 82570
+      page_fraction: 0.1136
+      width: 1205
+      height: 793
+      bytes: 46235
     - paper: denning-1968-workingset
       figure: f05
       number: "9"
@@ -2066,14 +2065,14 @@ figures:
       figure: f05
       number: "5"
       page: 16
-      bbox: [72, 139.65, 291.12, 628.29]
+      bbox: [74.64, 139.65, 270.72, 270.21]
       caption: 'Figure 5: Ablation over number of training steps. This shows the MNLI accuracy after fine-tuning, starting from model parameters that have been pre-trained for k steps. The x-axis is the value of k.'
-      sha256: 6d7bd235a1ea637b8f3d0e4430929a927d6f28a9c4b379abc2aea45e06efa0dd
+      sha256: d08e7b42f0bb41cd03bb46bad0e0a68d8165084920ff47b869102eff50497af6
       method: vector
-      page_fraction: 0.2136
-      width: 913
-      height: 2036
-      bytes: 256172
+      page_fraction: 0.0511
+      width: 817
+      height: 544
+      bytes: 49405
     - paper: dewitt-1990-gamma
       figure: f01
       number: "1"
@@ -2524,14 +2523,14 @@ figures:
       figure: f02
       number: "2"
       page: 2
-      bbox: [316.08, 402.72, 556.32, 720.96]
+      bbox: [316.08, 402.72, 556.32, 597.36]
       caption: Figure 2. State machine describing the major activities of Trace-Monkey and the conditions that cause transitions to a new activity. In the dark box, TM executes JS as compiled traces. In the light gray boxes, TM executes JS in the standard interpreter. White boxes are overhead. Thus, to maximize performance, we need to maximize time spent in the darkest box and minimize time spent in the white boxes. The best case is a loop where the types at the loop edge are the same as the types on entry–then TM can stay in native code until the loop is done.
-      sha256: 746a25f7793eb611f43c020fc00dc882b775209dadf293f009285ba4832fd2b4
+      sha256: bac19b75f8458c0cf87ce683ccd035bdcd8515a767fdc236a62bc3e42d478c6a
       method: vector
-      page_fraction: 0.1577
+      page_fraction: 0.0965
       width: 1001
-      height: 1326
-      bytes: 192937
+      height: 811
+      bytes: 128358
     - paper: gal-2009-tracejit
       figure: f03
       number: "5"
@@ -2546,6 +2545,18 @@ figures:
       bytes: 8585
     - paper: gal-2009-tracejit
       figure: f04
+      number: "6"
+      page: 6
+      bbox: [316.08, 303.12, 556.32, 498.24]
+      caption: Figure 6. We handle type-unstable loops by allowing traces to compile that cannot loop back to themselves due to a type mismatch. As such traces accumulate, we attempt to connect their loop edges to form groups of trace trees that can execute without having to side-exit to the interpreter to cover odd type cases. This is particularly important for nested trace trees where an outer tree tries to call an inner tree (or in this case a forest of inner trees), since inner loops frequently have initially undefined values which change type to a concrete value after the first iteration.
+      sha256: ba367d0ca4ed0de0723b7681d7c0300e29b4771d78608731ab1bd09aef0c8af3
+      method: vector
+      page_fraction: 0.0967
+      width: 1001
+      height: 813
+      bytes: 44141
+    - paper: gal-2009-tracejit
+      figure: f05
       number: "7"
       page: 7
       bbox: [54, 569.28, 293.76, 717.12]
@@ -2557,7 +2568,7 @@ figures:
       height: 616
       bytes: 46790
     - paper: gal-2009-tracejit
-      figure: f05
+      figure: f06
       number: "8"
       page: 7
       bbox: [316.08, 588.24, 556.32, 717.12]
@@ -2569,7 +2580,7 @@ figures:
       height: 537
       bytes: 36233
     - paper: gal-2009-tracejit
-      figure: f06
+      figure: f07
       number: "9"
       page: 8
       bbox: [316.08, 634.8, 556.32, 720.72]
@@ -2581,7 +2592,7 @@ figures:
       height: 358
       bytes: 62775
     - paper: gal-2009-tracejit
-      figure: f07
+      figure: f08
       number: "11"
       page: 10
       bbox: [316.08, 494.16, 559.92, 719.76]
@@ -2593,7 +2604,7 @@ figures:
       height: 940
       bytes: 101363
     - paper: gal-2009-tracejit
-      figure: f08
+      figure: f09
       number: "10"
       page: 11
       bbox: [54, 440.88, 556.32, 720.48]
@@ -2605,7 +2616,7 @@ figures:
       height: 1165
       bytes: 123819
     - paper: gal-2009-tracejit
-      figure: f09
+      figure: f10
       number: "13"
       page: 12
       bbox: [54, 438.72, 556.32, 708]
@@ -2617,7 +2628,7 @@ figures:
       height: 1122
       bytes: 287034
     - paper: gal-2009-tracejit
-      figure: f10
+      figure: f11
       number: "12"
       page: 13
       bbox: [54, 493.68, 295.44, 536.88]
@@ -2844,6 +2855,42 @@ figures:
       width: 889
       height: 486
       bytes: 66977
+    - paper: hochreiter-1997-lstm
+      figure: f01
+      number: "1"
+      page: 7
+      bbox: [112.32, 256.88, 492.24, 419.84]
+      caption: 'Figure 1: Architecture of memory cell c j (the box) and its gate units in j ; out j . The self-recurrent connection (with weight 1.0) indicates feedback with a delay of 1 time step. It builds the basis of the \constant error carrousel" CEC. The gate units open and close access to CEC. See text and appendix A.1 for details.'
+      sha256: b891198284ff0ad45a063d53006000cb272a7f740f650a55a2ec3258fec07e3b
+      method: vector
+      page_fraction: 0.1236
+      width: 1583
+      height: 679
+      bytes: 71935
+    - paper: hochreiter-1997-lstm
+      figure: f02
+      number: "2"
+      page: 9
+      bbox: [111.36, 522.08, 406.56, 587.12]
+      caption: 'Figure 2: Example of a net with 8 input units, 4 output units, and 2 memory cell blocks of size 2. in 1 marks the input gate, out 1 marks the output gate, and cell 1 =block 1 marks the rst memory cell of block 1. cell 1 =block 1 ''s architecture is identical to the one in Figure 1, with gate units in 1 and out 1 (note that by rotating Figure 1 by 90 degrees anti-clockwise, it will match with the corresponding parts of Figure 1). The example assumes dense connectivity: each gate unit and each memory cell see all non-output units. For simplicity, however, outgoing weights of only one type of unit are shown for each layer. With the ecient, truncated update rule, error ows only through connections to output units, and through xed self-connections within cell blocks (not shown here | see Figure 1). Error ow is truncated once it \wants" to leave memory cells or gate units. Therefore, no connection shown above serves to propagate error back to the unit from which the connection originates (except for connections to output units), although the connections themselves are modi able. That''s why the truncated LSTM algorithm is so ecient, despite its ability to bridge very long time lags. See text and appendix A.1 for details. Figure 2 actually shows the architecture used for Experiment 6a | only the bias of the non-input units is omitted.'
+      sha256: 1263c1cfa91cb63b35e30fa8a394cc758b9cb3c7f21b0c7c234830f7c2367670
+      method: vector
+      page_fraction: 0.0383
+      width: 1230
+      height: 271
+      bytes: 45023
+    - paper: hochreiter-1997-lstm
+      figure: f03
+      number: "4"
+      page: 11
+      bbox: [94.56, 171.68, 508.08, 301.04]
+      caption: 'Figure 4: Transition diagram for the embedded Figure 3: Transition diagram for the Reber Reber grammar. Each box represents a copy of grammar. the Reber grammar (see Figure 3).'
+      sha256: a6378a2ba9dab5440c0b13ec48f280d6aa76d7b28d16dd046d76c14dcfd6dfbb
+      method: vector
+      page_fraction: 0.1068
+      width: 1723
+      height: 539
+      bytes: 48749
     - paper: jacobson-1988-congestion
       figure: f01
       number: "1"
@@ -2944,14 +2991,14 @@ figures:
       figure: f01
       number: 2-1
       page: 2
-      bbox: [67.68, 345.4, 294.96, 554.92]
+      bbox: [67.92, 345.4, 287.28, 526.84]
       caption: 'Figure 2-1: Baseline design'
-      sha256: 090df8508c56c0839f8a35f49583f75a0de80001636b9599e2f82204e32535fe
+      sha256: 8b99e38137117eaeca2c8b627dc0f6dfec167416ca82adfc295dd2fd4429a657
       method: vector
-      page_fraction: 0.0978
-      width: 947
-      height: 873
-      bytes: 173496
+      page_fraction: 0.0817
+      width: 914
+      height: 756
+      bytes: 134420
     - paper: jouppi-1990-victimcache
       figure: f02
       number: 3-3
@@ -2980,14 +3027,14 @@ figures:
       figure: f04
       number: 3-5
       page: 5
-      bbox: [311.76, 351.6, 541.68, 754.8]
+      bbox: [316.08, 351.36, 523.68, 541.92]
       caption: 'Figure 3-5: Conflict misses removed by victim caching'
-      sha256: 16d04f8ca8b631aa0bd41f1c265bcab1f3253295e1786d470952990d00e67150
+      sha256: f02d7dbc2846da19b65d0dcc66843332bb98a714bb975fe633cb4a7580e4c24d
       method: vector
-      page_fraction: 0.1913
-      width: 958
-      height: 1680
-      bytes: 444085
+      page_fraction: 0.0816
+      width: 865
+      height: 794
+      bytes: 153199
     - paper: jouppi-1990-victimcache
       figure: f05
       number: 3-4
@@ -3016,26 +3063,26 @@ figures:
       figure: f07
       number: 3-7
       page: 6
-      bbox: [73.2, 231.64, 299.76, 457]
+      bbox: [78.72, 231.64, 285.6, 422.44]
       caption: 'Figure 3-7: Victim cache: vary data cache lime size'
-      sha256: 7c9198b67f39b93adad193ee73777ce298af8e2faf7407a9f8e20036f5da5b7b
+      sha256: 2aab817a87c6a3a2d422a88a3d0a279cf548d11d57863c1c9a23a5e271cf1994
       method: vector
-      page_fraction: 0.105
-      width: 944
-      height: 939
-      bytes: 131139
+      page_fraction: 0.0812
+      width: 862
+      height: 795
+      bytes: 99530
     - paper: jouppi-1990-victimcache
       figure: f08
       number: 4-1
       page: 7
-      bbox: [60, 404.68, 288.24, 758.68]
+      bbox: [64.32, 404.68, 273.12, 605.08]
       caption: 'Figure 4-1: Limited time for prefetch'
-      sha256: acff510d68a4500e3fdedbb109c3a9c61f15cc33df4b86563d5fa3aea82fc935
+      sha256: c1976815a5a3d448ce6125ef6526cd507e189254e417553b6681441eeb01056c
       method: vector
-      page_fraction: 0.1659
-      width: 951
-      height: 1475
-      bytes: 306548
+      page_fraction: 0.0859
+      width: 870
+      height: 835
+      bytes: 78284
     - paper: jouppi-1990-victimcache
       figure: f09
       number: 4-2
@@ -3062,18 +3109,6 @@ figures:
       bytes: 145321
     - paper: jouppi-1990-victimcache
       figure: f11
-      number: 4-5
-      page: 8
-      bbox: [316.8, 283.48, 545.52, 754.84]
-      caption: 'Figure 4-5: Four-way stream buffer performance'
-      sha256: 527f624350d15fd42101162e6deca4028f84cd7a1d9bc42602adb8a6b953a40a
-      method: vector
-      page_fraction: 0.2218
-      width: 953
-      height: 1964
-      bytes: 300507
-    - paper: jouppi-1990-victimcache
-      figure: f12
       number: 4-3
       page: 8
       bbox: [69.36, 377.08, 274.8, 568.36]
@@ -3085,19 +3120,19 @@ figures:
       height: 797
       bytes: 139971
     - paper: jouppi-1990-victimcache
-      figure: f13
-      number: 4-7
-      page: 9
-      bbox: [89.28, 141.56, 291.84, 760.28]
-      caption: 'Figure 4-7: Stream buffer performance vs. line size'
-      sha256: 62feddd28b4d9007bd8ce427dc1044ba026cc4414f1f996edda0982d8f5495b9
+      figure: f12
+      number: 4-5
+      page: 8
+      bbox: [321.6, 283.48, 527.52, 475.72]
+      caption: 'Figure 4-5: Four-way stream buffer performance'
+      sha256: c1233a5802cca84cd6a7f5f6abff990ae313660d491356b4eef5854164d357e7
       method: vector
-      page_fraction: 0.2553
-      width: 844
-      height: 2578
-      bytes: 416732
+      page_fraction: 0.0814
+      width: 858
+      height: 801
+      bytes: 139259
     - paper: jouppi-1990-victimcache
-      figure: f14
+      figure: f13
       number: 4-6
       page: 9
       bbox: [62.64, 512.84, 291.12, 760.28]
@@ -3109,17 +3144,29 @@ figures:
       height: 1031
       bytes: 164832
     - paper: jouppi-1990-victimcache
+      figure: f14
+      number: 4-7
+      page: 9
+      bbox: [67.92, 141.56, 276.72, 333.56]
+      caption: 'Figure 4-7: Stream buffer performance vs. line size'
+      sha256: 23d08e931823fbb729ace9156f6c7f17412eecfab660e8a3ecac57dc93e6f69f
+      method: vector
+      page_fraction: 0.0817
+      width: 870
+      height: 800
+      bytes: 90733
+    - paper: jouppi-1990-victimcache
       figure: f15
       number: 5-1
       page: 10
-      bbox: [71.04, 316.84, 298.56, 620.2]
+      bbox: [75.36, 316.84, 285.12, 506.68]
       caption: 'Figure 5-1: Improved system performance'
-      sha256: 281a912c99aa7e73c7e2473577c453849d0e910ab2f785fbca82134471ebb2cb
+      sha256: ec0181dc149b3ad4611dc58c6ab9fada0119ba265e69db8bdcdf8176e4decf7d
       method: vector
-      page_fraction: 0.1418
-      width: 948
-      height: 1264
-      bytes: 283142
+      page_fraction: 0.0818
+      width: 874
+      height: 791
+      bytes: 123662
     - paper: jouppi-2017-tpu
       figure: f01
       number: "1"
@@ -3329,18 +3376,6 @@ figures:
       bytes: 55941
     - paper: lattner-2004-llvm
       figure: f01
-      number: "2"
-      page: 4
-      bbox: [316.08, 331.44, 562.8, 735.6]
-      caption: 'Figure 2: LLVM code for the C++ example. The handler code specified by invoke executes the destructor.'
-      sha256: 6dbcb2990ce1fb3292bcf5dcbf776f6fe62861c9ede6cc2ce8508421b4dac624
-      method: vector
-      page_fraction: 0.2057
-      width: 1028
-      height: 1684
-      bytes: 364515
-    - paper: lattner-2004-llvm
-      figure: f02
       number: "1"
       page: 4
       bbox: [316.08, 604.32, 562.8, 735.6]
@@ -3351,6 +3386,18 @@ figures:
       width: 1028
       height: 547
       bytes: 124696
+    - paper: lattner-2004-llvm
+      figure: f02
+      number: "2"
+      page: 4
+      bbox: [328.8, 331.44, 537.6, 468.72]
+      caption: 'Figure 2: LLVM code for the C++ example. The handler code specified by invoke executes the destructor.'
+      sha256: 65184b5631d3c94379c2d85d759cef9b12fad2efaad98009a83d033983257b96
+      method: vector
+      page_fraction: 0.0591
+      width: 870
+      height: 572
+      bytes: 92971
     - paper: lattner-2004-llvm
       figure: f03
       number: "3"
@@ -3379,14 +3426,14 @@ figures:
       figure: f05
       number: "5"
       page: 9
-      bbox: [53.76, 384.48, 294.24, 680.64]
+      bbox: [58.56, 384.48, 287.76, 552.24]
       caption: 'Figure 5: Executable sizes for LLVM, X86, Sparc (in KB)'
-      sha256: bba2075d5ae436226469861430468ff9b635f07926b7f89f03518a0d4162943d
+      sha256: 770e56ba40e0030982a5056a1b38f7f8337637639c8401de946f723ab35060cc
       method: vector
-      page_fraction: 0.1469
-      width: 1002
-      height: 1234
-      bytes: 163796
+      page_fraction: 0.0793
+      width: 955
+      height: 699
+      bytes: 34464
     - paper: lecun-1998-lenet
       figure: f01
       number: "1"
@@ -4713,26 +4760,26 @@ figures:
       figure: f04
       number: "7"
       page: 11
-      bbox: [326.64, 146.4, 551.52, 402]
+      bbox: [286.32, 146.4, 551.52, 291.36]
       caption: Figure 7. The Dirtree (for directory tree) program on the Perq computer
-      sha256: cf2a9b9220658835feda882f9677450345f5b6c752f7768256754c07df189510
+      sha256: 0de0113e8a571b660cc37846f6f4c2f1ac4758557dea41d56d8c2eb2586f44f0
       method: crop
-      page_fraction: 0.1186
-      width: 937
-      height: 1065
-      bytes: 48930
+      page_fraction: 0.0793
+      width: 1105
+      height: 604
+      bytes: 25822
     - paper: steiner-1988-kerberos
       figure: f01
       number: "1"
       page: 4
-      bbox: [68.64, 407.52, 293.76, 747.6]
+      bbox: [98.64, 407.52, 240.96, 514.32]
       caption: Figure 1. Kerberos Software Components.
-      sha256: a31251a75f221c6dc32f8e95d43cd60a397e3983e0501f9fe3cb5a617217c7f4
+      sha256: d5ab261964ac029bf8c0cd6103511cc4d39dd075d848984ef6e4bc4391a4fd8a
       method: vector
-      page_fraction: 0.1579
-      width: 938
-      height: 1417
-      bytes: 167860
+      page_fraction: 0.0314
+      width: 593
+      height: 445
+      bytes: 49315
     - paper: steiner-1988-kerberos
       figure: f02
       number: "2"
@@ -4773,62 +4820,62 @@ figures:
       figure: f05
       number: "5"
       page: 6
-      bbox: [68.64, 381.84, 271.44, 506.88]
+      bbox: [89.04, 381.84, 264.96, 468]
       caption: Figure 5. Getting the Initial Ticket.
-      sha256: 089a41a389de8b416929a9102f1a63571a650d2998d4847448ffaaceb11bd494
+      sha256: f560b41f5eb6c41782d1f1d586329a9e50efa81e6706635962e9ff11f5f13c83
       method: vector
-      page_fraction: 0.0523
-      width: 845
-      height: 521
-      bytes: 42860
+      page_fraction: 0.0313
+      width: 733
+      height: 359
+      bytes: 28765
     - paper: steiner-1988-kerberos
       figure: f06
       number: "6"
       page: 6
-      bbox: [299.04, 213.12, 502.08, 407.28]
+      bbox: [329.28, 213.12, 495.36, 244.8]
       caption: Figure 6. Requesting a Service.
-      sha256: cc5c23dd1ffe5a7a32201e8c15f12b0cb7b5700f3a9cbc987a011cf889a59911
+      sha256: ce821f3af2756d0cd1bbf9c00da5753fe6e9c2ba8ee44614ddc494c106b81e43
       method: vector
-      page_fraction: 0.0813
-      width: 846
-      height: 809
-      bytes: 99299
+      page_fraction: 0.0109
+      width: 692
+      height: 132
+      bytes: 13372
     - paper: steiner-1988-kerberos
       figure: f07
       number: "7"
       page: 7
-      bbox: [68.64, 606.48, 293.76, 747.6]
+      bbox: [89.04, 606.48, 264.96, 639.36]
       caption: Figure 7. Mutual Authentication.
-      sha256: adf1d64879a7b516d00300bf8904ed87a4535e93a96de6fdaddcfa1d992f1695
+      sha256: 8569d8fc34f40f0640d5045ba37c39bbe364ed8eb3811a81e8840d95fbe16252
       method: vector
-      page_fraction: 0.0655
-      width: 938
-      height: 588
-      bytes: 57117
+      page_fraction: 0.0119
+      width: 733
+      height: 137
+      bytes: 15738
     - paper: steiner-1988-kerberos
       figure: f08
       number: "9"
       page: 7
-      bbox: [298.8, 334.56, 504.24, 630.24]
+      bbox: [298.8, 334.56, 504.24, 504]
       caption: Figure 9. Kerberos Authentication Protocols.
-      sha256: 1e9df9a4c90cf2b6c0aed728c63bc08254c31ee8fee13fc02f10807b002808b0
+      sha256: 448f1d99f58ff1aaa8fa6c4b2a6f49d73d16e071f9792d72d087628d48ef160b
       method: vector
-      page_fraction: 0.1253
+      page_fraction: 0.0718
       width: 856
-      height: 1232
-      bytes: 125072
+      height: 706
+      bytes: 62866
     - paper: steiner-1988-kerberos
       figure: f09
       number: "8"
       page: 7
-      bbox: [68.88, 154.08, 271.2, 291.12]
+      bbox: [79.92, 154.08, 267.84, 240.24]
       caption: Figure 8. Getting a Server Ticket.
-      sha256: 85c37311e01699db11b64703108bda25c31927147a99b1f0be4d9c65f83b6eec
+      sha256: 40db18895a6473009a2149e6a67d6b3abcb2e2e5c939e824e400d8611cdae543
       method: vector
-      page_fraction: 0.0572
-      width: 843
-      height: 571
-      bytes: 54766
+      page_fraction: 0.0334
+      width: 783
+      height: 359
+      bytes: 31133
     - paper: steiner-1988-kerberos
       figure: f10
       number: "10"
@@ -4845,14 +4892,14 @@ figures:
       figure: f11
       number: "11"
       page: 8
-      bbox: [68.64, 287.52, 293.76, 747.84]
+      bbox: [92.16, 287.52, 243.84, 406.08]
       caption: Figure 11. Administration Requests.
-      sha256: 0a5699da55166028e14ff03e3d5ee2faf5ff58e4e51d448afc0cd746e7bfdce0
+      sha256: 365cb460d786109ccbc46d855f9ce5dfc16c6bb3801efc7f305c91a96ab462ac
       method: vector
-      page_fraction: 0.2138
-      width: 938
-      height: 1918
-      bytes: 118110
+      page_fraction: 0.0371
+      width: 632
+      height: 494
+      bytes: 10738
     - paper: steiner-1988-kerberos
       figure: f12
       number: "12"
@@ -5037,14 +5084,14 @@ figures:
       figure: f01
       number: "1"
       page: 2
-      bbox: [314.16, 139.68, 551.04, 736.8]
+      bbox: [350.4, 139.68, 513.36, 240.48]
       caption: Figure 1. Architecture of C-Store
-      sha256: 2ee8513f08c473a95f62d0fce614689b0fee178791a4eed716dbdfbdcf77f570
+      sha256: 607ba5ec37fd1c27f5de6df1d69cbb3ebc7885a9c201c3362d7ccb2c53f4eb36
       method: vector
-      page_fraction: 0.2918
-      width: 987
-      height: 2488
-      bytes: 385813
+      page_fraction: 0.0339
+      width: 679
+      height: 420
+      bytes: 21405
     - paper: stonebraker-2005-cstore
       figure: f02
       number: "2"
@@ -5057,6 +5104,18 @@ figures:
       width: 479
       height: 420
       bytes: 48600
+    - paper: stonebraker-2005-cstore
+      figure: f03
+      number: "3"
+      page: 7
+      bbox: [80.4, 105.36, 532.08, 215.76]
+      caption: Figure 3. Illustration showing how the HWM selection algorithm works. Gray arrows indicate messages from the TA
+      sha256: 4fc4bcc2e121bf5e7e7cb9189629d18cbc3b958ea7b4f82a72cf17b363a6cd8f
+      method: vector
+      page_fraction: 0.1029
+      width: 1882
+      height: 460
+      bytes: 56730
     - paper: sutherland-1963-sketchpad
       figure: f01
       number: "1.1"
@@ -5711,14 +5770,14 @@ figures:
       figure: f02
       number: "2"
       page: 2
-      bbox: [296.16, 210, 556.32, 719.76]
+      bbox: [361.44, 210, 512.64, 363.6]
       caption: 'Figure 2: The state diagram for both jobs and tasks. Users can trigger submit, kill, and update transitions.'
-      sha256: c341385c5531e181e203a64d06e81c1d1869d69b8e7eed8e5823a704cd85f493
+      sha256: d5e5571131e93d1f50d08db70df412e8e8be1bf25c33ee1f7c6c258199b98ac0
       method: vector
-      page_fraction: 0.2736
-      width: 1084
-      height: 2124
-      bytes: 328846
+      page_fraction: 0.0479
+      width: 630
+      height: 640
+      bytes: 50413
     - paper: verma-2015-borg
       figure: f03
       number: "4"
@@ -5805,28 +5864,28 @@ figures:
       bytes: 26292
     - paper: verma-2015-borg
       figure: f10
-      number: "9"
-      page: 9
-      bbox: [54, 377.28, 295.2, 720.96]
-      caption: 'Figure 9: “Bucketing” resource requirements would need more machines. A CDF of the additional overheads that would result from rounding up CPU and memory requests to the next nearest powers of 2 across 15 cells. The lower and upper bounds straddle the actual values (see the text).'
-      sha256: 5650835e9563e91eae8e69f504eacfbd435dd76ec924f807f9f0211c2db3a036
-      method: vector
-      page_fraction: 0.171
-      width: 1005
-      height: 1432
-      bytes: 162285
-    - paper: verma-2015-borg
-      figure: f11
       number: "11"
       page: 9
-      bbox: [316.32, 403.2, 556.32, 720.72]
+      bbox: [341.76, 403.2, 533.04, 534.72]
       caption: 'Figure 11: Resource estimation is successful at identifying unused resources. The dotted lines shows CDFs of the ratio of CPU and memory usage to the request (limit) for tasks across 15 cells. Most tasks use much less than their limit, although a few use more CPU than requested. The solid lines show the CDFs of the ratio of CPU and memory reservations to the limits; these are closer to 100%. The straight lines are artifacts of the resource-estimation process.'
-      sha256: fc389a1a68a95c1920c744150366e23a8f1920e7242771863484f35ed024144c
+      sha256: e177caa30fddf94add9721b0a6c87759c02fef2abff0f69dffad0cab81a70e49
       method: vector
-      page_fraction: 0.1572
-      width: 1000
-      height: 1323
-      bytes: 133350
+      page_fraction: 0.0519
+      width: 797
+      height: 548
+      bytes: 65387
+    - paper: verma-2015-borg
+      figure: f11
+      number: "9"
+      page: 9
+      bbox: [77.04, 377.28, 270, 511.68]
+      caption: 'Figure 9: “Bucketing” resource requirements would need more machines. A CDF of the additional overheads that would result from rounding up CPU and memory requests to the next nearest powers of 2 across 15 cells. The lower and upper bounds straddle the actual values (see the text).'
+      sha256: baa4db0182f3884142f170c527aa0e6d283b0daad8d986b7340c837cb5ce66ce
+      method: vector
+      page_fraction: 0.0535
+      width: 804
+      height: 560
+      bytes: 31517
     - paper: verma-2015-borg
       figure: f12
       number: "12"
@@ -5851,6 +5910,78 @@ figures:
       width: 671
       height: 460
       bytes: 30454
+    - paper: wu-2016-gnmt
+      figure: f01
+      number: "1"
+      page: 4
+      bbox: [71.79, 476.68, 540.64, 717.04]
+      caption: 'Figure 1: The model architecture of GNMT, Google’s Neural Machine Translation system. On the left is the encoder network, on the right is the decoder network, in the middle is the attention module. The bottom encoder layer is bi-directional: the pink nodes gather information from left to right while the green nodes gather information from right to left. The other layers of the encoder are uni-directional. Residual connections start from the layer third from the bottom in the encoder and decoder. The model is partitioned into multiple GPUs to speed up training. In our setup, we have 8 encoder LSTM layers (1 bi-directional layer and 7 uni-directional layers), and 8 decoder layers. With this setting, one model replica is partitioned 8-ways and is placed on 8 different GPUs typically belonging to one host machine. During training, the bottom bi-directional encoder layers compute in parallel first. Once both finish, the uni-directional encoder layers can start computing, each on a separate GPU. To retain as much parallelism as possible during running the decoder layers, we use the bottom decoder layer output only for obtaining recurrent attention context, which is sent directly to all the remaining decoder layers. The softmax layer is also partitioned and placed on multiple GPUs. Depending on the output vocabulary size we either have them run on the same GPUs as the encoder and decoder networks, or have them run on a separate set of dedicated GPUs.'
+      sha256: 3f8112de4effd4d4db8b566479627c43e7be676d4a40c1b9ef28d691d538443f
+      method: raster
+      page_fraction: 0.2325
+      width: 2214
+      height: 1135
+      bytes: 123353
+    - paper: wu-2016-gnmt
+      figure: f02
+      number: "2"
+      page: 5
+      bbox: [71.28, 515.52, 540.72, 673.68]
+      caption: 'Figure 2: The difference between normal stacked LSTM and our stacked LSTM with residual connections. On the left: simple stacked LSTM layers [41]. On the right: our implementation of stacked LSTM layers with residual connections. With residual connections, input to the bottom LSTM layer (x 0 ’s to LSTM ) is'
+      sha256: d4e485490d4cb83f9e6c4198e2af13dbc923014942fe2759a39f0a3509ce2e07
+      method: vector
+      page_fraction: 0.1532
+      width: 1956
+      height: 659
+      bytes: 98119
+    - paper: wu-2016-gnmt
+      figure: f03
+      number: "3"
+      page: 6
+      bbox: [164.64, 375.84, 447.12, 592.56]
+      caption: 'Figure 3: The structure of bi-directional connections in the first layer of the encoder. LSTM layer LSTM f processes information from left to right, while LSTM layer LSTM b processes information from right to left. Output from LSTM f and LSTM b are first concatenated and then fed to the next LSTM layer LSTM 1 .'
+      sha256: c68efe814adb874f52f266e6125d175c78abd1444426700a80f3544688f007cd
+      method: vector
+      page_fraction: 0.1263
+      width: 1177
+      height: 903
+      bytes: 101509
+    - paper: wu-2016-gnmt
+      figure: f04
+      number: "4"
+      page: 11
+      bbox: [99.84, 376.56, 501.84, 698.16]
+      caption: 'Figure 4: Log perplexity vs. steps for normal (non-quantized) training and quantization-aware training on WMT’14 English to French during maximum likelihood training. Notice the training losses are similar, with the quantization-aware loss being slightly better. Our conjecture for quantization-aware training being slightly better is that the clipping constraints act as additional regularization which improves the model quality.'
+      sha256: bd1a10a517160e7bbcce3fbcfc6dc5bcefe78e9acd9c640643b1de7e78b8d2a6
+      method: vector
+      page_fraction: 0.2667
+      width: 1675
+      height: 1340
+      bytes: 73307
+    - paper: wu-2016-gnmt
+      figure: f05
+      number: "5"
+      page: 15
+      bbox: [99.84, 376.56, 501.84, 698.16]
+      caption: 'Figure 5: Log perplexity vs. steps for Adam, SGD and Adam-then-SGD on WMT En→Fr during maximum likelihood training. Adam converges much faster than SGD at the beginning. Towards the end, however, Adam-then-SGD is gradually better. Notice the bump in the red curve (Adam-then-SGD) at around 60k steps where we switch from Adam to SGD. We suspect that this bump occurs due to different optimization trajectories of Adam vs. SGD. When we switch from Adam to SGD, the model first suffers a little, but is able to quickly recover afterwards.'
+      sha256: 7a9daf012ddfff5e1b683ac6a1d157a7f139c5a1ff39e430f343d12531fa8ed7
+      method: vector
+      page_fraction: 0.2667
+      width: 1675
+      height: 1340
+      bytes: 81755
+    - paper: wu-2016-gnmt
+      figure: f06
+      number: "6"
+      page: 19
+      bbox: [114, 288.24, 440.88, 494.16]
+      caption: 'Figure 6: Histogram of side-by-side scores on 500 sampled sentences from Wikipedia and news websites for a typical language pair, here English → Spanish (PBMT blue, GNMT red, Human orange). It can be seen that there is a wide distribution in scores, even for the human translation when rated by other humans, which shows how ambiguous the task is. It is clear that GNMT is much more accurate than PBMT.'
+      sha256: e10595f2ce5664c5f10f90c94d91775792f54dbd0d61641701ce6ad238bab9b1
+      method: vector
+      page_fraction: 0.1389
+      width: 1362
+      height: 858
+      bytes: 47805
     - paper: yeh-1991-branchprediction
       figure: f01
       number: "2"
@@ -5913,6 +6044,18 @@ figures:
       bytes: 17645
     - paper: yeh-1991-branchprediction
       figure: f06
+      number: "6"
+      page: 7
+      bbox: [294.48, 354.8, 559.92, 543.68]
+      caption: 'Figure 6: Two-Level Adaptive Training schemes using different history register table implementations.'
+      sha256: ec14bbba806de25b618366340c04eb24640ac46c896c13be9931525142faeb4d
+      method: crop
+      page_fraction: 0.1004
+      width: 1106
+      height: 787
+      bytes: 96257
+    - paper: yeh-1991-branchprediction
+      figure: f07
       number: "7"
       page: 8
       bbox: [52.56, 550.12, 298.56, 737.08]
@@ -5924,7 +6067,7 @@ figures:
       height: 779
       bytes: 92431
     - paper: yeh-1991-branchprediction
-      figure: f07
+      figure: f08
       number: "10"
       page: 9
       bbox: [323.52, 561.12, 562.8, 747.6]
@@ -5936,7 +6079,7 @@ figures:
       height: 777
       bytes: 88099
     - paper: yeh-1991-branchprediction
-      figure: f08
+      figure: f09
       number: "8"
       page: 9
       bbox: [58.32, 576.24, 296.88, 749.28]
@@ -5948,7 +6091,7 @@ figures:
       height: 721
       bytes: 87845
     - paper: yeh-1991-branchprediction
-      figure: f09
+      figure: f10
       number: "9"
       page: 9
       bbox: [64.8, 359.04, 294, 411.12]
