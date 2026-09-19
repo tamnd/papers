@@ -17,7 +17,7 @@ pdf_sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
 pdf_pages: 10-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: e7ac18dd6a964d69002bbb4bda2ad82eca0a6b78805d401edf0074a21b871978
+content_sha256: aa48e445c4e088a63da2ed0fc119648abd29977f59a4b4839b4b7e86da661534
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -32,6 +32,20 @@ The $n$ state equations corresponding for $n$ users are
 $$
 x_i(t+1) = a + b x_i(t), \quad i = 1, 2, \ldots, n.
 $$
+
+(a) Convergence to Efficiency
+Equi-Efficiency Line
+
+(b) Distributed Convergence to Efficiency
+
+(c) Convergence to Fairness
+Fairness Line
+
+(d) Distributed Convergence to Efficiency and Fairness
+
+(e) Increase
+
+Fig. 7. Vectorial representation of efficiency and fairness feasibility conditions. {#chiu-1989-aimd-fig-7 .figure tag=06D2}
 
 These $n$ equations can be added to form a single state equation:
 

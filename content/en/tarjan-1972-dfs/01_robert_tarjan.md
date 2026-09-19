@@ -14,7 +14,7 @@ pdf_sha256: d0ee53bb4bf82602cb5dd7bd08f39927f6d0253cb30c79aaa84378ac6b94f064
 pdf_pages: 1-14
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 1d4670a96be9a9a29e921c6d628d4a7f1d3a391eaeb03f7721b8912aa127b717
+content_sha256: 5494db5f15872d0e8d81a69662227bd241b2d93cd7567ed8e48a3734ec311ffd
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -67,21 +67,21 @@ Then $P$ is called a palm tree. The edges $v \rightarrow w$ are called the frond
 
 ```text
 BEGIN
-INTEGER $i$;
-PROCEDURE DFS$(v, u)$; COMMENT vertex $u$ is the father of vertex $v$ in the spanning tree being constructed;
+INTEGER i;
+PROCEDURE DFS(v, u); COMMENT vertex u is the father of vertex v in the spanning tree being constructed;
 BEGIN
-NUMBER $(v) := i := i + 1$;
-FOR $w$ in the adjacency list of $v$ DO
+NUMBER (v) := i := i + 1;
+FOR w in the adjacency list of v DO
 BEGIN
-IF $w$ is not yet numbered THEN
+IF w is not yet numbered THEN
 BEGIN
-construct arc $v \rightarrow w$ in $P$;
-DFS$(w, v)$;
+construct arc v → w in P;
+DFS(w, v);
 END
-ELSE IF NUMBER $(w) <$ NUMBER $(v)$ and $w \rightarrow = u$ THEN construct arc $v \rightarrow w$ in $p$;
+ELSE IF NUMBER (w) < NUMBER (v) and w → = u THEN construct arc v → w in p;
 END;
-$i := 0$;
-DFS$(s, 0)$;
+i := 0;
+DFS(s, 0);
 END;
 ```
 
@@ -146,41 +146,47 @@ $$
 \cup \{\mathrm{NUMBER}(w)|v \longrightarrow w\}).
 $$
 
-On the basis of such a calculation, the articulation points and the biconnected components may be determined, all during one search. The biconnectivity algorithm is presented below. The program will compute the biconnected components of a graph $G$, starting from vertex $s$.
+On the basis of such a calculation, the articulation points and the biconnected components may be determined, all during one search. The biconnectivity algorithm is presented below. The program will compute the biconnected components
+
+Fig. 2. *A graph and its biconnected components* {#tarjan-1972-dfs-fig-2 .figure tag=0537}
+
+(a) *Graph*
+(b) *A palm tree with LOWPT values in [ ], articulation points marked with **
+(c) *Biconnected components* of a graph $G$, starting from vertex $s$.
 
 ```text
 BEGIN
-    INTEGER $i$;
-    procedure BICONNECT ($v, u$);
+    INTEGER i;
+    procedure BICONNECT (v, u);
         BEGIN
-            NUMBER ($v$) := $i := i + 1$;
-            LOWPT ($v$) = NUMBER ($v$);
-            FOR $w$ in the adjacency list of $v$ DO
+            NUMBER (v) := i := i + 1;
+            LOWPT (v) = NUMBER (v);
+            FOR w in the adjacency list of v DO
                 BEGIN
-                    IF $w$ is not yet numbered THEN
+                    IF w is not yet numbered THEN
                         BEGIN
-                            add ($v, w$) to stack of edges;
-                            BICONNECT ($w, v$)
-                            LOWPT ($v$) := min (LOWPT ($v$), LOWPT ($w$));
-                            IF LOWPT ($w$) $\geq$ NUMBER ($v$) THEN
+                            add (v, w) to stack of edges;
+                            BICONNECT (w, v)
+                            LOWPT (v) := min (LOWPT (v), LOWPT (w));
+                            IF LOWPT (w) ≥ NUMBER (v) THEN
                                 BEGIN
                                     start new biconnected component;
-                                    WHILE top edge $e = (u_1, u_2)$ on edge stack has NUMBER ($u_1$) $\geq$ NUMBER ($w$) DO
-                                        delete ($u_1, u_2$) from edge stack and add it to current component;
-                                        delete ($v, w$) from edge stack and add it to current component;
+                                    WHILE top edge e = (u₁, u₂) on edge stack has NUMBER (u₁) ≥ NUMBER (w) DO
+                                        delete (u₁, u₂) from edge stack and add it to current component;
+                                        delete (v, w) from edge stack and add it to current component;
                                 END;
                         END
-                    ELSE IF (NUMBER ($w$) < NUMBER ($v$)) and ($w \rightarrow = u$) THEN
+                    ELSE IF (NUMBER (w) < NUMBER (v)) and (w → = u) THEN
                         BEGIN
-                            add ($v, w$) to edge stack;
-                            LOWPT ($v$) := min (LOWPT ($v$), NUMBER ($w$));
+                            add (v, w) to edge stack;
+                            LOWPT (v) := min (LOWPT (v), NUMBER (w));
                         END;
                 END;
             END;
         END;
-    $i := 0$;
+    i := 0;
     empty the edge stack;
-    FOR $w$ a vertex DO IF $w$ is not yet numbered THEN BICONNECT ($w, 0$);
+    FOR w a vertex DO IF w is not yet numbered THEN BICONNECT (w, 0);
 END;
 ```
 
@@ -271,7 +277,7 @@ BEGIN
                 BEGIN comment v is the root of a component;
                     start new strongly connected component;
                     WHILE w on top of point stack satisfies
-                        NUMBER (w) $\geq$ NUMBER (v) DO
+                        NUMBER (w) ≥ NUMBER (v) DO
                         delete w from point stack and put w in current component;
                 END;
             END;
@@ -280,9 +286,10 @@ BEGIN
             FOR w a vertex IF w is not yet numbered THEN STRONGCONNECT (w);
         END;
     END;
-    THEOREM 13. *The algorithm for finding strongly connected components requires $O(V, E)$ space and time.*
-    *Proof.* The algorithm clearly requires space bounded by $k_1 V + k_2 E + k_3$, for some constants $k_1, k_2,$ and $k_3$. The algorithm is an elaboration of the depth-first search procedure DFS, modified to apply to directed graphs. During the search, LOWLINK values are calculated, each point is placed on the stack of
 ```
+
+THEOREM 13. *The algorithm for finding strongly connected components requires $O(V, E)$ space and time.*
+    *Proof.* The algorithm clearly requires space bounded by $k_1 V + k_2 E + k_3$, for some constants $k_1, k_2,$ and $k_3$. The algorithm is an elaboration of the depth-first search procedure DFS, modified to apply to directed graphs. During the search, LOWLINK values are calculated, each point is placed on the stack of
 
 Fig. 3. *A graph and its strongly connected components* {#tarjan-1972-dfs-fig-3 .figure tag=03F3}
 

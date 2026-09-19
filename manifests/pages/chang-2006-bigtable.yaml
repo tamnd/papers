@@ -17,14 +17,17 @@ pages:
       printed: "2"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 3
       printed: "3"
       size: [612, 792]
       columns: 2
+      figures: [f02, f03]
     - pdf: 4
       printed: "4"
       size: [612, 792]
       columns: 2
+      figures: [f04]
     - pdf: 5
       printed: "5"
       size: [612, 792]
@@ -33,6 +36,7 @@ pages:
       printed: "6"
       size: [612, 792]
       columns: 2
+      figures: [f05]
     - pdf: 7
       printed: "7"
       size: [612, 792]
@@ -45,6 +49,7 @@ pages:
       printed: "9"
       size: [612, 792]
       columns: 2
+      figures: [f06]
     - pdf: 10
       printed: "10"
       size: [612, 792]

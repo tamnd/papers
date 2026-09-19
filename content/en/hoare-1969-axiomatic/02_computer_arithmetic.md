@@ -16,7 +16,7 @@ pdf_sha256: f9b85de3537c0f1239cbe767cfd26ad49f2be07f0cc9021a6e46adfffb81dc12
 pdf_pages: 1-2
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: f6c39c5b367976488c7fcd1bd5f6c41e8574a4b95f619668705471671993d789
+content_sha256: 46050c021ee404aca234eba52d42fa9af86cdff72cfbcef15018f2b05893361b
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -29,21 +29,29 @@ $$
 
 The proof of the second of these is:
 
-A5 \[(r - y) + y \times (1 + q)\]
+A5 $(r - y) + y \times (1 + q)$
 
 $$
 = (r - y) + (y \times 1 + y \times q)
 $$
 
-A9 \[
+A9
+
+$$
 = (r - y) + (y + y \times q)
-\]
-A3 \[
+$$
+
+A3
+
+$$
 = ((r - y) + y) + y \times q
-\]
-A6 \[
+$$
+
+A6
+
+$$
 = r + y \times q \quad \text{provided } y \leq r
-\]
+$$
 
 The axioms A1 to A9 are, of course, true of the traditional infinite set of integers in mathematics. However, they are also true of the finite sets of “integers” which are manipulated by computers provided that they are confined to nonnegative numbers. Their truth is independent of the size of the set; furthermore, it is largely independent of the choice of technique applied in the event of “overflow”; for example:
 (1) Strict interpretation: the result of an overflowing operation does not exist; when overflow occurs, the offending program never completes its operation. Note that in this case, the equalities of A1 to A9 are strict, in the sense that both sides exist or fail to exist together.
@@ -54,17 +62,17 @@ These three techniques are illustrated in Table II by addition and multiplicatio
 
 It is interesting to note that the different systems satisfying axioms A1 to A9 may be rigorously distinguished from each other by choosing a particular one of a set of mutually exclusive supplementary axioms. For example, infinite arithmetic satisfies the axiom:
 
-A10$_I$ \[\neg \exists x \forall y \quad (y \leq x),\] where all finite arithmetics satisfy:
+A10$_I$ $\neg \exists x \forall y \quad (y \leq x),$ where all finite arithmetics satisfy:
 
-A10$_F$ \[\forall x \quad (x \leq \max)\] where “max” denotes the largest integer represented.
+A10$_F$ $\forall x \quad (x \leq \max)$ where “max” denotes the largest integer represented.
 
 Similarly, the three treatments of overflow may be distinguished by a choice of one of the following axioms relating to the value of max + 1:
 
-A11$_s$ \[\neg \exists x \quad (x = \max + 1)\] (strict interpretation)
+A11$_s$ $\neg \exists x \quad (x = \max + 1)$ (strict interpretation)
 
-A11$_B$ \[\max + 1 = \max\] (firm boundary)
+A11$_B$ $\max + 1 = \max$ (firm boundary)
 
-A11$_M$ \[\max + 1 = 0\] (modulo arithmetic)
+A11$_M$ $\max + 1 = 0$ (modulo arithmetic)
 
 Having selected one of these axioms, it is possible to use it in deducing the properties of programs; however,
 

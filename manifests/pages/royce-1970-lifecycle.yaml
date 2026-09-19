@@ -12,18 +12,22 @@ pages:
     - pdf: 1
       size: [612, 792]
       columns: 1
+      figures: [f01]
     - pdf: 2
       printed: "329"
       size: [612, 792]
       columns: 1
+      figures: [f02]
     - pdf: 3
       printed: "330"
       size: [612, 792]
       columns: 1
+      figures: [f03, f04]
     - pdf: 4
       printed: "331"
       size: [612, 792]
       columns: 1
+      figures: [f05]
     - pdf: 5
       printed: "332"
       size: [612, 792]
@@ -36,6 +40,7 @@ pages:
       printed: "334"
       size: [612, 792]
       columns: 1
+      figures: [f06]
     - pdf: 8
       printed: "335"
       size: [612, 792]

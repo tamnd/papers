@@ -7,7 +7,7 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: sussman-1975-scheme
-offset: null
+offset: -18
 pages:
     - pdf: 1
       size: [612, 792]
@@ -16,5 +16,127 @@ pages:
       size: [612, 792]
       columns: 1
     - pdf: 3
+      size: [612, 792]
+      columns: 1
+    - pdf: 4
+      size: [612, 792]
+      columns: 1
+    - pdf: 5
+      size: [612, 792]
+      columns: 1
+    - pdf: 6
+      size: [612, 792]
+      columns: 1
+    - pdf: 7
+      size: [612, 792]
+      columns: 1
+    - pdf: 8
+      size: [612, 792]
+      columns: 1
+    - pdf: 9
+      size: [612, 792]
+      columns: 1
+    - pdf: 10
+      size: [612, 792]
+      columns: 1
+    - pdf: 11
+      size: [612, 792]
+      columns: 1
+    - pdf: 12
+      size: [612, 792]
+      columns: 1
+    - pdf: 13
+      size: [612, 792]
+      columns: 1
+    - pdf: 14
+      size: [612, 792]
+      columns: 1
+    - pdf: 15
+      size: [612, 792]
+      columns: 1
+    - pdf: 16
+      size: [612, 792]
+      columns: 1
+    - pdf: 17
+      size: [612, 792]
+      columns: 1
+    - pdf: 18
+      size: [612, 792]
+      columns: 1
+    - pdf: 19
+      printed: "1"
+      size: [612, 792]
+      columns: 1
+    - pdf: 20
+      printed: "1"
+      size: [612, 792]
+      columns: 1
+    - pdf: 21
+      size: [612, 792]
+      columns: 1
+    - pdf: 22
+      size: [612, 792]
+      columns: 1
+    - pdf: 23
+      size: [612, 792]
+      columns: 1
+    - pdf: 24
+      size: [612, 792]
+      columns: 1
+    - pdf: 25
+      size: [612, 792]
+      columns: 1
+    - pdf: 26
+      size: [612, 792]
+      columns: 1
+    - pdf: 27
+      size: [612, 792]
+      columns: 1
+    - pdf: 28
+      size: [612, 792]
+      columns: 1
+    - pdf: 29
+      size: [612, 792]
+      columns: 1
+    - pdf: 30
+      size: [612, 792]
+      columns: 1
+    - pdf: 31
+      size: [612, 792]
+      columns: 1
+    - pdf: 32
+      size: [612, 792]
+      columns: 1
+    - pdf: 33
+      size: [612, 792]
+      columns: 1
+    - pdf: 34
+      size: [612, 792]
+      columns: 1
+    - pdf: 35
+      size: [612, 792]
+      columns: 1
+    - pdf: 36
+      size: [612, 792]
+      columns: 1
+    - pdf: 37
+      size: [612, 792]
+      columns: 1
+    - pdf: 38
+      size: [612, 792]
+      columns: 1
+    - pdf: 39
+      size: [612, 792]
+      columns: 1
+    - pdf: 40
+      size: [612, 792]
+      columns: 1
+    - pdf: 41
+      size: [612, 792]
+      columns: 1
+    - pdf: 42
+      size: [612, 792]
+      columns: 1
+    - pdf: 43
       size: [612, 792]
       columns: 1

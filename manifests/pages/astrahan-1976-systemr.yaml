@@ -18,3 +18,118 @@ pages:
     - pdf: 3
       size: [468, 720]
       columns: 1
+    - pdf: 4
+      size: [468, 720]
+      columns: 1
+    - pdf: 5
+      size: [468, 720]
+      columns: 1
+    - pdf: 6
+      size: [468, 720]
+      columns: 1
+    - pdf: 7
+      size: [468, 720]
+      columns: 1
+    - pdf: 8
+      size: [468, 720]
+      columns: 1
+    - pdf: 9
+      size: [468, 720]
+      columns: 1
+    - pdf: 10
+      size: [468, 720]
+      columns: 1
+    - pdf: 11
+      size: [468, 720]
+      columns: 1
+    - pdf: 12
+      size: [469, 720]
+      columns: 1
+    - pdf: 13
+      size: [469, 720]
+      columns: 1
+    - pdf: 14
+      size: [468, 720]
+      columns: 1
+    - pdf: 15
+      size: [468, 720]
+      columns: 1
+    - pdf: 16
+      size: [468, 720]
+      columns: 1
+    - pdf: 17
+      size: [468, 720]
+      columns: 1
+    - pdf: 18
+      size: [468, 720]
+      columns: 1
+    - pdf: 19
+      size: [468, 720]
+      columns: 1
+      figures: [f01]
+    - pdf: 20
+      size: [468, 720]
+      columns: 1
+    - pdf: 21
+      size: [468, 720]
+      columns: 1
+    - pdf: 22
+      size: [468, 720]
+      columns: 1
+    - pdf: 23
+      size: [468, 720]
+      columns: 1
+    - pdf: 24
+      size: [468, 720]
+      columns: 1
+    - pdf: 25
+      size: [468, 720]
+      columns: 1
+    - pdf: 26
+      size: [468, 720]
+      columns: 1
+    - pdf: 27
+      size: [468, 720]
+      columns: 1
+    - pdf: 28
+      size: [468, 720]
+      columns: 1
+    - pdf: 29
+      size: [468, 720]
+      columns: 1
+    - pdf: 30
+      size: [468, 720]
+      columns: 1
+    - pdf: 31
+      size: [468, 720]
+      columns: 1
+    - pdf: 32
+      size: [468, 720]
+      columns: 1
+    - pdf: 33
+      size: [468, 720]
+      columns: 1
+    - pdf: 34
+      size: [468, 720]
+      columns: 2
+    - pdf: 35
+      size: [468, 720]
+      columns: 1
+    - pdf: 36
+      size: [470, 721]
+      columns: 1
+    - pdf: 37
+      size: [468, 720]
+      columns: 1
+    - pdf: 38
+      size: [468, 720]
+      columns: 2
+    - pdf: 39
+      size: [472, 724]
+      columns: 1
+    - pdf: 40
+      size: [468, 720]
+      columns: 1
+    - pdf: 41
+      size: [468, 720]
+      columns: 1

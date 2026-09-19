@@ -7,41 +7,33 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: saltzer-1984-endtoend
-offset: 0
+offset: null
 pages:
     - pdf: 1
-      printed: "1"
       size: [612, 792]
       columns: 1
     - pdf: 2
-      printed: "2"
       size: [612, 792]
       columns: 1
     - pdf: 3
-      printed: "3"
       size: [612, 792]
       columns: 1
     - pdf: 4
-      printed: "4"
       size: [612, 792]
       columns: 1
     - pdf: 5
-      printed: "5"
       size: [612, 792]
       columns: 1
     - pdf: 6
-      printed: "6"
       size: [612, 792]
       columns: 1
     - pdf: 7
       size: [612, 792]
       columns: 1
     - pdf: 8
-      printed: "8"
       size: [612, 792]
       columns: 1
     - pdf: 9
-      printed: "9"
       size: [612, 792]
       columns: 1
     - pdf: 10

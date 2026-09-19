@@ -7,35 +7,38 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: jacobson-1988-congestion
-offset: 0
+offset: null
 pages:
     - pdf: 1
-      printed: "1"
       size: [595, 842]
       columns: 1
     - pdf: 2
-      printed: "2"
       size: [595, 842]
       columns: 1
     - pdf: 3
-      printed: "3"
       size: [595, 842]
       columns: 1
+      figures: [f01]
     - pdf: 4
       size: [595, 842]
       columns: 1
+      figures: [f02]
     - pdf: 5
       size: [595, 842]
       columns: 1
+      figures: [f03]
     - pdf: 6
       size: [595, 842]
       columns: 1
+      figures: [f04]
     - pdf: 7
       size: [595, 842]
       columns: 1
+      figures: [f05]
     - pdf: 8
       size: [595, 842]
       columns: 1
+      figures: [f06]
     - pdf: 9
       size: [595, 842]
       columns: 1
@@ -48,9 +51,11 @@ pages:
     - pdf: 12
       size: [595, 842]
       columns: 1
+      figures: [f07]
     - pdf: 13
       size: [595, 842]
       columns: 1
+      figures: [f08]
     - pdf: 14
       size: [595, 842]
       columns: 1

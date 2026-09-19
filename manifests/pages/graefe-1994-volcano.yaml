@@ -7,14 +7,63 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: graefe-1994-volcano
-offset: null
+offset: 119
 pages:
     - pdf: 1
       size: [617.04, 796.44]
       columns: 2
     - pdf: 2
+      printed: "121"
       size: [621.84, 799.44]
       columns: 2
     - pdf: 3
       size: [614.16, 793.92]
+      columns: 2
+    - pdf: 4
+      printed: "123"
+      size: [616.2, 795.84]
+      columns: 2
+    - pdf: 5
+      size: [624.48, 801.72]
+      columns: 2
+      figures: [f01]
+    - pdf: 6
+      size: [621.84, 799.8]
+      columns: 2
+    - pdf: 7
+      size: [612.96, 792.6]
+      columns: 2
+      figures: [f02]
+    - pdf: 8
+      size: [622.68, 799.8]
+      columns: 2
+    - pdf: 9
+      size: [613.32, 793.2]
+      columns: 2
+    - pdf: 10
+      size: [615, 794.04]
+      columns: 2
+    - pdf: 11
+      size: [620.16, 797.76]
+      columns: 2
+      figures: [f03, f04]
+    - pdf: 12
+      printed: "131"
+      size: [615, 794.76]
+      columns: 2
+      figures: [f05]
+    - pdf: 13
+      size: [621.48, 798.72]
+      columns: 1
+      figures: [f06]
+    - pdf: 14
+      printed: "133"
+      size: [617.04, 796.44]
+      columns: 2
+    - pdf: 15
+      size: [617.64, 795.12]
+      columns: 2
+    - pdf: 16
+      printed: "135"
+      size: [621.96, 799.92]
       columns: 2

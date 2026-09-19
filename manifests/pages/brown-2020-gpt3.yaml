@@ -20,14 +20,17 @@ pages:
       printed: "3"
       size: [612, 792]
       columns: 1
+      figures: [f01]
     - pdf: 4
       printed: "4"
       size: [612, 792]
       columns: 1
+      figures: [f02]
     - pdf: 5
       printed: "5"
       size: [612, 792]
       columns: 1
+      figures: [f03]
     - pdf: 6
       printed: "6"
       size: [612, 792]
@@ -36,6 +39,7 @@ pages:
       printed: "7"
       size: [612, 792]
       columns: 1
+      figures: [f04]
     - pdf: 8
       printed: "8"
       size: [612, 792]
@@ -44,6 +48,7 @@ pages:
       printed: "9"
       size: [612, 792]
       columns: 1
+      figures: [f05]
     - pdf: 10
       printed: "10"
       size: [612, 792]
@@ -52,10 +57,12 @@ pages:
       printed: "11"
       size: [612, 792]
       columns: 1
+      figures: [f06]
     - pdf: 12
       printed: "12"
       size: [612, 792]
       columns: 1
+      figures: [f07]
     - pdf: 13
       printed: "13"
       size: [612, 792]
@@ -64,18 +71,22 @@ pages:
       printed: "14"
       size: [612, 792]
       columns: 1
+      figures: [f08]
     - pdf: 15
       printed: "15"
       size: [612, 792]
       columns: 1
+      figures: [f09]
     - pdf: 16
       printed: "16"
       size: [612, 792]
       columns: 1
+      figures: [f10]
     - pdf: 17
       printed: "17"
       size: [612, 792]
       columns: 1
+      figures: [f11]
     - pdf: 18
       printed: "18"
       size: [612, 792]
@@ -84,18 +95,22 @@ pages:
       printed: "19"
       size: [612, 792]
       columns: 1
+      figures: [f12]
     - pdf: 20
       printed: "20"
       size: [612, 792]
       columns: 1
+      figures: [f13]
     - pdf: 21
       printed: "21"
       size: [612, 792]
       columns: 1
+      figures: [f14]
     - pdf: 22
       printed: "22"
       size: [612, 792]
       columns: 1
+      figures: [f15]
     - pdf: 23
       printed: "23"
       size: [612, 792]
@@ -104,10 +119,12 @@ pages:
       printed: "24"
       size: [612, 792]
       columns: 1
+      figures: [f16]
     - pdf: 25
       printed: "25"
       size: [612, 792]
       columns: 1
+      figures: [f17]
     - pdf: 26
       printed: "26"
       size: [612, 792]
@@ -116,14 +133,17 @@ pages:
       printed: "27"
       size: [612, 792]
       columns: 1
+      figures: [f18]
     - pdf: 28
       printed: "28"
       size: [612, 792]
       columns: 1
+      figures: [f19, f20]
     - pdf: 29
       printed: "29"
       size: [612, 792]
       columns: 1
+      figures: [f21]
     - pdf: 30
       printed: "30"
       size: [612, 792]
@@ -132,10 +152,12 @@ pages:
       printed: "31"
       size: [612, 792]
       columns: 1
+      figures: [f22]
     - pdf: 32
       printed: "32"
       size: [612, 792]
       columns: 1
+      figures: [f23]
     - pdf: 33
       printed: "33"
       size: [612, 792]
@@ -160,6 +182,7 @@ pages:
       printed: "38"
       size: [612, 792]
       columns: 1
+      figures: [f24]
     - pdf: 39
       printed: "39"
       size: [612, 792]
@@ -196,6 +219,7 @@ pages:
       printed: "47"
       size: [612, 792]
       columns: 1
+      figures: [f25]
     - pdf: 48
       printed: "48"
       size: [612, 792]
@@ -216,6 +240,7 @@ pages:
       printed: "52"
       size: [612, 792]
       columns: 2
+      figures: [f26]
     - pdf: 53
       printed: "53"
       size: [612, 792]
@@ -231,7 +256,7 @@ pages:
     - pdf: 56
       printed: "56"
       size: [612, 792]
-      columns: 1
+      columns: 2
     - pdf: 57
       printed: "57"
       size: [612, 792]
@@ -244,10 +269,12 @@ pages:
       printed: "59"
       size: [612, 792]
       columns: 2
+      figures: [f27]
     - pdf: 60
       printed: "60"
       size: [612, 792]
       columns: 2
+      figures: [f28, f29]
     - pdf: 61
       printed: "61"
       size: [612, 792]
@@ -264,18 +291,22 @@ pages:
       printed: "64"
       size: [612, 792]
       columns: 1
+      figures: [f30, f31, f32]
     - pdf: 65
       printed: "65"
       size: [612, 792]
       columns: 1
+      figures: [f33, f34]
     - pdf: 66
       printed: "66"
       size: [612, 792]
       columns: 1
+      figures: [f35, f36, f37, f38]
     - pdf: 67
       printed: "67"
       size: [612, 792]
       columns: 1
+      figures: [f39, f40]
     - pdf: 68
       printed: "68"
       size: [612, 792]

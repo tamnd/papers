@@ -19,8 +19,10 @@ pages:
       size: [612, 792]
       columns: 2
     - pdf: 4
+      printed: "9"
       size: [612, 792]
       columns: 2
     - pdf: 5
       size: [612, 792]
       columns: 2
+      figures: [f01]

@@ -19,7 +19,7 @@ pdf_sha256: fe83e914e79d8bf4271ea55de8f78a47a254fd7093a7ab073b80f956089d5690
 pdf_pages: 2-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: ad10f05d9bca70a4c01893330a4591af81e5230aad486c2406f57939bbeafde6
+content_sha256: 886d4c8619e36fb2f07a1645fc7cbf7b9d126e7d57a885671cc234d287a11795
 prompt_sha256: c5c47cae65ffa93ca979b448f43adf142f13a9820bcd1d77a3ff1aa1babe667b
 ---
 
@@ -29,24 +29,32 @@ In order to design a new device suitable for smaller values of $L$, the device i
 
 The scaling relationships were developed by observing that the depletion layer widths in the scaled-down device are reduced in proportion to the device dimensions due to the reduced potentials and the increased doping. For example,
 
-\[
+$$
 w_s' = \{[2\epsilon_{Si}(\psi_b' + V_{s-sub}/\kappa)]/q\kappa N_a\}^{1/2} \simeq w_s/\kappa.
-\] (1)
+\tag{1}
+$$
+{#dennard-1974-scaling-eq-1 .equation tag=03FD}
 
 The threshold voltage at turn-on [9] is also decreased in direct proportion to the reduced device voltages so that the device will function properly in a circuit with reduced voltage levels. This is shown by the threshold voltage equation for the scaled-down device.
 
-\[
+$$
 V_t' = (t_{ox}/\kappa \epsilon_{ox})\{-Q_{eff} + [2\epsilon_{Si} q\kappa N_a (\psi_s' + V_{s-sub}/\kappa)]^{1/2}\}
 + (\Delta W_f + \psi_s') \simeq V_t/\kappa.
-\] (2)
+\tag{2}
+$$
+{#dennard-1974-scaling-eq-2 .equation tag=03FE}
 
 In (2) the reduction in $V_t$ is primarily due to the decreased insulator thickness, $t_{ox}/\kappa$, while the changes in the voltage and doping terms tend to cancel out. In most cases of interest (i.e., polysilicon gates of doping type opposite to that of the substrate or aluminum gates on p-type substrates) the work function difference $\Delta W_f$ is of opposite sign, and approximately cancels out $\psi_s'$. $\psi_s'$ is the band bending in the silicon (i.e., the surface potential) at the onset of strong inversion for zero substrate bias. It would appear that the $\psi'$ terms appearing in (1) and (2) prevent exact scaling since they remain approximately constant, actually increasing slightly due to the increased doping since $\psi_b' \simeq \psi_s' = (2kT/q) \ln (N_{a'}/n_v)$. However, the fixed substrate bias supply normally used with n-channel devices can be adjusted so that $(\psi_s' + V_{sub'}) = (\psi_s + V_{sub})/\kappa$. Thus, by scaling down the applied substrate bias more than the other applied voltages, the potential drop across the source or drain junctions, or across the depletion region under the gate, can be reduced by $\kappa$.
 
 All of the equations that describe the MOSFET device characteristics may be scaled as demonstrated above. For example, the MOSFET current equation [9] given by
 
-\[
+$$
 I_{d'} = \frac{\mu_{eff} \epsilon_{ox}}{t_{ox}/\kappa} \left( \frac{W/\kappa}{L/\kappa} \right) \left( \frac{V_o - V_t - V_{d}/2}{\kappa} \right) (V_{d}/\kappa) = I_d/\kappa
-\] (3) is seen to be reduced by a factor of $\kappa$, for any given set of applied voltages, assuming no change in mobility. Actually, the mobility is reduced slightly due to increased impurity scattering in the heavier doped substrate.
+\tag{3}
+$$
+{#dennard-1974-scaling-eq-3 .equation tag=03FF}
+
+is seen to be reduced by a factor of $\kappa$, for any given set of applied voltages, assuming no change in mobility. Actually, the mobility is reduced slightly due to increased impurity scattering in the heavier doped substrate.
 
 It is possible to generalize the scaling approach to include electric field patterns and current density. The electric field distribution is maintained in the scaled-down device except for a change in scale for the spatial coordinates. Furthermore, the electric field strength at any corresponding point is unchanged because $V/x = V'/x'$. Thus, the carrier velocity at any point is also unchanged due to scaling and, hence, any saturation velocity effects will be similar in both devices, neglecting microscopic differences due to the fixed crystal lattice dimensions. From (3), since the device current is reduced by $\kappa$, the channel current per unit of channel width $W$ is unchanged by scaling. This is consistent with the same sheet density of carriers (i.e., electrons per unit gate area) moving at the same velocity. In the vicinity of the drain, the carriers will move away from the surface to a lesser extent in the new device, due to the shallower diffusions. Thus, the density of mobile carriers per unit volume will be higher in the space-charge region around the drain, complementing the higher density of immobile charge due to the heavier doped substrate. Other scaling relationships for power density, delay time, etc., are given in Table I and will be discussed in a subsequent section on circuit performance.
 

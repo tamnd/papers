@@ -17,7 +17,7 @@ pdf_sha256: 03fa2f493a1448a309586b9cf9e5c3a4dfd14735e0786cc94674519570b890ff
 pdf_pages: 9-11
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 4663c24f34f6d6c84e8e11c8a9763ccc286388ef0f3f1a1085ebd4b1eac23af5
+content_sha256: 1d944145d2e79ef2b24404f2fce81d8659c6767d6ae37eed00002bb3a052ca22
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -33,9 +33,9 @@ A function is said to belong to the complexity class $P$ (for polynomial) if it 
 
 There are many problems which arise in engineering which cannot be solved in polynomial time by any known techniques, unless they are run on a computer with an unlimited degree of parallelism. These problems may or may not belong to the class $P$, but belong to the class $NP$ (for nondeterministic, polynomial) of problems solvable in polynomial time on a “nondeterministic” computer (i.e., one with an unlimited degree of parallelism). Clearly the class $NP$ includes the class $P$, and one of the great open questions in complexity theory is whether the class $NP$ is strictly larger.
 
-Among the problems known to be solvable in $NP$ time, but not known to be solvable in $P$ time, are versions of the traveling salesman problem, the satisfiability problem for propositional calculus, the knapsack problem, the graph coloring problem, and many scheduling and minimization problems [13, pp. 363–404], [14]. We see that it is not lack of interest or effort which has prevented people from finding solutions in $P$ time for these problems. It is thus strongly believed that at least one of these problems must not be in the class $P$, and that therefore the class $NP$ is strictly larger.
+Among the problems known to be solvable in $NP$ time, but not known to be solvable in $P$ time, are versions of the traveling salesman problem, the satisfiability problem for propositional calculus, the knapsack problem, the graph coloring problem, and many scheduling and minimization problems [13, pp. 363–404], [[karp-1972-reducibility]]. We see that it is not lack of interest or effort which has prevented people from finding solutions in $P$ time for these problems. It is thus strongly believed that at least one of these problems must not be in the class $P$, and that therefore the class $NP$ is strictly larger.
 
-Karp has identified a subclass of the $NP$ problems, called $NP$ complete, with the property that if any one of them is in $P$, then all $NP$ problems are in $P$. Karp lists 21 problems which are $NP$ complete, including all of the problems mentioned above [14].
+Karp has identified a subclass of the $NP$ problems, called $NP$ complete, with the property that if any one of them is in $P$, then all $NP$ problems are in $P$. Karp lists 21 problems which are $NP$ complete, including all of the problems mentioned above [[karp-1972-reducibility]].
 
 While the $NP$ complete problems show promise for cryptographic use, current understanding of their difficulty includes only worst case analysis. For cryptographic purposes, typical computational costs must be considered. If, however, we replace worst case computation time with average or typical computation time as our complexity measure, the current proofs of the equivalences among the $NP$ complete problems are no longer valid. This suggests several interesting topics for research. The ensemble and typicality concepts familiar to information theorists have an obvious role to play.
 

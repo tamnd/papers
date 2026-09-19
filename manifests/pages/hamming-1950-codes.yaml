@@ -18,3 +18,36 @@ pages:
     - pdf: 3
       size: [367.2, 619.92]
       columns: 1
+    - pdf: 4
+      size: [367.2, 619.92]
+      columns: 1
+    - pdf: 5
+      size: [367.2, 619.56]
+      columns: 1
+    - pdf: 6
+      size: [367.2, 619.56]
+      columns: 1
+    - pdf: 7
+      size: [367.2, 619.56]
+      columns: 1
+    - pdf: 8
+      size: [367.2, 619.56]
+      columns: 1
+    - pdf: 9
+      size: [367.2, 620.28]
+      columns: 1
+    - pdf: 10
+      size: [367.2, 620.28]
+      columns: 1
+    - pdf: 11
+      size: [367.2, 620.64]
+      columns: 1
+    - pdf: 12
+      size: [367.2, 620.64]
+      columns: 1
+    - pdf: 13
+      size: [367.2, 619.56]
+      columns: 1
+    - pdf: 14
+      size: [367.2, 619.56]
+      columns: 1

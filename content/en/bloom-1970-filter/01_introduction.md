@@ -14,7 +14,7 @@ pdf_sha256: def80c7d042c39d5aab15e6ae1c2b55262ee1123ffcdf53143895089ab5c1728
 pdf_pages: 1-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 6acc2e9a6e5cd449cd152c5768460609c7a619ee131881ac15769210859abcf0
+content_sha256: f8b1829ec6b2631968a2df226163bf25af0afb53e7e1dcb4f61f8f6123391193
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -291,18 +291,3 @@ Table I shows how alternative choices for the value of $P$ affect the size of th
 Acknowledgments. The author wishes to express his thanks to Mr. Oliver Selfridge for his many helpful suggestions in the writing of this paper.
 
 Received October, 1969; Revised April, 1970
-
-REFERENCES
-1. Batson, A. The organization of symbol tables. Comm. ACM 8, 2 (Feb. 1965), 111–112.
-2. Maurer, W. D. An improved hash code for scatter storage. Comm. ACM 11, 1 (Jan. 1968), 35–38.
-3. Morris, R. Scatter storage techniques. Comm. ACM 11, 1 (Jan. 1968), 38–44.
-
-| TABLE I. SUMMARY OF EXPECTED PERFORMANCE OF HYPHENATION APPLICATION OF HASH CODING USING METHOD 2 FOR VARIOUS VALUES OF ALLOWABLE FRACTION OF ERRORS |  |  |
-| --- | --- | --- |
-| P = Allowable Fraction of Errors | N = Size of Hash Area (Bits) | Disk Accesses Saved |
-| $\frac{1}{2}$ | 72,800 | 45.0% |
-| $\frac{1}{4}$ | 145,600 | 67.5% |
-| $\frac{1}{8}$ | 218,400 | 78.7% |
-| $\frac{1}{16}$ | 291,200 | 84.4% |
-| $\frac{1}{32}$ | 364,000 | 87.2% |
-| $\frac{1}{64}$ | 509,800 | 88.5% |

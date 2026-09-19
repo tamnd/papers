@@ -16,7 +16,7 @@ pdf_sha256: be2ac1035940dfc7fa231e23b33bfa3c2f3e3d8ef3112e20cf92a35a7af537f6
 pdf_pages: 8-11
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: a11a559377dc729fc7601c2dbd33167ddeadf912dedd374ca226ad1262ce0433
+content_sha256: 36c8be47b68c4901b69c7a81fae8d462ea9f8203777d9dc0a89355bd9e3508fd
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -103,9 +103,9 @@ $v = 4$ $v = 3$ $v = 2$ $v = 1$
 
 Notice in the nonstructured graphs below, however, that such a reduction process is not possible.
 
-G1: ![Graph G1](../images/graph_G1.png) $v = 6$
-G2: ![Graph G2](../images/graph_G2.png) $v = 6$
-G3: ![Graph G3](../images/graph_G3.png) $v = 6$
+G1: $v = 6$
+G2: $v = 6$
+G3: $v = 6$
 
 Let m be the number of proper subgraphs with unique entry and exit nodes. Notice in G1, G2, and G3 m is equal to 0, 1, and 2, respectively. The following definition of essential complexity ev is used to reflect the lack of structure.
 

@@ -7,9 +7,10 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: freund-1997-adaboost
-offset: null
+offset: 118
 pages:
     - pdf: 1
+      printed: "119"
       size: [600, 900]
       columns: 2
     - pdf: 2
@@ -18,6 +19,7 @@ pages:
     - pdf: 3
       size: [600, 900]
       columns: 2
+      figures: [f01]
     - pdf: 4
       size: [600, 900]
       columns: 2
@@ -33,6 +35,7 @@ pages:
     - pdf: 8
       size: [600, 900]
       columns: 2
+      figures: [f02]
     - pdf: 9
       size: [600, 900]
       columns: 2
@@ -48,6 +51,7 @@ pages:
     - pdf: 13
       size: [600, 900]
       columns: 2
+      figures: [f03]
     - pdf: 14
       size: [600, 900]
       columns: 2
@@ -57,12 +61,15 @@ pages:
     - pdf: 16
       size: [600, 900]
       columns: 2
+      figures: [f04]
     - pdf: 17
+      printed: "135"
       size: [600, 900]
       columns: 2
     - pdf: 18
       size: [600, 900]
       columns: 2
+      figures: [f05]
     - pdf: 19
       size: [600, 900]
       columns: 2

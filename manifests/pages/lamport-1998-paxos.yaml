@@ -7,7 +7,7 @@
 # `size` is the width and the height of the page in points, which is what makes the bounding boxes in figures.yaml mean something.
 
 paper: lamport-1998-paxos
-offset: -1
+offset: null
 pages:
     - pdf: 1
       size: [612, 792]
@@ -32,22 +32,18 @@ pages:
       columns: 1
       figures: [f01]
     - pdf: 8
-      printed: "7"
       size: [612, 792]
       columns: 1
     - pdf: 9
-      printed: "8"
       size: [612, 792]
       columns: 1
     - pdf: 10
-      printed: "9"
       size: [612, 792]
       columns: 1
     - pdf: 11
       size: [612, 792]
       columns: 1
     - pdf: 12
-      printed: "11"
       size: [612, 792]
       columns: 1
     - pdf: 13
@@ -72,7 +68,6 @@ pages:
       size: [612, 792]
       columns: 1
     - pdf: 20
-      printed: "19"
       size: [612, 792]
       columns: 1
     - pdf: 21
@@ -92,26 +87,21 @@ pages:
       size: [612, 792]
       columns: 1
     - pdf: 26
-      printed: "25"
       size: [612, 792]
       columns: 1
     - pdf: 27
       size: [612, 792]
       columns: 1
     - pdf: 28
-      printed: "27"
       size: [612, 792]
       columns: 1
     - pdf: 29
-      printed: "28"
       size: [612, 792]
       columns: 1
     - pdf: 30
-      printed: "29"
       size: [612, 792]
       columns: 1
     - pdf: 31
-      printed: "30"
       size: [612, 792]
       columns: 1
     - pdf: 32

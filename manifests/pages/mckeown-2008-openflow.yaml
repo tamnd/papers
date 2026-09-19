@@ -15,15 +15,18 @@ pages:
     - pdf: 2
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 3
       size: [612, 792]
       columns: 2
     - pdf: 4
       size: [612, 792]
       columns: 2
+      figures: [f02]
     - pdf: 5
       size: [612, 792]
       columns: 2
+      figures: [f03]
     - pdf: 6
       size: [612, 792]
       columns: 2

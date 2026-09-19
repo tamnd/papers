@@ -13,11 +13,12 @@ pages:
       printed: "1"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 2
       printed: "2"
       size: [612, 792]
       columns: 2
-      figures: [f01]
+      figures: [f02]
     - pdf: 3
       printed: "3"
       size: [612, 792]
@@ -26,16 +27,17 @@ pages:
       printed: "4"
       size: [612, 792]
       columns: 4
+      figures: [f03]
     - pdf: 5
       printed: "5"
       size: [612, 792]
-      columns: 1
-      figures: [f02]
+      columns: 2
+      figures: [f04]
     - pdf: 6
       printed: "6"
       size: [612, 792]
       columns: 2
-      figures: [f03]
+      figures: [f05]
     - pdf: 7
       printed: "7"
       size: [612, 792]
@@ -44,6 +46,7 @@ pages:
       printed: "8"
       size: [612, 792]
       columns: 2
+      figures: [f06, f07]
     - pdf: 9
       printed: "9"
       size: [612, 792]
@@ -55,7 +58,7 @@ pages:
     - pdf: 11
       printed: "11"
       size: [612, 792]
-      columns: 1
+      columns: 2
     - pdf: 12
       printed: "12"
       size: [612, 792]

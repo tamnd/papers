@@ -19,21 +19,21 @@ source: http://db.cs.berkeley.edu/cs286/papers/gamma-tkde1990.pdf
 pdf_sha256: 420d33f44b8e050f33517cdff1299a58838b4ad826d80a6617200332ea02be5e
 pdf_pages: 1-2
 extraction: vision
-extraction_model: gpt-5
-content_sha256: 64bdcf07b7a3c62861e451e668dcf626b539ea8cca55a9db6022c680103aa88b
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: edbfecef6e63fb28b12ae47183f3018e6dbc83e4a04baa1daf8326fee4de0377
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 The Gamma Database Machine Project
 
-David J. DeWitt  
-Shahram Ghandeharizadeh  
-Donovan Schneider  
-Allan Bricker  
-Hui-I Hsiao  
+David J. DeWitt
+Shahram Ghandeharizadeh
+Donovan Schneider
+Allan Bricker
+Hui-I Hsiao
 Rick Rasmussen
 
-Computer Sciences Department  
+Computer Sciences Department
 University of Wisconsin
 
 This research was partially supported by the Defense Advanced Research Projects Agency under contract N00039-86-C-0578, by the National Science Foundation under grant DCR-8512862, by a DARPA/NASA sponsored Graduate Research Assistantship in Parallel Processing, and by research grants from Intel Scientific Computers, Tandem Computers, and Digital Equipment Corporation.

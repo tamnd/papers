@@ -17,7 +17,7 @@ pdf_sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
 pdf_pages: 6-10
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 803754bd5fac046a8bfe33b9159a070d1dcd835f85d848748b4b8234e089e46d
+content_sha256: 0ae39af4a99f833869cc800e52f7e204c4c3794d9596462f2f67c1dbdb19c847
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -42,6 +42,12 @@ Figure 5 shows a complete trajectory of the two-user system starting from point 
 Similar trajectories can be drawn for other control policies. Although not all control policies converge. For example, Fig. 6 shows the trajectory for the additive increase/additive decrease control
 
 Figure.
+
+Fig. 5. Additive Increase/Multiplicative Decrease converges to the optimal point. {#chiu-1989-aimd-fig-5 .figure tag=06D0}
+
+policy starting from the position $x_0$. The system keeps moving back and forth along a $45^\circ$ line through $x_0$. With such a policy, the system can converge to efficiency, but not to fairness. The conditions for convergence to efficiency and fairness are derived algebraically in the next section.
+
+Fig. 6. Additive Increase/Additive Decrease does not converge. {#chiu-1989-aimd-fig-6 .figure tag=06D1}
 
 ### 2.2. Convergence to Efficiency {#chiu-1989-aimd-s2-2 .section tag=03C2}
 
@@ -151,9 +157,11 @@ $$
 y(t) = 0 \implies x_i(t+1) > x_i(t) \quad \forall i,
 $$
 
-\[
+$$
 y(t) = 1 \implies x_i(t+1) < x_i(t) \quad \forall i.
-\] (11)
+\tag{11}
+$$
+{#chiu-1989-aimd-eq-11 .equation tag=03F8}
 
 Which translates into
 
@@ -171,34 +179,46 @@ $$
 a_1 > 0, \quad b_1 \geq 1,
 $$
 
-\[
+$$
 a_D = 0, \quad 0 \leq b_D < 1.
-\] (12)
+\tag{12}
+$$
+{#chiu-1989-aimd-eq-12 .equation tag=03F9}
 
 We shall demonstrate these constrains graphically later, using the vector representations.
 
 There is, however, a simple variation for us to make the conditions in (12) less restrictive for parameters $b_1$ and $a_D$. If each user $i$ truncates its control whenever the conditions in (11) would otherwise be violated, as below
 
-\[
+$$
 x_i(t+1) = \begin{cases}
 \max(a_1 + b_1 x_i(t), x_i(t)) \\
 \text{if } y(t) = 0 \Rightarrow \text{Increase}, \\
 \min(a_D + b_D x_i(t), x_i(t)) \\
 \text{if } y(t) = 1 \Rightarrow \text{Decrease},
 \end{cases}
-\] (13) then (10) can guarantee both convergence to efficiency with the distributed requirements. There is one catch, however, that is all users could truncate at the same time (thus stopping any progress). To prevent this possibility, let's consider the following conditions:
+\tag{13}
+$$
+{#chiu-1989-aimd-eq-13 .equation tag=03FA}
+
+then (10) can guarantee both convergence to efficiency with the distributed requirements. There is one catch, however, that is all users could truncate at the same time (thus stopping any progress). To prevent this possibility, let's consider the following conditions:
 
 $$
 a_1 + (b_1 - 1)X_{\max} > 0,
 $$
 
-\[
+$$
 N_{\max} a_D + (b_D - 1)X_{\min} < 0
-\] (14)
+\tag{14}
+$$
+{#chiu-1989-aimd-eq-14 .equation tag=03FB}
+
 for some $X_{\min}$ and $X_{\max}$ satisfying
-\[
+
+$$
 X_{\min} \leq X_{\text{goal}} \leq X_{\max}.
-\] (15)
+\tag{15}
+$$
+{#chiu-1989-aimd-eq-15 .equation tag=03FC}
 
 Here, $N_{\max}$ is the upper bound on the number of users that would share the resource. The claim is that when (14) and (15) are satisfied, it is impossible for $\sum x_i(t+1) = \sum x_i(t)$.
 
@@ -248,18 +268,18 @@ $$
 a_1 > 0, \quad b_1 > 1 - \frac{a_1}{X_{\max}},
 $$
 
-\[
-0 \leq a_D < (1 - b_D) \frac{X_{\min}}{N_{\max}}, \quad 0 \leq b_D < 1. \] (16)
+$$
+0 \leq a_D < (1 - b_D) \frac{X_{\min}}{N_{\max}}, \quad 0 \leq b_D < 1. $$ (16)
 
 Notice that in the case that we do not have any knowledge to bound $X_{\text{goal}}$ or $n$, that simply corresponds to $N_{\max} = \infty, X_{\min} = 0$ and $X_{\max} = \infty$. Then the conditions on linear control with truncation reduce to the same ones as those on the strictly linear control. We have essentially proven the following propositions:
 
-Proposition 1. *In order to satisfy the requirements of distributed convergence to efficiency and fairness without truncation, the linear decrease policy should be multiplicative, and the linear increase policy should always have an additive component, and optionally it may have a multiplicative component with the coefficient no less than one.* {#chiu-1989-aimd-prop-1 .statement tag=03CC}
+Proposition 1. *In order to satisfy the requirements of distributed convergence to efficiency and fairness without truncation, the linear decrease policy should be multiplicative, and the linear increase policy should always have an additive component, and optionally it may have a multiplicative component with the coefficient no less than one.*
 
-Proposition 2. For the linear controls with truncation (as defined in Equation (13)), the increase and decrease policies can each have both additive and multiplicative components, satisfying the constraints in Equations (16) and (15). {#chiu-1989-aimd-prop-2 .statement tag=03CD}
+Proposition 2. For the linear controls with truncation (as defined in Equation (13)), the increase and decrease policies can each have both additive and multiplicative components, satisfying the constraints in Equations (16) and (15).
 
 The vectorial representation in the next section should help illustrate these results further.
 
-### 2.5. Vectorial Representation of Feasibility Conditions {#chiu-1989-aimd-s2-5 .section tag=03CE}
+### 2.5. Vectorial Representation of Feasibility Conditions
 
 The constraint on the control imposed by the efficiency and fairness convergence conditions are depicted in Fig. 7 for the 2-user case. Let us first consider a point in the overloaded region. As shown in Fig. 7(a), the users start at the point $x^H = (x_1^H, x_2^H)$, which is above the efficiency line. The system asks the users to decrease. The line $x_1 + x_2 = x_1^H + x_2^H$ represents an "equi-efficiency" line. All points on this line have the same efficiency as $x^H$. For convergence to efficiency it is sufficient to ensure that the next decrease moves into the shaded area.
 

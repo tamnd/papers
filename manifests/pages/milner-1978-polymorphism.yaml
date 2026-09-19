@@ -18,3 +18,81 @@ pages:
     - pdf: 3
       size: [464, 678]
       columns: 1
+    - pdf: 4
+      size: [461, 677]
+      columns: 1
+    - pdf: 5
+      size: [463, 677]
+      columns: 1
+    - pdf: 6
+      size: [461, 677]
+      columns: 1
+    - pdf: 7
+      size: [464, 680]
+      columns: 1
+    - pdf: 8
+      size: [462, 677]
+      columns: 1
+    - pdf: 9
+      size: [461, 677]
+      columns: 1
+    - pdf: 10
+      size: [461, 677]
+      columns: 1
+    - pdf: 11
+      size: [464, 680]
+      columns: 1
+    - pdf: 12
+      size: [462, 677]
+      columns: 1
+    - pdf: 13
+      size: [462, 677]
+      columns: 1
+    - pdf: 14
+      size: [461, 677]
+      columns: 1
+    - pdf: 15
+      size: [461, 677]
+      columns: 1
+    - pdf: 16
+      size: [462, 677]
+      columns: 1
+    - pdf: 17
+      size: [461, 677]
+      columns: 1
+    - pdf: 18
+      size: [461, 677]
+      columns: 1
+    - pdf: 19
+      size: [464, 678]
+      columns: 1
+    - pdf: 20
+      size: [461, 677]
+      columns: 1
+    - pdf: 21
+      size: [464, 680]
+      columns: 1
+    - pdf: 22
+      size: [473, 684]
+      columns: 1
+    - pdf: 23
+      size: [468, 682]
+      columns: 1
+    - pdf: 24
+      size: [462, 677]
+      columns: 1
+    - pdf: 25
+      size: [461, 677]
+      columns: 1
+    - pdf: 26
+      size: [462, 677]
+      columns: 1
+    - pdf: 27
+      size: [461, 677]
+      columns: 1
+    - pdf: 28
+      size: [461, 677]
+      columns: 1
+    - pdf: 29
+      size: [461, 677]
+      columns: 1

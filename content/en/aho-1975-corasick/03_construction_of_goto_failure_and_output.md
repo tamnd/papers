@@ -17,7 +17,7 @@ pdf_sha256: f04940c07d2a12726bce4147fd4217e876cd969ddf44094ad90c866893deed34
 pdf_pages: 3-4
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: fc5ea43f41fcab80bb49c2dfcf46c4957c39801edd3a9c06a96f1cefd750b1a3
+content_sha256: d961a6e90a9a380ecfec99f89ff7a2bbda10ab8ae0b1668db9614a44d676e503
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -73,54 +73,61 @@ Input. Set of keywords $K = \{y_1, y_2, \ldots, y_k\}$.
 Output. Goto function $g$ and a partially computed output function $output$.
 Method. We assume $output(s)$ is empty when state $s$ is first created, and $g(s, a) = fail$ if $a$ is undefined or if $g(s, a)$ has not yet been defined. The procedure $enter(y)$ inserts into the goto graph a path that spells out $y$.
 
+```text
 begin
-    newstate \leftarrow 0
-    for $i \leftarrow 1$ until $k$ do $enter(y_i)$
-        for all $a$ such that $g(0, a) = fail$ do $g(0, a) \leftarrow 0$
-end procedure $enter(a_1 a_2 \cdots a_m)$:
-begin
-    state \leftarrow 0; j \leftarrow 1
-    while $g(state, a_j) \neq fail$ do
-        begin
-            state \leftarrow g(state, a_j)
-            j \leftarrow j + 1
-        end
-    for $p \leftarrow j$ until $m$ do
-        begin
-            newstate \leftarrow newstate + 1
-            $g(state, a_p) \leftarrow newstate$
-            state \leftarrow newstate
-        end
-    output(state) \leftarrow \{a_1 a_2 \cdots a_m\}
+    newstate ← 0
+    for i ← 1 until k do enter(yᵢ)
+        for all a such that g(0, a) = fail do g(0, a) ← 0
 end
+
+procedure enter(a₁ a₂ ... aₘ):
+begin
+    state ← 0; j ← 1
+    while g(state, aⱼ) ≠ fail do
+        begin
+            state ← g(state, aⱼ)
+            j ← j + 1
+        end
+    for p ← j until m do
+        begin
+            newstate ← newstate + 1
+            g(state, aₚ) ← newstate
+            state ← newstate
+        end
+    output(state) ← {a₁ a₂ ... aₘ}
+end
+```
 
 The following algorithm, whose inner loop is similar to Algorithm 1, computes the failure function.
 
 Algorithm 3. Construction of the failure function. {#aho-1975-corasick-alg-3 .code tag=033E}
-Input. Goto function $g$ and output function $output$ from Algorithm 2.
-Output. Failure function $f$ and output function $output$.
+
+```text
+Input. Goto function g and output function output from Algorithm 2.
+Output. Failure function f and output function output.
 Method.
 begin
-    queue \leftarrow empty
-    for each $a$ such that $g(0, a) = s \neq 0$ do
+    queue ← empty
+    for each a such that g(0, a) = s ≠ 0 do
         begin
-            queue \leftarrow queue \cup \{s\}
-            $f(s) \leftarrow 0$
+            queue ← queue ∪ {s}
+            f(s) ← 0
         end
-    while $queue \neq empty$ do
+    while queue ≠ empty do
         begin
-            let $r$ be the next state in $queue$
-            $queue \leftarrow queue - \{r\}$
-            for each $a$ such that $g(r, a) = s \neq fail$ do
+            let r be the next state in queue
+            queue ← queue - {r}
+            for each a such that g(r, a) = s ≠ fail do
                 begin
-                    queue \leftarrow queue \cup \{s\}
-                    state \leftarrow f(r)
-                    while $g(state, a) = fail$ do $state \leftarrow f(state)$
-                    $f(s) \leftarrow g(state, a)$
-                    $output(s) \leftarrow output(s) \cup output(f(s))$
+                    queue ← queue ∪ {s}
+                    state ← f(r)
+                    while g(state, a) = fail do state ← f(state)
+                    f(s) ← g(state, a)
+                    output(s) ← output(s) ∪ output(f(s))
                 end
         end
 end
+```
 
 The first for-loop computes the states of depth 1 and enters them in a first-in first-out list denoted by the variable $queue$. The main while-loop computes the set of states of depth $d$ from the set of states of depth $d-1$.
 

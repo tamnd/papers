@@ -15,7 +15,7 @@ pdf_sha256: fd7424d2a47593223e2b490e841613bd900bc140944cb4eb590cff0e529886a2
 pdf_pages: 1-5
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: ad04599cf0cce15e72611c6450241d81c52904aa98e1533c824beda71b724af0
+content_sha256: cca69df51ccc7287b1d16095520c81685cf4984301adad3e8e0f6f79f90443c6
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -26,7 +26,7 @@ Control Data Corp., Palo Alto, Calif.
 ```text
 procedure arithmetic (a, b, c, op);
 integer a, b, c, op;
-comment This procedure will perform different order arithmetic operations with $b$ and $c$, putting the result in $a$. The order of the operation is given by $op$. For $op = 1$ addition is performed. For $op = 2$ multiplication, repeated addition, is done. Beyond these the operations are non-commutative. For $op = 3$ exponentiation, repeated multiplication, is done, raising $b$ to the power $c$. Beyond these the question of grouping is important. The innermost implied parentheses are at the right. The hyper-exponent is always $c$. For $op = 4$ tetration, repeated exponentiation, is done. For $op = 5, 6, 7$, etc., the procedure performs pentation, hexation, heptation, etc., respectively.
+comment This procedure will perform different order arithmetic operations with b and c, putting the result in a. The order of the operation is given by op. For op = 1 addition is performed. For op = 2 multiplication, repeated addition, is done. Beyond these the operations are non-commutative. For op = 3 exponentiation, repeated multiplication, is done, raising b to the power c. Beyond these the question of grouping is important. The innermost implied parentheses are at the right. The hyper-exponent is always c. For op = 4 tetration, repeated exponentiation, is done. For op = 5, 6, 7, etc., the procedure performs pentation, hexation, heptation, etc., respectively.
 ```
 
 The routine was originally programmed in FORTRAN for the Control Data 160 desk-size computer. The original program was limited to tetration because subroutine recursiveness in Control Data 160 FORTRAN has been held down to four levels in the interests of economy.
@@ -53,10 +53,10 @@ Burroughs Corp., Burroughs Laboratories, Paoli, Pa.
 
 ```text
 procedure COMBINATION (J, N, K); value N, K; integer array J; integer N, K;
-comment This procedure generates the next combination of $N$ integers taken $K$ at a time upon being given $N, K$ and the previous combination. The $K$ integers in the vector $J(1) \cdots J(K)$ range in value from 0 to $N - 1$, and are always monotonically strictly increasing with respect to themselves in input and output format. If the vector $J$ is set equal to zero, the first combination produced is $N-K, \cdots, N-1$. That initial combination is also produced after $0, 1, \cdots, N-1$, the last value in that cycle;
+comment This procedure generates the next combination of N integers taken K at a time upon being given N, K and the previous combination. The K integers in the vector J(1) ... J(K) range in value from 0 to N - 1, and are always monotonically strictly increasing with respect to themselves in input and output format. If the vector J is set equal to zero, the first combination produced is N-K, ..., N-1. That initial combination is also produced after 0, 1, ..., N-1, the last value in that cycle;
 begin integer B, L;
     B := 1;
-mainbody: if J(B) \geq B then begin A := J(B) - B-1;
+mainbody: if J(B) ≥ B then begin A := J(B) - B-1;
         for L := 1 step 1 until B do J(L) := L + A;
         go to exit end;
         if B = K then go to initiate;
@@ -72,9 +72,9 @@ System Development Corp., Santa Monica, Calif.
 
 ```text
 procedure partgen(c,N,K,G); integer N,K; integer array c; Boolean G;
-comment This procedure operates on a given partition of the positive integer $N$ into parts $\leq K$, to produce a consequent partition if one exists. Each partition is represented by the integers $c[1]$ thru $c[K]$, where $c[j]$ is the number of parts of the partition equal to the integer $j$. If entry is made with $G = \text{false}$, procedure ignores the input array $c$, sets $G = \text{true}$, and produces the first partition of $N$ ones. Upon each successive entry with $G = \text{true}$, a consequent partition is stored in $c[1]$ thru $c[K]$. For $N = KX$, the final partition is $c[K] = X$. For $N = KX + r$, $1 \leq r \leq K-1$, final partition is $c[K] = X, c[r] = 1$. When entry is made with array $c =$ final partition, $c$ is left unchanged and $G$ is reset to false;
+comment This procedure operates on a given partition of the positive integer N into parts ≤ K, to produce a consequent partition if one exists. Each partition is represented by the integers c[1] thru c[K], where c[j] is the number of parts of the partition equal to the integer j. If entry is made with G = false, procedure ignores the input array c, sets G = true, and produces the first partition of N ones. Upon each successive entry with G = true, a consequent partition is stored in c[1] thru c[K]. For N = KX, the final partition is c[K] = X. For N = KX + r, 1 ≤ r ≤ K-1, final partition is c[K] = X, c[r] = 1. When entry is made with array c = final partition, c is left unchanged and G is reset to false;
 begin integer a,i,j;
-    if \neg G then go to first;
+    if ≠g G then go to first;
     j := 2;
     a := C[1];
 test: if a < j then go to B;
@@ -84,7 +84,7 @@ zero: for i := 2 step 1 until j - 1
     do c[i] := 0;
     go to EXIT;
 B:    if j = K then go to last;
-    a := a + j \times c[j];
+    a := a + j × c[j];
     j := j + 1;
     go to test;
 first: G := true;
@@ -148,7 +148,7 @@ Syracuse University Computing Center, Syracuse, N. Y.
 ```text
 procedure COMPLINEINTGRL(A, B, N, RSSUM);
     value A, B, N; real A, B, N; array RSSUM;
-comment COMPLINEINTGRL approximates the complex line integral by evaluating the partial Riemann-Stieltjes sum $\sum_{t=1}^n f(z_k)[z_t - z_{t-1}]$ where $a \leq t \leq b$ and $z_k \in (z_{t-1}, z_t)$. The programmer must provide 1) the procedures GAMMA(T, Z) to calculate $z(t)$ on $\Gamma$, and FUNCT(Z, F) to calculate function values, and 2) the end points $A$ and $B$ of the parametric interval and $N$ the number of subintervals into which $[a, b]$ is to be partitioned;
+comment COMPLINEINTGRL approximates the complex line integral by evaluating the partial Riemann-Stieltjes sum $\sum_{t=1}^n f(z_k)[z_t - z_{t-1}]$ where a ≤ t ≤ b and zₖ ∈ (zₜ₋₁, zₜ). The programmer must provide 1) the procedures GAMMA(T, Z) to calculate z(t) on Γ, and FUNCT(Z, F) to calculate function values, and 2) the end points A and B of the parametric interval and N the number of subintervals into which [a, b] is to be partitioned;
 begin integer I; real T, DELT; real array ZT, ZTL, DELZ, ZK, PART[1:2]; RSSUM[1] := 0.0; RSSUM[2] := 0.0;
     DELT := (B - A)/N; T := A;
 line: GAMMA(T, ZT);
@@ -182,7 +182,7 @@ Dartmouth College, Hanover, N. H.
 ```text
 procedure Jacobi (n,m,r); value n,m;
 integer n, m, r;
-comment Jacobi computes the value of the Jacobi symbol $(n/m)$, where m is odd, by the law of quadratic reciprocity. The parameter r is assigned one of the values -1, 0, or 1 if m is odd. If m is even, the symbol is undefined and r is assigned the value 2. For odd m the routine provides a test of whether m and n are relatively prime. The value of r is 0 if and only if m and n have a nontrivial common factor. In the special case where m is prime, $r = -1$ if and only if n is a quadratic nonresidue of m;
+comment Jacobi computes the value of the Jacobi symbol (n/m), where m is odd, by the law of quadratic reciprocity. The parameter r is assigned one of the values -1, 0, or 1 if m is odd. If m is even, the symbol is undefined and r is assigned the value 2. For odd m the routine provides a test of whether m and n are relatively prime. The value of r is 0 if and only if m and n have a nontrivial common factor. In the special case where m is prime, r = -1 if and only if n is a quadratic nonresidue of m;
 begin
     integer s;
     Boolean p, q;
@@ -201,7 +201,7 @@ UNIVAC Division, Sperry Rand Corp., San Diego, Calif.
 procedure SIMPSON (a, b, f, I, i eps, N);
     value a, b, eps, N; integer N;
     real a, b, I, i, eps; real procedure f;
-comment This procedure integrates the function $f(x)$ using a modified Simpson's Rule quadrature formula. The quadrature is performed over $j$ subintervals of $[a,b]$ forming the total area $I$. Convergence in each subinterval of length $(b-a)/2^n$ is indicated when the relative difference between successive three-point and five-point area approximations
+comment This procedure integrates the function f(x) using a modified Simpson's Rule quadrature formula. The quadrature is performed over j subintervals of [a,b] forming the total area I. Convergence in each subinterval of length (b-a)/2ⁿ is indicated when the relative difference between successive three-point and five-point area approximations
 ```
 
 $$
@@ -215,7 +215,7 @@ $$
 is less than or equal to an appropriate portion of the over-all tolerance eps (i.e., $|(A_{5,j} - A_{3,j})/A_{5,j}| \leq \mathrm{eps}/2^n$ with $n \leq N$). SIMPSON will reduce the size of each interval until this condition is satisfied.
 
 ```text
-Complete integration over $[a,b]$ is indicated by $i = b$. A value $a \leq i < b$ is indicates that the integration was terminated, leaving $I$ the true area under $f$ in $[a,i]$. Further integration over $[i,b]$ will necessitate either the assignment of a larger $N$, a larger eps, or an integral substitution reducing the slope of the integrand in that interval. It is recommended that this procedure be used between known integrand maxima and minima.;
+Complete integration over [a,b] is indicated by i = b. A value a ≤ i < b is indicates that the integration was terminated, leaving I the true area under f in [a,i]. Further integration over [i,b] will necessitate either the assignment of a larger N, a larger eps, or an integral substitution reducing the slope of the integrand in that interval. It is recommended that this procedure be used between known integrand maxima and minima.;
 begin integer m, n; real d, h; array g[0:4], A[0:2], S[1:N, 1:3];
     I := i := m := n := 0;
     g[0] := f(a);
@@ -284,7 +284,7 @@ The modified procedure is as follows:
 
 ```text
 procedure LOGC (a,b,c,d); value a,b; real a,b,c,d;
-comment This procedure computes the number $c + di$ which is equal to the principal value of $\log_e (a + bi)$. If $a = 0$ then $c$ is put equal to $-1047$ which is used to represent "- infinity";
+comment This procedure computes the number c + di which is equal to the principal value of logₑ (a + bi). If a = 0 then c is put equal to -1047 which is used to represent "- infinity";
 begin integer m,n
     m := sign (a); n := sign (b);
     if a = 0 then begin c := -1047;

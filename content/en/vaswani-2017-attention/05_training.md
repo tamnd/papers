@@ -23,7 +23,7 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 7-8
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 0cac3dc6c1258470ff9423d372c6196c3b2c85bbe42096fbc3aa31d1f1333524
+content_sha256: ac432a5c45c05a5cf513ef514d710a88cb90c584fa4c6cf5f38ab2aea642159a
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -31,7 +31,7 @@ This section describes the training regime for our models.
 
 ### 5.1 Training Data and Batching {#vaswani-2017-attention-s5-1 .section tag=0023}
 
-We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs. Sentences were encoded using byte-pair encoding [3], which has a shared source-target vocabulary of about 37000 tokens. For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [38]. Sentence pairs were batched together by approximate sequence length. Each training batch contained a set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens.
+We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs. Sentences were encoded using byte-pair encoding [3], which has a shared source-target vocabulary of about 37000 tokens. For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [[wu-2016-gnmt]]. Sentence pairs were batched together by approximate sequence length. Each training batch contained a set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens.
 
 ### 5.2 Hardware and Schedule {#vaswani-2017-attention-s5-2 .section tag=0024}
 
@@ -58,11 +58,11 @@ Table 2: The Transformer achieves better BLEU scores than previous state-of-the-
 |  | EN-DE | EN-FR | EN-DE | EN-FR |
 | ByteNet [18] | 23.75 |  |  |  |
 | Deep-Att + PosUnk [39] |  | 39.2 |  | $1.0 \cdot 10^{20}$ |
-| GNMT + RL [38] | 24.6 | 39.92 | $2.3 \cdot 10^{19}$ | $1.4 \cdot 10^{20}$ |
+| GNMT + RL [[wu-2016-gnmt]] | 24.6 | 39.92 | $2.3 \cdot 10^{19}$ | $1.4 \cdot 10^{20}$ |
 | ConvS2S [9] | 25.16 | 40.46 | $9.6 \cdot 10^{18}$ | $1.5 \cdot 10^{20}$ |
 | MoE [32] | 26.03 | 40.56 | $2.0 \cdot 10^{19}$ | $1.2 \cdot 10^{20}$ |
 | Deep-Att + PosUnk Ensemble [39] |  | 40.4 |  | $8.0 \cdot 10^{20}$ |
-| GNMT + RL Ensemble [38] | 26.30 | 41.16 | $1.8 \cdot 10^{20}$ | $1.1 \cdot 10^{21}$ |
+| GNMT + RL Ensemble [[wu-2016-gnmt]] | 26.30 | 41.16 | $1.8 \cdot 10^{20}$ | $1.1 \cdot 10^{21}$ |
 | ConvS2S Ensemble [9] | 26.36 | **41.29** | $7.7 \cdot 10^{19}$ | $1.2 \cdot 10^{21}$ |
 | Transformer (base model) | 27.3 | 38.1 |  | **$3.3 \cdot 10^{18}$** |
 | Transformer (big) | **28.4** | **41.8** |  | **$2.3 \cdot 10^{19}$** |

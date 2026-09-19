@@ -18,7 +18,7 @@ pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: 9e474d18dcc9446a1011c0bf72b3a6a42cb6d6041611756a306268973021818e
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Kerberos: An Authentication Service for Open Network Systems

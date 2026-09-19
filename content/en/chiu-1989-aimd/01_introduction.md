@@ -17,7 +17,7 @@ pdf_sha256: fd0b0386c611744e744969d3c5ec3e236dc6036344128ed16e7f378a9e257be2
 pdf_pages: 1-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: eec83eee02f93b59a87719644c94721a60c1a1af815f84884c8fc47f1cd35d3f
+content_sha256: bebcf15478211066fffb7187dda8552bd12ca9b202dc70b9e0ef3949b57c6ab3
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -82,15 +82,19 @@ $$
 
 The users cooperate with the system and change (increase of decrease) their demands by an amount $u_i(t)$. Thus,
 
-\[
+$$
 x_i(t+1) = x_i(t) + u_i(t).
-\] (1)
+\tag{1}
+$$
+{#chiu-1989-aimd-eq-1 .equation tag=03F6}
 
 The change $u_i(t)$ represents $i$th user's control. It is a function of the user's previous demand and the system feedback:
 
-\[
+$$
 u_i(t) = f(x_i(t),\ y(t)).
-\] (2)
+\tag{2}
+$$
+{#chiu-1989-aimd-eq-2 .equation tag=03F7}
 
 In other words,
 

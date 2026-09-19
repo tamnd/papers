@@ -16,7 +16,56 @@ pages:
       printed: "257"
       size: [616, 793]
       columns: 2
+      figures: [f01]
     - pdf: 3
       printed: "258"
       size: [614, 792]
+      columns: 2
+    - pdf: 4
+      printed: "259"
+      size: [624, 799]
+      columns: 2
+      figures: [f02, f03]
+    - pdf: 5
+      printed: "260"
+      size: [616, 797]
+      columns: 2
+      figures: [f04]
+    - pdf: 6
+      printed: "261"
+      size: [622, 796]
+      columns: 2
+      figures: [f05, f06]
+    - pdf: 7
+      printed: "262"
+      size: [622, 797]
+      columns: 2
+      figures: [f07]
+    - pdf: 8
+      printed: "263"
+      size: [631, 803]
+      columns: 2
+      figures: [f08, f09]
+    - pdf: 9
+      printed: "264"
+      size: [623, 800]
+      columns: 2
+      figures: [f10, f11]
+    - pdf: 10
+      printed: "265"
+      size: [622, 797]
+      columns: 2
+      figures: [f12]
+    - pdf: 11
+      printed: "266"
+      size: [617, 796]
+      columns: 2
+      figures: [f13]
+    - pdf: 12
+      printed: "267"
+      size: [619, 795]
+      columns: 2
+    - pdf: 13
+      printed: "268"
+      size: [622, 798]
       columns: 2

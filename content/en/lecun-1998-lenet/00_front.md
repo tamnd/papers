@@ -15,15 +15,30 @@ kind: front
 lang: en
 source: https://doi.org/10.1109/5.726791
 pdf_sha256: 346d2a5b49eb759da050572c187b93e35b68bd6a3b9c5d68c88e6ed96da386b7
-pdf_pages: "2"
+pdf_pages: 1-2
 extraction: vision
-extraction_model: gpt-5
-content_sha256: 0069e98c470b2235463d2b782f74d728991b47787d9889e2d44fd4325d1ff38e
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: ccf9776f32090e8ac143a2f80b163ea6296833de7ee27a7b442d451218114f87
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
-# Gradient-Based Learning Applied {#lecun-1998-lenet-s-gradient-based-learning-applied .section tag=0283}
-# to Document Recognition {#lecun-1998-lenet-s-to-document-recognition .section tag=0284}
+Gradient-based learning applied to document recognition
+Yann Lecun, Léon Bottou, Yoshua Bengio, Patrick Haffner
+
+To cite this version:
+Yann Lecun, Léon Bottou, Yoshua Bengio, Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 1998, 86 (11), pp.2278-2324. <10.1109/5.726791>. <hal-03926082>
+
+HAL Id: hal-03926082
+https://hal.science/hal-03926082v1
+Submitted on 6 Jan 2023
+
+HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from teaching and research institutions in France or abroad, or from public or private research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est destinée au dépôt et à la diffusion de documents scientifiques de niveau recherche, publiés ou non, émanant des établissements d’enseignement et de recherche français ou étrangers, des laboratoires publics ou privés.
+
+HAL Authorization
+
+Gradient-Based Learning Applied to Document Recognition
 
 YANN LECUN, MEMBER, IEEE, LÉON BOTTOU, YOSHUA BENGIO, AND PATRICK HAFFNER
 

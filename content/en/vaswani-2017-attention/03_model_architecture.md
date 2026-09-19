@@ -23,7 +23,7 @@ pdf_sha256: bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697
 pdf_pages: 2-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 3ce3cab88fbfd7a058ce48ff85df1b9e88cd5494c5a8b679ebe0c11bd8779ea3
+content_sha256: 71f390ade14ca8760be2e7b143b8a3fdd33fc6ba30ed4cc6b1fec88fd4505c97
 prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
 ---
 
@@ -82,7 +82,7 @@ In this work we employ $h = 8$ parallel attention layers, or heads. For each of 
 
 The Transformer uses multi-head attention in three different ways:
 
-• In "encoder-decoder attention" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. This allows every position in the decoder to attend over all positions in the input sequence. This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as [38][2][9].
+• In "encoder-decoder attention" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. This allows every position in the decoder to attend over all positions in the input sequence. This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as [[wu-2016-gnmt]][2][9].
 
 • The encoder contains self-attention layers. In a self-attention layer all of the keys, values and queries come from the same place, in this case, the output of the previous layer in the encoder. Each position in the encoder can attend to all positions in the previous layer of the encoder.
 

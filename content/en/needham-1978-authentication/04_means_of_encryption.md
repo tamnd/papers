@@ -17,7 +17,7 @@ pdf_sha256: 6fec623eab036ce7683fc0d35286988cb721593962c842b1360d981fff49d11e
 pdf_pages: "2"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 1a0b680bb0fc37760f11f19d56d58cd03c5ce68747dc28275021920faca5cb9b
+content_sha256: 1d497400c34206e5327f614fa7b6b98835fcdac60d57846e6741d6907e650ab8
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -30,6 +30,6 @@ $$
 and still have $X$ in hand, or say
 
 ```text
-if $(X := \text{decrypt}(Y, Key1)) = \text{nonsense}$
-then $X := \text{decrypt}(Y, Key2)$
+if (X := decrypt(Y, Key1)) = nonsense
+then X := decrypt(Y, Key2)
 ```

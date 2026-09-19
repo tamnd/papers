@@ -17,7 +17,7 @@ pdf_sha256: f04940c07d2a12726bce4147fd4217e876cd969ddf44094ad90c866893deed34
 pdf_pages: 1-3
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: c96b1fbe5faa588c3d81ccdf3261471f4cf9418b5839a0edc71bcd58439b8cf8
+content_sha256: 019db3228f0f1efdf0692da03e2ff55b466f7bd9a575c3d6b7298d6255ae26fd
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -79,22 +79,25 @@ In state 5 on input symbol r, the machine makes two state transitions in its ope
 The following algorithm summarizes the behavior of a pattern matching machine.
 
 Algorithm 1. Pattern matching machine. {#aho-1975-corasick-alg-1 .code tag=033B}
-Input. A text string $x = a_1 a_2 \cdots a_n$ where each $a_i$ is an input symbol and a pattern matching machine $M$ with goto function $g$, failure function $f$, and output function $output$, as described above.
-Output. Locations at which keywords occur in $x$.
+
+```text
+Input. A text string x = a₁ a₂ ... aₙ where each aᵢ is an input symbol and a pattern matching machine M with goto function g, failure function f, and output function output, as described above.
+Output. Locations at which keywords occur in x.
 Method.
 begin
-state \leftarrow 0
-for $i \leftarrow 1$ until $n$ do
+state ← 0
+for i ← 1 until n do
 begin
-while $g(state, a_i) = fail$ do $state \leftarrow f(state)$
-state \leftarrow $g(state, a_i)$
-if $output(state) \neq empty$ then
+while g(state, aᵢ) = fail do state ← f(state)
+state ← g(state, aᵢ)
+if output(state) ≠ empty then
 begin
-print $i$
-print $output(state)$
+print i
+print output(state)
 end
 end
 end
+```
 
 Each pass through the for-loop represents one operating cycle of the machine.
 

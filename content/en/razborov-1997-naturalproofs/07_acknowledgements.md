@@ -16,7 +16,7 @@ source: https://doi.org/10.1006/jcss.1997.1494
 pdf_sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
 pdf_pages: "23"
 extraction: vision
-extraction_model: gpt-5
+extraction_model: olmOCR-2-7B-1025-FP8
 content_sha256: f4e3733a8ead84afe9f722cfe4f362e4b6e1b62a3b2ce0956370435304eac551
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---

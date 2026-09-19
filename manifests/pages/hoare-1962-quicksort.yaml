@@ -18,3 +18,12 @@ pages:
     - pdf: 3
       size: [595.44, 842.04]
       columns: 1
+    - pdf: 4
+      size: [595.44, 842.04]
+      columns: 1
+    - pdf: 5
+      size: [595.44, 842.04]
+      columns: 1
+    - pdf: 6
+      size: [595.44, 842.04]
+      columns: 1

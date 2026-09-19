@@ -20,6 +20,7 @@ pages:
       printed: "2"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 4
       printed: "3"
       size: [612, 792]
@@ -36,6 +37,7 @@ pages:
       printed: "6"
       size: [612, 792]
       columns: 2
+      figures: [f02]
     - pdf: 8
       printed: "7"
       size: [612, 792]
@@ -48,22 +50,27 @@ pages:
       printed: "9"
       size: [612, 792]
       columns: 2
+      figures: [f03]
     - pdf: 11
       printed: "10"
       size: [612, 792]
       columns: 2
+      figures: [f04]
     - pdf: 12
       printed: "11"
       size: [612, 792]
       columns: 2
+      figures: [f05]
     - pdf: 13
       printed: "12"
       size: [612, 792]
       columns: 2
+      figures: [f06, f07, f08]
     - pdf: 14
       printed: "13"
       size: [612, 792]
       columns: 2
+      figures: [f09]
     - pdf: 15
       printed: "14"
       size: [612, 792]
@@ -72,10 +79,12 @@ pages:
       printed: "15"
       size: [612, 792]
       columns: 2
+      figures: [f10, f11]
     - pdf: 17
       printed: "16"
       size: [612, 792]
       columns: 2
+      figures: [f12]
     - pdf: 18
       printed: "17"
       size: [612, 792]
@@ -84,6 +93,7 @@ pages:
       printed: "18"
       size: [612, 792]
       columns: 2
+      figures: [f13, f14]
     - pdf: 20
       printed: "19"
       size: [612, 792]
@@ -92,10 +102,12 @@ pages:
       printed: "20"
       size: [612, 792]
       columns: 2
+      figures: [f15, f16]
     - pdf: 22
       printed: "21"
       size: [612, 792]
       columns: 2
+      figures: [f17, f18]
     - pdf: 23
       printed: "22"
       size: [612, 792]
@@ -104,6 +116,7 @@ pages:
       printed: "23"
       size: [612, 792]
       columns: 2
+      figures: [f19]
     - pdf: 25
       printed: "24"
       size: [612, 792]
@@ -112,6 +125,7 @@ pages:
       printed: "25"
       size: [612, 792]
       columns: 2
+      figures: [f20]
     - pdf: 27
       printed: "26"
       size: [612, 792]
@@ -120,30 +134,37 @@ pages:
       printed: "27"
       size: [612, 792]
       columns: 2
+      figures: [f21]
     - pdf: 29
       printed: "28"
       size: [612, 792]
       columns: 2
+      figures: [f22, f23]
     - pdf: 30
       printed: "29"
       size: [612, 792]
       columns: 2
+      figures: [f24, f25]
     - pdf: 31
       printed: "30"
       size: [612, 792]
       columns: 2
+      figures: [f26]
     - pdf: 32
       printed: "31"
       size: [612, 792]
       columns: 2
+      figures: [f27]
     - pdf: 33
       printed: "32"
       size: [612, 792]
       columns: 2
+      figures: [f28]
     - pdf: 34
       printed: "33"
       size: [612, 792]
       columns: 2
+      figures: [f29]
     - pdf: 35
       printed: "34"
       size: [612, 792]
@@ -152,18 +173,22 @@ pages:
       printed: "35"
       size: [612, 792]
       columns: 2
+      figures: [f30]
     - pdf: 37
       printed: "36"
       size: [612, 792]
       columns: 2
+      figures: [f31]
     - pdf: 38
       printed: "37"
       size: [612, 792]
       columns: 2
+      figures: [f32]
     - pdf: 39
       printed: "38"
       size: [612, 792]
       columns: 2
+      figures: [f33]
     - pdf: 40
       printed: "39"
       size: [612, 792]
@@ -172,6 +197,7 @@ pages:
       printed: "40"
       size: [612, 792]
       columns: 2
+      figures: [f34]
     - pdf: 42
       printed: "41"
       size: [612, 792]

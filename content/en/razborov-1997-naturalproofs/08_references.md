@@ -15,8 +15,8 @@ source: https://doi.org/10.1006/jcss.1997.1494
 pdf_sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
 pdf_pages: 23-26
 extraction: vision
-extraction_model: gpt-5
-content_sha256: 373d9843f086fc6c867d282fed758dbb778ef43853168f422d46b25e25c77330
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: 16676d8e61ff47e34e38de69686dd4b994d95750c084606fc7e5de16e229d721
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -70,7 +70,7 @@ Journal of the ACM , 33(4):792{807, 1986.
 
 [18] M. Karchmer and A. Wigderson. On span programs. In Proceedings of the 8 th Structure in Complexity Theory Annual Conference , pages 102{111, 1993.
 
-[19] J. Krajicek. Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic. Submitted to Journal of Symbolic Logic , 1994.
+[19] J. Kraji c ek. Interpolation theorems, lower bounds for proof systems and independence results for bounded arithmetic. Submitted to Journal of Symbolic Logic , 1994.
 
 [20] N. Linial, Y. Mansour, and N. Nisan. Constant depth circuits, Fourier transforms and learnability. In Proceedings of the 30 th IEEE Symposium on Foundations of Computer Science , pages 574{579, 1989.
 

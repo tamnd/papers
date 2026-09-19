@@ -17,7 +17,7 @@ pdf_sha256: f04940c07d2a12726bce4147fd4217e876cd969ddf44094ad90c866893deed34
 pdf_pages: 6-7
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: f31a4c92e7ab8d58feb41d8a34a1b223659a1be2123308f18abf5cba3dedbef9
+content_sha256: 5c092ee8035d2f40bb391276106bac31a03b083027b3d54af2be5f6516278aa6
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -34,6 +34,8 @@ The next move function computed by Algorithm 4 from the goto and failure functio
 The next move function is encoded in Figure 3 as follows. In state 0, for example, we have a transition on h to state 1, a transition on s to state 3, and a transition on any other symbol to state 0. In each state, the dot stands for any input character other than those above it. This method of encoding the next move function is more economical than storing δ as a two-dimensional array. However, the amount of memory required to store δ in this manner is somewhat larger than the corresponding representation for the goto function from which δ was constructed since many of the states in δ each contain transitions from several states of the goto function.
 
 Algorithm 4. Construction of a deterministic finite automaton. {#aho-1975-corasick-alg-4 .code tag=0342}
+
+```text
 Input. Goto function g from Algorithm 2 and failure function f from Algorithm 3.
 Output. Next move function δ.
 Method.
@@ -57,6 +59,7 @@ begin
                 else δ(r, a) ← δ(f(r), a)
         end
 end
+```
 
 Using the next move function in Figure 3, Algorithm 1 with input “ushers” would make the sequence of state transitions shown in the first line of states of Figure 2.
 

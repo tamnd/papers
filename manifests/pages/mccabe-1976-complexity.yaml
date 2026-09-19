@@ -12,12 +12,45 @@ pages:
     - pdf: 1
       printed: "308"
       size: [604.8, 790.08]
-      columns: 1
+      columns: 2
     - pdf: 2
       printed: "309"
       size: [605.76, 791.04]
-      columns: 1
+      columns: 2
     - pdf: 3
       printed: "310"
       size: [613.19, 796.39]
       columns: 1
+    - pdf: 4
+      size: [604.8, 790.08]
+      columns: 1
+    - pdf: 5
+      size: [604.8, 789.12]
+      columns: 1
+    - pdf: 6
+      size: [605.76, 789.12]
+      columns: 1
+    - pdf: 7
+      size: [605.76, 790.08]
+      columns: 2
+    - pdf: 8
+      printed: "315"
+      size: [612.27, 794.59]
+      columns: 2
+    - pdf: 9
+      size: [605.76, 791.04]
+      columns: 2
+    - pdf: 10
+      printed: "317"
+      size: [605.76, 790.08]
+      columns: 2
+    - pdf: 11
+      printed: "318"
+      size: [605.76, 789.12]
+      columns: 2
+    - pdf: 12
+      size: [615.29, 797.15]
+      columns: 2
+    - pdf: 13
+      size: [605.76, 790.08]
+      columns: 2

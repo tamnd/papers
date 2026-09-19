@@ -15,7 +15,7 @@ pdf_sha256: ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1
 pdf_pages: 1-6
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 2e23bfe7f4e0e6cb028046883045eeb83eaf0a5780e04af84102ef35dc3b4313
+content_sha256: 909c66bc21c54753dc872fe95adfefffbd41c172d18fc67ffbcf23fa8eb10b4f
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -110,7 +110,7 @@ $$
 
 from $a$ to the left vertex of $\beta_j$. Consider $f = \frac{1}{2}(f_1 + f_2)$. This maximal flow contains the chain flow $[\beta_1, \beta_2, \ldots, \beta_r; k']$ with $k' \geq \frac{1}{2}k$, and each $\alpha_i (i = 1, \ldots, s)$ is unsaturated by $k_i > 0$ in $f$. Again alter $f$: decrease the flow along
 
-\beta_1, \beta_2, \ldots, \beta_r \text{ by min } [k', k_i] > 0 \text{ and increase the flow along the chain contained in } \alpha_1, \alpha_2, \ldots, \alpha_s, \beta_j, \ldots, \beta_r \text{ by the same amount, obtaining a maximal flow in which } \beta_i \text{ is unsaturated, a contradiction.}
+$\beta_1, \beta_2, \ldots, \beta_r$ by min $[k', k_i] > 0$ and increase the flow along the chain contained in $\alpha_1, \alpha_2, \ldots, \alpha_s, \beta_j, \ldots, \beta_r$ by the same amount, obtaining a maximal flow in which $\beta_i$ is unsaturated, a contradiction.
 
 Now to prove the theorem it suffices only to remark that the value of every flow is no greater than $v(D)$ where $D$ is any disconnecting set; and on the other hand we see from Lemma 3 and the definition of $S$ that in adding the capacities of arcs of $L$ we have counted each chain flow of a maximal flow just once. Since by Lemma 2 $L$ is a disconnecting set, we have the reverse inequality. Thus $L$ is a minimal cut and the value of a maximal flow is $v(L)$.
 

@@ -15,6 +15,42 @@ pages:
     - pdf: 2
       size: [595, 842]
       columns: 2
+      figures: [f01]
     - pdf: 3
+      size: [595, 842]
+      columns: 2
+      figures: [f02]
+    - pdf: 4
+      size: [595, 842]
+      columns: 2
+    - pdf: 5
+      size: [595, 842]
+      columns: 2
+      figures: [f03]
+    - pdf: 6
+      size: [595, 842]
+      columns: 2
+      figures: [f04, f05, f06, f07]
+    - pdf: 7
+      size: [595, 842]
+      columns: 2
+      figures: [f08, f09]
+    - pdf: 8
+      size: [595, 842]
+      columns: 2
+    - pdf: 9
+      size: [595, 842]
+      columns: 2
+    - pdf: 10
+      size: [595, 842]
+      columns: 2
+    - pdf: 11
+      size: [595, 842]
+      columns: 2
+      figures: [f10]
+    - pdf: 12
+      size: [595, 842]
+      columns: 2
+    - pdf: 13
       size: [595, 842]
       columns: 2

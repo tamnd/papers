@@ -21,21 +21,26 @@ pages:
     - pdf: 4
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 5
       size: [612, 792]
       columns: 2
     - pdf: 6
       size: [612, 792]
       columns: 2
+      figures: [f02, f03]
     - pdf: 7
+      printed: "15"
       size: [612, 792]
       columns: 2
     - pdf: 8
       size: [612, 792]
       columns: 2
+      figures: [f04]
     - pdf: 9
       size: [612, 792]
       columns: 2
+      figures: [f05]
     - pdf: 10
       size: [612, 792]
       columns: 2

@@ -16,8 +16,8 @@ source: https://doi.org/10.1006/jcss.1997.1494
 pdf_sha256: 6cf137cf878d01654aeff5dbf031e97a624cd72367b87415ff61080447de7682
 pdf_pages: 15-19
 extraction: vision
-extraction_model: gpt-5
-content_sha256: 605a5fb14494b762ba9550c4023aeb837bbc21a84b12e3cdfa4d335334909be4
+extraction_model: olmOCR-2-7B-1025-FP8
+content_sha256: 8dea356839fbe805c3e7efa60faed3d4e7d157f41a63c71d50ec53243b2aad43
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -83,22 +83,32 @@ Proof. Assume the contrary, and let f B g be an in nite sequence contained in S 
 
 Let G : f 0 ; 1 g 2 k ?! f 0 ; 1 g 4 k be the standard pseudo-random generator from [9] based upon f B p ;g g . It is easy to check that the proof of [9, Theorem 3] actually extends to showing that the circuit size of f B p ;g g is polynomial in H ( G ) + k . Thus, we have t ( k ) ( H ( G ) + k ) O (1) : (6)
 
-Now we convert G into the pseudo-random function generator f : f 0 ; 1 g 2 k ?! F n as in the proof of Theorem 4.1, where n will be speci ed a little bit later. There exists a xed constant C > 0 such that for almost all , f ( x )( y ) is computable by circuits of size ( k + n ) C . Let n t ? 1 ( k C +1 ) + 1.
+Now we convert G into the pseudo-random function generator f : f 0 ; 1 g 2 k ?! F n as in the proof of Theorem 4.1, where n will be speci ed a little bit later. There exists a fixed constant $C > 0$ such that for almost all $\nu$, $f_\nu(x)(y)$ is computable by circuits of size $(k_\nu + n_\nu)^C$. Let $n_\nu = t^{-1}(k_\nu^{C+1}) + 1$.
 
-(5) implies that t ( k ) > k C +1 for almost all , since otherwise we would have k t ? 1 k C +1 log t ( k ) ( C + 1) log k . Hence n k . Now we have that for almost all every function in the image of the generator f has circuit size at most ( k + n ) C (2 k ) C k C +1 t ( n ). Applying the usefulness condition again, we nd that for almost all , the image of the generator f has the empty intersection with C n . Arguing as in the proof of Theorem 4.1, we get from this
+(5) implies that $t(k_\nu) > k_\nu^{C+1}$ for almost all $\nu$, since otherwise we would have $k_\nu \leq t^{-1}\left(k_\nu^{C+1}\right) \leq \log t(k_\nu) \leq (C+1)\log k_\nu$. Hence $n_\nu \leq k_\nu$. Now we have that for almost all $\nu$ every function in the image of the generator $f_\nu$ has circuit size at most $(k_\nu + n_\nu)^C \leq (2k_\nu)^C \leq k_\nu^{C+1} \leq t(n_\nu)$. Applying the usefulness condition again, we find that for almost all $\nu$, the image of the generator $f_\nu$ has the empty intersection with $C_n$. Arguing as in the proof of Theorem 4.1, we get from this
 
-H ( G ) 2 O ( n ) : (7)
+$$
+H(G_\nu) \leq 2^{O(n_\nu)}.
+$$
 
-Finally note that C n 6 = ; for almost all n (from largeness) and, thus, t ( n ) 2 n (8)
+Finally note that $C_n \neq \emptyset$ for almost all $n$ (from largeness) and, thus,
 
-(again, for almost all n .)
+$$
+t(n) \leq 2^n
+$$
 
-The required contradiction is now obtained simply by combining the inequalities (5) (with n := k , C := C + 1), (6), (7), (8):
+(again, for almost all $n$.)
 
-n = t ? 1 ( k C +1 ) + 1 o (log t ( k )) o (log H ( G ) + log k ) o ( n ) + o (log k ) o ( n ) :
+The required contradiction is now obtained simply by combining the inequalities (5) (with $n := k_\nu, C := C + 1$), (6), (7), (8):
 
-Corollary 4.6. There is no combinatorial property C useful against T SIZE 2 n n S > 0 and satisfying P=poly -constructivity and largeness conditions such that n 2 ! C n contains in nitely many functions of the form B p;g ( x ) . {#razborov-1997-naturalproofs-cor-4-6 .statement tag=0221}
+$$
+n_\nu = t^{-1}(k_\nu^{C+1}) + 1 \leq o(\log t(k_\nu)) \leq o (\log H(G_\nu) + \log k_\nu) \leq o(n_\nu) + o(\log k_\nu) \leq o(n_\nu).
+$$
 
-T p log n p log n Proof. SIZE 2 n SIZE 2 2 , and t ( n ) = 2 2 is half-exponential.
+■
 
-> 0 It is easy to see that the above proof is actually valid for an arbitrary collection f f p;g g of functions poly-time nonuniformly Turing reducible to the corresponding discrete logarithm problem in place of f B p;g g .
+Corollary 4.6. *There is no combinatorial property* $C_n$ *useful against* $\bigcap_{\epsilon > 0} SIZE\left(2^{n^\epsilon}\right)$ *and satisfying P/poly-constructivity and largeness conditions such that* $\bigcup_{n \in \omega} C_n$ *contains infinitely many functions of the form* $B_{p,g}(x)$. {#razborov-1997-naturalproofs-cor-4-6 .statement tag=0221}
+
+Proof. $\bigcap_{\epsilon > 0} SIZE\left(2^{n^\epsilon}\right) \supseteq SIZE\left(2^{2^{\sqrt{\log n}}}\right)$, and $t(n) = 2^{2^{\sqrt{\log n}}}$ is half-exponential. ■
+
+It is easy to see that the above proof is actually valid for an *arbitrary* collection $\{f_{p,g}\}$ of functions poly-time nonuniformly Turing reducible to the corresponding discrete logarithm problem in place of $\{B_{p,g}\}$.

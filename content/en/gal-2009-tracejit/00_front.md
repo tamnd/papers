@@ -16,11 +16,11 @@ kind: front
 lang: en
 source: https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf
 pdf_sha256: 3662ff519e485810520552bf301d8c3b2b917fd2f83303f4965d7abed367e113
-pdf_pages: 1-3
+pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 727954d26097578ee74ac1da41468db3189f5ec8c8b2ecafb296a433c154fc8b
-prompt_sha256: e1b070d511afab62a45db64b491e759e38eaa12f6c7943b773a942f4f2f70935
+content_sha256: 0689a81d27bf9eefeceb72eb4ec08ec3ea0562e20cc3b237d1f5aa42af806b06
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 Trace-based Just-in-Time Type Specialization for Dynamic Languages
@@ -28,19 +28,15 @@ Trace-based Just-in-Time Type Specialization for Dynamic Languages
 Andreas Gal*+, Brendan Eich*, Mike Shaver*, David Anderson*, David Mandelin*, Mohammad R. Haghighat\$, Blake Kaplan*, Graydon Hoare*, Boris Zbarsky*, Jason Orendorff*, Jesse Ruderman*, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+
 
 Mozilla Corporation*
-
 {gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
 
 Adobe Corporation#
-
 {edwsmith,rreitmai}@adobe.com
 
 Intel Corporation\$
-
 {mohammad.r.haghighat}@intel.com
 
 University of California, Irvine+
-
 {mbebenit,changm,franz}@uci.edu
 
 Abstract
@@ -52,7 +48,3 @@ Categories and Subject Descriptors D.3.4 [Programming Languages]: Processors —
 General Terms Design, Experimentation, Measurement, Performance.
 
 Keywords JavaScript, just-in-time compilation, trace trees.
-
-1. Introduction
-
-Dynamic languages such as JavaScript, Python, and Ruby, are popular since they are expressive, accessible to non-experts, and make deployment as easy as distributing a source file. They are used for small scripts as well as for complex applications.

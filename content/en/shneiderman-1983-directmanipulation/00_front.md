@@ -15,7 +15,7 @@ pdf_sha256: 4dc29926c05033d1cdb702444158bf8d154d8a152cad1b4a430ffd0403d3af33
 pdf_pages: 1-12
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: c922c07e24b675cc04d4911e0e8a36e958089932ad1c7c31b11d9d1793b98736
+content_sha256: 5ac29785960dd01f1ad02e24984b40312982281f77d7f8205a5acbdce6063b5a
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -66,7 +66,6 @@ Cursor motion through physically obvious and intuitively natural means. Arrow ke
 
 Labeled buttons for action. Many display editors have buttons etched with commands such as INSERT, DELETE, CENTER, UNDERLINE, SUPERSCRIPT, BOLD, or LOCATE. They act as a permanent menu selection display, reminding the operator of the features and obviating memorization of a complex command-lan-
 
-```text
 EDIT --- SPFDEMO.MYLIB.PLI(COINS) - 01.04 ---------------------- COLUMNS 001 072
 COMMAND INPUT ===>
 ******** ******************************* TOP OF DATA *******************************
@@ -90,7 +89,6 @@ D _ PUT FILE(SYSPRINT) DATA(COUNT,HALVES,QUARTERS,DIMES,NICKELS);
 001800 END;
 001900 END COINS;
 ******** ******************************* BOTTOM OF DATA *******************************
-```
 
 EDIT --- SPFDEMO.MYLIB.PLI(COINS) - 01.04 ---------------------- COLUMNS 001 072
 COMMAND INPUT ===>

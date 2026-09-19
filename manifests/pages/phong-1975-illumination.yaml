@@ -17,6 +17,7 @@ pages:
       printed: "312"
       size: [612, 792]
       columns: 2
+      figures: [f01]
     - pdf: 3
       printed: "313"
       size: [612, 792]

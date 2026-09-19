@@ -41,14 +41,17 @@ pages:
       printed: "30"
       size: [612, 792]
       columns: 2
+      figures: [f01, f02]
     - pdf: 9
       printed: "31"
       size: [612, 792]
       columns: 2
+      figures: [f03, f04]
     - pdf: 10
       printed: "32"
       size: [612, 792]
       columns: 1
+      figures: [f05, f06]
     - pdf: 11
       printed: "33"
       size: [612, 792]

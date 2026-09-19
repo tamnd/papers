@@ -16,9 +16,12 @@ pdf_sha256: d33039c90c05dc2db4a1ea8f27bd710353bed271224e41bc76c2a42e89539dc1
 pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 284c197a1cf82c0e4873faac3fc6fa63cbf250449b5e5d66b63a43ad958c79cd
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: fc09cba7e16ac81b0816b8083a56bfd2f00b070a0b3fcf8efc6c9d0811aeeda8
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
+
+University of Virginia, Department of Computer Science
+CS551: Security and Privacy on the Internet, Fall 2000
 
 The Protection of Information in Computer Systems
 

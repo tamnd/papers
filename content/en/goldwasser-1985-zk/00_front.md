@@ -14,13 +14,11 @@ kind: front
 lang: en
 source: https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf
 pdf_sha256: 17b24f25b180ba64559a089efb443337c61c916078f73be4c496bf8d27410222
-pdf_pages: 1-3
+pdf_pages: "1"
 extraction: vision
 extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 393ca8fa5e803cf85929c5e0d8d2d99a70c5faa092283588a35e4d259300f1cb
-prompt_sha256: 329630a0b9175a55e4af1b8e281a3e67eeab250f8d643953b7dcde99743c7628
+content_sha256: e2f73fe53570494ec0935899d99d63eb1cf69fe4ceb49b4e59dd47f4b8f7763a
+prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
 THE KNOWLEDGE COMPLEXITY OF INTERACTIVE PROOF SYSTEMS*
-
-Abstract. Usually, a proof of a theorem contains more knowledge than the mere fact that the theorem is true. For instance, to prove that a graph is Hamiltonian it suffices to exhibit a Hamiltonian tour in it; however, this seems to contain more knowledge than the single bit Hamiltonian/non-Hamiltonian.

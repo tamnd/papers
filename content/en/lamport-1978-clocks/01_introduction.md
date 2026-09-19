@@ -11,10 +11,10 @@ kind: section
 lang: en
 source: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
 pdf_sha256: c55e7cab4230aa3d7126748a149b2db6f0d7a67296d5eccfdd50a210299a96b2
-pdf_pages: 1-8
+pdf_pages: 1-7
 extraction: vision
-extraction_model: olmOCR-2-7B-1025-FP8
-content_sha256: 9be0117bd3327dd4a307ef29d88a264babd94f9207f393ab0118287597a6667c
+extraction_model: gpt-5
+content_sha256: c61cf7b52bdf38229c221542bdab1c4e85f8fc3ed7a1eabad5335643a1b48bf9
 prompt_sha256: 3224ee77210123d34b3df794cfa1ada9ce71ba395aadd9fddc54c0ae5b2cd36c
 ---
 
@@ -211,89 +211,4 @@ In addition to establishing PC2, the following theorem bounds the length of time
 
 Theorem. Assume a strongly connected graph of processes with diameter $d$ which always obeys rules IR1' and IR2'. Assume that for any message $m$, $\mu_m \leq \mu$ for some constant $\mu$, and that for all $t \geq t_0$: (a) PC1 holds. (b) There are constants $\tau$ and $\xi$ such that every $\tau$ seconds a message with an unpredictable delay less than $\xi$ is sent over every arc. Then PC2 is satisfied with $\epsilon \approx d(2\kappa\tau + \xi)$ for all $t \geq t_0 + \tau d$, where the approximations assume $\mu + \xi \ll \tau$.
 
-The proof of this theorem is surprisingly difficult, and is given in the Appendix. There has been a great deal of work done on the problem of synchronizing physical clocks. We refer the reader to [4] for an intro-
-
-Letting $t_1 = t_x$ in case (i), we can combine (8i) and (8ii) to deduce that for any $t, t_x$ with $t \geq t_x \geq t_0 + \mu/(1 - \kappa)$ there is a process $P_q$ and a time $t_1$ with $t_x - \mu/(1 - \kappa) \leq t_1 \leq t_x$ such that for all $i$:
-
-$$
-C_i(t) \leq C_q(t_1) + (1 + \kappa)(t - t_1).
-$$
-
-Choosing $t$ and $t_x$ with $t \geq t_x + d(\tau + \nu)$, we can combine (6) and (9) to conclude that there exists a $t_1$ and a process $P_q$ such that for all $i$:
-
-$$
-C_q(t_1) + (1 - \kappa)(t - t_1) - d\xi \leq C_i(t)
-$$
-
-$$
-\leq C_q(t_1) + (1 + \kappa)(t - t_1)
-$$
-
-Letting $t = t_x + d(\tau + \nu)$, we get
-
-$$
-d(\tau + \nu) \leq t - t_1 \leq d(\tau + \nu) + \mu/(1 - \kappa).
-$$
-
-Combining this with (10), we get
-
-$$
-C_q(t_1) + (t - t_1) - \kappa d(\tau + \nu) - d\xi \leq C_i(t) \leq C_q(t_1)
-$$
-
-$$
-+ (t - t_1) + \kappa[d(\tau + \nu) + \mu/(1 - \kappa)]
-$$
-
-Using the hypotheses that $\kappa \ll 1$ and $\mu \leq \nu \ll \tau$, we can rewrite (11) as the following approximate inequality.
-
-$$
-C_q(t_1) + (t - t_1) - d(\kappa \tau + \xi) \leq C_i(t)
-$$
-
-$$
-\leq C_q(t_1) + (t - t_1) + d\kappa \tau.
-$$
-
-Since this holds for all $i$, we get
-
-$$
-|C_i(t) - C_j(t)| \leq d(2\kappa \tau + \xi),
-$$
-
-and this holds for all $t \geq t_0 + d\tau$.
-
-Note that relation (11) of the proof yields an exact upper bound for $|C_i(t) - C_j(t)|$ in case the assumption $\mu + \xi \ll \tau$ is invalid. An examination of the proof suggests a simple method for rapidly initializing the clocks, or resynchronizing them if they should go out of synchrony for any reason. Each process sends a message which is relayed to every other process. The procedure can be initiated by any process, and requires less than $2d(\mu + \xi)$ seconds to effect the synchronization, assuming each of the messages has an unpredictable delay less than $\xi$.
-
-Acknowledgment. The use of timestamps to order operations, and the concept of anomalous behavior are due to Paul Johnson and Robert Thomas.
-
-Received March 1976; revised October 1977
-
-References
-1. Schwartz, J.T. Relativity in Illustrations. New York U. Press, New York, 1962.
-2. Taylor, E.F., and Wheeler, J.A. Space-Time Physics, W.H. Freeman, San Francisco, 1966.
-3. Lamport, L. The implementation of reliable distributed multiprocess systems. To appear in Computer Networks.
-4. Ellingson, C., and Kulpinski, R.J. Dissemination of system-time. IEEE Trans. Comm. Com-23, 5 (May 1973), 605–624.
-
-Programming Languages
-J. J. Horning Editor
-Shallow Binding in Lisp 1.5
-Henry G. Baker, Jr.
-Massachusetts Institute of Technology
-
-Shallow binding is a scheme which allows the value of a variable to be accessed in a bounded amount of computation. An elegant model for shallow binding in Lisp 1.5 is presented in which context-switching is an environment tree transformation called rerooting. Rerooting is completely general and reversible, and is optional in the sense that a Lisp 1.5 interpreter will operate correctly whether or not rerooting is invoked on every context change. Since rerooting leaves assoc [v, a] invariant, for all variables v and all environments a, the programmer can have access to a rerooting primitive, shallow[], which gives him dynamic control over whether accesses are shallow or deep, and which affects only the speed of execution of a program, not its semantics. In addition, multiple processes can be active in the same environment structure, so long as rerooting is an indivisible operation. Finally, the concept of rerooting is shown to combine the concept of shallow binding in Lisp with Dijkstra’s display for Algol and hence is a general model for shallow binding.
-
-Key Words and Phrases: Lisp 1.5, environment trees, FUNARG’s, shallow binding, deep binding, multiprogramming, Algol display
-CR Categories: 4.13, 4.22, 4.32
-
-General permission to make fair use in teaching or research of all or part of this material is granted to individual readers and to nonprofit libraries acting for them provided that ACM’s copyright notice is given and that reference is made to the publication, to its date of issue, and to the fact that reprinting privileges were granted by permission of the Association for Computing Machinery. To otherwise reprint a figure, table, other substantial excerpt, or the entire work requires specific permission as does republication, or systematic or multiple reproduction.
-
-This research was supported by the Advanced Research Projects Agency of the Department of Defense and was monitored by the Office of Naval Research under contract number N00014-75-C-0522.
-
-Author’s present address: Computer Science Department, University of Rochester, Rochester, NY 14627.
-© 1978 ACM 0001-0782/78/0700-0565 \$00.75
-
-Communications of the ACM
-July 1978
-Volume 21
-Number 7
+The proof of this theorem is surprisingly difficult, and is given in the Appendix. There has been a great deal of work done on the problem of synchronizing physical clocks. We refer the reader to [4] for an introduction to the subject. The methods described in the literature are useful for estimating the message delays $\mu_m$ and for adjusting the clock frequencies $dC_i/dt$ for clocks which permit such an adjustment. However, the requirement that clocks are never set backward seems to distinguish our situation from ones previously studied, and we believe this theorem to be a new result.

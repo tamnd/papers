@@ -101,10 +101,12 @@ pages:
       printed: "23"
       size: [612, 792]
       columns: 1
+      figures: [f01]
     - pdf: 24
       printed: "24"
       size: [612, 792]
       columns: 1
+      figures: [f02, f03]
     - pdf: 25
       printed: "25"
       size: [612, 792]
@@ -113,6 +115,7 @@ pages:
       printed: "26"
       size: [612, 792]
       columns: 1
+      figures: [f04]
     - pdf: 27
       printed: "27"
       size: [612, 792]
@@ -137,10 +140,12 @@ pages:
       printed: "32"
       size: [612, 792]
       columns: 1
+      figures: [f05]
     - pdf: 33
       printed: "33"
       size: [612, 792]
       columns: 1
+      figures: [f06]
     - pdf: 34
       printed: "34"
       size: [612, 792]
